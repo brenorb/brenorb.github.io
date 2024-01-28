@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: post
 title:  "Moon Jekyll Theme"
 date:   2016-04-06

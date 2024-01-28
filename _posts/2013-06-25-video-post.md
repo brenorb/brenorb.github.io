@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: post
 title:  "A Post with a Video"
 date:   2016-03-15

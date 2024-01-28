@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: post
 title: "A Post with Images"
 date: 2013-05-22

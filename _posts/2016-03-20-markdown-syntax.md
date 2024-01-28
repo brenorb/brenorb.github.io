@@ -1,4 +1,5 @@
 ---
+sitemap: false
 layout: post
 title:  "Markdown Syntax"
 date:   2016-03-15
