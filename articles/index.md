@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Articles
 excerpt: "A List of Articles"
 comments: false
@@ -11,7 +11,7 @@ comments: false
 <script>
   window.SubstackFeedWidget = {
     substackUrl: "brenorb.substack.com",
-    posts: 120,
+    posts: 12,
     hidden: ["author"]
   };
 </script>
