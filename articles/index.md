@@ -28,7 +28,6 @@ comments: false
   window.SubstackFeedWidget = {
     substackUrl: "brenorb.substack.com",
     posts: 120,
-    layout: "left",
     hidden: ["author"]
     // https://substackapi.com/feed
   };
