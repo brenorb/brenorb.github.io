@@ -5,14 +5,32 @@ excerpt: "A List of Articles"
 comments: false
 ---
 
+<div id="custom-substack-embed"></div>
+
+
+<script>
+  window.CustomSubstackWidget = {
+    substackUrl: "brenorb.substack.com",
+    placeholder: "example@gmail.com",
+    buttonText: "Subscribe",
+    theme: "green",
+
+    // Go to substackapi.com to unlock custom redirect
+
+  };
+</script>
+<script src="https://substackapi.com/widget.js" async></script>
+
 <div id="substack-feed-embed"></div>
 
 
 <script>
   window.SubstackFeedWidget = {
     substackUrl: "brenorb.substack.com",
-    posts: 12,
+    posts: 120,
+    layout: "left",
     hidden: ["author"]
+    // https://substackapi.com/feed
   };
 </script>
 <script src="https://substackapi.com/embeds/feed.js" async></script>
