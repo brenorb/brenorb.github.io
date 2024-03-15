@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: page
 title: All Projects
 excerpt: "A List of Projects"
 comments: false
@@ -11,7 +11,7 @@ comments: false
 <script>
   window.SubstackFeedWidget = {
     substackUrl: "brenorb.substack.com",
-    posts: 12,
+    posts: 13,
     hidden: ["author"]
   };
 </script>
