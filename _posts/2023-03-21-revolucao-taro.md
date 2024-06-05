@@ -7,8 +7,11 @@ tag:
 - taproot assets
 - lightning network
 - bifi
-- tokenização
+- tokenization
+- bitcoin
+- article
 comments: false
+feature: /assets/LN.png
 ---
 
 <figure>
@@ -64,3 +67,8 @@ No fundo, a LN continua transacionando somente bitcoins. O truque é que todo n�
 Isso significa que o Taro vai efetivamente transformar a LN na maior e mais descentralizada e segura exchange do mundo. Qualquer pessoa em qualquer lugar do mundo vai poder se tornar uma exchange incensurável, não custodial e não permissionada.
 
 Como isso vai afetar a regulação, as exchanges existentes hoje e todo o ecossistema, só podemos especular e somente tão bem quanto uma pessoa de 1980 especulando sobre a internet de hoje. O fato é que a Revolução Taro está vindo e pode ser a maior destruição criativa que o ecossistema cripto já viu.
+
+---
+
+Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.com.br/economia-digital/bitcoin/revolucao-taro-transformacao-do-bitcoin-na-exchange-suprema/) em 21 de março 2023.
+

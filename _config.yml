@@ -1,14 +1,14 @@
 # Site
 title:              Breno Brito
-bio:                'ML Engineer, Data Scientist, Bitcoiner.'
-description:        "Breno Brito is an electrical engineer specialized in AI, Bitcoin and Finance."
+bio:                '<a href="{{ site.url }}/tags/#ai">AI Engineer</a>, Data Scientist, Bitcoiner.'
+description:        "Breno Brito is an engineer specialized in AI, Bitcoin and Finance."
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
 background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
-url:                https://brenorb.github.io/
+url:                https://brenorb.com
 
 # Jekyll
 permalink:          /:title/
@@ -68,6 +68,9 @@ gems:
   - jekyll-mentions
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-gist
+
+plugins:
   - jekyll-gist
 
 jekyll-mentions:

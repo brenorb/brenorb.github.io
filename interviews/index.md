@@ -1,18 +1,6 @@
 ---
-layout: page
-title: All Projects
-excerpt: "A List of Projects"
+layout: interview
+title: Interviews, Commentaries, Podcasts et al.
+excerpt: "A List of Interviews, Commentaries, Podcasts et al."
 comments: false
 ---
-
-<div id="substack-feed-embed"></div>
-
-
-<script>
-  window.SubstackFeedWidget = {
-    substackUrl: "brenorb.substack.com",
-    posts: 13,
-    hidden: ["author"]
-  };
-</script>
-<script src="https://substackapi.com/embeds/feed.js" async></script>

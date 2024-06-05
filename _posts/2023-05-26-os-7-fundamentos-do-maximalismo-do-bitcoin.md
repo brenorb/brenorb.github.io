@@ -1,14 +1,16 @@
 ---
 layout: post
-title:  "Os 7 fundamentos"
+title:  "Os 7 fundamentos do maximalismo do bitcoin"
 date:   2023-05-26
-excerpt: "Entendendo o que diferencia um "maximalista" de outras pessoas no mundo cripto."
+excerpt: 'Entendendo o que diferencia um "maximalista" de outras pessoas no mundo cripto.'
 tag:
 - bitcoin
-- filosofia
-- "ética"
-- risco
+- philosophy
+- ethics
+- risk
+- article
 comments: false
+feature: /assets/pilares.png
 ---
 
 Quem está dentro do universo cripto há algum tempo já deve ter se deparado com o termo "maximalista", geralmente associado ao bitcoin. "Maximalista de bitcoin" é um termo que genericamente significa que a pessoa acredita que o bitcoin é um ativo monetário superior às outras criptomoedas (e outras moedas fiduciárias) e que será (ou deveria ser) a reserva financeira mundial do futuro, além de rejeitar a tese do futuro multimoeda. 
@@ -105,3 +107,8 @@ Ou seja, além do bitcoin cumprir as 6 propriedades acima, ainda teve uma concep
 ## Conclusão
 
 Em resumo, o maximalista acredita que o bitcoin é a única criptomoeda que traz como caso de uso principal um dinheiro forte, descentralizado, politicamente neutro, antifrágil, perene, ético e é praticamente impossível de ser replicado. Isso significa que pode ser a única chance que temos.
+
+---
+
+Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.com.br/economia-digital/bitcoin/os-7-fundamentos-do-maximalismo-do-bitcoin/) em 26 de maio 2023.
+
