@@ -1,0 +1,17 @@
+# Breno Brito (brenorb.com) — full-text summary for AI agents
+
+## About
+Breno Brito is an engineer focused on AI, Bitcoin, and Finance.
+
+## Content
+This website contains:
+- Personal profile and links
+- Blog posts and notes
+- Topics such as AI, data, Bitcoin, and related work
+
+## Keywords
+Breno Brito, AI engineer, data science, Bitcoin, finance, machine learning
+
+## Links
+- Homepage: https://brenorb.com/
+- Sitemap: https://brenorb.com/sitemap.xml

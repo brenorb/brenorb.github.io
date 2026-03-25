@@ -1,0 +1,20 @@
+# llms.txt - AI Content Policy
+
+## Allowed content
+All public content on https://brenorb.com/ may be used for:
+- AI-powered search and answer generation
+- Citation and reference in AI-generated responses
+- Indexing by AI agents
+
+## Disallowed content
+- None (public personal website).
+
+## About this site
+Breno Brito — engineer focused on AI, Bitcoin, and Finance.
+
+## Primary URLs
+- Homepage: https://brenorb.com/
+- Sitemap: https://brenorb.com/sitemap.xml
+
+## Contact
+Preferred contact: https://brenorb.com/
