@@ -8,6 +8,12 @@
 
     <!-- X/Twitter embeds (for embedded posts/videos) -->
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    {% if page.mermaid %}
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true, securityLevel: 'strict' });
+    </script>
+    {% endif %}
     {% if site.google.analytics %}
     <!-- Asynchronous Google Analytics snippet -->
     <script>

@@ -12,6 +12,7 @@ tag:
 - ecash
 - project
 comments: false
+mermaid: true
 feature:
 ---
 
@@ -37,6 +38,32 @@ Public coverage after the event recorded Granola as one of the highlighted winne
 The original SatsHack submission framed the main problem as privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
 
 In practice, the idea was to treat different Cashu mints as currency-specific issuers and use the same hash/preimage across both sides of the trade. That turns the exchange into a peer-to-peer, privacy-first settlement flow rather than a custodial venue.
+
+## Protocol diagram
+
+<pre class="mermaid">
+sequenceDiagram
+
+actor Alice
+participant Nostr
+actor Carol
+participant Mint
+
+Alice-->>Nostr: Generate new \n ephemeral PubKey
+Alice->>Nostr: Publish Order
+
+Nostr->>Carol: Fetches 8338 events \n Sees order
+Carol-->>Nostr: Generate new \n ephemeral PubKey
+Carol->>Alice: Sends DM \n with pay request \n via Nostr
+
+Alice->>Carol: Generates H\n sends HTLC_c to PubKey
+Carol-->>Mint: Verify HTLC_c
+Carol->>Alice: Sends HTLC_a with the same H
+Carol-->>Mint: Subscribe \n to HTLC_a
+Alice->>Mint: Swaps HTLC_a token revealing preimage
+Mint-->>Carol: State change with preimage
+Carol->>Mint: Swaps HTLC_c token
+</pre>
 
 ## Proposed flow
 
