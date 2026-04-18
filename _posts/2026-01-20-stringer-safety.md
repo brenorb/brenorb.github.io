@@ -21,7 +21,7 @@ feature: assets/stringer-safety-og.png
 It won **1st place** at the **AI Hack for Freedom** hackathon organized by the
 **Human Rights Foundation (HRF)** and **Bitcoin Park**.
 
-I worked on it with **Alex Lewin**, **Anjan Sundaram**,
+I worked on it with [Alex Lewin](https://x.com/ALewin), **Anjan Sundaram**,
 [asraentr0py](https://x.com/asraentr0py), [sahilc0](https://x.com/sahilc0),
 and [imyjimmy](https://x.com/imyjimmy).
 
