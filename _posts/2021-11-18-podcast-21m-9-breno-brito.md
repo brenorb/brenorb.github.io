@@ -7,11 +7,8 @@ excerpt: "Primeiros contatos com o Bitcoin, o caminho até o maximalismo, r/wall
 interview: true
 tag:
 - bitcoin
-- ergodicity economics
+- ergodicity
 - quantitative finance
-- bio
-- interview
-- podcast
 comments: false
 feature: /assets/satsconf-bitcoin.png
 ---

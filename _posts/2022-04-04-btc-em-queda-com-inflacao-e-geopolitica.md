@@ -8,7 +8,6 @@ interview: true
 tag:
 - bitcoin
 - price
-- commentary
 comments: false
 feature: /assets/crypto-news.png
 ---

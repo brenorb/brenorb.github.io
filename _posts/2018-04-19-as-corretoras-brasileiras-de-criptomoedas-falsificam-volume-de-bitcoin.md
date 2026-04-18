@@ -7,7 +7,6 @@ tag:
 - bitcoin
 - data science
 - exchange
-- article
 comments: false
 feature: "/assets/fake-volume.png"
 ---

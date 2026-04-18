@@ -8,8 +8,7 @@ interview: true
 tag:
 - bitcoin
 - hackathon
-- mention
-- project
+- satsconf
 comments: false
 feature: /assets/satsconf-bitcoin.png
 ---

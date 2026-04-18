@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of Satoshi"
 date:   2024-04-01 12:00:00 -0300
 category: podcast
-tags: [bitcoin, inteligência artificial, llm, spirit of satoshi, code satoshi, podcast, youtube]
+tags: [bitcoin, ai, spirit of satoshi, miniscript, liquid]
 comments: false
 share: true
 interview: true

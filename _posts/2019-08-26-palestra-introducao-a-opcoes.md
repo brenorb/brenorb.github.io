@@ -8,7 +8,6 @@ tag:
 - finance
 - derivatives
 - options
-- talk
 - presentation
 comments: false
 ---

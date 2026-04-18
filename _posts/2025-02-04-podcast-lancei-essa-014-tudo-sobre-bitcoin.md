@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin"
 date:   2025-02-04 12:00:00 -0300
 category: podcast
-tags: [bitcoin, podcast, spotify, youtube]
+tags: [bitcoin]
 comments: false
 share: true
 interview: true

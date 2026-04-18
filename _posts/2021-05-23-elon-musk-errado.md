@@ -7,7 +7,6 @@ tag:
 - elon musk
 - technology
 - bitcoin
-- article
 comments: false
 feature: /assets/musk.png
 ---

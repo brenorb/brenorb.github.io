@@ -7,7 +7,6 @@ excerpt: ""
 interview: true
 tag:
 - bitcoin
-- podcast
 comments: false
 feature: /assets/satsconf-bitcoin.png
 ---

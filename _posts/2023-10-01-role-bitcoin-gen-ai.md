@@ -7,7 +7,6 @@ tag:
 - bitcoin
 - technology 
 - ai
-- article
 comments: false
 feature: /assets/ai-pleb.png
 ---

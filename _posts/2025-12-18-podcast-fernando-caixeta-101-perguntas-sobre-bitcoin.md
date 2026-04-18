@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - Fernando Caixeta - 101 Perguntas Sobre BITCOIN (com Breno Brito)"
 date:   2025-12-18 12:00:00 -0300
 category: podcast
-tags: [bitcoin, livro, podcast, youtube]
+tags: [bitcoin, book]
 comments: false
 share: true
 interview: true

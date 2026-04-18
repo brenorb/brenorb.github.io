@@ -9,7 +9,6 @@ tag:
 - bifi
 - tokenization
 - bitcoin
-- article
 comments: false
 feature: /assets/LN.png
 ---

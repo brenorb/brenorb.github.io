@@ -8,9 +8,9 @@ interview: true
 tag:
 - macroeconomics
 - brazil
+- inflation
 - selic
 - interest rates
-- interview
 comments: false
 ---
 

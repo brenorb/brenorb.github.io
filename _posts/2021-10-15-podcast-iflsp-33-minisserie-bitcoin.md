@@ -10,8 +10,6 @@ tag:
 - myths
 - mining
 - lightning network
-- interview
-- podcast
 comments: false
 feature: /assets/satsconf-bitcoin.png
 ---

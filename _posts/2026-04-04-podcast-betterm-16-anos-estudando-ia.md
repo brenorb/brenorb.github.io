@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando"
 date:   2026-04-04 16:05:00 -0300
 category: podcast
-tags: [inteligência artificial, podcast, youtube]
+tags: [ai]
 comments: false
 share: true
 interview: true

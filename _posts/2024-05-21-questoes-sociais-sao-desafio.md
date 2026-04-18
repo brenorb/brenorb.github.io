@@ -8,7 +8,6 @@ interview: true
 tag:
 - book 
 - bitcoin
-- interview
 comments: false
 feature: /assets/editora-lanca.png
 ---

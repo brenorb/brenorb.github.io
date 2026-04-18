@@ -6,9 +6,7 @@ date: 2024-06-14 12:00:00 -0300
 excerpt: "Gravação do meetup GDG/CEUB com as apresentações sobre alinhamento de LLMs e ciência de dados, publicada no canal CEUB Transmissões."
 tag:
 - ai
-- llm
-- data science
-- talk
+- alignment
 - presentation
 comments: false
 ---

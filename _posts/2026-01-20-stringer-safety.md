@@ -8,11 +8,8 @@ description: "Stringer Safety is a journalist safety companion built for high-ri
 project: true
 tags:
 - ai
-- hrf
 - journalism
-- safety
-- freedom-tech
-- project
+- hackathon
 comments: false
 feature: assets/stringer-safety-og.png
 ---

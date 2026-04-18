@@ -8,7 +8,6 @@ tag:
 - philosophy
 - ethics
 - risk
-- article
 comments: false
 feature: /assets/pilares.png
 ---

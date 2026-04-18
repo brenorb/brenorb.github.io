@@ -10,7 +10,6 @@ tag:
 - cashu
 - nostr
 - ecash
-- project
 comments: false
 mermaid: true
 feature:

@@ -6,9 +6,7 @@ date: 2024-12-10 12:00:00 -0300
 excerpt: "Apresentação no canal Plone sobre alinhamento de LLMs, técnicas principais e riscos no comportamento dos modelos."
 tag:
 - ai
-- llm
 - alignment
-- talk
 - presentation
 comments: false
 ---

@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - Criptoverso #054 - Breno Brito"
 date:   2025-05-30 12:00:00 -0300
 category: podcast
-tags: [bitcoin, podcast, youtube]
+tags: [bitcoin]
 comments: false
 share: true
 interview: true

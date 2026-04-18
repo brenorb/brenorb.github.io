@@ -6,9 +6,7 @@ excerpt: "Jornada de aprendizado de uma criptomoeda"
 tag:
 - bitcoin
 - lightning network
-- bifi
 - tokenization
-- article
 comments: false
 feature: /assets/fatos.png
 ---
@@ -50,21 +48,10 @@ Basicamente, existem por volta de 1077 chaves privadas possíveis e estima-se ex
 ## 9 — Sua carteira não guarda BTC
 A carteira tem esse nome para ser mais familiar, mas tem a função real de chaveiro, pois ela guarda suas chaves. Lembre: BITCOIN É ONIPRESENTE, ele não se move pois está em todos os lugares, replicado na blockchain.
 
-LEIA TAMBÉM
-Máquinas alinhadas em um centro de mineração
-Gigante de mineração de Bitcoin em formação? Riot revela plano de aquisição da Bitfarms
-bitcoin brilhando na mão
-Semler Scientific investe US$ 40 milhões em Bitcoin e ações disparam 25%
-Anic de Almeida Peixoto Herdy é casada com herdeiro da Unigranrio
-Herdeira é sequestrada em Petrópolis e criminosos exigem resgate em Bitcoin
-Vitalik-Buterin-Ethereum
-Vitalik explica o motivo dos “Grandes Blocos” terem perdido guerra de escalabilidade do Bitcoin
 Geralmente carteiras também assinam transações, acessam o preço em exchanges, estimam as taxas de transação ótimas de acordo com últimas transações na blockchain, entre outras funções.
 
 ## 10 — Mineradores de bitcoin não fazem cálculos complexos
 Na verdade é bem simples, pois o problema que eles estão tentando resolver não tem solução analítica. Então eles tentam adivinhar um número que resolva o problema, na força bruta, da maneira mais simples e “burra” possível.
-
-
 
 ## 11 — NFTs existem há pelo menos oito anos, no Bitcoin
 Em 04/12/2012, foi apresentado um white paper explicando as Colored Coins, uma maneira de ter NFTs na blockchain do Bitcoin, “colorindo” Satoshis para não serem mais fungíveis.

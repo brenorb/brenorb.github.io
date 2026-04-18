@@ -8,8 +8,6 @@ interview: true
 tag:
 - bitcoin 
 - ethereum
-- debate
-- mention
 comments: false
 feature: /assets/bitcoin-vs-ethereum.png
 ---

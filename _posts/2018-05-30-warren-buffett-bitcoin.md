@@ -6,8 +6,7 @@ excerpt: "Entendendo a filosofia do Warren Buffett"
 tag:
 - bitcoin
 - warren buffett
-- investing
-- article
+- investment
 comments: false
 feature: /assets/warren.png
 ---

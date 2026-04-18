@@ -6,6 +6,7 @@ excerpt: "Corrigindo mitos"
 tag:
 - bitcoin
 - article
+- myths
 comments: false
 feature: /assets/criptos.png
 ---

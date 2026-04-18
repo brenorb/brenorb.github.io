@@ -7,11 +7,10 @@ excerpt: 'Neste episódio, conversei com o Breno Brito (@brenorb) sobre a Inteli
 interview: true
 tag:
 - bitcoin
-- data science
-- hackathon
 - ai
-- interview
-- podcast
+- hackathon
+- miniscript
+- spirit of satoshi
 comments: false
 feature: /assets/satsconf-bitcoin.png
 ---

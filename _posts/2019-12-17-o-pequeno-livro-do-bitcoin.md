@@ -9,7 +9,6 @@ tag:
 - book
 - bitcoin
 - translation
-- project
 comments: false
 feature: /assets/o-pequeno-livro-bitcoin.jpg
 ---

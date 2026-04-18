@@ -8,7 +8,6 @@ tag:
 - stablecoin
 - brazil
 - gold
-- article
 comments: false
 feature: "/assets/stable.png"
 ---

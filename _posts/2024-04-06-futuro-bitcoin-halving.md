@@ -8,7 +8,6 @@ interview: true
 tag:
 - bitcoin
 - halving
-- commentary
 comments: false
 feature: /assets/bitcoin-future.png
 ---

@@ -8,7 +8,7 @@ interview: true
 tag:
 - bitcoin
 - nft
-- commentary
+- spam
 comments: false
 feature: /assets/stamps-project.png
 ---

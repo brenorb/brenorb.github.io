@@ -9,7 +9,7 @@ tag:
 - bitcoin 
 - blockchain
 - nft
-- commentary
+- spam
 comments: false
 feature: /assets/bitcoin-blocks.png
 ---

@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf"
 date:   2024-11-22 12:00:00 -0300
 category: podcast
-tags: [bitcoin, satsconf, podcast, spotify, youtube]
+tags: [bitcoin, satsconf]
 comments: false
 share: true
 interview: true

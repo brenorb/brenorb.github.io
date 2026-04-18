@@ -10,7 +10,7 @@ tag:
 - smart contracts
 - ai
 - hackathon
-- project
+- miniscript
 comments: false
 feature: 
 ---

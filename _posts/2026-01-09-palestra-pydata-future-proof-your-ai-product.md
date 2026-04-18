@@ -6,9 +6,7 @@ date: 2026-01-09 12:00:00 -0300
 excerpt: "Apresentação no canal PyData sobre como construir produtos de IA mais robustos e preparados para mudanças rápidas no ecossistema."
 tag:
 - ai
-- llm
-- conference
-- talk
+- dspy
 - presentation
 comments: false
 ---

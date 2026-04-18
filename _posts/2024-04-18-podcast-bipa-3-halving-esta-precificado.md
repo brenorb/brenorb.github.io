@@ -7,11 +7,8 @@ excerpt: "Afinal, o Halving está precificado?"
 interview: true
 tag:
 - bitcoin
-- technology
 - layer 2
 - book
-- interview
-- podcast
 comments: false
 feature: /assets/satsconf-bitcoin.png
 ---

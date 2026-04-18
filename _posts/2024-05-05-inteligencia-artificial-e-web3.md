@@ -9,7 +9,6 @@ tag:
 - technology 
 - ai
 - web3
-- commentary
 comments: false
 feature: /assets/ai-web3.png
 ---

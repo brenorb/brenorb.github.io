@@ -8,7 +8,6 @@ project: true
 tag:
 - book 
 - bitcoin
-- project
 comments: false
 feature: /assets/5.png
 ---

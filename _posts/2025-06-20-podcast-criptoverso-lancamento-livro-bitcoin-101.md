@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - Criptoverso - Lançamento do livro Bitcoin 101"
 date:   2025-06-20 12:00:00 -0300
 category: podcast
-tags: [bitcoin, livro, podcast, youtube]
+tags: [bitcoin, book]
 comments: false
 share: true
 interview: true

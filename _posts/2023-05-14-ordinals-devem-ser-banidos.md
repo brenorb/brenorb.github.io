@@ -8,7 +8,8 @@ interview: true
 tag:
 - bitcoin 
 - ordinals
-- commentary
+- nft
+- spam
 comments: true
 feature: /assets/ordinals-ban.png
 ---

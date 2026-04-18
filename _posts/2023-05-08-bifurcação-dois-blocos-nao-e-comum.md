@@ -9,7 +9,6 @@ tag:
 - bitcoin
 - blockchain
 - fork
-- commentary
 comments: false
 feature: /assets/blockchain-fork.png
 ---

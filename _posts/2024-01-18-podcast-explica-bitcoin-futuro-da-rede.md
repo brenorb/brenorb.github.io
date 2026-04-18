@@ -7,11 +7,10 @@ excerpt: "Conversa sobre um artigo, baseado em um capítulo do seu novo livro, q
 interview: true
 tag:
 - bitcoin
-- technology
+- ark
+- lightning network
 - layer 2
 - book
-- interview
-- podcast
 comments: false
 feature: /assets/satsconf-bitcoin.png
 ---

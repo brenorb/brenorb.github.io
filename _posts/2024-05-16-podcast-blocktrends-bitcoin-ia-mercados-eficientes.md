@@ -10,8 +10,7 @@ tag:
 - ai
 - quantitative finance
 - data science
-- interview
-- podcast
+- ergodicity
 comments: false
 feature: /assets/satsconf-bitcoin.png
 ---
