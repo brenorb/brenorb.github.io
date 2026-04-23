@@ -4,6 +4,15 @@
     <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
     <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
     {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+
+    <!-- AI discovery / classification (non-standard, but used by some agents) -->
+    <meta name="ai-content" content="personal-website">
+    <meta name="ai-topic" content="AI, Bitcoin, Finance">
+    <meta name="ai-audience" content="builders, developers, researchers">
+    <meta name="ai-use" content="search,answer-generation,citation">
+    <meta name="ai-language" content="en,pt-BR">
+    <link rel="alternate" type="text/plain" href="{{ site.url }}/llms.txt" title="AI usage policy">
+    <link rel="alternate" type="text/plain" href="{{ site.url }}/llms-full-text.txt" title="LLM full text summary">
     <!-- Twitter Cards -->
     {% if page.feature %}{% capture feature %}{{ page.feature }}{% endcapture %}{% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <meta name="twitter:card" content="summary_large_image">
