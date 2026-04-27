@@ -4,7 +4,7 @@ layout: post
 title:  "Como será o futuro do Bitcoin à medida que recompensas aos mineradores ficam cada vez menores?"
 date:   2024-04-06
 excerpt: "O que vai acontecer em 2140, quando os mineradores de Bitcoin não ganharem mais recompensas por blocos minerados?"
-interview: true
+content_type: media
 tag:
 - bitcoin
 - halving

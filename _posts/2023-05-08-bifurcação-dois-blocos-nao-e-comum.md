@@ -4,7 +4,7 @@ layout: post
 title: "Blockchain do Bitcoin sofre breve divisão e suspeita de gasto duplo; entenda"
 date: 2023-05-08
 excerpt: "Uma bifurcação de cadeia de dois blocos de profundidade não é comum e só aconteceu duas vezes."
-interview: true
+content_type: media
 tag:
 - bitcoin
 - blockchain

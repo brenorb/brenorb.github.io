@@ -7,7 +7,7 @@ category: podcast
 tags: [bitcoin, book]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Conversa na Bipa sobre 101 Perguntas sobre Bitcoin, fundamentos do protocolo e dúvidas de quem está começando."
 ---
 

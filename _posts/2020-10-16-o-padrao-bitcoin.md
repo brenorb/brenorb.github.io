@@ -4,7 +4,7 @@ layout: post
 title:  "O Padrão Bitcoin"
 date:   2020-10-16
 excerpt: "Tradução para o português da edição brasileira do clássico de Saifedean Ammous."
-project: true
+content_type: project
 tag:
 - book
 - bitcoin

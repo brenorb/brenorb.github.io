@@ -18,7 +18,7 @@ comments: false
 Access more information about Breno:
       
 [Projects](/projects/){: .btn}
-[Articles](/posts/){: .btn}
-[Interviews](/interviews/){: .btn}
+[Writing](/articles/){: .btn}
+[Talks & Media](/media/){: .btn}
 [Tags](/tags/){: .btn}
 [Contact](/contact/){: .btn}

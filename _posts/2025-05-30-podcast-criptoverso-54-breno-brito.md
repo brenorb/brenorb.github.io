@@ -7,7 +7,7 @@ category: podcast
 tags: [bitcoin]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Participação no Criptoverso #054 para conversar sobre Bitcoin e temas relacionados ao ecossistema."
 ---
 

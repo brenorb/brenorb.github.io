@@ -7,7 +7,7 @@ category: podcast
 tags: [bitcoin, book]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Conversa no BetterMoney sobre o livro 101 Perguntas sobre Bitcoin e as ideias centrais por trás do protocolo."
 ---
 

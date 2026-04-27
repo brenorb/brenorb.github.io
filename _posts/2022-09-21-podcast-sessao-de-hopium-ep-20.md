@@ -3,8 +3,8 @@ sitemap: false
 layout: post
 title:  "Podcast - Sessão de Hopium Ep. 20"
 date:   2022-09-21
-excerpt: ""
-interview: true
+excerpt: "Participação no Sessão de Hopium Ep. 20 com Breno Brito, Koda e Lawrence para discutir Bitcoin."
+content_type: media
 tag:
 - bitcoin
 comments: false

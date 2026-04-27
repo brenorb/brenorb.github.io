@@ -7,7 +7,7 @@ category: podcast
 tags: [bitcoin, book]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Conversa com Fernando Caixeta sobre 101 Perguntas Sobre Bitcoin, do básico ao essencial."
 ---
 

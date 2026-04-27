@@ -4,7 +4,7 @@ layout: post
 title:  "Bitcoin abaixo de US$ 19 mil? Por que seria um padrão de preço que nunca aconteceu antes"
 date:   2022-06-15
 excerpt: "Desde que começou a circular, o preço da principal criptomoeda nunca caiu abaixo da máxima histórica do halving anterior. No caso atual, essa barreira seria de US$ 19.783."
-interview: true
+content_type: media
 tag:
 - bitcoin
 - price

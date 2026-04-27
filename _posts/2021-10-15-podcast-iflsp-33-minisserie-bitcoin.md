@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - #33 Minissérie Bitcoin - Episódio 2: Presente com Solange Gueiros e Breno Brito - Acendendo as Luzes (IFLCast) - Instituto de Formação de Líderes de São Paulo (IFLSP)"
 date:   2021-10-15
 excerpt: "Conversa sobre um artigo, baseado em um capítulo do seu novo livro, que explica quais são as novidades tecnológicas que vem sendo desenvolvidas para o bitcoin."
-interview: true
+content_type: media
 tag:
 - bitcoin
 - myths

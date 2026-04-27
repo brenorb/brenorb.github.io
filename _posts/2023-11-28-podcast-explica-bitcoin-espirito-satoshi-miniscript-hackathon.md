@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - O Espírito de Satoshi e Miniscripts no Hackathon da SatsConf c/ Breno Brito - Sessão Temática 38 - Explica Bitcoin | Podcast on Spotify"
 date:   2023-11-28
 excerpt: 'Neste episódio, conversei com o Breno Brito (@brenorb) sobre a Inteligência Artificial "Spirit of Satoshi" e sobre o projeto vencedor do Hackathon da SatsConf.'
-interview: true
+content_type: media
 tag:
 - bitcoin
 - ai

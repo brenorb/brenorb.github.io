@@ -4,6 +4,7 @@ layout: post
 title: "Palestra - PyData - Future proof your AI product"
 date: 2026-01-09 12:00:00 -0300
 excerpt: "Apresentação no canal PyData sobre como construir produtos de IA mais robustos e preparados para mudanças rápidas no ecossistema."
+content_type: media
 tag:
 - ai
 - dspy

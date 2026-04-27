@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - 21 Milhões - #9 - Breno Brito"
 date:   2021-11-18
 excerpt: "Primeiros contatos com o Bitcoin, o caminho até o maximalismo, r/wallstreetbets, economia não ergódica."
-interview: true
+content_type: media
 tag:
 - bitcoin
 - ergodicity

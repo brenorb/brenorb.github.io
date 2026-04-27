@@ -4,7 +4,7 @@ layout: post
 title: "Bitcoin Stamps: Conheça o projeto que está invadindo a rede da maior criptomoeda do mundo"
 date: 2023-04-09
 excerpt: "O que são os Bitcoin Stamps e como eles podem revolucionar a indústria NFT dentro da blockchain do BTC"
-interview: true
+content_type: media
 tag:
 - bitcoin
 - nft

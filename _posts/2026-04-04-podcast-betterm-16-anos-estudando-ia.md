@@ -7,7 +7,7 @@ category: podcast
 tags: [ai]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Conversa no canal BetterM sobre trajetória, inteligência artificial e o que costuma ficar de fora depois de 16 anos estudando IA."
 ---
 

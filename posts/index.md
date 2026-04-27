@@ -1,6 +1,8 @@
 ---
 layout: post-list
-title: All Articles
-excerpt: "A List of Articles"
+title: Writing
+excerpt: "A list of writing"
+content_type: article
 comments: false
+sitemap: false
 ---

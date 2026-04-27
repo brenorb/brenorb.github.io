@@ -7,7 +7,7 @@ category: podcast
 tags: [bitcoin, book]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Episódio do Criptoverso sobre o lançamento do livro Bitcoin 101 e os conceitos centrais abordados nele."
 ---
 

@@ -4,6 +4,7 @@ layout: post
 title: "Palestra - Introdução a opções"
 date: 2019-08-26 12:00:00 -0300
 excerpt: "Palestra introdutória sobre opções e derivativos, realizada na UnB e publicada no canal de Breno Brito."
+content_type: media
 tag:
 - finance
 - derivatives

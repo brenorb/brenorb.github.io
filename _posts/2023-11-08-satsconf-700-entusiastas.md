@@ -4,7 +4,7 @@ layout: post
 title:  "Satsconf reúne cerca de 700 entusiastas de Bitcoin em SP e confirma 3ª edição em 2024"
 date:   2023-11-08
 excerpt: "O maior evento 100% Bitcoin do Brasil ocorreu ao longo do feriado; mais de 1,8 mil pagamentos em BTC foram feitos no encontro"
-interview: true
+content_type: media
 tag:
 - bitcoin
 - hackathon

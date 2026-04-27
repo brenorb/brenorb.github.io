@@ -4,7 +4,7 @@ layout: post
 title:  "101 Perguntas sobre Bitcoin"
 date:   2024-06-01
 excerpt: "Um livro para aprender bitcoin de maneira eficiente."
-project: true
+content_type: project
 tag:
 - book 
 - bitcoin

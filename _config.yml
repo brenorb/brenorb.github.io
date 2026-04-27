@@ -1,6 +1,6 @@
 # Site
 title:              Breno Brito
-bio:                '<a href="{{ site.url }}/tags/#ai">AI Engineer</a>, Data Scientist, Bitcoiner.'
+bio:                '<a href="/tags/#ai">AI Engineer</a>, Data Scientist, Bitcoiner.'
 description:        "Breno Brito is an engineer specialized in AI, Bitcoin and Finance."
 reading_time:       true
 words_per_minute:   200
@@ -24,6 +24,12 @@ mathjax:            true
 sass:
   sass_dir:         _sass
   style:            compressed
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      content_type: article
 
 # Comments
 disqus_shortname:   brenorb

@@ -7,7 +7,7 @@ category: podcast
 tags: [bitcoin]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Reedição em podcast do bate-papo com Breno Brito sobre Bitcoin, técnica, filosofia e implicações socioeconômicas."
 ---
 

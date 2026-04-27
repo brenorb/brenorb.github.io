@@ -4,7 +4,7 @@ layout: post
 title:  "Granola - Cashu-based exchange"
 date:   2024-11-06
 excerpt: "3rd place and Best Nostr at SatsHack 2024, a Cashu + Nostr exchange concept."
-project: true
+content_type: project
 tag:
 - bitcoin
 - cashu

@@ -1,6 +1,7 @@
 ---
-layout: project
-title: All Projects
-excerpt: "A List of Projects"
+layout: post-list
+title: Projects
+excerpt: "A list of projects"
+content_type: project
 comments: false
 ---

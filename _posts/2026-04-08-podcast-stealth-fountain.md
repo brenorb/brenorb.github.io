@@ -7,7 +7,7 @@ category: podcast
 tags: [bitcoin, privacy, hackathon]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Episódio na Fountain sobre o projeto Stealth, focado em auditoria de privacidade para carteiras Bitcoin."
 ---
 

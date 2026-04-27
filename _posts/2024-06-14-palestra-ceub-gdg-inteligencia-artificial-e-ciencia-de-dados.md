@@ -4,6 +4,7 @@ layout: post
 title: "Palestra - CEUB/GDG Brasília - Apresentações sobre Inteligência Artificial e Ciência de Dados"
 date: 2024-06-14 12:00:00 -0300
 excerpt: "Gravação do meetup GDG/CEUB com as apresentações sobre alinhamento de LLMs e ciência de dados, publicada no canal CEUB Transmissões."
+content_type: media
 tag:
 - ai
 - alignment

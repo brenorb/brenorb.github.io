@@ -4,7 +4,7 @@ layout: post
 title:  "O Padrão Fiduciário"
 date:   2023-08-31
 excerpt: "Edição brasileira do livro de Saifedean Ammous sobre o sistema fiduciário, dívida e distorções monetárias."
-project: true
+content_type: project
 tag:
 - book
 - bitcoin

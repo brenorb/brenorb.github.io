@@ -7,7 +7,7 @@ category: podcast
 tags: [bitcoin, satsconf]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Conversa com Diego Kolling, Caio Leta e Breno Brito sobre a presença da Bipa na SatsConf."
 ---
 

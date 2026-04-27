@@ -7,7 +7,7 @@ category: podcast
 tags: [bitcoin, ai, spirit of satoshi, miniscript, liquid]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Conversa no canal Liquid Network sobre LLMs para desenvolvimento em Bitcoin e uma demonstração do Code Satoshi."
 ---
 

@@ -4,7 +4,7 @@ layout: post
 title:  "Os ordinals devem ser banidos da blockchain do Bitcoin? O que dizem os especialistas"
 date:   2023-05-14
 excerpt: "O desenvolvedor do Bitcoin Core Luke Dash Jr é contrário aos Ordinals e já recusa essas transações em seu servidor"
-interview: true
+content_type: media
 tag:
 - bitcoin 
 - ordinals

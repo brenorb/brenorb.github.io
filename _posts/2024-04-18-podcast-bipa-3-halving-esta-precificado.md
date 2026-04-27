@@ -4,7 +4,7 @@ layout: post
 title:  "Podcast - Bipa Cast #003 - O Halving está precificado?"
 date:   2024-04-18
 excerpt: "Afinal, o Halving está precificado?"
-interview: true
+content_type: media
 tag:
 - bitcoin
 - layer 2
@@ -44,4 +44,3 @@ ISENÇÃO DE RESPONSABILIDADE:
 
 
 - Não nos responsabilizamos por qualquer decisão de investimento que você tomar ou ação que você executar inspirada em nossos vídeos.
-

@@ -7,7 +7,7 @@ category: podcast
 tags: [ai, bitcoin]
 comments: false
 share: true
-interview: true
+content_type: media
 excerpt: "Conversa no Explica Bitcoin sobre IA, trabalho, riscos existenciais e o papel do Bitcoin nessa nova fase tecnológica."
 ---
 
