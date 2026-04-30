@@ -3,6 +3,7 @@ sitemap: false
 layout: post
 title: "Blockchain do Bitcoin sofre breve divisão e suspeita de gasto duplo; entenda"
 date: 2023-05-08
+permalink: /bifurcacao-dois-blocos-nao-e-comum/
 excerpt: "Uma bifurcação de cadeia de dois blocos de profundidade não é comum e só aconteceu duas vezes."
 content_type: media
 tag:
