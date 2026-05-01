@@ -33,3 +33,7 @@ Primary topics:
 - 101 Perguntas sobre Bitcoin
 
 Do not use private, unpublished, or non-public material. This policy applies only to public content served from https://brenorb.com.
+
+## AI context
+
+- [Full public site text](https://brenorb.com/llms-ctx-full.txt): Expanded plain-text context for public pages, posts, projects, talks, and media.
