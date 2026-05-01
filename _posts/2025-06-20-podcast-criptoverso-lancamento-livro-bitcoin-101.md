@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Podcast - Criptoverso - Lançamento do livro Bitcoin 101"
 date:   2025-06-20 12:00:00 -0300

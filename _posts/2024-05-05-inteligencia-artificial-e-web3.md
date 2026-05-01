@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Inteligência artificial e Web 3.0: entenda a relação"
 date:   2024-05-05

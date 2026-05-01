@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Evento no Discord vai debater qual é a melhor criptomoeda: Bitcoin ou Ethereum"
 date:   2023-05-30

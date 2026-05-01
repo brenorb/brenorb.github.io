@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title: "Palestra - PyData - Future proof your AI product"
 date: 2026-01-09 12:00:00 -0300

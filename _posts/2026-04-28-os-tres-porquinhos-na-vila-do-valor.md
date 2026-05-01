@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Os Três Porquinhos na Vila do Valor"
 date:   2026-04-28

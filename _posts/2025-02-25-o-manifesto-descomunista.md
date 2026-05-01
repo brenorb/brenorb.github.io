@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "O Manifesto Descomunista"
 date:   2025-02-25

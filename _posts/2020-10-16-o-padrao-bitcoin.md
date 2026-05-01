@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "O Padrão Bitcoin"
 date:   2020-10-16

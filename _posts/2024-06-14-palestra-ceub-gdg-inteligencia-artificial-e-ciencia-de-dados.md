@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title: "Palestra - CEUB/GDG Brasília - Apresentações sobre Inteligência Artificial e Ciência de Dados"
 date: 2024-06-14 12:00:00 -0300

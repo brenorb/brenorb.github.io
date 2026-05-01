@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Questões sociais são desafio para debate do Bitcoin, diz autor de livro da Editora Portal do Bitcoin"
 date:   2024-05-21

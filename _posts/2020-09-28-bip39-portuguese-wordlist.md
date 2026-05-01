@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title: "BIP39 Portuguese Wordlist"
 date: 2020-09-28

@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Granola - Cashu-based exchange"
 date:   2024-11-06

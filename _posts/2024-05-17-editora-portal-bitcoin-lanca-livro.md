@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "‘101 Perguntas sobre Bitcoin’: Editora Portal do Bitcoin lança livro sobre a criptomoeda mais famosa do mundo"
 date:   2024-05-17

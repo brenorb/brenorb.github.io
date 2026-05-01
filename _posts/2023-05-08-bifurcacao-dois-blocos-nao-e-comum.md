@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title: "Blockchain do Bitcoin sofre breve divisão e suspeita de gasto duplo; entenda"
 date: 2023-05-08

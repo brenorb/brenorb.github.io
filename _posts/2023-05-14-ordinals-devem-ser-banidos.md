@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Os ordinals devem ser banidos da blockchain do Bitcoin? O que dizem os especialistas"
 date:   2023-05-14

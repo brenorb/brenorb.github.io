@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Bitcoin abaixo de US$ 19 mil? Por que seria um padrão de preço que nunca aconteceu antes"
 date:   2022-06-15

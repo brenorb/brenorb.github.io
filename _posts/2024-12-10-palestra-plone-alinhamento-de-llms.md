@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title: "Palestra - Plone - Alinhamento de LLMs: O Que É e Principais Técnicas"
 date: 2024-12-10 12:00:00 -0300

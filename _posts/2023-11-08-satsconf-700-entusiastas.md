@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Satsconf reúne cerca de 700 entusiastas de Bitcoin em SP e confirma 3ª edição em 2024"
 date:   2023-11-08

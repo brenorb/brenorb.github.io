@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Podcast - O Futuro da Rede Bitcoin - Sessão Temática 40 - Explica Bitcoin"
 date:   2024-01-18

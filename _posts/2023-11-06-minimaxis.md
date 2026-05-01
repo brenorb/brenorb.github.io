@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Minimaxis - Miniscript AI code assistant for Bitcoin smart contracts"
 date:   2023-11-06

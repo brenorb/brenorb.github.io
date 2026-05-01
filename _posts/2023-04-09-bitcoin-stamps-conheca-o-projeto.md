@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title: "Bitcoin Stamps: Conheça o projeto que está invadindo a rede da maior criptomoeda do mundo"
 date: 2023-04-09

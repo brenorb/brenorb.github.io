@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title: "Central de Brasil recorta tasa Selic a 6,75% alcanzando mínimo histórico desde 1999"
 date: 2018-02-08 12:00:00 -0300

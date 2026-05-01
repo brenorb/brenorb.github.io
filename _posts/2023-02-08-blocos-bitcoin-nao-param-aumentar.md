@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Os blocos de Bitcoin não param de aumentar; o que está acontecendo com a blockchain?"
 date:   2023-02-08

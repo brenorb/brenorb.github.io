@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Podcast - O Espírito de Satoshi e Miniscripts no Hackathon da SatsConf c/ Breno Brito - Sessão Temática 38 - Explica Bitcoin | Podcast on Spotify"
 date:   2023-11-28

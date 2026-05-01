@@ -2,6 +2,8 @@
 title:              Breno Brito
 bio:                '<a href="/tags/#ai">AI Engineer</a>, Data Scientist, Bitcoiner.'
 description:        "Breno Brito is an engineer specialized in AI, Bitcoin and Finance."
+keywords:           "Breno Brito, artificial intelligence, AI engineering, Bitcoin, finance, data science, language models, 101 Perguntas sobre Bitcoin"
+author:             Breno Brito
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
@@ -9,6 +11,22 @@ background:         'assets/img/placeholder-big.jpg'
 tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
 locale:             en_US
 url:                https://brenorb.com
+timezone:           America/Sao_Paulo
+ai_content:         "allowed"
+ai_topic:           "Artificial Intelligence, Bitcoin, Finance, Data Science"
+ai_audience:        "engineers, researchers, Bitcoin builders, journalists, readers learning about AI and Bitcoin"
+ai_use:             "Search, citation, summarization, indexing, and answer generation with attribution to https://brenorb.com"
+same_as:
+  - https://x.com/brenorb
+  - https://github.com/brenorb
+  - https://www.linkedin.com/in/brenorb/
+knows_about:
+  - Artificial Intelligence
+  - Bitcoin
+  - Finance
+  - Data Science
+  - Language Models
+  - Quantitative Analysis
 
 # Jekyll
 permalink:          /:title/
@@ -78,6 +96,9 @@ gems:
 
 plugins:
   - jekyll-gist
+  - jekyll-feed
+  - jekyll-mentions
+  - jekyll-sitemap
 
 jekyll-mentions:
     base_url: https://github.com

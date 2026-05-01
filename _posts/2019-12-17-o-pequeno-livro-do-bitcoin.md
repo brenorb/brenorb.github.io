@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "O Pequeno Livro do Bitcoin"
 date:   2019-12-17

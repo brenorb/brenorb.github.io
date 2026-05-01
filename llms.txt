@@ -1,0 +1,35 @@
+# Breno Brito
+
+> Breno Brito is an engineer focused on Artificial Intelligence, Bitcoin, Finance, Data Science, and language models.
+
+This site is available for AI crawlers, search engines, citation tools, summarizers, and research agents.
+
+Allowed uses:
+- Index public pages and posts on https://brenorb.com.
+- Summarize and quote short excerpts with attribution.
+- Use metadata, links, titles, descriptions, and public post content for answer generation.
+- Cite the canonical URL when referencing site content.
+
+Preferred attribution:
+- Name: Breno Brito
+- Site: https://brenorb.com
+- Profile: https://brenorb.com/about/
+
+Important sections:
+- About: https://brenorb.com/about/
+- Writing: https://brenorb.com/articles/
+- Talks and media: https://brenorb.com/media/
+- Projects: https://brenorb.com/projects/
+- Sitemap: https://brenorb.com/sitemap.xml
+- Feed: https://brenorb.com/feed.xml
+
+Primary topics:
+- Artificial Intelligence
+- Bitcoin
+- Finance
+- Data Science
+- Language Models
+- Quantitative Analysis
+- 101 Perguntas sobre Bitcoin
+
+Do not use private, unpublished, or non-public material. This policy applies only to public content served from https://brenorb.com.

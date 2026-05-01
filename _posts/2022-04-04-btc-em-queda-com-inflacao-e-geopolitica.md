@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title: "Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica"
 date: 2022-04-04

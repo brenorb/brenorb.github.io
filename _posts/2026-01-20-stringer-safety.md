@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Stringer Safety - Keep journalists alive when seconds matter"
 date:   2026-01-20

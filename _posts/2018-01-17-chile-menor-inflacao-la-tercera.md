@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title: "Chile cierra 2017 como el segundo país de la región con la menor inflación"
 date: 2018-01-17 12:00:00 -0300

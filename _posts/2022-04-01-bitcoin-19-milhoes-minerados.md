@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Bitcoin atinge marco de 19 milhões de BTCs minerados; restam 2 milhões"
 date:   2022-04-01

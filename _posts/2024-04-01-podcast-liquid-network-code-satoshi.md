@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of Satoshi"
 date:   2024-04-01 12:00:00 -0300

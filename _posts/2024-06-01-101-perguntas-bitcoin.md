@@ -1,5 +1,4 @@
 ---
-sitemap: false
 layout: post
 title:  "101 Perguntas sobre Bitcoin"
 date:   2024-06-01

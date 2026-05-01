@@ -1,27 +1,41 @@
     <meta charset="UTF-8">
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
-    <title>{% if page.title %}{{ page.title }} &#8211; {% endif %}{{ site.title }}</title>
-    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-    {% if page.tags %}<meta name="keywords" content="{{ page.tags | join: ', ' }}">{% endif %}
+    {% assign seo_title = page.title | default: site.title %}
+    {% if seo_title == "Home" %}{% assign seo_title = site.title %}{% endif %}
+    <title>{% if seo_title != site.title %}{{ seo_title }} &#8211; {% endif %}{{ site.title }}</title>
+    {% assign page_description = page.description | default: page.excerpt | default: site.description %}
+    {% assign page_keywords = page.tags | default: page.tag | default: site.keywords %}
+    <meta name="description" content="{{ page_description | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% if page_keywords %}<meta name="keywords" content="{% if page_keywords.first %}{{ page_keywords | join: ', ' }}{% else %}{{ page_keywords }}{% endif %}">{% endif %}
+    <meta name="author" content="{{ site.author | default: site.title }}">
+    <meta name="ai-content" content="{{ site.ai_content }}">
+    <meta name="ai-topic" content="{{ site.ai_topic }}">
+    <meta name="ai-audience" content="{{ site.ai_audience }}">
+    <meta name="ai-use" content="{{ site.ai_use }}">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml">
+    <link rel="llms.txt" type="text/plain" href="{{ site.url }}/llms.txt">
     <!-- Twitter Cards -->
     {% if page.feature %}{% capture feature %}{{ page.feature }}{% endcapture %}{% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content="{{ feature }}">
     {% else %}<meta name="twitter:card" content="summary">
     <meta name="twitter:image" content="{{ site.url }}/{{ site.logo }}">{% endif %}
-    <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    {% if page.excerpt %}<meta name="twitter:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    <meta name="twitter:title" content="{{ seo_title }}">
+    <meta name="twitter:description" content="{{ page_description | markdownify | strip_html | strip_newlines | escape_once }}">
     {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:creator" content="@{{ site.twitter }}">{% endif %}
     <!-- Open Graph -->
     <meta property="og:locale" content="{{ site.locale }}">
-    <meta property="og:type" content="article">
-    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-    {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
+    <meta property="og:title" content="{{ seo_title }}">
+    <meta property="og:description" content="{{ page_description | markdownify | strip_html | strip_newlines | escape_once }}">
     <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
     <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:image" content="{{ site.url }}/{{ site.logo }}">
+    <meta property="og:image" content="{% if feature %}{{ feature }}{% else %}{{ site.url }}/{{ site.logo }}{% endif %}">
+    {% if page.layout == "post" %}
+    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    {% endif %}
     {% if site.google.verify %}
     <!-- Webmaster Tools verfication -->
     <meta name="google-site-verification" content="{{ site.google.verify }}">{% endif %}
@@ -55,4 +69,38 @@
     {% capture feature %}{{ page.feature }}{% endcapture %}
     {% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <style type="text/css">.feature {background-image:url({{ feature }});}</style>
+    {% endif %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": {{ site.url | append: "/#person" | jsonify }},
+      "name": {{ site.author | default: site.title | jsonify }},
+      "url": {{ site.url | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "image": {{ site.url | append: "/" | append: site.logo | jsonify }},
+      "sameAs": {{ site.same_as | jsonify }},
+      "knowsAbout": {{ site.knows_about | jsonify }},
+      "jobTitle": "AI Engineer"
+    }
+    </script>
+    {% if page.layout == "post" %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page_description | markdownify | strip_html | strip_newlines | jsonify }},
+      "url": {{ page.url | replace:'index.html','' | prepend: site.url | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      "author": {
+        "@id": {{ site.url | append: "/#person" | jsonify }}
+      },
+      "publisher": {
+        "@id": {{ site.url | append: "/#person" | jsonify }}
+      },
+      "mainEntityOfPage": {{ page.url | replace:'index.html','' | prepend: site.url | jsonify }},
+      "keywords": {% if page_keywords.first %}{{ page_keywords | join: ', ' | jsonify }}{% else %}{{ page_keywords | jsonify }}{% endif %}
+    }
+    </script>
     {% endif %}
