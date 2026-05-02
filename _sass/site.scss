@@ -17,8 +17,11 @@ body {
 	@include font-rem($doc-font-size);
 	color: $color_tuatara;
 	background-color: $bodycolor;
+	background-image: url('/assets/img/placeholder-big.jpg');
 	background-position: center center;
 	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
 	@media #{$small} {
 	    background-image: none !important;
 		background: $white;
@@ -95,6 +98,17 @@ body {
 	.title {
 	    margin-top: 0;
 	    margin-bottom: 5px;
+	}
+	.home-title {
+		@include font-rem(19.2);
+		font-weight: 300;
+	}
+	.home-bio {
+		@include font-rem(16);
+		font-weight: 300;
+	}
+	.home-social-links {
+		@include font-rem(30);
 	}
 	@media #{$small} {
 		padding: 0 1em;

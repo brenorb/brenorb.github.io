@@ -1,7 +1,8 @@
 # Site
 title:              Breno Brito
+seo_title:          "Breno Brito | AI Engineer, Bitcoin, Finance"
 bio:                '<a href="/tags/#ai">AI Engineer</a>, Data Scientist, Bitcoiner.'
-description:        "Breno Brito is an engineer specialized in AI, Bitcoin and Finance."
+description:        "Breno Brito is an AI engineer, data scientist, and writer covering Bitcoin, finance, language models, talks, and applied AI projects."
 keywords:           "Breno Brito, artificial intelligence, AI engineering, Bitcoin, finance, data science, language models, 101 Perguntas sobre Bitcoin"
 author:             Breno Brito
 reading_time:       true

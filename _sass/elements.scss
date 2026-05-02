@@ -17,6 +17,9 @@
 	margin: 10px;
 	@extend %btnextend;
 }
+.home-social-links .social-btn {
+	margin: 10px 8px;
+}
 .btn {
 	padding: 10px 18px;
 	@include font-rem(14);
