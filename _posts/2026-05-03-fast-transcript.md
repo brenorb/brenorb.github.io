@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "fast-transcript - Fast local transcription for large lectures"
+title: "fast-transcript"
 date: 2026-05-03
 permalink: /projects/fast-transcript/
-excerpt: "Local CLI for transcribing long lectures quickly with NVIDIA Parakeet ONNX."
+excerpt: "Fast local transcription for large lectures."
 description: "fast-transcript is a local CLI for transcribing large lecture audio quickly with NVIDIA Parakeet ONNX, automatic audio normalization, and default chunking tuned for long runs."
 content_type: project
 tags:
@@ -14,6 +14,8 @@ comments: false
 ---
 
 **fast-transcript** is a local CLI for **transcribing large lectures quickly on a laptop**.
+
+On the development machine, it handled **almost 30 minutes of lecture audio in a little over 2 minutes**: **29m47s** transcribed in about **2m14s** (**13.38x real-time**).
 
 The project packages an ONNX Parakeet workflow behind a very short command:
 
