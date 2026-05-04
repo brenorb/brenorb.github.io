@@ -29,6 +29,8 @@ Or install it with Homebrew:
 brew install brenorb/fast-transcript/fast-transcript
 ```
 
+On Apple Silicon, that Homebrew install now uses the published release binary directly, so it does not need a local Rust toolchain.
+
 That command is enough to:
 
 - fetch the default model if needed
