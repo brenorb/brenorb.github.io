@@ -15,7 +15,9 @@ comments: false
 
 **fast-transcript** is a local CLI for **transcribing large lectures quickly on a laptop**.
 
-On the development machine, it handled **almost 30 minutes of lecture audio in a little over 2 minutes**: **29m47s** transcribed in about **2m14s** (**13.38x real-time**).
+On the development machine, it handled **30 minutes in 2!*** 
+
+<sub>* Benchmark run on a MacBook Pro M1. The exact long-run measurement was **29m47s** of lecture audio transcribed in about **2m14s** (**13.38x real-time**).</sub>
 
 The project packages an ONNX Parakeet workflow behind a very short command:
 
