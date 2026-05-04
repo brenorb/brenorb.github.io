@@ -21,6 +21,12 @@ The project packages an ONNX Parakeet workflow behind a very short command:
 fscript lecture.mp3
 ```
 
+Or install it with Homebrew:
+
+```bash
+brew install brenorb/fast-transcript/fast-transcript
+```
+
 That command is enough to:
 
 - fetch the default model if needed
