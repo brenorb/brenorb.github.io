@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+echo "Regenerating llms-ctx-full.txt"
+ruby scripts/build-llms-ctx-full.rb
+
+if ! git diff --quiet -- llms-ctx-full.txt; then
+  git add llms-ctx-full.txt
+  echo "Updated and staged llms-ctx-full.txt"
+fi

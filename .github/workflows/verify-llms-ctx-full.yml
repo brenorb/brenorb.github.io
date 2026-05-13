@@ -1,0 +1,26 @@
+name: Verify llms-ctx-full
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+
+jobs:
+  verify-llms-ctx-full:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: true
+
+      - name: Regenerate llms-ctx-full.txt
+        run: ruby scripts/build-llms-ctx-full.rb
+
+      - name: Verify generated file is up to date
+        run: git diff --exit-code -- llms-ctx-full.txt
