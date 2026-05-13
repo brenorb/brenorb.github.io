@@ -348,6 +348,36 @@ Links diretos:
 - Spotify: https://open.spotify.com/episode/13HhyIFSPZzNXB16rknJBe
 - YouTube: https://www.youtube.com/watch?v=sqle4sHCdEQ
 
+### docs2epub
+
+URL: https://brenorb.com/projects/docs2epub/
+Source: _posts/2026-01-06-docs2epub.md
+Date: 2026-01-06
+Content type: project
+Tags: python, epub, docs
+Summary: docs2epub is a Python CLI that turns documentation sites into EPUB files, with initial support for Docusaurus docs and a workflow that works well with uv and uvx.
+
+**docs2epub** is a Python CLI for **turning documentation sites into EPUB files**.
+
+I built it to make web-native docs easier to read offline, archive, or send to e-readers without manual copy-paste work.
+
+The initial focus was **Docusaurus sites** that expose a clear docs flow through a **Next** button, but the broader direction is a practical tool for scraping structured documentation and packaging it into something that reads well on Kindle-class devices.
+
+The main usage is intentionally short:
+
+```bash
+uvx docs2epub https://www.techinterviewhandbook.org/software-engineering-interview-guide/ tech-interview-handbook.epub
+```
+
+It also works as a local project command with `uv run docs2epub`, and the documented output paths cover both **EPUB2** for better Kindle compatibility and **EPUB3** when that format is preferable.
+
+Under the hood, the project combines HTML extraction, crawl heuristics, metadata inference, and EPUB generation into one CLI so a docs site can become a portable book with a single command.
+
+The first published tag was **`v0.1.0` on 2026-01-06**, which is the date used for this project entry.
+
+### Links
+[GitHub Repo](https://github.com/brenorb/docs2epub)
+
 ### Podcast - Fernando Caixeta - 101 Perguntas Sobre BITCOIN (com Breno Brito)
 
 URL: https://brenorb.com/podcast-fernando-caixeta-101-perguntas-sobre-bitcoin/
