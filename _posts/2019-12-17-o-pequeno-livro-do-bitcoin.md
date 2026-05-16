@@ -3,6 +3,7 @@ layout: post
 title:  "O Pequeno Livro do Bitcoin"
 date:   2019-12-17
 excerpt: "Tradução para o português de um guia introdutório sobre por que Bitcoin importa para liberdade, finanças e futuro."
+description: "O Pequeno Livro do Bitcoin is the Portuguese edition of The Little Bitcoin Book, a concise introduction to why Bitcoin matters for freedom, money, and the future."
 content_type: project
 tag:
 - book

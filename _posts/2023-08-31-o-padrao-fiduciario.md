@@ -3,6 +3,7 @@ layout: post
 title:  "O Padrão Fiduciário"
 date:   2023-08-31
 excerpt: "Edição brasileira do livro de Saifedean Ammous sobre o sistema fiduciário, dívida e distorções monetárias."
+description: "O Padrão Fiduciário is the Brazilian Portuguese edition of The Fiat Standard, Saifedean Ammous's book on debt, fiat money, and the distortions of the modern monetary system."
 content_type: project
 tag:
 - book

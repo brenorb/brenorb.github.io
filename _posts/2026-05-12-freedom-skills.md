@@ -11,6 +11,7 @@ tags:
 - bitcoin
 - nostr
 comments: false
+feature: /assets/generated/freedom-skills.png
 ---
 
 **Freedom Skills** is a repository of **AI agent skills for Bitcoin, Nostr, and other freedom technologies**.

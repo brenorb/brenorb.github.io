@@ -3,6 +3,7 @@ layout: post
 title:  "O Padrão Bitcoin"
 date:   2020-10-16
 excerpt: "Tradução para o português da edição brasileira do clássico de Saifedean Ammous."
+description: "O Padrão Bitcoin is the Brazilian Portuguese edition of Saifedean Ammous's book on the history of money, hard money, and Bitcoin as a decentralized alternative to central banking."
 content_type: project
 tag:
 - book

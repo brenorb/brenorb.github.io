@@ -3,6 +3,7 @@ layout: post
 title:  "Minimaxis - Miniscript AI code assistant for Bitcoin smart contracts"
 date:   2023-11-06
 excerpt: "Hackathon winner, a LLM code assistant for Bitcoin smart contracts."
+description: "Minimaxis is a hackathon-winning AI assistant for Bitcoin Miniscript that can write, explain, and correct smart contract code."
 content_type: project
 tag:
 - bitcoin
@@ -11,7 +12,7 @@ tag:
 - hackathon
 - miniscript
 comments: false
-feature: 
+feature: /assets/generated/minimaxis.png
 ---
 
 satshack presentation

@@ -3,6 +3,7 @@ layout: post
 title:  "O Manifesto Descomunista"
 date:   2025-02-25
 excerpt: "Editoração da edição brasileira do livro de Aleks Svetski sobre esperança, responsabilidade e liberdade."
+description: "O Manifesto Descomunista is the Brazilian edition of Aleks Svetski's book on hope, individual responsibility, and freedom, with editorial work by Breno Brito."
 content_type: project
 tag:
 - book
