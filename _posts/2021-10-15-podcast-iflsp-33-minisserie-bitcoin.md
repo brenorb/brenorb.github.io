@@ -25,3 +25,9 @@ Mesmo sem inventar detalhes que não estão públicos nas show notes, dá para r
 Se preferir abrir direto no Spotify:
 
 - https://open.spotify.com/episode/4y9clyC3E2m8hrUEvu2zqx
+
+O `IFLSP` também mantém uma playlist oficial do podcast no YouTube:
+
+- https://youtube.com/playlist?list=PLvKW4V3xF-W7K3asXFUZ5XWyiCb7NUC-U
+
+Pelo que consegui verificar cruzando a playlist e a listagem pública completa de vídeos do canal, este episódio específico da minissérie Bitcoin não está disponível publicamente no YouTube hoje. Por isso mantive o player do Spotify no topo e deixei a playlist oficial apenas como referência complementar.
