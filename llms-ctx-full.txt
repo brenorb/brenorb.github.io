@@ -146,7 +146,7 @@ Source: _posts/2026-04-28-os-tres-porquinhos-na-vila-do-valor.md
 Date: 2026-04-28
 Content type: project
 Tags: book, review, education
-Summary: Revisão do livro infantil de Caroline Galgowski sobre educação financeira para crianças.
+Summary: Os Três Porquinhos na Vila do Valor is a children's book on financial education by Caroline Galgowski, with Breno Brito contributing as reviewer.
 
 **Os Três Porquinhos na Vila do Valor** é um livro infantil de **Caroline Galgowski** que apresenta noções de educação financeira para crianças a partir de uma história conhecida.
 
@@ -178,7 +178,7 @@ Source: _posts/2026-04-08-stealth.md
 Date: 2026-04-08
 Content type: project
 Tags: bitcoin, privacy, hackathon
-Summary: BTC++ 2026 hackathon project for auditing Bitcoin wallet privacy from public descriptors.
+Summary: Stealth is a Bitcoin wallet privacy auditing tool that analyzes public descriptors and on-chain behavior to surface concrete privacy risks and mitigation ideas.
 
 **Stealth** is a Bitcoin wallet privacy auditing tool that I built for the **BTC++ 2026 hackathon**.
 
@@ -436,7 +436,7 @@ Source: _posts/2025-02-25-o-manifesto-descomunista.md
 Date: 2025-02-25
 Content type: project
 Tags: book, bitcoin, editing
-Summary: Editoração da edição brasileira do livro de Aleks Svetski sobre esperança, responsabilidade e liberdade.
+Summary: O Manifesto Descomunista is the Brazilian edition of Aleks Svetski's book on hope, individual responsibility, and freedom, with editorial work by Breno Brito.
 
 ![Livro](/assets/o-manifesto-descomunista.jpg)
 
@@ -524,7 +524,7 @@ Source: _posts/2024-11-06-granola-cashu-based-exchange.md
 Date: 2024-11-06
 Content type: project
 Tags: bitcoin, cashu, nostr, ecash
-Summary: 3rd place and Best Nostr at SatsHack 2024, a Cashu + Nostr exchange concept.
+Summary: Granola is a Cashu- and Nostr-based exchange concept for privacy-preserving ecash swaps, built for SatsHack 2024 and recognized at Satsconf.
 
 **Granola** is a **Cashu-based exchange** concept built for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
 
@@ -652,7 +652,7 @@ Source: _posts/2024-06-01-101-perguntas-bitcoin.md
 Date: 2024-06-01
 Content type: project
 Tags: book, bitcoin
-Summary: Um livro para aprender bitcoin de maneira eficiente.
+Summary: 101 Perguntas sobre Bitcoin is a question-and-answer introduction to Bitcoin, designed to take readers from basic doubts to a solid working understanding of the protocol and its implications.
 
 ![Livro](/assets/101btc.png) 
 
@@ -1291,7 +1291,7 @@ Source: _posts/2023-11-06-minimaxis.md
 Date: 2023-11-06
 Content type: project
 Tags: bitcoin, smart contracts, ai, hackathon, miniscript
-Summary: Hackathon winner, a LLM code assistant for Bitcoin smart contracts.
+Summary: Minimaxis is a hackathon-winning AI assistant for Bitcoin Miniscript that can write, explain, and correct smart contract code.
 
 satshack presentation
 
@@ -1402,7 +1402,7 @@ Source: _posts/2023-08-31-o-padrao-fiduciario.md
 Date: 2023-08-31
 Content type: project
 Tags: book, bitcoin, translation
-Summary: Edição brasileira do livro de Saifedean Ammous sobre o sistema fiduciário, dívida e distorções monetárias.
+Summary: O Padrão Fiduciário is the Brazilian Portuguese edition of The Fiat Standard, Saifedean Ammous's book on debt, fiat money, and the distortions of the modern monetary system.
 
 ![Livro](/assets/o-padrao-fiduciario.jpg)
 
@@ -2321,7 +2321,7 @@ Source: _posts/2020-10-16-o-padrao-bitcoin.md
 Date: 2020-10-16
 Content type: project
 Tags: book, bitcoin, translation
-Summary: Tradução para o português da edição brasileira do clássico de Saifedean Ammous.
+Summary: O Padrão Bitcoin is the Brazilian Portuguese edition of Saifedean Ammous's book on the history of money, hard money, and Bitcoin as a decentralized alternative to central banking.
 
 ![Livro](/assets/o-padrao-bitcoin.jpg)
 
@@ -2339,7 +2339,7 @@ Source: _posts/2020-09-28-bip39-portuguese-wordlist.md
 Date: 2020-09-28
 Content type: project
 Tags: bitcoin, open-source, standards
-Summary: Co-creation of the official Portuguese BIP39 wordlist for wallet mnemonic backups.
+Summary: BIP39 Portuguese Wordlist is the official Portuguese mnemonic list added to bitcoin/bips for wallet backups, with Breno Brito credited among the co-authors of the upstream contribution.
 
 **BIP39 Portuguese Wordlist** is the official list of Portuguese words added to the BIP39 repository for mnemonic wallet backups.
 
@@ -2366,7 +2366,7 @@ Source: _posts/2019-12-17-o-pequeno-livro-do-bitcoin.md
 Date: 2019-12-17
 Content type: project
 Tags: book, bitcoin, translation
-Summary: Tradução para o português de um guia introdutório sobre por que Bitcoin importa para liberdade, finanças e futuro.
+Summary: O Pequeno Livro do Bitcoin is the Portuguese edition of The Little Bitcoin Book, a concise introduction to why Bitcoin matters for freedom, money, and the future.
 
 ![Livro](/assets/o-pequeno-livro-bitcoin.jpg)
 
@@ -2384,9 +2384,30 @@ Source: _posts/2019-08-26-palestra-introducao-a-opcoes.md
 Date: 2019-08-26T12:00:00-03:00
 Content type: media
 Tags: finance, derivatives, options, presentation
-Summary: Palestra introdutória sobre opções e derivativos, realizada na UnB e publicada no canal de Breno Brito.
+Summary: Palestra introdutória sobre opções que explica puts, calls, precificação, transferência de risco e estratégias como covered call, travas, borboleta, condor e calendário.
 
 Palestra introdutória sobre opções, realizada na `UnB` em `19/08/2019` e publicada no canal de `Breno Brito`.
+
+Na apresentação, Breno Brito introduz o mercado de opções a partir de analogias simples e depois avança para a lógica dos contratos, os fatores que alteram seu preço e algumas estruturas usadas para controlar risco e retorno.
+
+### Pontos principais
+
+- `Put` como seguro: a opção de venda aparece primeiro como uma forma de proteção, análoga a um seguro contra queda forte no valor do ativo.
+- `Call` como direito de compra: a explicação usa o exemplo de um sinal para reservar um carro por um preço pré-determinado durante um prazo.
+- Opção como derivativo padronizado: o contrato deriva valor de um ativo subjacente e funciona como ferramenta de transferência de risco entre comprador e lançador.
+- O prêmio depende de fatores como `spot`, `strike`, prazo e volatilidade: quanto maior a incerteza e quanto mais longo o prazo, maior tende a ser o valor da opção.
+- O diferencial em relação ao futuro é a não obrigatoriedade de exercício por parte do titular.
+
+### Estratégias mencionadas
+
+- compra e venda de `puts` e `calls`
+- `covered call`
+- travas de alta e de baixa
+- `borboleta`
+- `condor`
+- trava de calendário
+
+Ao longo da fala, a ênfase está menos em formalismo matemático e mais em intuição operacional: entender o que cada lado do contrato ganha, perde e transfere de risco.
 
 Observação: as explicações desenhadas no quadro não foram filmadas no vídeo original.
 

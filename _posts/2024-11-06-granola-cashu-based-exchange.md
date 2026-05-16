@@ -3,6 +3,7 @@ layout: post
 title:  "Granola - Cashu-based exchange"
 date:   2024-11-06
 excerpt: "3rd place and Best Nostr at SatsHack 2024, a Cashu + Nostr exchange concept."
+description: "Granola is a Cashu- and Nostr-based exchange concept for privacy-preserving ecash swaps, built for SatsHack 2024 and recognized at Satsconf."
 content_type: project
 tag:
 - bitcoin
@@ -11,7 +12,7 @@ tag:
 - ecash
 comments: false
 mermaid: true
-feature:
+feature: /assets/generated/granola.png
 ---
 
 **Granola** is a **Cashu-based exchange** concept built for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
