@@ -15,11 +15,11 @@ layout: compress
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
             <div class="row">
-                    <a href="{{ site.url }}">
-                        <img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }}" class="img-circle zoombtn animated rotateIn">
+                    <a href="{{ '/' | relative_url }}">
+                        <img src="{{ '/' | append: site.logo | relative_url }}" alt="{{ site.title }}" class="img-circle zoombtn animated rotateIn">
                     </a>
                     <h3 class="title">
-                        <a class="zoombtn" href="{{ site.url }}">
+                        <a class="zoombtn" href="{{ '/' | relative_url }}">
                             <p class="home-title">{{ site.title }}</p>
 			            </a>
                     </h3>
@@ -32,19 +32,19 @@ layout: compress
                     {% include social-links.html %}
                   <hr class="hr-line">
                   <h3 class="title">
-                         <a class="btn zoombtn" href="{{ site.url }}/about">
+                         <a class="btn zoombtn" href="{{ '/about/' | relative_url }}">
                          About
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/articles">
+                         <a class="btn zoombtn" href="{{ '/articles/' | relative_url }}">
                          Writing
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/media">
+                         <a class="btn zoombtn" href="{{ '/media/' | relative_url }}">
                          Talks &amp; Media
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/projects">
+                         <a class="btn zoombtn" href="{{ '/projects/' | relative_url }}">
                          Projects
                          </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/contact">
+                         <a class="btn zoombtn" href="{{ '/contact/' | relative_url }}">
                          Contact
                          </a>
                  </h3>

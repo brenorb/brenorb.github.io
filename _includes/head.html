@@ -14,8 +14,8 @@
     <meta name="ai-topic" content="{{ site.ai_topic }}">
     <meta name="ai-audience" content="{{ site.ai_audience }}">
     <meta name="ai-use" content="{{ site.ai_use }}">
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ site.url }}/sitemap.xml">
-    <link rel="llms.txt" type="text/plain" href="{{ site.url }}/llms.txt">
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | relative_url }}">
+    <link rel="llms.txt" type="text/plain" href="{{ '/llms.txt' | relative_url }}">
     <!-- Twitter Cards -->
     {% if page.feature %}{% capture feature %}{{ page.feature }}{% endcapture %}{% unless feature contains 'http://' or feature contains 'https://' %}{% capture feature %}{{ site.url }}/{{ feature }}{% endcapture %}{% endunless %}
     <meta name="twitter:card" content="summary_large_image">
@@ -43,22 +43,22 @@
     {% if site.bing-verify %}    <meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
     {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
     <link rel="canonical" href="{{ canonical }}">
-    <link href="{{ site.url }}/feed.xml" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
+    <link href="{{ '/feed.xml' | relative_url }}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
     <!-- Handheld -->
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/main.css">
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <!-- JS -->
-    <script src="{{ site.url }}/assets/js/modernizr-3.3.1.custom.min.js"></script>
+    <script src="{{ '/assets/js/modernizr-3.3.1.custom.min.js' | relative_url }}"></script>
     <!-- Favicons -->
-    <link rel="apple-touch-icon" href="{{ site.url }}/assets/img/favicons/apple-icon-precomposed.png?v=20260418">
-    <link rel="apple-touch-icon" sizes="72x72" href="{{ site.url }}/assets/img/favicons/apple-icon-72x72.png?v=20260418">
-    <link rel="apple-touch-icon" sizes="114x114" href="{{ site.url }}/assets/img/favicons/apple-icon-114x114.png?v=20260418">
-    <link rel="apple-touch-icon" sizes="144x144" href="{{ site.url }}/assets/img/favicons/apple-icon-144x144.png?v=20260418">
-    <link rel="shortcut icon" type="image/png" href="{{ site.url }}/favicon.png?v=20260418" />
-    <link rel="shortcut icon" href="{{ site.url }}/favicon.ico?v=20260418" />
+    <link rel="apple-touch-icon" href="{{ '/assets/img/favicons/apple-icon-precomposed.png?v=20260418' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ '/assets/img/favicons/apple-icon-72x72.png?v=20260418' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="114x114" href="{{ '/assets/img/favicons/apple-icon-114x114.png?v=20260418' | relative_url }}">
+    <link rel="apple-touch-icon" sizes="144x144" href="{{ '/assets/img/favicons/apple-icon-144x144.png?v=20260418' | relative_url }}">
+    <link rel="shortcut icon" type="image/png" href="{{ '/favicon.png?v=20260418' | relative_url }}" />
+    <link rel="shortcut icon" href="{{ '/favicon.ico?v=20260418' | relative_url }}" />
     <!-- Post Feature Image -->
     {% if page.feature %}
     {% capture feature %}{{ page.feature }}{% endcapture %}
