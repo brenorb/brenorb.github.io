@@ -97,6 +97,7 @@ Granola is currently an early design note rather than a production system. The i
 [Official SatsHack Submission](https://eventornado.com/submission/granola?s=1){: .btn .btn-info}
 [GitHub Repo](https://github.com/GranolaCash/granola){: .btn .btn-info}
 [Pitch Video](https://www.youtube.com/watch?v=Lq_zZx2cBXk){: .btn .btn-info}
+[Thesis PDF](/assets/docs/granola-cashu-thesis-2025.pdf){: .btn .btn-info}
 [No Bullshit Bitcoin Coverage](https://www.nobsbitcoin.com/gm-2024-11-22/){: .btn .btn-info}
 [Livecoins Coverage](https://livecoins.com.br/satsconf-2024-maior-evento-de-bitcoin-no-brasil-discute-futuro-da-moeda-digital/){: .btn .btn-info}
 [Portal do Bitcoin on SatsHack](https://portaldobitcoin.uol.com.br/vinteum-anuncia-hackathon-para-desenvolvedores-de-bitcoin-e-lightning-network/){: .btn .btn-info}

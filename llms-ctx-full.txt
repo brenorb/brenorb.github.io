@@ -681,6 +681,7 @@ Granola is currently an early design note rather than a production system. The i
 [Official SatsHack Submission](https://eventornado.com/submission/granola?s=1)
 [GitHub Repo](https://github.com/GranolaCash/granola)
 [Pitch Video](https://www.youtube.com/watch?v=Lq_zZx2cBXk)
+[Thesis PDF](/assets/docs/granola-cashu-thesis-2025.pdf)
 [No Bullshit Bitcoin Coverage](https://www.nobsbitcoin.com/gm-2024-11-22/)
 [Livecoins Coverage](https://livecoins.com.br/satsconf-2024-maior-evento-de-bitcoin-no-brasil-discute-futuro-da-moeda-digital/)
 [Portal do Bitcoin on SatsHack](https://portaldobitcoin.uol.com.br/vinteum-anuncia-hackathon-para-desenvolvedores-de-bitcoin-e-lightning-network/)
@@ -2476,6 +2477,26 @@ Não há dúvidas que Satoshi Nakamoto era um gênio, grande criptógrafo, inven
 ---
 
 Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/17-fatos-que-todo-iniciante-no-bitcoin-precisa-aprender/) em 16 de maio 2021.
+
+### Portfolio optimization using variance-adjusted mean and predictive structures
+
+URL: https://brenorb.com/projects/portfolio-optimization-thesis/
+Source: _posts/2020-12-01-tcc-otimizacao-de-portfolio.md
+Date: 2020-12-01
+Content type: project
+Tags: academia, finance, research
+Summary: Undergraduate thesis at the University of Brasilia co-advised by Breno Brito on portfolio optimization, correcting the Markowitz model by variance, and using predictive structures.
+
+This project records my role as **co-advisor** for the undergraduate thesis **"Otimização de um Portfólio de Investimentos Utilizando o Modelo de Média Ajustada pela Variância e Estruturas Preditivas"** by **Lucas Lobo Ataide** and **Pedro Vieira Kluppel Carrara** at the **University of Brasilia**.
+
+The thesis starts from a practical criticism of using arithmetic return in the Markowitz portfolio model and proposes a variance adjustment to better estimate the portfolio's true return. From there, it adds a predictive structure based on financial indicators, a leverage policy inspired by **one quarter of the Kelly criterion**, and a risk analysis using **Monte Carlo**, **Value at Risk**, and **correlation**.
+
+The abstract concludes that the proposed model improves adjusted return estimation and shows gain potential above the benchmark used in the study.
+
+In the PDF acknowledgements, Lucas Ataide explicitly thanks his **co-advisor Breno Rodrigues Brito** for the effort invested in helping build the work. That mention appears on **PDF page 5**.
+
+### Links
+[Thesis PDF](/assets/docs/tcc-portfolio-investimentos-2020.pdf)
 
 ### O Padrão Bitcoin
 
