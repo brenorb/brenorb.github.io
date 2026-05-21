@@ -11,7 +11,7 @@ tag:
 - finance
 - research
 comments: false
-feature: /assets/generated/tcc-portfolio-investimentos-2020.png
+feature: /assets/generated/reinforcement-learning-financial-markets-thesis-2013.png
 ---
 
 This project records my role as **co-advisor** for the undergraduate thesis **"Otimização de um Portfólio de Investimentos Utilizando o Modelo de Média Ajustada pela Variância e Estruturas Preditivas"** by **Lucas Lobo Ataide** and **Pedro Vieira Kluppel Carrara** at the **University of Brasilia**.
