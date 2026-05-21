@@ -20,4 +20,4 @@ feature: /assets/o-padrao-bitcoin.jpg
 Na página do livro na Amazon, Breno Brito aparece creditado como **tradutor**, ao lado de **Guilherme Bandeira**. É um dos títulos centrais da literatura de Bitcoin publicados em português.
 
 ## Links
-[Ver na Amazon](https://www.amazon.com.br/Padr%C3%A3o-Bitcoin-Edi%C3%A7%C3%A3o-Brasileira-Descentralizada/dp/9949745780){: .btn .btn-info}
+[Ver na Amazon](https://amzn.to/3PgoQ1t){: .btn .btn-info}

@@ -20,4 +20,4 @@ feature: /assets/o-manifesto-descomunista.jpg
 O título aparece associado ao catálogo de Breno Brito na Amazon e amplia a parte mais filosófica e cultural dos projetos ligados ao universo Bitcoin.
 
 ## Links
-[Ver na Amazon](https://www.amazon.com.br/dp/6598439744){: .btn .btn-info}
+[Ver na Amazon](https://amzn.to/4uZL0nw){: .btn .btn-info}

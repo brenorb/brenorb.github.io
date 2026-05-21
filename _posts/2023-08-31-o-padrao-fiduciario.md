@@ -20,4 +20,4 @@ feature: /assets/o-padrao-fiduciario.jpg
 O título aparece associado ao catálogo de Breno Brito na Amazon e complementa as ideias desenvolvidas em **O Padrão Bitcoin**, olhando para o outro lado da discussão: crédito, dívida e moeda estatal.
 
 ## Links
-[Ver na Amazon](https://www.amazon.com.br/dp/B0CH2MG29K){: .btn .btn-info}
+[Ver na Amazon](https://amzn.to/4tT59ei){: .btn .btn-info}
