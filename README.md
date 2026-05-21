@@ -1,30 +1,38 @@
-# Moon Jekyll Theme [![Donate](https://img.shields.io/badge/paypal-donate-blue.svg)](https://www.paypal.me/taylantatli/0usd)  
-  
-## `Sorry guys but there will be no update until I buy a new laptop.`
-    
-######(If you like this theme or using it, please give a :star: for motivation.)
+# Breno Brito website
 
-**[Moon](https://taylantatli.github.io/Moon)** is a minimal, one column jekyll theme.
+Source for https://brenorb.com.
 
-## Features
-* Minimal, you can focus on your content
-* Responsive
-* Disqus integration
-* Syntax highlighting
-* Optional post image
-* Social icons
-* Page for sharing projects
-* Optional background image
-* Simple navigation menu
-* MathJax support
+This repo contains Breno Brito's personal site, including:
+- articles and notes in `_posts/`
+- profile and static pages such as `/about/`, `/projects/`, and `/media/`
+- machine-readable crawler context in `llms.txt` and `llms-ctx-full.txt`
 
-## Preview
+## Local development
 
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509720/61c61058-01d6-11e6-93ab-0918515ecd56.png)    
-![screenshot of Moon](https://cloud.githubusercontent.com/assets/754514/14509716/61ac6c8e-01d6-11e6-879f-8308883de790.png)
+Requirements:
+- Ruby with Bundler
+- the gems from `Gemfile`
 
-See a [live version of Moon](https://taylantatli.github.io/Moon) hosted on GitHub.
+Install dependencies:
 
-## Getting Started
+```bash
+bundle install
+```
 
-To learn how to install and use this theme check out the [Setup Guide](https://taylantatli.github.io/Moon/moon-theme/) for more information.
+Run locally:
+
+```bash
+bundle exec jekyll serve
+```
+
+Build the site:
+
+```bash
+bundle exec jekyll build
+```
+
+## Repo notes
+
+- `_config.yml` holds site metadata, SEO fields, and Jekyll settings.
+- `scripts/build-llms-ctx-full.rb` regenerates the expanded AI context file.
+- `control.sh` provides a small Podman-based workflow for containerized local serving.
