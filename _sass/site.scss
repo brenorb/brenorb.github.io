@@ -234,3 +234,54 @@ header .entry-meta {
         background-position: center center;
     }
 }
+
+.contact-grid {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+	margin-top: 2rem;
+}
+
+.contact-card {
+	flex: 1 1 280px;
+	padding: 24px;
+	border: 1px solid $color_mercury;
+	border-radius: 3px;
+	background: $color_alabaster;
+
+	h2 {
+		margin-top: 0;
+	}
+}
+
+.contact-info {
+	margin: 0 0 24px;
+}
+
+.contact-form {
+	label {
+		display: block;
+		margin: 0 0 8px;
+		font-weight: 600;
+	}
+
+	input,
+	textarea {
+		width: 100%;
+		padding: 12px 14px;
+		margin-bottom: 18px;
+		border: 1px solid $color_mischka;
+		border-radius: 3px;
+		background: $white;
+		color: $color_tuatara;
+	}
+
+	textarea {
+		min-height: 180px;
+		resize: vertical;
+	}
+}
+
+.contact-honeypot {
+	display: none;
+}
