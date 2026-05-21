@@ -11,6 +11,7 @@ tags:
 - audio
 - transcription
 comments: false
+feature: /assets/generated/fast-transcript.png
 ---
 
 **fast-transcript** is a local CLI for **transcribing large lectures quickly on a laptop**.

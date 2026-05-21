@@ -24,3 +24,4 @@ This repo is Breno's personal website.
 - Prefer editing the website content in this repo before touching external context files.
 - If adding a new project to the site, create a project post in `_posts/` so it appears on `/projects/`.
 - Use the project's meaningful public start date when the request asks for a date; if release history matters, prefer the first published tag.
+- Keep CI runtime versions explicit in GitHub Actions. If a workflow uses `ruby/setup-ruby`, set `ruby-version` in the workflow instead of relying on repository defaults being present.

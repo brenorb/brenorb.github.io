@@ -17,6 +17,7 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
+          ruby-version: 3.1.3
           bundler-cache: true
 
       - name: Regenerate llms-ctx-full.txt

@@ -3,13 +3,14 @@ layout: post
 title: "BIP39 Portuguese Wordlist"
 date: 2020-09-28
 excerpt: "Co-creation of the official Portuguese BIP39 wordlist for wallet mnemonic backups."
+description: "BIP39 Portuguese Wordlist is the official Portuguese mnemonic list added to bitcoin/bips for wallet backups, with Breno Brito credited among the co-authors of the upstream contribution."
 content_type: project
 tag:
 - bitcoin
 - open-source
 - standards
 comments: false
-feature:
+feature: /assets/generated/bip39-portuguese-wordlist.png
 ---
 
 **BIP39 Portuguese Wordlist** is the official list of Portuguese words added to the BIP39 repository for mnemonic wallet backups.

@@ -1,16 +1,16 @@
 	<nav id="dl-menu" class="dl-menuwrapper" role="navigation">
 		<button class="dl-trigger">Open Menu</button>
 		<ul class="dl-menu">
-			<li><a href="{{ site.url }}/">Home</a></li>
+			<li><a href="{{ '/' | relative_url }}">Home</a></li>
 			<li>
 				<a href="#">About</a>
 				<ul class="dl-submenu">
 					<li>
-						<img src="{{ site.url }}/{{ site.logo }}" alt="{{ site.title }} photo" class="author-photo">
+						<img src="{{ '/' | append: site.logo | relative_url }}" alt="{{ site.title }} photo" class="author-photo">
 						<h4>{{ site.title }}</h4>
 						<p>{{ site.description }}</p>
 					</li>
-					<li><a href="{{ site.url }}/about/"><span class="btn btn-inverse">Learn More</span></a></li>
+					<li><a href="{{ '/about/' | relative_url }}"><span class="btn btn-inverse">Learn More</span></a></li>
 					{% if site.email %}<li>
                         <a href="mailto:{{ site.email }}" target="_blank" rel="noopener noreferrer"><i class="fa fa-fw fa-envelope-square"></i> Email</a>
                     </li>{% endif %}
@@ -100,11 +100,11 @@
                 {% if link.url contains 'http' %}
                     {% assign domain = '' %}
                     {% else %}
-                    {% assign domain = site.url %}
+                    {% assign domain = site.baseurl %}
                 {% endif %}
             <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
 		    {% endfor %}
-            <li><a href="{{ site.url }}/contact/">Contact</a></li>
-            <li><a href="{{ site.url }}/tags/">Tags</a>
+            <li><a href="{{ '/contact/' | relative_url }}">Contact</a></li>
+            <li><a href="{{ '/tags/' | relative_url }}">Tags</a>
 		</ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->

@@ -3,6 +3,7 @@ layout: post
 title:  "O Manifesto Descomunista"
 date:   2025-02-25
 excerpt: "Editoração da edição brasileira do livro de Aleks Svetski sobre esperança, responsabilidade e liberdade."
+description: "O Manifesto Descomunista is the Brazilian edition of Aleks Svetski's book on hope, individual responsibility, and freedom, with editorial work by Breno Brito."
 content_type: project
 tag:
 - book
@@ -19,4 +20,4 @@ feature: /assets/o-manifesto-descomunista.jpg
 O título aparece associado ao catálogo de Breno Brito na Amazon e amplia a parte mais filosófica e cultural dos projetos ligados ao universo Bitcoin.
 
 ## Links
-[Ver na Amazon](https://www.amazon.com.br/dp/6598439744){: .btn .btn-info}
+[Ver na Amazon](https://amzn.to/4uZL0nw){: .btn .btn-info}

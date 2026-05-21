@@ -2,16 +2,19 @@
 layout: post
 title:  "Granola - Cashu-based exchange"
 date:   2024-11-06
+permalink: /granola/
 excerpt: "3rd place and Best Nostr at SatsHack 2024, a Cashu + Nostr exchange concept."
+description: "Granola is a Cashu- and Nostr-based exchange concept for privacy-preserving ecash swaps, built for SatsHack 2024 and recognized at Satsconf."
 content_type: project
 tag:
+- academia
 - bitcoin
 - cashu
 - nostr
 - ecash
 comments: false
 mermaid: true
-feature:
+feature: /assets/generated/granola.png
 ---
 
 **Granola** is a **Cashu-based exchange** concept built for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
@@ -30,6 +33,12 @@ Public coverage after the event recorded Granola as one of the highlighted winne
 - **No Bullshit Bitcoin** listed Granola as **3rd place overall** and **Best Nostr**.
 - **Livecoins** also highlighted Granola among the winning Satsconf / SatsHack projects.
 - **Portal do Bitcoin** had covered the hackathon beforehand, noting that SatsHack would culminate with finalists pitching at Satsconf.
+
+## Academic reference
+
+Granola was later cited as the starting point for Hugo Szerwinski's 2025 undergraduate thesis at the University of Brasilia, *Protocolo de Swap Atômico Entre Mints de Cashu*. Breno Brito also co-advised the thesis work.
+
+In the thesis motivation section, Szerwinski states that the work was inspired by Granola as presented by **Breno Brito** and **Luis Schwab** during **SatsHack 2024**, and that the thesis began from analyzing and implementing the referenced project. This mention appears in the **"Motivação"** section on **PDF page 18** (document page 17).
 
 ## What the project proposed
 
@@ -88,6 +97,7 @@ Granola is currently an early design note rather than a production system. The i
 [Official SatsHack Submission](https://eventornado.com/submission/granola?s=1){: .btn .btn-info}
 [GitHub Repo](https://github.com/GranolaCash/granola){: .btn .btn-info}
 [Pitch Video](https://www.youtube.com/watch?v=Lq_zZx2cBXk){: .btn .btn-info}
+[Thesis PDF](/assets/docs/granola-cashu-thesis-2025.pdf){: .btn .btn-info}
 [No Bullshit Bitcoin Coverage](https://www.nobsbitcoin.com/gm-2024-11-22/){: .btn .btn-info}
 [Livecoins Coverage](https://livecoins.com.br/satsconf-2024-maior-evento-de-bitcoin-no-brasil-discute-futuro-da-moeda-digital/){: .btn .btn-info}
 [Portal do Bitcoin on SatsHack](https://portaldobitcoin.uol.com.br/vinteum-anuncia-hackathon-para-desenvolvedores-de-bitcoin-e-lightning-network/){: .btn .btn-info}
