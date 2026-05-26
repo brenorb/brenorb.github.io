@@ -10,6 +10,7 @@ tag:
 - academia
 - bitcoin
 - cashu
+- hackathon
 - nostr
 - ecash
 comments: false
@@ -33,6 +34,16 @@ Public coverage after the event recorded Granola as one of the highlighted winne
 - **No Bullshit Bitcoin** listed Granola as **3rd place overall** and **Best Nostr**.
 - **Livecoins** also highlighted Granola among the winning Satsconf / SatsHack projects.
 - **Portal do Bitcoin** had covered the hackathon beforehand, noting that SatsHack would culminate with finalists pitching at Satsconf.
+
+## Calle on the idea
+
+Cashu contributor **calle** later gave a concise outside framing of why Granola felt interesting. In a public Nostr reply on **November 7, 2024**, he described it as **"an exchange without an order book"** where trades happen **"off-band"** and **"at light speed"** between users, assets, and even mints.
+
+That is a good summary of the project's core intuition: Granola was not just about privacy-preserving swaps, but about replacing the usual custodial exchange flow with direct, atomic coordination across Cashu mints.
+
+The screenshot below was preserved in the original project deck, and the same text survives in calle's public Nostr reply.
+
+![Calle on Granola](/assets/generated/granola-calle-social-proof.png)
 
 ## Academic reference
 
@@ -97,6 +108,8 @@ Granola is currently an early design note rather than a production system. The i
 [Official SatsHack Submission](https://eventornado.com/submission/granola?s=1){: .btn .btn-info}
 [GitHub Repo](https://github.com/GranolaCash/granola){: .btn .btn-info}
 [Pitch Video](https://www.youtube.com/watch?v=Lq_zZx2cBXk){: .btn .btn-info}
+[Launch Note on Nostr](https://njump.me/nevent1qqsxf9xpddg83nyarq6qw6zdx2a95chyeygf9g2mfwvka53ntq3gchspz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzqc55qfxmpvr6a98p9xw93nfrxa769mfnya4ujwfrrxkkwplkrhgxsrsnws){: .btn .btn-info}
+[Calle Nostr Reply](https://njump.me/nevent1qqswslkzakgp5pechwr0n4l4rdehf6me9me2tr4gvu5dunhfc4w3c4cpz3mhxue69uhhyetvv9ujuerpd46hxtnfdupzq5xeflpdskqvdq4swxj59793uvdzqzc9pzatjk3nhmcg2h0js8trzu4mje){: .btn .btn-info}
 [Thesis PDF](/assets/docs/granola-cashu-thesis-2025.pdf){: .btn .btn-info}
 [No Bullshit Bitcoin Coverage](https://www.nobsbitcoin.com/gm-2024-11-22/){: .btn .btn-info}
 [Livecoins Coverage](https://livecoins.com.br/satsconf-2024-maior-evento-de-bitcoin-no-brasil-discute-futuro-da-moeda-digital/){: .btn .btn-info}
