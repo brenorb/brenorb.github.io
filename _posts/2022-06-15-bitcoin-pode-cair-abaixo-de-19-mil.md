@@ -8,7 +8,7 @@ tag:
 - bitcoin
 - price
 comments: false
-feature: /assets/bitcoin-preco.png
+feature: /assets/bitcoin-price.png
 ---
 
 Um dado histórico do comportamento do Bitcoin (BTC) pode ser colocado à prova nas próximas horas, caso os preços continuem a se aproximar de romper para baixo o nível de US$ 20 mil.

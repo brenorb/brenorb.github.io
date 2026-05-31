@@ -4,6 +4,9 @@ set -euo pipefail
 repo_root="$(git rev-parse --show-toplevel)"
 cd "$repo_root"
 
+echo "Checking feature image sizes"
+ruby scripts/check_feature_images.rb
+
 echo "Regenerating llms-ctx-full.txt"
 ruby scripts/build-llms-ctx-full.rb
 

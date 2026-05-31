@@ -20,6 +20,9 @@ jobs:
           ruby-version: 3.1.3
           bundler-cache: true
 
+      - name: Verify feature image sizes
+        run: ruby scripts/check_feature_images.rb
+
       - name: Regenerate llms-ctx-full.txt
         run: ruby scripts/build-llms-ctx-full.rb
 

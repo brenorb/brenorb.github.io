@@ -9,7 +9,7 @@ tag:
 - ai
 - web3
 comments: false
-feature: /assets/ai-web3.png
+feature: /assets/ai-pleb.png
 ---
 
 A inteligência artificial (ou simplesmente IA) é um sistema computacional que busca imitar o raciocínio humano, ou seja, capaz de tomar decisões de maneira autônoma. Sua principal diferença para os códigos tradicionais é o aprendizado, o uso de dados históricos para decidir qual caminho seguir.

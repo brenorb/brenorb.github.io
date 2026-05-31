@@ -31,6 +31,18 @@ Build the site:
 bundle exec jekyll build
 ```
 
+Install the repo hooks:
+
+```bash
+./scripts/install-git-hooks.sh
+```
+
+The pre-commit hook and CI both enforce a size limit for local `feature:` images in posts:
+
+```bash
+ruby scripts/check_feature_images.rb
+```
+
 ## Media transcript workflow
 
 Generate diarized raw transcripts one item at a time:
