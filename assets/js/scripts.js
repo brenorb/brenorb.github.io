@@ -71,6 +71,6 @@ window.addEventListener("load", function() {
   var mediaAnchor = firstMedia.closest(".fluid-width-video-wrapper") || firstMedia;
   var note = document.createElement("p");
   note.className = "transcript-jump";
-  note.innerHTML = '<a href="#transcricao">Transcricao diarizada abaixo.</a>';
+  note.innerHTML = '<a href="#transcricao">Transcription (experimental) below.</a>';
   mediaAnchor.insertAdjacentElement("afterend", note);
 });

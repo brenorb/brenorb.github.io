@@ -200,7 +200,7 @@ function loadItem(slug, item, itemCount) {
   return {
     id: item.id,
     slug,
-    label: item.label || (itemCount > 1 ? item.id : "Transcricao diarizada"),
+    label: item.label || (itemCount > 1 ? item.id : "Transcription (experimental)"),
     source_label: sourceLabelForUrl(publicUrlForItem(item)),
     source_url: publicUrlForItem(item),
     stats: {

@@ -3,7 +3,7 @@
     {
       "id": "palestra-plone-alinhamento-de-llms",
       "slug": "palestra-plone-alinhamento-de-llms",
-      "label": "Transcricao diarizada",
+      "label": "Transcription (experimental)",
       "source_label": "YouTube",
       "source_url": "https://www.youtube.com/watch?v=-pgSr8PIf38",
       "stats": {
