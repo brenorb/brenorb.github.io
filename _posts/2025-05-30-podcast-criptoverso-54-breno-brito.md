@@ -9,7 +9,7 @@ comments: false
 share: true
 content_type: media
 excerpt: "Participação no Criptoverso #054 para conversar sobre Bitcoin e temas relacionados ao ecossistema."
-feature: /assets/generated/podcast-criptoverso-54-breno-brito.png
+feature: /assets/generated/podcast-criptoverso-54-breno-brito.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/Vxt0Egc77o8" title="Podcast - Criptoverso #054 - Breno Brito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -21,4 +21,3 @@ Este episódio do `Criptoverso` é menos uma entrevista temática fechada e mais
 O episódio também é interessante porque não tenta separar artificialmente os assuntos. Em vez de tratar `IA`, `Bitcoin`, tradução, livro e carreira como gavetas isoladas, ele mostra como essas trilhas se cruzaram ao longo do tempo. A conversa passa pela descoberta de Bitcoin, pelo contato com escola austríaca, pela passagem do mercado financeiro para problemas computacionais, e pela ideia de que um bom material introdutório sobre Bitcoin precisava resolver uma lacuna que eu mesmo senti quando comecei a estudar.
 
 Tem ainda um tema recorrente aqui que vale registrar: o problema do hype. O episódio toca em promessas exageradas, medo de novidade e gente que reage a Bitcoin mais pela frustração de ter ignorado o ativo cedo do que por uma crítica sólida. Isso faz a página ser mais útil do que um simples “entrevista com Breno Brito”, porque ela documenta a formação intelectual e as perguntas que levaram aos projetos mais recentes.
-
