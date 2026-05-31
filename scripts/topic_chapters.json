@@ -25,6 +25,20 @@
       { "start": 4800, "title": "Borboleta, condor, calendario e combinacoes" }
     ]
   },
+  "podcast-iflsp-33-minisserie-bitcoin": {
+    "url": "https://chrt.fm/track/6A82E8/cdn.simplecast.com/audio/adce80b8-c0b1-41e8-9c8f-e59209241998/episodes/e0ba92d8-aa4a-4522-9744-2e1b1b418558/audio/38aa5006-ca81-4b79-8186-227c61d99b6a/default_tc.mp3?aid=rss_feed&feed=gYobk4m1",
+    "timestamp_style": "fragment-t",
+    "chapters": [
+      { "start": 0, "title": "Abertura e o que significa falar do presente do Bitcoin" },
+      { "start": 300, "title": "El Salvador, adocao estatal e o preparo da populacao" },
+      { "start": 600, "title": "CBDCs, privacidade e o que nao e realmente descentralizado" },
+      { "start": 900, "title": "Forks, governanca e como a rede muda sem dono" },
+      { "start": 1200, "title": "Taproot, Lightning e escalabilidade com mais discricao" },
+      { "start": 1500, "title": "ESG, narrativa ambiental e o debate sobre energia" },
+      { "start": 2100, "title": "Mercados P2P, mineracao e autocustodia na pratica" },
+      { "start": 2400, "title": "Blockchain, responsabilidade individual e encerramento" }
+    ]
+  },
   "palestra-plone-alinhamento-de-llms": {
     "url": "https://www.youtube.com/watch?v=-pgSr8PIf38",
     "chapters": [
@@ -123,6 +137,23 @@
       { "start": 2400, "title": "Valuation, cenarios e Nakamoto Portfolio" },
       { "start": 3000, "title": "Heranca, custody e seguranca pratica" },
       { "start": 3240, "title": "Mineracao, micropagamentos e impressoes finais da conferencia" }
+    ]
+  },
+  "podcast-blocktrends-bitcoin-ia-mercados-eficientes": {
+    "url": "https://www.youtube.com/watch?v=VddyevajQ68",
+    "chapters": [
+      { "start": 120, "title": "Abertura e pauta: Bitcoin, IA e mercados" },
+      { "start": 300, "title": "Trajetoria do Breno e o que esta construindo hoje" },
+      { "start": 600, "title": "Spirit of Satoshi e IA especializada para Bitcoin" },
+      { "start": 900, "title": "O que aprendizado de maquina faz e onde ele falha" },
+      { "start": 1200, "title": "Trading sistematico sem fantasia de modelo magico" },
+      { "start": 1500, "title": "O que e quant trading e como ele difere da analise classica" },
+      { "start": 1800, "title": "Analise tecnica, analise fundamentalista e modelos quantitativos" },
+      { "start": 2400, "title": "Valuation do Bitcoin: ouro, power law e stock-to-flow" },
+      { "start": 3000, "title": "Hipotese de mercado eficiente como modelo mental" },
+      { "start": 3300, "title": "Capacity, fundos grandes e por que escala muda tudo" },
+      { "start": 3600, "title": "Analise on-chain e a carteira Satoshi" },
+      { "start": 3900, "title": "Livro, educacao de base e formacao de novos usuarios" }
     ]
   },
   "podcast-criptoverso-54-breno-brito": {
@@ -261,6 +292,18 @@
       { "start": 2100, "title": "Demo: heuristicas e tipos de vazamento detectados" },
       { "start": 2700, "title": "Paynyms, silent payments e padroes melhores para wallets" },
       { "start": 3300, "title": "Feedback para fabricantes de wallet e futuro do projeto" }
+    ]
+  },
+  "quant-finance-investimento": {
+    "url": "https://www.youtube.com/watch?v=4Ap0jAPX00o",
+    "chapters": [
+      { "start": 0, "title": "Abertura, trajetoria profissional e entrada em Bitcoin" },
+      { "start": 300, "title": "Wash trading e o valor de trabalhar com dados de mercado" },
+      { "start": 600, "title": "Transparencia, infraestrutura aberta e por que isso importa" },
+      { "start": 900, "title": "Qualitativo versus quantitativo sem caricatura" },
+      { "start": 1200, "title": "Analise fundamentalista e o que realmente gera valor" },
+      { "start": 1500, "title": "Correlacoes, pairs trading e quando o mercado descola" },
+      { "start": 1800, "title": "Machine learning em financas e os limites da automacao" }
     ]
   }
 }

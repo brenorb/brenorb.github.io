@@ -912,6 +912,8 @@ Convidado:
 
 Entender o preço do Bitcoin e como o mercado funciona é uma tarefa difícil para quem observa apenas os gráficos de preço. Entretanto, ao observarmos através da ótica matemática, começamos a entender uma série de ineficiências neste mercado. Hoje conversaremos com o Breno Brito para entender como utilizar inteligência artificial para compreender o Bitcoin.
 
+ 
+
 Recomendações:
 🏦 Como abrir uma conta e NEGOCIAR CRIPTOMOEDAS (ByBit): 
 
@@ -2429,6 +2431,8 @@ Embedded media: https://open.spotify.com/embed/episode/4y9clyC3E2m8hrUEvu2zqx?ut
 Este episódio faz parte da minissérie `Bitcoin: Passado, Presente e Futuro` do `IFLSP` e corresponde ao bloco do presente, em conversa com `Solange Gueiros`. Pelo próprio texto de divulgação do episódio, a pauta parte de um artigo baseado em um capítulo do meu então novo livro e gira em torno das novidades tecnológicas que estavam sendo construídas para o Bitcoin naquele momento.
 
 Mesmo sem inventar detalhes que não estão públicos nas show notes, dá para registrar bem o papel desta participação: ela funciona como uma conversa de panorama sobre o estado técnico da rede, cobrindo temas como operação da infraestrutura descentralizada, resiliência do protocolo, `Lightning Network`, mineração, contexto regulatório e a diferença entre observar o Bitcoin apenas como preço e entendê-lo como sistema monetário em evolução.
+
+ 
 
 É um episódio útil especialmente como peça de contexto histórico. Ele captura um momento em que a discussão pública sobre Bitcoin estava tentando sair da caricatura do “ativo especulativo” para falar mais seriamente de arquitetura, uptime da rede, camadas de escalabilidade e implicações geopolíticas.
 

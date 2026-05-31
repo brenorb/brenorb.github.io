@@ -3,7 +3,7 @@ const path = require("path");
 
 const chaptersPath = path.join(__dirname, "topic_chapters.json");
 const outputDir = path.join(__dirname, "..", "_includes", "generated");
-const transcriptsDir = path.join(__dirname, "..", "tmp", "transcripts60");
+const transcriptsDir = path.join(__dirname, "..", "transcripts", "raw");
 
 function formatTime(totalSeconds) {
   const seconds = Math.max(0, Math.floor(totalSeconds));
@@ -32,6 +32,10 @@ function buildTimestampUrl(url, seconds, timestampStyle) {
     return `${url}${separator}at=${seconds}`;
   }
 
+  if (timestampStyle === "fragment-t") {
+    return `${url}#t=${seconds}`;
+  }
+
   return `${url}${separator}t=${seconds}`;
 }
 
@@ -43,7 +47,7 @@ function loadChunkStarts(slug) {
   }
 
   const transcript = JSON.parse(fs.readFileSync(transcriptPath, "utf8"));
-  return (transcript.chunks || [])
+  return (transcript.chunks || transcript.segments || [])
     .map((chunk) => Number(chunk.start_s))
     .filter((start) => Number.isFinite(start))
     .sort((a, b) => a - b);
@@ -79,7 +83,7 @@ for (const slug of Object.keys(specs).sort()) {
   ];
 
   for (const chapter of spec.chapters) {
-    const start = snapToChunkStart(chapter.start, chunkStarts);
+    const start = snapToChunkStart(Math.max(0, Number(chapter.start) || 0), chunkStarts);
     const url = buildTimestampUrl(spec.url, start, spec.timestamp_style);
     lines.push(
       `    <li><a class="media-chapters__stamp" href="#media-player" data-external-url="${url}" data-start-seconds="${start}">${formatTime(start)}</a> <span class="media-chapters__topic">${escapeHtml(chapter.title)}</span></li>`

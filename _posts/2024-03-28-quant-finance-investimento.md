@@ -31,3 +31,5 @@ feature: /assets/satsconf-bitcoin.jpg
 - Machine Learning aplicado a mercado financeiro;
 
 🎙️ Nesse papo, Breno e Victor Cabral falaram um pouco de tudo isso e desmistificaram  (através de exemplos) a aplicabilidade da análise quantitativa nos dias atuais. Baita papo! 
+
+{% include generated/quant-finance-investimento-chapters.html %}

@@ -48,6 +48,8 @@ Convidado:
 
 Entender o preço do Bitcoin e como o mercado funciona é uma tarefa difícil para quem observa apenas os gráficos de preço. Entretanto, ao observarmos através da ótica matemática, começamos a entender uma série de ineficiências neste mercado. Hoje conversaremos com o Breno Brito para entender como utilizar inteligência artificial para compreender o Bitcoin.
 
+{% include generated/podcast-blocktrends-bitcoin-ia-mercados-eficientes-chapters.html %}
+
 Recomendações:
 🏦 Como abrir uma conta e NEGOCIAR CRIPTOMOEDAS (ByBit):   
 

@@ -21,5 +21,6 @@ Este episódio faz parte da minissérie `Bitcoin: Passado, Presente e Futuro` do
 
 Mesmo sem inventar detalhes que não estão públicos nas show notes, dá para registrar bem o papel desta participação: ela funciona como uma conversa de panorama sobre o estado técnico da rede, cobrindo temas como operação da infraestrutura descentralizada, resiliência do protocolo, `Lightning Network`, mineração, contexto regulatório e a diferença entre observar o Bitcoin apenas como preço e entendê-lo como sistema monetário em evolução.
 
-É um episódio útil especialmente como peça de contexto histórico. Ele captura um momento em que a discussão pública sobre Bitcoin estava tentando sair da caricatura do “ativo especulativo” para falar mais seriamente de arquitetura, uptime da rede, camadas de escalabilidade e implicações geopolíticas.
+{% include generated/podcast-iflsp-33-minisserie-bitcoin-chapters.html %}
 
+É um episódio útil especialmente como peça de contexto histórico. Ele captura um momento em que a discussão pública sobre Bitcoin estava tentando sair da caricatura do “ativo especulativo” para falar mais seriamente de arquitetura, uptime da rede, camadas de escalabilidade e implicações geopolíticas.
