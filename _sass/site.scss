@@ -451,6 +451,40 @@ header .entry-meta {
 	}
 }
 
+.media-chapters {
+	margin: 1.75rem 0;
+	padding: 1rem 1.1rem;
+	border: 1px solid rgba($color_tuatara, 0.12);
+	border-radius: 6px;
+	background: rgba($white, 0.88);
+}
+
+.media-chapters__title {
+	margin: 0 0 0.8rem;
+	@include font-rem(16);
+}
+
+.media-chapters__list {
+	margin: 0;
+	padding-left: 1.2rem;
+
+	li {
+		margin-top: 0.5rem;
+		line-height: 1.6;
+	}
+
+	li:first-child {
+		margin-top: 0;
+	}
+}
+
+.media-chapters__stamp {
+	display: inline-block;
+	min-width: 3.5rem;
+	margin-right: 0.45rem;
+	font-variant-numeric: tabular-nums;
+}
+
 .media-transcripts {
 	margin-top: 2rem;
 	padding-top: 1rem;

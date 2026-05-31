@@ -73,20 +73,20 @@ for (const slug of Object.keys(specs).sort()) {
   const spec = specs[slug];
   const chunkStarts = loadChunkStarts(slug);
   const lines = [
-    "<details>",
-    "  <summary>Capítulos por assunto</summary>",
-    "  <ul>"
+    '<section class="media-chapters">',
+    "  <h3 class=\"media-chapters__title\">Capítulos por assunto</h3>",
+    "  <ul class=\"media-chapters__list\">"
   ];
 
   for (const chapter of spec.chapters) {
     const start = snapToChunkStart(chapter.start, chunkStarts);
     const url = buildTimestampUrl(spec.url, start, spec.timestamp_style);
     lines.push(
-      `    <li><a href="${url}">${formatTime(start)}</a> ${escapeHtml(chapter.title)}</li>`
+      `    <li><a class="media-chapters__stamp" href="${url}">${formatTime(start)}</a> <span class="media-chapters__topic">${escapeHtml(chapter.title)}</span></li>`
     );
   }
 
-  lines.push("  </ul>", "</details>", "");
+  lines.push("  </ul>", "</section>", "");
 
   fs.writeFileSync(
     path.join(outputDir, `${slug}-chapters.html`),
