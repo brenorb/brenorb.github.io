@@ -26,4 +26,6 @@ Também ficou bem documentada a origem do projeto. O `Stealth` nasceu num hackat
 
 O trecho final é útil porque discute distribuição, não só técnica. Em vez de imaginar o projeto apenas como app isolado, aparece ali a possibilidade de transformar o núcleo de detecção em biblioteca reutilizável por outras carteiras. Isso me interessa bastante porque muda o lugar do projeto: de demo boa de hackathon para peça de infraestrutura prática de privacidade no ecossistema Bitcoin.
 
+Também publicado na Fountain: https://fountain.fm/episode/kUr7VFvKz6HywLRvoQ5Z
+
 Projeto: [Stealth no GitHub](https://github.com/stealth-bitcoin/stealth).

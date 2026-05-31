@@ -21,3 +21,5 @@ Este episódio do `Explica Bitcoin` é uma conversa longa sobre inteligência ar
 Depois dessa introdução, a conversa fica mais ampla. O episódio passa pelo papel do `Transformer` e do choque de `UX` que o `ChatGPT` causou em 2022, pelo efeito de ferramentas de IA sobre produtividade e contratação, e por uma tese que eu considero importante: boa parte do impacto real não virá só de grandes empresas substituindo equipes, mas também de times muito menores conseguindo construir software útil com muito menos atrito.
 
 Tem ainda dois blocos especialmente bons aqui. Um deles é a explicação de aprendizado supervisionado, não supervisionado e por reforço, incluindo exemplos de `reward hacking` e o paralelo com incentivos mal desenhados no mundo real. O outro é a discussão sobre adaptação social: por que eu não vejo a automação como “fim do trabalho” em sentido absoluto, mas como uma mudança profunda no tipo de trabalho, no valor da criatividade e no modo como educação, coordenação e autonomia econômica tendem a se reorganizar.
+
+Também disponível no Spotify: https://open.spotify.com/episode/13HhyIFSPZzNXB16rknJBe
