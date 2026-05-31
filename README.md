@@ -43,6 +43,12 @@ The pre-commit hook and CI both enforce a size limit for local `feature:` images
 ruby scripts/check_feature_images.rb
 ```
 
+They also verify that embedded `media` posts are covered by the transcript manifest and wired to generated chapter includes:
+
+```bash
+node scripts/check_media_sources.js
+```
+
 ## Media transcript workflow
 
 Generate diarized raw transcripts one item at a time:
@@ -71,13 +77,21 @@ Verify that every manifest item has raw JSON, native `--script` output, and appe
 node scripts/verify_media_transcripts.js
 ```
 
+Regenerate the chapter includes for posts that already have curated chapter specs:
+
+```bash
+node scripts/build_topic_chapters.js
+```
+
 ## Repo notes
 
 - `_config.yml` holds site metadata, SEO fields, and Jekyll settings.
 - `scripts/build-llms-ctx-full.rb` regenerates the expanded AI context file.
 - `scripts/media_sources.json` is the media manifest for transcript generation.
-- `scripts/check_media_sources.js` verifies that every post with an embedded media player is present in the manifest.
-- `scripts/verify_media_transcripts.js` verifies that each manifest item has raw transcripts, native script output, and generated appendix data.
+- `scripts/check_media_sources.js` verifies that embedded `media` posts are present in the manifest and include generated chapter navigation.
+- `scripts/topic_chapters.json` is the curated chapter source of truth for `media` posts.
+- `scripts/build_topic_chapters.js` renders those curated chapters into `_includes/generated/`.
+- `scripts/verify_media_transcripts.js` verifies that each manifest item has raw transcripts, native script output, generated appendix data, and published diarization metadata.
 - `scripts/transcribe_media_batch.js` runs the frozen `fscript` + diarization flow sequentially and writes both JSON and native `--script` outputs.
 - `scripts/build_media_appendices.js` converts raw transcript JSON into `_data/media_appendices/`.
 - `control.sh` provides a small Podman-based workflow for containerized local serving.

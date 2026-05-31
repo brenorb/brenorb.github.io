@@ -15,6 +15,14 @@ function hasNonEmptyFile(filePath) {
   return fs.existsSync(filePath) && fs.readFileSync(filePath, "utf8").trim().length > 0;
 }
 
+function countDistinctSpeakers(lines) {
+  return new Set(
+    (lines || [])
+      .map((line) => (typeof line.speaker === "string" ? line.speaker.trim() : ""))
+      .filter(Boolean)
+  ).size;
+}
+
 function main() {
   const manifest = readJson(manifestPath);
   const problems = [];
@@ -36,6 +44,7 @@ function main() {
       const rawPath = path.join(rawDir, `${item.id}.json`);
       const scriptPath = path.join(scriptsDir, `${item.id}.script.txt`);
       const appendixItem = appendixItems.get(item.id);
+      const rawTranscript = fs.existsSync(rawPath) ? readJson(rawPath) : null;
 
       if (!fs.existsSync(rawPath)) {
         problems.push(`missing raw transcript for ${slug}/${item.id}`);
@@ -43,12 +52,19 @@ function main() {
       if (!hasNonEmptyFile(scriptPath)) {
         problems.push(`missing script transcript for ${slug}/${item.id}`);
       }
+      if (rawTranscript && !rawTranscript.speaker_diarization) {
+        problems.push(`missing speaker diarization metadata for ${slug}/${item.id}`);
+      }
       if (!appendixItem) {
         problems.push(`missing appendix item for ${slug}/${item.id}`);
         continue;
       }
       if (!Array.isArray(appendixItem.lines) || appendixItem.lines.length === 0) {
         problems.push(`empty appendix lines for ${slug}/${item.id}`);
+      }
+      const distinctSpeakers = countDistinctSpeakers(appendixItem.lines);
+      if ((appendixItem.stats?.speaker_count || 0) < 1 || distinctSpeakers < 1) {
+        problems.push(`non-diarized appendix output for ${slug}/${item.id}`);
       }
       for (const line of appendixItem.lines || []) {
         if (!line.timestamp) {
