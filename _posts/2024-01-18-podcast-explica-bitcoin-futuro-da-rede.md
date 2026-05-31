@@ -33,6 +33,3 @@ Ao longo do episódio eu passo por alguns grupos de ideia:
 
 Também tem uma tese mais ampla que continua sendo central para mim: se o Bitcoin ficar restrito a uma bolha ideológica ou a um caso de uso estreito, ele falhou. Escalabilidade, ferramentas de segunda camada e interfaces melhores importam justamente porque o objetivo é tornar o sistema usável em escala humana, sem depender de bancos para cada interação.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=rSJvdmHwyHg

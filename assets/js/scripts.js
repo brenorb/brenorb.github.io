@@ -80,31 +80,61 @@ function seekEmbeddedVideo(video, seconds) {
   }
 
   var seekTo = function() {
-    video.currentTime = seconds;
+    try {
+      video.currentTime = seconds;
+    } catch (error) {}
+
     var playPromise = video.play();
     if (playPromise && typeof playPromise.catch === "function") {
       playPromise.catch(function() {});
     }
   };
 
+  try {
+    video.currentTime = seconds;
+  } catch (error) {}
+
   if (video.readyState >= 1) {
     seekTo();
     return true;
   }
 
+  video.preload = "metadata";
   video.addEventListener("loadedmetadata", seekTo, { once: true });
   video.load();
   return true;
 }
 
+function ensureMediaPlayerAnchor() {
+  var firstMedia = document.querySelector(".content iframe, .content video");
+  if (!firstMedia) {
+    return;
+  }
+
+  var mediaAnchor = firstMedia.closest(".fluid-width-video-wrapper") || firstMedia;
+  if (!mediaAnchor.id) {
+    mediaAnchor.id = "media-player";
+  }
+}
+
 function wireMediaChapterSeeking() {
+  if (document.documentElement.dataset.mediaChapterSeekingBound === "1") {
+    return;
+  }
+
+  document.documentElement.dataset.mediaChapterSeekingBound = "1";
+
   document.addEventListener("click", function(event) {
     var link = event.target.closest(".media-chapters__stamp");
     if (!link) {
       return;
     }
 
-    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) {
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+      return;
+    }
+
+    if (typeof event.button === "number" && event.button !== 0) {
       return;
     }
 
@@ -131,8 +161,12 @@ function wireMediaChapterSeeking() {
     }
 
     event.preventDefault();
+    event.stopPropagation();
+    if (typeof event.stopImmediatePropagation === "function") {
+      event.stopImmediatePropagation();
+    }
     media.scrollIntoView({ behavior: "smooth", block: "center" });
-  });
+  }, true);
 }
 
 // FitVids options
@@ -140,6 +174,9 @@ $(function() {
   normalizeResponsiveVideoEmbeds();
   $(".content").fitVids();
 });
+
+ensureMediaPlayerAnchor();
+wireMediaChapterSeeking();
 
 // All others
 $(document).ready(function() {
@@ -183,7 +220,7 @@ $(document).ready(function() {
 });
 
 window.addEventListener("load", function() {
-  wireMediaChapterSeeking();
+  ensureMediaPlayerAnchor();
 
   var transcriptAnchor = document.querySelector("[data-transcript-anchor]");
   var firstMedia = document.querySelector(".content iframe, .content video");

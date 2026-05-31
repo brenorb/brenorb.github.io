@@ -35,6 +35,3 @@ Um dos eixos da conversa é o problema de `alinhamento`: em vez de depender de m
 - [Spirit of Satoshi](https://www.spiritofsatoshi.ai/)
 - [App do Spirit of Satoshi](https://www.app.spiritofsatoshi.ai/sign-in)
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=B_3lKKxbC40

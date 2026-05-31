@@ -22,6 +22,3 @@ Ao longo do episódio eu tento manter uma linguagem simples sem desfigurar o pro
 
 Outro ponto bom é que a entrevista volta a perguntas que parecem óbvias, mas quase nunca são respondidas com clareza: o que significa dizer que o Bitcoin é melhor do que formas anteriores de dinheiro, onde entra a questão da privacidade, o que muda com propostas como o Drex, e por que uma moeda com oferta previsível reorganiza incentivos de consumo, poupança e poder político.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=CD4SEIwWSpA

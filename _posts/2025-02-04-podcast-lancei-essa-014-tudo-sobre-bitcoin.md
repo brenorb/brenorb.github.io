@@ -21,7 +21,3 @@ O `Lancei Essa` republicou em formato de podcast este bate-papo longo sobre Bitc
 O valor desta página é justamente registrar esse percurso completo. O entrevistador chega com dúvidas comuns de quem já viu o preço subir, comprou, vendeu e percebeu que não tinha base suficiente para entender o que estava segurando. A partir daí eu tento responder sem cair nem em misticismo nem em jargão excessivo: o que o Bitcoin resolve, por que a escassez importa, como a rede impede gasto duplo, como a segurança depende de criptografia e mineração, e por que a emissão limitada muda a lógica de longo prazo.
 
 Tem também uma parte especialmente útil sobre o ambiente ao redor do protocolo. A conversa passa por golpes em cripto, pela diferença entre Bitcoin e altcoins, pelo problema de privacidade financeira em sistemas cada vez mais centralizados e pelo tipo de autonomia que uma ferramenta como o Bitcoin pode dar em contextos onde o dinheiro é facilmente confiscável ou monitorável. Isso deixa a página mais rica do que um "tudo sobre Bitcoin" genérico, porque ela liga os conceitos técnicos às consequências sociais e políticas.
-
-Links diretos:
-
-- YouTube: https://www.youtube.com/watch?v=akM5nD10uCY

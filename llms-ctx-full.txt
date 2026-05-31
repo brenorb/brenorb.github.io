@@ -174,11 +174,6 @@ Também ficou bem documentada a origem do projeto. O `Stealth` nasceu num hackat
 
 O trecho final é útil porque discute distribuição, não só técnica. Em vez de imaginar o projeto apenas como app isolado, aparece ali a possibilidade de transformar o núcleo de detecção em biblioteca reutilizável por outras carteiras. Isso me interessa bastante porque muda o lugar do projeto: de demo boa de hackathon para peça de infraestrutura prática de privacidade no ecossistema Bitcoin.
 
-Links diretos:
-
-- Fountain: https://fountain.fm/episode/kUr7VFvKz6HywLRvoQ5Z
-- Projeto: https://github.com/stealth-bitcoin/stealth
-
 ### Stealth - Bitcoin wallet privacy auditing tool
 
 URL: https://brenorb.com/stealth/
@@ -247,10 +242,6 @@ O núcleo do episódio é a discussão sobre mercado de trabalho. Em vez de vend
 Outro bloco importante é o de risco e segurança. A conversa sai do clichê “a IA vai nos dominar” e foca mais no que me preocupa de verdade: humanos mal-intencionados usando IA para escalar fraude, ataque e engenharia social. O caso citado do ecossistema open source ajuda bastante a mostrar por que o problema não é só automação produtiva, mas também amplificação de dano.
 
 Também gostei da parte sobre especialização, porque ela evita o erro comum de tratar toda produção como commodity. A tese que aparece ali é que muita execução mediana vai baratear brutalmente, mas ainda sobra espaço para gente com repertório, critério e bom gosto conseguir dirigir melhor essas ferramentas. Isso não elimina o choque no meio do caminho, mas muda a pergunta: menos “a IA substitui todo mundo?” e mais “que tipo de julgamento humano continua raro quando a execução fica barata?”.
-
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=3QVFWHxvgvQ
 
 ### btc-graph - Interactive Bitcoin learning graph
 
@@ -348,10 +339,6 @@ O corpo da talk passa por quatro abstrações principais do `DSPy`: `signatures`
 
 O fechamento também é bom porque vai além de “prompt engineering com nome novo”. A palestra argumenta que avaliação, datasets de exemplo, métricas e otimização devem fazer parte do ciclo normal de manutenção do produto. Em vez de reescrever prompt a cada modelo novo, a ideia é manter o sistema adaptável: trocar adapter, ajustar módulo, reavaliar, otimizar e seguir em frente sem perder legibilidade nem controle.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=01yeO-1RUcg
-
 ### Podcast - Explica Bitcoin - IA: O Fim da História Humana ou um Novo Começo?
 
 URL: https://brenorb.com/podcast-explica-bitcoin-ia-fim-da-historia-humana/
@@ -370,11 +357,6 @@ Este episódio do `Explica Bitcoin` é uma conversa longa sobre inteligência ar
 Depois dessa introdução, a conversa fica mais ampla. O episódio passa pelo papel do `Transformer` e do choque de `UX` que o `ChatGPT` causou em 2022, pelo efeito de ferramentas de IA sobre produtividade e contratação, e por uma tese que eu considero importante: boa parte do impacto real não virá só de grandes empresas substituindo equipes, mas também de times muito menores conseguindo construir software útil com muito menos atrito.
 
 Tem ainda dois blocos especialmente bons aqui. Um deles é a explicação de aprendizado supervisionado, não supervisionado e por reforço, incluindo exemplos de `reward hacking` e o paralelo com incentivos mal desenhados no mundo real. O outro é a discussão sobre adaptação social: por que eu não vejo a automação como “fim do trabalho” em sentido absoluto, mas como uma mudança profunda no tipo de trabalho, no valor da criatividade e no modo como educação, coordenação e autonomia econômica tendem a se reorganizar.
-
-Links diretos:
-
-- Spotify: https://open.spotify.com/episode/13HhyIFSPZzNXB16rknJBe
-- YouTube: https://www.youtube.com/watch?v=sqle4sHCdEQ
 
 ### docs2epub
 
@@ -425,10 +407,6 @@ Ao longo do episódio eu tento manter uma linguagem simples sem desfigurar o pro
 
 Outro ponto bom é que a entrevista volta a perguntas que parecem óbvias, mas quase nunca são respondidas com clareza: o que significa dizer que o Bitcoin é melhor do que formas anteriores de dinheiro, onde entra a questão da privacidade, o que muda com propostas como o Drex, e por que uma moeda com oferta previsível reorganiza incentivos de consumo, poupança e poder político.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=CD4SEIwWSpA
-
 ### Podcast - Criptoverso - Lançamento do livro Bitcoin 101
 
 URL: https://brenorb.com/podcast-criptoverso-lancamento-livro-bitcoin-101/
@@ -448,10 +426,6 @@ O valor desta página não está só em divulgar promoção ou lançamento, mas 
 
 O episódio também puxa algumas das teses que atravessam o livro inteiro: por que o Bitcoin importa, por que ele não é só “mais um ativo”, como o dinheiro fiduciário desorganiza incentivos de longo prazo e por que muita gente só percebe tarde demais que a mudança já começou. É dali que vem a metáfora que aparece na conversa: o Bitcoin não é um modismo passageiro, mas um processo que vai arrastar muita gente antes que ela se sinta intelectualmente pronta para isso.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=9mM1cLua69Y
-
 ### Podcast - Criptoverso #054 - Breno Brito
 
 URL: https://brenorb.com/podcast-criptoverso-54-breno-brito/
@@ -470,10 +444,6 @@ Este episódio do `Criptoverso` é menos uma entrevista temática fechada e mais
 O episódio também é interessante porque não tenta separar artificialmente os assuntos. Em vez de tratar `IA`, `Bitcoin`, tradução, livro e carreira como gavetas isoladas, ele mostra como essas trilhas se cruzaram ao longo do tempo. A conversa passa pela descoberta de Bitcoin, pelo contato com escola austríaca, pela passagem do mercado financeiro para problemas computacionais, e pela ideia de que um bom material introdutório sobre Bitcoin precisava resolver uma lacuna que eu mesmo senti quando comecei a estudar.
 
 Tem ainda um tema recorrente aqui que vale registrar: o problema do hype. O episódio toca em promessas exageradas, medo de novidade e gente que reage a Bitcoin mais pela frustração de ter ignorado o ativo cedo do que por uma crítica sólida. Isso faz a página ser mais útil do que um simples “entrevista com Breno Brito”, porque ela documenta a formação intelectual e as perguntas que levaram aos projetos mais recentes.
-
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=Vxt0Egc77o8
 
 ### O Manifesto Descomunista
 
@@ -571,10 +541,6 @@ O valor desta página é justamente registrar esse percurso completo. O entrevis
 
 Tem também uma parte especialmente útil sobre o ambiente ao redor do protocolo. A conversa passa por golpes em cripto, pela diferença entre Bitcoin e altcoins, pelo problema de privacidade financeira em sistemas cada vez mais centralizados e pelo tipo de autonomia que uma ferramenta como o Bitcoin pode dar em contextos onde o dinheiro é facilmente confiscável ou monitorável. Isso deixa a página mais rica do que um "tudo sobre Bitcoin" genérico, porque ela liga os conceitos técnicos às consequências sociais e políticas.
 
-Links diretos:
-
-- YouTube: https://www.youtube.com/watch?v=akM5nD10uCY
-
 ### Podcast - BetterMoney - 101 Perguntas sobre Bitcoin
 
 URL: https://brenorb.com/podcast-bettermoney-101-perguntas-sobre-bitcoin/
@@ -595,10 +561,6 @@ Uma parte especialmente útil do episódio é o bloco sobre erros de aprendizage
 O outro eixo forte da conversa é a passagem do ecossistema cripto para o maximalismo. O episódio documenta bem como estudar altcoins de perto foi parte do processo de descartá-las: gestora de cripto, análise fundamentalista de projetos, observação do colapso de teses em 2018 e, por fim, a conclusão de que dinheiro tende a convergir para um ativo monetário dominante em vez de se fragmentar em milhares de “moedas” com promessas vagas de utilidade. Nesse ponto, aparecem influências como `Saifedean`, `Jim Song`, `Michael Saylor` e a crítica à confusão entre dinheiro, blockchain e software corporativo.
 
 Também gosto deste episódio porque ele captura a fronteira moral do debate. A conversa diferencia claramente curiosidade honesta, especulação ingênua e predação deliberada no mercado de altcoins. Isso dá ao post um valor que vai além do livro: ele registra uma posição mais nítida sobre por que Bitcoin importa, por que boa parte do resto não se sustenta e por que entender isso cedo poupa tempo, capital e energia.
-
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=CBq94KL66lU
 
 ### Palestra - Plone - Alinhamento de LLMs: O Que É e Principais Técnicas
 
@@ -621,10 +583,6 @@ O valor prático do vídeo está em organizar as técnicas por famílias. Eu pas
 
 Também tem uma parte boa de exemplos concretos de falha, incluindo respostas perigosas ou absurdas e casos de viés em geração de imagem. Isso ajuda a manter a conversa no terreno correto: alinhamento não é só um detalhe acadêmico ou um "acabamento" de UX, mas uma parte do trabalho de segurança, produto e responsabilidade de quem põe modelos no mundo.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=-pgSr8PIf38
-
 ### Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf
 
 URL: https://brenorb.com/podcast-bipa-cast-38-satsconf/
@@ -645,10 +603,6 @@ Depois o foco vai para o hackathon. Eu explico o que um hackathon realmente é, 
 Na segunda metade, o valor do episódio está em condensar vários painéis da conferência sem cair em relatório burocrático. A conversa passa por mineração, novos formatos de hardware, o uso de infraestrutura de dados para IA, a dificuldade de autocustódia para o próximo bilhão de usuários, e uma ideia que me marcou bastante ali: a adoção futura não deve ser pensada só em termos de humanos. Agentes de IA também tendem a preferir um dinheiro nativo da internet, de baixo atrito e capaz de micropagamentos.
 
 Tem ainda uma discussão boa sobre análise on-chain, com a ressalva correta: dados on-chain são uma fonte riquíssima, mas viram um guia perigoso quando usados isoladamente e sem contexto macro. Isso faz a página servir não só como registro da SatsConf, mas como um resumo dos temas que estavam realmente vivos naquele momento do ecossistema.
-
-Links diretos:
-
-- YouTube: https://www.youtube.com/watch?v=20sPMNVQTug
 
 ### Granola - Cashu-based exchange
 
@@ -776,10 +730,6 @@ Uma parte central da conversa é sobre forma. Em vez de montar um tratado denso 
 
 O papo também passa por exemplos concretos de pergunta difícil para iniciante e por que elas importam: como responder a banimento estatal, cenários de colapso de internet, maximalismo, segurança, autocustódia e o próprio problema de uma moeda precisar ser forte, justa e resistente a captura política. Então, embora o título do episódio pareça "sobre o livro", o que a página documenta de fato é a filosofia editorial e intelectual por trás dele.
 
-Links diretos:
-
-- YouTube: https://www.youtube.com/watch?v=J_aFuT9NrIQ
-
 ### Palestra - CEUB/GDG Brasília - Apresentações sobre Inteligência Artificial e Ciência de Dados
 
 URL: https://brenorb.com/palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados/
@@ -803,10 +753,6 @@ O vídeo reúne as duas apresentações da noite:
 Na minha parte, a ideia é dar um mapa do terreno sem fingir que 30 minutos resolvem o assunto. Eu passo por `prompt engineering`, `prompt learning`, `fine-tuning`, `instruction tuning`, `representation engineering`, `sparse autoencoders`, `guardrails`, `human in the loop` e `RLHF`, sempre conectando essas técnicas a um problema concreto: vazamento de informação, respostas perigosas, comportamento inconsistente, ou vieses que saem da fase de treinamento e reaparecem na interface final.
 
 A segunda fala deixa essa página melhor do que um simples embed porque traz um contraponto muito pé no chão. Em vez de repetir a fantasia de "área fácil, salário instantâneo e mil ferramentas obrigatórias", o Gabriel discute o que costuma ser realmente cobrado, por que `Python` e `SQL` continuam centrais, como o mercado ficou mais exigente e como separar conhecimento importante de marketing de curso.
-
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=A4f7HJ42M8I
 
 ### 101 Perguntas sobre Bitcoin
 
@@ -1198,10 +1144,6 @@ No fim, minha posição no episódio é menos "o halving sozinho explicará tudo
 
 Também gosto desse episódio porque ele registra uma mudança de contexto: além do choque de oferta do halving, o mercado já estava absorvendo um choque de demanda muito diferente do que existiu nos ciclos anteriores. O ponto não é prever um número mágico, mas olhar para a combinação de emissão menor, novos canais de acesso e um mercado ainda longe de ser plenamente arbitrado.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=ekQtXuTDOIs
-
 ### Como será o futuro do Bitcoin à medida que recompensas aos mineradores ficam cada vez menores?
 
 URL: https://brenorb.com/futuro-bitcoin-halving/
@@ -1282,10 +1224,6 @@ Outra parte boa da conversa é a discussão sobre alinhamento e treinamento. O J
 
 No final eu entro num ponto que continua atual: modelos não "esquecem" de forma limpa só porque você quer, e mexer neles quase sempre é mais experimental do que o marketing de IA faz parecer. Essa parte deixa a página mais útil do que um simples embed porque documenta não só o produto mostrado, mas o tipo de raciocínio técnico e epistemológico por trás dele.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=8s-GyRcZ6s0
-
 ### Podcast - Papo Aberto 10 - Análise de Dados pode facilitar seu investimento em Digital Assets? Quant Finance
 
 URL: https://brenorb.com/quant-finance-investimento/
@@ -1339,10 +1277,6 @@ Ao longo do episódio eu passo por alguns grupos de ideia:
 - Nostr e Holepunch como peças adjacentes: não são "o futuro do Bitcoin" sozinhas, mas ajudam a imaginar uma internet mais nativa para dinheiro, comunicação e coordenação P2P.
 
 Também tem uma tese mais ampla que continua sendo central para mim: se o Bitcoin ficar restrito a uma bolha ideológica ou a um caso de uso estreito, ele falhou. Escalabilidade, ferramentas de segunda camada e interfaces melhores importam justamente porque o objetivo é tornar o sistema usável em escala humana, sem depender de bancos para cada interação.
-
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=rSJvdmHwyHg
 
 ### Quais novas tecnologias devem surgir nos próximos anos no Bitcoin?
 
@@ -1451,10 +1385,6 @@ Um dos eixos da conversa é o problema de `alinhamento`: em vez de depender de m
 
 - [Spirit of Satoshi](https://www.spiritofsatoshi.ai/)
 - [App do Spirit of Satoshi](https://www.app.spiritofsatoshi.ai/sign-in)
-
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=B_3lKKxbC40
 
 ### Satsconf reúne cerca de 700 entusiastas de Bitcoin em SP e confirma 3ª edição em 2024
 
@@ -2266,10 +2196,6 @@ Ao longo da conversa, o debate mistura temas técnicos e políticos: `Taproot`, 
 - [Artigos de Breno Brito no Portal do Bitcoin](https://portaldobitcoin.uol.com.br/author/breno/)
 - [Breaking Bitcoin no Twitter](https://twitter.com/breakingbitcoin)
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=jiZwzsmd9Go
-
 ### Bitcoin abaixo de US$ 19 mil? Por que seria um padrão de preço que nunca aconteceu antes
 
 URL: https://brenorb.com/bitcoin-pode-cair-abaixo-de-19-mil/
@@ -2483,12 +2409,6 @@ Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como m
 - `O Pequeno Livro do Bitcoin`, especialmente pela forma como conecta Bitcoin a direitos humanos, propriedade e contextos de inflação alta
 - `Inventing Bitcoin`, de `Yan Pritzker`, como porta de entrada técnica para quem quer entender o protocolo sem se perder em matemática pesada
 
- 
-
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=s2BQr1xDpc0
-
 ### Podcast - #33 Minissérie Bitcoin - Episódio 2: Presente com Solange Gueiros e Breno Brito - Acendendo as Luzes (IFLCast) - Instituto de Formação de Líderes de São Paulo (IFLSP)
 
 URL: https://brenorb.com/podcast-iflsp-33-minisserie-bitcoin/
@@ -2505,10 +2425,6 @@ Este episódio faz parte da minissérie `Bitcoin: Passado, Presente e Futuro` do
 Mesmo sem inventar detalhes que não estão públicos nas show notes, dá para registrar bem o papel desta participação: ela funciona como uma conversa de panorama sobre o estado técnico da rede, cobrindo temas como operação da infraestrutura descentralizada, resiliência do protocolo, `Lightning Network`, mineração, contexto regulatório e a diferença entre observar o Bitcoin apenas como preço e entendê-lo como sistema monetário em evolução.
 
 É um episódio útil especialmente como peça de contexto histórico. Ele captura um momento em que a discussão pública sobre Bitcoin estava tentando sair da caricatura do “ativo especulativo” para falar mais seriamente de arquitetura, uptime da rede, camadas de escalabilidade e implicações geopolíticas.
-
-Se preferir abrir direto no Spotify:
-
-- https://open.spotify.com/episode/4y9clyC3E2m8hrUEvu2zqx
 
 ### Elon Musk está errado e eu posso provar
 
@@ -2751,10 +2667,6 @@ Ao longo da fala, a ênfase está menos em formalismo matemático e mais em intu
  
 
 Observação: as explicações desenhadas no quadro não foram filmadas no vídeo original.
-
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=jCL-yxlpx8Q
 
 ### 10 Coisas que Alguns ”Especialistas” e Jornalistas Erram sobre Bitcoin e Criptomoedas
 

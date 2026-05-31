@@ -21,7 +21,3 @@ Este episódio gira em torno do livro [101 Perguntas sobre Bitcoin]({% post_url 
 Uma parte central da conversa é sobre forma. Em vez de montar um tratado denso para ser lido linearmente, a ideia do livro foi funcionar como um conjunto de cápsulas: alguém pode abrir no índice, escolher uma dúvida específica e avançar sem sentir que precisa dominar toda a teoria antes de continuar. Isso vale para iniciantes, mas o episódio também mostra como tentei colocar ali perguntas menos óbvias, temas pouco explorados e algumas perspectivas que eu mesmo senti falta quando comecei a estudar o assunto.
 
 O papo também passa por exemplos concretos de pergunta difícil para iniciante e por que elas importam: como responder a banimento estatal, cenários de colapso de internet, maximalismo, segurança, autocustódia e o próprio problema de uma moeda precisar ser forte, justa e resistente a captura política. Então, embora o título do episódio pareça "sobre o livro", o que a página documenta de fato é a filosofia editorial e intelectual por trás dele.
-
-Links diretos:
-
-- YouTube: https://www.youtube.com/watch?v=J_aFuT9NrIQ

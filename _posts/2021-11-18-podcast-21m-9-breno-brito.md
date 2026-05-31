@@ -34,6 +34,3 @@ Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como m
 
 {% include generated/podcast-21m-9-breno-brito-chapters.html %}
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=s2BQr1xDpc0

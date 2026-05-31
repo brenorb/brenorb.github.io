@@ -22,6 +22,3 @@ O episódio também é interessante porque não tenta separar artificialmente os
 
 Tem ainda um tema recorrente aqui que vale registrar: o problema do hype. O episódio toca em promessas exageradas, medo de novidade e gente que reage a Bitcoin mais pela frustração de ter ignorado o ativo cedo do que por uma crítica sólida. Isso faz a página ser mais útil do que um simples “entrevista com Breno Brito”, porque ela documenta a formação intelectual e as perguntas que levaram aos projetos mais recentes.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=Vxt0Egc77o8

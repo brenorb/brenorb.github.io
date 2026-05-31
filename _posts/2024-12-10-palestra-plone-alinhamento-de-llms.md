@@ -25,6 +25,3 @@ O valor prático do vídeo está em organizar as técnicas por famílias. Eu pas
 
 Também tem uma parte boa de exemplos concretos de falha, incluindo respostas perigosas ou absurdas e casos de viés em geração de imagem. Isso ajuda a manter a conversa no terreno correto: alinhamento não é só um detalhe acadêmico ou um "acabamento" de UX, mas uma parte do trabalho de segurança, produto e responsabilidade de quem põe modelos no mundo.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=-pgSr8PIf38

@@ -24,6 +24,3 @@ Outro bloco importante é o de risco e segurança. A conversa sai do clichê “
 
 Também gostei da parte sobre especialização, porque ela evita o erro comum de tratar toda produção como commodity. A tese que aparece ali é que muita execução mediana vai baratear brutalmente, mas ainda sobra espaço para gente com repertório, critério e bom gosto conseguir dirigir melhor essas ferramentas. Isso não elimina o choque no meio do caminho, mas muda a pergunta: menos “a IA substitui todo mundo?” e mais “que tipo de julgamento humano continua raro quando a execução fica barata?”.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=3QVFWHxvgvQ

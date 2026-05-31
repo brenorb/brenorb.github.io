@@ -22,6 +22,3 @@ Mesmo sem inventar detalhes que não estão públicos nas show notes, dá para r
 
 É um episódio útil especialmente como peça de contexto histórico. Ele captura um momento em que a discussão pública sobre Bitcoin estava tentando sair da caricatura do “ativo especulativo” para falar mais seriamente de arquitetura, uptime da rede, camadas de escalabilidade e implicações geopolíticas.
 
-Se preferir abrir direto no Spotify:
-
-- https://open.spotify.com/episode/4y9clyC3E2m8hrUEvu2zqx

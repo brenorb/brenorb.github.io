@@ -22,6 +22,3 @@ O valor desta página não está só em divulgar promoção ou lançamento, mas 
 
 O episódio também puxa algumas das teses que atravessam o livro inteiro: por que o Bitcoin importa, por que ele não é só “mais um ativo”, como o dinheiro fiduciário desorganiza incentivos de longo prazo e por que muita gente só percebe tarde demais que a mudança já começou. É dali que vem a metáfora que aparece na conversa: o Bitcoin não é um modismo passageiro, mas um processo que vai arrastar muita gente antes que ela se sinta intelectualmente pronta para isso.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=9mM1cLua69Y

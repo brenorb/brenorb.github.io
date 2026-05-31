@@ -23,7 +23,3 @@ Depois o foco vai para o hackathon. Eu explico o que um hackathon realmente é, 
 Na segunda metade, o valor do episódio está em condensar vários painéis da conferência sem cair em relatório burocrático. A conversa passa por mineração, novos formatos de hardware, o uso de infraestrutura de dados para IA, a dificuldade de autocustódia para o próximo bilhão de usuários, e uma ideia que me marcou bastante ali: a adoção futura não deve ser pensada só em termos de humanos. Agentes de IA também tendem a preferir um dinheiro nativo da internet, de baixo atrito e capaz de micropagamentos.
 
 Tem ainda uma discussão boa sobre análise on-chain, com a ressalva correta: dados on-chain são uma fonte riquíssima, mas viram um guia perigoso quando usados isoladamente e sem contexto macro. Isso faz a página servir não só como registro da SatsConf, mas como um resumo dos temas que estavam realmente vivos naquele momento do ecossistema.
-
-Links diretos:
-
-- YouTube: https://www.youtube.com/watch?v=20sPMNVQTug

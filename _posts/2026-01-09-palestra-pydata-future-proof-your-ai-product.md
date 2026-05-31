@@ -23,6 +23,3 @@ O corpo da talk passa por quatro abstrações principais do `DSPy`: `signatures`
 
 O fechamento também é bom porque vai além de “prompt engineering com nome novo”. A palestra argumenta que avaliação, datasets de exemplo, métricas e otimização devem fazer parte do ciclo normal de manutenção do produto. Em vez de reescrever prompt a cada modelo novo, a ideia é manter o sistema adaptável: trocar adapter, ajustar módulo, reavaliar, otimizar e seguir em frente sem perder legibilidade nem controle.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=01yeO-1RUcg

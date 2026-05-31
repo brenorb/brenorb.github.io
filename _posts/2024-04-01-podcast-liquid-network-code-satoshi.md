@@ -30,6 +30,3 @@ Outra parte boa da conversa é a discussão sobre alinhamento e treinamento. O J
 
 No final eu entro num ponto que continua atual: modelos não "esquecem" de forma limpa só porque você quer, e mexer neles quase sempre é mais experimental do que o marketing de IA faz parecer. Essa parte deixa a página mais útil do que um simples embed porque documenta não só o produto mostrado, mas o tipo de raciocínio técnico e epistemológico por trás dele.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=8s-GyRcZ6s0

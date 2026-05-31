@@ -33,6 +33,3 @@ Ao longo da conversa, o debate mistura temas técnicos e políticos: `Taproot`, 
 - [Artigos de Breno Brito no Portal do Bitcoin](https://portaldobitcoin.uol.com.br/author/breno/)
 - [Breaking Bitcoin no Twitter](https://twitter.com/breakingbitcoin)
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=jiZwzsmd9Go

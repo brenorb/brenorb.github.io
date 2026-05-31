@@ -28,6 +28,3 @@ Na minha parte, a ideia é dar um mapa do terreno sem fingir que 30 minutos reso
 
 A segunda fala deixa essa página melhor do que um simples embed porque traz um contraponto muito pé no chão. Em vez de repetir a fantasia de "área fácil, salário instantâneo e mil ferramentas obrigatórias", o Gabriel discute o que costuma ser realmente cobrado, por que `Python` e `SQL` continuam centrais, como o mercado ficou mais exigente e como separar conhecimento importante de marketing de curso.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=A4f7HJ42M8I

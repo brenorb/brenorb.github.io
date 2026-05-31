@@ -33,6 +33,3 @@ No fim, minha posição no episódio é menos "o halving sozinho explicará tudo
 
 Também gosto desse episódio porque ele registra uma mudança de contexto: além do choque de oferta do halving, o mercado já estava absorvendo um choque de demanda muito diferente do que existiu nos ciclos anteriores. O ponto não é prever um número mágico, mas olhar para a combinação de emissão menor, novos canais de acesso e um mercado ainda longe de ser plenamente arbitrado.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=ekQtXuTDOIs

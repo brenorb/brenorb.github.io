@@ -24,6 +24,3 @@ O outro eixo forte da conversa é a passagem do ecossistema cripto para o maxima
 
 Também gosto deste episódio porque ele captura a fronteira moral do debate. A conversa diferencia claramente curiosidade honesta, especulação ingênua e predação deliberada no mercado de altcoins. Isso dá ao post um valor que vai além do livro: ele registra uma posição mais nítida sobre por que Bitcoin importa, por que boa parte do resto não se sustenta e por que entender isso cedo poupa tempo, capital e energia.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=CBq94KL66lU

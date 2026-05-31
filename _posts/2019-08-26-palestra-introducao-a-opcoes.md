@@ -43,6 +43,3 @@ Ao longo da fala, a ênfase está menos em formalismo matemático e mais em intu
 
 Observação: as explicações desenhadas no quadro não foram filmadas no vídeo original.
 
-Se preferir abrir direto no YouTube:
-
-- https://www.youtube.com/watch?v=jCL-yxlpx8Q
