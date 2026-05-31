@@ -4,7 +4,7 @@ title:  "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te conta
 date:   2026-04-04 16:05:00 -0300
 description: "Conversa no BetterM sobre 16 anos estudando IA, do primeiro modelo em 2010 ao impacto atual sobre trabalho, segurança, concentração de renda, especialização e adaptação humana."
 category: podcast
-tags: [ai]
+tags: [ai, podcast]
 comments: false
 share: true
 content_type: media

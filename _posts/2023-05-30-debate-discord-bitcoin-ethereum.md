@@ -7,6 +7,7 @@ content_type: media
 tag:
 - bitcoin 
 - ethereum
+- debate
 comments: false
 feature: /assets/bitcoin-vs-ethereum.png
 ---

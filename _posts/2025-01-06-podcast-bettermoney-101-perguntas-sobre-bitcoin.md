@@ -4,7 +4,7 @@ title:  "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin"
 date:   2025-01-06 12:00:00 -0300
 description: "Conversa no BetterMoney sobre a trajetória de Breno Brito no Bitcoin, os erros do primeiro ciclo, o caminho até o maximalismo e as ideias por trás de 101 Perguntas sobre Bitcoin."
 category: podcast
-tags: [bitcoin, book]
+tags: [bitcoin, book, podcast]
 comments: false
 share: true
 content_type: media

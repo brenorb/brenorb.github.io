@@ -10,6 +10,7 @@ tag:
 - myths
 - mining
 - lightning network
+- podcast
 comments: false
 feature: /assets/generated/podcast-iflsp-33-minisserie-bitcoin.jpg
 ---

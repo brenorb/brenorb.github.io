@@ -4,7 +4,7 @@ title:  "Podcast - Criptoverso - Lançamento do livro Bitcoin 101"
 date:   2025-06-20 12:00:00 -0300
 description: "Episódio do Criptoverso sobre o lançamento do livro Bitcoin 101, a lógica por trás da estrutura em perguntas e por que o Bitcoin precisa ser entendido como uma mudança monetária mais profunda do que um simples ativo especulativo."
 category: podcast
-tags: [bitcoin, book]
+tags: [bitcoin, book, podcast]
 comments: false
 share: true
 content_type: media

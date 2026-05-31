@@ -9,6 +9,7 @@ tag:
 - bitcoin
 - ergodicity
 - quantitative finance
+- podcast
 comments: false
 feature: /assets/generated/podcast-21m-9-breno-brito.jpg
 ---

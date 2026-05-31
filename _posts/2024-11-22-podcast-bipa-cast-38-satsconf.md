@@ -4,7 +4,7 @@ title:  "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf"
 date:   2024-11-22 12:00:00 -0300
 description: "Conversa com Diego Kolling, Caio Leta e Breno Brito sobre a participação da Bipa na SatsConf, o hackathon, projetos como Floresta, Script Lab e Granola, e o que a conferência revelou sobre adoção, mineração e produto."
 category: podcast
-tags: [bitcoin, satsconf]
+tags: [bitcoin, satsconf, podcast]
 comments: false
 share: true
 content_type: media

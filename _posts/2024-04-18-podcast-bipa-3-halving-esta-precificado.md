@@ -9,6 +9,7 @@ tag:
 - bitcoin
 - layer 2
 - book
+- podcast
 comments: false
 feature: /assets/generated/podcast-bipa-3-halving-esta-precificado.jpg
 ---

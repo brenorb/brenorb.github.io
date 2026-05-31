@@ -10,6 +10,7 @@ tag:
 - inflation
 - brazil
 - latam
+- commentary
 comments: false
 ---
 

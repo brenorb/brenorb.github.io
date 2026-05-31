@@ -11,6 +11,7 @@ tag:
 - hackathon
 - miniscript
 - spirit of satoshi
+- podcast
 comments: false
 feature: /assets/generated/podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon.jpg
 ---

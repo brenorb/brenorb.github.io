@@ -10,6 +10,7 @@ tag:
 - quantitative finance
 - data science
 - ergodicity
+- podcast
 comments: false
 feature: /assets/satsconf-bitcoin.jpg
 ---

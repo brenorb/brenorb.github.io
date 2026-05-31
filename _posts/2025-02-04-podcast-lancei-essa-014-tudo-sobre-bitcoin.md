@@ -4,7 +4,7 @@ title:  "Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin"
 date:   2025-02-04 12:00:00 -0300
 description: "Conversa longa no Lancei Essa sobre Bitcoin para quem ainda está formando base: o que a rede resolve, por que o dinheiro fiduciário perde valor, como estudar o tema sem cair em golpe e por que autocustódia e privacidade importam."
 category: podcast
-tags: [bitcoin]
+tags: [bitcoin, podcast]
 comments: false
 share: true
 content_type: media

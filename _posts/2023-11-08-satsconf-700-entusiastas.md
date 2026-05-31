@@ -8,6 +8,8 @@ tag:
 - bitcoin
 - hackathon
 - satsconf
+- press
+- event
 comments: false
 feature: /assets/satsconf-bitcoin.jpg
 ---

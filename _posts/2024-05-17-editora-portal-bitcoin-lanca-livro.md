@@ -7,6 +7,8 @@ content_type: media
 tag:
 - book 
 - bitcoin
+- press
+- event
 comments: false
 feature: /assets/editora-lanca.png
 ---

@@ -4,7 +4,7 @@ title:  "Podcast - Fountain - Stealth"
 date:   2026-04-08 12:00:00 -0300
 description: "Participação no Freedom Tech Friday sobre o Stealth, ferramenta open source para auditar vazamentos de privacidade em carteiras Bitcoin a partir de descriptors públicos e heurísticas inspiradas em chain analysis."
 category: podcast
-tags: [bitcoin, privacy, hackathon]
+tags: [bitcoin, privacy, hackathon, podcast]
 comments: false
 share: true
 content_type: media

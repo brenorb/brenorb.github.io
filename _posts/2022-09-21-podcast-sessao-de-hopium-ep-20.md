@@ -7,6 +7,7 @@ description: "Participação de Breno Brito no Sessão de Hopium para discutir B
 content_type: media
 tag:
 - bitcoin
+- podcast
 comments: false
 feature: /assets/generated/podcast-sessao-de-hopium-ep-20.jpg
 ---

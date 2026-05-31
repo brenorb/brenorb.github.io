@@ -9,6 +9,7 @@ tag:
 - machine learning
 - data science
 - quantitative finance
+- podcast
 comments: false
 feature: /assets/satsconf-bitcoin.jpg
 ---

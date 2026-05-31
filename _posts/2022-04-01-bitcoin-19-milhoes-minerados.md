@@ -7,6 +7,7 @@ content_type: media
 tag:
 - bitcoin
 - halving
+- commentary
 comments: false
 feature: /assets/bitcoin-milestone.png
 ---

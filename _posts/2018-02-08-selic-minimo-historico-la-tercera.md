@@ -11,6 +11,7 @@ tag:
 - inflation
 - selic
 - interest rates
+- commentary
 comments: false
 ---
 

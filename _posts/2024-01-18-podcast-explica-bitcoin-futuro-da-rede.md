@@ -11,6 +11,7 @@ tag:
 - lightning network
 - layer 2
 - book
+- podcast
 comments: false
 feature: /assets/generated/podcast-explica-bitcoin-futuro-da-rede.jpg
 ---

@@ -161,7 +161,7 @@ URL: https://brenorb.com/podcast-stealth-fountain/
 Source: _posts/2026-04-08-podcast-stealth-fountain.md
 Date: 2026-04-08T12:00:00-03:00
 Content type: media
-Tags: bitcoin, privacy, hackathon
+Tags: bitcoin, privacy, hackathon, podcast
 Summary: Participação no Freedom Tech Friday sobre o Stealth, ferramenta open source para auditar vazamentos de privacidade em carteiras Bitcoin a partir de descriptors públicos e heurísticas inspiradas em chain analysis.
 
 Este episódio do `Freedom Tech Friday`, publicado na `Fountain`, é uma conversa sobre o [Stealth](https://github.com/stealth-bitcoin/stealth), ferramenta open source criada para colocar nas mãos do usuário uma parte do poder analítico que normalmente fica com empresas de `chain analysis`. A ideia é simples e forte: você cola o `public descriptor` da sua carteira, roda tudo localmente e recebe um relatório de vazamentos de privacidade com sugestões de correção.
@@ -232,7 +232,7 @@ URL: https://brenorb.com/podcast-betterm-16-anos-estudando-ia/
 Source: _posts/2026-04-04-podcast-betterm-16-anos-estudando-ia.md
 Date: 2026-04-04T16:05:00-03:00
 Content type: media
-Tags: ai
+Tags: ai, podcast
 Summary: Conversa no BetterM sobre 16 anos estudando IA, do primeiro modelo em 2010 ao impacto atual sobre trabalho, segurança, concentração de renda, especialização e adaptação humana.
 
 Embedded media: https://www.youtube.com/embed/3QVFWHxvgvQ
@@ -349,7 +349,7 @@ URL: https://brenorb.com/podcast-explica-bitcoin-ia-fim-da-historia-humana/
 Source: _posts/2026-01-06-podcast-explica-bitcoin-ia-fim-da-historia-humana.md
 Date: 2026-01-06T12:00:00-03:00
 Content type: media
-Tags: ai, bitcoin
+Tags: ai, bitcoin, podcast
 Summary: Conversa no Explica Bitcoin sobre a trajetória de Breno Brito em IA desde 2010, o choque do ChatGPT, impactos no trabalho, reward hacking, educação assistida por IA e por que Bitcoin continua relevante numa economia mais automatizada.
 
 Embedded media: https://www.youtube.com/embed/sqle4sHCdEQ
@@ -400,7 +400,7 @@ URL: https://brenorb.com/podcast-fernando-caixeta-101-perguntas-sobre-bitcoin/
 Source: _posts/2025-12-18-podcast-fernando-caixeta-101-perguntas-sobre-bitcoin.md
 Date: 2025-12-18T12:00:00-03:00
 Content type: media
-Tags: bitcoin, book
+Tags: bitcoin, book, podcast
 Summary: Conversa com Fernando Caixeta sobre por que o Bitcoin existe, o que mudou com o fim do lastro físico nas moedas e como o livro 101 Perguntas sobre Bitcoin tenta dar base sólida para quem ainda está no começo.
 
 Embedded media: https://www.youtube.com/embed/CD4SEIwWSpA
@@ -419,7 +419,7 @@ URL: https://brenorb.com/podcast-criptoverso-lancamento-livro-bitcoin-101/
 Source: _posts/2025-06-20-podcast-criptoverso-lancamento-livro-bitcoin-101.md
 Date: 2025-06-20T12:00:00-03:00
 Content type: media
-Tags: bitcoin, book
+Tags: bitcoin, book, podcast
 Summary: Episódio do Criptoverso sobre o lançamento do livro Bitcoin 101, a lógica por trás da estrutura em perguntas e por que o Bitcoin precisa ser entendido como uma mudança monetária mais profunda do que um simples ativo especulativo.
 
 Embedded media: https://www.youtube.com/embed/9mM1cLua69Y
@@ -438,7 +438,7 @@ URL: https://brenorb.com/podcast-criptoverso-54-breno-brito/
 Source: _posts/2025-05-30-podcast-criptoverso-54-breno-brito.md
 Date: 2025-05-30T12:00:00-03:00
 Content type: media
-Tags: bitcoin
+Tags: bitcoin, podcast
 Summary: Conversa no Criptoverso sobre a trajetória de Breno Brito, a ponte entre Bitcoin e inteligência artificial, a origem do livro 101 Perguntas sobre Bitcoin e por que o tema exige mais estudo do que hype.
 
 Embedded media: https://www.youtube.com/embed/Vxt0Egc77o8
@@ -534,7 +534,7 @@ URL: https://brenorb.com/podcast-lancei-essa-014-tudo-sobre-bitcoin/
 Source: _posts/2025-02-04-podcast-lancei-essa-014-tudo-sobre-bitcoin.md
 Date: 2025-02-04T12:00:00-03:00
 Content type: media
-Tags: bitcoin
+Tags: bitcoin, podcast
 Summary: Conversa longa no Lancei Essa sobre Bitcoin para quem ainda está formando base: o que a rede resolve, por que o dinheiro fiduciário perde valor, como estudar o tema sem cair em golpe e por que autocustódia e privacidade importam.
 
 Embedded media: https://www.youtube.com/embed/akM5nD10uCY
@@ -553,7 +553,7 @@ URL: https://brenorb.com/podcast-bettermoney-101-perguntas-sobre-bitcoin/
 Source: _posts/2025-01-06-podcast-bettermoney-101-perguntas-sobre-bitcoin.md
 Date: 2025-01-06T12:00:00-03:00
 Content type: media
-Tags: bitcoin, book
+Tags: bitcoin, book, podcast
 Summary: Conversa no BetterMoney sobre a trajetória de Breno Brito no Bitcoin, os erros do primeiro ciclo, o caminho até o maximalismo e as ideias por trás de 101 Perguntas sobre Bitcoin.
 
 Embedded media: https://www.youtube.com/embed/CBq94KL66lU
@@ -595,7 +595,7 @@ URL: https://brenorb.com/podcast-bipa-cast-38-satsconf/
 Source: _posts/2024-11-22-podcast-bipa-cast-38-satsconf.md
 Date: 2024-11-22T12:00:00-03:00
 Content type: media
-Tags: bitcoin, satsconf
+Tags: bitcoin, satsconf, podcast
 Summary: Conversa com Diego Kolling, Caio Leta e Breno Brito sobre a participação da Bipa na SatsConf, o hackathon, projetos como Floresta, Script Lab e Granola, e o que a conferência revelou sobre adoção, mineração e produto.
 
 Embedded media: https://www.youtube.com/embed/20sPMNVQTug
@@ -723,7 +723,7 @@ URL: https://brenorb.com/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/
 Source: _posts/2024-08-08-podcast-bipa-cast-22-101-perguntas-sobre-bitcoin.md
 Date: 2024-08-08T12:00:00-03:00
 Content type: media
-Tags: bitcoin, book
+Tags: bitcoin, book, podcast
 Summary: Conversa na Bipa sobre o livro 101 Perguntas sobre Bitcoin, por que ele foi estruturado em perguntas curtas e quais ideias Breno Brito queria tornar mais acessíveis sem cair no 'mais do mesmo'.
 
 Embedded media: https://www.youtube.com/embed/J_aFuT9NrIQ
@@ -800,7 +800,7 @@ URL: https://brenorb.com/questoes-sociais-sao-desafio/
 Source: _posts/2024-05-21-questoes-sociais-sao-desafio.md
 Date: 2024-05-21
 Content type: media
-Tags: book, bitcoin
+Tags: book, bitcoin, commentary
 Summary: “Parte técnica você descreve como funciona e acabou. Nas vacas sagradas leva um bom tanto de desconstrução de conceitos”, diz Breno Brito
 
 O mais complexo do Bitcoin não são os aspectos técnicos como a mineração de novas moedas, a validação de blocos e o funcionamento de carteiras cold wallet. O desafio maior está em conceitos bem mais tangíveis, como inflação e deflação, meio-ambiente e valor intrínseco.
@@ -846,7 +846,7 @@ URL: https://brenorb.com/editora-portal-bitcoin-lanca-livro/
 Source: _posts/2024-05-17-editora-portal-bitcoin-lanca-livro.md
 Date: 2024-05-17
 Content type: media
-Tags: book, bitcoin
+Tags: book, bitcoin, press, event
 Summary: A obra discorre os princípios técnicos da moeda até suas implicações socioeconômicas no contexto atual, de modo a proporcionar um entendimento profundo ao público geral.
 
 A Editora Portal do Bitcoin vai lançar na próxima terça-feira (21) o livro “101 Perguntas sobre Bitcoin”. A nova publicação serve como um guia para compreensão da criptomoeda mais popular do mundo, não apenas como uma tecnologia disruptiva, mas uma ferramenta de questionamento de conceitos tradicionais de dinheiro, propriedade e liberdade.
@@ -876,7 +876,7 @@ URL: https://brenorb.com/podcast-blocktrends-bitcoin-ia-mercados-eficientes/
 Source: _posts/2024-05-16-podcast-blocktrends-bitcoin-ia-mercados-eficientes.md
 Date: 2024-05-16
 Content type: media
-Tags: bitcoin, ai, quantitative finance, data science, ergodicity
+Tags: bitcoin, ai, quantitative finance, data science, ergodicity, podcast
 Summary: Entender o preço do Bitcoin e como o mercado funciona é uma tarefa difícil para quem observa apenas os gráficos de preço. Entretanto, ao observarmos através da ótica matemática, começamos a entender uma série de ineficiências neste mercado.
 
 Embedded media: https://www.youtube.com/embed/VddyevajQ68?si=l0o3YyOHUtrfML1E
@@ -1127,7 +1127,7 @@ URL: https://brenorb.com/podcast-bipa-3-halving-esta-precificado/
 Source: _posts/2024-04-18-podcast-bipa-3-halving-esta-precificado.md
 Date: 2024-04-18
 Content type: media
-Tags: bitcoin, layer 2, book
+Tags: bitcoin, layer 2, book, podcast
 Summary: Conversa no Bipa Cast sobre o que significa dizer que o halving está ou não precificado, por que isso remete à hipótese de mercado eficiente e como ETF, oferta e reflexividade bagunçam respostas fáceis.
 
 Embedded media: https://www.youtube.com/embed/ekQtXuTDOIs
@@ -1209,7 +1209,7 @@ URL: https://brenorb.com/podcast-liquid-network-code-satoshi/
 Source: _posts/2024-04-01-podcast-liquid-network-code-satoshi.md
 Date: 2024-04-01T12:00:00-03:00
 Content type: media
-Tags: bitcoin, ai, spirit of satoshi, miniscript, liquid
+Tags: bitcoin, ai, spirit of satoshi, miniscript, liquid, podcast
 Summary: Conversa no canal Liquid Network sobre as ferramentas da Spirit of Satoshi para desenvolvimento em Bitcoin: um assistente técnico para Liquid e o Code Satoshi, focado em Miniscript.
 
 Embedded media: https://www.youtube.com/embed/8s-GyRcZ6s0
@@ -1236,7 +1236,7 @@ URL: https://brenorb.com/quant-finance-investimento/
 Source: _posts/2024-03-28-quant-finance-investimento.md
 Date: 2024-03-28
 Content type: media
-Tags: bitcoin, machine learning, data science, quantitative finance
+Tags: bitcoin, machine learning, data science, quantitative finance, podcast
 Summary: Nesse papo, Breno e Victor Cabral falaram um pouco de tudo isso e desmistificaram  (através de exemplos) a aplicabilidade da análise quantitativa nos dias atuais.
 
 Embedded media: https://www.youtube.com/watch?v=4Ap0jAPX00o
@@ -1263,7 +1263,7 @@ URL: https://brenorb.com/podcast-explica-bitcoin-futuro-da-rede/
 Source: _posts/2024-01-18-podcast-explica-bitcoin-futuro-da-rede.md
 Date: 2024-01-18
 Content type: media
-Tags: bitcoin, ark, lightning network, layer 2, book
+Tags: bitcoin, ark, lightning network, layer 2, book, podcast
 Summary: Conversa no Explica Bitcoin sobre por que a camada base do Bitcoin não escala sozinha e quais tecnologias podem ampliar a rede, de Lightning e channel factories a Fedimint, ARC, BitVM, Nostr e Holepunch.
 
 Embedded media: https://www.youtube.com/embed/rSJvdmHwyHg
@@ -1369,7 +1369,7 @@ URL: https://brenorb.com/podcast-explica-bitcoin-espirito-satoshi-miniscript-hac
 Source: _posts/2023-11-28-podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon.md
 Date: 2023-11-28
 Content type: media
-Tags: bitcoin, ai, hackathon, miniscript, spirit of satoshi
+Tags: bitcoin, ai, hackathon, miniscript, spirit of satoshi, podcast
 Summary: Conversa no Explica Bitcoin sobre o Spirit of Satoshi, alinhamento de modelos especializados em Bitcoin e o projeto de Miniscript que venceu o hackathon da SatsConf.
 
 Embedded media: https://www.youtube.com/embed/B_3lKKxbC40
@@ -1398,7 +1398,7 @@ URL: https://brenorb.com/satsconf-700-entusiastas/
 Source: _posts/2023-11-08-satsconf-700-entusiastas.md
 Date: 2023-11-08
 Content type: media
-Tags: bitcoin, hackathon, satsconf
+Tags: bitcoin, hackathon, satsconf, press, event
 Summary: O maior evento 100% Bitcoin do Brasil ocorreu ao longo do feriado; mais de 1,8 mil pagamentos em BTC foram feitos no encontro
 
 A Satsconf, primeiro evento 100% focado em Bitcoin no Brasil, ocorreu de 2 a 5 de novembro, em São Paulo, e reuniu quase 700 entusiastas de Bitcoin. Palestrantes internacionais como Tadge Dryja, (Lightning Network), Conor Okus (Spiral), Ryan Gentry (Lightning Labs) e Peter Todd elevaram ainda mais o nível do conteúdo técnico. 
@@ -1560,7 +1560,7 @@ URL: https://brenorb.com/debate-discord-bitcoin-ethereum/
 Source: _posts/2023-05-30-debate-discord-bitcoin-ethereum.md
 Date: 2023-05-30
 Content type: media
-Tags: bitcoin, ethereum
+Tags: bitcoin, ethereum, debate
 Summary: Especialistas vão conversar sobre as características de cada protocolo
 
 A corretora de criptomoedas MB (Mercado Bitcoin) promove nesta terça-feira (30), no canal do Discord da empresa, um debate entre as virtudes e problemas do Bitcoin vs Ethereum.
@@ -1794,7 +1794,7 @@ URL: https://brenorb.com/bifurcacao-dois-blocos-nao-e-comum/
 Source: _posts/2023-05-08-bifurcacao-dois-blocos-nao-e-comum.md
 Date: 2023-05-08
 Content type: media
-Tags: bitcoin, blockchain, fork
+Tags: bitcoin, blockchain, fork, commentary
 Summary: Uma bifurcação de cadeia de dois blocos de profundidade não é comum e só aconteceu duas vezes.
 
 As últimas 24 horas foram intensas para a comunidade do Bitcoin, com três eventos pouco comuns acontecendo neste breve intervalo de tempo na blockchain do ativo.
@@ -2177,7 +2177,7 @@ URL: https://brenorb.com/podcast-sessao-de-hopium-ep-20/
 Source: _posts/2022-09-21-podcast-sessao-de-hopium-ep-20.md
 Date: 2022-09-21
 Content type: media
-Tags: bitcoin
+Tags: bitcoin, podcast
 Summary: Participação de Breno Brito no Sessão de Hopium para discutir Bitcoin, transição para o ecossistema, Taproot, Lightning, vigilância financeira e a camada cypherpunk do protocolo.
 
 Embedded media: https://www.youtube.com/embed/jiZwzsmd9Go?si=GVZSa7F_EASMuRFZ
@@ -2208,7 +2208,7 @@ URL: https://brenorb.com/bitcoin-pode-cair-abaixo-de-19-mil/
 Source: _posts/2022-06-15-bitcoin-pode-cair-abaixo-de-19-mil.md
 Date: 2022-06-15
 Content type: media
-Tags: bitcoin, price
+Tags: bitcoin, price, commentary
 Summary: Desde que começou a circular, o preço da principal criptomoeda nunca caiu abaixo da máxima histórica do halving anterior. No caso atual, essa barreira seria de US$ 19.783.
 
 Um dado histórico do comportamento do Bitcoin (BTC) pode ser colocado à prova nas próximas horas, caso os preços continuem a se aproximar de romper para baixo o nível de US$ 20 mil.
@@ -2269,7 +2269,7 @@ URL: https://brenorb.com/btc-em-queda-com-inflacao-e-geopolitica/
 Source: _posts/2022-04-04-btc-em-queda-com-inflacao-e-geopolitica.md
 Date: 2022-04-04
 Content type: media
-Tags: bitcoin, price
+Tags: bitcoin, price, commentary
 Summary: Especialista alerta que um novo teste para um piso mais perto dos US$ 40.000 pode estar a caminho para o Bitcoin.
 
 As duas maiores criptomoedas começam em queda, enquanto as altcoins mostram desempenho misto. O Bitcoin (BTC) recua 1% nas últimas 24 horas, cotado a US$ 46.968, segundo dados do CoinGecko. O Ethereum (ETH) tem queda de 0,5%, para US$ 3.479. 
@@ -2342,7 +2342,7 @@ URL: https://brenorb.com/bitcoin-19-milhoes-minerados/
 Source: _posts/2022-04-01-bitcoin-19-milhoes-minerados.md
 Date: 2022-04-01
 Content type: media
-Tags: bitcoin, halving
+Tags: bitcoin, halving, commentary
 Summary: Mais de 90% de todo o fornecimento do bitcoin já foi lançado ao mercado
 
 O Bitcoin chegou a um marco histórico nesta sexta-feira (01): 19 milhões de unidades foram mineradas desde que o sistema da criptomoeda mais importante do mundo começou a rodar em janeiro de 2009. Agora, restam somente 2 milhões de bitcoins para serem emitidos.
@@ -2393,7 +2393,7 @@ URL: https://brenorb.com/podcast-21m-9-breno-brito/
 Source: _posts/2021-11-18-podcast-21m-9-breno-brito.md
 Date: 2021-11-18
 Content type: media
-Tags: bitcoin, ergodicity, quantitative finance
+Tags: bitcoin, ergodicity, quantitative finance, podcast
 Summary: Conversa no 21 Milhões sobre a trajetória de Breno Brito no Bitcoin, a natureza do dinheiro, os limites do fiat e por que o Bitcoin importa além da tese puramente financeira.
 
 Embedded media: https://www.youtube.com/embed/s2BQr1xDpc0
@@ -2421,7 +2421,7 @@ URL: https://brenorb.com/podcast-iflsp-33-minisserie-bitcoin/
 Source: _posts/2021-10-15-podcast-iflsp-33-minisserie-bitcoin.md
 Date: 2021-10-15
 Content type: media
-Tags: bitcoin, myths, mining, lightning network
+Tags: bitcoin, myths, mining, lightning network, podcast
 Summary: Episódio da minissérie Bitcoin do IFLSP com Solange Gueiros e Breno Brito, focado no ‘presente’ da rede e nas novidades tecnológicas que vinham sendo desenvolvidas para o Bitcoin.
 
 Embedded media: https://open.spotify.com/embed/episode/4y9clyC3E2m8hrUEvu2zqx?utm_source=generator
@@ -2982,7 +2982,7 @@ URL: https://brenorb.com/selic-minimo-historico-la-tercera/
 Source: _posts/2018-02-08-selic-minimo-historico-la-tercera.md
 Date: 2018-02-08T12:00:00-03:00
 Content type: media
-Tags: macroeconomics, brazil, inflation, selic, interest rates
+Tags: macroeconomics, brazil, inflation, selic, interest rates, commentary
 Summary: Registro de participação em matéria do Pulso / La Tercera sobre a Selic em mínima histórica, com comentário de Breno Brito sobre previdência, ajuste fiscal e sustentabilidade de juros mais baixos no Brasil.
 
 Registro de participação em matéria do `Pulso / La Tercera` sobre o corte da `Selic` para `6,75%`, então o menor nível desde `1999`.
@@ -2999,7 +2999,7 @@ URL: https://brenorb.com/chile-menor-inflacao-la-tercera/
 Source: _posts/2018-01-17-chile-menor-inflacao-la-tercera.md
 Date: 2018-01-17T12:00:00-03:00
 Content type: media
-Tags: macroeconomics, inflation, brazil, latam
+Tags: macroeconomics, inflation, brazil, latam, commentary
 Summary: Registro de participação em matéria do Pulso / La Tercera sobre a inflação na América Latina em 2017, com comentário de Breno Brito sobre a desaceleração da inflação no Brasil.
 
 Registro de participação em matéria do `Pulso / La Tercera` sobre a inflação na América Latina em `2017`.

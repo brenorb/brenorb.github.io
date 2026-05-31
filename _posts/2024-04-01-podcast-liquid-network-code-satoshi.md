@@ -4,7 +4,7 @@ title:  "Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of 
 date:   2024-04-01 12:00:00 -0300
 description: "Conversa no canal Liquid Network sobre as ferramentas da Spirit of Satoshi para desenvolvimento em Bitcoin: um assistente técnico para Liquid e o Code Satoshi, focado em Miniscript."
 category: podcast
-tags: [bitcoin, ai, spirit of satoshi, miniscript, liquid]
+tags: [bitcoin, ai, spirit of satoshi, miniscript, liquid, podcast]
 comments: false
 share: true
 content_type: media

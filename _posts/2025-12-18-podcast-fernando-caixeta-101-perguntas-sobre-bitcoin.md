@@ -4,7 +4,7 @@ title:  "Podcast - Fernando Caixeta - 101 Perguntas Sobre BITCOIN (com Breno Bri
 date:   2025-12-18 12:00:00 -0300
 description: "Conversa com Fernando Caixeta sobre por que o Bitcoin existe, o que mudou com o fim do lastro físico nas moedas e como o livro 101 Perguntas sobre Bitcoin tenta dar base sólida para quem ainda está no começo."
 category: podcast
-tags: [bitcoin, book]
+tags: [bitcoin, book, podcast]
 comments: false
 share: true
 content_type: media

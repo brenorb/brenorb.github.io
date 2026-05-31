@@ -4,7 +4,7 @@ title:  "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin"
 date:   2024-08-08 12:00:00 -0300
 description: "Conversa na Bipa sobre o livro 101 Perguntas sobre Bitcoin, por que ele foi estruturado em perguntas curtas e quais ideias Breno Brito queria tornar mais acessíveis sem cair no 'mais do mesmo'."
 category: podcast
-tags: [bitcoin, book]
+tags: [bitcoin, book, podcast]
 comments: false
 share: true
 content_type: media
