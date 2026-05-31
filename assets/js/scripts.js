@@ -29,6 +29,112 @@ function normalizeResponsiveVideoEmbeds() {
   });
 }
 
+function isYouTubeEmbed(src) {
+  return /youtube\.com\/embed|youtube-nocookie\.com\/embed/i.test(src || "");
+}
+
+function findMediaForChapterSection(section) {
+  var mediaNodes = Array.prototype.slice.call(
+    document.querySelectorAll(".content iframe, .content video")
+  );
+  var matchingMedia = null;
+
+  mediaNodes.forEach(function(node) {
+    var relation = node.compareDocumentPosition(section);
+    if (relation & Node.DOCUMENT_POSITION_FOLLOWING) {
+      matchingMedia = node;
+    }
+  });
+
+  return matchingMedia;
+}
+
+function buildYouTubeChapterEmbedUrl(src, seconds) {
+  var url;
+  try {
+    url = new URL(src, window.location.href);
+  } catch (error) {
+    return null;
+  }
+
+  url.searchParams.delete("t");
+  url.searchParams.set("start", String(seconds));
+  url.searchParams.set("autoplay", "1");
+  return url.toString();
+}
+
+function seekEmbeddedYouTube(iframe, seconds) {
+  var src = iframe.getAttribute("src") || "";
+  var nextSrc = buildYouTubeChapterEmbedUrl(src, seconds);
+  if (!nextSrc) {
+    return false;
+  }
+
+  iframe.setAttribute("src", nextSrc);
+  return true;
+}
+
+function seekEmbeddedVideo(video, seconds) {
+  if (!video) {
+    return false;
+  }
+
+  var seekTo = function() {
+    video.currentTime = seconds;
+    var playPromise = video.play();
+    if (playPromise && typeof playPromise.catch === "function") {
+      playPromise.catch(function() {});
+    }
+  };
+
+  if (video.readyState >= 1) {
+    seekTo();
+    return true;
+  }
+
+  video.addEventListener("loadedmetadata", seekTo, { once: true });
+  video.load();
+  return true;
+}
+
+function wireMediaChapterSeeking() {
+  document.addEventListener("click", function(event) {
+    var link = event.target.closest(".media-chapters__stamp");
+    if (!link) {
+      return;
+    }
+
+    if (event.metaKey || event.ctrlKey || event.shiftKey || event.altKey || event.button !== 0) {
+      return;
+    }
+
+    var section = link.closest(".media-chapters");
+    var seconds = Number(link.getAttribute("data-start-seconds"));
+    if (!section || !Number.isFinite(seconds)) {
+      return;
+    }
+
+    var media = findMediaForChapterSection(section);
+    if (!media) {
+      return;
+    }
+
+    var handled = false;
+    if (media.tagName === "VIDEO") {
+      handled = seekEmbeddedVideo(media, seconds);
+    } else if (media.tagName === "IFRAME" && isYouTubeEmbed(media.getAttribute("src") || "")) {
+      handled = seekEmbeddedYouTube(media, seconds);
+    }
+
+    if (!handled) {
+      return;
+    }
+
+    event.preventDefault();
+    media.scrollIntoView({ behavior: "smooth", block: "center" });
+  });
+}
+
 // FitVids options
 $(function() {
   normalizeResponsiveVideoEmbeds();
@@ -77,6 +183,8 @@ $(document).ready(function() {
 });
 
 window.addEventListener("load", function() {
+  wireMediaChapterSeeking();
+
   var transcriptAnchor = document.querySelector("[data-transcript-anchor]");
   var firstMedia = document.querySelector(".content iframe, .content video");
   if (!transcriptAnchor || !firstMedia || document.querySelector(".transcript-jump")) {

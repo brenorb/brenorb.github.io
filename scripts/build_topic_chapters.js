@@ -82,7 +82,7 @@ for (const slug of Object.keys(specs).sort()) {
     const start = snapToChunkStart(chapter.start, chunkStarts);
     const url = buildTimestampUrl(spec.url, start, spec.timestamp_style);
     lines.push(
-      `    <li><a class="media-chapters__stamp" href="${url}">${formatTime(start)}</a> <span class="media-chapters__topic">${escapeHtml(chapter.title)}</span></li>`
+      `    <li><a class="media-chapters__stamp" href="${url}" data-start-seconds="${start}">${formatTime(start)}</a> <span class="media-chapters__topic">${escapeHtml(chapter.title)}</span></li>`
     );
   }
 
