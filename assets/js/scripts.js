@@ -10,8 +10,28 @@ window.onunload = function() {};
 // Add lightbox class to all image links
 $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
 
+function normalizeResponsiveVideoEmbeds() {
+  $(".content iframe").each(function() {
+    var src = this.getAttribute("src") || "";
+    var widthAttr = (this.getAttribute("width") || "").trim();
+    if (widthAttr.indexOf("%") === -1) {
+      return;
+    }
+
+    if (!/youtube\.com\/embed|youtube-nocookie\.com\/embed|player\.vimeo\.com\/video/i.test(src)) {
+      return;
+    }
+
+    this.setAttribute("width", "560");
+    this.setAttribute("height", "315");
+    this.style.width = "100%";
+    this.style.maxWidth = "100%";
+  });
+}
+
 // FitVids options
 $(function() {
+  normalizeResponsiveVideoEmbeds();
   $(".content").fitVids();
 });
 
