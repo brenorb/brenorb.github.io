@@ -45,6 +45,8 @@ Regenerate the per-post appendix data used by the site:
 node scripts/build_media_appendices.js
 ```
 
+That appendix build keeps the raw transcript JSON untouched and only cleans obviously pathological repeated-word runs in the display layer, so lines like `we we we we` render as `we... we`.
+
 Verify that every post with an embedded player is covered by the transcript manifest:
 
 ```bash

@@ -63,7 +63,7 @@
           "timestamp": "00:41",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=41",
           "speaker": "SPEAKER_01",
-          "text": "And then there's also a QA uh uh uh uh uh uh uh uh uh uh area as well, if you want to add questions there."
+          "text": "And then there's also a QA uh... uh area as well, if you want to add questions there."
         },
         {
           "timestamp": "00:47",
@@ -297,7 +297,7 @@
           "timestamp": "04:57",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=297",
           "speaker": "SPEAKER_02",
-          "text": "And but also prompting itself is a problem inside a prompt, a prompt is basically a huge wall of text, and we have input structuring, uh an inference strategy, output structuring, uh context definition, demo tasks, and other things, but also every time there's a every week we get a new state of the art model, and uh but the models they they require um um different prompting techniques, um most of the models, lot lots of models, they release also a guides to bet bet bet bet bet bet bet bet bet bet better prompt the model."
+          "text": "And but also prompting itself is a problem inside a prompt, a prompt is basically a huge wall of text, and we have input structuring, uh an inference strategy, output structuring, uh context definition, demo tasks, and other things, but also every time there's a every week we get a new state of the art model, and uh but the models they they require um um different prompting techniques, um most of the models, lot lots of models, they release also a guides to bet... bet better prompt the model."
         },
         {
           "timestamp": "05:40",
@@ -315,7 +315,7 @@
           "timestamp": "05:56",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=356",
           "speaker": "SPEAKER_02",
-          "text": "Even the two definitions can uh we can get new structures, and uh we can we we we we we we we we we we need we we we can maybe need to reward and there's always the bitterness and uh applied for prompting that AI may be better pro bet better testor than you so what I the the the the main idea here is maybe instead of wasting your system design time rewarding prompts um maybe you don't you shouldn't waste your system design time rewarding prompts you should like work on your system and then you improve your prompts uh you optimized later so like you get a huge prompt how do you even maintain this like this is completely different from every kind of um engineering perspective um so and how this is why I like the SPI so much."
+          "text": "Even the two definitions can uh we can get new structures, and uh we can we... we need we we we can maybe need to reward and there's always the bitterness and uh applied for prompting that AI may be better pro bet better testor than you so what I the... the main idea here is maybe instead of wasting your system design time rewarding prompts um maybe you don't you shouldn't waste your system design time rewarding prompts you should like work on your system and then you improve your prompts uh you optimized later so like you get a huge prompt how do you even maintain this like this is completely different from every kind of um engineering perspective um so and how this is why I like the SPI so much."
         },
         {
           "timestamp": "06:58",
@@ -351,13 +351,13 @@
           "timestamp": "07:31",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=451",
           "speaker": "SPEAKER_02",
-          "text": "So in this picture that I'm showing to you, um we the signature is basically the task or the intent, the input output, and uh we read this task in the inference strategy, which is a module, and the adapter formats the signatures and modules together. to get it into a prompt initial prompt and uh this is basically it and you can use it as it is you can create more modules and stack each other but also there's this optional part where you can optimize your prompts and we'll get there and understand uh how it all work out but it's this is a very um systems engineering uh practice so first of all we get the signature is a task is what you want the model the the the the the model to do it's the intent that you want it's just inputs and outputs so the the signature is this blue part over here and uh when we put this into uh into a code it's basically this is this small string here that I put tweet in the input and uh happy in the output and I also put uh an optional type that I said that oh the happy is a boolean so that's it I'm going to input the two tweet and I'm going to get happy as output and which is a boolean so it's true or false and uh so that's it you already know how to use DSP thank you for coming to my lecture um I'm kidding there's uh a little bit more but this is the basics that you can already do so many things with it so there's of course a little bit of setup basically one line to choose your model and uh and another line to use this instantiated object so you can re utilise reutilized this uh using lots of different tweets and it gives us a prediction object which is happy equals true so it's uh very simple in three lines you have your product uh your your your your your your your your your your your model working and of course we can get a little bit more complex instead of just like happy boo we can also put confidence float so now we have we input I'm so happy today and we get their our our our our our our our our our our response is a prediction object with happy equals true and confidence equals0 point uh0.95"
+          "text": "So in this picture that I'm showing to you, um we the signature is basically the task or the intent, the input output, and uh we read this task in the inference strategy, which is a module, and the adapter formats the signatures and modules together. to get it into a prompt initial prompt and uh this is basically it and you can use it as it is you can create more modules and stack each other but also there's this optional part where you can optimize your prompts and we'll get there and understand uh how it all work out but it's this is a very um systems engineering uh practice so first of all we get the signature is a task is what you want the model the... the model to do it's the intent that you want it's just inputs and outputs so the the signature is this blue part over here and uh when we put this into uh into a code it's basically this is this small string here that I put tweet in the input and uh happy in the output and I also put uh an optional type that I said that oh the happy is a boolean so that's it I'm going to input the two tweet and I'm going to get happy as output and which is a boolean so it's true or false and uh so that's it you already know how to use DSP thank you for coming to my lecture um I'm kidding there's uh a little bit more but this is the basics that you can already do so many things with it so there's of course a little bit of setup basically one line to choose your model and uh and another line to use this instantiated object so you can re utilise reutilized this uh using lots of different tweets and it gives us a prediction object which is happy equals true so it's uh very simple in three lines you have your product uh your your your your your your your your your your your model working and of course we can get a little bit more complex instead of just like happy boo we can also put confidence float so now we have we input I'm so happy today and we get their our... our response is a prediction object with happy equals true and confidence equals0 point uh0.95"
         },
         {
           "timestamp": "10:29",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=629",
           "speaker": "SPEAKER_02",
-          "text": "and uh we can check the types and the types are correct output is boo and the class of uh the output of happy uh the class of happy is bull the and also the type of confidence is float so this oh everything that it's we cannot see on the on this on the this library the spy is everything that you don't need to see it's just making sure that you get uh uh the correct type you get the correct structure you get uh uh uh uh uh uh uh uh uh uh uh uh a good structure every time the uh the types that you want every time so that's basically you don't need to think about it so let's get the little bit more complicated a little bit more complex um so let's say um I want to I'm getting an email and I want to get a list of tech uh tasks that email send me so I put uh my input is today which is a string uh email which is a string and then task which is a list of strings and then the deadline which is a string uh nice thing that in this example is that by how you define uh how you name your variables, for example, deadline YY M DG, the model will out to output put this to you."
+          "text": "and uh we can check the types and the types are correct output is boo and the class of uh the output of happy uh the class of happy is bull the and also the type of confidence is float so this oh everything that it's we cannot see on the on this on the this library the spy is everything that you don't need to see it's just making sure that you get uh uh the correct type you get the correct structure you get uh... uh a good structure every time the uh the types that you want every time so that's basically you don't need to think about it so let's get the little bit more complicated a little bit more complex um so let's say um I want to I'm getting an email and I want to get a list of tech uh tasks that email send me so I put uh my input is today which is a string uh email which is a string and then task which is a list of strings and then the deadline which is a string uh nice thing that in this example is that by how you define uh how you name your variables, for example, deadline YY M DG, the model will out to output put this to you."
         },
         {
           "timestamp": "12:03",
@@ -387,13 +387,13 @@
           "timestamp": "12:42",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=762",
           "speaker": "SPEAKER_02",
-          "text": "Of course, so we can uh make another uh uh uh uh uh uh uh uh uh uh uh validation stage, but for most cases uh, especially in the beginning, it works wonders, and it's very very good already out of the box."
+          "text": "Of course, so we can uh make another uh... uh validation stage, but for most cases uh, especially in the beginning, it works wonders, and it's very very good already out of the box."
         },
         {
           "timestamp": "12:59",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=779",
           "speaker": "SPEAKER_02",
-          "text": "And uh okay, but if I have lots of inputs and lots of outputs, uh I would have to have a uh a really big string here, and we are getting into the first problem again, and of course not uh we can use a class, a signature class, and uh we can structure a little bit more and have uh uh uh uh uh uh uh uh uh uh uh more information in this signature in this task, what you want."
+          "text": "And uh okay, but if I have lots of inputs and lots of outputs, uh I would have to have a uh a really big string here, and we are getting into the first problem again, and of course not uh we can use a class, a signature class, and uh we can structure a little bit more and have uh... uh more information in this signature in this task, what you want."
         },
         {
           "timestamp": "13:29",
@@ -591,7 +591,7 @@
           "timestamp": "20:15",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=1215",
           "speaker": "SPEAKER_02",
-          "text": "So this is what uh so when we optimized we we we we we we we we we we can optimize this high order module here that will optimized everything inside for you automatically so you don't need to think about saying this is this is very good."
+          "text": "So this is what uh so when we optimized we... we can optimize this high order module here that will optimized everything inside for you automatically so you don't need to think about saying this is this is very good."
         },
         {
           "timestamp": "20:33",
@@ -621,13 +621,13 @@
           "timestamp": "21:33",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=1293",
           "speaker": "SPEAKER_02",
-          "text": "history and see what went inside the the model and what the model um spit it out so this is uh what the model formats it so i just insert tweet goes to happy which is a boo and hope this which is a float and it creates all this system message and all this user message here and we get this response here and that's how it can parse and everything and have it structured for us and uh I'm not going to spend a lot of time here because it's kind of simple and you don't need to actually uh look too much at it because we're going to optimizers and you understand why but there's a JSON adapter so it will try to format things in JSON uh some models work better in JSON some other models work better in XML so you can use it to give you this format here um but also there's this very interesting one with a which is a two step adapter it will format not only the system message but also the user message uh with instructions so it's more um um it it usually adheres to your to your prompt better if you're doing some very complex thing uh sometimes you need to use the two step adapter and it will work um instead of the other ones so this is uh it's a maximum hearing force let's say like this but also you can create your own uh adapters but it's a little bit complicated at the moment but um uh uh usually the the those one work so okay we uh we we we we we we we we we we're now in optimizer phase we are"
+          "text": "history and see what went inside the the model and what the model um spit it out so this is uh what the model formats it so i just insert tweet goes to happy which is a boo and hope this which is a float and it creates all this system message and all this user message here and we get this response here and that's how it can parse and everything and have it structured for us and uh I'm not going to spend a lot of time here because it's kind of simple and you don't need to actually uh look too much at it because we're going to optimizers and you understand why but there's a JSON adapter so it will try to format things in JSON uh some models work better in JSON some other models work better in XML so you can use it to give you this format here um but also there's this very interesting one with a which is a two step adapter it will format not only the system message but also the user message uh with instructions so it's more um um it it usually adheres to your to your prompt better if you're doing some very complex thing uh sometimes you need to use the two step adapter and it will work um instead of the other ones so this is uh it's a maximum hearing force let's say like this but also you can create your own uh adapters but it's a little bit complicated at the moment but um uh uh usually the the those one work so okay we uh we... we we're now in optimizer phase we are"
         },
         {
           "timestamp": "23:36",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=1416",
           "speaker": "SPEAKER_02",
-          "text": "So is there a phase we already have a program that it work that works that makes uh implements all all of our uh uh uh uh uh uh uh uh uh uh our logic in our system."
+          "text": "So is there a phase we already have a program that it work that works that makes uh implements all all of our uh... uh our logic in our system."
         },
         {
           "timestamp": "23:47",
@@ -669,7 +669,7 @@
           "timestamp": "24:48",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=1488",
           "speaker": "SPEAKER_02",
-          "text": "So there's this evaluation um part of the library where you can put the uh uh uh uh uh uh uh uh uh uh your set."
+          "text": "So there's this evaluation um part of the library where you can put the uh... uh your set."
         },
         {
           "timestamp": "24:56",
@@ -795,7 +795,7 @@
           "timestamp": "28:06",
           "href": "https://www.youtube.com/watch?v=01yeO-1RUcg&t=1686",
           "speaker": "SPEAKER_02",
-          "text": "So we can do this uh for uh this this we can use this boost bootstrap fine tune and actually have a fine tuning um update your weights in of your system not only the your prompt so you you you you you you you you you you you can use both for example you can update your the the weights and also the prompts but also you can use for example GRPO which is which was made very famous by DeepC uh it's it seems very big, but actually it's just you define your variables, you instantiate the class, and then you run the optimizer."
+          "text": "So we can do this uh for uh this this we can use this boost bootstrap fine tune and actually have a fine tuning um update your weights in of your system not only the your prompt so you... you can use both for example you can update your the the weights and also the prompts but also you can use for example GRPO which is which was made very famous by DeepC uh it's it seems very big, but actually it's just you define your variables, you instantiate the class, and then you run the optimizer."
         },
         {
           "timestamp": "28:49",

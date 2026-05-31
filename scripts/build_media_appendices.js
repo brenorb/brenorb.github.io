@@ -4,6 +4,23 @@ const path = require("path");
 const sourcesPath = path.join(__dirname, "media_sources.json");
 const transcriptsDir = path.join(__dirname, "..", "transcripts", "raw");
 const outputDir = path.join(__dirname, "..", "_data", "media_appendices");
+const CLEAN_REPEAT_ALLOWLIST = new Set([
+  "a",
+  "ah",
+  "and",
+  "de",
+  "e",
+  "eh",
+  "eu",
+  "i",
+  "o",
+  "the",
+  "to",
+  "uh",
+  "um",
+  "we"
+]);
+const CLEAN_REPEAT_FILLERS = new Set(["ah", "eh", "uh", "um"]);
 
 function formatTimestamp(totalSeconds) {
   const seconds = Math.max(0, Math.floor(totalSeconds));
@@ -67,6 +84,78 @@ function normalizeSegments(payload) {
   return [];
 }
 
+function splitTokenAffixes(token) {
+  const match = String(token).match(/^([^A-Za-z0-9']*)(.*?)([^A-Za-z0-9']*)$/);
+  if (!match) {
+    return { leading: "", core: String(token), trailing: "" };
+  }
+
+  return {
+    leading: match[1] || "",
+    core: match[2] || "",
+    trailing: match[3] || ""
+  };
+}
+
+function repeatedWordThreshold(normalized) {
+  if (!normalized) {
+    return null;
+  }
+
+  if (CLEAN_REPEAT_FILLERS.has(normalized) || CLEAN_REPEAT_ALLOWLIST.has(normalized)) {
+    return 4;
+  }
+
+  if (normalized.length <= 3) {
+    return 5;
+  }
+
+  return null;
+}
+
+function cleanPathologicalRepeatedWords(text) {
+  const tokens = String(text).split(/\s+/).filter(Boolean);
+  if (tokens.length === 0) {
+    return "";
+  }
+
+  const output = [];
+
+  for (let index = 0; index < tokens.length; ) {
+    const first = splitTokenAffixes(tokens[index]);
+    const normalized = first.core.toLowerCase();
+
+    if (!normalized) {
+      output.push(tokens[index]);
+      index += 1;
+      continue;
+    }
+
+    let runEnd = index + 1;
+    while (runEnd < tokens.length) {
+      const candidate = splitTokenAffixes(tokens[runEnd]);
+      if (candidate.core.toLowerCase() !== normalized) {
+        break;
+      }
+      runEnd += 1;
+    }
+
+    const runLength = runEnd - index;
+    const threshold = repeatedWordThreshold(normalized);
+    if (threshold !== null && runLength >= threshold) {
+      const last = splitTokenAffixes(tokens[runEnd - 1]);
+      output.push(`${first.leading}${first.core}...`);
+      output.push(`${last.core}${last.trailing}`);
+    } else {
+      output.push(...tokens.slice(index, runEnd));
+    }
+
+    index = runEnd;
+  }
+
+  return output.join(" ");
+}
+
 function transcriptPathForItem(item) {
   return path.join(transcriptsDir, `${item.id}.json`);
 }
@@ -124,7 +213,7 @@ function loadItem(slug, item, itemCount) {
         timestamp: formatTimestamp(start),
         href: buildTimestampUrl(item, start),
         speaker: normalizeSpeakerLabel(segment.speaker),
-        text: segment.text.trim()
+        text: cleanPathologicalRepeatedWords(segment.text.trim())
       };
     })
   };

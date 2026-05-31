@@ -231,7 +231,7 @@
           "timestamp": "04:03",
           "href": "https://www.youtube.com/watch?v=huvBFj1M4Fo&t=243",
           "speaker": "SPEAKER_01",
-          "text": "So it's there the the first line is the code and there's an explanation of each part of the code for the mini script and there's a flow chart where you can you can uh go there and understand okay this is the key so check if it's being more than something some time of days it's another uh uh uh uh uh uh uh uh uh uh you I can pause the video here."
+          "text": "So it's there the the first line is the code and there's an explanation of each part of the code for the mini script and there's a flow chart where you can you can uh go there and understand okay this is the key so check if it's being more than something some time of days it's another uh... uh you I can pause the video here."
         },
         {
           "timestamp": "04:30",
@@ -466,7 +466,7 @@
           "timestamp": "04:15",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=255",
           "speaker": "SPEAKER_02",
-          "text": "I I I found out uh uh uh uh uh uh uh uh uh uh uh company another exchange was falsifying wash trading."
+          "text": "I I I found out uh... uh company another exchange was falsifying wash trading."
         },
         {
           "timestamp": "04:22",
@@ -520,13 +520,13 @@
           "timestamp": "05:42",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=342",
           "speaker": "SPEAKER_02",
-          "text": "Yeah, so when you when you have a uh uh uh uh uh uh uh uh uh uh private key, a private key is just a random number, but when you have uh such such a big random number, it's really hard to remember uh uh uh uh uh uh uh uh uh uh if you if you write it down and it it it erased some words some some some some some some some some some some some letters you you kind of uh uh can lose your funds it's really hard to to to back up so they created BIP39 which is uh a way that you instead of uh writing it down lots of uh numbers you write down uh uh12 words so you have12 words out of2048 and this is if you choose them at random which uh some the wallets usually do uh uh if you choose them at at random it can uh you can choose these these uh words and it can create uh private key so it's much easier for you to store to back up you can also even remember you can you can just like remember the words and don't have it written every anywhere and just go from one country to another without having any issue with people saying uh I I want to see what's in this pen drive or in this paper that you have it written so so so it's uh it's an amazing technology uh for us to to store our private keys and uh but they are in English like uh almost all uh wallets use the it it in English so if you are a Brazilian and you don't know English it will be much harder for you to yeah so so so we there is a uh uh uh uh uh uh uh uh uh uh in bip39 there's uh some people that did uh lists of words in other languages in Japanese in French in Portuguese in Spanish so I was the one that wrote uh with other people it we wrote in Portuguese and uh and it works for all portuguese not only Brazilian Portuguese it works it's uh it's the same words for for Portugal Angola Mozambique and country that speaks portuguese and so bipa is gonna implement the version that you wrote so that it can be a completely Portuguese version at wallet is that the goal yeah that's it so exciting wait so I also understand you've been translating several other uh uh uh uh uh uh uh uh uh uh materials to Portuguese tell us a little bit about that too."
+          "text": "Yeah, so when you when you have a uh... uh private key, a private key is just a random number, but when you have uh such such a big random number, it's really hard to remember uh... uh if you if you write it down and it it it erased some words some some some some some some some some some some some letters you you kind of uh uh can lose your funds it's really hard to to to back up so they created BIP39 which is uh a way that you instead of uh writing it down lots of uh numbers you write down uh uh12 words so you have12 words out of2048 and this is if you choose them at random which uh some the wallets usually do uh uh if you choose them at at random it can uh you can choose these these uh words and it can create uh private key so it's much easier for you to store to back up you can also even remember you can you can just like remember the words and don't have it written every anywhere and just go from one country to another without having any issue with people saying uh I I want to see what's in this pen drive or in this paper that you have it written so so so it's uh it's an amazing technology uh for us to to store our private keys and uh but they are in English like uh almost all uh wallets use the it it in English so if you are a Brazilian and you don't know English it will be much harder for you to yeah so so so we there is a uh... uh in bip39 there's uh some people that did uh lists of words in other languages in Japanese in French in Portuguese in Spanish so I was the one that wrote uh with other people it we wrote in Portuguese and uh and it works for all portuguese not only Brazilian Portuguese it works it's uh it's the same words for for Portugal Angola Mozambique and country that speaks portuguese and so bipa is gonna implement the version that you wrote so that it can be a completely Portuguese version at wallet is that the goal yeah that's it so exciting wait so I also understand you've been translating several other uh... uh materials to Portuguese tell us a little bit about that too."
         },
         {
           "timestamp": "08:10",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=490",
           "speaker": "SPEAKER_02",
-          "text": "Yeah um I for the first one that I translated was um um was uh the Little Bitcoin book uh uh I trans I when Jimmy Song wrote it with the with the other authors in the in his alumni group hey I I think I'm thinking about translating it so I I knew someone and I I get it to translate to translate it and uh after that there's also um um um the the the Bitcoin standard which is arguably the the the the the the the the the the the the the best bitcoin book like everyone talks about it so I I I need I I I knew that I I wanted to be involved so I I was one of the two people that was uh translating and reviewing the translation they did in the book so I did this and uhtuguese and yeah with the author's approval yeah exactly they they they they they they they they they they they were all of them were were were were were were were were were were the were were done with the author's approval they are the official versions and you you can find all of them in Portuguese in Amazon so you can find the pequeno livre do bitcoin or padrão bitcoin and padrão fiduciário which is also from Seifadin nice Breno tell me now um a little bit about your experience with SATSCON and how you built the team what you were thinking like how did you decide on mini maxi like how that thought process came about with your team because I understand75% of the team uh members had never heard of bitcoin but they were programmers before like what what what what what what what what what what what was the breakdown of responsibilities and and how the team worked um"
+          "text": "Yeah um I for the first one that I translated was um um was uh the Little Bitcoin book uh uh I trans I when Jimmy Song wrote it with the with the other authors in the in his alumni group hey I I think I'm thinking about translating it so I I knew someone and I I get it to translate to translate it and uh after that there's also um um um the the the Bitcoin standard which is arguably the... the best bitcoin book like everyone talks about it so I I I need I I I knew that I I wanted to be involved so I I was one of the two people that was uh translating and reviewing the translation they did in the book so I did this and uhtuguese and yeah with the author's approval yeah exactly they they they they they they they they they they they were all of them were were were were were were were were were were the were were done with the author's approval they are the official versions and you you can find all of them in Portuguese in Amazon so you can find the pequeno livre do bitcoin or padrão bitcoin and padrão fiduciário which is also from Seifadin nice Breno tell me now um a little bit about your experience with SATSCON and how you built the team what you were thinking like how did you decide on mini maxi like how that thought process came about with your team because I understand75% of the team uh members had never heard of bitcoin but they were programmers before like what what what what what what what what what what what was the breakdown of responsibilities and and how the team worked um"
         },
         {
           "timestamp": "09:50",
@@ -562,13 +562,13 @@
           "timestamp": "10:13",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=613",
           "speaker": "SPEAKER_02",
-          "text": "And uh I was thinking about it, and then uh there was a price for for mini script, and I said okay, it's uh it's it's the lowest hanging fruit, and it's quite uh and I tried in in other I tried in chat EPT in Yama and other models, and and no no no no no no no no no no no no no no no no no no no no no one of those uh uh they they understood uh mini scripts."
+          "text": "And uh I was thinking about it, and then uh there was a price for for mini script, and I said okay, it's uh it's it's the lowest hanging fruit, and it's quite uh and I tried in in other I tried in chat EPT in Yama and other models, and and no... no one of those uh uh they they understood uh mini scripts."
         },
         {
           "timestamp": "10:35",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=635",
           "speaker": "SPEAKER_02",
-          "text": "So okay, this is a this is a good thing to do because uh we like code assistance for people who code is they are very important, like people use it all the time, and uh we don't have this for bitcoin related code right now, especially for uh uh uh uh uh uh uh uh uh uh these these new languages."
+          "text": "So okay, this is a this is a good thing to do because uh we like code assistance for people who code is they are very important, like people use it all the time, and uh we don't have this for bitcoin related code right now, especially for uh... uh these these new languages."
         },
         {
           "timestamp": "10:54",
@@ -592,7 +592,7 @@
           "timestamp": "11:33",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=693",
           "speaker": "SPEAKER_02",
-          "text": "I just sent a message there in the Discord app and said, Oh, I have this idea, and uh I I try to talk with people and to see what uh if I got some some some some some some some some some some some people to do and and and beloo, which is uh uh uh uh uh uh uh uh uh uh uh which was one of my team. members he he just asked me back say hey uh I won lots of different hackathons I'll make you win let's go and uh so yeah I I don't have team members so let's go and uh and the will find the other people and and brought it together and no one of them knew almost anything about bitcoin so I I was mentoring everyone met each other all there or you had met Bellu before no no no no no no no no no no no all everyone there he sent me a message on Discord the day before and then on the day on the day I I've met them in in person and so two days of hacking you had mentors I remember there were some pretty outstanding people that traveled to Brazil for the hackathon and for to be speakers how was that experience with them also uh helping with the project or answering questions well it they they were crucial because I had no idea how to code in mini script so I need to I I I I I I I I I I I I needed to understand how how how mini script work just to build the examples for for training the AI and to see if it worked or not and uh and all of this stuff so so I learned mini script like really really quickly and I uh they they they they they they they they they they they the mentors were fundamental for for this and then okay I I I I learned this and I I I taught the the the my team members that they didn't know almost anything about bitcoin but they they they knew mini script before bitcoin before they knew bitcoin and and and uh and it was uh it was uh really fun and different uh it was uh a real challenge but it was really cool uh I think you are muted I cannot hear you"
+          "text": "I just sent a message there in the Discord app and said, Oh, I have this idea, and uh I I try to talk with people and to see what uh if I got some some some some some some some some some some some people to do and and and beloo, which is uh... uh which was one of my team. members he he just asked me back say hey uh I won lots of different hackathons I'll make you win let's go and uh so yeah I I don't have team members so let's go and uh and the will find the other people and and brought it together and no one of them knew almost anything about bitcoin so I I was mentoring everyone met each other all there or you had met Bellu before no... no all everyone there he sent me a message on Discord the day before and then on the day on the day I I've met them in in person and so two days of hacking you had mentors I remember there were some pretty outstanding people that traveled to Brazil for the hackathon and for to be speakers how was that experience with them also uh helping with the project or answering questions well it they they were crucial because I had no idea how to code in mini script so I need to I... I needed to understand how how how mini script work just to build the examples for for training the AI and to see if it worked or not and uh and all of this stuff so so I learned mini script like really really quickly and I uh they they they they they they they they they they they the mentors were fundamental for for this and then okay I... I learned this and I I I taught the the the my team members that they didn't know almost anything about bitcoin but they they they knew mini script before bitcoin before they knew bitcoin and and and uh and it was uh it was uh really fun and different uh it was uh a real challenge but it was really cool uh I think you are muted I cannot hear you"
         },
         {
           "timestamp": "13:48",
@@ -676,7 +676,7 @@
           "timestamp": "15:35",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=935",
           "speaker": "SPEAKER_02",
-          "text": "Uh for someone that doesn't understand uh uh uh uh uh uh uh uh uh uh uh scripts, mini scripts."
+          "text": "Uh for someone that doesn't understand uh... uh scripts, mini scripts."
         },
         {
           "timestamp": "15:42",
@@ -778,13 +778,13 @@
           "timestamp": "17:15",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=1035",
           "speaker": "SPEAKER_02",
-          "text": "It they it it gives you uh uh uh uh uh uh uh uh uh uh uh onboarding uh a general idea and give gives you the the uh uh uh uh uh uh uh uh uh uh the the basic functions so so you can start uh pretty easily."
+          "text": "It they it it gives you uh... uh onboarding uh a general idea and give gives you the the uh... uh the the basic functions so so you can start uh pretty easily."
         },
         {
           "timestamp": "17:27",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=1047",
           "speaker": "SPEAKER_02",
-          "text": "And uh when I when I was trying to to learn mini script, there was even the the the documentation is not bad, it's really good, but um I I still was very confused, even being such a long time in in uh in bitcoin ecosystem. there was lots of difficult uh things so I hope that uh when people start using uh this these these these these these these these these these these code assistance I can record some of their questions and uh and to use it to train it and make it better to understand all of different nuances and questions to for onboarding and and making really easy and making everyone productive I remember uh from your pitch that you said how can I trust in mini maxi if AI can hallucinate can you explain that yeah sure uh when you're when like when you're using uh uh uh uh uh uh uh uh uh uh uh large language model uh there is one guy that said they are dream machines so so they uh they they they all everything they do is hallucinating this is the their purpose to hallucinate so so so they are kind of predicting the next token they are ellucinating you you you ask for for a question and they invent something so uh so but we try to make these hallucinations these dreams uh more close to reality and close to what we really want so uh uh uh since they are like predicting and like just like your auto correct you can just tap the the the the the the the the the the the the the the the the the the the the the the the the center one and generate a whole sentence yeah it generates something and uh but this for when you're coding it's okay because you run in your tests and you see if it works or not but if you're dealing with money it's much more complicated you can you you you you you don't want at all to make uh contract yeah a mistake in your in your with your money so uh to fix this I had this idea is a little bit older but uh I I this is I I I I I I I I I I I learned this with uh tech"
+          "text": "And uh when I when I was trying to to learn mini script, there was even the the the documentation is not bad, it's really good, but um I I still was very confused, even being such a long time in in uh in bitcoin ecosystem. there was lots of difficult uh things so I hope that uh when people start using uh this these these these these these these these these these these code assistance I can record some of their questions and uh and to use it to train it and make it better to understand all of different nuances and questions to for onboarding and and making really easy and making everyone productive I remember uh from your pitch that you said how can I trust in mini maxi if AI can hallucinate can you explain that yeah sure uh when you're when like when you're using uh... uh large language model uh there is one guy that said they are dream machines so so they uh they they they all everything they do is hallucinating this is the their purpose to hallucinate so so so they are kind of predicting the next token they are ellucinating you you you ask for for a question and they invent something so uh so but we try to make these hallucinations these dreams uh more close to reality and close to what we really want so uh uh uh since they are like predicting and like just like your auto correct you can just tap the... the center one and generate a whole sentence yeah it generates something and uh but this for when you're coding it's okay because you run in your tests and you see if it works or not but if you're dealing with money it's much more complicated you can you... you don't want at all to make uh contract yeah a mistake in your in your with your money so uh to fix this I had this idea is a little bit older but uh I I this is I... I learned this with uh tech"
         },
         {
           "timestamp": "19:40",
@@ -850,7 +850,7 @@
           "timestamp": "20:45",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=1245",
           "speaker": "SPEAKER_02",
-          "text": "Well, it's uh it's a little bit hard to predict this kind of stuff, but uh since we we we we we we even have Bit VM right now, I I think like we we we we we we are we we we have we'll have some things that we cannot even imagine like uh uh uh uh uh uh uh uh uh uh uh I I'm working right now I'm continue working with mini maxis to make it uh make it really simple for anyone to code, not only in mini script, but also in regular script or or or or or or or or or or or any other bitcoin related languages, be it RGB or uh taproot assets or whatever."
+          "text": "Well, it's uh it's a little bit hard to predict this kind of stuff, but uh since we... we even have Bit VM right now, I I think like we... we are we we we have we'll have some things that we cannot even imagine like uh... uh I I'm working right now I'm continue working with mini maxis to make it uh make it really simple for anyone to code, not only in mini script, but also in regular script or... or any other bitcoin related languages, be it RGB or uh taproot assets or whatever."
         },
         {
           "timestamp": "21:24",
@@ -874,7 +874,7 @@
           "timestamp": "21:40",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=1300",
           "speaker": "SPEAKER_02",
-          "text": "I want to do I want to create something like this, and it creates uh the the a scratch of your idea, and you can uh edit it with just simple English without needing uh uh so so of course there is uh there you need to be careful uh and I want also I hope so I hope I can do it to uh uh uh uh uh uh uh uh uh uh to have the the the disclaimers and uh to to bring the the the awareness and responsibility on the security of what they're coding, but uh I think that it will like they they they they they they they they they they can okay from I I work in I don't know I work in finance and I want to do this in in a smart contract in Bitcoin I don't know how to code he put there and he gets what he wants uh I think it in five years we'll have that Breno tell us a little bit about spirit of Satoshi, how does your project fit into that, and then I also saw that you had a roadmap uh of like what you want mini maxi to look like in a few years, like what is your roadmap, and I wanted to ask you uh do you think like I know you had two days to code in SATSCONF, but how did participating in the tournament which was longer and had different requirements, how did that help you, your team kind of think ahead and think about what's next for you guys?"
+          "text": "I want to do I want to create something like this, and it creates uh the the a scratch of your idea, and you can uh edit it with just simple English without needing uh uh so so of course there is uh there you need to be careful uh and I want also I hope so I hope I can do it to uh... uh to have the the the disclaimers and uh to to bring the the the awareness and responsibility on the security of what they're coding, but uh I think that it will like they they they they they they they they they they can okay from I I work in I don't know I work in finance and I want to do this in in a smart contract in Bitcoin I don't know how to code he put there and he gets what he wants uh I think it in five years we'll have that Breno tell us a little bit about spirit of Satoshi, how does your project fit into that, and then I also saw that you had a roadmap uh of like what you want mini maxi to look like in a few years, like what is your roadmap, and I wanted to ask you uh do you think like I know you had two days to code in SATSCONF, but how did participating in the tournament which was longer and had different requirements, how did that help you, your team kind of think ahead and think about what's next for you guys?"
         },
         {
           "timestamp": "23:06",
@@ -898,7 +898,7 @@
           "timestamp": "23:32",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=1412",
           "speaker": "SPEAKER_02",
-          "text": "No, no, no, no, no."
+          "text": "No... no."
         },
         {
           "timestamp": "23:33",
@@ -922,13 +922,13 @@
           "timestamp": "23:36",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=1416",
           "speaker": "SPEAKER_02",
-          "text": "so Bruno works uh he sells insurance he he he he he doesn't know he he he he knew almost nothing about bitcoin until until sat confirmed but he's a really clever guy for for business so I I told him okay this is what we do this is some of the things that we can do later on and also Belo and Victor also had uh good ideas for for example uh instead of having just a chat uh we can build an extension for VS Code and like a co-pilot and other stuff like this so it was a uh a uh a uh a uh a uh a really team effort and uh Bruno said okay uh he wrote it down and I just check it like okay uh the just cross no solana no etherea no and lightning yes so so it was mostly his ideas uh of what to do next I wasn't I was uh at the hackathon I was not thinking about roadmaps at all and uh it it it's uh it's great they uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh we we we we we we we we we we we want like the the the the the the the the the the the logical step after mini script is script so after uh uh uh uh uh uh uh uh uh uh after uh considering like complete the mini script one uh we we we we we we we we we we we just we we we we we we we we we we we have this MVP alpha version in minimaxis.com"
+          "text": "so Bruno works uh he sells insurance he... he doesn't know he he he he knew almost nothing about bitcoin until until sat confirmed but he's a really clever guy for for business so I I told him okay this is what we do this is some of the things that we can do later on and also Belo and Victor also had uh good ideas for for example uh instead of having just a chat uh we can build an extension for VS Code and like a co-pilot and other stuff like this so it was a uh a uh a uh a uh a uh a really team effort and uh Bruno said okay uh he wrote it down and I just check it like okay uh the just cross no solana no etherea no and lightning yes so so it was mostly his ideas uh of what to do next I wasn't I was uh at the hackathon I was not thinking about roadmaps at all and uh it it it's uh it's great they uh... uh we... we want like the... the logical step after mini script is script so after uh... uh after uh considering like complete the mini script one uh we... we just we... we have this MVP alpha version in minimaxis.com"
         },
         {
           "timestamp": "25:05",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=1505",
           "speaker": "SPEAKER_02",
-          "text": "uh uh soon we will release in spirit of satoshi which is the company I'm working now Spirit of Satoshi is a company that um we are building AI uh uh uh for bitcoin AI for bitcoin so uh spirit of satoshi is also the name of the first product the first uh which we were working so we have uh spirit of satoshi ai you go there and you can ask anything about bitcoin and it will answer and uh we we we we we we we we we we we created also uh custom gpt which is called satoshi gpt you can if you have a premium account and oh in open ai you can use it uh uh uh this uh custom this satoshi gpt you can ask a lot of stuff it's it's amazing you can you can ask uh uh how many transactions were in the block number blah you you can you can ask i i i have this transaction is it confirmed it's not confirmed you can uh you can ask i i i live in brazilia where can i buy bit something using bitcoin around me and it looks in bitcoin map.org"
+          "text": "uh uh soon we will release in spirit of satoshi which is the company I'm working now Spirit of Satoshi is a company that um we are building AI uh uh uh for bitcoin AI for bitcoin so uh spirit of satoshi is also the name of the first product the first uh which we were working so we have uh spirit of satoshi ai you go there and you can ask anything about bitcoin and it will answer and uh we... we created also uh custom gpt which is called satoshi gpt you can if you have a premium account and oh in open ai you can use it uh uh uh this uh custom this satoshi gpt you can ask a lot of stuff it's it's amazing you can you can ask uh uh how many transactions were in the block number blah you you can you can ask i i i have this transaction is it confirmed it's not confirmed you can uh you can ask i i i live in brazilia where can i buy bit something using bitcoin around me and it looks in bitcoin map.org"
         },
         {
           "timestamp": "26:13",
@@ -940,7 +940,7 @@
           "timestamp": "26:29",
           "href": "https://www.youtube.com/watch?v=DCkZKxebNTk&t=1589",
           "speaker": "SPEAKER_02",
-          "text": "and it uh and uh and it brings it back okay you live in brasilia so this is the the the the the the the the the the the top places in brazilia that you have there you can but you can buy there using bitcoin so it it can you you you you you can ask almost anything uh from from from from from from from from from from from on chain data to to where can i buy stuff to uh uh uh uh uh uh uh uh uh uh explain this this this this concept of uh economics or of bitcoin or whatever it's uh it's an amazing product that we did and uh right now and after the the the hackathon which was uh one my idea i i i told him okay i did this people loved it and i think it's really useful so you can uh uh you can use we we we we we we we we we we we can get it inside uh spirit of satoshi and uh we can target uh uh like bitcoin companies who who who use develop every bitcoin companies have developers and they most of them they need to to to deal with bitcoin code with bitcoin contracts so this it would be awesome and i i i i i but learned yeah so now I'm leading this project inside spiritual Satoshi got it and so we have a hub up so that people can see um can I ask you uh what regarding the the the hackathon in the tournament that you participated are there any projects that you uh really liked admired thought they could integrate with your app or not um tell us a little bit about what you felt uh and how you valued uh the experience of building in public with other teams like the ones that you saw yeah uh well it was great it was amazing uh like to have so many people rooting for us it was uh really uh a really cool experience like every like people helping us mentoring us and uh generally rooting for us and supporting our project it was really cool um uh uh there was so many cool projects there uh uh uh uh uh uh uh uh uh uh one of them the1010 one I've been watching them for more more more more more more more more more more more than a week a year year already so I was uh really excited I knew he they they they were going to be in the top three because they their their project is amazing and uh they told me that uh they they they they they they they they they they they did it in mini script so our uh mini maxes would be very useful for them so I hope I can talk to them uh a little bit I remember the ceremony he filip told you right yes yes exactly so there's also the uh there's a oh will will we there was also very other lots of others like ebbot which were an AI for for for telegram so maybe we can uh speak with Abbott and use our our our our our our our our our our our like overpowered uh uh uh uh uh uh uh uh uh uh AI to to to to to to to to to to to connect with them"
+          "text": "and it uh and uh and it brings it back okay you live in brasilia so this is the... the top places in brazilia that you have there you can but you can buy there using bitcoin so it it can you... you can ask almost anything uh from from from from from from from from from from from on chain data to to where can i buy stuff to uh... uh explain this this this this concept of uh economics or of bitcoin or whatever it's uh it's an amazing product that we did and uh right now and after the the the hackathon which was uh one my idea i i i told him okay i did this people loved it and i think it's really useful so you can uh uh you can use we... we can get it inside uh spirit of satoshi and uh we can target uh uh like bitcoin companies who who who use develop every bitcoin companies have developers and they most of them they need to to to deal with bitcoin code with bitcoin contracts so this it would be awesome and i... i but learned yeah so now I'm leading this project inside spiritual Satoshi got it and so we have a hub up so that people can see um can I ask you uh what regarding the the the hackathon in the tournament that you participated are there any projects that you uh really liked admired thought they could integrate with your app or not um tell us a little bit about what you felt uh and how you valued uh the experience of building in public with other teams like the ones that you saw yeah uh well it was great it was amazing uh like to have so many people rooting for us it was uh really uh a really cool experience like every like people helping us mentoring us and uh generally rooting for us and supporting our project it was really cool um uh uh there was so many cool projects there uh... uh one of them the1010 one I've been watching them for more more more more more more more more more more more than a week a year year already so I was uh really excited I knew he they they they were going to be in the top three because they their their project is amazing and uh they told me that uh they they they they they they they they they they they did it in mini script so our uh mini maxes would be very useful for them so I hope I can talk to them uh a little bit I remember the ceremony he filip told you right yes yes exactly so there's also the uh there's a oh will will we there was also very other lots of others like ebbot which were an AI for for for telegram so maybe we can uh speak with Abbott and use our... our like overpowered uh... uh AI to... to connect with them"
         },
         {
           "timestamp": "29:30",
@@ -1283,13 +1283,13 @@
           "timestamp": "00:38",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=38",
           "speaker": "SPEAKER_01",
-          "text": "Um, I think everyone's kind of like uh uh uh uh uh uh uh uh uh uh uh exhausted now from the two weeks uh two months, not two weeks, two uh wish of it was two weeks."
+          "text": "Um, I think everyone's kind of like uh... uh exhausted now from the two weeks uh two months, not two weeks, two uh wish of it was two weeks."
         },
         {
           "timestamp": "00:47",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=47",
           "speaker": "SPEAKER_01",
-          "text": "Um two months of um um um um um um um um um um of hacking, building, ideating, sharing their knowledge, uh designing, developing, all of that."
+          "text": "Um two months of um... um of hacking, building, ideating, sharing their knowledge, uh designing, developing, all of that."
         },
         {
           "timestamp": "00:56",
@@ -1301,13 +1301,13 @@
           "timestamp": "01:04",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=64",
           "speaker": "SPEAKER_01",
-          "text": "Uh we started this last year as um uh uh as a platform to um um help uh founders, uh makers from all over the world be able to launch uh their ideas and make it real uh uh uh uh uh uh uh uh uh uh make it into a reality."
+          "text": "Uh we started this last year as um uh uh as a platform to um um help uh founders, uh makers from all over the world be able to launch uh their ideas and make it real uh... uh make it into a reality."
         },
         {
           "timestamp": "01:21",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=81",
           "speaker": "SPEAKER_01",
-          "text": "We've seen some amazing success um from projects which won, which didn't win, which just you know used it as uh uh uh uh uh uh uh uh a way to, you know, um uh push the development of their uh project forward."
+          "text": "We've seen some amazing success um from projects which won, which didn't win, which just you know used it as uh... uh a way to, you know, um uh push the development of their uh project forward."
         },
         {
           "timestamp": "01:37",
@@ -1469,7 +1469,7 @@
           "timestamp": "03:38",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=218",
           "speaker": "SPEAKER_01",
-          "text": "So big with Bitcoin Connect, we're trying to foster Bitcoin adoption by providing the easiest and most seamless way for you to add big payments to your uh uh uh uh uh uh uh uh uh uh web application."
+          "text": "So big with Bitcoin Connect, we're trying to foster Bitcoin adoption by providing the easiest and most seamless way for you to add big payments to your uh... uh web application."
         },
         {
           "timestamp": "03:51",
@@ -1577,7 +1577,7 @@
           "timestamp": "06:23",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=383",
           "speaker": "SPEAKER_01",
-          "text": "Um it will ask me to to fetch the balance, and within a second, you have connected your your uh uh uh uh uh uh uh uh uh uh wallet to the to this website, and what you can do now is um with with a click of a button basically you can do payments, and all you need to do is click confirm."
+          "text": "Um it will ask me to to fetch the balance, and within a second, you have connected your your uh... uh wallet to the to this website, and what you can do now is um with with a click of a button basically you can do payments, and all you need to do is click confirm."
         },
         {
           "timestamp": "06:44",
@@ -1661,7 +1661,7 @@
           "timestamp": "08:38",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=518",
           "speaker": "SPEAKER_01",
-          "text": "So we're already thinking about like um native apps, how how you we we we we we could uh uh yeah leverage them to to integrate these things, game engines, um, and so on, and to make it even easier for you to get started um with this library."
+          "text": "So we're already thinking about like um native apps, how how you we... we could uh uh yeah leverage them to to integrate these things, game engines, um, and so on, and to make it even easier for you to get started um with this library."
         },
         {
           "timestamp": "08:55",
@@ -1715,7 +1715,7 @@
           "timestamp": "09:33",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=573",
           "speaker": "SPEAKER_01",
-          "text": "Our next um project is going to be um uh uh uh uh uh uh uh uh uh uh uh uh Cascadier."
+          "text": "Our next um project is going to be um uh... uh Cascadier."
         },
         {
           "timestamp": "09:38",
@@ -1727,7 +1727,7 @@
           "timestamp": "09:41",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=581",
           "speaker": "SPEAKER_01",
-          "text": "Um uh Renee uh uh uh uh uh uh uh uh uh uh uh Jacob uh Roland, that's amazing work."
+          "text": "Um uh Renee uh... uh Jacob uh Roland, that's amazing work."
         },
         {
           "timestamp": "09:46",
@@ -1775,7 +1775,7 @@
           "timestamp": "10:31",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=631",
           "speaker": "SPEAKER_01",
-          "text": "Um, you know, like not now this um uh uh uh uh uh uh uh uh uh uh uh uh Bitcoin Connect uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh thing that the that will allow developers uh uh to integrate um uh uh lightning into their apps and maybe you know I don't other hackathons, it's uh you know, like some junior high school hackathon or something, and we get like these devs just you know copying and pasteing web components because you know they're just learning HTML or something."
+          "text": "Um, you know, like not now this um uh... uh Bitcoin Connect uh... uh thing that the that will allow developers uh uh to integrate um uh uh lightning into their apps and maybe you know I don't other hackathons, it's uh you know, like some junior high school hackathon or something, and we get like these devs just you know copying and pasteing web components because you know they're just learning HTML or something."
         },
         {
           "timestamp": "10:57",
@@ -2165,7 +2165,7 @@
           "timestamp": "15:56",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=956",
           "speaker": "SPEAKER_02",
-          "text": "The other is with preset and user defined workflows that allows users to daisy chain work uh uh uh uh uh uh uh uh uh uh uh L402s together in order to accomplish a specific goal."
+          "text": "The other is with preset and user defined workflows that allows users to daisy chain work uh... uh L402s together in order to accomplish a specific goal."
         },
         {
           "timestamp": "16:05",
@@ -2255,7 +2255,7 @@
           "timestamp": "17:19",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=1039",
           "speaker": "SPEAKER_02",
-          "text": "I asked that what is the lightning network and it came out with a pretty good and descriptive uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh response that helps educate me."
+          "text": "I asked that what is the lightning network and it came out with a pretty good and descriptive uh... uh response that helps educate me."
         },
         {
           "timestamp": "17:29",
@@ -2405,13 +2405,13 @@
           "timestamp": "19:29",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=1169",
           "speaker": "SPEAKER_01",
-          "text": "The the um uh uh uh uh uh uh uh uh uh uh is that what you call it?"
+          "text": "The the um uh... uh is that what you call it?"
         },
         {
           "timestamp": "19:31",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=1171",
           "speaker": "SPEAKER_01",
-          "text": "The one where you connect the different yeah, because the next project that we have, meaning Max's that also has a very similar uh uh uh uh uh uh uh uh uh uh kind of US."
+          "text": "The one where you connect the different yeah, because the next project that we have, meaning Max's that also has a very similar uh... uh kind of US."
         },
         {
           "timestamp": "19:42",
@@ -2675,7 +2675,7 @@
           "timestamp": "23:02",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=1382",
           "speaker": "SPEAKER_03",
-          "text": "So I we we we we we we we can translate the mini script code directly to a flowchart, but also we can um we can simplify it."
+          "text": "So I we... we can translate the mini script code directly to a flowchart, but also we can um we can simplify it."
         },
         {
           "timestamp": "23:10",
@@ -2717,7 +2717,7 @@
           "timestamp": "23:36",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=1416",
           "speaker": "SPEAKER_03",
-          "text": "simpler you can do it like running with your finger through the skin screen so after this we can uh like right now it's uh it's ready uh alpha version of course we have to improve a little bit more but um and but it's already live in our in our website and then we can uh go further to um um make an expert in bitcoin script regular script uh also we can uh start including like lightning development kiting libraries uh bitcoin core uh libraries and implementations also rgb and other layer two solutions like tap root assets nostalgia and uh i i want to show you a little bit on uh how it's in our can can can can you show my screen now so this is uh if you if you can see right here uh you just input the input the code here there's uh there's another uh website here which I can share it right here is the it's just like chat GPT you can write you can ask here write uh uh uh uh uh uh uh uh uh uh uh multi-sig and it will generate a multi-sig it it takes a while so I won't be waiting here for it for for it to show and uh but it's already showing hey teach me mini script basics so it's already teaching us how to do it uh in this screen if you can see it here it's already teaching how to write the basics of mini script and then when you get uh when you when you get the code you want you can put it here it's uh on the same website and it can plot the the the the the flowchart so with this you can uh you can check uh for sure it's if it's not allucination it's if it's not hallucinating and uh yeah so can you go back to my slides again, please?"
+          "text": "simpler you can do it like running with your finger through the skin screen so after this we can uh like right now it's uh it's ready uh alpha version of course we have to improve a little bit more but um and but it's already live in our in our website and then we can uh go further to um um make an expert in bitcoin script regular script uh also we can uh start including like lightning development kiting libraries uh bitcoin core uh libraries and implementations also rgb and other layer two solutions like tap root assets nostalgia and uh i i want to show you a little bit on uh how it's in our can can can can you show my screen now so this is uh if you if you can see right here uh you just input the input the code here there's uh there's another uh website here which I can share it right here is the it's just like chat GPT you can write you can ask here write uh... uh multi-sig and it will generate a multi-sig it it takes a while so I won't be waiting here for it for for it to show and uh but it's already showing hey teach me mini script basics so it's already teaching us how to do it uh in this screen if you can see it here it's already teaching how to write the basics of mini script and then when you get uh when you when you get the code you want you can put it here it's uh on the same website and it can plot the... the flowchart so with this you can uh you can check uh for sure it's if it's not allucination it's if it's not hallucinating and uh yeah so can you go back to my slides again, please?"
         },
         {
           "timestamp": "25:38",
@@ -2783,7 +2783,7 @@
           "timestamp": "26:19",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=1579",
           "speaker": "SPEAKER_01",
-          "text": "Um, you know, that's uh uh uh uh uh uh uh uh uh uh uh you onboarding like those devs who don't really know about Bitcoin is kind of like something that we really set out for in the beginning when we designed these tournaments and stuff."
+          "text": "Um, you know, that's uh... uh you onboarding like those devs who don't really know about Bitcoin is kind of like something that we really set out for in the beginning when we designed these tournaments and stuff."
         },
         {
           "timestamp": "26:32",
@@ -2849,7 +2849,7 @@
           "timestamp": "27:17",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=1637",
           "speaker": "SPEAKER_01",
-          "text": "Uh Bruno, like if you like if uh10101 uh needs like visualization for mini scripts and stuff like that, maybe you uh uh you you you you you you you you you you know you can do some user testing on like new products that you're creating."
+          "text": "Uh Bruno, like if you like if uh10101 uh needs like visualization for mini scripts and stuff like that, maybe you uh uh you... you know you can do some user testing on like new products that you're creating."
         },
         {
           "timestamp": "27:28",
@@ -3335,7 +3335,7 @@
           "timestamp": "34:33",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=2073",
           "speaker": "SPEAKER_03",
-          "text": "Um, do you have another team member uh uh uh uh uh uh uh uh uh uh uh on her or just yeah?"
+          "text": "Um, do you have another team member uh... uh on her or just yeah?"
         },
         {
           "timestamp": "34:36",
@@ -3497,7 +3497,7 @@
           "timestamp": "37:28",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=2248",
           "speaker": "SPEAKER_03",
-          "text": "So we don't believe that uh custodial wallet has better or uh uh uh uh uh uh uh uh uh uh has better user experience or should have better user experience."
+          "text": "So we don't believe that uh custodial wallet has better or uh... uh has better user experience or should have better user experience."
         },
         {
           "timestamp": "37:36",
@@ -3533,7 +3533,7 @@
           "timestamp": "38:27",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=2307",
           "speaker": "SPEAKER_03",
-          "text": "Um so in these uh eight weeks we have been uh creating like this this vision um to our through a prototype, and we also build uh a mobile application uh in Flutter, so it works uh already for iOS and and And And And And And And And And And Android, and so uh we try to keep uh yeah, so we put a lot of effort in the user experience, make it very easy to navigate, easy to understand, and uh put some yeah familiar touches that people that don't know Bitcoin will recognize from other uh app experiences."
+          "text": "Um so in these uh eight weeks we have been uh creating like this this vision um to our through a prototype, and we also build uh a mobile application uh in Flutter, so it works uh already for iOS and... And Android, and so uh we try to keep uh yeah, so we put a lot of effort in the user experience, make it very easy to navigate, easy to understand, and uh put some yeah familiar touches that people that don't know Bitcoin will recognize from other uh app experiences."
         },
         {
           "timestamp": "39:04",
@@ -3551,7 +3551,7 @@
           "timestamp": "39:20",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=2360",
           "speaker": "SPEAKER_03",
-          "text": "starts to uh call storage if you configure uh an extended key or something like that um um then because bitcoiners want to send and want to onboard the people uh that their close relatives so instead of always having to uh uh copy paste an invoice we try to make a more chat like experience so you can easily uh send bitcoin to your contacts you can also uh request so without having to send an invoice to another channel uh you can just request the funds and then in the case you get uh fund request you can just easily confirm it and send the stats to your contact and for to help bitcoiners uh find uh uh product to to to to to to to to to to to to spend their stats on um um um um um um um um um um we um um um um um um um um um um first focus on um um um um um um um um um um um um um um um um um showing them promotions promotions from from from merchants we on board um um um um um um um um um so they can filter them they can they can look at them they can uh filter them by their destination because we know bitcoiners want to support their local local uh economy local merchants um and we do not want to collect personal data and make recommendations based on data we collect so we made it very easy for the user itself to configure what he wants to see which services he's interested in he can uh get a merchant map from the state the the his region um and so we have thoughts about uh later adding more uh product and services like transportation tickets stuff like that but for now for the first release we will uh focus on on on on on on on on on on on on promos um um and then if you yourself are a merchant um and here we focus on on on small or in individual merchants so we made it very easy for them to to to start selling their products and to onboard them so um they don't need a separate account they can just register their merchant or if they already are registered they can just uh switch to store mode here they can see the the the the balance of all the promotions they sold they can see some sales numbers they can uh easily generate uh invoices continuously like some kind of point of sales application um they can uh scan promo codes from uh person that bought their promos and they can manage their the the the post they so the promo they made create new promos and see the their stats so for the working app actually everything is working and that's mainly uh thanks to uh the use of of breed sdk as the yeah some kind of embedded lightning notes so in this way we could offer uh non custodial lightning to uh to users without the need for them to set it up um so yeah yeah yeah sorry we um we're we're we're going a little uh time but one thing that you mentioned um um I think it's like super important to highlight it's uh you know you you just can't tell merchants like oh yeah accept bitcoin accept bitcoin yeah important to like you know like why go through all the training and overhead if like like no one's coming and paying in bitcoin you know yeah exactly so we want to keep them engaged and make them uh send po uh uh uh uh uh uh uh uh uh uh both and really see bitcoiners get to their to their business and also they can get creative so they can just I don't know sell a uh uh uh uh uh uh uh uh uh uh give a promotion for a cocktail but then the person still has to buy the main dish and then they are still free to choose Fiat Fiat Fiat Fiat Fiat Fiat or something but just so they can attract bitcoiners exactly exactly really awesome I'm so sorry to cut you off there."
+          "text": "starts to uh call storage if you configure uh an extended key or something like that um um then because bitcoiners want to send and want to onboard the people uh that their close relatives so instead of always having to uh uh copy paste an invoice we try to make a more chat like experience so you can easily uh send bitcoin to your contacts you can also uh request so without having to send an invoice to another channel uh you can just request the funds and then in the case you get uh fund request you can just easily confirm it and send the stats to your contact and for to help bitcoiners uh find uh uh product to... to spend their stats on um... um we um... um first focus on um... um showing them promotions promotions from from from merchants we on board um... um so they can filter them they can they can look at them they can uh filter them by their destination because we know bitcoiners want to support their local local uh economy local merchants um and we do not want to collect personal data and make recommendations based on data we collect so we made it very easy for the user itself to configure what he wants to see which services he's interested in he can uh get a merchant map from the state the the his region um and so we have thoughts about uh later adding more uh product and services like transportation tickets stuff like that but for now for the first release we will uh focus on... on promos um um and then if you yourself are a merchant um and here we focus on on on small or in individual merchants so we made it very easy for them to to to start selling their products and to onboard them so um they don't need a separate account they can just register their merchant or if they already are registered they can just uh switch to store mode here they can see the... the balance of all the promotions they sold they can see some sales numbers they can uh easily generate uh invoices continuously like some kind of point of sales application um they can uh scan promo codes from uh person that bought their promos and they can manage their the the the post they so the promo they made create new promos and see the their stats so for the working app actually everything is working and that's mainly uh thanks to uh the use of of breed sdk as the yeah some kind of embedded lightning notes so in this way we could offer uh non custodial lightning to uh to users without the need for them to set it up um so yeah yeah yeah sorry we um we're we're we're going a little uh time but one thing that you mentioned um um I think it's like super important to highlight it's uh you know you you just can't tell merchants like oh yeah accept bitcoin accept bitcoin yeah important to like you know like why go through all the training and overhead if like like no one's coming and paying in bitcoin you know yeah exactly so we want to keep them engaged and make them uh send po uh... uh both and really see bitcoiners get to their to their business and also they can get creative so they can just I don't know sell a uh... uh give a promotion for a cocktail but then the person still has to buy the main dish and then they are still free to choose Fiat Fiat Fiat Fiat Fiat Fiat or something but just so they can attract bitcoiners exactly exactly really awesome I'm so sorry to cut you off there."
         },
         {
           "timestamp": "43:14",
@@ -3581,7 +3581,7 @@
           "timestamp": "43:30",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=2610",
           "speaker": "SPEAKER_01",
-          "text": "And another project that is also has it had this contactless uh uh uh uh uh uh uh uh uh uh uh concept is uh um split sets."
+          "text": "And another project that is also has it had this contactless uh... uh concept is uh um split sets."
         },
         {
           "timestamp": "43:39",
@@ -4181,7 +4181,7 @@
           "timestamp": "52:44",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=3164",
           "speaker": "SPEAKER_01",
-          "text": "Um at the hub in Belgrade, we um we we we we we we we we we we we we religiously use split waves actually um one of the um one of the teams that are coming up next uh from Atlanta uh Steven Steven DeWarm from Atlanta, he's the one who introduced me to the split waves a few years ago, but um, you know, all this is uh quite interesting, and um you know. like as you mentioned about like the user adoption with these kind of like use cases and stuff, is definitely these are the kind of things that you know like we see outside in the world that like normal regular people use and that like existing uh products like don't fill the market aren't able to do because they haven't integrated Bitcoin or for whatever reason."
+          "text": "Um at the hub in Belgrade, we um we... we religiously use split waves actually um one of the um one of the teams that are coming up next uh from Atlanta uh Steven Steven DeWarm from Atlanta, he's the one who introduced me to the split waves a few years ago, but um, you know, all this is uh quite interesting, and um you know. like as you mentioned about like the user adoption with these kind of like use cases and stuff, is definitely these are the kind of things that you know like we see outside in the world that like normal regular people use and that like existing uh products like don't fill the market aren't able to do because they haven't integrated Bitcoin or for whatever reason."
         },
         {
           "timestamp": "53:28",
@@ -4235,7 +4235,7 @@
           "timestamp": "53:44",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=3224",
           "speaker": "SPEAKER_04",
-          "text": "John, uh I also have uh uh uh uh uh uh uh uh uh uh uh my co-founder uh uh Edge should be joining us well."
+          "text": "John, uh I also have uh... uh my co-founder uh uh Edge should be joining us well."
         },
         {
           "timestamp": "53:51",
@@ -4289,7 +4289,7 @@
           "timestamp": "54:20",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=3260",
           "speaker": "SPEAKER_04",
-          "text": "Yeah, so we've been kind of like going at it, and and and and and and and and and and and the good thing is we keep building um alongside so we can see the um the updates uh that we post on both fun and the progress, and it's been an amazing journey."
+          "text": "Yeah, so we've been kind of like going at it, and... and the good thing is we keep building um alongside so we can see the um the updates uh that we post on both fun and the progress, and it's been an amazing journey."
         },
         {
           "timestamp": "54:34",
@@ -4385,7 +4385,7 @@
           "timestamp": "56:07",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=3367",
           "speaker": "SPEAKER_04",
-          "text": "Whereas here uh we built it um without any uh uh uh uh uh uh uh uh uh uh uh logging, just a single user interface, and then uh you pay by uh SATS as you go through."
+          "text": "Whereas here uh we built it um without any uh... uh logging, just a single user interface, and then uh you pay by uh SATS as you go through."
         },
         {
           "timestamp": "56:19",
@@ -4499,13 +4499,13 @@
           "timestamp": "58:37",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=3517",
           "speaker": "SPEAKER_04",
-          "text": "Uh we do not use the open AI or the anthropic or all these uh closed source uh uh uh uh models that are from Silicon Valley."
+          "text": "Uh we do not use the open AI or the anthropic or all these uh closed source uh... uh models that are from Silicon Valley."
         },
         {
           "timestamp": "58:46",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=3526",
           "speaker": "SPEAKER_04",
-          "text": "We use like MSR, Lama2, uh and over the last few months, I have seen so many uh open source models that come in that are much much much better than the uh uh uh uh uh uh uh uh uh uh uh closed source ones."
+          "text": "We use like MSR, Lama2, uh and over the last few months, I have seen so many uh open source models that come in that are much much much better than the uh... uh closed source ones."
         },
         {
           "timestamp": "58:59",
@@ -4547,7 +4547,7 @@
           "timestamp": "59:27",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=3567",
           "speaker": "SPEAKER_04",
-          "text": "Again, you know, we want to make it uh easy, simple, uh, and then you know, you know, build as uh we we we we we we we we we we we go through, and then people can of like um start to uh uh use it."
+          "text": "Again, you know, we want to make it uh easy, simple, uh, and then you know, you know, build as uh we... we go through, and then people can of like um start to uh uh use it."
         },
         {
           "timestamp": "59:39",
@@ -4613,7 +4613,7 @@
           "timestamp": "01:00:33",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=3633",
           "speaker": "SPEAKER_04",
-          "text": "So uh they are actually um uh uh a Naster user, so you don't have to actually come to play by I to use it, you can directly use it um with uh uh uh uh uh uh uh uh uh uh uh you know directly going into Naster, and then uh uh they will respond to you can create images uh directly from there."
+          "text": "So uh they are actually um uh uh a Naster user, so you don't have to actually come to play by I to use it, you can directly use it um with uh... uh you know directly going into Naster, and then uh uh they will respond to you can create images uh directly from there."
         },
         {
           "timestamp": "01:00:52",
@@ -5093,7 +5093,7 @@
           "timestamp": "01:07:15",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=4035",
           "speaker": "SPEAKER_02",
-          "text": "I want to add a little bit of uh uh oops, well, uh uh uh uh uh uh uh uh uh uh let's re-try that."
+          "text": "I want to add a little bit of uh uh oops, well, uh... uh let's re-try that."
         },
         {
           "timestamp": "01:07:21",
@@ -5129,7 +5129,7 @@
           "timestamp": "01:07:29",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=4049",
           "speaker": "SPEAKER_02",
-          "text": "You gotta uh uh uh uh uh uh uh uh uh uh tell me what you want."
+          "text": "You gotta uh... uh tell me what you want."
         },
         {
           "timestamp": "01:07:33",
@@ -5243,7 +5243,7 @@
           "timestamp": "01:08:31",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=4111",
           "speaker": "SPEAKER_02",
-          "text": "So P P P P P P P P P Python the back end, next JS on the front end, Telegram API."
+          "text": "So P... P Python the back end, next JS on the front end, Telegram API."
         },
         {
           "timestamp": "01:08:35",
@@ -5489,7 +5489,7 @@
           "timestamp": "01:10:58",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=4258",
           "speaker": "SPEAKER_01",
-          "text": "What I would say is that we have this hub in Belgrade, and we're also kind of like going through a lot of those uh uh uh uh uh uh uh uh uh uh uh kind of issues of like, you know, how do you get the community engage the our cost uh uh uh uh uh uh uh uh uh uh uh that we're covering for certain things."
+          "text": "What I would say is that we have this hub in Belgrade, and we're also kind of like going through a lot of those uh... uh kind of issues of like, you know, how do you get the community engage the our cost uh... uh that we're covering for certain things."
         },
         {
           "timestamp": "01:11:12",
@@ -5549,13 +5549,13 @@
           "timestamp": "01:11:55",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=4315",
           "speaker": "SPEAKER_01",
-          "text": "Um thank you for showing up, you guys uh uh uh uh uh uh uh ATL bit lab."
+          "text": "Um thank you for showing up, you guys uh... uh ATL bit lab."
         },
         {
           "timestamp": "01:11:59",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=4319",
           "speaker": "SPEAKER_01",
-          "text": "Um you guys have shown up uh uh uh uh uh uh uh uh uh uh uh for for the last two hackathons like in a really big way."
+          "text": "Um you guys have shown up uh... uh for for the last two hackathons like in a really big way."
         },
         {
           "timestamp": "01:12:04",
@@ -5717,7 +5717,7 @@
           "timestamp": "01:14:40",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=4480",
           "speaker": "SPEAKER_06",
-          "text": "I have successful transfer uh uh uh uh uh uh uh uh uh uh exchange some Satoshi for token A."
+          "text": "I have successful transfer uh... uh exchange some Satoshi for token A."
         },
         {
           "timestamp": "01:14:44",
@@ -6017,13 +6017,13 @@
           "timestamp": "01:19:43",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=4783",
           "speaker": "SPEAKER_01",
-          "text": "And like just to be clear there, because this is like uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh quite quite an amount of work to do it um from a hackathon."
+          "text": "And like just to be clear there, because this is like uh... uh quite quite an amount of work to do it um from a hackathon."
         },
         {
           "timestamp": "01:19:52",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=4792",
           "speaker": "SPEAKER_01",
-          "text": "You you you you you you you you you you you guys focus on like the growth part, um launch during the during the tournament, right?"
+          "text": "You... you guys focus on like the growth part, um launch during the during the tournament, right?"
         },
         {
           "timestamp": "01:20:00",
@@ -6185,7 +6185,7 @@
           "timestamp": "01:21:48",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=4908",
           "speaker": "SPEAKER_03",
-          "text": "Aaron is really the uh uh uh uh uh uh uh uh uh uh the genesis of this project."
+          "text": "Aaron is really the uh... uh the genesis of this project."
         },
         {
           "timestamp": "01:21:52",
@@ -6617,7 +6617,7 @@
           "timestamp": "01:29:11",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=5351",
           "speaker": "SPEAKER_01",
-          "text": "Um, I also want to tell uh everyone to check out the uh uh uh uh uh uh uh uh uh uh last last week meet the makers episode that we did."
+          "text": "Um, I also want to tell uh everyone to check out the uh... uh last last week meet the makers episode that we did."
         },
         {
           "timestamp": "01:29:18",
@@ -6629,7 +6629,7 @@
           "timestamp": "01:29:19",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=5359",
           "speaker": "SPEAKER_01",
-          "text": "Um uh uh we had like a really long uh uh uh uh uh discussion about all sorts of things, including philosophy and tech uh relating to um um what uh the resolver team is working on."
+          "text": "Um uh uh we had like a really long uh... uh discussion about all sorts of things, including philosophy and tech uh relating to um um what uh the resolver team is working on."
         },
         {
           "timestamp": "01:29:31",
@@ -6827,7 +6827,7 @@
           "timestamp": "01:52:30",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=6750",
           "speaker": "SPEAKER_01",
-          "text": "Unfortunately, I'm usually here joined by uh uh someone, um uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh Marina isn't feeling well today."
+          "text": "Unfortunately, I'm usually here joined by uh uh someone, um uh... uh Marina isn't feeling well today."
         },
         {
           "timestamp": "01:52:38",
@@ -6863,7 +6863,7 @@
           "timestamp": "01:52:52",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=6772",
           "speaker": "SPEAKER_01",
-          "text": "This is a tournament that started in October, um, and it is uh uh uh uh uh uh uh uh uh uh uh it got finalized."
+          "text": "This is a tournament that started in October, um, and it is uh... uh it got finalized."
         },
         {
           "timestamp": "01:53:00",
@@ -6881,7 +6881,7 @@
           "timestamp": "01:53:10",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=6790",
           "speaker": "SPEAKER_01",
-          "text": "And you know, we started this to um um um um um um um um um um one, bring the community together."
+          "text": "And you know, we started this to um... um one, bring the community together."
         },
         {
           "timestamp": "01:53:15",
@@ -6905,7 +6905,7 @@
           "timestamp": "01:53:29",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=6809",
           "speaker": "SPEAKER_01",
-          "text": "Um we um we we managed that uh uh uh uh uh uh uh uh uh uh uh hackathon last year."
+          "text": "Um we um we we managed that uh... uh hackathon last year."
         },
         {
           "timestamp": "01:53:34",
@@ -6929,7 +6929,7 @@
           "timestamp": "01:53:53",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=6833",
           "speaker": "SPEAKER_01",
-          "text": "Um I was looking at uh uh uh uh uh uh uh uh uh uh uh the adopting bitcoin um videos um uh uh uh uh uh uh uh uh uh uh uh uh because there were some pictures um uh happening there, and it was just like so cool to see that you know um I'm not there uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh on the ground, but there's like in some way completely different, you know, legends of lightning things are happening, and you know, projects are presenting live on stage, and um you kind of feel disconnected uh from it when you're uh uh uh you know behind the computer managing the the like everything um uh uh virtually."
+          "text": "Um I was looking at uh... uh the adopting bitcoin um videos um uh... uh because there were some pictures um uh happening there, and it was just like so cool to see that you know um I'm not there uh... uh on the ground, but there's like in some way completely different, you know, legends of lightning things are happening, and you know, projects are presenting live on stage, and um you kind of feel disconnected uh from it when you're uh uh uh you know behind the computer managing the the like everything um uh uh virtually."
         },
         {
           "timestamp": "01:54:30",
@@ -6941,7 +6941,7 @@
           "timestamp": "01:54:33",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=6873",
           "speaker": "SPEAKER_01",
-          "text": "Um where bold fun has come um uh in the past uh uh uh uh uh uh uh uh uh uh uh two years."
+          "text": "Um where bold fun has come um uh in the past uh... uh two years."
         },
         {
           "timestamp": "01:54:39",
@@ -6995,7 +6995,7 @@
           "timestamp": "01:55:16",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=6916",
           "speaker": "SPEAKER_01",
-          "text": "We we we we um um we we typically just look for sponsors from um um um um um um um um um um different um uh companies or VCs or whatever that want to put on hackathons and stuff for us."
+          "text": "We... we um um we we typically just look for sponsors from um... um different um uh companies or VCs or whatever that want to put on hackathons and stuff for us."
         },
         {
           "timestamp": "01:55:27",
@@ -7067,13 +7067,13 @@
           "timestamp": "01:56:34",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=6994",
           "speaker": "SPEAKER_01",
-          "text": "We help people build on Bitcoin, we help people launch their dreams, and um and bold fun in itself is is you know was a dream of mine to create this kind of like fun, exciting um kind of uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh what they call it, uh experience, right?"
+          "text": "We help people build on Bitcoin, we help people launch their dreams, and um and bold fun in itself is is you know was a dream of mine to create this kind of like fun, exciting um kind of uh... uh what they call it, uh experience, right?"
         },
         {
           "timestamp": "01:56:52",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7012",
           "speaker": "SPEAKER_01",
-          "text": "Uh uh uh uh uh uh uh uh uh uh uh uh burst uh uh uh innovation into the um into the bitcoin into the bitcoin ecosystem."
+          "text": "Uh... uh burst uh uh uh innovation into the um into the bitcoin into the bitcoin ecosystem."
         },
         {
           "timestamp": "01:57:01",
@@ -7259,19 +7259,19 @@
           "timestamp": "01:58:54",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7134",
           "speaker": "SPEAKER_01",
-          "text": "Atlanta showed up in a big way, did some super amazing um uh uh uh uh uh uh uh uh uh uh uh hacking and events, uh social events and and various different events um uh during the course of the last two months."
+          "text": "Atlanta showed up in a big way, did some super amazing um uh... uh hacking and events, uh social events and and various different events um uh during the course of the last two months."
         },
         {
           "timestamp": "01:59:07",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7147",
           "speaker": "SPEAKER_01",
-          "text": "Um uh uh uh uh uh uh uh uh uh uh uh uh also uh um there were teams coming out of Pleblab, and um, and you know, we we we we we we we we we we we we uh uh uh uh were working out of um um hub21 in Belgrade."
+          "text": "Um uh... uh also uh um there were teams coming out of Pleblab, and um, and you know, we... we uh... uh were working out of um um hub21 in Belgrade."
         },
         {
           "timestamp": "01:59:21",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7161",
           "speaker": "SPEAKER_01",
-          "text": "What we always say is fun is mandatory, um uh uh uh uh uh uh uh uh uh uh uh and there was an infinite amount of fun there, um, you know, uh a testament to um um you know uh creating a experience and environment that allows people to share their knowledge and innovate, you know."
+          "text": "What we always say is fun is mandatory, um uh... uh and there was an infinite amount of fun there, um, you know, uh a testament to um um you know uh creating a experience and environment that allows people to share their knowledge and innovate, you know."
         },
         {
           "timestamp": "01:59:40",
@@ -7283,7 +7283,7 @@
           "timestamp": "01:59:53",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7193",
           "speaker": "SPEAKER_01",
-          "text": "So um uh and they're coming back uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh to participate in our tournaments, so"
+          "text": "So um uh and they're coming back uh... uh to participate in our tournaments, so"
         },
         {
           "timestamp": "01:59:58",
@@ -7439,7 +7439,7 @@
           "timestamp": "02:01:31",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7291",
           "speaker": "SPEAKER_01",
-          "text": "Um, you know, judges uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh you know score the various projects, they look at the demos, um, they look at the pictures, uh, they try to test out the uh the projects."
+          "text": "Um, you know, judges uh... uh you know score the various projects, they look at the demos, um, they look at the pictures, uh, they try to test out the uh the projects."
         },
         {
           "timestamp": "02:01:43",
@@ -7475,7 +7475,7 @@
           "timestamp": "02:02:34",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7354",
           "speaker": "SPEAKER_01",
-          "text": "Not all projects uh uh uh uh uh uh uh uh uh uh uh have to be um uh uh scored, not all seven, not all seven of the criteria, which are there, um have to be scored by each judge."
+          "text": "Not all projects uh... uh have to be um uh uh scored, not all seven, not all seven of the criteria, which are there, um have to be scored by each judge."
         },
         {
           "timestamp": "02:02:46",
@@ -7505,7 +7505,7 @@
           "timestamp": "02:03:02",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7382",
           "speaker": "SPEAKER_01",
-          "text": "Um, we're trying to, you know, fairly um uh uh uh uh uh uh uh uh uh uh distribute the funds."
+          "text": "Um, we're trying to, you know, fairly um uh... uh distribute the funds."
         },
         {
           "timestamp": "02:03:08",
@@ -7517,7 +7517,7 @@
           "timestamp": "02:03:17",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7397",
           "speaker": "SPEAKER_01",
-          "text": "We um create the environment uh to enable people to build and then you know get to distribute that capital um uh uh uh uh uh uh uh uh uh uh uh to projects and teams that uh want to build sustainable things, right?"
+          "text": "We um create the environment uh to enable people to build and then you know get to distribute that capital um uh... uh to projects and teams that uh want to build sustainable things, right?"
         },
         {
           "timestamp": "02:03:29",
@@ -7595,7 +7595,7 @@
           "timestamp": "02:04:47",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7487",
           "speaker": "SPEAKER_01",
-          "text": "I don't know if uh Dave or any of the team members are there if you guys want to hop on um in the um stream yard uh come on in and uh uh uh uh I'll get you up on here."
+          "text": "I don't know if uh Dave or any of the team members are there if you guys want to hop on um in the um stream yard uh come on in and uh... uh I'll get you up on here."
         },
         {
           "timestamp": "02:05:02",
@@ -7613,13 +7613,13 @@
           "timestamp": "02:05:18",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7518",
           "speaker": "SPEAKER_01",
-          "text": "Um, I think this is quite um significant, uh, especially with um you know all what's happening in uh uh uh uh uh uh uh uh uh uh uh uh the custodial space in the Bitcoin um ecosystem right now."
+          "text": "Um, I think this is quite um significant, uh, especially with um you know all what's happening in uh... uh the custodial space in the Bitcoin um ecosystem right now."
         },
         {
           "timestamp": "02:05:32",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7532",
           "speaker": "SPEAKER_01",
-          "text": "And um, you know, uh uh uh uh uh uh uh uh uh uh uh we do need to invest more in non-custodial tools, and this team is doing some really amazing work pushing that non custodial um uh uh tooling and and and and and and and and and and and and user experience."
+          "text": "And um, you know, uh... uh we do need to invest more in non-custodial tools, and this team is doing some really amazing work pushing that non custodial um uh uh tooling and... and user experience."
         },
         {
           "timestamp": "02:05:48",
@@ -7637,19 +7637,19 @@
           "timestamp": "02:05:52",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7552",
           "speaker": "SPEAKER_01",
-          "text": "So you know, uh it's kind of funny, and and and and and and and and and and and and I think this is uh uh uh uh uh uh uh uh uh uh uh a good lesson for for everyone here.1011"
+          "text": "So you know, uh it's kind of funny, and... and I think this is uh... uh a good lesson for for everyone here.1011"
         },
         {
           "timestamp": "02:06:04",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7564",
           "speaker": "SPEAKER_01",
-          "text": "didn't um uh uh participated uh uh uh uh with the base of their application and the first legends of lightning."
+          "text": "didn't um uh uh participated uh... uh with the base of their application and the first legends of lightning."
         },
         {
           "timestamp": "02:06:11",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7571",
           "speaker": "SPEAKER_01",
-          "text": "Um uh uh they didn't make it to uh uh uh uh uh uh uh uh uh uh uh uh to uh uh uh uh uh uh uh uh uh uh they didn't win a prize at that point."
+          "text": "Um uh uh they didn't make it to uh... uh to uh... uh they didn't win a prize at that point."
         },
         {
           "timestamp": "02:06:18",
@@ -7661,7 +7661,7 @@
           "timestamp": "02:06:22",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7582",
           "speaker": "SPEAKER_01",
-          "text": "It's a year later, and they're truly you know, like the UX for what they've done, um, the polish of what they've done, um, and everything else around uh forming a business is just um it's just something to really um really be proud of um and and and and and and and and and and and and admire."
+          "text": "It's a year later, and they're truly you know, like the UX for what they've done, um, the polish of what they've done, um, and everything else around uh forming a business is just um it's just something to really um really be proud of um and... and admire."
         },
         {
           "timestamp": "02:06:39",
@@ -7949,13 +7949,13 @@
           "timestamp": "02:09:40",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7780",
           "speaker": "SPEAKER_07",
-          "text": "Um but the product you guys put out for this hack is is is uh amazing, and we've got you know long long term plans on the roadmap for uh uh uh uh uh uh uh for you know US."
+          "text": "Um but the product you guys put out for this hack is is is uh amazing, and we've got you know long long term plans on the roadmap for uh... uh for you know US."
         },
         {
           "timestamp": "02:09:48",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=7788",
           "speaker": "SPEAKER_01",
-          "text": "for uh uh uh uh uh uh uh uh uh uh for you you know usdp uh uh uh denominated uh uh disputes non custodial it is so critical so so so very critical you know um um um um um um um um um um again like the the the environment now is not very friendly um um to custodial ship and stuff like that so it's very important that we you know especially when you're building in a hackathon and stuff like that for you know uh let's try to win the prize it's easy to just say let's put it in a database and stuff like this you know um um um um um um um um um um so people who are working on non-custodial thing I think that this is this this was a special round round of applause so amazing work amazing work uh you guys can stay tuned for finding out who the legend is oh yeah all right how do I do this how do I do this all right so the legend of lightning for this year is that's a run up I'm really bad at like building it's late guys I'm sorry you know it's late the legend is Bitcoin Connect so the Bitcoin connect team they worked on this open source um developer tool uh uh uh uh uh uh uh uh uh uh uh that pretty much anyone knowing a bit of HTML hey well that's cool you see I need to do that goddamn your production value is way higher than mine um this is uh something else that is going to I believe have like some big impact in the space for just like um allowing people to integrate um uh lightning functionality into their websites and stuff um uh uh one of I don't know if he's around here Renee uh uh uh uh uh uh uh uh uh uh if you're if you're around or anyone on the team please hop hop in on the stream um um but when we started uh uh uh uh uh uh uh uh uh uh uh bold fun we wanted uh uh our first hackathon was called shop the web, it lasted for a week."
+          "text": "for uh... uh for you you know usdp uh uh uh denominated uh uh disputes non custodial it is so critical so so so very critical you know um... um again like the the the environment now is not very friendly um um to custodial ship and stuff like that so it's very important that we you know especially when you're building in a hackathon and stuff like that for you know uh let's try to win the prize it's easy to just say let's put it in a database and stuff like this you know um... um so people who are working on non-custodial thing I think that this is this this was a special round round of applause so amazing work amazing work uh you guys can stay tuned for finding out who the legend is oh yeah all right how do I do this how do I do this all right so the legend of lightning for this year is that's a run up I'm really bad at like building it's late guys I'm sorry you know it's late the legend is Bitcoin Connect so the Bitcoin connect team they worked on this open source um developer tool uh... uh that pretty much anyone knowing a bit of HTML hey well that's cool you see I need to do that goddamn your production value is way higher than mine um this is uh something else that is going to I believe have like some big impact in the space for just like um allowing people to integrate um uh lightning functionality into their websites and stuff um uh uh one of I don't know if he's around here Renee uh... uh if you're if you're around or anyone on the team please hop hop in on the stream um um but when we started uh... uh bold fun we wanted uh uh our first hackathon was called shop the web, it lasted for a week."
         },
         {
           "timestamp": "02:11:56",
@@ -8045,7 +8045,7 @@
           "timestamp": "02:13:35",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=8015",
           "speaker": "SPEAKER_01",
-          "text": "Renee, I like I hope you don't mind if I tell the story, but um, you guys uh like you got into the the the the the the the the the the the industry like like like like like like like like like like like working in the industry through um that first hackathon was"
+          "text": "Renee, I like I hope you don't mind if I tell the story, but um, you guys uh like you got into the... the industry like like like like like like like like like like like working in the industry through um that first hackathon was"
         },
         {
           "timestamp": "02:13:44",
@@ -8171,7 +8171,7 @@
           "timestamp": "02:15:41",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=8141",
           "speaker": "SPEAKER_01",
-          "text": "You know, every every now and then I uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh Renna."
+          "text": "You know, every every now and then I uh... uh Renna."
         },
         {
           "timestamp": "02:15:44",
@@ -8291,7 +8291,7 @@
           "timestamp": "02:17:28",
           "href": "https://www.youtube.com/watch?v=NR1-HOS4xDA&t=8248",
           "speaker": "SPEAKER_01",
-          "text": "Um it is also the UX Award, uh the education and community um uh uh uh uh uh uh uh uh uh uh uh uh award and the P2P award."
+          "text": "Um it is also the UX Award, uh the education and community um uh... uh award and the P2P award."
         },
         {
           "timestamp": "02:17:38",
