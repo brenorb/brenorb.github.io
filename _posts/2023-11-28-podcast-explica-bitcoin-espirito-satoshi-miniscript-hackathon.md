@@ -12,7 +12,7 @@ tag:
 - miniscript
 - spirit of satoshi
 comments: false
-feature: /assets/generated/podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon.png
+feature: /assets/generated/podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/B_3lKKxbC40" title="Podcast - O Espírito de Satoshi e Miniscripts no Hackathon da SatsConf" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

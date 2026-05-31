@@ -9,7 +9,7 @@ comments: false
 share: true
 content_type: media
 excerpt: "Conversa na Bipa sobre 101 Perguntas sobre Bitcoin, fundamentos do protocolo e dúvidas de quem está começando."
-feature: /assets/generated/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin.png
+feature: /assets/generated/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/J_aFuT9NrIQ" title="Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

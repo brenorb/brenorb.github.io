@@ -11,7 +11,7 @@ tag:
 - data science
 - ergodicity
 comments: false
-feature: /assets/satsconf-bitcoin.png
+feature: /assets/satsconf-bitcoin.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/VddyevajQ68?si=l0o3YyOHUtrfML1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

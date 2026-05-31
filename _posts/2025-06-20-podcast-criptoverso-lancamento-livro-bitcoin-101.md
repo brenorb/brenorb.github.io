@@ -9,7 +9,7 @@ comments: false
 share: true
 content_type: media
 excerpt: "Episódio do Criptoverso sobre o lançamento do livro Bitcoin 101 e os conceitos centrais abordados nele."
-feature: /assets/generated/podcast-criptoverso-lancamento-livro-bitcoin-101.png
+feature: /assets/generated/podcast-criptoverso-lancamento-livro-bitcoin-101.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/9mM1cLua69Y" title="Podcast - Criptoverso - Lançamento do livro Bitcoin 101" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

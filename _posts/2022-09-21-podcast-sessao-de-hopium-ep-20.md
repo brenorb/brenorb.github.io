@@ -8,7 +8,7 @@ content_type: media
 tag:
 - bitcoin
 comments: false
-feature: /assets/generated/podcast-sessao-de-hopium-ep-20.png
+feature: /assets/generated/podcast-sessao-de-hopium-ep-20.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/jiZwzsmd9Go?si=GVZSa7F_EASMuRFZ" title="Podcast - Sessão de Hopium Ep. 20" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

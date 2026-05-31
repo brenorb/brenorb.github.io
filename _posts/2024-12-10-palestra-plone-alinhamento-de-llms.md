@@ -10,7 +10,7 @@ tag:
 - alignment
 - presentation
 comments: false
-feature: /assets/generated/palestra-plone-alinhamento-de-llms.png
+feature: /assets/generated/palestra-plone-alinhamento-de-llms.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/-pgSr8PIf38" title="Palestra - Plone - Alinhamento de LLMs: O Que É e Principais Técnicas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

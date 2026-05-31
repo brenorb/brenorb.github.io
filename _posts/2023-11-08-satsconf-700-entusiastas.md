@@ -9,7 +9,7 @@ tag:
 - hackathon
 - satsconf
 comments: false
-feature: /assets/satsconf-bitcoin.png
+feature: /assets/satsconf-bitcoin.jpg
 ---
 
 A Satsconf, primeiro evento 100% focado em Bitcoin no Brasil, ocorreu de 2 a 5 de novembro, em São Paulo, e reuniu quase 700 entusiastas de Bitcoin. Palestrantes internacionais como Tadge Dryja, (Lightning Network), Conor Okus (Spiral), Ryan Gentry (Lightning Labs) e Peter Todd elevaram ainda mais o nível do conteúdo técnico. 

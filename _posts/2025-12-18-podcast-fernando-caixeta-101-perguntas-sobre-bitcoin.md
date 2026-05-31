@@ -9,7 +9,7 @@ comments: false
 share: true
 content_type: media
 excerpt: "Conversa com Fernando Caixeta sobre 101 Perguntas Sobre Bitcoin, do básico ao essencial."
-feature: /assets/generated/podcast-fernando-caixeta-101-perguntas-sobre-bitcoin.png
+feature: /assets/generated/podcast-fernando-caixeta-101-perguntas-sobre-bitcoin.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/CD4SEIwWSpA" title="Podcast - Fernando Caixeta - 101 Perguntas Sobre BITCOIN (com Breno Brito)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

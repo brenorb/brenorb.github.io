@@ -10,7 +10,7 @@ tag:
 - ergodicity
 - quantitative finance
 comments: false
-feature: /assets/generated/podcast-21m-9-breno-brito.png
+feature: /assets/generated/podcast-21m-9-breno-brito.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/s2BQr1xDpc0" title="Podcast - 21 Milhões - #9 - Breno Brito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

@@ -8,7 +8,7 @@ tag:
 - bitcoin
 - price
 comments: false
-feature: /assets/crypto-news.png
+feature: /assets/crypto-news.jpg
 ---
 
 As duas maiores criptomoedas começam em queda, enquanto as altcoins mostram desempenho misto. O Bitcoin (BTC) recua 1% nas últimas 24 horas, cotado a US$ 46.968, segundo dados do CoinGecko. O Ethereum (ETH) tem queda de 0,5%, para US$ 3.479. 

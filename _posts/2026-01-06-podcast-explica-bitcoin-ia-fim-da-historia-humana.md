@@ -9,7 +9,7 @@ comments: false
 share: true
 content_type: media
 excerpt: "Conversa no Explica Bitcoin sobre IA, trabalho, riscos existenciais e o papel do Bitcoin nessa nova fase tecnológica."
-feature: /assets/generated/podcast-explica-bitcoin-ia-fim-da-historia-humana.png
+feature: /assets/generated/podcast-explica-bitcoin-ia-fim-da-historia-humana.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/sqle4sHCdEQ" title="Podcast - Explica Bitcoin - IA: O Fim da História Humana ou um Novo Começo?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

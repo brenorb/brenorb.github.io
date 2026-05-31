@@ -10,7 +10,7 @@ tag:
 - alignment
 - presentation
 comments: false
-feature: /assets/generated/palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados.png
+feature: /assets/generated/palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/A4f7HJ42M8I" title="Palestra - CEUB/GDG Brasília - Apresentações sobre Inteligência Artificial e Ciência de Dados" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

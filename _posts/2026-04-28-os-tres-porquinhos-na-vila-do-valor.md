@@ -10,7 +10,7 @@ tag:
 - review
 - education
 comments: false
-feature: /assets/generated/os-tres-porquinhos-vila-valor.png
+feature: /assets/generated/os-tres-porquinhos-vila-valor.jpg
 ---
 
 **Os Três Porquinhos na Vila do Valor** é um livro infantil de **Caroline Galgowski** que apresenta noções de educação financeira para crianças a partir de uma história conhecida.

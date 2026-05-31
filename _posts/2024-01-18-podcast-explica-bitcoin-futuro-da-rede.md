@@ -12,7 +12,7 @@ tag:
 - layer 2
 - book
 comments: false
-feature: /assets/generated/podcast-explica-bitcoin-futuro-da-rede.png
+feature: /assets/generated/podcast-explica-bitcoin-futuro-da-rede.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/rSJvdmHwyHg" title="Podcast - O Futuro da Rede Bitcoin - Sessão Temática 40 - Explica Bitcoin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

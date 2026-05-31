@@ -9,7 +9,7 @@ comments: false
 share: true
 content_type: media
 excerpt: "Conversa no BetterMoney sobre o livro 101 Perguntas sobre Bitcoin e as ideias centrais por trás do protocolo."
-feature: /assets/generated/podcast-bettermoney-101-perguntas-sobre-bitcoin.png
+feature: /assets/generated/podcast-bettermoney-101-perguntas-sobre-bitcoin.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/CBq94KL66lU" title="Podcast - BetterMoney - 101 Perguntas sobre Bitcoin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

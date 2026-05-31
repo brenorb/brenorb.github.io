@@ -9,7 +9,7 @@ tag:
 - ethics
 - risk
 comments: false
-feature: /assets/pilares.png
+feature: /assets/pilares.jpg
 ---
 
 Quem está dentro do universo cripto há algum tempo já deve ter se deparado com o termo "maximalista", geralmente associado ao bitcoin. "Maximalista de bitcoin" é um termo que genericamente significa que a pessoa acredita que o bitcoin é um ativo monetário superior às outras criptomoedas (e outras moedas fiduciárias) e que será (ou deveria ser) a reserva financeira mundial do futuro, além de rejeitar a tese do futuro multimoeda. 

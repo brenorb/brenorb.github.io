@@ -11,7 +11,7 @@ tag:
 - bitcoin
 - hackathon
 comments: false
-feature: /assets/generated/fran-btcplusplus-2025.png
+feature: /assets/generated/fran-btcplusplus-2025.jpg
 ---
 
 **Fran / AI++** was a **Bitcoin++ Floripa 2025** hackathon project built around a simple idea: use a **voice-first AI assistant** to make Bitcoin software easier to understand and use.

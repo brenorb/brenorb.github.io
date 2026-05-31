@@ -10,7 +10,7 @@ tag:
 - data science
 - quantitative finance
 comments: false
-feature: /assets/satsconf-bitcoin.png
+feature: /assets/satsconf-bitcoin.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=4Ap0jAPX00o" frameborder="0"> </iframe>

@@ -9,7 +9,7 @@ comments: false
 share: true
 content_type: media
 excerpt: "Conversa no canal Liquid Network sobre LLMs para desenvolvimento em Bitcoin e uma demonstração do Code Satoshi."
-feature: /assets/generated/podcast-liquid-network-code-satoshi.png
+feature: /assets/generated/podcast-liquid-network-code-satoshi.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/8s-GyRcZ6s0" title="Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of Satoshi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

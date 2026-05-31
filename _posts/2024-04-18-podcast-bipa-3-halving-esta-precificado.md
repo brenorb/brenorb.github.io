@@ -10,7 +10,7 @@ tag:
 - layer 2
 - book
 comments: false
-feature: /assets/generated/podcast-bipa-3-halving-esta-precificado.png
+feature: /assets/generated/podcast-bipa-3-halving-esta-precificado.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/ekQtXuTDOIs" title="Podcast - Bipa Cast #003 - O Halving está precificado?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

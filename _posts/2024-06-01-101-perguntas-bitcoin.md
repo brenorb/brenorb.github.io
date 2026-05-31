@@ -9,7 +9,7 @@ tag:
 - book 
 - bitcoin
 comments: false
-feature: /assets/5.png
+feature: /assets/5.jpg
 ---
 
 ![Livro](/assets/101btc.png)    

@@ -11,7 +11,7 @@ tag:
 - mining
 - lightning network
 comments: false
-feature: /assets/generated/podcast-iflsp-33-minisserie-bitcoin.png
+feature: /assets/generated/podcast-iflsp-33-minisserie-bitcoin.jpg
 ---
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4y9clyC3E2m8hrUEvu2zqx?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>

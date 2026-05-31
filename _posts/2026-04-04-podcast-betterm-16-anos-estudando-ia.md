@@ -9,7 +9,7 @@ comments: false
 share: true
 content_type: media
 excerpt: "Conversa no canal BetterM sobre trajetória, inteligência artificial e o que costuma ficar de fora depois de 16 anos estudando IA."
-feature: /assets/generated/podcast-betterm-16-anos-estudando-ia.png
+feature: /assets/generated/podcast-betterm-16-anos-estudando-ia.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/3QVFWHxvgvQ" title="Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

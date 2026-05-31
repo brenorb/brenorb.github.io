@@ -10,7 +10,7 @@ tag:
 - open-source
 - standards
 comments: false
-feature: /assets/generated/bip39-portuguese-wordlist.png
+feature: /assets/generated/bip39-portuguese-wordlist.jpg
 ---
 
 **BIP39 Portuguese Wordlist** is the official list of Portuguese words added to the BIP39 repository for mnemonic wallet backups.
