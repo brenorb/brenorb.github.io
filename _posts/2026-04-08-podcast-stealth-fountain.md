@@ -25,3 +25,5 @@ Boa parte do valor da conversa está em explicar o problema com exemplos concret
 Também ficou bem documentada a origem do projeto. O `Stealth` nasceu num hackathon do `Bitcoin++` voltado a exploits, foi montado como `proof of concept` em menos de 24 horas e, naquele estágio, rodava em `regtest` justamente para permitir a criação controlada de carteiras com falhas conhecidas. A conversa entra nesse ponto, no papel do `BitDevs Brasília`, na colaboração com o George e no plano de evoluir a arquitetura para algo mais robusto, possivelmente com `Floresta` embutido.
 
 O trecho final é útil porque discute distribuição, não só técnica. Em vez de imaginar o projeto apenas como app isolado, aparece ali a possibilidade de transformar o núcleo de detecção em biblioteca reutilizável por outras carteiras. Isso me interessa bastante porque muda o lugar do projeto: de demo boa de hackathon para peça de infraestrutura prática de privacidade no ecossistema Bitcoin.
+
+Projeto: [Stealth no GitHub](https://github.com/stealth-bitcoin/stealth).
