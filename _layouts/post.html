@@ -35,6 +35,44 @@ layout: compress
                     </a>
                 </div>
                 {{ content }}
+                {% assign media_appendix = site.data.media_appendices[page.slug] %}
+                {% if media_appendix and media_appendix.items and media_appendix.items.size > 0 %}
+                <section id="transcricao" class="media-transcripts" data-transcript-anchor>
+                    {% for item in media_appendix.items %}
+                    <details class="media-transcript">
+                        <summary>
+                            {{ item.label }}
+                            <span class="media-transcript__summary-meta">
+                                {{ item.stats.line_count }} {% if item.stats.line_count == 1 %}trecho{% else %}trechos{% endif %}{% if item.stats.speaker_count > 0 %} · {{ item.stats.speaker_count }} {% if item.stats.speaker_count == 1 %}voz{% else %}vozes{% endif %}{% endif %}
+                            </span>
+                        </summary>
+                        <div class="media-transcript__body">
+                            {% if item.source_url %}
+                            <p class="media-transcript__source">
+                                Fonte:
+                                <a href="{{ item.source_url }}">{{ item.source_label }}</a>
+                            </p>
+                            {% endif %}
+                            <ol class="media-transcript__lines">
+                                {% for line in item.lines %}
+                                <li>
+                                    {% if line.href %}
+                                    <a class="media-transcript__stamp" href="{{ line.href }}">{{ line.timestamp }}</a>
+                                    {% else %}
+                                    <span class="media-transcript__stamp">{{ line.timestamp }}</span>
+                                    {% endif %}
+                                    {% if line.speaker %}
+                                    <strong class="media-transcript__speaker">{{ line.speaker }}</strong>
+                                    {% endif %}
+                                    <span class="media-transcript__text">{{ line.text }}</span>
+                                </li>
+                                {% endfor %}
+                            </ol>
+                        </div>
+                    </details>
+                    {% endfor %}
+                </section>
+                {% endif %}
                 <div class="entry-meta">
                 {% include meta.html %}
                 </div>

@@ -1,0 +1,3347 @@
+{
+  "items": [
+    {
+      "id": "podcast-bipa-cast-38-satsconf",
+      "slug": "podcast-bipa-cast-38-satsconf",
+      "label": "Transcricao diarizada",
+      "source_label": "YouTube",
+      "source_url": "https://www.youtube.com/watch?v=20sPMNVQTug",
+      "stats": {
+        "line_count": 555,
+        "speaker_count": 3
+      },
+      "lines": [
+        {
+          "timestamp": "00:01",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1",
+          "speaker": "SPEAKER_01",
+          "text": "Fala, pessoal, tudo bem?"
+        },
+        {
+          "timestamp": "00:02",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2",
+          "speaker": "SPEAKER_01",
+          "text": "Antes da gente começar o episódio de hoje, vocês vão perceber que a gente tá gravando num lugar diferente."
+        },
+        {
+          "timestamp": "00:08",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=8",
+          "speaker": "SPEAKER_01",
+          "text": "A gente ganhou uma casa agora, a gente ganhou um teto."
+        },
+        {
+          "timestamp": "00:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=11",
+          "speaker": "SPEAKER_01",
+          "text": "A gente tem um estúdio na casa21, onde a maioria dos podcasts vão ser gravados presencialmente, o que é um espetáculo, é muito bom, mas eu faço ressalva que a gente tá testando o setup e aprendendo a usar enquanto a gente grava esses primeiros episódios."
+        },
+        {
+          "timestamp": "00:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=29",
+          "speaker": "SPEAKER_01",
+          "text": "Então, nesses primeiros episódios, talvez dê uma coisinha, uma falhada na câmera, talvez dê um lagzinho em alguma coisa, e faz parte."
+        },
+        {
+          "timestamp": "00:38",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=38",
+          "speaker": "SPEAKER_01",
+          "text": "Acho que a qualidade das conversas já tá muito melhor por a gente gravar ao vivo, mas agora tem toda essa curva de aprendizado de aprender a usar o estúdio quando a gente tá gravando ao vivo."
+        },
+        {
+          "timestamp": "00:49",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=49",
+          "speaker": "SPEAKER_01",
+          "text": "Então, peço a consideração, a paciência de vocês, mas estamos melhorando pra ficar cada vez melhor o conteúdo que a gente produz pra vocês."
+        },
+        {
+          "timestamp": "00:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=59",
+          "speaker": "SPEAKER_01",
+          "text": "Valeu, gente."
+        },
+        {
+          "timestamp": "01:00",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=60",
+          "speaker": "SPEAKER_01",
+          "text": "Agora é o episódio."
+        },
+        {
+          "timestamp": "01:13",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=73",
+          "speaker": "SPEAKER_01",
+          "text": "Bom, pessoal."
+        },
+        {
+          "timestamp": "01:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=74",
+          "speaker": "SPEAKER_01",
+          "text": "Tamo gravando aqui, então."
+        },
+        {
+          "timestamp": "01:16",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=76",
+          "speaker": "SPEAKER_01",
+          "text": "Primeiro, queria dar boa vinda para os dois, bem-vindo, Diego, bem-vindo, Breno."
+        },
+        {
+          "timestamp": "01:21",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=81",
+          "speaker": "SPEAKER_01",
+          "text": "Breno, você já fez podcast pra Bipa e tudo mais, mas."
+        },
+        {
+          "timestamp": "01:25",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=85",
+          "speaker": "SPEAKER_01",
+          "text": "Agora você faz parte da casa, entrou no time da Bipa com a gente."
+        },
+        {
+          "timestamp": "01:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=89",
+          "speaker": "SPEAKER_01",
+          "text": "Então, queria começar perguntando pra você."
+        },
+        {
+          "timestamp": "01:32",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=92",
+          "speaker": "SPEAKER_01",
+          "text": "O que você veio fazer na Bipa?"
+        },
+        {
+          "timestamp": "01:34",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=94",
+          "speaker": "SPEAKER_01",
+          "text": "Como."
+        },
+        {
+          "timestamp": "01:35",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=95",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, qual é o seu escopo, como você pretende ajudar a gente?"
+        },
+        {
+          "timestamp": "01:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=99",
+          "speaker": "SPEAKER_02",
+          "text": "Pô, primeiramente aí, obrigado de novo, agora."
+        },
+        {
+          "timestamp": "01:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=103",
+          "speaker": "SPEAKER_02",
+          "text": "Parte da casa, né?"
+        },
+        {
+          "timestamp": "01:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=104",
+          "speaker": "SPEAKER_02",
+          "text": "Tô muito feliz aí de estar junto aí com os grandes do Brasil."
+        },
+        {
+          "timestamp": "01:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=110",
+          "speaker": "SPEAKER_02",
+          "text": "Então, a Bipa é uma empresa que eu admiro muito."
+        },
+        {
+          "timestamp": "01:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=114",
+          "speaker": "SPEAKER_02",
+          "text": "Eu uso a Bipa desde que era praticamente só o nosso CEO."
+        },
+        {
+          "timestamp": "02:00",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=120",
+          "speaker": "SPEAKER_02",
+          "text": "Eu me atendia no Telegram quando tinha problema no suporte."
+        },
+        {
+          "timestamp": "02:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=125",
+          "speaker": "SPEAKER_02",
+          "text": "E eu sou super, sempre fui super fã, sempre gostei muito da Bipa."
+        },
+        {
+          "timestamp": "02:12",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=132",
+          "speaker": "SPEAKER_02",
+          "text": "E agora eu vou conseguir."
+        },
+        {
+          "timestamp": "02:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=134",
+          "speaker": "SPEAKER_02",
+          "text": "Eu vou estar trabalhando como cientista de dados."
+        },
+        {
+          "timestamp": "02:17",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=137",
+          "speaker": "SPEAKER_02",
+          "text": "Ou seja, eu vou tentar compilar, pegar os dados que a gente tem na Bipa pra melhorar a experiência do usuário, pra melhorar e eficiência da empresa, e entre outras coisas."
+        },
+        {
+          "timestamp": "02:30",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=150",
+          "speaker": "SPEAKER_02",
+          "text": "É, inclusive pra fazer produtos novos, né?"
+        },
+        {
+          "timestamp": "02:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=153",
+          "speaker": "SPEAKER_02",
+          "text": "Por que não?"
+        },
+        {
+          "timestamp": "02:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=153",
+          "speaker": "SPEAKER_02",
+          "text": "Usar aí um pouquinho de inteligência artificial dentro da Bipa, então tem muita coisa interessante aí que vai vir com isso daí."
+        },
+        {
+          "timestamp": "02:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=161",
+          "speaker": "SPEAKER_01",
+          "text": "Boa."
+        },
+        {
+          "timestamp": "02:42",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=162",
+          "speaker": "SPEAKER_01",
+          "text": "Pra quem não lembra, a gente gravou um podcast ano passado ainda pelo Explica Bitcoin, porque você tinha um projeto muito interessante que ganhou o prêmio de melhor projeto no hackathon da7.CCCCCCCCCConf."
+        },
+        {
+          "timestamp": "02:55",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=175",
+          "speaker": "SPEAKER_01",
+          "text": "Esse ano você também participou da7CCCCCCCCCConf."
+        },
+        {
+          "timestamp": "02:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=179",
+          "speaker": "SPEAKER_01",
+          "text": "E o episódio de hoje, assim, eu comecei te apresentando, porque você é uma ótima aquisição, um prazer trabalhar com você, mas no fundo, o tema de hoje é a gente falar muito mais da7CCCCCCCCCConf e como nós três que somos da Bipa participamos da7CCCCCCCCCConf de maneira diferente."
+        },
+        {
+          "timestamp": "03:17",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=197",
+          "speaker": "SPEAKER_01",
+          "text": "Então, começa contando você, assim, como foi o hackathon, o que é um hacketon, acho que em primeiro lugar, como foi o hacketon, quais projetos aparecem lá, assim, como."
+        },
+        {
+          "timestamp": "03:26",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=206",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, dá uma desesão global do hackathon da7CCCCCCCCCConf, basicamente."
+        },
+        {
+          "timestamp": "03:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=211",
+          "speaker": "SPEAKER_02",
+          "text": "Claro, claro."
+        },
+        {
+          "timestamp": "03:32",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=212",
+          "speaker": "SPEAKER_02",
+          "text": "Então, hackathon é uma palavra que vem."
+        },
+        {
+          "timestamp": "03:36",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=216",
+          "speaker": "SPEAKER_02",
+          "text": "É uma junção de duas palavras, né?"
+        },
+        {
+          "timestamp": "03:37",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=217",
+          "speaker": "SPEAKER_02",
+          "text": "De hack, tipo hacker, que todo mundo sabe quem é o que é um hacker."
+        },
+        {
+          "timestamp": "03:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=221",
+          "speaker": "SPEAKER_01",
+          "text": "E."
+        },
+        {
+          "timestamp": "03:42",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=222",
+          "speaker": "SPEAKER_01",
+          "text": "Ninguém sabe o que é um hacker."
+        },
+        {
+          "timestamp": "03:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=223",
+          "speaker": "SPEAKER_01",
+          "text": "Você acha que ninguém sabe o que é o hack?"
+        },
+        {
+          "timestamp": "03:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=224",
+          "speaker": "SPEAKER_01",
+          "text": "Todo mundo tem a imagem do hacker, aquele cara de capuz, tipo, escuso, assim, fazendo, sabe, cometendo crimes e fraudes, assim, não só o criança."
+        },
+        {
+          "timestamp": "03:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=234",
+          "speaker": "SPEAKER_01",
+          "text": "Justo, justo."
+        },
+        {
+          "timestamp": "03:55",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=235",
+          "speaker": "SPEAKER_02",
+          "text": "É, o se popularizou aí, mas."
+        },
+        {
+          "timestamp": "03:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=236",
+          "speaker": "SPEAKER_02",
+          "text": "É, se popularizou a ideia de hacker como o que a palavra certa seria o cracker, que é a pessoa que faz crimes, comete crimes usando usando tecnologia, usando computadores e coisa assim."
+        },
+        {
+          "timestamp": "04:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=251",
+          "speaker": "SPEAKER_02",
+          "text": "O hacker, na verdade, ele é um."
+        },
+        {
+          "timestamp": "04:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=254",
+          "speaker": "SPEAKER_02",
+          "text": "Basicamente, uma pessoa que trabalha, que sabe codar."
+        },
+        {
+          "timestamp": "04:18",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=258",
+          "speaker": "SPEAKER_02",
+          "text": "É um programador."
+        },
+        {
+          "timestamp": "04:19",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=259",
+          "speaker": "SPEAKER_02",
+          "text": "Ou dá pra dar pra dizer assim."
+        },
+        {
+          "timestamp": "04:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=262",
+          "speaker": "SPEAKER_02",
+          "text": "A abilidade hacker é você conseguir se virar ali, conseguir abrir o computador e criar as coisas e conseguir fazer as coisas."
+        },
+        {
+          "timestamp": "04:30",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=270",
+          "speaker": "SPEAKER_02",
+          "text": "Então o hackathon vem dessa palavra hack, né?"
+        },
+        {
+          "timestamp": "04:34",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=274",
+          "speaker": "SPEAKER_02",
+          "text": "De hacker, e o tom vem de maraton, maratona."
+        },
+        {
+          "timestamp": "04:38",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=278",
+          "speaker": "SPEAKER_02",
+          "text": "Ou seja, é uma maratona de código."
+        },
+        {
+          "timestamp": "04:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=281",
+          "speaker": "SPEAKER_02",
+          "text": "Então, você reúne um monte de pessoas da maratona, você junta um monte de pessoas, e elas fazem um negócio incrível, que é correr, acho que é42 quilômetros, né?"
+        },
+        {
+          "timestamp": "04:52",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=292",
+          "speaker": "SPEAKER_02",
+          "text": "Correr42 quilômetros ali de uma vez em, sei lá, cinco horas."
+        },
+        {
+          "timestamp": "04:58",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=298",
+          "speaker": "SPEAKER_02",
+          "text": "Hackathon varia de modelos pra modelos, mas o geral é ser dois dias onde você junta uma junta uma galera, e você meio que tenta criar uma empresa, criar um produto, criar um software, criar alguma coisa assim, que."
+        },
+        {
+          "timestamp": "05:12",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=312",
+          "speaker": "SPEAKER_02",
+          "text": "e no final tem uma avaliação e as pessoas."
+        },
+        {
+          "timestamp": "05:17",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=317",
+          "speaker": "SPEAKER_02",
+          "text": "e vai ter um time vencedor, vai ter."
+        },
+        {
+          "timestamp": "05:21",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=321",
+          "speaker": "SPEAKER_02",
+          "text": "O interessante do Hackathon é isso, você."
+        },
+        {
+          "timestamp": "05:24",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=324",
+          "speaker": "SPEAKER_02",
+          "text": "Em um espaço de tempo muito curto, você chega lá, bolar ideia e trazer um monte de coisa, coisa que você, às vezes, já tinha pensado há muito tempo e nunca teve tempo de fazer, ou então, às vezes você nem nunca tinha pensado, mas você juntou ali, começou a conversar, brainstorming, surgiu uma ideia muito legal, e você vai e faz rapidinho em dois dias, e em dois dias, de repente você tem vários projetos muito interessantes."
+        },
+        {
+          "timestamp": "05:49",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=349",
+          "speaker": "SPEAKER_01",
+          "text": "Isso tem muito aquele pensamento de sprint, né?"
+        },
+        {
+          "timestamp": "05:53",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=353",
+          "speaker": "SPEAKER_01",
+          "text": "No final das."
+        },
+        {
+          "timestamp": "05:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=354",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, eu lembro o Fidaca."
+        },
+        {
+          "timestamp": "05:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=354",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, eu lembro da fita acadêmica, mestrado, doutorado, o pessoal falava que o trabalho se estende pelo prazo que ele tiver, e você sempre faz no finalzinho quando a água está batendo na bunda."
+        },
+        {
+          "timestamp": "06:06",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=366",
+          "speaker": "SPEAKER_01",
+          "text": "Então é muito legal esse formato de vamos, então, nem dar um prazo longo, vamos já assumir que é um sprint, que aí todo mundo fica totalmente focado, tempo que, sei lá, dois dias, eu já acho que eu já ouvi falar de uma semana, talvez, até, coisas assim, e o pessoal foca100%, então, no fundo, a produtividade aumenta muito, porque tem esse deadline, esse prazo chegando muito em cima."
+        },
+        {
+          "timestamp": "06:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=389",
+          "speaker": "SPEAKER_02",
+          "text": "Isso, exatamente."
+        },
+        {
+          "timestamp": "06:30",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=390",
+          "speaker": "SPEAKER_02",
+          "text": "Quando você tem um."
+        },
+        {
+          "timestamp": "06:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=391",
+          "speaker": "SPEAKER_02",
+          "text": "Quando você."
+        },
+        {
+          "timestamp": "06:32",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=392",
+          "speaker": "SPEAKER_02",
+          "text": "Sei lá, se você não tem um prazo."
+        },
+        {
+          "timestamp": "06:34",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=394",
+          "speaker": "SPEAKER_02",
+          "text": "Eu, ah, eu tenho uma ideia, eu quero fazer um aplicativo que faz isso, isso e aquilo."
+        },
+        {
+          "timestamp": "06:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=399",
+          "speaker": "SPEAKER_02",
+          "text": "Aí você fica, putz, aí você gasta um tempão pesquisando, e vai pensando, e vai desenvolvendo, e vai."
+        },
+        {
+          "timestamp": "06:45",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=405",
+          "speaker": "SPEAKER_02",
+          "text": "E aí fica."
+        },
+        {
+          "timestamp": "06:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=407",
+          "speaker": "SPEAKER_02",
+          "text": "gasta muito tempo em coisas que não diria não necessariamente inúteis, mas que podereriam ser deixados pra um segundo momento."
+        },
+        {
+          "timestamp": "06:57",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=417",
+          "speaker": "SPEAKER_02",
+          "text": "E você ali tá fazendo sozinho, né?"
+        },
+        {
+          "timestamp": "06:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=419",
+          "speaker": "SPEAKER_02",
+          "text": "Num hackathon, você junta um grupo e você."
+        },
+        {
+          "timestamp": "07:04",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=424",
+          "speaker": "SPEAKER_02",
+          "text": "Com esse grupo ali, você tem dedicação total, máxima dedicação, e você tem que ser extremamente eficiente."
+        },
+        {
+          "timestamp": "07:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=431",
+          "speaker": "SPEAKER_02",
+          "text": "Porque você tem dois dias."
+        },
+        {
+          "timestamp": "07:12",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=432",
+          "speaker": "SPEAKER_02",
+          "text": "Isso."
+        },
+        {
+          "timestamp": "07:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=434",
+          "speaker": "SPEAKER_02",
+          "text": "O normal é dois dias."
+        },
+        {
+          "timestamp": "07:15",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=435",
+          "speaker": "SPEAKER_02",
+          "text": "Esse, o primeiro hackathon da SatisConf do ano passado, aquele que eu ganhei, foi de dois dias."
+        },
+        {
+          "timestamp": "07:21",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=441",
+          "speaker": "SPEAKER_02",
+          "text": "Esse foi, se eu não me engano, dez dias."
+        },
+        {
+          "timestamp": "07:24",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=444",
+          "speaker": "SPEAKER_02",
+          "text": "Pra gente ter mais tempo de fazer, acabou que eu fiquei dois dias só fazendo também, que eu não tive tempo antes."
+        },
+        {
+          "timestamp": "07:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=451",
+          "speaker": "SPEAKER_01",
+          "text": "Mas é isso."
+        },
+        {
+          "timestamp": "07:32",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=452",
+          "speaker": "SPEAKER_01",
+          "text": "Cara, isso me lembra muito uma frase que eu ouvi também, que é melhor feito do que perfeito."
+        },
+        {
+          "timestamp": "07:38",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=458",
+          "speaker": "SPEAKER_01",
+          "text": "Com certeza."
+        },
+        {
+          "timestamp": "07:38",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=458",
+          "speaker": "SPEAKER_01",
+          "text": "É essa coisa de ter um prazo longo, querendo ou não, muita gente se esconde atrás de um perfeccionismo e não percebe que esse perfeccionismo nada mais é do que uma forma de procrastinação e de você não entregar o resultado, né?"
+        },
+        {
+          "timestamp": "07:51",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=471",
+          "speaker": "SPEAKER_01",
+          "text": "Então, o fato de você ser ser obrigado a fazer tão rápido."
+        },
+        {
+          "timestamp": "07:52",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=472",
+          "speaker": "SPEAKER_01",
+          "text": "Com o fato de você ser ser obrigado a fazer tão rápido, eu imagino que assim, as preocupações estéticas de design front end, assim,óbvio que não vai estar refinado e polido, mas assim, é um MVP que para em pé e funciona."
+        },
+        {
+          "timestamp": "08:06",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=486",
+          "speaker": "SPEAKER_01",
+          "text": "E aí depois que desenvolve a par das arestas, lapida tudo, mas o grosso do racional faz nesses dois dias, provavelmente."
+        },
+        {
+          "timestamp": "08:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=494",
+          "speaker": "SPEAKER_02",
+          "text": "Eu vou até acrescentar uma coisa, que."
+        },
+        {
+          "timestamp": "08:18",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=498",
+          "speaker": "SPEAKER_02",
+          "text": "Como o nome é hackathon, né, de hacker, então as pessoas têm a ideia de que, pô, mas eu não sou dev, eu não sei quodar."
+        },
+        {
+          "timestamp": "08:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=507",
+          "speaker": "SPEAKER_02",
+          "text": "Então não vou participar."
+        },
+        {
+          "timestamp": "08:28",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=508",
+          "speaker": "SPEAKER_02",
+          "text": "Pois é, exatamente, mas o."
+        },
+        {
+          "timestamp": "08:30",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=510",
+          "speaker": "SPEAKER_02",
+          "text": "Mas o."
+        },
+        {
+          "timestamp": "08:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=513",
+          "speaker": "SPEAKER_02",
+          "text": "Por exemplo, o time ali do Granola, que foi o vencer o desculpa, o time do Floresta, que foi o vencedor desse ano."
+        },
+        {
+          "timestamp": "08:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=521",
+          "speaker": "SPEAKER_02",
+          "text": "Ele tinha dois."
+        },
+        {
+          "timestamp": "08:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=524",
+          "speaker": "SPEAKER_02",
+          "text": "Tinha um dev, se eu não me engano, um designer e uma pessoa de front end."
+        },
+        {
+          "timestamp": "08:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=530",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, o parte."
+        },
+        {
+          "timestamp": "08:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=534",
+          "speaker": "SPEAKER_02",
+          "text": "Tem outras pessoas que às vezes são interessantes e às vezes até necessárias, assim."
+        },
+        {
+          "timestamp": "09:01",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=541",
+          "speaker": "SPEAKER_02",
+          "text": "O mais necessário de todos, é."
+        },
+        {
+          "timestamp": "09:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=545",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que até dá pra fazer sem dev."
+        },
+        {
+          "timestamp": "09:07",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=547",
+          "speaker": "SPEAKER_02",
+          "text": "É bem difícil, mas talvez até dê."
+        },
+        {
+          "timestamp": "09:09",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=549",
+          "speaker": "SPEAKER_02",
+          "text": "Mas o."
+        },
+        {
+          "timestamp": "09:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=551",
+          "speaker": "SPEAKER_02",
+          "text": "Mas assim, tem."
+        },
+        {
+          "timestamp": "09:13",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=553",
+          "speaker": "SPEAKER_02",
+          "text": "Precisa de designer."
+        },
+        {
+          "timestamp": "09:15",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=555",
+          "speaker": "SPEAKER_02",
+          "text": "Precisa de produto."
+        },
+        {
+          "timestamp": "09:18",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=558",
+          "speaker": "SPEAKER_02",
+          "text": "Então, às vezes, tem uma pessoa que tem uma visão muito clara de como o produto tem que ser."
+        },
+        {
+          "timestamp": "09:24",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=564",
+          "speaker": "SPEAKER_02",
+          "text": "E ele faz toda a diferença, no católico.Às"
+        },
+        {
+          "timestamp": "09:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=567",
+          "speaker": "SPEAKER_02",
+          "text": "vezes é uma pessoa de business pra fazer o pitch e chegar lá e montar o apresentação e conseguir, porque você pega um desenvolvedor, por mais que ele seja o melhor desenvolvedor do mundo, muitas vezes, esse desenvolvedor não é a melhor pessoa pra convencer o bancada."
+        },
+        {
+          "timestamp": "09:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=587",
+          "speaker": "SPEAKER_02",
+          "text": "Convencer os investidores, não é necessariamente um desenvolvedor é um bom CEO, assim."
+        },
+        {
+          "timestamp": "09:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=590",
+          "speaker": "SPEAKER_02",
+          "text": "O desenvolvedor é um bom CEO, assim."
+        },
+        {
+          "timestamp": "09:52",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=592",
+          "speaker": "SPEAKER_02",
+          "text": "Então, você pega um cara de business e ele consegue montar um pitch muito bom, consegue montar uma apresentação muito boa, e pegar um produto que é um produto legal e transformar isso numa ideia mágica e se vender isso pro juiz e ganhar um hackathon, assim."
+        },
+        {
+          "timestamp": "10:09",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=609",
+          "speaker": "SPEAKER_02",
+          "text": "Então, existem."
+        },
+        {
+          "timestamp": "10:10",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=610",
+          "speaker": "SPEAKER_02",
+          "text": "existem outras outras oportunidades além do programador ali no hackathon."
+        },
+        {
+          "timestamp": "10:19",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=619",
+          "speaker": "SPEAKER_01",
+          "text": "Perfeito."
+        },
+        {
+          "timestamp": "10:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=620",
+          "speaker": "SPEAKER_01",
+          "text": "Cara, então."
+        },
+        {
+          "timestamp": "10:21",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=621",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, conta pra gente rapidinho."
+        },
+        {
+          "timestamp": "10:23",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=623",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, qual era o projeto do ano passado que vocês ganharam, e como esse projeto andou nesse último ano, assim, tipo, é uma coisa que você faz para o hackathon e depois ele fica adormecido, ou ele continua sendo desenvolvido."
+        },
+        {
+          "timestamp": "10:37",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=637",
+          "speaker": "SPEAKER_01",
+          "text": "Qual é a."
+        },
+        {
+          "timestamp": "10:38",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=638",
+          "speaker": "SPEAKER_01",
+          "text": "No fundo, qual é a vida, qual é a trajetória de um projeto que ganha um hackathon depois do hackathon?"
+        },
+        {
+          "timestamp": "10:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=644",
+          "speaker": "SPEAKER_02",
+          "text": "Isso aí varia muito."
+        },
+        {
+          "timestamp": "10:46",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=646",
+          "speaker": "SPEAKER_02",
+          "text": "Varia muito."
+        },
+        {
+          "timestamp": "10:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=647",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que o mais comum é o projeto chegar se apresentar no hackathon e depois morrer."
+        },
+        {
+          "timestamp": "10:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=656",
+          "speaker": "SPEAKER_02",
+          "text": "Isso é normal, inclusive, qualquer empresa também."
+        },
+        {
+          "timestamp": "11:00",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=660",
+          "speaker": "SPEAKER_02",
+          "text": "O mais comum é quando alguém cria uma empresa, é a empresa não dar certo."
+        },
+        {
+          "timestamp": "11:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=665",
+          "speaker": "SPEAKER_02",
+          "text": "Isso aí, infelizmente, é a estatística natural."
+        },
+        {
+          "timestamp": "11:10",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=670",
+          "speaker": "SPEAKER_02",
+          "text": "Porém, o dá pra você."
+        },
+        {
+          "timestamp": "11:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=674",
+          "speaker": "SPEAKER_02",
+          "text": "Dá pra você fazer coisa."
+        },
+        {
+          "timestamp": "11:15",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=675",
+          "speaker": "SPEAKER_02",
+          "text": "Inclusive, a história do meu hackathon passado é interessante, que é justamente isso."
+        },
+        {
+          "timestamp": "11:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=680",
+          "speaker": "SPEAKER_02",
+          "text": "Eu já estava trabalhando numa empresa chamada Spirit of Satoshi, que é uma empresa que fazia inteligência artificial focada em Bitcoin, esses modelos de linguagem tipo chat APT."
+        },
+        {
+          "timestamp": "11:30",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=690",
+          "speaker": "SPEAKER_02",
+          "text": "E conversando internamente, eu falei, falei com o pessoal da empresa ali, falei, olha, a gente podia fazer um modelo de código, ajudar as pessoas a escrever contratar inteligente no Bitcoin."
+        },
+        {
+          "timestamp": "11:46",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=706",
+          "speaker": "SPEAKER_02",
+          "text": "Ah, não, mas vai dar trabalho, vai ser muita coisa, vai ser difícil. não sei o que, a gente já tá concentrado nesse negócio."
+        },
+        {
+          "timestamp": "11:53",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=713",
+          "speaker": "SPEAKER_02",
+          "text": "E aí o que eu fiz?"
+        },
+        {
+          "timestamp": "11:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=714",
+          "speaker": "SPEAKER_02",
+          "text": "Eu, tá bom, então eu vou fazendo o hackathon."
+        },
+        {
+          "timestamp": "11:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=716",
+          "speaker": "SPEAKER_02",
+          "text": "Aí eu fiz o hackathon, ganhei primeiro lugar, e quando eu ganhei o primeiro lugar, eu cheguei e mostrei aqui pro."
+        },
+        {
+          "timestamp": "12:03",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=723",
+          "speaker": "SPEAKER_02",
+          "text": "Mostrei pro CEO da empresa, olha aqui, ó."
+        },
+        {
+          "timestamp": "12:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=725",
+          "speaker": "SPEAKER_02",
+          "text": "Não só dá pra fazer, como eu fiz aqui em dois dias, a gente ajusta aqui mais um pouquinho e ganhei primeiro lugar, a galera adorou."
+        },
+        {
+          "timestamp": "12:13",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=733",
+          "speaker": "SPEAKER_02",
+          "text": "E isso aí virou a empresa no."
+        },
+        {
+          "timestamp": "12:16",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=736",
+          "speaker": "SPEAKER_02",
+          "text": "Depois que eu apresentei isso daí, a empresa pivotou pra ser o modelo principal da empresa."
+        },
+        {
+          "timestamp": "12:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=742",
+          "speaker": "SPEAKER_02",
+          "text": "Então, quando a gente começou a conversar com novos investidores, a gente começou a apresentar o modelo que eu fiz no hackathon."
+        },
+        {
+          "timestamp": "12:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=749",
+          "speaker": "SPEAKER_02",
+          "text": "Então, isso aí é uma."
+        },
+        {
+          "timestamp": "12:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=751",
+          "speaker": "SPEAKER_02",
+          "text": "Porém, se não tivesse o hackathon, provavelmente esse modelo nunca teria sido feito."
+        },
+        {
+          "timestamp": "12:37",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=757",
+          "speaker": "SPEAKER_02",
+          "text": "Porque foi justamente aquela."
+        },
+        {
+          "timestamp": "12:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=759",
+          "speaker": "SPEAKER_02",
+          "text": "Aquela pilha, aquela correria."
+        },
+        {
+          "timestamp": "12:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=761",
+          "speaker": "SPEAKER_02",
+          "text": "Pô, tem eu e mais alguns aqui rapidão, tem um prêmio e tem um prazo."
+        },
+        {
+          "timestamp": "12:46",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=766",
+          "speaker": "SPEAKER_02",
+          "text": "E aí gastei ali um final de semana e conseguir fazer o um negócio assim do zero."
+        },
+        {
+          "timestamp": "12:52",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=772",
+          "speaker": "SPEAKER_02",
+          "text": "Se eu tive, se eu tivesse lá e ia ficar, ah, mas vamos conversar, vamos ver."
+        },
+        {
+          "timestamp": "12:57",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=777",
+          "speaker": "SPEAKER_02",
+          "text": "É, quem sabe depois, vamos colocar aqui no backlog aí mais pra frente."
+        },
+        {
+          "timestamp": "13:02",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=782",
+          "speaker": "SPEAKER_02",
+          "text": "Então."
+        },
+        {
+          "timestamp": "13:03",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=783",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, às vezes, com o hackathon, a gente consegue destravar umas coisas muito legais."
+        },
+        {
+          "timestamp": "13:09",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=789",
+          "speaker": "SPEAKER_01",
+          "text": "Não, perfeito."
+        },
+        {
+          "timestamp": "13:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=791",
+          "speaker": "SPEAKER_01",
+          "text": "Cara, e esse ano, qual foi o projeto desse ano que você fez, e também o vencedor, assim, dar uma visão geral pra gente disso também."
+        },
+        {
+          "timestamp": "13:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=800",
+          "speaker": "SPEAKER_01",
+          "text": "É, beleza."
+        },
+        {
+          "timestamp": "13:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=802",
+          "speaker": "SPEAKER_02",
+          "text": "Esse ano, a gente teve umas regras um pouco diferentes, eu acho que eu falei mais cedo, né?"
+        },
+        {
+          "timestamp": "13:26",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=806",
+          "speaker": "SPEAKER_02",
+          "text": "A gente teve10 dias de hackathon."
+        },
+        {
+          "timestamp": "13:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=809",
+          "speaker": "SPEAKER_02",
+          "text": "Justamente, e o hackathon foi remoto."
+        },
+        {
+          "timestamp": "13:32",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=812",
+          "speaker": "SPEAKER_02",
+          "text": "Então, justamente para as pessoas."
+        },
+        {
+          "timestamp": "13:34",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=814",
+          "speaker": "SPEAKER_02",
+          "text": "Não dá pra, sei lá, esperar que as pessoas venham e passem10 dias aqui em Salvador, tem que trabalhar, ter essas coisas."
+        },
+        {
+          "timestamp": "13:40",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=820",
+          "speaker": "SPEAKER_02",
+          "text": "Mas aí então fez remoto e aí fez o."
+        },
+        {
+          "timestamp": "13:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=824",
+          "speaker": "SPEAKER_02",
+          "text": "A ideia é ter um pouco mais de tempo pra. trazer pra criar uns projetos interessantes."
+        },
+        {
+          "timestamp": "13:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=830",
+          "speaker": "SPEAKER_02",
+          "text": "E teve vários projetos interessantes lá."
+        },
+        {
+          "timestamp": "13:53",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=833",
+          "speaker": "SPEAKER_02",
+          "text": "O ganhador foi o Floresta, que eu comentei mais cedo."
+        },
+        {
+          "timestamp": "13:57",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=837",
+          "speaker": "SPEAKER_02",
+          "text": "O Floresta, pra quem não sabe, é uma biblioteca de Bitcoin, onde usa uma coisa chamada U Tree Exo."
+        },
+        {
+          "timestamp": "14:04",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=844",
+          "speaker": "SPEAKER_02",
+          "text": "Eu não preciso entrar na parte técnica, mas basicamente."
+        },
+        {
+          "timestamp": "14:08",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=848",
+          "speaker": "SPEAKER_02",
+          "text": "Ele era só uma biblioteca e agora virou um aplicativo onde você pode ter um full Node rodando no seu celular."
+        },
+        {
+          "timestamp": "14:15",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=855",
+          "speaker": "SPEAKER_02",
+          "text": "Então é um negócio antes, quando você precisava ter um computador ali quase que dedicado pra ter um pra dar um full Node rodando, com o Floresta, com o Hackathon Floresta."
+        },
+        {
+          "timestamp": "14:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=867",
+          "speaker": "SPEAKER_02",
+          "text": "A biblioteca Floresta passou pra dentro do celular, e agora você consegue, consegue rodar ele."
+        },
+        {
+          "timestamp": "14:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=873",
+          "speaker": "SPEAKER_02",
+          "text": "Ainda tá em fase de teste, tem essas coisinhas assim, você tá só a testnet, mas você tem um full node direto no seu celular."
+        },
+        {
+          "timestamp": "14:40",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=880",
+          "speaker": "SPEAKER_01",
+          "text": "E teoricamente, eu posso usar esse Node pra sincronizar na minha Sparrel e fazer as transações por ele, assim."
+        },
+        {
+          "timestamp": "14:48",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=888",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acredito que sim."
+        },
+        {
+          "timestamp": "14:49",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=889",
+          "speaker": "SPEAKER_02",
+          "text": "Aí, esse nível de detalhe técnico, acho que tem que ver ali com o Davidson."
+        },
+        {
+          "timestamp": "14:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=896",
+          "speaker": "SPEAKER_01",
+          "text": "Mas o Léo, que é o nosso cara de som, tá fazendo aqui que sim, porque você estava no Floresta também, né?"
+        },
+        {
+          "timestamp": "15:02",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=902",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que ele não estava no grupo."
+        },
+        {
+          "timestamp": "15:03",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=903",
+          "speaker": "SPEAKER_02",
+          "text": "Você estava no hackathon."
+        },
+        {
+          "timestamp": "15:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=905",
+          "speaker": "SPEAKER_02",
+          "text": "Você estava num outro projeto de hackathon, né?"
+        },
+        {
+          "timestamp": "15:07",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=907",
+          "speaker": "SPEAKER_02",
+          "text": "Ele estava em outro grupo Hackathon, mas ele se desenvolve o Floresta junto com o Davidson, né?"
+        },
+        {
+          "timestamp": "15:12",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=912",
+          "speaker": "SPEAKER_02",
+          "text": "Então ele tem alguma."
+        },
+        {
+          "timestamp": "15:13",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=913",
+          "speaker": "SPEAKER_02",
+          "text": "Então, ele sabe aí bem mais que eu."
+        },
+        {
+          "timestamp": "15:16",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=916",
+          "speaker": "SPEAKER_01",
+          "text": "Não, mas isso é incrível, porque assim, eu lembro o primeiro nó que eu instalei no computador, o quanto demorou pra eu puxar a blockchain inteira."
+        },
+        {
+          "timestamp": "15:23",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=923",
+          "speaker": "SPEAKER_01",
+          "text": "E aí, por causa disso, eu comecei a rodar um nó pro lado."
+        },
+        {
+          "timestamp": "15:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=927",
+          "speaker": "SPEAKER_01",
+          "text": "No fundo, com outro IXO, pelo que eu entendo, eu não vou precisar mais mudar um nó para o nado, porque eu vou poder rodar um nó muito mais leve, que até tão leve que o."
+        },
+        {
+          "timestamp": "15:37",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=937",
+          "speaker": "SPEAKER_01",
+          "text": "É possível eu rodar no meu celular."
+        },
+        {
+          "timestamp": "15:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=939",
+          "speaker": "SPEAKER_01",
+          "text": "Em linhas gerais é isso, né?"
+        },
+        {
+          "timestamp": "15:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=941",
+          "speaker": "SPEAKER_02",
+          "text": "Pelo que eu entendi, pelo menos a apresentação deles foi essa."
+        },
+        {
+          "timestamp": "15:45",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=945",
+          "speaker": "SPEAKER_02",
+          "text": "Ele."
+        },
+        {
+          "timestamp": "15:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=944",
+          "speaker": "SPEAKER_02",
+          "text": "A apresentação deles foi essa, a apresentação dele é que não só consegue rodar no celular, como você quase nem percebe que ele tá rodando no fundo, de tão leve que ele é."
+        },
+        {
+          "timestamp": "15:53",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=953",
+          "speaker": "SPEAKER_02",
+          "text": "E é sinceramente incrível, hein?"
+        },
+        {
+          "timestamp": "15:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=956",
+          "speaker": "SPEAKER_02",
+          "text": "Eu fico, tipo, muito merecido, impossível ganhar ganhar desse projeto."
+        },
+        {
+          "timestamp": "16:03",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=963",
+          "speaker": "SPEAKER_02",
+          "text": "Em segundo lugar, ficou o Script Lab, que é um."
+        },
+        {
+          "timestamp": "16:08",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=968",
+          "speaker": "SPEAKER_02",
+          "text": "O Script Lab, inclusive, quem ganhou foi o João Belou, que ele trabalhou comigo no Minimaxis, no ano passado."
+        },
+        {
+          "timestamp": "16:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=980",
+          "speaker": "SPEAKER_02",
+          "text": "E ele pegou o germe da ideia ali, um núcleo da ideia, e desenvolveu isso daí, ficou bem legal."
+        },
+        {
+          "timestamp": "16:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=987",
+          "speaker": "SPEAKER_02",
+          "text": "Ele."
+        },
+        {
+          "timestamp": "16:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=989",
+          "speaker": "SPEAKER_02",
+          "text": "No passado eu fiz uma inteligência artificial onde você."
+        },
+        {
+          "timestamp": "16:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=993",
+          "speaker": "SPEAKER_02",
+          "text": "onde você."
+        },
+        {
+          "timestamp": "16:34",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=994",
+          "speaker": "SPEAKER_02",
+          "text": "Que te ajudaria a escrever MiniScript, né?"
+        },
+        {
+          "timestamp": "16:38",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=998",
+          "speaker": "SPEAKER_02",
+          "text": "O contrato inteligente para o Bitcoin."
+        },
+        {
+          "timestamp": "16:40",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1000",
+          "speaker": "SPEAKER_02",
+          "text": "E ele foi avançou um pouquinho mais e criou um sistema no code de bloquinhos, onde você consegue."
+        },
+        {
+          "timestamp": "16:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1007",
+          "speaker": "SPEAKER_02",
+          "text": "Você tem uma inteligência artificial que conversa e ele gera pra você, mas já gera os bloquinhos também."
+        },
+        {
+          "timestamp": "16:52",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1012",
+          "speaker": "SPEAKER_02",
+          "text": "E você consegue ter uma coisa bem visual, onde você consegue."
+        },
+        {
+          "timestamp": "16:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1016",
+          "speaker": "SPEAKER_02",
+          "text": "É um projeto bem educacional."
+        },
+        {
+          "timestamp": "17:00",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1020",
+          "speaker": "SPEAKER_02",
+          "text": "E ficou lindo, assim."
+        },
+        {
+          "timestamp": "17:02",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1022",
+          "speaker": "SPEAKER_02",
+          "text": "Ele, inclusive, me convidou pra ser advisor, agora no."
+        },
+        {
+          "timestamp": "17:08",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1028",
+          "speaker": "SPEAKER_02",
+          "text": "Eles querem continuar o desenvolvimento, inclusive, eles querem continuar o desenvolvimento e fazer ele ter um ter um produto final mais do que isso, simplesmente um MVP ou um demo."
+        },
+        {
+          "timestamp": "17:19",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1039",
+          "speaker": "SPEAKER_02",
+          "text": "E aí eu tô agora de advisor deles aí pra lançar isso daí."
+        },
+        {
+          "timestamp": "17:26",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1046",
+          "speaker": "SPEAKER_02",
+          "text": "durante o ano que vem."
+        },
+        {
+          "timestamp": "17:28",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1048",
+          "speaker": "SPEAKER_01",
+          "text": "Esse é o projeto número2, né?"
+        },
+        {
+          "timestamp": "17:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1051",
+          "speaker": "SPEAKER_01",
+          "text": "Isso, o projeto número2."
+        },
+        {
+          "timestamp": "17:32",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1052",
+          "speaker": "SPEAKER_01",
+          "text": "E o seu projeto."
+        },
+        {
+          "timestamp": "17:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1053",
+          "speaker": "SPEAKER_02",
+          "text": "Isso, o meu, eu fiquei em terceiro lugar."
+        },
+        {
+          "timestamp": "17:35",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1055",
+          "speaker": "SPEAKER_02",
+          "text": "O meu foi o granola."
+        },
+        {
+          "timestamp": "17:37",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1057",
+          "speaker": "SPEAKER_02",
+          "text": "O granola, ele é uma forma de transformar as mentes de."
+        },
+        {
+          "timestamp": "17:42",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1062",
+          "speaker": "SPEAKER_02",
+          "text": "Transformar as Mint de cachu em exchanges."
+        },
+        {
+          "timestamp": "17:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1067",
+          "speaker": "SPEAKER_02",
+          "text": "Então, eu criei uma forma de você fazer uma coisa chamada Atomic Swaps."
+        },
+        {
+          "timestamp": "17:57",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1077",
+          "speaker": "SPEAKER_02",
+          "text": "Atomic Swaps, eles já são conhecidos dentro de."
+        },
+        {
+          "timestamp": "17:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1079",
+          "speaker": "SPEAKER_02",
+          "text": "entre."
+        },
+        {
+          "timestamp": "18:00",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1080",
+          "speaker": "SPEAKER_02",
+          "text": "inclusive entre criptomoedas diferentes."
+        },
+        {
+          "timestamp": "18:03",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1083",
+          "speaker": "SPEAKER_02",
+          "text": "Mas eu fiz uma."
+        },
+        {
+          "timestamp": "18:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1085",
+          "speaker": "SPEAKER_02",
+          "text": "Arrumei uma forma de você fazer entre tokens de cachorro diferentes."
+        },
+        {
+          "timestamp": "18:09",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1089",
+          "speaker": "SPEAKER_02",
+          "text": "Então você tem um token de Bitcoin e outra pessoa tenha um token de USD, de Mint de Cachorro, e você consegue de forma."
+        },
+        {
+          "timestamp": "18:19",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1099",
+          "speaker": "SPEAKER_02",
+          "text": "Você consegue fazer essa troca entre eles, sem você precisar de nenhum Ente no meio do caminho."
+        },
+        {
+          "timestamp": "18:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1107",
+          "speaker": "SPEAKER_02",
+          "text": "Você não precisa confiar que a outra pessoa vai te dar o USD quando eu te der o Bitcoin."
+        },
+        {
+          "timestamp": "18:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1113",
+          "speaker": "SPEAKER_02",
+          "text": "Então, isso aí faz essa troca automaticamente."
+        },
+        {
+          "timestamp": "18:35",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1115",
+          "speaker": "SPEAKER_02",
+          "text": "E como isso é base."
+        },
+        {
+          "timestamp": "18:38",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1118",
+          "speaker": "SPEAKER_02",
+          "text": "Isso é simplesmente uma funcionalidade das mint de cachorro que qualquer Mint pode colocar, pode acrescentar, isso faz com que o cachorro deixe de ser simplesmente um banco centralizado, onde você deposita seu Bitcoin e você ganha o Cash, e ele passa a ser meio que como uma grande exchange de centralizada, onde tem vários nós de exchange onde eu posso trocar de token para qualquer outro token, e ter essa troca sem precisar de mais coisas, assim."
+        },
+        {
+          "timestamp": "19:23",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1163",
+          "speaker": "SPEAKER_02",
+          "text": "Então, é isso, e tem toda a garantia de privacidade que o cachorro tem."
+        },
+        {
+          "timestamp": "19:28",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1168",
+          "speaker": "SPEAKER_01",
+          "text": "Eu lembro que, Diego, quando a gente conversou e você ainda não estava na Bipa também, eu já estava."
+        },
+        {
+          "timestamp": "19:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1173",
+          "speaker": "SPEAKER_01",
+          "text": "A gente conversou bastante sobre essa questão de escalabilidade do Bitcoin e como a Lightning é uma dessas soluções. de escala, mas que na sua visão a gente já está usando muito mais o ECAche em cima da Lightning do que propriamente a Lightning, ou algo assim, se eu me recordo bem."
+        },
+        {
+          "timestamp": "19:51",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1191",
+          "speaker": "SPEAKER_01",
+          "text": "No fundo, o que o Breno está trazendo é a evolução disso, é essa questão de como usar tanto o Bitcoin quanto outros tokens em cima da Lightning, e a Lightning e você faz um peguinho, pega out pra esse cachorro com a Light."
+        },
+        {
+          "timestamp": "20:08",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1208",
+          "speaker": "SPEAKER_01",
+          "text": "É isso?"
+        },
+        {
+          "timestamp": "20:09",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1209",
+          "speaker": "SPEAKER_02",
+          "text": "Sim, é basicamente isso."
+        },
+        {
+          "timestamp": "20:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1211",
+          "speaker": "SPEAKER_02",
+          "text": "É uma forma de você."
+        },
+        {
+          "timestamp": "20:12",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1212",
+          "speaker": "SPEAKER_02",
+          "text": "Hoje o On-Ramp e o Off-Ramp, eles são muito complexos, né?"
+        },
+        {
+          "timestamp": "20:18",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1218",
+          "speaker": "SPEAKER_02",
+          "text": "Se você quiser ter um pouco de privacidade, com privacidade financeira, você tem que passar geralmente num mixer de coins, fazer CoinSwap."
+        },
+        {
+          "timestamp": "20:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1231",
+          "speaker": "SPEAKER_02",
+          "text": "Tem várias formas aí, só que ainda é muito complexo."
+        },
+        {
+          "timestamp": "20:34",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1234",
+          "speaker": "SPEAKER_02",
+          "text": "Com o cachorro, isso fica fácil."
+        },
+        {
+          "timestamp": "20:36",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1236",
+          "speaker": "SPEAKER_02",
+          "text": "Você joga ali pro cachorro, você faz troca com quem foi, depois você saca e pronto."
+        },
+        {
+          "timestamp": "20:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1241",
+          "speaker": "SPEAKER_02",
+          "text": "Ninguém."
+        },
+        {
+          "timestamp": "20:42",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1242",
+          "speaker": "SPEAKER_02",
+          "text": "Não tem como."
+        },
+        {
+          "timestamp": "20:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1243",
+          "speaker": "SPEAKER_02",
+          "text": "Nem."
+        },
+        {
+          "timestamp": "20:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1244",
+          "speaker": "SPEAKER_02",
+          "text": "Não existe conta, não existe nada, assim."
+        },
+        {
+          "timestamp": "20:48",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1248",
+          "speaker": "SPEAKER_02",
+          "text": "A mint não tem conhecimento do que acontece."
+        },
+        {
+          "timestamp": "20:53",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1253",
+          "speaker": "SPEAKER_02",
+          "text": "Então isso facilita muito as coisas."
+        },
+        {
+          "timestamp": "20:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1256",
+          "speaker": "SPEAKER_01",
+          "text": "E o cachorro, assim, a única coisa que fica meio solta na minha cabeça é assim."
+        },
+        {
+          "timestamp": "21:01",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1261",
+          "speaker": "SPEAKER_01",
+          "text": "O cachu é construído como se fosse uma camada, sei lá, camada, que a gente aprendeu a falar assim, mas sabe?"
+        },
+        {
+          "timestamp": "21:07",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1267",
+          "speaker": "SPEAKER_01",
+          "text": "Uma solução que se conecta a outra, às segundas camadas do Bitcoin."
+        },
+        {
+          "timestamp": "21:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1271",
+          "speaker": "SPEAKER_01",
+          "text": "Ele pode se conectar tanto a Lightning quanto alguma outra, como a Liquid, como hipoteticamente no futuro, a Botanics, assim, no fundo."
+        },
+        {
+          "timestamp": "21:19",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1279",
+          "speaker": "SPEAKER_01",
+          "text": "Taproot Assets."
+        },
+        {
+          "timestamp": "21:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1280",
+          "speaker": "SPEAKER_02",
+          "text": "Perfeito."
+        },
+        {
+          "timestamp": "21:21",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1281",
+          "speaker": "SPEAKER_02",
+          "text": "Exatamente."
+        },
+        {
+          "timestamp": "21:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1282",
+          "speaker": "SPEAKER_02",
+          "text": "O Cachu, ele é baseado numa tecnologia dos anos80, do David Chan, que se chama."
+        },
+        {
+          "timestamp": "21:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1289",
+          "speaker": "SPEAKER_02",
+          "text": "que hoje as pessoas chamam de Chiaun e Cash."
+        },
+        {
+          "timestamp": "21:32",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1292",
+          "speaker": "SPEAKER_02",
+          "text": "É o e-Cash do David Chan."
+        },
+        {
+          "timestamp": "21:35",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1295",
+          "speaker": "SPEAKER_02",
+          "text": "E essa tecnologia, ela foi feita nos anos80."
+        },
+        {
+          "timestamp": "21:38",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1298",
+          "speaker": "SPEAKER_02",
+          "text": "Eita, nos anos80, então não tinha Bitcoin, ela foi feita pro dólar."
+        },
+        {
+          "timestamp": "21:42",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1302",
+          "speaker": "SPEAKER_02",
+          "text": "Ela foi feita pro dólar."
+        },
+        {
+          "timestamp": "21:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1303",
+          "speaker": "SPEAKER_02",
+          "text": "Pra você ter um banco com privacidade em dólar."
+        },
+        {
+          "timestamp": "21:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1307",
+          "speaker": "SPEAKER_02",
+          "text": "Ou seja, ele é agnóstico de moeda."
+        },
+        {
+          "timestamp": "21:52",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1312",
+          "speaker": "SPEAKER_02",
+          "text": "Ele é currency agnostic, né?"
+        },
+        {
+          "timestamp": "21:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1314",
+          "speaker": "SPEAKER_02",
+          "text": "Ele é agnóstico de moeda."
+        },
+        {
+          "timestamp": "21:55",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1315",
+          "speaker": "SPEAKER_02",
+          "text": "Você pode colocar qualquer coisa por trás."
+        },
+        {
+          "timestamp": "21:57",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1317",
+          "speaker": "SPEAKER_02",
+          "text": "Hoje o Cachorro é todo desenvolvido com o Bitcoin por trás."
+        },
+        {
+          "timestamp": "22:02",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1322",
+          "speaker": "SPEAKER_02",
+          "text": "E agora, agora que lançou recentemente aí as primeiras versões da Ben Net de Type Root Assets."
+        },
+        {
+          "timestamp": "22:10",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1330",
+          "speaker": "SPEAKER_02",
+          "text": "E essas coisas a gente pode plugar isso daí e fazer cachu de vários tipos de token diferente."
+        },
+        {
+          "timestamp": "22:19",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1339",
+          "speaker": "SPEAKER_02",
+          "text": "E isso aí vai ser muito legal."
+        },
+        {
+          "timestamp": "22:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1342",
+          "speaker": "SPEAKER_02",
+          "text": "Muito legal."
+        },
+        {
+          "timestamp": "22:23",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1343",
+          "speaker": "SPEAKER_02",
+          "text": "Você compra um."
+        },
+        {
+          "timestamp": "22:25",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1345",
+          "speaker": "SPEAKER_02",
+          "text": "E mesmo."
+        },
+        {
+          "timestamp": "22:26",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1346",
+          "speaker": "SPEAKER_02",
+          "text": "Vamos dizer aí, vamos dizer aí no cenário apocalíptico aí que vem o Drex."
+        },
+        {
+          "timestamp": "22:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1351",
+          "speaker": "SPEAKER_02",
+          "text": "Você conseguiria usar de alguma."
+        },
+        {
+          "timestamp": "22:35",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1355",
+          "speaker": "SPEAKER_02",
+          "text": "Você conseguiria mandar um Drex pra uma mint de cachorro de BRL e trocar por Bitcoin, fazer coisas, e você consegue escapar completamente do quem tá tentando te rastrear."
+        },
+        {
+          "timestamp": "22:49",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1369",
+          "speaker": "SPEAKER_01",
+          "text": "Pô, que maravilha."
+        },
+        {
+          "timestamp": "22:51",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1371",
+          "speaker": "SPEAKER_01",
+          "text": "Bom, eu vou mudar de foco agora, só porque assim."
+        },
+        {
+          "timestamp": "22:55",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1375",
+          "speaker": "SPEAKER_01",
+          "text": "Daria pra você fazer um mil perguntas sobre isso, acho que isso escarece."
+        },
+        {
+          "timestamp": "22:58",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1378",
+          "speaker": "SPEAKER_01",
+          "text": "A gente até tentou fazer vários podcasts sobre escalabilidade, eu fiz um com o Diego, fiz com o pessoal da Machancura, que ainda tá pra sair, fiz com o pessoal da Fed, fiz com o pessoal da Botanic Labs, mas."
+        },
+        {
+          "timestamp": "23:10",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1390",
+          "speaker": "SPEAKER_01",
+          "text": "Quanto mais esse podcast e estudo sobre essa questão de escalabilidade, o melhor."
+        },
+        {
+          "timestamp": "23:15",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1395",
+          "speaker": "SPEAKER_01",
+          "text": "Mas."
+        },
+        {
+          "timestamp": "23:16",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1396",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, pra aproveitar o tempo, assim, não adianta eu falar só contigo, eu aproveitar o Diego também, que no fundo, a pauta é a sets com flu é escalabilidade do Bitcoin."
+        },
+        {
+          "timestamp": "23:26",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1406",
+          "speaker": "SPEAKER_01",
+          "text": "Somente."
+        },
+        {
+          "timestamp": "23:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1407",
+          "speaker": "SPEAKER_01",
+          "text": "E em pedra da gente ficar animado aqui."
+        },
+        {
+          "timestamp": "23:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1409",
+          "speaker": "SPEAKER_01",
+          "text": "Sim, essa solução de e cash, é a primeira vez que o Diego me explicou nesse episódio, acho que."
+        },
+        {
+          "timestamp": "23:36",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1416",
+          "speaker": "SPEAKER_01",
+          "text": "Abriu maio, assim?"
+        },
+        {
+          "timestamp": "23:36",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1416",
+          "speaker": "SPEAKER_01",
+          "text": "A abrir o maio, assim, excludiu minha cabeça."
+        },
+        {
+          "timestamp": "23:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1419",
+          "speaker": "SPEAKER_01",
+          "text": "Não vejo hora disso começar a sair das testinetes e realmente ser implementado."
+        },
+        {
+          "timestamp": "23:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1424",
+          "speaker": "SPEAKER_01",
+          "text": "Mas deixa eu te perguntar, Diego."
+        },
+        {
+          "timestamp": "23:46",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1426",
+          "speaker": "SPEAKER_01",
+          "text": "É."
+        },
+        {
+          "timestamp": "23:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1427",
+          "speaker": "SPEAKER_01",
+          "text": "E você, como foi essa desconf pra você, assim?"
+        },
+        {
+          "timestamp": "23:49",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1429",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, conta também do evento como um todo, não só da parte hackathon, mas dos dois dias de palestras, e depois conta um pouco dos painéis que você participou também."
+        },
+        {
+          "timestamp": "24:00",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1440",
+          "speaker": "SPEAKER_03",
+          "text": "Prazer estar aqui com você, Leta, mais uma vez, um prazer também, Breno."
+        },
+        {
+          "timestamp": "24:04",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1444",
+          "speaker": "SPEAKER_03",
+          "text": "Obrigado pelo convite."
+        },
+        {
+          "timestamp": "24:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1445",
+          "speaker": "SPEAKER_03",
+          "text": "O evento foi maravilhoso."
+        },
+        {
+          "timestamp": "24:07",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1447",
+          "speaker": "SPEAKER_03",
+          "text": "Foi a maior e melhor satisconfier que eu já estive, nós que já estivemos lá em todas as edições, sabemos disso."
+        },
+        {
+          "timestamp": "24:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1454",
+          "speaker": "SPEAKER_03",
+          "text": "É como se a nave e mãe tivesse aterrissado no nosso país, né?"
+        },
+        {
+          "timestamp": "24:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1462",
+          "speaker": "SPEAKER_03",
+          "text": "Nós que aprendemos tanto com os professores que vieram aqui nos ensinar, né?"
+        },
+        {
+          "timestamp": "24:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1467",
+          "speaker": "SPEAKER_03",
+          "text": "Então, a bolha brasileira, de certa forma, ela é filha da bolha gringa."
+        },
+        {
+          "timestamp": "24:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1473",
+          "speaker": "SPEAKER_03",
+          "text": "E nossos professores estavam aqui pela primeira vez."
+        },
+        {
+          "timestamp": "24:37",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1477",
+          "speaker": "SPEAKER_03",
+          "text": "Então, cumprimentamos, conversamos um pouco com aquelas pessoas que nos formaram."
+        },
+        {
+          "timestamp": "24:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1483",
+          "speaker": "SPEAKER_03",
+          "text": "Eu certamente sou muito grata ali ao Preston Picha e outras pessoas que aqui estiveram."
+        },
+        {
+          "timestamp": "24:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1490",
+          "speaker": "SPEAKER_03",
+          "text": "Então, eu tive a honra de moderar um painel no palco principal, no palco Satoshi, e participar de um painel no palco Ralfin."
+        },
+        {
+          "timestamp": "24:58",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1498",
+          "speaker": "SPEAKER_03",
+          "text": "No palco Satoshi."
+        },
+        {
+          "timestamp": "24:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1499",
+          "speaker": "SPEAKER_03",
+          "text": "Nós falamos sobre o prêmio monetário, num painel com o Rafa Zagori, o Bernardo e o Safiri."
+        },
+        {
+          "timestamp": "25:07",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1507",
+          "speaker": "SPEAKER_03",
+          "text": "Então, por exemplo, o Rafa Zagori, né?"
+        },
+        {
+          "timestamp": "25:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1511",
+          "speaker": "SPEAKER_03",
+          "text": "O Alpha Zeta, ele é o desenvolvedor do Nakamoto Porteffólio.com."
+        },
+        {
+          "timestamp": "25:17",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1517",
+          "speaker": "SPEAKER_03",
+          "text": "Então, de certa forma, ele talvez é uma das pessoas no mundo que melhor entendeu o conceito e a matemática por trás de você calcular quanto valeria o Bitcoin, caso ele capturasse X ou Y por cento do prêmio monetário de uma classe de ativou de outro."
+        },
+        {
+          "timestamp": "25:34",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1534",
+          "speaker": "SPEAKER_03",
+          "text": "Prêmio monetário de uma classe de ativou de outros."
+        },
+        {
+          "timestamp": "25:36",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1536",
+          "speaker": "SPEAKER_01",
+          "text": "Eu vou ter que fazer uma."
+        },
+        {
+          "timestamp": "25:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1541",
+          "speaker": "SPEAKER_01",
+          "text": "Que assim, quando você fala prêmio monetário, eu entendo, o Bruno entende, mas eu não sei necessariamente se o pessoal em casa entende o que você quer dizer com prêmio monetário.Ótimo."
+        },
+        {
+          "timestamp": "25:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1550",
+          "speaker": "SPEAKER_01",
+          "text": "Então o que é um prêmio monetário?"
+        },
+        {
+          "timestamp": "25:52",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1552",
+          "speaker": "SPEAKER_03",
+          "text": "Muito boa pergunta."
+        },
+        {
+          "timestamp": "25:53",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1553",
+          "speaker": "SPEAKER_03",
+          "text": "Inclusive foi assim que começamos o nosso painel."
+        },
+        {
+          "timestamp": "25:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1556",
+          "speaker": "SPEAKER_03",
+          "text": "Eu sugiro até que quando o painel estiver."
+        },
+        {
+          "timestamp": "25:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1559",
+          "speaker": "SPEAKER_03",
+          "text": "Quando todos os painéis estiverem ao vivo, que assistam a todos, mas a gente começa explicando exatamente o que é isso."
+        },
+        {
+          "timestamp": "26:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1565",
+          "speaker": "SPEAKER_03",
+          "text": "E o prêmio monetário é aquele valor que as coisas possuem por terem feito o papel que era historicamente do dinheiro."
+        },
+        {
+          "timestamp": "26:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1574",
+          "speaker": "SPEAKER_03",
+          "text": "Ou seja, qual que é o valor das coisas que vai além da utilidade daquela coisa."
+        },
+        {
+          "timestamp": "26:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1580",
+          "speaker": "SPEAKER_03",
+          "text": "O quanto aquela coisa vale a mais, mas que não deveria valer a mais só pelo que ela faz, ou o que ela se propõe a fazer."
+        },
+        {
+          "timestamp": "26:30",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1590",
+          "speaker": "SPEAKER_03",
+          "text": "Então, por exemplo, muita gente começou, lá nos Estados Unidos a poupar em ações na bolsa."
+        },
+        {
+          "timestamp": "26:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1599",
+          "speaker": "SPEAKER_03",
+          "text": "Uma poupança que historicamente era feita no tradicional dinheiro, embaixo do colchão, quando lastreado em ouro."
+        },
+        {
+          "timestamp": "26:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1607",
+          "speaker": "SPEAKER_03",
+          "text": "Ou poupava no próprio ouro, quando ainda era permitido."
+        },
+        {
+          "timestamp": "26:51",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1611",
+          "speaker": "SPEAKER_03",
+          "text": "Então, outras coisas começaram a fazer o papel que era historicamente do dinheiro, como as ações na bolsa."
+        },
+        {
+          "timestamp": "26:57",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1617",
+          "speaker": "SPEAKER_03",
+          "text": "E assim foi com os imóveis também aqui no Brasil, né?"
+        },
+        {
+          "timestamp": "27:00",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1620",
+          "speaker": "SPEAKER_03",
+          "text": "Nós somos filhos de uma geração que aprendeu a poupar comprando imóvel."
+        },
+        {
+          "timestamp": "27:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1625",
+          "speaker": "SPEAKER_03",
+          "text": "Então, os imóveis, as ações, e outros títulos de dívida, né?"
+        },
+        {
+          "timestamp": "27:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1631",
+          "speaker": "SPEAKER_03",
+          "text": "Somos ensinados a poupar emprestando, né?"
+        },
+        {
+          "timestamp": "27:15",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1635",
+          "speaker": "SPEAKER_03",
+          "text": "Para governos e instituições."
+        },
+        {
+          "timestamp": "27:17",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1637",
+          "speaker": "SPEAKER_03",
+          "text": "Todas essas coisas, dívidas, imóveis, ações, elas começaram a valer mais do que deveriam valer."
+        },
+        {
+          "timestamp": "27:26",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1646",
+          "speaker": "SPEAKER_03",
+          "text": "É justamente porque ocuparam um espaço que não era delas."
+        },
+        {
+          "timestamp": "27:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1651",
+          "speaker": "SPEAKER_03",
+          "text": "E a culpa não é exatamente delas, mas de quem nos retirou o direito de poupar em dinheiro forte, em moeda boa."
+        },
+        {
+          "timestamp": "27:42",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1662",
+          "speaker": "SPEAKER_03",
+          "text": "Pois bem, esse que surge o Bitcoin em2009 é como uma alternativa superior de poupança."
+        },
+        {
+          "timestamp": "27:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1670",
+          "speaker": "SPEAKER_03",
+          "text": "Desenhado para ser poupança, desenhado para ser dinheiro, e as pessoas começam a concluir que poupar nele talvez seja melhor do que pouparem outras coisas."
+        },
+        {
+          "timestamp": "28:02",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1682",
+          "speaker": "SPEAKER_03",
+          "text": "E ele começa a retirar ou capturar o excesso dessas outras classes de ativos, que passarão, com o tempo, a valer só aquilo que merecem, só aquilo pelo que tem mérito."
+        },
+        {
+          "timestamp": "28:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1694",
+          "speaker": "SPEAKER_03",
+          "text": "Só aquilo que é justificado pela sua utilidade."
+        },
+        {
+          "timestamp": "28:17",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1697",
+          "speaker": "SPEAKER_03",
+          "text": "No caso de uma ação, é o potencial de crescimento e o dividendo que ela paga."
+        },
+        {
+          "timestamp": "28:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1702",
+          "speaker": "SPEAKER_03",
+          "text": "No caso de um imóvel, é o valor que ele oferece para quem ali mora e as características do imóvel."
+        },
+        {
+          "timestamp": "28:28",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1708",
+          "speaker": "SPEAKER_03",
+          "text": "Então as pessoas elas deixam de comprar essas outras coisas, imóveis e ações de forma cega, por não ter mais onde colocar, e passam a colocar no Bitcoin e calcular quanto que as outras coisas deveriam valer."
+        },
+        {
+          "timestamp": "28:45",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1725",
+          "speaker": "SPEAKER_03",
+          "text": "E o Bitcoin tem feito exatamente isso, ou pelo menos essa é uma forma muito coesa de se analisar o que está acontecendo com o Bitcoin."
+        },
+        {
+          "timestamp": "28:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1734",
+          "speaker": "SPEAKER_03",
+          "text": "E sobre essa ótica, você pode traçar vários cenários."
+        },
+        {
+          "timestamp": "28:57",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1737",
+          "speaker": "SPEAKER_03",
+          "text": "Afinal de contas, qual é o tamanho do prêmio monetário do excesso dos imóveis, do excesso do que os imóveis valem, por eles terem feito o papel de poupança da nossa geração e das gerações passadas."
+        },
+        {
+          "timestamp": "29:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1751",
+          "speaker": "SPEAKER_03",
+          "text": "Não sei quanto valem os imóveis hoje para começo de conversa."
+        },
+        {
+          "timestamp": "29:15",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1755",
+          "speaker": "SPEAKER_03",
+          "text": "A mesma coisa com as ações, as mesmas, a mesma coisa com os títulos de dívida."
+        },
+        {
+          "timestamp": "29:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1760",
+          "speaker": "SPEAKER_03",
+          "text": "Então, uma vez que você começa a desenhar as premissas, quantas coisas valem, quanto deveriam valer."
+        },
+        {
+          "timestamp": "29:26",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1766",
+          "speaker": "SPEAKER_03",
+          "text": "A diferença é o excesso, é o prêmio por terem feito o papel do dinheiro."
+        },
+        {
+          "timestamp": "29:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1771",
+          "speaker": "SPEAKER_03",
+          "text": "Quanto que o"
+        },
+        {
+          "timestamp": "29:30",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1770",
+          "speaker": "SPEAKER_03",
+          "text": "Feito papel do dinheiro, quanto que o Bitcoin vai tirar disso, e enquanto tempo."
+        },
+        {
+          "timestamp": "29:35",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1775",
+          "speaker": "SPEAKER_03",
+          "text": "Aí, a partir daí desenham-se cenários, e o famoso modelo Nakamoto Portfólio.com"
+        },
+        {
+          "timestamp": "29:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1781",
+          "speaker": "SPEAKER_03",
+          "text": "trabalha com um cenário base de que o Bitcoin, compremissas conservadoras, acreditem em vocês ou não."
+        },
+        {
+          "timestamp": "29:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1787",
+          "speaker": "SPEAKER_03",
+          "text": "Deveria valer600 mil dólares hoje, e ao longo do tempo evoluir para um milhão em2030 e seguir essa jornada pelos próximos20,30 anos."
+        },
+        {
+          "timestamp": "29:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1799",
+          "speaker": "SPEAKER_03",
+          "text": "Inclusive, se você acha isso otimista, entra lá no site, faça você mesmo a sua conta, de qual é o tamanho do prêmio monetário das outras coisas, quanto tempo o Bitcoin vai levar para capturá-lo, e o quanto do prêmio monetário o Bitcoin vai capturar."
+        },
+        {
+          "timestamp": "30:13",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1813",
+          "speaker": "SPEAKER_03",
+          "text": "É provável que você se descubra mais otimista do que eu, e mais otimista do que o próprio construtor do portfólio."
+        },
+        {
+          "timestamp": "30:23",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1823",
+          "speaker": "SPEAKER_03",
+          "text": "Então, o painel foi bem legal, entramos em outras teses, né?"
+        },
+        {
+          "timestamp": "30:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1827",
+          "speaker": "SPEAKER_03",
+          "text": "Do Safiri, por exemplo, falou de como o Bitcoin vai capturar o prêmio monetário em específico, daquilo que é muito utilizado como colateral, é o caso das dívidas soberanas, né?"
+        },
+        {
+          "timestamp": "30:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1839",
+          "speaker": "SPEAKER_03",
+          "text": "E eu toquei no ponto de como o Bitcoin vai desrendafixar o mundo, e migrarmos de um padrão baseado em dívida, como lastro, para um padrão baseado em propriedade, que é o que nunca deveria ter deixado de ser."
+        },
+        {
+          "timestamp": "30:55",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1855",
+          "speaker": "SPEAKER_03",
+          "text": "Então foi um painel muito legal, muito alogiado, no palco principal, é sempre uma."
+        },
+        {
+          "timestamp": "31:00",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1860",
+          "speaker": "SPEAKER_03",
+          "text": "Nós abrimos o evento, inclusive no sábado, no segundo dia de evento, e estar com saúde, Leto."
+        },
+        {
+          "timestamp": "31:08",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1868",
+          "speaker": "SPEAKER_03",
+          "text": "Estar com o Rafa, com o Bernardo, é sempre um prazer."
+        },
+        {
+          "timestamp": "31:13",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1873",
+          "speaker": "SPEAKER_03",
+          "text": "Ah, para não deixar a participação do Bernardo de fora também, nosso amigo do Better Money, que tem um podcast também, ele citou uma mudança de paradigma, que é você mudar do físico para o digital, e ao colocar o prêmio. monetário, isso que a gente estava falando, nessa commodity sintética chamada SAT, você transforma do sangue humano para conta de energia o veículo para proteção da riqueza."
+        },
+        {
+          "timestamp": "31:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1903",
+          "speaker": "SPEAKER_03",
+          "text": "Então, você."
+        },
+        {
+          "timestamp": "31:45",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1905",
+          "speaker": "SPEAKER_03",
+          "text": "É quase como se você transformasse a violência em gasto energético e pacificasse um conflito político inerente à moeda fiduciária, que, por permitir, através de meios políticos ou violentos a obtenção de riqueza, o sangue humano acaba sendo uma das alternativas para você conseguir patrimônio."
+        },
+        {
+          "timestamp": "32:07",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1927",
+          "speaker": "SPEAKER_03",
+          "text": "Quando esse patrimônio migra, o prêmio migra para o Satoshi ou para o Bitcoin, então ele é protegido por uma energia, por uma matemática, são dados de números e Wattts, que impedem o uso da violência como meio."
+        },
+        {
+          "timestamp": "32:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1942",
+          "speaker": "SPEAKER_03",
+          "text": "Então, foi um painel que a gente foi nessa base fundamentalista, é passando pela teoria geral do Bitcoin, capturando excessivos prêmios monetários, até afunilarmos na tese de que o Bitcoin vai desrenda fixar o mundo."
+        },
+        {
+          "timestamp": "32:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1959",
+          "speaker": "SPEAKER_03",
+          "text": "Um painel curto, porém muito intenso."
+        },
+        {
+          "timestamp": "32:42",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=1962",
+          "speaker": "SPEAKER_03",
+          "text": "E à tarde, no mesmo dia, no sábado, nós fizemos um painel moderado pela Carol, da área Bitcoin, junto com o Fernando, da Bit Preço, e com o Matt, da Swan, sobre herança, sucessão patrimonial e como que o Bitcoin conserta até as famílias, como bem lembrou a Carol, ao realiar os incentivos e permitir que filhos desonrosos ou adúlteros, homens ou mulheres, possam pagar o preço disso ainda em vida, né, e não herdar nada daquilo que é seu."
+        },
+        {
+          "timestamp": "33:23",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2003",
+          "speaker": "SPEAKER_03",
+          "text": "Bom, de forma resumida, tocamos nesse assunto e entramos. no mérito de como permitir que isso efetivamente aconteça, como garantir uma sucessão, mesmo que enquanto você mantenha a posse dos fundos."
+        },
+        {
+          "timestamp": "33:40",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2020",
+          "speaker": "SPEAKER_03",
+          "text": "Parece um paradoxo do Bitcoin, né?"
+        },
+        {
+          "timestamp": "33:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2021",
+          "speaker": "SPEAKER_03",
+          "text": "Peraí, eu tenho um controle das chaves."
+        },
+        {
+          "timestamp": "33:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2024",
+          "speaker": "SPEAKER_03",
+          "text": "Mas se eu tenho, como é que o meu filho herda?"
+        },
+        {
+          "timestamp": "33:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2027",
+          "speaker": "SPEAKER_03",
+          "text": "Ou como é que a minha esposa herda."
+        },
+        {
+          "timestamp": "33:49",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2029",
+          "speaker": "SPEAKER_01",
+          "text": "E."
+        },
+        {
+          "timestamp": "33:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2030",
+          "speaker": "SPEAKER_01",
+          "text": "Só deixa eu te interromper, um Adem."
+        },
+        {
+          "timestamp": "33:53",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2033",
+          "speaker": "SPEAKER_01",
+          "text": "Essa questão de sucessão."
+        },
+        {
+          "timestamp": "33:55",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2035",
+          "speaker": "SPEAKER_01",
+          "text": "É impressionante como ela está amadurecendo."
+        },
+        {
+          "timestamp": "33:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2039",
+          "speaker": "SPEAKER_01",
+          "text": "E isso também significa dizer que é impressionante como ela era amadora."
+        },
+        {
+          "timestamp": "34:03",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2043",
+          "speaker": "SPEAKER_01",
+          "text": "Até um tempo atrás."
+        },
+        {
+          "timestamp": "34:04",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2044",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, a gente já conversou sobre isso, mas assim, muita gente faz o plano de sucessão, no fundo, é um código da Drink, é uma caçada ao tesouro, assim, né?"
+        },
+        {
+          "timestamp": "34:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2054",
+          "speaker": "SPEAKER_01",
+          "text": "Putz, eu enterro o papelzinho, daí eu dou uma palavra-chave aqui, daí a pessoa precisa buscar outra lá, e no fundo, tem sempre o risco da pessoa não conseguir executar a caçada ou tesouro, você já faleceu, e aí todos os bitcoins que você lutou a sua vida inteira para acumular e clowo da sua família, eles desaparecem análogo a um naufrágio de um navio cheio de tesouro."
+        },
+        {
+          "timestamp": "34:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2079",
+          "speaker": "SPEAKER_01",
+          "text": "Isso."
+        },
+        {
+          "timestamp": "34:40",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2080",
+          "speaker": "SPEAKER_01",
+          "text": "Sim."
+        },
+        {
+          "timestamp": "34:40",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2080",
+          "speaker": "SPEAKER_01",
+          "text": "E aí, como sei lá, como isso tá amadurecendo, e como já existem maneiras de sucessão que mitigam essa questão."
+        },
+        {
+          "timestamp": "34:49",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2089",
+          "speaker": "SPEAKER_01",
+          "text": "Perfeito."
+        },
+        {
+          "timestamp": "34:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2090",
+          "speaker": "SPEAKER_03",
+          "text": "Eu diria que essa ideia de que é possível conduzir a sucessão do Bitcoin através de um mapa do tesouro seria uma ideia mais primitiva, mais amadora, digamos assim."
+        },
+        {
+          "timestamp": "35:03",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2103",
+          "speaker": "SPEAKER_03",
+          "text": "Pra colocar de forma gentil."
+        },
+        {
+          "timestamp": "35:06",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2106",
+          "speaker": "SPEAKER_03",
+          "text": "No pior dos casos, tem muita gente que sem saber o que está fazendo, acaba se expondo ao risco mesmo de perder por completo o que guardou a vida inteira, e acaba prejudicando as próximas gerações."
+        },
+        {
+          "timestamp": "35:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2120",
+          "speaker": "SPEAKER_03",
+          "text": "Como é que o mercado tem resolvido isso?"
+        },
+        {
+          "timestamp": "35:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2122",
+          "speaker": "SPEAKER_03",
+          "text": "De duas formas, basicamente."
+        },
+        {
+          "timestamp": "35:24",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2124",
+          "speaker": "SPEAKER_03",
+          "text": "A primeira, e mais. simples, a mais popular, a que eu uso, e que é a que eu recomendo para que a maioria das pessoas use, é através de uma boa arquitetura de carteiras."
+        },
+        {
+          "timestamp": "35:35",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2135",
+          "speaker": "SPEAKER_03",
+          "text": "Ou seja, usando a tradicional carteira que a gente chama de multiassinaturas."
+        },
+        {
+          "timestamp": "35:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2141",
+          "speaker": "SPEAKER_03",
+          "text": "O que é uma carteira multiassinaturas?"
+        },
+        {
+          "timestamp": "35:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2143",
+          "speaker": "SPEAKER_03",
+          "text": "É uma carteira que possui múltiplas chaves, então ela tem quatro chaves, por exemplo, e para que os fundos sejam movidos, duas das quatro chaves precisam assinar."
+        },
+        {
+          "timestamp": "35:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2154",
+          "speaker": "SPEAKER_03",
+          "text": "Então, imagine um cofre com quatro cadeados."
+        },
+        {
+          "timestamp": "35:57",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2157",
+          "speaker": "SPEAKER_03",
+          "text": "Mas se você tiver a chave de dois cadeados, você abre o cofre."
+        },
+        {
+          "timestamp": "36:01",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2161",
+          "speaker": "SPEAKER_03",
+          "text": "Então, uma vez que você tem um setup assim para dar como exemplo e materializar a quem está nos ouvindo, você pode, por exemplo, arquitetar essas quatro chaves da seguinte forma."
+        },
+        {
+          "timestamp": "36:13",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2173",
+          "speaker": "SPEAKER_03",
+          "text": "Fica uma chave com uma empresa, como a Bipa, por exemplo, para usar aqui como referência."
+        },
+        {
+          "timestamp": "36:19",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2179",
+          "speaker": "SPEAKER_03",
+          "text": "Duas chaves comigo, e uma chave com o meu herdeiro."
+        },
+        {
+          "timestamp": "36:24",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2184",
+          "speaker": "SPEAKER_03",
+          "text": "A partir daí, algumas coisas interessantes começam a acontecer."
+        },
+        {
+          "timestamp": "36:28",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2188",
+          "speaker": "SPEAKER_03",
+          "text": "Em primeiro lugar, só eu consigo movimentar dos fundos."
+        },
+        {
+          "timestamp": "36:30",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2190",
+          "speaker": "SPEAKER_03",
+          "text": "A Bipa não consegue, o meu herdeiro não consegue."
+        },
+        {
+          "timestamp": "36:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2193",
+          "speaker": "SPEAKER_03",
+          "text": "Eu consigo movimentar o quanto eu quiser a qualquer hora."
+        },
+        {
+          "timestamp": "36:36",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2196",
+          "speaker": "SPEAKER_03",
+          "text": "Lembre-se que eu tenho duas das quatro."
+        },
+        {
+          "timestamp": "36:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2199",
+          "speaker": "SPEAKER_03",
+          "text": "É uma carteira, um saldo, um balanço, as quatro chaves."
+        },
+        {
+          "timestamp": "36:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2203",
+          "speaker": "SPEAKER_03",
+          "text": "Mas, uma outra coisa interessante acontece."
+        },
+        {
+          "timestamp": "36:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2207",
+          "speaker": "SPEAKER_03",
+          "text": "Eu posso vir a faltar."
+        },
+        {
+          "timestamp": "36:49",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2209",
+          "speaker": "SPEAKER_03",
+          "text": "Ou me tornar inconsciente de alguma forma."
+        },
+        {
+          "timestamp": "36:52",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2212",
+          "speaker": "SPEAKER_03",
+          "text": "E nesse momento, o herdeiro e a bipa possuem as duas chaves."
+        },
+        {
+          "timestamp": "36:57",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2217",
+          "speaker": "SPEAKER_03",
+          "text": "E eles podem movimentar os fontes."
+        },
+        {
+          "timestamp": "36:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2219",
+          "speaker": "SPEAKER_03",
+          "text": "É claro, esse desenho não é perfeito."
+        },
+        {
+          "timestamp": "37:02",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2222",
+          "speaker": "SPEAKER_03",
+          "text": "Se você percebeu que o meu herdeiro pode entrar em conluio com a bipa e me roubar, é você perceber de forma correta."
+        },
+        {
+          "timestamp": "37:11",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2231",
+          "speaker": "SPEAKER_03",
+          "text": "No entanto, há uma evolução desse modelo mais moderno, e, no entanto, com um pouco menos de suporte nas hardware, wallets, um pouco menos de conhecimento, por aí, onde. a governança não depende de eu confiar na Bipa ou confiar no herdeiro."
+        },
+        {
+          "timestamp": "37:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2251",
+          "speaker": "SPEAKER_03",
+          "text": "Basicamente, o que acontece é que essa mesma carteira teria uma divisão ao longo do tempo."
+        },
+        {
+          "timestamp": "37:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2261",
+          "speaker": "SPEAKER_03",
+          "text": "E eu construiria com regras arquitetadas na própria blockchain do Bitcoin, que, enquanto eu estiver vivo, só e somente essas minhas duas chaves podem gastar."
+        },
+        {
+          "timestamp": "37:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2274",
+          "speaker": "SPEAKER_03",
+          "text": "Eu consigo inutilizar a chave da Bipa e inutilizar a chave do herdeiro."
+        },
+        {
+          "timestamp": "37:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2279",
+          "speaker": "SPEAKER_03",
+          "text": "E ainda digo para a blockchain do Bitcoin, que é incorruptível e manipulável, que se eu morrer, seis meses depois, ou um ano depois, ou um ano e meio depois, ou20 anos depois, aí sim, a chave da bipa passa a ter validade."
+        },
+        {
+          "timestamp": "38:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2300",
+          "speaker": "SPEAKER_03",
+          "text": "E a chave do herdeiro também."
+        },
+        {
+          "timestamp": "38:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2302",
+          "speaker": "SPEAKER_03",
+          "text": "Ou seja, você coloca uma espécie de time lock na chave."
+        },
+        {
+          "timestamp": "38:25",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2305",
+          "speaker": "SPEAKER_03",
+          "text": "Perfeito."
+        },
+        {
+          "timestamp": "38:26",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2306",
+          "speaker": "SPEAKER_03",
+          "text": "É a introdução do timelok que permite a construção de carteiras que, na falta de um nome melhor, são como se fossem decadentes."
+        },
+        {
+          "timestamp": "38:34",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2314",
+          "speaker": "SPEAKER_03",
+          "text": "É como se eu tivesse um caminho primário, que são as minhas duas."
+        },
+        {
+          "timestamp": "38:38",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2318",
+          "speaker": "SPEAKER_03",
+          "text": "Mas eu tenho um caminho secundário chamado de caminho de recuperação ou recovery path, que é acionada se as minhas moedas ficarem por um determinado número de blocos imóveis."
+        },
+        {
+          "timestamp": "38:52",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2332",
+          "speaker": "SPEAKER_03",
+          "text": "Então, eu digo para a blockchain o seguinte, que se eu não mexer as minhas moedas por, digamos, cinco anos, é razoável você assumir que eu bati as botas."
+        },
+        {
+          "timestamp": "39:03",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2343",
+          "speaker": "SPEAKER_03",
+          "text": "A partir desses cinco anos, que são250 mil blocos, então as chaves da Bipa e do meu herdeiro passam a ser aceitas na movimentação desse Bitcoin."
+        },
+        {
+          "timestamp": "39:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2354",
+          "speaker": "SPEAKER_03",
+          "text": "Ou seja, a governança passa a ser on-chain e não uma coisa que depende da Bipa ou depende do herdeiro."
+        },
+        {
+          "timestamp": "39:21",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2361",
+          "speaker": "SPEAKER_03",
+          "text": "Então,"
+        },
+        {
+          "timestamp": "39:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2360",
+          "speaker": "SPEAKER_03",
+          "text": "Ou depende do herdeiro."
+        },
+        {
+          "timestamp": "39:21",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2361",
+          "speaker": "SPEAKER_03",
+          "text": "Então já existem carteiras que permitem a construção de setups assim."
+        },
+        {
+          "timestamp": "39:25",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2365",
+          "speaker": "SPEAKER_03",
+          "text": "A aliana é um exemplo delas."
+        },
+        {
+          "timestamp": "39:28",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2368",
+          "speaker": "SPEAKER_01",
+          "text": "Que maravilhoso."
+        },
+        {
+          "timestamp": "39:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2369",
+          "speaker": "SPEAKER_01",
+          "text": "No fundo, eu acho que isso soluciona muito uma das principais dores para alguém que tem um pouco mais de dinheiro e quer entrar no Bitcoin e ter essas dúvidas de puta, como eu vou transferir isso depois que eu me for, etc."
+        },
+        {
+          "timestamp": "39:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2383",
+          "speaker": "SPEAKER_01",
+          "text": "Me pareceu assim."
+        },
+        {
+          "timestamp": "39:45",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2385",
+          "speaker": "SPEAKER_03",
+          "text": "Nossa, uma solução fantástica mesmo."
+        },
+        {
+          "timestamp": "39:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2387",
+          "speaker": "SPEAKER_03",
+          "text": "Fantástica."
+        },
+        {
+          "timestamp": "39:48",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2388",
+          "speaker": "SPEAKER_03",
+          "text": "E essa solução que eu acabei de narrar, eu acredito, e tô bem seguro, que ela está na fronteira do que é possível."
+        },
+        {
+          "timestamp": "39:55",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2395",
+          "speaker": "SPEAKER_03",
+          "text": "Inclusive, você pode até achar muito complexo o que eu estou aqui dizendo, mas por incrível que pareça, uma wallet construída exatamente da forma como eu narrei aqui, ela é passível de ser recuperada na carteira do Bitcoin Core, que é o nosso software basal da blockchain do Bitcoin."
+        },
+        {
+          "timestamp": "40:18",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2418",
+          "speaker": "SPEAKER_03",
+          "text": "E é razoável supor que, enquanto um Bitcoin estiver por aí, o Bitcoin Core, que é o software onde ele roda, estará também."
+        },
+        {
+          "timestamp": "40:25",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2425",
+          "speaker": "SPEAKER_03",
+          "text": "Então, você tem a segurança de que a Bipa ou qualquer outra empresa, aliana, como eu comentei, deixe de existir, e você ainda assim terá a mãe de todas as carteiras onde você poderá recuperar o seu saldo."
+        },
+        {
+          "timestamp": "40:41",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2441",
+          "speaker": "SPEAKER_03",
+          "text": "Agora, é claro, é uma questão do ecossistema amadurecer para que as hardware wallets tenham adesão a esse tipo de carteira hardware, wallet, ela precisa entender a linguagem da carteira, e hoje, Ledger Bitbox."
+        },
+        {
+          "timestamp": "40:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2456",
+          "speaker": "SPEAKER_03",
+          "text": "Jade, já entendem na versão padrão de prateleira."
+        },
+        {
+          "timestamp": "41:02",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2462",
+          "speaker": "SPEAKER_03",
+          "text": "Se você comprar qualquer uma dessas três hardware wallets, você já consegue construir uma sucessão, tal como a gente conversou aqui."
+        },
+        {
+          "timestamp": "41:09",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2469",
+          "speaker": "SPEAKER_03",
+          "text": "A Cold Card também, mas só se você colocar nela um software de desenvolvimento, voltado para desenvolver."
+        },
+        {
+          "timestamp": "41:18",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2478",
+          "speaker": "SPEAKER_03",
+          "text": "Desenvolvimento, voltado para desenvolvedores e pequenos valores."
+        },
+        {
+          "timestamp": "41:21",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2481",
+          "speaker": "SPEAKER_03",
+          "text": "Então, é um dos sinais de que ainda não chegou para todo mundo, mas é uma questão de tempo."
+        },
+        {
+          "timestamp": "41:28",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2488",
+          "speaker": "SPEAKER_03",
+          "text": "A Code Card vem avançando para levar para todo mundo essa funcionalidade."
+        },
+        {
+          "timestamp": "41:33",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2493",
+          "speaker": "SPEAKER_03",
+          "text": "E eu digo da Code Card porque é uma das melhores carteiras do mundo, é a que eu uso, é a que eu recomendo para todo mundo."
+        },
+        {
+          "timestamp": "41:42",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2502",
+          "speaker": "SPEAKER_03",
+          "text": "É referência, é a referência."
+        },
+        {
+          "timestamp": "41:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2504",
+          "speaker": "SPEAKER_03",
+          "text": "Exatamente."
+        },
+        {
+          "timestamp": "41:45",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2505",
+          "speaker": "SPEAKER_03",
+          "text": "Então, falando sobre sucessão e as variadas consequências disso, né?"
+        },
+        {
+          "timestamp": "41:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2510",
+          "speaker": "SPEAKER_03",
+          "text": "Como, por exemplo, uma vez que eu construí para mim mesmo uma dessas soluções, nunca fale como estão guardados os seus bitcoins."
+        },
+        {
+          "timestamp": "41:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2519",
+          "speaker": "SPEAKER_03",
+          "text": "Exatamente, ou pelo menos não exatamente como eles estão, mas uma vez que eu fiz isso para mim mesmo, eu percebi o seguinte, eu retirei da minha casa um pote de ouro."
+        },
+        {
+          "timestamp": "42:09",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2529",
+          "speaker": "SPEAKER_03",
+          "text": "Porque, por uma boa parte da minha história no Bitcoin, eu poderia sair da minha sala, ir para o meu quarto e assinar uma transação que gastaria todos os meus bitcoins."
+        },
+        {
+          "timestamp": "42:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2542",
+          "speaker": "SPEAKER_03",
+          "text": "E de repente eu me dei conta, como produtor de conteúdo, que eu talvez pudesse ser obrigado a fazer isso um dia sob coerção."
+        },
+        {
+          "timestamp": "42:32",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2552",
+          "speaker": "SPEAKER_03",
+          "text": "Eu falei, olha, como que eu mantenho esses bitcoins como meus, porém de forma que nem eu mesmo, nem que eu queira, nem que eu saiba tudo que é preciso saber, eu consiga fazer uma transação grande."
+        },
+        {
+          "timestamp": "42:48",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2568",
+          "speaker": "SPEAKER_03",
+          "text": "Porque a partir do momento que eu aprendo a proteger os meus bitcoins de mim mesmo, aí sim eu estou protegido contra alguma coerção que me force a fazer alguma coisa."
+        },
+        {
+          "timestamp": "42:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2579",
+          "speaker": "SPEAKER_03",
+          "text": "Então, eu tenho uma segurança hoje tal que alguém pode chegar na minha casa, armado, comigo desarmado, que eu não consegui transferir grandes quantias de Bitcoin."
+        },
+        {
+          "timestamp": "43:12",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2592",
+          "speaker": "SPEAKER_03",
+          "text": "Simplesmente não conseguirei."
+        },
+        {
+          "timestamp": "43:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2594",
+          "speaker": "SPEAKER_03",
+          "text": "E eu não vou entrar aqui nos detalhes de como, mas eu não consigo. imaginar como bitcoinheiros que mostram a cara e se expõe, conseguem conseguirão dormir no futuro, não digo hoje, hoje ainda é tranquilo, mas na medida em que o Bitcoin caminhar para um, ou dois ou dez milhões de dólares, podendo a qualquer momento gastar tudo."
+        },
+        {
+          "timestamp": "43:37",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2617",
+          "speaker": "SPEAKER_03",
+          "text": "Eu acho que todos os bitcoinheiros deveriam se preocupar de proteger as suas moedas de si mesmos."
+        },
+        {
+          "timestamp": "43:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2623",
+          "speaker": "SPEAKER_03",
+          "text": "E para concluir esse racional, é quase como se construção de carteiras multi-assinaturas tivesse o mesmo efeito ralo, que é o efeito Auréola de anjo, né?"
+        },
+        {
+          "timestamp": "43:55",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2635",
+          "speaker": "SPEAKER_03",
+          "text": "Efeito onde você fica brilhando, quase como se estivesse protegido por um véu invisível, é tal como acontece com a questão do armamento."
+        },
+        {
+          "timestamp": "44:04",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2644",
+          "speaker": "SPEAKER_03",
+          "text": "Então, se de repente eu tenho uma cidade onde é muito fácil ter arma, é muito barato, todo mundo sabe que todo mundo tem, faz parte da cultura, a gente ensina desde pequenininho, todo mundo atirar, é coisa comum."
+        },
+        {
+          "timestamp": "44:19",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2659",
+          "speaker": "SPEAKER_03",
+          "text": "Todo mundo anda armado."
+        },
+        {
+          "timestamp": "44:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2662",
+          "speaker": "SPEAKER_03",
+          "text": "Não todo mundo, mas bastante gente."
+        },
+        {
+          "timestamp": "44:26",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2666",
+          "speaker": "SPEAKER_03",
+          "text": "Se eu sou um bandido, eu pensaria duas ou três vezes antes de invadir uma casa naquela cidade."
+        },
+        {
+          "timestamp": "44:32",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2672",
+          "speaker": "SPEAKER_03",
+          "text": "E aí mesmo as casas que não estão armadas acabam ficando mais seguras, porque não sou eu que vou testar."
+        },
+        {
+          "timestamp": "44:42",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2682",
+          "speaker": "SPEAKER_03",
+          "text": "Então, meio que o ambiente acaba protegendo todo mundo."
+        },
+        {
+          "timestamp": "44:46",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2686",
+          "speaker": "SPEAKER_03",
+          "text": "E de certa forma, trazendo agora para multiassinaturas, se as multiassinaturas forem suficientemente comuns, fáceis de usar, amplamente divulgadas, triviais de construir e muito bem compreendidas, é razoável supor."
+        },
+        {
+          "timestamp": "45:04",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2704",
+          "speaker": "SPEAKER_03",
+          "text": "Obrigado."
+        },
+        {
+          "timestamp": "45:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2705",
+          "speaker": "SPEAKER_03",
+          "text": "É razoável supor que é um bandido que queira entrar na casa de um bitcoiner para roubar bitcoins, pense duas vezes."
+        },
+        {
+          "timestamp": "45:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2714",
+          "speaker": "SPEAKER_03",
+          "text": "Bitcoin, pense duas vezes."
+        },
+        {
+          "timestamp": "45:16",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2716",
+          "speaker": "SPEAKER_03",
+          "text": "Porque se ele sabe que ali naquela região multi-assinaturas são comuns, triviais de ser construídas, e o próprio bandido sabe das implicações disso, ele sabe que, bom, nem adianta, porque eu vou entrar lá sabendo que as chaves necessárias, as duas ou três chaves necessárias, nem lá estarão."
+        },
+        {
+          "timestamp": "45:38",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2738",
+          "speaker": "SPEAKER_03",
+          "text": "E mesmo que lá estejam, pode ser que haja um time lock que impeça que eu as gaste agora em grandes valores, então, não vai ter jeito."
+        },
+        {
+          "timestamp": "45:49",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2749",
+          "speaker": "SPEAKER_03",
+          "text": "Eu vou ter que vender alguma coisa para esse cara para conseguir os bitcoins dele."
+        },
+        {
+          "timestamp": "45:53",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2753",
+          "speaker": "SPEAKER_03",
+          "text": "Então, esse efeito ralo e da Multisig que retira da casa das pessoas um pote de ouro e o torna, de certa forma inatingível, não vence em trade offs, né?"
+        },
+        {
+          "timestamp": "46:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2765",
+          "speaker": "SPEAKER_03",
+          "text": "Eu, por exemplo, hoje, eu ainda conseguiria gastar e fazer grandes transações de Bitcoin, mas eu precisaria ir a dois ou três lugares e esperar alguns dias, semanas, ou meses, não sei, para fazer essas transações."
+        },
+        {
+          "timestamp": "46:20",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2780",
+          "speaker": "SPEAKER_03",
+          "text": "Então, criam uma certa dificuldade, mas é na dificuldade que tá a minha segurança."
+        },
+        {
+          "timestamp": "46:26",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2786",
+          "speaker": "SPEAKER_03",
+          "text": "Eu consigo fazer pequenas transações, né, que acabaria por ser o dinheiro do ladrão, mas grandes transações, nem eu mesmo conseguiria fazer."
+        },
+        {
+          "timestamp": "46:35",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2795",
+          "speaker": "SPEAKER_01",
+          "text": "Então, é só um perfeito, e assim."
+        },
+        {
+          "timestamp": "46:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2799",
+          "speaker": "SPEAKER_01",
+          "text": "Concordo totalmente com tudo que você falou, assim, quando eu comecei a fazer a custódia com o Multisegue, o fator tranquilidade aumentou totalmente, e é justamente pelo mesmo motivo que você falou, assim, querendo ou não, a gente que topa colocar o rosto aqui, a gente sabe que a gente está exposto a um risco maior, então a gente tem que ter uma precaução maior."
+        },
+        {
+          "timestamp": "46:59",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2819",
+          "speaker": "SPEAKER_01",
+          "text": "É simples assim, mas no fundo."
+        },
+        {
+          "timestamp": "47:02",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2822",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, a gente mora no Brasil, a gente está numa sociedade violenta."
+        },
+        {
+          "timestamp": "47:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2825",
+          "speaker": "SPEAKER_01",
+          "text": "Qualquer pessoa que usa uma camiseta de Bitcoin, qualquer pessoa que vai ser associada ao Bitcoin, é uma consideração que faz sentido fazer. porque assim, não é só o preço do Bitcoin hoje."
+        },
+        {
+          "timestamp": "47:16",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2836",
+          "speaker": "SPEAKER_01",
+          "text": "Pensa que o que você tem de Bitcoin hoje, multiplica por10, multiplica por20, multiplica por30."
+        },
+        {
+          "timestamp": "47:22",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2842",
+          "speaker": "SPEAKER_01",
+          "text": "Já é um valor muito maior do que o valor de hoje."
+        },
+        {
+          "timestamp": "47:24",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2844",
+          "speaker": "SPEAKER_01",
+          "text": "Sim."
+        },
+        {
+          "timestamp": "47:25",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2845",
+          "speaker": "SPEAKER_01",
+          "text": "Bom, e agora, só pra concluir e falar rapidinho da minha participação na7CCCCCCCCCConf, porque eu sei que daqui a um tempo você tem compromisso, então não queremos estender e atrasar a agenda dos senhores."
+        },
+        {
+          "timestamp": "47:37",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2857",
+          "speaker": "SPEAKER_01",
+          "text": "Na quinta-feira teve a estreia do Dirty Coin aqui no Brasil, que é um vídeo, um filme documentário sobre a mineração de Bitcoin, vários aspectos da mineração de Bitcoin, mostra a conexão da mineração de Bitcoin com populações carentes na África, mostra a questão da mineração de Bitcoin como balanço de carga em redes elétricas, e aí teve depois uma discussão comigo e com o Flávio da Arthur Mining sobre como tá a minerão de Bitcoin no Brasil e no mundo, assim, contexto e perspectivas futuras."
+        },
+        {
+          "timestamp": "48:17",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2897",
+          "speaker": "SPEAKER_01",
+          "text": "Foi um painel bem interessante, e como era um evento ainda antes da7CCCCCCCCCConf, então, sabe, não tinha palco, não tinha gente para chegar depois e tudo mais, a gente preferiu o formato de conversar uns20 minutinhos,30 minutinhos, e depois a gente ficou conversando com o auditório com o cinema por mais uns20,30 minutos."
+        },
+        {
+          "timestamp": "48:37",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2917",
+          "speaker": "SPEAKER_01",
+          "text": "Foi bem interessante."
+        },
+        {
+          "timestamp": "48:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2919",
+          "speaker": "SPEAKER_01",
+          "text": "Daí na7CCCCCCCCCConf em si, eu participei de três painéis, né?"
+        },
+        {
+          "timestamp": "48:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2923",
+          "speaker": "SPEAKER_01",
+          "text": "Eu mediei três painéis."
+        },
+        {
+          "timestamp": "48:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2924",
+          "speaker": "SPEAKER_01",
+          "text": "O nenhum estava como painelista, eu estava muito mais nesse papel de host, que nem eu faço aqui nos podcasts."
+        },
+        {
+          "timestamp": "48:51",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2931",
+          "speaker": "SPEAKER_01",
+          "text": "Teve um sobre mineração, e esse eu fui chamado de última hora, porque o Rudar não conseguiu chegar, estava chovendo muito em São Paulo, então os aeroportos estavam todos travados, o trânsito estava muito travado, e como eu tenho uma experiência com mineração, o Lucas pediu pra eu substituir o Rudá e fazer a mediação desse painel."
+        },
+        {
+          "timestamp": "49:10",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2950",
+          "speaker": "SPEAKER_01",
+          "text": "Foi um painel muito interessante."
+        },
+        {
+          "timestamp": "49:10",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2950",
+          "speaker": "SPEAKER_01",
+          "text": "Painel."
+        },
+        {
+          "timestamp": "49:10",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2950",
+          "speaker": "SPEAKER_01",
+          "text": "Foi um painel muito interessante, assim, eu gosto muito de minereração, né?"
+        },
+        {
+          "timestamp": "49:15",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2955",
+          "speaker": "SPEAKER_01",
+          "text": "Foi o Felipe Zulino da Infinita Mining, o Eduardo Meier da FMI Mining, e o Rafa Zaguri, né?"
+        },
+        {
+          "timestamp": "49:23",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2963",
+          "speaker": "SPEAKER_01",
+          "text": "Que agora."
+        },
+        {
+          "timestamp": "49:24",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2964",
+          "speaker": "SPEAKER_01",
+          "text": "Electronine, eu esqueci o nome da que ele está minerando junto com a Tether, esqueceu o nome da empresa, e assim, fizemos um recorte de como a mineralção evoluíu nesse último ano."
+        },
+        {
+          "timestamp": "49:35",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=2975",
+          "speaker": "SPEAKER_01",
+          "text": "Com uma versão também bastante sobre como a mineração está hoje em dia, assim, quais matrizes energéticas, quais fontes energéticas estão sendo mais procuradas, não sei como está evoluindo a questão regulatória nos Estados Unidos, toda uma questão de teoria dos jogos, de por que os estados na sua estão começando a se envolver com mineração, daí a gente cita países lá no Golfo Pérsico, a gente cita Butão, a gente cita Argentino, está começando a ter bastante minereração, não sei, a gente falou bastante sobre minereração, depois a gente fala sobre perspectivas futuras, tanto na evolução do design das máquinas, tipo, querendo ou não, a gente tem na cabeça o formato de uma máquina de mineração aquela torradeira, né?"
+        },
+        {
+          "timestamp": "50:19",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3019",
+          "speaker": "SPEAKER_01",
+          "text": "Mas isso é só porque o mercado é extremamente imaturo, tipo, a tendência no futuro é que as máquinas sejam muito mais tecnicamente desenvolvidas para, sei lá, ser mais fácil resfriar no fluido, ser mais fácil, sei lá, tipo, eu vi umas fotos, o Mello e mostrou ontem, na verdade, com umas prateleiras como se fosse umas mineradoras de gaveta e de umas placas retas, assim, em vez de as torradeiras zonas, assim."
+        },
+        {
+          "timestamp": "50:44",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3044",
+          "speaker": "SPEAKER_01",
+          "text": "E é muito interessante, é o que a gente nem para pra pensar, assim, você não para pra pensar, você acha que a torradeira é o formato mais eficiente, na verdade, não, é o formato legado que o pessoal começou a fazer e no fundo tem o quê?"
+        },
+        {
+          "timestamp": "50:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3056",
+          "speaker": "SPEAKER_01",
+          "text": "Um ou duas grandes produtoras deásigue, então não é um setor competitivo com evolução no design assim, tão acentuado."
+        },
+        {
+          "timestamp": "51:03",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3063",
+          "speaker": "SPEAKER_01",
+          "text": "Daí a gente também conversou sobre como algumas das mineradoras estão deixando de focar. só no Bitcoin e estão entrando no processamento de dados para inteligência artificial também e para outros modelos computacionais, que é algo que é conhecido como o HPC, high processing computer, uma coisa assim, e não sei, tem várias empresas listadas, inclusive, que estão diversificando o fluxo de caixa assim."
+        },
+        {
+          "timestamp": "51:28",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3088",
+          "speaker": "SPEAKER_01",
+          "text": "E o racional é qual?"
+        },
+        {
+          "timestamp": "51:30",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3090",
+          "speaker": "SPEAKER_01",
+          "text": "O Bitcoin é uma commodity."
+        },
+        {
+          "timestamp": "51:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3091",
+          "speaker": "SPEAKER_01",
+          "text": "Bitcoin sobe muito na alta, que a gente está vivendo agora, e o Bitcoin cai muito na baixa."
+        },
+        {
+          "timestamp": "51:37",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3097",
+          "speaker": "SPEAKER_01",
+          "text": "Nessa baixa, se você está dependendo só do fluxo do caixa do Bitcoin, muitas mineradoras quebraram nesse último ciclo, etc."
+        },
+        {
+          "timestamp": "51:45",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3105",
+          "speaker": "SPEAKER_01",
+          "text": "Então, se você tem dois fluxos de caixas diferentes, um estável, tranquilo e confiável, e o outro oscilando, fica muito mais fácil você modelar as coisas."
+        },
+        {
+          "timestamp": "51:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3116",
+          "speaker": "SPEAKER_01",
+          "text": "Então, no fundo, é isso, no momento de alta mineração de Bitcoin é muito mais rentável, mas, como head, vários mineradores estão agora pensando, temos um know-how de usar energia para processamento de dados."
+        },
+        {
+          "timestamp": "52:10",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3130",
+          "speaker": "SPEAKER_01",
+          "text": "Vamos buscar uma fonte de fluxo de caixa mais estável para metade do setor vão quebrar a da bear market, basicamente."
+        },
+        {
+          "timestamp": "52:18",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3138",
+          "speaker": "SPEAKER_01",
+          "text": "Depois eu mediei um painel que teve a Kaká, da área da Bitcoin, teve o Joseph Tetek, da Tresor Academy, e teve a Ela Holf, que é uma estudante de Cornell, de uma iniciativa de estudantes de Cornell, sobre como facilitar a adoção para o próximo bilhão de usuários."
+        },
+        {
+          "timestamp": "52:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3159",
+          "speaker": "SPEAKER_01",
+          "text": "E aí a gente discutiu muitas coisas e no fundo teve um consenso bem grande entre todo mundo assim, ah, o próximo bilhão de usuários não vai ser capaz de fazer a própria autocustória, a gente precisa melhorar muito a usabilidade para conseguir receber todos eles."
+        },
+        {
+          "timestamp": "52:55",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3175",
+          "speaker": "SPEAKER_01",
+          "text": "É não sei, foram várias coisas assim bastante em consenso, assim."
+        },
+        {
+          "timestamp": "53:00",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3180",
+          "speaker": "SPEAKER_01",
+          "text": "E uma coisa que eu não pensei na hora, eu pensei só depois conversando com o Luis Berg, que também já participou de um podcast. com a gente, é que toda a nossa discussão se baseou no próximo milhão de bilhão de usuários humanos."
+        },
+        {
+          "timestamp": "53:16",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3196",
+          "speaker": "SPEAKER_01",
+          "text": "E aí você que entende de inteligência artificial já pegou o gancho que eu tô falando, mas, na verdade, o Bitcoin é incapaz de discriminar, inclusive entre seres humanos e não seres humanos."
+        },
+        {
+          "timestamp": "53:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3209",
+          "speaker": "SPEAKER_01",
+          "text": "Ele não pede um CPF qualquer, a gente que estão sendo desenvolvidos agora, Cláudio Jalançom, mas os agentes tendem a poder criar carteiras de Bitcoin também."
+        },
+        {
+          "timestamp": "53:40",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3220",
+          "speaker": "SPEAKER_01",
+          "text": "Eles podem querer trazer transação em qualquer moeda."
+        },
+        {
+          "timestamp": "53:43",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3223",
+          "speaker": "SPEAKER_01",
+          "text": "Qual moeda eles tendem a escolher?"
+        },
+        {
+          "timestamp": "53:45",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3225",
+          "speaker": "SPEAKER_01",
+          "text": "A moeda que é nativa da internet que tem menos atrito para ser usada pela internet, em detrimento de uma moeda que tenha fronteiras no mundo físico."
+        },
+        {
+          "timestamp": "53:56",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3236",
+          "speaker": "SPEAKER_01",
+          "text": "Querendo ou não, a inteligência artificial é nativa da internet também, e não vê se não vai ver sentido em transações restritas para o mundo físico, fora toda a questão de micropagamentos e quanto micropagamentos não são viáveis nas moedas Fiat e são viáveis, por exemplo, na Lightning."
+        },
+        {
+          "timestamp": "54:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3254",
+          "speaker": "SPEAKER_01",
+          "text": "Então, uma reflexão que eu saí desse painel um cara veio falar comigo, Luiz, e aí instalou na minha cabeça é isso, querendo ou não, toda vez que eu falo de adoção, eu carrego esse viés de humanos usando o Bitcoin."
+        },
+        {
+          "timestamp": "54:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3267",
+          "speaker": "SPEAKER_01",
+          "text": "Eu tenho certeza que é um viés que vocês dois carregam e todos nós carregamos."
+        },
+        {
+          "timestamp": "54:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3271",
+          "speaker": "SPEAKER_01",
+          "text": "Mas, no fundo, esse é um viés que daqui a um, dois, três anos, conforme os agentes amadureçam, a gente vai perceber quão equivocado a gente estava pensando que só seres humanos vão usar o Bitcoin."
+        },
+        {
+          "timestamp": "54:46",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3286",
+          "speaker": "SPEAKER_01",
+          "text": "E aí, pra concluir, no dia seguinte, eu também participei de."
+        },
+        {
+          "timestamp": "54:51",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3291",
+          "speaker": "SPEAKER_01",
+          "text": "Eu mediei um painel de análise on-chain e dei uma palestra."
+        },
+        {
+          "timestamp": "54:55",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3295",
+          "speaker": "SPEAKER_01",
+          "text": "Palestra eu vou regravar e publicar com um podcast único, então não vou entrar aqui muito no mérito, mas é uma palestra de meia hora sobre justamente o tema compreender."
+        },
+        {
+          "timestamp": "55:04",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3304",
+          "speaker": "SPEAKER_01",
+          "text": "Sobre justamente o tema compreendendo a adoção global de Bitcoin, e aí eu faço essa ressalva que é a adoção humana de Bitcoin, já na palestra, porque eu já, de um dia para o outro a ficha já caiu, daí o outro painel que eu mediatei foi um painel de análise on-chain, com a Rafa Romano, Romano, se não me engano, é Romano, é da Disruptivas, a Lorena também, e a."
+        },
+        {
+          "timestamp": "55:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3327",
+          "speaker": "SPEAKER_01",
+          "text": "Quem era o terceiro?"
+        },
+        {
+          "timestamp": "55:28",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3328",
+          "speaker": "SPEAKER_01",
+          "text": "Era o Giovanni Rosa, da Convex Research."
+        },
+        {
+          "timestamp": "55:31",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3331",
+          "speaker": "SPEAKER_01",
+          "text": "E aí foi uns com uma conversa muito rica, assim, comentamos sobre diversos indicadores on-chain, assim, como funcionam os long time hodlers, os short time hodlers, o MVRV, mas no fundo, a conclusão geral, assim, é muito mais no sentido análise on-chain é muito legal, é muito importante, permite você ver os fundamentos da rede amadurecendo em tempo real, ela dá respostas muito mais precisas do que qualquer outro tipo de investimento, é uma transparência e uma auditabilidade que a rede do Bitcoin oferece e nenhum outro tipo de alocação de capital permite ou oferece, mas ao mesmo tempo a ressalva de que ela é só uma base de dados, ela é uma fonte de informação dentro de várias outras, que é muito perigoso você se pautar somente na análise on-chain."
+        },
+        {
+          "timestamp": "56:23",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3383",
+          "speaker": "SPEAKER_01",
+          "text": "E aí um exemplo que a gente cita é, por exemplo, no final de2021, a gente estava no auge do auge de euforia do ciclo de alta, e muita gente falando, não, o ciclo vai continuar, olha como tem muitos Bitcoin sendo sacadas das corretoras, a gente está chegando num supply shock."
+        },
+        {
+          "timestamp": "56:39",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3399",
+          "speaker": "SPEAKER_01",
+          "text": "Beleza, vendo no vácuo, essa análise sozinha eu poderia até ser refletir que é faz sentido, vai ter menos Bitcoin."
+        },
+        {
+          "timestamp": "56:47",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3407",
+          "speaker": "SPEAKER_01",
+          "text": "Mas e toda a questão macroeconômica, que é o que gera a demanda, porque não importa só o que está acontecendo com oferta, importa o macro."
+        },
+        {
+          "timestamp": "56:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3414",
+          "speaker": "SPEAKER_01",
+          "text": "Então é isso, tipo, a análise on-chain é uma ferramenta muito rica, mas ela é uma ferramenta, ela não é o todo, e que as análises ricas são feitas por pessoa."
+        },
+        {
+          "timestamp": "57:02",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3422",
+          "speaker": "SPEAKER_01",
+          "text": "Ricas são feitas por pessoas que misturam macro, on-chain, análise de preço, médias móveis, índice de força relativo, sabe, várias outras coisas e faz uma."
+        },
+        {
+          "timestamp": "57:14",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3434",
+          "speaker": "SPEAKER_01",
+          "text": "No fundo, uma abordagem multimodelos, que, sabe, você vê várias coisas e você pega o que para em pé de cada uma delas e compõe a sua visão, do que você se tornar um cavalo com cabresto muito focado numa ferramenta só."
+        },
+        {
+          "timestamp": "57:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3447",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, e aí ele citou um exemplo muito bom, que é como essa métrica do long time hodlers, que é aquela métrica de pessoas que estão com moedas paradas há mais de seis meses, se a pessoa analisasse só essa métrica no vácuo, esse ano ela quebraria a cara."
+        },
+        {
+          "timestamp": "57:42",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3462",
+          "speaker": "SPEAKER_01",
+          "text": "Porque como teve toda a questão dos ETFs, muito mudou."
+        },
+        {
+          "timestamp": "57:46",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3466",
+          "speaker": "SPEAKER_01",
+          "text": "Muitas pessoas venderam GBTC para comprar outros ETFs."
+        },
+        {
+          "timestamp": "57:50",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3470",
+          "speaker": "SPEAKER_01",
+          "text": "E isso gerou um vale nessa métrica de long time hodlers, e esses vales geralmente são associados com os picos dos Bull Markets."
+        },
+        {
+          "timestamp": "57:58",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3478",
+          "speaker": "SPEAKER_01",
+          "text": "Então, se você usasse só essa métrica para analisar se a gente está no pico de um Bull Market ou não, você já teria vendido seus bitcoins nos60 mil dólares, achando que o pico foi60,60 e poucos, lá logo na aprovação em março, e que você agora estaria fora do mercado esperando o Bear."
+        },
+        {
+          "timestamp": "58:16",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3496",
+          "speaker": "SPEAKER_01",
+          "text": "Mas é isso, é uma métrica que se você analisar sozinha, sem contexto, ela vai te induzir para uma coisa mesmo sendo uma das métricas que eu mais gosto e principais que eu acho que todo mundo usa."
+        },
+        {
+          "timestamp": "58:27",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3507",
+          "speaker": "SPEAKER_01",
+          "text": "Então, assim, foi um painel muito rico por causa disso, sabe?"
+        },
+        {
+          "timestamp": "58:30",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3510",
+          "speaker": "SPEAKER_01",
+          "text": "Por causa da dialética, por causa do.Ó,"
+        },
+        {
+          "timestamp": "58:32",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3512",
+          "speaker": "SPEAKER_01",
+          "text": "análise de on-chain é muito importante, mas ela é um patummanco se você tentar usar só ela, você precisa usar ela e muitas outras coisas pra formar uma visão completa do assunto, assim."
+        },
+        {
+          "timestamp": "58:45",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3525",
+          "speaker": "SPEAKER_01",
+          "text": "Mas, enfim, Diego, eu acho que você tem dois, três minutos aqui, então, não sei, queria agradecer a presença de vocês dois."
+        },
+        {
+          "timestamp": "58:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3534",
+          "speaker": "SPEAKER_01",
+          "text": "Desculpa, pessoal, que esse final pode ter ficado um pouco corrido, mas no fundo, a nossa ideia era justamente mostrar como a."
+        },
+        {
+          "timestamp": "59:00",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3540",
+          "speaker": "SPEAKER_01",
+          "text": "Most mostrar como a7CCCCCCCCCConf foi pelos olhos das pessoas da Bipa que participaram de lá."
+        },
+        {
+          "timestamp": "59:08",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3548",
+          "speaker": "SPEAKER_01",
+          "text": "O Lourenço participou de alguns painéis também, a Mafê também, eu também acabei não contando da SetKids, que foi um evento paralelo só para crianças, onde eu também expliquei, deu uma palestra sobre a mineração de Bitcoin."
+        },
+        {
+          "timestamp": "59:21",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3561",
+          "speaker": "SPEAKER_01",
+          "text": "A Mafê participou bastante, o Lorenzo participou bastante, o Quenu também participou de painéis, o Luiz também participou de painéis."
+        },
+        {
+          "timestamp": "59:29",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3569",
+          "speaker": "SPEAKER_01",
+          "text": "Então, assim, aqui é um microcosmos da participação da Bipa na7.CCCCCCCCCConf."
+        },
+        {
+          "timestamp": "59:34",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3574",
+          "speaker": "SPEAKER_01",
+          "text": "Mas como nós três estávamos trabalhando junto aqui na Casa21, que tem essa maravilha de estudo presencial, a gente achou por bem, pô, vamos gravar isso aqui e colocar no registro para o pessoal saber o que aconteceu lá, tanto na ótica7.CCCCCCCCCConf,"
+        },
+        {
+          "timestamp": "59:49",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3589",
+          "speaker": "SPEAKER_01",
+          "text": "quanto na parte o Hackathon, como no todo, assim."
+        },
+        {
+          "timestamp": "59:54",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3594",
+          "speaker": "SPEAKER_01",
+          "text": "Então, muito obrigado pela presença, Diego, muito obrigado pela presença, Breno, como sempre é um prazer, e para o pessoal que está escutando a gente, até a próxima e obrigado pelo tempo de vocês também."
+        },
+        {
+          "timestamp": "01:00:05",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3605",
+          "speaker": "SPEAKER_01",
+          "text": "Obrigado, pessoal."
+        },
+        {
+          "timestamp": "01:00:06",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3606",
+          "speaker": "SPEAKER_01",
+          "text": "Obrigadão, gente."
+        },
+        {
+          "timestamp": "01:00:07",
+          "href": "https://www.youtube.com/watch?v=20sPMNVQTug&t=3607",
+          "speaker": "SPEAKER_01",
+          "text": "Tchau, tchau."
+        }
+      ]
+    }
+  ]
+}

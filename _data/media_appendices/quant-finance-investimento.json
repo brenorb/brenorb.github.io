@@ -1,0 +1,1745 @@
+{
+  "items": [
+    {
+      "id": "quant-finance-investimento",
+      "slug": "quant-finance-investimento",
+      "label": "Transcricao diarizada",
+      "source_label": "YouTube",
+      "source_url": "https://www.youtube.com/watch?v=4Ap0jAPX00o",
+      "stats": {
+        "line_count": 288,
+        "speaker_count": 2
+      },
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=0",
+          "speaker": "SPEAKER_01",
+          "text": "Bem-vindo ao Papo Aberto, meu nome é Victor Cabral, e aqui você vai encontrar informação sobre economia, regulamentação, criptoativos e DeFi."
+        },
+        {
+          "timestamp": "00:08",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=8",
+          "speaker": "SPEAKER_01",
+          "text": "Se você tiver interesse de aumentar seu repertório, conhecer novas tecnologias para o ramo financeiro, você está no lugar certo."
+        },
+        {
+          "timestamp": "00:21",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=21",
+          "speaker": "SPEAKER_01",
+          "text": "Bom, mais um Papo Aberto, e como vocês podem ver, hoje voltamos ao cenário oficial do Papo Aberto, estamos na França novamente, depois de uma longa estadia no Brasil, foi muito legal."
+        },
+        {
+          "timestamp": "00:34",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=34",
+          "speaker": "SPEAKER_01",
+          "text": "Esse mês eu pude comparecer em vários eventos, conhecer pessoas magníficas e ter contato com muitas outras pessoas."
+        },
+        {
+          "timestamp": "00:42",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=42",
+          "speaker": "SPEAKER_01",
+          "text": "Uma delas é o Breno."
+        },
+        {
+          "timestamp": "00:44",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=44",
+          "speaker": "SPEAKER_01",
+          "text": "Vou deixar um pouquinho aqui a palavra para ele se apresentar e mostrar o que ele está fazendo hoje em dia."
+        },
+        {
+          "timestamp": "00:51",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=51",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, pessoal, tudo bom?"
+        },
+        {
+          "timestamp": "00:52",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=52",
+          "speaker": "SPEAKER_02",
+          "text": "Primeiro de tudo, obrigado aí pelo convite, Victor."
+        },
+        {
+          "timestamp": "00:56",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=56",
+          "speaker": "SPEAKER_02",
+          "text": "Meu nome é Breno Brito, eu sou formado em Engenharia, eu trabalhei lixo com o Bitcoin, inteligência artificial."
+        },
+        {
+          "timestamp": "01:07",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=67",
+          "speaker": "SPEAKER_02",
+          "text": "Finanças, eu comecei a primeira."
+        },
+        {
+          "timestamp": "01:10",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=70",
+          "speaker": "SPEAKER_02",
+          "text": "Comecei a entrar no mundo financeiro e de inteligência artificial lá para2009 e2010."
+        },
+        {
+          "timestamp": "01:16",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=76",
+          "speaker": "SPEAKER_02",
+          "text": "E daí eu trabalhei alguns anos no mercado financeiro, e depois disso eu vi o Bitcoin crescendo, já acompanhava o Bitcoin já fazia algum tempo, mas aquele negócio acompanhando de longe."
+        },
+        {
+          "timestamp": "01:28",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=88",
+          "speaker": "SPEAKER_02",
+          "text": "E aí em2017 eu resolvi entrar de cabeça, comecei a estudar, fiz uma empresa, fui acelerado, ganhei investimento."
+        },
+        {
+          "timestamp": "01:37",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=97",
+          "speaker": "SPEAKER_02",
+          "text": "E acabou que a empresa não deu certo, por vários motivos, o mercado era muito incipiente na época, muita gente não ainda não botava muita fé, no2017 era talvez uma ideia muito nova para a época."
+        },
+        {
+          "timestamp": "01:51",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=111",
+          "speaker": "SPEAKER_02",
+          "text": "E daí pra frente eu continuei trabalhando com isso, tanto na área financeira, eu cheguei a trabalhar como copywriter."
+        },
+        {
+          "timestamp": "01:58",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=118",
+          "speaker": "SPEAKER_02",
+          "text": "Cheguei a trabalhar como copyrighter, tinha uma equipe de escritores aí, a gente escrevia sobre vários vários artigos sobre finanças e cripto em várias, se vocês olharem muitas muitas corretores e exchanges tem artigos que foram escritos por mim ou revisado por mim, e como ghostwriter, e depois trabalhei um pouquinho também como pesquisador de finanças quantitativas, e depois disso eu entrei de cabeça no mundo aí de inteligência artificial, que eu já estudava desde a faculdade, já trabalhava, já fazia projetos pessoais antes, eu fazia cursos, eu sempre uma paixão minha, mas eu comecei a entrar a fundo com isso aí, comecei a trabalhar numa startup pequena dos Estados Unidos, depois fui convidado para trabalhar no mercado do Bitcoin, depois de um artigo que eu fiz, onde mostrava que tinha uma exchange falsificando volume, e aí eles falaram, pô, eu tenho um problema aqui que eu quero resolver que é bem parecido com esse."
+        },
+        {
+          "timestamp": "03:08",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=188",
+          "speaker": "SPEAKER_02",
+          "text": "E aí eu comecei a trabalhar no mercado do Bitcoin, e hoje eu tô fazendo inteligências artificiais de linguagem tipo chat APT específicas para Bitcoin."
+        },
+        {
+          "timestamp": "03:19",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=199",
+          "speaker": "SPEAKER_01",
+          "text": "Caramba, que legal."
+        },
+        {
+          "timestamp": "03:21",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=201",
+          "speaker": "SPEAKER_01",
+          "text": "E quando foi o ano que você entrou no mercado do Bitcoin?"
+        },
+        {
+          "timestamp": "03:25",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=205",
+          "speaker": "SPEAKER_01",
+          "text": "Foi em2021.2021."
+        },
+        {
+          "timestamp": "03:28",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=208",
+          "speaker": "SPEAKER_01",
+          "text": "Você não pode falar qual era a exchange que estava falando."
+        },
+        {
+          "timestamp": "03:34",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=214",
+          "speaker": "SPEAKER_02",
+          "text": "É uma história bem legal até."
+        },
+        {
+          "timestamp": "03:37",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=217",
+          "speaker": "SPEAKER_02",
+          "text": "Quando eu tinha."
+        },
+        {
+          "timestamp": "03:38",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=218",
+          "speaker": "SPEAKER_02",
+          "text": "Quando eu comecei minha empresa em2017,2018, eu fiz contato tanto com a criptomoedas fácil, que hoje eu cripto fácil e com o portal do Bitcoin."
+        },
+        {
+          "timestamp": "03:49",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=229",
+          "speaker": "SPEAKER_02",
+          "text": "E eles estavam querendo arrumar artigos novos e tal, aí falaram, pô, não quer escrever aqui pra gente? eu falei, ah, pode ser, eu negociei ali com eles, fiz um primeiro artigo falando sobre stablecoin, que era uma coisa mega nova da época lá, como é que tipos de stablecoin, se ia funcionar, se não ia funcionar, se prestava ou não prestava."
+        },
+        {
+          "timestamp": "04:13",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=253",
+          "speaker": "SPEAKER_02",
+          "text": "E aí o segundo artigo, eles gostaram muito, eles falaram que foi um dos artigos mais lidos na época da plataforma, que foi um artigo bem denso, e aí eles falaram, pô, tem."
+        },
+        {
+          "timestamp": "04:24",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=264",
+          "speaker": "SPEAKER_02",
+          "text": "Você que gosta desses assuntos mais densos, você tem esse artigo aqui que fizeram sobre exchange falsificando volume, que é o famoso Wash Trading."
+        },
+        {
+          "timestamp": "04:35",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=275",
+          "speaker": "SPEAKER_02",
+          "text": "E aí falaram, pô, será que você não poderia fazer uma fazer um desse para o Brasil?"
+        },
+        {
+          "timestamp": "04:41",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=281",
+          "speaker": "SPEAKER_02",
+          "text": "Eu falei, ah, beleza, pode ser."
+        },
+        {
+          "timestamp": "04:43",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=283",
+          "speaker": "SPEAKER_02",
+          "text": "E aí eu peguei isso daí, comecei a fazer, e assim, meio que todo mundo já sabia que a negocia coins, que depois mudou o nome para Bitcoin Banco, todo mundo sabia que aquela exchange não era lá muito confiável, sempre tinha aqueles papos ali, o pessoal ficava, todo mundo com o pé atrás, todo mundo falava rumor ali por trás de tudo, mas não tinha algo concreto ali pra dizer que isso aqui realmente eles estão sendo picaretas aqui."
+        },
+        {
+          "timestamp": "05:15",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=315",
+          "speaker": "SPEAKER_02",
+          "text": "Todo mundo meio que tinha uma noção, mas ninguém falava isso abertamente porque não tinha dados."
+        },
+        {
+          "timestamp": "05:20",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=320",
+          "speaker": "SPEAKER_02",
+          "text": "E aí o que eu fiz foi pegar os dados."
+        },
+        {
+          "timestamp": "05:23",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=323",
+          "speaker": "SPEAKER_02",
+          "text": "Eu peguei os dados de vários exchanges, se eu me lembro bem do negocico, o mercado Bitcoin, da FoxBit, da."
+        },
+        {
+          "timestamp": "05:34",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=334",
+          "speaker": "SPEAKER_02",
+          "text": "Acho que da."
+        },
+        {
+          "timestamp": "05:36",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=336",
+          "speaker": "SPEAKER_02",
+          "text": "Ah, eu esqueci, tem umas outras duas que estão menos."
+        },
+        {
+          "timestamp": "05:40",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=340",
+          "speaker": "SPEAKER_02",
+          "text": "Brasil X, e tinha mais uma que eu esqueci o nome agora, ela existe ainda, mas eu esqueci agora qual o nome dela."
+        },
+        {
+          "timestamp": "05:47",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=347",
+          "speaker": "SPEAKER_02",
+          "text": "Era bem novinha lá."
+        },
+        {
+          "timestamp": "05:49",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=349",
+          "speaker": "SPEAKER_02",
+          "text": "E aí eu fiz um."
+        },
+        {
+          "timestamp": "05:50",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=350",
+          "speaker": "SPEAKER_02",
+          "text": "E aí eu modelei a liquidez dela e mostrei que a. Bitcoin, a negociação, mostrava que tinha mais de60% do market share do Brasil, sendo que ele tinha de longe uma das piores liquidez de todas as exchanges."
+        },
+        {
+          "timestamp": "06:10",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=370",
+          "speaker": "SPEAKER_02",
+          "text": "E aí eu fiz um modelinho, mostrei, dei várias, dei algumas algumas explicações, mostrei lá, fiz um artigo, e isso em2018, e aí em2021."
+        },
+        {
+          "timestamp": "06:22",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=382",
+          "speaker": "SPEAKER_02",
+          "text": "Aliás, até uma coisinha antes."
+        },
+        {
+          "timestamp": "06:25",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=385",
+          "speaker": "SPEAKER_02",
+          "text": "Eu fiz isso em2018, e os caras me ligaram."
+        },
+        {
+          "timestamp": "06:28",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=388",
+          "speaker": "SPEAKER_02",
+          "text": "Ele ligou pra mim e falou."
+        },
+        {
+          "timestamp": "06:31",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=391",
+          "speaker": "SPEAKER_02",
+          "text": "Oi, meu nome é Fulano Fulano Fulano, meu número da OAB é tal, tal, tal, e eu estou com as minhas metralhadoras jurídicas apontadas pra você agora."
+        },
+        {
+          "timestamp": "06:40",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=400",
+          "speaker": "SPEAKER_02",
+          "text": "Eu quero que você tire esse artigo do ar, não sei o quê."
+        },
+        {
+          "timestamp": "06:44",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=404",
+          "speaker": "SPEAKER_02",
+          "text": "E aí eu fui um."
+        },
+        {
+          "timestamp": "06:45",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=405",
+          "speaker": "SPEAKER_02",
+          "text": "É, ele fala, ele falou com essas palavras: estou com a minha metralhadora jurídica apontada pra você agora."
+        },
+        {
+          "timestamp": "06:51",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=411",
+          "speaker": "SPEAKER_02",
+          "text": "E aí tira esse negócio do ar aí, que aí vai ficar tudo bem, mas isso aí é uma mentira, e não sei o que."
+        },
+        {
+          "timestamp": "06:57",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=417",
+          "speaker": "SPEAKER_02",
+          "text": "Eu falei, não, tá tranquilo."
+        },
+        {
+          "timestamp": "06:58",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=418",
+          "speaker": "SPEAKER_02",
+          "text": "Eu enrolei ele o dia inteiro e falou, não, tá tranquilo, vou falar, vou falar com o cara lá do portal do Bitcoin, que ele coloca sua nota ali, você escreve que tá errado do artigo e ele vai colocar junto no negócio."
+        },
+        {
+          "timestamp": "07:10",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=430",
+          "speaker": "SPEAKER_02",
+          "text": "Não, você não tá entendendo."
+        },
+        {
+          "timestamp": "07:11",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=431",
+          "speaker": "SPEAKER_02",
+          "text": "Eu quero que você tire do ar."
+        },
+        {
+          "timestamp": "07:13",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=433",
+          "speaker": "SPEAKER_02",
+          "text": "Eu falei, não, tá tranquilo, pode ficar tranquilo, manda pra mim sua nota que ela vai estar ali junto do artigo, aí todo mundo vai poder ler seu contraponto."
+        },
+        {
+          "timestamp": "07:22",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=442",
+          "speaker": "SPEAKER_02",
+          "text": "Não, eu quero que tira do ar."
+        },
+        {
+          "timestamp": "07:24",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=444",
+          "speaker": "SPEAKER_02",
+          "text": "Não, relaxa, seu contraponto vai estar lá, tá de boa."
+        },
+        {
+          "timestamp": "07:27",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=447",
+          "speaker": "SPEAKER_02",
+          "text": "Aí ficou o dia inteiro me ligando, é, e até que eu."
+        },
+        {
+          "timestamp": "07:31",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=451",
+          "speaker": "SPEAKER_02",
+          "text": "Até que eu fiquei cansado de brincar com ele, daí eu desliguei, bloqueei ele e ficou por isso mesmo."
+        },
+        {
+          "timestamp": "07:37",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=457",
+          "speaker": "SPEAKER_02",
+          "text": "Mas o artigo está participado até lá."
+        },
+        {
+          "timestamp": "07:40",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=460",
+          "speaker": "SPEAKER_02",
+          "text": "O artigo está publicado até hoje, foi o primeiro, inclusive depois o Cláudio Rabin, que inclusive saiu do portal do Bitcoin, ele falou depois foi o primeiro processo que eles sofreram na história."
+        },
+        {
+          "timestamp": "07:52",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=472",
+          "speaker": "SPEAKER_02",
+          "text": "Foi o primeiro sofrer."
+        },
+        {
+          "timestamp": "07:52",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=472",
+          "speaker": "SPEAKER_02",
+          "text": "É o primeiro sofrer."
+        },
+        {
+          "timestamp": "07:54",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=474",
+          "speaker": "SPEAKER_02",
+          "text": "Foi eu que escrevei, foi eu que dei o primeiro processo pra eles."
+        },
+        {
+          "timestamp": "07:58",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=478",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, enfim, aí isso aí, e aí, o dono do Bitcoin Banco foi preso em2021, que era o Famigerado aí, rei dos Bitcoins, e eu fiz uma thread no Twitter, o Totta lá do mercado Bitcoin viu e falou, pô, eu lembro desse artigo, a gente falou, falou muito sobre ele nessa época, a gente quer alguma coisa assim, e eu entrei nessa época."
+        },
+        {
+          "timestamp": "08:21",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=501",
+          "speaker": "SPEAKER_01",
+          "text": "Caramba, que legal."
+        },
+        {
+          "timestamp": "08:23",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=503",
+          "speaker": "SPEAKER_01",
+          "text": "E foi um caso interessantíssimo, então, e o bom disso é que todos os dados estão on-chain, né?"
+        },
+        {
+          "timestamp": "08:29",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=509",
+          "speaker": "SPEAKER_01",
+          "text": "Então, pra você conseguir fazer essa análise também deve ter sido muito mais fácil do que fazer com o banco tradicional, com uma instituição financeira tradicional."
+        },
+        {
+          "timestamp": "08:37",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=517",
+          "speaker": "SPEAKER_01",
+          "text": "Não que a competência técnica por trás não seja necessário, mas eu digo, com relação a acesso de dados."
+        },
+        {
+          "timestamp": "08:47",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=527",
+          "speaker": "SPEAKER_02",
+          "text": "Na verdade, eu não usei dados on-chain, eu usei dados da API pública."
+        },
+        {
+          "timestamp": "08:53",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=533",
+          "speaker": "SPEAKER_02",
+          "text": "E ainda assim, mas ainda assim é muito mais fácil fazer com exchanges, porque as APIs do mercado financeiro tradicional é muito difícil você pegar os dados da AB3, por exemplo."
+        },
+        {
+          "timestamp": "09:08",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=548",
+          "speaker": "SPEAKER_02",
+          "text": "Não é."
+        },
+        {
+          "timestamp": "09:09",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=549",
+          "speaker": "SPEAKER_02",
+          "text": "Você consegue atrás de uma corretor, você pega uma coisinha aqui, uma coisinha ali, mas para você pegar dado bom e consistente e de um tempo real, você tem que pagar, e nem sempre é pouco."
+        },
+        {
+          "timestamp": "09:24",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=564",
+          "speaker": "SPEAKER_02",
+          "text": "Então, o que acontece é que em exchanges, as exchanges, mesmo sem os dados on-chain, ainda assim são um sistema muito mais aberto, muito mais transparente em alguns aspectos do que o mercado financeiro tradicional."
+        },
+        {
+          "timestamp": "09:41",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=581",
+          "speaker": "SPEAKER_02",
+          "text": "Legal."
+        },
+        {
+          "timestamp": "09:43",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=583",
+          "speaker": "SPEAKER_01",
+          "text": "Que bom, né?"
+        },
+        {
+          "timestamp": "09:44",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=584",
+          "speaker": "SPEAKER_01",
+          "text": "Pelo menos a gente está chegando em algum lugar com isso, com todo esse movimento que tá vindo aí, eu acho que faz total sentido a gente. ter um transparência muito maior, porque isso é tá noâmbulo da tecnologia, e a gente tem que continuar, ou no caso, a gente tem que conseguir perpetuar isso."
+        },
+        {
+          "timestamp": "10:04",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=604",
+          "speaker": "SPEAKER_01",
+          "text": "Eu acho que é muito importante para as finanças descentralizadas e para o Cifai também conseguir a gente conseguir ter acesso a esses dados de uma forma mais transparente do que no mercado tradicional."
+        },
+        {
+          "timestamp": "10:14",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=614",
+          "speaker": "SPEAKER_01",
+          "text": "Agora."
+        },
+        {
+          "timestamp": "10:15",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=615",
+          "speaker": "SPEAKER_01",
+          "text": "Cara, você falou de duas coisas muito legais."
+        },
+        {
+          "timestamp": "10:18",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=618",
+          "speaker": "SPEAKER_01",
+          "text": "Eu acho que qualquer um que escuta seu background vai ficar louco aqui."
+        },
+        {
+          "timestamp": "10:23",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=623",
+          "speaker": "SPEAKER_01",
+          "text": "Primeiro é uma coisa que está em hype aí já faz um tempo, mas pelo que você falou, você está desde2009, então não foi por causa do hype que você entrou, que no caso é machine learning, ou também aspectos de inteligência artificial, né?"
+        },
+        {
+          "timestamp": "10:38",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=638",
+          "speaker": "SPEAKER_01",
+          "text": "E uma outra coisa que eu acho muito interessante também, mas talvez o público não tenha tanto interesse hoje de falar, mas eu quero entender um pouquinho mais sobre o que é, é quantificar quantitativo é isso, né?"
+        },
+        {
+          "timestamp": "10:52",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=652",
+          "speaker": "SPEAKER_01",
+          "text": "Dados quantitativos financeiros."
+        },
+        {
+          "timestamp": "10:54",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=654",
+          "speaker": "SPEAKER_01",
+          "text": "É ou do jeito que você escreve Quant finance, né?"
+        },
+        {
+          "timestamp": "10:59",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=659",
+          "speaker": "SPEAKER_01",
+          "text": "Cara, começa aí, o que é isso?"
+        },
+        {
+          "timestamp": "11:03",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=663",
+          "speaker": "SPEAKER_02",
+          "text": "Tá, você prefere que eu comece com o quantitativo?"
+        },
+        {
+          "timestamp": "11:06",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=666",
+          "speaker": "SPEAKER_02",
+          "text": "Prefiro, sim."
+        },
+        {
+          "timestamp": "11:08",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=668",
+          "speaker": "SPEAKER_02",
+          "text": "Depois a gente coloca a cereja no bolo."
+        },
+        {
+          "timestamp": "11:12",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=672",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza."
+        },
+        {
+          "timestamp": "11:13",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=673",
+          "speaker": "SPEAKER_02",
+          "text": "Tá certo."
+        },
+        {
+          "timestamp": "11:13",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=673",
+          "speaker": "SPEAKER_02",
+          "text": "Então, o que."
+        },
+        {
+          "timestamp": "11:16",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=676",
+          "speaker": "SPEAKER_02",
+          "text": "Na verdade, é um nome muito bonito e tudo mais, mas é algo relativamente simples."
+        },
+        {
+          "timestamp": "11:22",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=682",
+          "speaker": "SPEAKER_02",
+          "text": "O que que."
+        },
+        {
+          "timestamp": "11:23",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=683",
+          "speaker": "SPEAKER_02",
+          "text": "Pra começar, o que é o que é finanças, né?"
+        },
+        {
+          "timestamp": "11:26",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=686",
+          "speaker": "SPEAKER_02",
+          "text": "A gente, quando a gente vai trabalhar, analisar se vale a pena investir em alguma coisa, especular em alguma coisa, fazer um trade."
+        },
+        {
+          "timestamp": "11:36",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=696",
+          "speaker": "SPEAKER_02",
+          "text": "Eu vou ter uma empresa e eu vou fazer a contabilidade."
+        },
+        {
+          "timestamp": "11:41",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=701",
+          "speaker": "SPEAKER_02",
+          "text": "Tudo isso, tudo isso está englobado ali no mundo financeiro, né?"
+        },
+        {
+          "timestamp": "11:45",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=705",
+          "speaker": "SPEAKER_02",
+          "text": "É o mundo das empresas, dos ativos, dos. investimentos, do trade, da especulação, então tudo isso aí é um mundo financeiro."
+        },
+        {
+          "timestamp": "11:54",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=714",
+          "speaker": "SPEAKER_02",
+          "text": "E esse mundo financeiro ele sempre tem um lado quantitativo e um lado qualitativo."
+        },
+        {
+          "timestamp": "12:04",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=724",
+          "speaker": "SPEAKER_02",
+          "text": "O que é o lado."
+        },
+        {
+          "timestamp": "12:05",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=725",
+          "speaker": "SPEAKER_02",
+          "text": "O que é o."
+        },
+        {
+          "timestamp": "12:06",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=726",
+          "speaker": "SPEAKER_02",
+          "text": "O que seria o lado qualitativo?"
+        },
+        {
+          "timestamp": "12:09",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=729",
+          "speaker": "SPEAKER_02",
+          "text": "Bem, quando a gente está falando sobre finanças, a gente está falando sobre valor."
+        },
+        {
+          "timestamp": "12:13",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=733",
+          "speaker": "SPEAKER_02",
+          "text": "E valor, a gente sabe aí desde Karl Menger, lá em1800 e ela vai pedrada, que valor é subjetivo."
+        },
+        {
+          "timestamp": "12:23",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=743",
+          "speaker": "SPEAKER_02",
+          "text": "Então, quando a gente tem um quando eu vou analisar uma empresa, por exemplo, eu não necessariamente eu vou investir numa empresa meramente por ela, por alguma coisa, por um número de balanço."
+        },
+        {
+          "timestamp": "12:45",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=765",
+          "speaker": "SPEAKER_02",
+          "text": "Tem aspectos subjetivos que mesmo quando a gente vai tentar ser o mais objetivo possível no valuation, e tentar construir essa o que eu construir é uma ideia de valor de uma empresa, o valuation nada mais é do que um chute bem o melhor fundamentado possível."
+        },
+        {
+          "timestamp": "13:09",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=789",
+          "speaker": "SPEAKER_02",
+          "text": "Então, e essa fundamental passa por algumas opiniões subjetivas, como por exemplo, daqui vamos dizer aí nas lojas Henner."
+        },
+        {
+          "timestamp": "13:19",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=799",
+          "speaker": "SPEAKER_02",
+          "text": "As lojas Henner, será que eles têm roupas de boa qualidade ou de má qualidade?"
+        },
+        {
+          "timestamp": "13:24",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=804",
+          "speaker": "SPEAKER_02",
+          "text": "Será que ele loja zender faz roupas que estão na moda ou que estão fora de moda?"
+        },
+        {
+          "timestamp": "13:30",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=810",
+          "speaker": "SPEAKER_02",
+          "text": "A loja é vista como cafona, e isso é bom, isso é ruim, isso vai trazer mais dinheiro, isso vai trazer menos dinheiro por ser cafona ou por não ser cafona, então isso são várias opiniões qualitativas que na hora de eu construir. meu modelo para decidir se eu invisto ou não, por exemplo, o branding, marca, pô, gastam milhões e milhões para mudar a marca, que às vezes mudam só uma vírgulazinha, deixa do quadrado e ficar arredondado, e isso daí é puramente subjetivo, então tudo isso aí é qualitativo."
+        },
+        {
+          "timestamp": "14:07",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=847",
+          "speaker": "SPEAKER_02",
+          "text": "O quantitativo é o que é puramente número."
+        },
+        {
+          "timestamp": "14:11",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=851",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, quando a gente geralmente fala sobre finanças quantitativas, a gente não só está falando sobre o número, a gente está tentando tirar o máximo possível das opiniões subjetivas, a gente está tentando se afastar o máximo possível do qualitativo."
+        },
+        {
+          "timestamp": "14:30",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=870",
+          "speaker": "SPEAKER_02",
+          "text": "Então, por exemplo, muitas vezes a própria o próprio valuation é qualitativo em algumas maneiras, como eu expliquei, de branding, propriedade intelectual, entre outras coisas."
+        },
+        {
+          "timestamp": "14:41",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=881",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, quando a gente vai para o quantitativo, a gente vai tentar pegar, por exemplo, market share, mercado, a gente vai pegar vários números, e aí entra nisso daí entra muito questão de estatística."
+        },
+        {
+          "timestamp": "14:56",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=896",
+          "speaker": "SPEAKER_02",
+          "text": "Porque, por exemplo, a gente pode."
+        },
+        {
+          "timestamp": "14:59",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=899",
+          "speaker": "SPEAKER_02",
+          "text": "Fala, desculpa."
+        },
+        {
+          "timestamp": "15:01",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=901",
+          "speaker": "SPEAKER_01",
+          "text": "Então, o qualitativo ele tem aquele aspecto mais subjetivo, né?"
+        },
+        {
+          "timestamp": "15:06",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=906",
+          "speaker": "SPEAKER_01",
+          "text": "De valorização também da pessoa e do que ela vê na marca, e o quantitativo ele vai prezar mais pelo racional e a lógica por trás do valor."
+        },
+        {
+          "timestamp": "15:20",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=920",
+          "speaker": "SPEAKER_02",
+          "text": "É, o qualitativo, ele pode estar, ele pode estar relacionado à lógica também, você pode ter uma lógica qualitativa, de por exemplo, você pegar duas coisas e você não ter uma."
+        },
+        {
+          "timestamp": "15:33",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=933",
+          "speaker": "SPEAKER_02",
+          "text": "Você vê, você vê que uma coisa de, digamos assim, uma roupa de bom gosto e uma roupa de mau gosto, e você fazer um julgamento qualitativo lógico em cima disso aí, e tomar."
+        },
+        {
+          "timestamp": "15:44",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=944",
+          "speaker": "SPEAKER_02",
+          "text": "Por em cima disso aí, e tomar uma decisão de comprar ou não comprar, e fazer isso aí."
+        },
+        {
+          "timestamp": "15:50",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=950",
+          "speaker": "SPEAKER_02",
+          "text": "Então, não é a lógica, é mais a questão é transformar em métricas, e deixar o mais objetivo possível, transformar em formas que você consegue fazer."
+        },
+        {
+          "timestamp": "16:03",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=963",
+          "speaker": "SPEAKER_02",
+          "text": "Geralmente você consegue fazer matemática em si."
+        },
+        {
+          "timestamp": "16:05",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=965",
+          "speaker": "SPEAKER_02",
+          "text": "Entendi."
+        },
+        {
+          "timestamp": "16:07",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=967",
+          "speaker": "SPEAKER_02",
+          "text": "Entendi, faz sentido, entendeu?"
+        },
+        {
+          "timestamp": "16:11",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=971",
+          "speaker": "SPEAKER_02",
+          "text": "Então, muitas vezes assim."
+        },
+        {
+          "timestamp": "16:13",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=973",
+          "speaker": "SPEAKER_02",
+          "text": "Então, você consegue trazer muitas coisas que são subjetivas para o quantitativo."
+        },
+        {
+          "timestamp": "16:18",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=978",
+          "speaker": "SPEAKER_02",
+          "text": "Como, por exemplo, você já deve ter ouvido falar de métrica de sentimento."
+        },
+        {
+          "timestamp": "16:24",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=984",
+          "speaker": "SPEAKER_02",
+          "text": "Hoje em dia é muito comum, antigamente era bem difícil você conseguir esse tipo de informação."
+        },
+        {
+          "timestamp": "16:29",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=989",
+          "speaker": "SPEAKER_01",
+          "text": "Sentimento."
+        },
+        {
+          "timestamp": "16:32",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=992",
+          "speaker": "SPEAKER_01",
+          "text": "O que seria isso."
+        },
+        {
+          "timestamp": "16:34",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=994",
+          "speaker": "SPEAKER_02",
+          "text": "Então, vamos dizer assim, vamos falar que, por exemplo, sai uma notícia, uma notícia ruim sobre a Petrobras."
+        },
+        {
+          "timestamp": "16:43",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1003",
+          "speaker": "SPEAKER_02",
+          "text": "E começa, e todos os jornais têm notícias ruins para a Petrobras."
+        },
+        {
+          "timestamp": "16:47",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1007",
+          "speaker": "SPEAKER_02",
+          "text": "O que provavelmente vai acontecer?"
+        },
+        {
+          "timestamp": "16:49",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1009",
+          "speaker": "SPEAKER_02",
+          "text": "Provavelmente o preço vai cair."
+        },
+        {
+          "timestamp": "16:52",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1012",
+          "speaker": "SPEAKER_02",
+          "text": "O que a gente pode tentar trazer essa coisa que é qualitativa, que é uma coisa vaga, que é notícia ruim sobre a Petrobras, para algo quantitativo."
+        },
+        {
+          "timestamp": "17:05",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1025",
+          "speaker": "SPEAKER_02",
+          "text": "Por exemplo, a gente quantifica o sentimento, que é a análise de sentimento, o sentimento de um de uma notícia."
+        },
+        {
+          "timestamp": "17:15",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1035",
+          "speaker": "SPEAKER_02",
+          "text": "Então, por exemplo, se tem muitas palavras e frases negativas, como cair ou perder ou não, derreter ou entre outras, aí várias palavras que têm aspecto negativo, a gente pode pegar essas palavras que tem aspecto negativo, contar elas, essa é a maneira mais simples e, digamos assim, em gênua, entre aspas, de fazer essa análise."
+        },
+        {
+          "timestamp": "17:40",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1060",
+          "speaker": "SPEAKER_02",
+          "text": "Você pode pegar e contar essas palavras negativas, e comparar com palavras positivas, o tipo, cresceu o superávit, bombou, tá top, subindo, etc.,"
+        },
+        {
+          "timestamp": "17:53",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1073",
+          "speaker": "SPEAKER_02",
+          "text": "e a gente compara um com o outro e fala, e tenta, por exemplo, fazer um de menos um a um, menos um é muito negativo, um é muito positivo, e zero é neutro, então eu consigo pegar uma coisa que é extremamente qualitativo, e aí eu metrifico, eu trago isso para o campo objetivo, crio uma métrica em cima disso, daí, então aí eu saio da subjetividade e começo a fazer finanças quantitativas em cima disso."
+        },
+        {
+          "timestamp": "18:26",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1106",
+          "speaker": "SPEAKER_02",
+          "text": "E aí eu tenho minha tese que é, por exemplo, quando sair muita notícia ruim, o preço vai cair, então eu tenho um robôzinho que fica acompanhando todas as notícias que saem, eu vejo se o sentimento tá muito ruim, se tiver muito ruim, eu aposto que vai cair, se tiver muito bom, eu aposto que vai subir, por exemplo."
+        },
+        {
+          "timestamp": "18:44",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1124",
+          "speaker": "SPEAKER_01",
+          "text": "Caramba, é."
+        },
+        {
+          "timestamp": "18:46",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1126",
+          "speaker": "SPEAKER_01",
+          "text": "É bem interessante isso, assim, eu."
+        },
+        {
+          "timestamp": "18:49",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1129",
+          "speaker": "SPEAKER_01",
+          "text": "Bom, todo mundo sabe que o meu background é de jurídico, né?"
+        },
+        {
+          "timestamp": "18:52",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1132",
+          "speaker": "SPEAKER_01",
+          "text": "Eu sou regulatório, então, não é a minha área exatamente, então eu tô bem impressionado, assim, muita coisa interessante que acontece."
+        },
+        {
+          "timestamp": "18:59",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1139",
+          "speaker": "SPEAKER_01",
+          "text": "Eu li um livro, aqueles livros bem clássicos assim de coaches, né?"
+        },
+        {
+          "timestamp": "19:04",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1144",
+          "speaker": "SPEAKER_01",
+          "text": "Que acho que chama poder do hábito, se eu não me engano, e ele falava exatamente."
+        },
+        {
+          "timestamp": "19:08",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1148",
+          "speaker": "SPEAKER_01",
+          "text": "É muito bom, é muito bom o livro, eu gosto bastante."
+        },
+        {
+          "timestamp": "19:12",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1152",
+          "speaker": "SPEAKER_01",
+          "text": "Ele fala sobre essa perspectiva de dados dentro de empresas, e como isso pode afetar a venda da empresa, e como isso pode afetar também a tratativa com o cliente."
+        },
+        {
+          "timestamp": "19:26",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1166",
+          "speaker": "SPEAKER_01",
+          "text": "Bom, mas deixando um pouco de lado essa questão, o que seria então a diferença na minha cabeça que vem assim como um leigo no assunto seria o qual seria a análise fundamentalista e a diferença entre o."
+        },
+        {
+          "timestamp": "19:41",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1181",
+          "speaker": "SPEAKER_02",
+          "text": "O Cont Finance, tá a análise fundamentalista é uma análise que tenta ir atrás dos fundamentos da empresa."
+        },
+        {
+          "timestamp": "19:51",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1191",
+          "speaker": "SPEAKER_02",
+          "text": "Então, o que seria um fundamento da empresa?"
+        },
+        {
+          "timestamp": "19:54",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1194",
+          "speaker": "SPEAKER_02",
+          "text": "O que, por exemplo, vamos voltar ali para o para render, então a gente tem várias coisas que trazem um valor para a empresa, que são de fato muito importantes e muito necessárias para uma empresa, que é, por exemplo, gestão e o currículo das pessoas que estão gerindo a empresa."
+        },
+        {
+          "timestamp": "20:17",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1217",
+          "speaker": "SPEAKER_02",
+          "text": "O currículo das pessoas é boa, eles têm um histórico bom, eles têm, eles têm na análise fundamentalista, você vai estar tentando encontrar os fundamentos que trazem valor para essa para essa empresa."
+        },
+        {
+          "timestamp": "20:36",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1236",
+          "speaker": "SPEAKER_02",
+          "text": "Eu tô falando de empresa, mas dá pra você fazer análise fundamentalista de outros ativos de outras coisas."
+        },
+        {
+          "timestamp": "20:43",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1243",
+          "speaker": "SPEAKER_02",
+          "text": "Geralmente é de empresa, geralmente se faz de empresa."
+        },
+        {
+          "timestamp": "20:46",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1246",
+          "speaker": "SPEAKER_02",
+          "text": "Quando você fala disso, eu costumo pensar nisso."
+        },
+        {
+          "timestamp": "20:49",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1249",
+          "speaker": "SPEAKER_02",
+          "text": "Sim."
+        },
+        {
+          "timestamp": "20:50",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1250",
+          "speaker": "SPEAKER_02",
+          "text": "Você ia falar alguma coisa?"
+        },
+        {
+          "timestamp": "20:51",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1251",
+          "speaker": "SPEAKER_01",
+          "text": "Não, eu tenho um amigo muito."
+        },
+        {
+          "timestamp": "20:54",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1254",
+          "speaker": "SPEAKER_01",
+          "text": "Mandou até um oi pra ele aí, é o Nax do Nax Investimento, ele sempre falava pra mim sobre."
+        },
+        {
+          "timestamp": "21:01",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1261",
+          "speaker": "SPEAKER_01",
+          "text": "Ele é ele é maximalista em Bitcoin."
+        },
+        {
+          "timestamp": "21:05",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1265",
+          "speaker": "SPEAKER_01",
+          "text": "Ele fala sobre a fundamentalista como fazer um relatório fundamentalista com relação ao Bitcoin."
+        },
+        {
+          "timestamp": "21:12",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1272",
+          "speaker": "SPEAKER_01",
+          "text": "E como que você consegue traduzir essa frase assim, trazendo o fundamentalismo para também ativos para criptótivos."
+        },
+        {
+          "timestamp": "21:23",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1283",
+          "speaker": "SPEAKER_02",
+          "text": "Então, quando eu comecei minha empresa de cripto lá em2017, a ideia era justamente fazer análise fundamentalistas."
+        },
+        {
+          "timestamp": "21:34",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1294",
+          "speaker": "SPEAKER_02",
+          "text": "Então, eu criei métricas,"
+        },
+        {
+          "timestamp": "21:40",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1300",
+          "speaker": "SPEAKER_02",
+          "text": "Eu crii uma eu criei algumas métricas tentando mensurar várias dimensões do que poderia trazer valor num criptoativo."
+        },
+        {
+          "timestamp": "21:52",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1312",
+          "speaker": "SPEAKER_02",
+          "text": "E eu não sei se eu vou lembrar aqui de cabeça, mas eram quatro pilares, se eu não estou enganado, que era a filosofia, a tecnologia, a economia e as entidades relacionadas."
+        },
+        {
+          "timestamp": "22:05",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1325",
+          "speaker": "SPEAKER_02",
+          "text": "Então, por exemplo, vamos dar um exemplo aqui de cada entidades relacionadas."
+        },
+        {
+          "timestamp": "22:11",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1331",
+          "speaker": "SPEAKER_02",
+          "text": "A gente via muito, ah, a Microsoft fez um projeto com a criptomoeda tal, e não sei o que, e aí eu na época, eu via isso aí como algo que poderia trazer valor para a criptomoeda, porque, bem, se tem uma puta de uma empresa aí fazendo tendo adoção, adoção estaria perto estaria dentro da entidade também, então seria seria adoção, seria pessoas que começam a fazer projeto junto, seria número de programadores trabalhando em cima do projeto, seria esse tipo de coisa."
+        },
+        {
+          "timestamp": "22:49",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1369",
+          "speaker": "SPEAKER_02",
+          "text": "Isso na entidade, na parte de tecnologia, é meio que quase que auto-explicativo, né?"
+        },
+        {
+          "timestamp": "22:57",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1377",
+          "speaker": "SPEAKER_02",
+          "text": "Pô, a tecnologia funciona, ela está criando uma coisa nova que nunca foi testada antes, que pode dar um bug a qualquer hora, ou ela tem uma tecnologia que já foi testada, que é segura, que a gente tem uma noção de que ela funciona, e aí a gente tem a economia, que também éóbvio, né?"
+        },
+        {
+          "timestamp": "23:17",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1397",
+          "speaker": "SPEAKER_02",
+          "text": "Tipo, market cap, quantas pessoas estão o quanto é precializado, entre outras dessas métricas aí financeiras, e a filosofia que é tipo, para que isso existe, né?"
+        },
+        {
+          "timestamp": "23:32",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1412",
+          "speaker": "SPEAKER_02",
+          "text": "Para que isso serve."
+        },
+        {
+          "timestamp": "23:33",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1413",
+          "speaker": "SPEAKER_02",
+          "text": "É isso aí que é altamente subjetivo, né?"
+        },
+        {
+          "timestamp": "23:38",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1418",
+          "speaker": "SPEAKER_02",
+          "text": "Por exemplo, vamos dar um exemplo aí, o Ethereum tá criando o computador do mundo aí, que era a narrativa que surgiu lá em2014."
+        },
+        {
+          "timestamp": "23:47",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1427",
+          "speaker": "SPEAKER_02",
+          "text": "Isso é uma boa ideia, ou não é uma boa ideia."
+        },
+        {
+          "timestamp": "23:54",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1434",
+          "speaker": "SPEAKER_02",
+          "text": "E eu tentava criar com esses quatro pilares aí uma ideia geral de vários criptativos diferentes pra tentar ver o que valia a pena investir, no investigador, treinar, no trade dar, e aí eu tinha esse pilar fundamentalista, e acabou sendo até ofuscado para um para um lado mais quantitativo."
+        },
+        {
+          "timestamp": "24:16",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1456",
+          "speaker": "SPEAKER_02",
+          "text": "Eu comecei a treinar a correlação."
+        },
+        {
+          "timestamp": "24:18",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1458",
+          "speaker": "SPEAKER_02",
+          "text": "Então eu fazia."
+        },
+        {
+          "timestamp": "24:20",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1460",
+          "speaker": "SPEAKER_02",
+          "text": "Eu pegava duas duas criptos lá em2017 que eram descorrelacionadas entre si, eu comprava as duas e aí quando uma sobe a outra cai."
+        },
+        {
+          "timestamp": "24:31",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1471",
+          "speaker": "SPEAKER_02",
+          "text": "Aí eu vendo a de cima eu compra de baixo, e aí depois, no outro dia uma sobe a outra cai, eu vendo a de cima eu compra de baixo, e com isso daí em três meses eu estava70% acima do Bitcoin."
+        },
+        {
+          "timestamp": "24:43",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1483",
+          "speaker": null,
+          "text": "Caraca, bicho!"
+        },
+        {
+          "timestamp": "24:44",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1484",
+          "speaker": "SPEAKER_02",
+          "text": "Nossa, sério."
+        },
+        {
+          "timestamp": "24:45",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1485",
+          "speaker": "SPEAKER_02",
+          "text": "É isso aí, é na época funcionava muito, mas desde então as correlações em2018 isso quebrou, e com relação foi tudo pra um, todo mundo começou a treinar igual."
+        },
+        {
+          "timestamp": "25:01",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1501",
+          "speaker": "SPEAKER_02",
+          "text": "Então, isso aí deu esse modelo de trade hoje, ainda funciona porque agora já deu uma um decoupling de novo, já teve um descolamento, mas de2018 até uns2021, mais ou menos, não funcionava mais, praticamente."
+        },
+        {
+          "timestamp": "25:20",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1520",
+          "speaker": "SPEAKER_02",
+          "text": "Talvez hoje já tem algumas que dá pra funcionar."
+        },
+        {
+          "timestamp": "25:25",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1525",
+          "speaker": "SPEAKER_01",
+          "text": "Cara, faz total sentido como você conseguiu unir esses dois mundos, então da finança das finanças quantitativas. com machine learning, porque você acaba tendo que fazer essa análise de dados, e acredito eu que análise de dados usando AI deve facilitar bastante a vida tanto de empresa, quanto de pessoa, quanto de trader, né?"
+        },
+        {
+          "timestamp": "25:53",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1553",
+          "speaker": "SPEAKER_01",
+          "text": "Então, assim, você."
+        },
+        {
+          "timestamp": "25:55",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1555",
+          "speaker": "SPEAKER_01",
+          "text": "Essa é uma frase verdadeira, assim, você acha que usar machine learning, inteligência artificial te ajuda bastante no que você faz no dia a dia."
+        },
+        {
+          "timestamp": "26:05",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1565",
+          "speaker": "SPEAKER_02",
+          "text": "Bem, hoje, machine learning é o que é o meu bread and butter, é o que eu faço no dia a dia é machine learning."
+        },
+        {
+          "timestamp": "26:15",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1575",
+          "speaker": "SPEAKER_02",
+          "text": "Só que assim, eu acho que é uma coisa para trade, especificamente, que eu hoje em dia eu não faço mais trade, hoje em dia eu não tô mais mexendo."
+        },
+        {
+          "timestamp": "26:25",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1585",
+          "speaker": "SPEAKER_02",
+          "text": "É muito simples comprar Bitcoin e esperar você ter um resultado astronômico absurdo muito bom, sem precisar sem precisar se assustar com isso, você sabe, daqui a10 anos, se eu se eu te der."
+        },
+        {
+          "timestamp": "26:40",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1600",
+          "speaker": "SPEAKER_02",
+          "text": "Se eu te falar, escolhe uma criptomoeda que você tem certeza que daqui a10 anos vai existir."
+        },
+        {
+          "timestamp": "26:45",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1605",
+          "speaker": "SPEAKER_02",
+          "text": "Você vai falar o quê?"
+        },
+        {
+          "timestamp": "26:46",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1606",
+          "speaker": "SPEAKER_02",
+          "text": "Bitcoin."
+        },
+        {
+          "timestamp": "26:47",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1607",
+          "speaker": "SPEAKER_02",
+          "text": "E assim, e você acha que daqui a10 anos vai estar maior, o preço vai estar maior ou menor do que hoje."
+        },
+        {
+          "timestamp": "26:54",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1614",
+          "speaker": "SPEAKER_02",
+          "text": "Você com certeza vai falar que o preço vai estar maior."
+        },
+        {
+          "timestamp": "26:56",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1616",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, eu compro o Bitcoin e espero."
+        },
+        {
+          "timestamp": "26:59",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1619",
+          "speaker": "SPEAKER_02",
+          "text": "Esse aí é uma coisa que eu faço isso aí enquanto eu trabalho em outras coisas, eu não estou mais fazendo fazendo trade, não estou."
+        },
+        {
+          "timestamp": "27:07",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1627",
+          "speaker": "SPEAKER_02",
+          "text": "Isso é muito cansativo, muito interessante, muito trabalhoso, muito arriscado, e o custo-benefício."
+        },
+        {
+          "timestamp": "27:17",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1637",
+          "speaker": "SPEAKER_02",
+          "text": "Pode dar um custo-benefífício muito bom, mas hoje eu não estou mexendo com isso."
+        },
+        {
+          "timestamp": "27:23",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1643",
+          "speaker": "SPEAKER_02",
+          "text": "Dito isso, machine learning tem uma faca de dois gols pra isso aí, porque o que acontece?"
+        },
+        {
+          "timestamp": "27:32",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1652",
+          "speaker": "SPEAKER_02",
+          "text": "Por um lado, facilita muita coisa, ele te dá te dá uma ele abre um mundo pra você que você não tinha acesso anteriormente, então, por exemplo, essa análise de sentimento, análise de sentimento, você tinha vários projetos de análise de sentimento que eram, digamos assim, eram uns hackzinhos, né?"
+        },
+        {
+          "timestamp": "27:56",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1676",
+          "speaker": "SPEAKER_02",
+          "text": "Eu te falei, tem uma lista de palavras e você conta as palavras num artigo, mas e se tiver uma palavra que não está na sua lista de palavras."
+        },
+        {
+          "timestamp": "28:04",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1684",
+          "speaker": "SPEAKER_02",
+          "text": "Então assim, é uma coisa que é."
+        },
+        {
+          "timestamp": "28:09",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1689",
+          "speaker": "SPEAKER_02",
+          "text": "que agora você consegue colocar no chat GPT e ele vai te dar, vai fazer uma análise de sentimento muito melhor do que."
+        },
+        {
+          "timestamp": "28:18",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1698",
+          "speaker": "SPEAKER_02",
+          "text": "E sem você precisar pensar nisso."
+        },
+        {
+          "timestamp": "28:20",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1700",
+          "speaker": "SPEAKER_02",
+          "text": "Você joga lá, ele te dá resposta, você não precisa programar nada."
+        },
+        {
+          "timestamp": "28:23",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1703",
+          "speaker": "SPEAKER_02",
+          "text": "Você só chama o chat APT, o chat GPT te dá resposta, tá resolvido."
+        },
+        {
+          "timestamp": "28:28",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1708",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, você consegue."
+        },
+        {
+          "timestamp": "28:32",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1712",
+          "speaker": "SPEAKER_02",
+          "text": "Você, por um lado, te facilita muita coisa, por outro lado, o que eu conheço de gente, desde quando eu comecei, meu projeto de TCC foi machine learning aplicado no mercado financeiro."
+        },
+        {
+          "timestamp": "28:47",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1727",
+          "speaker": "SPEAKER_02",
+          "text": "Eu usei aprendizado."
+        },
+        {
+          "timestamp": "28:49",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1729",
+          "speaker": null,
+          "text": "Oi?"
+        },
+        {
+          "timestamp": "28:49",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1729",
+          "speaker": null,
+          "text": "Que ano?"
+        },
+        {
+          "timestamp": "28:51",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1731",
+          "speaker": "SPEAKER_02",
+          "text": "Não querendo.2013."
+        },
+        {
+          "timestamp": "28:53",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1733",
+          "speaker": null,
+          "text": "Boa."
+        },
+        {
+          "timestamp": "28:54",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1734",
+          "speaker": "SPEAKER_02",
+          "text": "Em2013, eu fiz."
+        },
+        {
+          "timestamp": "28:58",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1738",
+          "speaker": "SPEAKER_02",
+          "text": "É, eu deixo a barba crescer pra parecer mais velho."
+        },
+        {
+          "timestamp": "29:03",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1743",
+          "speaker": "SPEAKER_02",
+          "text": "Se eu tirar dado, ninguém me dá."
+        },
+        {
+          "timestamp": "29:05",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1745",
+          "speaker": "SPEAKER_02",
+          "text": "Ninguém me respeita."
+        },
+        {
+          "timestamp": "29:06",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1746",
+          "speaker": "SPEAKER_01",
+          "text": "Mas minha namorada faz aqui a maquiagem do homem."
+        },
+        {
+          "timestamp": "29:09",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1749",
+          "speaker": "SPEAKER_02",
+          "text": "Com certeza, com certeza, a gente tem que usar."
+        },
+        {
+          "timestamp": "29:13",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1753",
+          "speaker": "SPEAKER_02",
+          "text": "Eu tenho35 anos."
+        },
+        {
+          "timestamp": "29:17",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1757",
+          "speaker": "SPEAKER_02",
+          "text": "Não tem cara de35, não."
+        },
+        {
+          "timestamp": "29:19",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1759",
+          "speaker": "SPEAKER_02",
+          "text": "Tá bem, tá bem."
+        },
+        {
+          "timestamp": "29:20",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1760",
+          "speaker": "SPEAKER_02",
+          "text": "É, pois é."
+        },
+        {
+          "timestamp": "29:21",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1761",
+          "speaker": "SPEAKER_02",
+          "text": "Pois é, isso porque se eu tô de barba, se eu tivesse, você não ia, você não ia nem me me chamar aqui pra um podcast."
+        },
+        {
+          "timestamp": "29:30",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1770",
+          "speaker": "SPEAKER_02",
+          "text": "Nada, pô, a gente ia chamar."
+        },
+        {
+          "timestamp": "29:30",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1770",
+          "speaker": "SPEAKER_01",
+          "text": "Nada, pô, a gente chama, a gente chama todo mundo tendo capacidade."
+        },
+        {
+          "timestamp": "29:35",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1775",
+          "speaker": "SPEAKER_01",
+          "text": "Capacidade para mostrar conhecimento aqui, a gente tá aberto."
+        },
+        {
+          "timestamp": "29:41",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1781",
+          "speaker": "SPEAKER_02",
+          "text": "Mas é, aí10 anos atrás, faz tempo."
+        },
+        {
+          "timestamp": "29:44",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1784",
+          "speaker": "SPEAKER_02",
+          "text": "Dez anos atrás, eu fiz esse aprendizado por reforço aplicado no mercado financeiro, eu fiz um robôzinho trader usando usando machine learning."
+        },
+        {
+          "timestamp": "29:54",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1794",
+          "speaker": "SPEAKER_02",
+          "text": "E aí eu que eu comecei a ir atrás, eu estava bem no início, tanto de machine learning quanto de mercado financeiro, e eu fui atrás e comecei a pesquisar e tudo mais, e nesse tempo aí, nesses10 anos, eu vi muita, muita, muita gente que falou, pô, eu sou, eu trabalho com ciência da computação, eu vou pegar um alguma coisinha, fazer um machine learning, jogar os preços lá e vou ganhar dinheiro."
+        },
+        {
+          "timestamp": "30:23",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1823",
+          "speaker": "SPEAKER_02",
+          "text": "Aí ele faz isso aí, ganha um, dois, três meses, no quarto mês perce tudo."
+        },
+        {
+          "timestamp": "30:28",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1828",
+          "speaker": "SPEAKER_02",
+          "text": "É coisa mais comum que acontece, as pessoas acham que as pessoas acham que inteligência artificial, por ter esse nome, ele é um negócio mega inteligente que vai te dar todas as respostas."
+        },
+        {
+          "timestamp": "30:41",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1841",
+          "speaker": "SPEAKER_02",
+          "text": "Quando não é isso aí, você."
+        },
+        {
+          "timestamp": "30:45",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1845",
+          "speaker": "SPEAKER_02",
+          "text": "Mayoria das vezes eu vejo a inteligência artificial mais atrapalhado que ajudar uma pessoa que não sabe nada, justamente por isso, porque ela fica muito focada em construir algo mega complexo, ela sempre acha que o problema é na complexidade do que ela está fazendo, no quão complexo ela está criando o negócio, e ela esquece que tem coisas muito simples que funciona."
+        },
+        {
+          "timestamp": "31:09",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1869",
+          "speaker": "SPEAKER_02",
+          "text": "Que ela podia se ela fizesse o contrário, ela tentasse, ao invés de tentar criar um negócio mega complexo ali pra fazer um trade, ela tentasse encontrar alguma coisa relativamente simples e usar a machine learning em cima disso aí, talvez funcionasse melhor."
+        },
+        {
+          "timestamp": "31:29",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1889",
+          "speaker": "SPEAKER_01",
+          "text": "Sim."
+        },
+        {
+          "timestamp": "31:28",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1888",
+          "speaker": "SPEAKER_02",
+          "text": "Funcionar melhor."
+        },
+        {
+          "timestamp": "31:29",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1889",
+          "speaker": "SPEAKER_01",
+          "text": "Sim, consistência também, né?"
+        },
+        {
+          "timestamp": "31:32",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1892",
+          "speaker": "SPEAKER_01",
+          "text": "Eu acho que acreditar no posição que você está, etc."
+        },
+        {
+          "timestamp": "31:37",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1897",
+          "speaker": "SPEAKER_01",
+          "text": "E se você tem estudado certinho, eu acho que um grande problema de trading, assim, no geral, é você ter uma capacidade psicológica e mental muito forte."
+        },
+        {
+          "timestamp": "31:48",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1908",
+          "speaker": "SPEAKER_01",
+          "text": "Acho que você tem que ter isso enraizado, assim."
+        },
+        {
+          "timestamp": "31:51",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1911",
+          "speaker": "SPEAKER_01",
+          "text": "É."
+        },
+        {
+          "timestamp": "31:52",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1912",
+          "speaker": "SPEAKER_01",
+          "text": "Mas, cara, a gente vai ter que ficar por aqui hoje, porque tá dando uns30 minutinhos do episódio, mas a gente vai te convidar de novo, vou te convidar de novo pra falar especificamente sobre machine learning em Bitcoin."
+        },
+        {
+          "timestamp": "32:04",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1924",
+          "speaker": "SPEAKER_01",
+          "text": "Eu acho que isso aí dá um tema também de um outro episódio de30 minutos, é ou até mais, que a gente pode até desenvolver em outro em outro tipo de conteúdo."
+        },
+        {
+          "timestamp": "32:13",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1933",
+          "speaker": "SPEAKER_01",
+          "text": "Eu queria agradecer pelo sua pela sua."
+        },
+        {
+          "timestamp": "32:15",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1935",
+          "speaker": "SPEAKER_01",
+          "text": "Por ter aceitado o convite de última hora."
+        },
+        {
+          "timestamp": "32:18",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1938",
+          "speaker": "SPEAKER_01",
+          "text": "Muito obrigado, Breno."
+        },
+        {
+          "timestamp": "32:19",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1939",
+          "speaker": "SPEAKER_01",
+          "text": "Foi sensacional a conversa."
+        },
+        {
+          "timestamp": "32:21",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1941",
+          "speaker": "SPEAKER_01",
+          "text": "Eu vou sair daqui, eu acho que eu vou estar pensando em várias coisas que a gente pode conversar ainda."
+        },
+        {
+          "timestamp": "32:25",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1945",
+          "speaker": "SPEAKER_01",
+          "text": "E eu acho que tem tudo."
+        },
+        {
+          "timestamp": "32:30",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1950",
+          "speaker": "SPEAKER_01",
+          "text": "Na minha humilde opinião, eu acho que a quantidade de dados que tem hoje na internet e a quantidade de dados que a gente consegue utilizar que estão abertos, pode valorizar muito a nossa visão de mundo."
+        },
+        {
+          "timestamp": "32:47",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1967",
+          "speaker": "SPEAKER_01",
+          "text": "Então, é isso mais ou menos que eu tô levando pra casa depois dessa conversa."
+        },
+        {
+          "timestamp": "32:52",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1972",
+          "speaker": "SPEAKER_01",
+          "text": "Então, primeiro, é lógico que dados qualificados são importantes, mas querendo não, eles são subjetivos, e você tem que usar a quantificação desses dados para você validar a sua proposta e validar aquele valor de uma forma um pouco mais forte."
+        },
+        {
+          "timestamp": "33:09",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1989",
+          "speaker": "SPEAKER_01",
+          "text": "Me corrigir se eu tiver enganado aí do que do que eu tô falando."
+        },
+        {
+          "timestamp": "33:14",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=1994",
+          "speaker": "SPEAKER_01",
+          "text": "E tem alguma outra pergunta que você gostaria de ter respondido, que eu acabei não fazendo."
+        },
+        {
+          "timestamp": "33:22",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2002",
+          "speaker": "SPEAKER_02",
+          "text": "Olha."
+        },
+        {
+          "timestamp": "33:24",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2004",
+          "speaker": "SPEAKER_02",
+          "text": "É difícil difícil dizer isso, porque minha. cabeça vai vir ramificando os pensamentos, vou pensando."
+        },
+        {
+          "timestamp": "33:33",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2013",
+          "speaker": "SPEAKER_02",
+          "text": "Você já reparou ali que se deixar eu falo os30 minutos sozinho, né?"
+        },
+        {
+          "timestamp": "33:38",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2018",
+          "speaker": "SPEAKER_01",
+          "text": "Não, mas esse é bom, pô."
+        },
+        {
+          "timestamp": "33:39",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2019",
+          "speaker": "SPEAKER_01",
+          "text": "Esse é o bom, o papel do host."
+        },
+        {
+          "timestamp": "33:42",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2022",
+          "speaker": "SPEAKER_01",
+          "text": "É ficar escutando aqui."
+        },
+        {
+          "timestamp": "33:43",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2023",
+          "speaker": "SPEAKER_01",
+          "text": "Eu tô."
+        },
+        {
+          "timestamp": "33:44",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2024",
+          "speaker": "SPEAKER_01",
+          "text": "Eu tô escutando, e assim, pra mim é sempre mais blow, as conversas são muito boas."
+        },
+        {
+          "timestamp": "33:49",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2029",
+          "speaker": "SPEAKER_01",
+          "text": "É o que eu tava falando, você tava falando sobre dados com relação a Henner, eu já tava pensando nesse poder do hábito, e ele fala exatamente isso com relação a grávidas."
+        },
+        {
+          "timestamp": "33:58",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2038",
+          "speaker": "SPEAKER_01",
+          "text": "Porque quando eles começaram a usar a utilização de dados ali pra venda, né?"
+        },
+        {
+          "timestamp": "34:04",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2044",
+          "speaker": "SPEAKER_01",
+          "text": "Eu lembro que foi um exemplo muito legal."
+        },
+        {
+          "timestamp": "34:07",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2047",
+          "speaker": "SPEAKER_01",
+          "text": "Que o pai de uma de uma menina, acho que de16 anos, foi na loja, eu não vou lembrar qual loja que era, qual marca que era, mas foi na loja falando que ele tinha recebido uma carta dizendo com vários bônus assim, de fralda, de carrinho de bebê, de não sei o quê."
+        },
+        {
+          "timestamp": "34:24",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2064",
+          "speaker": "SPEAKER_01",
+          "text": "E ele não tava entendendo por que ele estava recebendo aquilo."
+        },
+        {
+          "timestamp": "34:28",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2068",
+          "speaker": "SPEAKER_01",
+          "text": "E aí foi descobrir que tava recebendo porque a filha dele estava grávida."
+        },
+        {
+          "timestamp": "34:31",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2071",
+          "speaker": "SPEAKER_01",
+          "text": "Então eu falei, caramba, esse é o poder que esse tipo de empresa tem, né, na mão."
+        },
+        {
+          "timestamp": "34:37",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2077",
+          "speaker": "SPEAKER_01",
+          "text": "Ela tem."
+        },
+        {
+          "timestamp": "34:38",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2078",
+          "speaker": "SPEAKER_01",
+          "text": "Ela consegue prever as coisas de uma forma absurda, o que acaba dando muito poder pra elas, mas também."
+        },
+        {
+          "timestamp": "34:46",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2086",
+          "speaker": "SPEAKER_01",
+          "text": "Aí volta aquela frase do homem-aranha, né?"
+        },
+        {
+          "timestamp": "34:49",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2089",
+          "speaker": "SPEAKER_01",
+          "text": "Com o poder tem que vir a responsabilidade, né?"
+        },
+        {
+          "timestamp": "34:52",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2092",
+          "speaker": "SPEAKER_01",
+          "text": "De usar esses dados de uma maneira correta e de manter o segredo deles."
+        },
+        {
+          "timestamp": "34:58",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2098",
+          "speaker": "SPEAKER_02",
+          "text": "É isso."
+        },
+        {
+          "timestamp": "34:59",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2099",
+          "speaker": "SPEAKER_02",
+          "text": "É a Target, se eu não me engano."
+        },
+        {
+          "timestamp": "35:01",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2101",
+          "speaker": "SPEAKER_01",
+          "text": "Acho que é a Target, o nome também acho que já é bem preponderante, né?"
+        },
+        {
+          "timestamp": "35:07",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2107",
+          "speaker": "SPEAKER_02",
+          "text": "É, pois é, eu, enfim, sinalizando, eu agradeço bastante aí, Victor."
+        },
+        {
+          "timestamp": "35:12",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2112",
+          "speaker": "SPEAKER_02",
+          "text": "Valeu aí pelo gente."
+        },
+        {
+          "timestamp": "35:14",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2114",
+          "speaker": "SPEAKER_02",
+          "text": "Foi um prazer, muito divertido."
+        },
+        {
+          "timestamp": "35:16",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2116",
+          "speaker": "SPEAKER_02",
+          "text": "Sempre que quiser, só chamar."
+        },
+        {
+          "timestamp": "35:18",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2118",
+          "speaker": "SPEAKER_01",
+          "text": "Fechado."
+        },
+        {
+          "timestamp": "35:19",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2119",
+          "speaker": "SPEAKER_01",
+          "text": "Bom, se subscreva no canal, deixa seu like e fica ligado que o Vive com o Papa."
+        },
+        {
+          "timestamp": "35:24",
+          "href": "https://www.youtube.com/watch?v=4Ap0jAPX00o&t=2124",
+          "speaker": "SPEAKER_01",
+          "text": "E fica ligado que eu vejo o papo aberto por ele."
+        }
+      ]
+    }
+  ]
+}

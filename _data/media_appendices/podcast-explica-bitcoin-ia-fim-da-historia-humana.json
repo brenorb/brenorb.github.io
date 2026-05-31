@@ -1,0 +1,3143 @@
+{
+  "items": [
+    {
+      "id": "podcast-explica-bitcoin-ia-fim-da-historia-humana",
+      "slug": "podcast-explica-bitcoin-ia-fim-da-historia-humana",
+      "label": "Transcricao diarizada",
+      "source_label": "YouTube",
+      "source_url": "https://www.youtube.com/watch?v=sqle4sHCdEQ",
+      "stats": {
+        "line_count": 521,
+        "speaker_count": 3
+      },
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=0",
+          "speaker": "SPEAKER_01",
+          "text": "Hey, there's a bubble."
+        },
+        {
+          "timestamp": "00:03",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3",
+          "speaker": "SPEAKER_01",
+          "text": "Call Vanett,50 million de swaps on the MBS."
+        },
+        {
+          "timestamp": "00:19",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=19",
+          "speaker": "SPEAKER_02",
+          "text": "Fala, pessoal, tudo bem com vocês?"
+        },
+        {
+          "timestamp": "00:21",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=21",
+          "speaker": "SPEAKER_02",
+          "text": "Bem-vindos a mais um Explica Bitcast."
+        },
+        {
+          "timestamp": "00:24",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=24",
+          "speaker": "SPEAKER_02",
+          "text": "Hoje eu tô aqui com o meu amigo Breno pra conversar."
+        },
+        {
+          "timestamp": "00:27",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=27",
+          "speaker": "SPEAKER_02",
+          "text": "No fundo, não é necessariamente tão de Bitcoin quanto geralmente as outras conversas são, mas uma ou outra pergunta tangi é um tema que tem algumas relações indiretas, e é um assunto que eu julgo bem interessante, eu julgo que, sei lá, desde2022,2023, quando eu comecei a prestar atenção."
+        },
+        {
+          "timestamp": "00:49",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=49",
+          "speaker": "SPEAKER_02",
+          "text": "É impressionante o quanto cresce, o quanto cresce rápido, o quanto domina parte do hype do mundo, assim, tem até tese do pessoal que acha que a inteligência artificial sugou parte do hype do um boom market e tirou liquidez do Bitcoin."
+        },
+        {
+          "timestamp": "01:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=65",
+          "speaker": "SPEAKER_02",
+          "text": "Então, pra falar desse tema que eu acho fascinante, que é inteligência artificial, trouxe o meu amigo Breno, que é Bitcoinheiro, é programador, já trabalhou, já trabalha há anos com inteligência artificial, então acho que é o cara certo."
+        },
+        {
+          "timestamp": "01:20",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=80",
+          "speaker": "SPEAKER_02",
+          "text": "Então, cara, bem-vindo."
+        },
+        {
+          "timestamp": "01:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=82",
+          "speaker": "SPEAKER_03",
+          "text": "Obrigadão, Leta."
+        },
+        {
+          "timestamp": "01:24",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=84",
+          "speaker": "SPEAKER_03",
+          "text": "É sempre um prazer muito grande conversar com você."
+        },
+        {
+          "timestamp": "01:27",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=87",
+          "speaker": "SPEAKER_03",
+          "text": "E especialmente desses temas dos dois temas que eu gosto muito, né?"
+        },
+        {
+          "timestamp": "01:32",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=92",
+          "speaker": "SPEAKER_03",
+          "text": "Bitcoin e IA."
+        },
+        {
+          "timestamp": "01:33",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=93",
+          "speaker": "SPEAKER_03",
+          "text": "Não sei se você sabe, eu minha primeira IA que eu fiz foi em2010."
+        },
+        {
+          "timestamp": "01:39",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=99",
+          "speaker": "SPEAKER_02",
+          "text": "Então você já vai ter que."
+        },
+        {
+          "timestamp": "01:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=101",
+          "speaker": "SPEAKER_02",
+          "text": "Eu quero perguntar é pra você se apresentar aqui, se apresentar é quando conheceu o Bitcoin, quando convenceu o IA e quando começou a trabalhar no assunto."
+        },
+        {
+          "timestamp": "01:48",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=108",
+          "speaker": "SPEAKER_02",
+          "text": "Porra,2010."
+        },
+        {
+          "timestamp": "01:50",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=110",
+          "speaker": "SPEAKER_02",
+          "text": "Pois é."
+        },
+        {
+          "timestamp": "01:52",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=112",
+          "speaker": "SPEAKER_03",
+          "text": "Na faculdade."
+        },
+        {
+          "timestamp": "01:53",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=113",
+          "speaker": "SPEAKER_03",
+          "text": "Na faculdade."
+        },
+        {
+          "timestamp": "01:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=115",
+          "speaker": "SPEAKER_03",
+          "text": "Pois é, o."
+        },
+        {
+          "timestamp": "01:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=118",
+          "speaker": null,
+          "text": "Quase."
+        },
+        {
+          "timestamp": "01:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=119",
+          "speaker": "SPEAKER_03",
+          "text": "Todos os"
+        },
+        {
+          "timestamp": "01:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=118",
+          "speaker": "SPEAKER_03",
+          "text": "Eu quase toda a gente sempre fala como é."
+        },
+        {
+          "timestamp": "02:01",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=121",
+          "speaker": "SPEAKER_03",
+          "text": "A gente já falou várias vezes, mas claro que eu falo de novo, não tem problema nenhum para as pessoas não precisarem voltar nos podcasts antigos, apesar de são bem legais também."
+        },
+        {
+          "timestamp": "02:14",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=134",
+          "speaker": "SPEAKER_03",
+          "text": "O Bitcoin só indo indo, vou não ser cronológico, foi primeiro falar do Bitcoin, depois da IA, que na verdade eu comecei antes, no Bitcoin, eu tinha envolvimento com o movimento liberal lá em2013, a gente fazia várias palestras na UNB, e aí eu fiquei sabendo do Bitcoin, eu não lembro exatamente como, mas eu fiquei sabia por alto, a gente tentou até fazer umas palestras de Bitcoin lá, e só que acabou que não tinha muita gente que sabia, um professor de ciência de computação que foi falar sobre Bitcoin e era meio doido, falou cinco minutos de Bitcoin e os outros45 sobre China, e aí, enfim, acabou que eu entrei no Bitcoin de cabeça mesmo foi em2017, quando eu comprei Bitcoin no final de2016, e aí eu falei, pô, se eu tô demorando muito, eu já tava querendo estudar já tinha anos, e eu via que tava subindo2016 inteiro."
+        },
+        {
+          "timestamp": "03:17",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=197",
+          "speaker": "SPEAKER_03",
+          "text": "Eu falei, pô, não posso ficar de fora agora, vou entrar isso aí, e entrei de cabeça, comecei a estudar, encontrei um amigo que era muito técnico, já tinha minerado em2013, eu falei, bora ser meu sócio, hoje o cara tá fazendo aí, porra, boa parte aí do infraestrutura de lightning aí no mundo de umas empresas foda aí lá fora."
+        },
+        {
+          "timestamp": "03:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=223",
+          "speaker": "SPEAKER_03",
+          "text": "E enfim, assim que eu entrei no que eu entrei no Bitcoin e logo de cara eu já logo antes disso eu já sabia que era uma coisa que podia valer muito a pena, e conforme eu estudando, só foi aumentando minha convicção."
+        },
+        {
+          "timestamp": "03:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=236",
+          "speaker": "SPEAKER_03",
+          "text": "E aumentando minha convicção."
+        },
+        {
+          "timestamp": "03:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=238",
+          "speaker": "SPEAKER_03",
+          "text": "Agora, sobre IA, na verdade, veio antes, assim, eu fiz engenharia elétrica, né?"
+        },
+        {
+          "timestamp": "04:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=245",
+          "speaker": "SPEAKER_03",
+          "text": "Na ONB, e em2010, tinha uma matéria."
+        },
+        {
+          "timestamp": "04:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=249",
+          "speaker": "SPEAKER_03",
+          "text": "Eu tenho essa."
+        },
+        {
+          "timestamp": "04:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=251",
+          "speaker": "SPEAKER_03",
+          "text": "Eu gosto de pegar várias coisas diferentes."
+        },
+        {
+          "timestamp": "04:13",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=253",
+          "speaker": "SPEAKER_03",
+          "text": "Eu cheguei a pegar aula de desenho, na departamento de artes, cheguei a pegar realidade virtual e realidade aumentada, eu peguei várias matérias diferentes, e uma delas era introdução a computarção científica numérica, e aí eu fiquei curioso, fui entrar nessa aula e era IA."
+        },
+        {
+          "timestamp": "04:35",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=275",
+          "speaker": "SPEAKER_03",
+          "text": "Eu aprendi a fazer modelo de machine learning, fiz meu primeiro modelinho de machine learning em Matlab, antes de existir essas bibliotecas de Python aí que todo mundo usa como Tensor Flow."
+        },
+        {
+          "timestamp": "04:47",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=287",
+          "speaker": "SPEAKER_03",
+          "text": "Eu fiz um modelo que era para classificar instrumentos musicais."
+        },
+        {
+          "timestamp": "04:54",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=294",
+          "speaker": "SPEAKER_03",
+          "text": "Então você colocava um trecho de um de um som, e ele te falava qual instrumento musical que era que estava tocando."
+        },
+        {
+          "timestamp": "05:00",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=300",
+          "speaker": "SPEAKER_03",
+          "text": "Então eu demonstrei isso na aula, liguei o microfone do computador, toquei um violão, aí falava violão, aí toquem tocava uma gata e falava Gaeta."
+        },
+        {
+          "timestamp": "05:12",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=312",
+          "speaker": "SPEAKER_03",
+          "text": "Então era uma coisa coisinha bem simples, mas era muito legal."
+        },
+        {
+          "timestamp": "05:17",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=317",
+          "speaker": "SPEAKER_03",
+          "text": "E aí eu continuei, eu achei simplesmente genial, como continuei a estudar isso daí com certeza, e em2013 fiz meu TCC, meu trabalho de conclusão foi em aprendizado por reforço, que é um tipo de algoritmo de inteligência artificial, um tipo de técnica que é muito utilizada, voltou a moda, assim, sempre esteve ali mais ou menos um pouquinho, mas agora tá muito forte na parte de essa IA generativa que todo mundo conhece hoje como IA, que antigamente IA era uma coisa mais, digamos assim, passiva, né?"
+        },
+        {
+          "timestamp": "05:54",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=354",
+          "speaker": "SPEAKER_03",
+          "text": "Era classificação. você colocava uma coisinha lá e falava, classifica isso, aquilo, você tinha que treinar antes de usar, então, agora a gente tem modelos que conseguem fazer tudo out of the box, né?"
+        },
+        {
+          "timestamp": "06:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=368",
+          "speaker": "SPEAKER_03",
+          "text": "Já sem você precisar explicitamente treinar eles, porque eles já foram treinados com quase tudo que existe, então, e aí eu fiz isso daí em2013, mas aí quando eu me formei, em2013, assim, não sei se você lembra, mas provavelmente você nem sabia o que era um cientista de dados em2013, ninguém sabia o que era isso."
+        },
+        {
+          "timestamp": "06:31",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=391",
+          "speaker": "SPEAKER_03",
+          "text": "Eu tentei procurar, tinha um emprego pra isso que é dois, assim, eu cheguei a fazer processado doetivo nos dois, um é de uma startup que estava surgindo lá em2014, eu acho que era uma tal de Nubank, e a outra era o Guia Bolso, que foi comprado recentemente pela PicPay, e aí só que eu tinha que mudar para São Paulo, aí eu não estava querendo ir para São Paulo, fiquei em Brasília e acabei indo para o mercado financeiro porque o meu TCC foi usando o IA no mercado financeiro, e aí eu fiquei e eventualmente quando eu entrei no Bitcoin eu criei minha empresa, e aí minha empresa de cripto e eu comecei a usar o que eu sabia de ir a análise de dados e dados dentro dessa empresa de cripto que eu criei, até que eventualmente."
+        },
+        {
+          "timestamp": "07:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=442",
+          "speaker": "SPEAKER_03",
+          "text": "Uma das coisas que eu fiz, inclusive, foi uma análise de dados com dados públicos de exchanges, e com essa análise de dados eu mostrei que o negocia, antigo Bitcoin banco, ele foi tava cometendo fraude, em termo técnico, é o wash trading, ele estava falsificando o volume, publicando um volume maior do que ele de fato tinha, e aí, eventualmente, os caras do Bitcoin Banco foram presos em2021, o pessoal do mercado Bitcoin."
+        },
+        {
+          "timestamp": "07:52",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=472",
+          "speaker": "SPEAKER_03",
+          "text": "21, o pessoal do mercado Bitcoin, o Tota, mais especificamente, o grande Tota aí lá do mercado Bitcoin, me viu e falou, pô, isso aí é uma coisa que a gente tá precisando dar umas análises parecidas aqui no mercado do Bitcoin, vamos conversar."
+        },
+        {
+          "timestamp": "08:06",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=486",
+          "speaker": "SPEAKER_03",
+          "text": "E aí eu entrei para trabalhar no mercado Bitcoin, como cientista de dados, e continuei aí desde então, em2023, comecei a mexer com LLMs, de fato."
+        },
+        {
+          "timestamp": "08:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=498",
+          "speaker": "SPEAKER_03",
+          "text": "Com2022, novembro de2022, começou o chat GPT, comecei, começamos de umas discussões internas, como é que a gente podia usar isso para o mercado Bitcoin."
+        },
+        {
+          "timestamp": "08:28",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=508",
+          "speaker": "SPEAKER_03",
+          "text": "E2023, eu acabei saindo e entrando na Spirit of Satoshi e começa a trabalhar com LLMs para Bitcoin, e tô nisso aí até hoje, e entrando cada vez mais fundo nessa nesse mundo maluco."
+        },
+        {
+          "timestamp": "08:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=523",
+          "speaker": "SPEAKER_02",
+          "text": "Pô, uma coisa que eu achei muito interessante nessa sua contextualização é que assim, muita gente hoje em dia pensa em inteligência artificial como sinônimo de chat GPT, das LLMs, né?"
+        },
+        {
+          "timestamp": "08:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=535",
+          "speaker": "SPEAKER_02",
+          "text": "Mas assim, você pensar, o começo do Explica Bitcoin foi graças à inteligência artificial."
+        },
+        {
+          "timestamp": "09:01",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=541",
+          "speaker": "SPEAKER_02",
+          "text": "Eu simplesmente copiava e colava parágrafos de textos em inglês, usava o Google Tradutor para transformar para português, e eu revisava porque a qualidade era muito inferior ao chat GPT de hoje em dia ou qualquer outra IA de hoje em dia, mas no fundo, isso é uma faceta mais primitiva de um uso de I, tipo, da mesma forma, se a gente pensar o algoritmo de uma rede social, o algoritmo do Google, também é uma forma de A, acho que você falou de uma IA mais passiva, assim, que você recebe o resultado, mas você não interage tanto, você até interage, tipo, sei lá, eu penso em programar meu algoritmo, dando like em coisas que eu quero ser mais exposto, e silenciando coisas que eu não quero ser exposto, mas eu sei que isso tem mais atrito, isso não é simples."
+        },
+        {
+          "timestamp": "09:46",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=586",
+          "speaker": "SPEAKER_02",
+          "text": "Mas ou seja, várias coisas diferentes que eu tô falando aqui."
+        },
+        {
+          "timestamp": "09:49",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=589",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, num pensamento mais. amplo, o que é uma IA, como ela funciona?"
+        },
+        {
+          "timestamp": "09:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=596",
+          "speaker": "SPEAKER_02",
+          "text": "Ela pensa, tipo, sabe, define, sabe, aterrisa um pouco esses pensamentos mais detérios, assim."
+        },
+        {
+          "timestamp": "10:03",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=603",
+          "speaker": "SPEAKER_03",
+          "text": "Eu acho que esse é um tópico muito legal que você trouxe, porque as pessoas não sabem, mas na verdade a IA começou em1950."
+        },
+        {
+          "timestamp": "10:15",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=615",
+          "speaker": "SPEAKER_03",
+          "text": "A primeira primeiro algoritmo de IA foi num paper lá de acho que47, por aí."
+        },
+        {
+          "timestamp": "10:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=623",
+          "speaker": "SPEAKER_03",
+          "text": "E construíram uma máquina física que era o tal do Perceptron, onde ele tinha meio que um olho mecânico e ele."
+        },
+        {
+          "timestamp": "10:32",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=632",
+          "speaker": "SPEAKER_03",
+          "text": "e os pesos que a gente usa na IA."
+        },
+        {
+          "timestamp": "10:36",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=636",
+          "speaker": "SPEAKER_03",
+          "text": "Quando hoje, quando a gente fala, é uma IA, sei lá, Iama8B, Mistral32B, isso quer dizer32 bilhões de parâmetros para serem ajustados."
+        },
+        {
+          "timestamp": "10:51",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=651",
+          "speaker": "SPEAKER_03",
+          "text": "E obviamente a gente não consegue ajustar isso na mão."
+        },
+        {
+          "timestamp": "10:54",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=654",
+          "speaker": "SPEAKER_03",
+          "text": "Mas no Perceptron, lá na década de50, eles tinham, agora não vou lembrar quantos parâmetros, mas era provavelmente algumas dezenas ou algumas centenas que eles ajustaram ajustavam em potenciômetros na mão."
+        },
+        {
+          "timestamp": "11:10",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=670",
+          "speaker": "SPEAKER_03",
+          "text": "Então você colocava o seu, digamos, o seu olho mecânico ali, você ajustava os potenciômetros na mão, até você conseguir fazer o seu olho mecânico, entre aspas, assim, reconhecer e falar o que ele está observando."
+        },
+        {
+          "timestamp": "11:26",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=686",
+          "speaker": "SPEAKER_03",
+          "text": "Então, a IA começou isso lá na década de50."
+        },
+        {
+          "timestamp": "11:33",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=693",
+          "speaker": "SPEAKER_03",
+          "text": "E a gente teve uma coisa chamada."
+        },
+        {
+          "timestamp": "11:35",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=695",
+          "speaker": "SPEAKER_03",
+          "text": "teve dois grandes invernos da IA, que eles chamam."
+        },
+        {
+          "timestamp": "11:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=701",
+          "speaker": "SPEAKER_03",
+          "text": "A IA teve vários várias arquiteturas que a gente usa hoje de inteligência artificial."
+        },
+        {
+          "timestamp": "11:47",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=707",
+          "speaker": "SPEAKER_03",
+          "text": "É muito interessante que tem nesse paper. da década de40,50, definindo assim como é que funciona as arquiteturas."
+        },
+        {
+          "timestamp": "11:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=715",
+          "speaker": "SPEAKER_03",
+          "text": "É claro, teve vários detalhes que mudaram, era um detalhe assim mais de0 ou1, era pensava-se um pouco em questões de lógica, e hoje em dia se pensa lógica no sentido assim, verdadeiro ou falso, uma lógica booleana, e hoje em dia se usa de forma mais contínua, então você tem vai de um menos infinito a mais infinito e você ajusta esses parâmetros de acordo com valores contínuos, mas isso lá na década de50 ele teve teve um inverno que eles chegaram a evoluir um pouquinho, depois eles meio que chegaram num limite que eles não conseguiram mais avançar, até que os computadores começaram a avançar bastante, então a gente conseguiu ter um avanço computacional, e aí a IA voltou a ter pesquisas, voltaram a ter desenvolvimento."
+        },
+        {
+          "timestamp": "12:54",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=774",
+          "speaker": "SPEAKER_03",
+          "text": "Isso foi desenvolvido mais um tempo, e depois teve uma parada novamente, teve de novo um inverno da IA, porque a gente chegou no limite de computação, até que ali por volta, coincidentemente, eu tive muita sorte de começar a estudar isso daí logo depois do segundo inverno da IA, que foi quando lá para2010 começou isso da computação em nuvem."
+        },
+        {
+          "timestamp": "13:20",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=800",
+          "speaker": "SPEAKER_03",
+          "text": "Então a gente conseguiu escalar a computadoração e a gente conseguiu ter modelos muito mais potentes, e inclusive hoje o que a gente tem existem alguns pesquisadores que dizem isso daí, que na verdade, as mudanças que a gente teve na IA, pouco se devem de fato a novas arquiteturas. novas descobertas, novas técnicas, e se dão muito mais a novas formas de conseguir mais dados."
+        },
+        {
+          "timestamp": "13:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=836",
+          "speaker": "SPEAKER_03",
+          "text": "Então, antes a gente não conseguir dados suficientes, porque era tudo mecânico, e aí depois a gente começou a ter alguns contadores e a gente conseguiu imputar um pouco alguns dados a mais."
+        },
+        {
+          "timestamp": "14:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=849",
+          "speaker": "SPEAKER_03",
+          "text": "E agora que a gente tem um OpenAI aí acabou de divulgar um trilhão em investimentos em data center, né?"
+        },
+        {
+          "timestamp": "14:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=858",
+          "speaker": "SPEAKER_03",
+          "text": "E isso daí é a gente consegue."
+        },
+        {
+          "timestamp": "14:21",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=861",
+          "speaker": "SPEAKER_03",
+          "text": "A gente já colocou praticamente todos os dados da internet dentro das IA, já treinou com tudo que dava, e a gente tá tentando descobrir a nova forma de colocar mais dados, que com certeza a próxima nova forma de colocar mais dados vai ser o modelo começar a pegar dados da própria experiência e ter um aprendizado contínuo, ao invés de pegar coisas que já existem."
+        },
+        {
+          "timestamp": "14:52",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=892",
+          "speaker": "SPEAKER_03",
+          "text": "Ele usar esses próximos dados."
+        },
+        {
+          "timestamp": "14:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=896",
+          "speaker": "SPEAKER_02",
+          "text": "Antes de você continuar explicando, só uma pergunta, então."
+        },
+        {
+          "timestamp": "14:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=899",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza, o modelo vai gerar os próprios dados, mas o modelo não consegue testar os dados do mundo real para falciar se esses dados fazem sentido ou não."
+        },
+        {
+          "timestamp": "15:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=909",
+          "speaker": "SPEAKER_02",
+          "text": "Isso não gerou um prejuízo, porque querendo ou não, a maioria dos dados que os modelos usam são YouTube, Twitter, Reddit, etc.,"
+        },
+        {
+          "timestamp": "15:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=918",
+          "speaker": "SPEAKER_02",
+          "text": "e assim, beleza, a gente pode dizer que muitas das ideias que são faláciosas e não param em pé ainda se sobrevivem no livro Mercado das Ideias, mas supostamente quando você testa uma ideia e ela falha, você está tornando todo o corpo de ideias disponível mais robusto."
+        },
+        {
+          "timestamp": "15:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=934",
+          "speaker": "SPEAKER_02",
+          "text": "Isso não acontece necessariamente com AI, então tem meio que um teto de acordo com os dados do mundo real, ou isso não necessariamente faz sentido?"
+        },
+        {
+          "timestamp": "15:48",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=948",
+          "speaker": "SPEAKER_03",
+          "text": "Bem, a gente tem que aprender a como usar esses dados do mundo real."
+        },
+        {
+          "timestamp": "15:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=955",
+          "speaker": "SPEAKER_03",
+          "text": "Tem alguns pesquisadores que usam."
+        },
+        {
+          "timestamp": "15:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=959",
+          "speaker": "SPEAKER_03",
+          "text": "que fizeram algumas contas sobre quantos bytes a gente aproveita porque a gente vê informação, né?"
+        },
+        {
+          "timestamp": "16:07",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=967",
+          "speaker": "SPEAKER_03",
+          "text": "Nosso nosso."
+        },
+        {
+          "timestamp": "16:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=968",
+          "speaker": "SPEAKER_03",
+          "text": "A gente, apesar de a gente pensar ser muito diferente, da gente ter olho, ter cérebro, enquanto o computador tem chip, a baite não é uma medida, não é não é uma medida de computador, é uma medida de informação, a gente adquiria informação, e então a gente consegue medir o quanto dessa informação é adquirir pela gente, e o grande pesquisador que até pouco tempo atrás estava no meta, eu acho que ele saiu agora, ele era o chefe da área de A do Facebook, ele fala, olha a quantidade de texto que a Uma IA é generativa, tipo um chat EPT hoje usa para ser treinado, se a se um ser humano fosse ler todo esse texto, ele ia demorar centenas, centenas, várias centenas de anos, enquanto isso uma criança adquirire."
+        },
+        {
+          "timestamp": "17:16",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1036",
+          "speaker": "SPEAKER_03",
+          "text": "Nos primeiros anos de vida adquirir tudo isso de informação."
+        },
+        {
+          "timestamp": "17:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1042",
+          "speaker": "SPEAKER_03",
+          "text": "Só que não é textual."
+        },
+        {
+          "timestamp": "17:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1043",
+          "speaker": "SPEAKER_03",
+          "text": "Ele tem várias, a gente tem nós temos vários sentidos, né?"
+        },
+        {
+          "timestamp": "17:27",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1047",
+          "speaker": "SPEAKER_03",
+          "text": "Audição, paladar, tá?"
+        },
+        {
+          "timestamp": "17:30",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1050",
+          "speaker": "SPEAKER_03",
+          "text": "Polfato, a visão."
+        },
+        {
+          "timestamp": "17:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1054",
+          "speaker": "SPEAKER_03",
+          "text": "A gente não tá só lendo, a gente adquiria essas conhecimentos de várias outras formas."
+        },
+        {
+          "timestamp": "17:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1061",
+          "speaker": "SPEAKER_03",
+          "text": "E ele diz que a gente. consegue nos primeiros anos, quando criança a gente absorve uma quantidade de informação ainda maior, do que do que essas IAs conseguem, e a grande diferença é que não é texto, a gente consegue pegar de vários outras formas, e a gente tem que descobrir como gerar essa eficiência."
+        },
+        {
+          "timestamp": "18:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1089",
+          "speaker": "SPEAKER_03",
+          "text": "Então, desculpa, eu acho que eu perdi o esqueci a pergunta, pode repetir."
+        },
+        {
+          "timestamp": "18:17",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1097",
+          "speaker": "SPEAKER_02",
+          "text": "No fundo, assim, tem um teto de quanto a IA consegue evoluir, visto que ela é baseada nos dados que a gente, como humanidade, já gerou, ela consegue gerar os próprios dados, e ela consegue verificar se os dados fazem sentido, ou se eles são totalmente."
+        },
+        {
+          "timestamp": "18:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1114",
+          "speaker": "SPEAKER_02",
+          "text": "Sei lá, que nem explosão do Cambriano, teve várias dados de planos de vista novos, um sobreviver, vários foram selecionados."
+        },
+        {
+          "timestamp": "18:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1121",
+          "speaker": "SPEAKER_02",
+          "text": "Se a IA usar dados que ela gerou internamente a ela, como ela sabe que dado faz sentido que dados não é só aleatório."
+        },
+        {
+          "timestamp": "18:50",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1130",
+          "speaker": "SPEAKER_03",
+          "text": "Então, dito isso, existe um algoritmo que inclusive é o aprendizado por reforço que eu comentei mais cedo, que eu trabalhei lá em2013, ele existem três tipos de aprendizado em IA."
+        },
+        {
+          "timestamp": "19:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1145",
+          "speaker": "SPEAKER_03",
+          "text": "Tem um aprendizado não supervisionado, que é basicamente que é quando você faz clusters, por exemplo."
+        },
+        {
+          "timestamp": "19:14",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1154",
+          "speaker": "SPEAKER_03",
+          "text": "Você joga um monte de informação lá e fala, separa em grupos."
+        },
+        {
+          "timestamp": "19:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1158",
+          "speaker": "SPEAKER_03",
+          "text": "E aí ele separa e ele pode gerar grupos que não é o que você gostaria, mas ele separa ali em grupos, e toda vez que você roda, ele vai gerar grupos um pouco diferentes um do outro."
+        },
+        {
+          "timestamp": "19:29",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1169",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não sei que os dados são sejam claramente muito agrupáveis, mas se eles forem ali meio misturados, você vai gerar dados, ele vai gerar grupos ligeiramente diferentes. toda vez, então esse é o não supervisionado, que você não está dizendo explicitamente o que você vai o que você quer, você só gera grupos, ele gera grupos e pronto, acabou."
+        },
+        {
+          "timestamp": "19:53",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1193",
+          "speaker": "SPEAKER_03",
+          "text": "Tem o segundo, tipo que é aprendizado supervisionado, obviamente, que se a gente for pensar é como se a gente estivesse numa escola, pensa assim: você está numa escola, o professor fala um mais um é dois, e aí pergunta pra você quanto é um mais um, aí você fala dois, beleza, agora um mais dois é três, quanto é um mais dois, três, aí um mais, ou mais três, é aí pergunta pra você, aí você quatro, ah, beleza, passou na prova, você entendeu como é que funciona."
+        },
+        {
+          "timestamp": "20:24",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1224",
+          "speaker": "SPEAKER_03",
+          "text": "Esse é o aprendizado supervisionado, você dá uma entrada e você dá uma saída, e você fala essa entrada equivale a essa saída, e aí você aprende um padrão, você aprende o padrão, e isso é como a maioria das IAs que a gente conhece funciona, por exemplo, aquela de detecção a detectar gatinho, quando a gente tá, quando a gente tá criando, clica num captcha e tem que selecionar se é um semáforo, se é uma ponte, e a gente tá treinando, de fato, uma IA para fazer esse tipo."
+        },
+        {
+          "timestamp": "21:02",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1262",
+          "speaker": "SPEAKER_03",
+          "text": "A gente é a IA está tentando classificar se é um semáforo, e você está clicando ali, você está fornecendo a resposta correta para IA depois fazer esse algoritmo de treinamento, e tem uma terceira forma que é o aprendizado por reforço."
+        },
+        {
+          "timestamp": "21:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1278",
+          "speaker": "SPEAKER_03",
+          "text": "O aprendizado por reforço ele é uma forma, digamos assim, mais biológica, que é você não dá, você não joga os dados e deixa ela fazer qualquer coisa, mas ao mesmo tempo você também não dá uma resposta."
+        },
+        {
+          "timestamp": "21:36",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1296",
+          "speaker": "SPEAKER_03",
+          "text": "O que você faz é você cria uma estrutura de incentivo."
+        },
+        {
+          "timestamp": "21:38",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1298",
+          "speaker": "SPEAKER_03",
+          "text": "Cria uma estrutura de incentivos, você cria."
+        },
+        {
+          "timestamp": "21:42",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1302",
+          "speaker": "SPEAKER_03",
+          "text": "Você tem o agente e você tem um ambiente, o agente toma uma ação no ambiente e o ambiente passa para o agente o estado, ou seja, o que o que está ao redor dele, o que ele pode, o que quais são as possíveis coisas que ele pode fazer, o que tem em volta, e uma recompensa em relação à ação."
+        },
+        {
+          "timestamp": "22:04",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1324",
+          "speaker": "SPEAKER_03",
+          "text": "Se a gente for pensar numa analogia com um ser humano, é como se fosse um bebê que tá tentando levantar e caminhar para pegar um biscoito em cima da mesa, então ele levanta, tropeça e cai, aí machuca um é um resultado é uma recompensa negativa, aí ele tenta engatinhar um pouquinho."
+        },
+        {
+          "timestamp": "22:27",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1347",
+          "speaker": "SPEAKER_03",
+          "text": "Pô, ele tá andando, tá chegando mais próximo do biscoito, então é uma recompensa positiva."
+        },
+        {
+          "timestamp": "22:32",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1352",
+          "speaker": "SPEAKER_03",
+          "text": "Ele consegue pegar o biscoito, é uma recompensa muito mais positiva, então é isso já existe, já existe há vários e vários anos, já está sendo usado, porém tem algum tem várias questões que tem que ser melhoradas."
+        },
+        {
+          "timestamp": "22:47",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1367",
+          "speaker": "SPEAKER_03",
+          "text": "Primeiro de tudo é que é muito ineficiente, a gente testa várias coisas aleatórias, e a forma de evolução de evolução nesse algoritmo não é não é rápido, mas é rápido o suficiente para algumas coisas, por exemplo, foi o que a gente usou pra ganhar ali no xadrez do Era Kasparov, né?"
+        },
+        {
+          "timestamp": "23:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1388",
+          "speaker": "SPEAKER_03",
+          "text": "Do Kasparov foi aprendizado por reforço que foi usado, só que a gente tem que melhorar isso ainda mais, e tem a questão também de como você faz, uma recompensa que seja boa o suficiente, existe uma coisa que uma parte da pesquisa que ainda não está resolvida que é uma chamada do que é chamado de. reward hacking você faz um hacking da recompensa, então você não, o modelo, então você diz, por exemplo, tem um tem um caso clássico que eu acho muito engraçado, que é, por exemplo, fizeram tentaram fazer uma IA para pilotar a vial, e aí o que acontece é que eles davam recompensas muito negativas."
+        },
+        {
+          "timestamp": "24:02",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1442",
+          "speaker": "SPEAKER_03",
+          "text": "Caso ele faça coisas ruins, como por exemplo bater, e recompensas positivas, ele pousa direitinho, e aí o e o que aconteceu que o modelo descobriu por coincidência que se ele bate e causa uma explosão grotesca."
+        },
+        {
+          "timestamp": "24:20",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1460",
+          "speaker": "SPEAKER_03",
+          "text": "Ele ganha uma recompensa tão negativa que causa uma coisa no código chamado overflow, que você causa uma coisa tão negativa que você ultrapassa o limite de numérico que o programa aguenta e vai para o positivo do outro lado, então ele pega ele consegue tantas recompensas negativas que isso gera uma recompensa extremamente positiva e ele e ele faz um hack de reward, ele ganha recompensas cada vez mais positivas por fazer coisas monstruosamente erradas, então isso é isso é coisas são coisas que acontecem, e quando a gente tá dando só a recompensa, é difícil a gente saber."
+        },
+        {
+          "timestamp": "25:07",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1507",
+          "speaker": "SPEAKER_03",
+          "text": "Isso aí isso acontece no mundo real, né?"
+        },
+        {
+          "timestamp": "25:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1509",
+          "speaker": "SPEAKER_03",
+          "text": "NaÍndia, por exemplo, estavam tentando caçar cobras isso com seres humanos."
+        },
+        {
+          "timestamp": "25:14",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1514",
+          "speaker": "SPEAKER_03",
+          "text": "Não tô falando de A, com seres humanos, estavam tinham um problema de cobras muito grandes."
+        },
+        {
+          "timestamp": "25:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1518",
+          "speaker": "SPEAKER_03",
+          "text": "O que aconteceram é o que aconteceu, eles."
+        },
+        {
+          "timestamp": "25:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1522",
+          "speaker": "SPEAKER_03",
+          "text": "O governo resolveu pagar para quem caçasse cobras, então, cada cobra que a pessoa entregasse para o governo, ele recebia o dinheiro."
+        },
+        {
+          "timestamp": "25:29",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1529",
+          "speaker": "SPEAKER_03",
+          "text": "O que aconteceu?"
+        },
+        {
+          "timestamp": "25:31",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1531",
+          "speaker": "SPEAKER_03",
+          "text": "O resultado não eraóbvio para o governo, mas se a gente pensou."
+        },
+        {
+          "timestamp": "25:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1534",
+          "speaker": "SPEAKER_03",
+          "text": "Eraóbvio para o governo, mas se a gente pensar um pouquinho a mais, não é tão fora doóbvio, que é as pessoas começaram a criar cobras e para ganhar dinheiro, então tiveram um monte de em de antes que começaram a criar cobras, e quando o governo percebeu que eles estavam gastando dinheiro para ir dando dinheiro para esses criadores de cobras, eles pararam de pagar dinheiro para parar de acontecer isso, e aí os criadores de cobro, pô, isso não me dá mais dinheiro, então o que eu faço vou largar as cobras no meio da rua e piorou, piorou as cobras ali em todo em toda aÍndia."
+        },
+        {
+          "timestamp": "26:07",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1567",
+          "speaker": "SPEAKER_03",
+          "text": "Então, esse é um tipo de reward hacking que acontece com humanos também, né?"
+        },
+        {
+          "timestamp": "26:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1571",
+          "speaker": "SPEAKER_03",
+          "text": "E é o grande, puxando uma linha aí com o Bitcoin, essa é a grande coisa fantástica do Bitcoin, é que o Satoshi conseguiu, muito mais do que a parte tecnológica, ele conseguiu conectar os incentivos, de forma que, pelo menos até hoje, a gente não teve um real hacking muito explícito, assim, é todos os incentivos funcionam muito bem."
+        },
+        {
+          "timestamp": "26:37",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1597",
+          "speaker": "SPEAKER_02",
+          "text": "Maravilha, e eu conheço essa história das cobras, é genial, né?"
+        },
+        {
+          "timestamp": "26:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1601",
+          "speaker": "SPEAKER_02",
+          "text": "No fundo, é isso, a natureza humana é bastante hackeável, cara."
+        },
+        {
+          "timestamp": "26:46",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1606",
+          "speaker": "SPEAKER_02",
+          "text": "Você que tá seguindo inteligência artificial, então, há muito mais tempo do que a maioria das pessoas."
+        },
+        {
+          "timestamp": "26:51",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1611",
+          "speaker": "SPEAKER_02",
+          "text": "Quando foi a primeira vez que você olhou e pensou, caralho, tá acontecendo o mesmo."
+        },
+        {
+          "timestamp": "26:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1618",
+          "speaker": "SPEAKER_02",
+          "text": "Eu que não estava acompanhando e usava, entendia toda a questão dos algoritmos, entendi a questão do Google Tradutor."
+        },
+        {
+          "timestamp": "27:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1625",
+          "speaker": "SPEAKER_02",
+          "text": "Eu não pensava nisso como Iá, pra mim foi claramente o chat GPT3, se eu não me engano, que é lançado, se eu não me engano, no final de2022, começo de2023."
+        },
+        {
+          "timestamp": "27:16",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1636",
+          "speaker": "SPEAKER_02",
+          "text": "Pra mim, aquilo foi o primeiro momento de, caralho, tá acontecendo o mesmo, não é algo de daqui a cinco ou dez anos, é algo de agora, e aí, no fundo, desde então, acho que a cada dois meses, um mês, tem alguma coisa nova que gera essa sensação de novo."
+        },
+        {
+          "timestamp": "27:32",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1652",
+          "speaker": "SPEAKER_02",
+          "text": "Quando isso foi quando isso aconteceu com"
+        },
+        {
+          "timestamp": "27:32",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1652",
+          "speaker": "SPEAKER_02",
+          "text": "Quando isso foi o."
+        },
+        {
+          "timestamp": "27:33",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1653",
+          "speaker": "SPEAKER_02",
+          "text": "Quando isso aconteceu no começo pra você, cara."
+        },
+        {
+          "timestamp": "27:40",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1660",
+          "speaker": "SPEAKER_03",
+          "text": "Quando eu aprendi lá em2010."
+        },
+        {
+          "timestamp": "27:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1663",
+          "speaker": "SPEAKER_03",
+          "text": "Eu achei o negócio genial."
+        },
+        {
+          "timestamp": "27:44",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1664",
+          "speaker": "SPEAKER_03",
+          "text": "E falei, cara, como é que não tá literalmente todo mundo olhando pra isso o tempo todo."
+        },
+        {
+          "timestamp": "27:52",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1672",
+          "speaker": "SPEAKER_03",
+          "text": "Como é que não tá todo mundo fazendo isso aí?"
+        },
+        {
+          "timestamp": "27:54",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1674",
+          "speaker": "SPEAKER_03",
+          "text": "E assim, uma das respostas era meioóbvia."
+        },
+        {
+          "timestamp": "27:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1678",
+          "speaker": "SPEAKER_03",
+          "text": "É difícil."
+        },
+        {
+          "timestamp": "27:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1679",
+          "speaker": "SPEAKER_03",
+          "text": "Você tem que treinar, eu tenho que arrumar muitos dados, é muito difícil e tudo mais."
+        },
+        {
+          "timestamp": "28:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1685",
+          "speaker": "SPEAKER_03",
+          "text": "Aí."
+        },
+        {
+          "timestamp": "28:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1688",
+          "speaker": "SPEAKER_03",
+          "text": "E aí eu fui estudando, eu fui, fui fazendo as coisas por conta própria."
+        },
+        {
+          "timestamp": "28:15",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1695",
+          "speaker": "SPEAKER_03",
+          "text": "Em2017, que na verdade foi essa revolução."
+        },
+        {
+          "timestamp": "28:21",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1701",
+          "speaker": "SPEAKER_03",
+          "text": "E foi uma revolução."
+        },
+        {
+          "timestamp": "28:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1703",
+          "speaker": "SPEAKER_03",
+          "text": "Foi uma."
+        },
+        {
+          "timestamp": "28:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1703",
+          "speaker": "SPEAKER_03",
+          "text": "Digamos assim, o primeiro passo da revolução foi a fagulha."
+        },
+        {
+          "timestamp": "28:27",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1707",
+          "speaker": "SPEAKER_03",
+          "text": "Que foi o."
+        },
+        {
+          "timestamp": "28:28",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1708",
+          "speaker": "SPEAKER_03",
+          "text": "Quando lançaram o modelo Transformer com o paper Attention is all you need."
+        },
+        {
+          "timestamp": "28:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1714",
+          "speaker": "SPEAKER_03",
+          "text": "Atenção é tudo que você precisa."
+        },
+        {
+          "timestamp": "28:36",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1716",
+          "speaker": "SPEAKER_03",
+          "text": "Atenção, numa forma."
+        },
+        {
+          "timestamp": "28:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1721",
+          "speaker": "SPEAKER_03",
+          "text": "Num contexto de A."
+        },
+        {
+          "timestamp": "28:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1723",
+          "speaker": "SPEAKER_03",
+          "text": "É um técnica do algoritmo."
+        },
+        {
+          "timestamp": "28:48",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1728",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não preciso entrar em detalhes aqui, porque é bem técnico complexo."
+        },
+        {
+          "timestamp": "28:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1735",
+          "speaker": "SPEAKER_03",
+          "text": "Demorei muitos e muitos meses para conseguir entender de fato como é que funciona a atenção, mas quando você lançou isso aí, começou a surgir várias notícias de olha só, conseguiram gerar um texto que é inteligível e faz sentido."
+        },
+        {
+          "timestamp": "29:14",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1754",
+          "speaker": "SPEAKER_03",
+          "text": "Eu fiquei, caramba, muito legal."
+        },
+        {
+          "timestamp": "29:17",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1757",
+          "speaker": "SPEAKER_03",
+          "text": "Geravam."
+        },
+        {
+          "timestamp": "29:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1758",
+          "speaker": "SPEAKER_03",
+          "text": "Isso aí era na época, sei lá, provavelmente era um GPT-2, GPT1, que fazia uns textos do tipo, comecei."
+        },
+        {
+          "timestamp": "29:30",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1770",
+          "speaker": "SPEAKER_03",
+          "text": "Ah começar a um texto de sobre sei lá dragões e unicórnios, e aí ele completava e fazia um parágrafo que era inteligível, e eu fiquei caramba, isso é incrível, isso é muito legal, e só que na época eu estava muito ocupado com várias coisas ali."
+        },
+        {
+          "timestamp": "29:50",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1790",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não consegui ir muito a fundo."
+        },
+        {
+          "timestamp": "29:53",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1793",
+          "speaker": "SPEAKER_03",
+          "text": "Eu até testei algumas coisinhas em2019."
+        },
+        {
+          "timestamp": "29:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1795",
+          "speaker": "SPEAKER_03",
+          "text": "Eu fiz um modelo não do Transformer, eu usei um RNN, que é rede neural recorrente, e que é meio que um precursor do Transformer, de certa forma, porque você conseguia usar texto, mas assim, eu já sabia que tinha coisa acontecendo, como, por exemplo, autocompletar no seu celular é IA."
+        },
+        {
+          "timestamp": "30:19",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1819",
+          "speaker": "SPEAKER_03",
+          "text": "É incrível que as pessoas não acham incrível, como eu acho, mas é assim, inclusive, tem várias aquelas brincadeirinhas."
+        },
+        {
+          "timestamp": "30:27",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1827",
+          "speaker": "SPEAKER_03",
+          "text": "Ah, clica aqui no botão do meio e ver o que ela o que o autocompletar te responde, e aí faz uma frasezinha e posta no Facebook, ou alguma coisa assim, mas aí a Cassie, que é diretora do Google, ela traz isso em uma palestra que eu acho que ela tem a visão mais correta, assim, que é justamente que essa revolução que é tipo, beleza, chegou e tá aqui e não tem volta, foi justamente com isso aí, foi a mesma coisa que você viu em lançamento lá no final de2022 no chat APT, mas não foi uma revolução de tecnologia, foi uma revolução de UX, a tecnologia já existia desde2017, porém, a UX de qualquer pessoa comum poder entrar no chat GPT e escrever e ter uma resposta, isso que mudou tudo. isso que democratizou e fez pessoas caramba, isso aqui realmente é alguma coisa, porque cara, o Google tem isso aí desde2017, eles usam eles usam isso aí no tradutor e em várias outras coisas internas ele já usava há muitos anos, e pra você ver, mesmo depois do chat EPT demorou anos para o Google se mexer, fez alguns fracassos, o serge teve que voltar para a empresa, ele estava ali meio fora, tinha o CEO tocando ali."
+        },
+        {
+          "timestamp": "32:07",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1927",
+          "speaker": "SPEAKER_03",
+          "text": "Ele voltou pra dentro da empresa e falou, cara, vamos resolver essa parada."
+        },
+        {
+          "timestamp": "32:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1931",
+          "speaker": "SPEAKER_03",
+          "text": "Tenho certeza que foi ele, porque o rumo que o que o Google estava tendo era completamente diferente, ele estava fazendo umas coisas que eram piada na internet, as coisas que o Google fez assim foram viraram memes, foram horríveis, e agora o Google tá na frente de todo mundo, é assim, tá junto com, obviamente, com o Anthropic, com a e com a OpenAI, mas ele tá ali no na liderança junto ali com eles, e é isso, aí, e agora, e aí depois que de repente todo mundo viu, como minha mulher gosta de falar, uma vez visto, não tem como dizer, não dá pra desver, então, e aí, mas eu fiquei muito surpreso assim, foi justamente com eu."
+        },
+        {
+          "timestamp": "33:01",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=1981",
+          "speaker": "SPEAKER_03",
+          "text": "Eu vi que estava pra acontecer lá com lá em2018,2019, com esses textos aí que eram gerados automaticamente com parágrafo, mas quando a gente começou a gerar imagem, e a gente começou a gerar textos mais complexos, código e tudo mais, eu vi, cara, eu parei tudo que eu tô fazendo e é isso, eu vou ter que estudar. isso, eu vou ter que entrar a fundo nisso aí, o resto vai ser complementar."
+        },
+        {
+          "timestamp": "33:33",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2013",
+          "speaker": "SPEAKER_03",
+          "text": "Agora, isso aqui tem que ser o meu foco."
+        },
+        {
+          "timestamp": "33:36",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2016",
+          "speaker": "SPEAKER_02",
+          "text": "Não, maravilha."
+        },
+        {
+          "timestamp": "33:37",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2017",
+          "speaker": "SPEAKER_02",
+          "text": "Cara, eu acho que uma discussão que tá bastante comum por conta dessa história de inteligência artificial, é o impacto que ela já está tendo, na visão de alguns, no mercado de trabalho, e mesmo se ela não já estiver tendo no momento, que ela tende a ter no futuro."
+        },
+        {
+          "timestamp": "33:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2036",
+          "speaker": "SPEAKER_02",
+          "text": "Tem uma imagem que ficou bastante famosa, você deve ter visto ela, que é essa daqui."
+        },
+        {
+          "timestamp": "34:03",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2043",
+          "speaker": "SPEAKER_02",
+          "text": "Queria conversar um pouco sobre ela."
+        },
+        {
+          "timestamp": "34:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2045",
+          "speaker": "SPEAKER_02",
+          "text": "Você acha que essa imagem é aquele tipo de correlação que não faz sentido nenhum, tipo o número de filmes do Nicolas Cage e qualquer outro fato assim da sociedade, que eu não lembro qual era agora, ou essa imagem pra você reflete um processo que você vê na prática acontecendo?"
+        },
+        {
+          "timestamp": "34:24",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2064",
+          "speaker": "SPEAKER_02",
+          "text": "Porque na minha cabeça reflete um processo que eu vejo na prática acontecendo, sendo bem sincero."
+        },
+        {
+          "timestamp": "34:30",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2070",
+          "speaker": "SPEAKER_02",
+          "text": "É uma coisa que eu sinto que eu me tornei mais produtivo e não precisar."
+        },
+        {
+          "timestamp": "34:36",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2076",
+          "speaker": "SPEAKER_02",
+          "text": "Quando eu estava na BIP, eu não precisava de alguém me ajudando pra escrever texto, pra curtar imagem, pra fazer coisa de som, etc.,"
+        },
+        {
+          "timestamp": "34:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2083",
+          "speaker": "SPEAKER_02",
+          "text": "porque eu estava usando alguma ferramenta ou de texto, tipo chat GPT, ou de vídeo."
+        },
+        {
+          "timestamp": "34:49",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2089",
+          "speaker": "SPEAKER_02",
+          "text": "Então, eu queria saber como você tá vendo isso, sei lá, o mercado de trabalho realmente tá mudando, tá impactando já no mercado de trabalho, isso aqui ainda é uma."
+        },
+        {
+          "timestamp": "35:01",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2101",
+          "speaker": "SPEAKER_02",
+          "text": "sei lá, ainda tem consequências da pandemia e impressão de dinheiro, então, na verdade, é que tinha muita gente que estava meio ociosa e não agregava valor."
+        },
+        {
+          "timestamp": "35:10",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2110",
+          "speaker": null,
+          "text": "Como você vê isso aqui?"
+        },
+        {
+          "timestamp": "35:16",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2116",
+          "speaker": "SPEAKER_03",
+          "text": "Aconteceu durante um período de ter realmente muita gente ansiosa que não gerava valor."
+        },
+        {
+          "timestamp": "35:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2123",
+          "speaker": "SPEAKER_03",
+          "text": "Então, acho que todo mundo viu já no."
+        },
+        {
+          "timestamp": "35:24",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2124",
+          "speaker": "SPEAKER_03",
+          "text": "Tu viu já no Twitter, no Instagram, no TikTok, a minha vida, meu sábado, meu dia de semana aqui, a pessoa acordava, sei lá, nove da manhã, ia tomar café da manhã na rua, chegava no trabalho às11, trabalhava até meio dia, fechava o computador, ia comer alguma coisa na empresa e era uma vida assim, ganhando muito dinheiro fazendo nada, praticamente, e eu vi várias pessoas comentando isso aí muita gente assim, que era dev e conseguiu um emprego muito fácil em2020, é difícil dizer exatamente o que aconteceu assim, quais foram os gatilhos direitinho, porque assim, teve uma questão que teve uma impressão de dinheiro muito grande ali pra2020, então teve teve muitas e muitas empresas que contrataram muita e muita gente que, sem pensar muito bem, só vamos contratar, inclusive, no mercado do Bitcoin, eu entrei em2021, depois um aporte da."
+        },
+        {
+          "timestamp": "36:39",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2199",
+          "speaker": "SPEAKER_03",
+          "text": "De um de um aporte de um banco muito grande."
+        },
+        {
+          "timestamp": "36:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2203",
+          "speaker": "SPEAKER_03",
+          "text": "Eu entrei, entrei nessa onda onde a gente passou em um ano de100 e150 para700 funcionários, e aí depois o que aconteceu?"
+        },
+        {
+          "timestamp": "36:54",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2214",
+          "speaker": "SPEAKER_03",
+          "text": "Tiveram vários e vários layoffs."
+        },
+        {
+          "timestamp": "36:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2219",
+          "speaker": "SPEAKER_03",
+          "text": "Isso a gente tá vendo até hoje, tá tendo muitos layoffs, e eu me pergunto um pouco assim, se isso tem a ver com IA, eu acredito que hoje em dia tem um pouco a ver com IA sim, tem é muito mais fácil, cara, você trabalhava com isso, você viu que é muito."
+        },
+        {
+          "timestamp": "37:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2242",
+          "speaker": "SPEAKER_03",
+          "text": "Trabalhava com isso, você viu que você não precisava de três estagiário pesquisando as coisas pra você, você coloca na AI facilita muita vida, você consegue ser mais produtivo, facilita muitas coisas, mas ao mesmo tempo também a gente está vendo uma briga muito grande do trabalho remoto com trabalho presencial."
+        },
+        {
+          "timestamp": "37:42",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2262",
+          "speaker": "SPEAKER_03",
+          "text": "Isso aí é uma coisa que eu já falei várias vezes no Twitter, e eu tenho uma opinião forte sobre isso aí."
+        },
+        {
+          "timestamp": "37:49",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2269",
+          "speaker": "SPEAKER_03",
+          "text": "Era uma coisa que eu já pesquisava há muitos anos, inclusive já participei de uma conferência assistindo, não, de fato dando palestras, mas eu participei de uma conferência sobre trabalho remoto, onde várias empresas, por exemplo, o GitLab e várias outras que já eram remote firsts há muitos anos compartilhavam a experiência, e o que eu vejo é que quem trabalha remoto é muito fácil, é muito mais fácil você ser uma empresa com processos e cultura ruim, trabalhando presencialmente."
+        },
+        {
+          "timestamp": "38:29",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2309",
+          "speaker": "SPEAKER_03",
+          "text": "E você sendo você sendo remoto, você tem que ter um processo muito bom, você tem que contratar muito bem, você tem que ter uma cultura muito boa, porque é muito fácil uma pessoa simplesmente te largar, sair, ou então tá fazendo outra coisa, ou então não tá rendendo, e eu acho que e a gente tá vendo essa Vem e volta, assim, a gente tinha tava, digamos assim, muito fácil, todo mundo trabalha remoto, tinha um pessoal imprimindo dinheiro, o FED estava imprimindo dinheiro à vontade, então tinha mais grana, tinha mais investimento, e de repente apertou tudo, teve também umas mudanças de contabilidade que aconteceram nos Estados Unidos, onde que forçaram muito essa queda, eu não vou conseguir entrar muito em. detalhes, mas há uns dois anos atrás teve umas mudanças fortes aí que umas coisas que eram que não tinha imposto, de repente começaram a ter, porque era considerado investimento, e depois começou a virar virou gasto, ou vice-versa, eu não lembro muito os detalhes, mas isso aí."
+        },
+        {
+          "timestamp": "39:42",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2382",
+          "speaker": "SPEAKER_03",
+          "text": "Tudo isso aí contribuiu, e com certeza a IA contribuir um pouco também, porém a gente está vendo ao mesmo tempo que a IA contribuiu de um lado, a gente está vendo também muita gente."
+        },
+        {
+          "timestamp": "39:57",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2397",
+          "speaker": "SPEAKER_03",
+          "text": "Gerar."
+        },
+        {
+          "timestamp": "39:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2399",
+          "speaker": "SPEAKER_03",
+          "text": "Eu tô vendo um boom de empresas enxutas, com empresas são muito enxutas, que muitas vezes nem tiveram investimento nenhum."
+        },
+        {
+          "timestamp": "40:10",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2410",
+          "speaker": "SPEAKER_03",
+          "text": "O cara construiu no final de semana um MVP, lançou e começou a ganhar dinheiro e começou a pisar contratar a gente."
+        },
+        {
+          "timestamp": "40:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2418",
+          "speaker": "SPEAKER_03",
+          "text": "Então, acho que quando a gente está vendo as aberturas de trabalho para empresas do SP500, a gente não está vendo as empresas muito pequenas que estão surgindo agora."
+        },
+        {
+          "timestamp": "40:31",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2431",
+          "speaker": "SPEAKER_03",
+          "text": "Empresas bem pequenininhas que resolvem coisas menores."
+        },
+        {
+          "timestamp": "40:37",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2437",
+          "speaker": "SPEAKER_03",
+          "text": "A gente."
+        },
+        {
+          "timestamp": "40:37",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2437",
+          "speaker": "SPEAKER_03",
+          "text": "Uma coisa que eu gosto muito de ter uma tese da Meg App App App App App App App App App Appleton, que ela fala que ela fala uma coisa muito interessante assim, sobre."
+        },
+        {
+          "timestamp": "40:50",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2450",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não lembro exatamente a palavra que ela usa, mas ela fala sobre softwares customizáveis, softwares locais."
+        },
+        {
+          "timestamp": "41:01",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2461",
+          "speaker": "SPEAKER_03",
+          "text": "No sentido de hoje você consegue pegar um Lovable, por exemplo, uma dessas empresas de vibe coding e você chega lá e com pouco dinheiro que você paga ali na assinatura deles, você consegue gerar um aplicativo costumoso."
+        },
+        {
+          "timestamp": "41:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2478",
+          "speaker": "SPEAKER_03",
+          "text": "Gerar um aplicativo customizado que funciona para você."
+        },
+        {
+          "timestamp": "41:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2483",
+          "speaker": "SPEAKER_03",
+          "text": "Para você ir para sua família, para você ir para o seu bairro, que era uma coisa que antigamente não dava para fazer."
+        },
+        {
+          "timestamp": "41:30",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2490",
+          "speaker": "SPEAKER_03",
+          "text": "Você sempre vai criar uma empresa pensando no seu país, no seu estado, no seu mundo, no seu continente, e agora você consegue pensar em alguma coisa que resolve um problema muito mais local."
+        },
+        {
+          "timestamp": "41:45",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2505",
+          "speaker": "SPEAKER_03",
+          "text": "Você consegue criar um aplicativo para te lembrar de regar suas plantas e isso resolve o seu problema imediato."
+        },
+        {
+          "timestamp": "41:53",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2513",
+          "speaker": "SPEAKER_03",
+          "text": "E isso não necessariamente gera empregos, nem nada, mas você tem isso, você quando você vai criar uma empresa, você tem uma."
+        },
+        {
+          "timestamp": "42:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2525",
+          "speaker": "SPEAKER_03",
+          "text": "O foco agora você consegue focar na cauda longa."
+        },
+        {
+          "timestamp": "42:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2529",
+          "speaker": "SPEAKER_03",
+          "text": "Que são problemas talvez menos urgentes, problemas que impactam menos pessoas, problemas que talvez são menos são mais fracos do que anteriormente, e você pode simplesmente gerar esse código de forma em um final de semana e ele tá ali, qualquer um pode usar, fazer open source ou o que seja."
+        },
+        {
+          "timestamp": "42:29",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2549",
+          "speaker": "SPEAKER_03",
+          "text": "Então, eu acho que tem essas dois lados da moeda."
+        },
+        {
+          "timestamp": "42:35",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2555",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza, cara, eu vou agora te falar o meu sei lá, um cenário base que passa pela minha cabeça, eu queria depois que você criticasse se ele faz sentido ou se ele não faz, quais são as falhas nessa visão."
+        },
+        {
+          "timestamp": "42:50",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2570",
+          "speaker": "SPEAKER_02",
+          "text": "Aqui eu tô mostrando a imagem do Faria Lima Levei, tudo mostrando que atualmente mais da metade do conteúdo na internet já é produzido por inteligência artificial."
+        },
+        {
+          "timestamp": "43:01",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2581",
+          "speaker": "SPEAKER_02",
+          "text": "E assim, eu, Caioleta, eu gosto dos artigos que eu escrevo, eu me dedico, eu penso que eu tenho minha visão autoral, etc."
+        },
+        {
+          "timestamp": "43:10",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2590",
+          "speaker": "SPEAKER_02",
+          "text": "etc."
+        },
+        {
+          "timestamp": "43:10",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2590",
+          "speaker": "SPEAKER_02",
+          "text": "Pra muita gente que tá lendo em casa, talvez eles nem percebam a diferença que é a visão autoral do Caioleta ou de uma IAC."
+        },
+        {
+          "timestamp": "43:16",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2596",
+          "speaker": "SPEAKER_02",
+          "text": "Um outro oral do Caioleta ou de uma IA que é90%,95% boa ou bastante, que no fundo esse5% que eu vejo de diferença nada mais é do que um gosto estético, tipo ter um Porsche, uma Ferrari, uma Maserati na garagem, uma pessoa vai jurar que um é diferente do outro, mas no fundo é tudo nota10% e a diferença é muito mais subjetiva do que de fato aqui não ter uma informação boa e a que tem uma informação boa e assim a gente falou o quanto a inteligência artificial está evoluindo desde2010, no seu caso, eu ouvador desde2022 e2023, e o que eu tenho a sensação é que não sei, tipo, muitas pessoas veem o processo que está acontecendo, a gente falou um pouco sobre o emprego, como algo que é uma maré que tá subindo, mas quando você fala que está uma maré que tá subindo, o modelo mental que as pessoas têm na cabeça é que essa maré é uma hora para de subir e talvez até reclue, ao passo que assim, a minha visão é exatamente o oposto, é uma maré que segue subindo e depois ela sobe mais, e depois ela sobe mais, e depois ela sobe mais, e agora no começo ela tá pegando os estagiários e os júniors."
+        },
+        {
+          "timestamp": "44:30",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2670",
+          "speaker": "SPEAKER_02",
+          "text": "Daqui a pouco ela tá pegando o sênior, daqui a pouco ela tá pegando sei lá, gerente, sabe?"
+        },
+        {
+          "timestamp": "44:35",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2675",
+          "speaker": "SPEAKER_02",
+          "text": "Ela segue subindo, daqui a pouco tem agentes, daqui a pouco assim, e aí, no fundo, eu não tô argumentando, falando que a inteligência artificial vai roubar100% dos empregos do mundo, mas na real ela não precisa para ela causar um puta caos, uma puta desarranjo de todas as estruturas sociais, de trabalho, de sei lá, qualquer laço que faça a sociedade existir do jeito que ela existe hoje, acho que com40%,50% das pessoas perdendo emprego, isso já rola, já rola essa desagregação do tecido social."
+        },
+        {
+          "timestamp": "45:13",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2713",
+          "speaker": "SPEAKER_02",
+          "text": "Isso faz eu pensar que assim, isso é uma questão. de tempo, e que, no fundo, então, talvez no futuro a gente tenha uma economia cheia de frenistas, assim, no fundo a gente tenha performance o emprego pra ganhar um UBI, pura e simplesmente porque as pessoas precisam ter um tipo de propósito no trabalho, mas na verdade elas sabem que elas não estão agregando valor real que nem um frentista."
+        },
+        {
+          "timestamp": "45:39",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2739",
+          "speaker": "SPEAKER_03",
+          "text": "Eu tô sendo meio fatalista, meio catastrofista, o que eu tô pensando errado aqui, cara, primeiro de tudo, assim, eu acho que as pessoas têm essa visão."
+        },
+        {
+          "timestamp": "45:54",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2754",
+          "speaker": "SPEAKER_03",
+          "text": "Eu acho que IA tem muitos riscos."
+        },
+        {
+          "timestamp": "45:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2756",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não sei se você chegou a ler meu artigo, o Bitcoin na era da inteligência artificial, o papel do Bitcoin na era da inteligência artificial."
+        },
+        {
+          "timestamp": "46:03",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2763",
+          "speaker": "SPEAKER_03",
+          "text": "Putz, acho que essa."
+        },
+        {
+          "timestamp": "46:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2768",
+          "speaker": "SPEAKER_03",
+          "text": "ia ser muito legal, assim, se a gente, pra gente conversar que eu falo de algum dos problemas de A."
+        },
+        {
+          "timestamp": "46:16",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2776",
+          "speaker": "SPEAKER_03",
+          "text": "Nesse artigo, vários problemas de A nesse artigo, e assim, e eu falo zero sobre emprego."
+        },
+        {
+          "timestamp": "46:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2783",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não vejo isso como um problema."
+        },
+        {
+          "timestamp": "46:27",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2787",
+          "speaker": "SPEAKER_03",
+          "text": "Não no sentido que eu não acho que vai não vai acontecer."
+        },
+        {
+          "timestamp": "46:31",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2791",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não vejo que é um problema porque eu não acho que o ser humano."
+        },
+        {
+          "timestamp": "46:38",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2798",
+          "speaker": "SPEAKER_03",
+          "text": "É um ser que ele."
+        },
+        {
+          "timestamp": "46:42",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2802",
+          "speaker": "SPEAKER_03",
+          "text": "Se a gente for pensar em termos evolutivos, darwinistas, o que é a teoria de evolução do Darwin?"
+        },
+        {
+          "timestamp": "46:47",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2807",
+          "speaker": "SPEAKER_03",
+          "text": "Sobrevivência dos mais fortes?"
+        },
+        {
+          "timestamp": "46:49",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2809",
+          "speaker": "SPEAKER_03",
+          "text": "Não, dos mais adaptáveis."
+        },
+        {
+          "timestamp": "46:51",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2811",
+          "speaker": "SPEAKER_03",
+          "text": "A gente se adaptou a tudo, a gente se adapta ao Polo Norte, a gente se adapta ao deserto Sara, a gente se adapta a novas tecnologias se adapta a tudo."
+        },
+        {
+          "timestamp": "47:04",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2824",
+          "speaker": "SPEAKER_03",
+          "text": "E eu não vejo outra coisa, senão a gente vai se adaptar."
+        },
+        {
+          "timestamp": "47:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2831",
+          "speaker": "SPEAKER_03",
+          "text": "Esses empregos, de fato, muitos. empregos vão acabar, mas outros empregos vão surgir, outras pessoas vão precisar de coisas, a gente sempre vai ter."
+        },
+        {
+          "timestamp": "47:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2854",
+          "speaker": "SPEAKER_03",
+          "text": "O nosso apetite ele é insaciável, o apetite do ser humano é insaciável."
+        },
+        {
+          "timestamp": "47:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2861",
+          "speaker": "SPEAKER_03",
+          "text": "A gente, com toda essa evolução que a gente teve, lá de sei lá, desde o início da revolução industrial, putz, se um cara pobre do início da revolução industrial, visse o que um pobre do hoje tem acesso, e ia ficar felizão, imagina poder ir no dentista, resolver ir no médico, comprar uma pílula que cura doença, entre várias e várias outras coisas, mas ainda assim a gente tá trabalhando, ainda assim estão surgindo novas coisas, ainda assim a gente tá comprando um novo novo iPhone, a gente tá."
+        },
+        {
+          "timestamp": "48:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2898",
+          "speaker": "SPEAKER_03",
+          "text": "A gente tá tendo novos descobertos, a gente tem nova uma TV, agora a gente usa agora inteligência artificial, e eu não acho que a gente vai ter uma IA que vai que vai resolver tudo e a gente vai ter vai estar completamente saciado."
+        },
+        {
+          "timestamp": "48:39",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2919",
+          "speaker": "SPEAKER_03",
+          "text": "Vai ter sempre."
+        },
+        {
+          "timestamp": "48:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2921",
+          "speaker": "SPEAKER_03",
+          "text": "Se você tem dinheiro sobrando, e alguém tá te oferecendo alguma coisa que você acha que faça sentido, você paga."
+        },
+        {
+          "timestamp": "48:51",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2931",
+          "speaker": "SPEAKER_03",
+          "text": "Se você tá na você tá na rua e um cara toca uma música que você acha legal, você dá a música pro cara."
+        },
+        {
+          "timestamp": "48:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2938",
+          "speaker": "SPEAKER_03",
+          "text": "Quando quando quando quando quando quando quando quando quando quando quando a gente."
+        },
+        {
+          "timestamp": "48:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2939",
+          "speaker": "SPEAKER_03",
+          "text": "Quando começou a ter música gravada, muita gente achou que acabaram."
+        },
+        {
+          "timestamp": "49:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2945",
+          "speaker": "SPEAKER_03",
+          "text": "Acabou os músicos, pô, agora você pode estudar música em casa, pra que você quer músico."
+        },
+        {
+          "timestamp": "49:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2951",
+          "speaker": "SPEAKER_03",
+          "text": "E as pessoas ainda vão nos shows."
+        },
+        {
+          "timestamp": "49:16",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2956",
+          "speaker": "SPEAKER_03",
+          "text": "A gente tem Spotify, a gente pode escutar música onde a gente quiser, hora que a gente quiser, a música que a gente quiser, mas você ainda quer ter a conexão humana de ir num show e assistir as pessoas tocando ao vivo na sua frente tem aqueleêxtase ali."
+        },
+        {
+          "timestamp": "49:31",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2971",
+          "speaker": "SPEAKER_03",
+          "text": "Então, assim pode ser que a gente tem trabalho comece a ter trabalhos muito menos manuais, muito menos repetitivos, e a gente comece a ter trabalhos mais criativos, trabalhos mais talvez mais artísticos, inclusive o mesmo você escrevendo, você usa IA para pesquisar seus textos, apesar de você estar escrevendo."
+        },
+        {
+          "timestamp": "49:53",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2993",
+          "speaker": "SPEAKER_03",
+          "text": "Tem muita gente hoje girando o texto para IA."
+        },
+        {
+          "timestamp": "49:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=2995",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não sei de onde é que ele tirou aqueles dados, como é que ele descobre o que é gerado por IA ou não, porque não é fácil."
+        },
+        {
+          "timestamp": "50:02",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3002",
+          "speaker": "SPEAKER_03",
+          "text": "Mas eu não duvido nada que daqui a pouco100% dos textos vão ser gerados por IA, daqui a ou99.9%"
+        },
+        {
+          "timestamp": "50:14",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3014",
+          "speaker": "SPEAKER_03",
+          "text": "dos textos sejam gerados por IA daqui a alguns anos ou meses, mas ainda assim você tem a intenção do outro lado, o Caio Leta vai estar ali pensando, pô, eu quero que a IA escreva um texto assim pra mim."
+        },
+        {
+          "timestamp": "50:28",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3028",
+          "speaker": "SPEAKER_03",
+          "text": "Do mesmo jeito que quando eu tô fazendo um código e eu tô usando IA para escrever o código, eu não chego e falo, gere um aplicativo que ganhe o dinheiro do Google."
+        },
+        {
+          "timestamp": "50:38",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3038",
+          "speaker": "SPEAKER_03",
+          "text": "Ganhe o mesmo tanto de dinheiro do Google, e vai roda."
+        },
+        {
+          "timestamp": "50:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3043",
+          "speaker": "SPEAKER_03",
+          "text": "Eu tenho as minhas ideias, eu tenho minhas teses, eu quero fazer um aplicativo que resolva esse problema que eu tô observando."
+        },
+        {
+          "timestamp": "50:51",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3051",
+          "speaker": "SPEAKER_03",
+          "text": "A IA, por mais que ela esteja cada vez ficando mais autônoma, ela não é um ser humano no sentido de que ela tem."
+        },
+        {
+          "timestamp": "51:03",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3063",
+          "speaker": "SPEAKER_03",
+          "text": "não tem os mesmos insights que a gente tem, porque a dor que eu tô sentindo. só eu tô sentindo."
+        },
+        {
+          "timestamp": "51:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3071",
+          "speaker": "SPEAKER_03",
+          "text": "Talvez eu consiga reconhecer que outros seres humanos estão sentindo a dor que eu tô sentindo, e aí eu faço alguma coisa para resolver a nossa dor, mas é isso que gera emprego, e é isso que gera que geram produtos utilizáveis, e é isso que geram produtos que fazem sentido."
+        },
+        {
+          "timestamp": "51:32",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3092",
+          "speaker": "SPEAKER_03",
+          "text": "O produto não é simplesmente uma maravilha técnica, o produto ele é uma coisa que feita para resolver uma dor real de um ser humano, e a IA, por mais que ela avance, eu acho que vai ser muito longe da IA sentir as dores do ser humano para serem resolvidas."
+        },
+        {
+          "timestamp": "51:52",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3112",
+          "speaker": "SPEAKER_03",
+          "text": "Ela pode fazer uma pesquisa muito boa na internet pra descobrir o que as pessoas estão reclamando online das dores delas, mas ela, de fato, sentir esses insights é uma coisa muito particular do ser humano."
+        },
+        {
+          "timestamp": "52:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3128",
+          "speaker": null,
+          "text": "Boa."
+        },
+        {
+          "timestamp": "52:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3129",
+          "speaker": "SPEAKER_02",
+          "text": "Cara, eu fiquei meio culpado que eu não li o seu artigo, é faz um TLDR dele, tipo, não sei se dá tempo é muito grande, mas qual é a ideia principal que você abordou nele."
+        },
+        {
+          "timestamp": "52:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3142",
+          "speaker": "SPEAKER_02",
+          "text": "Você falou que você fala que emprego não é um risco, basicamente, porque as pessoas vão encontrar outras formas de agregar valor, vão surgir outros empregos, esses que estão sumindo, vai ser no fundo que nem na revolução industrial."
+        },
+        {
+          "timestamp": "52:35",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3155",
+          "speaker": "SPEAKER_02",
+          "text": "Então, quais são os outros riscos, se esse não são os riscos, o que você abordou nesse artigo, como você relaciona com o Bitcoin."
+        },
+        {
+          "timestamp": "52:45",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3165",
+          "speaker": "SPEAKER_03",
+          "text": "Então, o problema que eu coloquei da IA é o problema do uso da IA, é um problema do ser humano."
+        },
+        {
+          "timestamp": "52:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3176",
+          "speaker": "SPEAKER_03",
+          "text": "Isso aí é uma coisa que eu vejo as pessoas discutindo muito falando que a IA super inteligente vai matar todo mundo, vai roubar os empregos, e as pessoas vão precisar de UBI, etc."
+        },
+        {
+          "timestamp": "53:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3191",
+          "speaker": "SPEAKER_03",
+          "text": "Eu vejo por um outro lado, assim, eu vejo que como as pessoas vão usar IA é de fato um problema."
+        },
+        {
+          "timestamp": "53:19",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3199",
+          "speaker": "SPEAKER_03",
+          "text": "O artigo, eu começo a trazer, eu trago a história da escassez, de como eu tudo era escasso, no homem das cavernas era tudo escasso, e a história da abundância, como a gente todo o nosso trabalho foi feito pra tudo que a gente fez na nossa vida, na nossa história como seres humanos foi pra acabar com essa escassez, então a gente tinha escassez de remédio, a gente criou a indústria farmacêutica, a gente tinha escassez de comida, a gente começou a gente criar a agricultura, a gente criou a pecuária, a gente desenvolveu várias coisas, e a gente também tinha uma escassez de informação, a gente desenvolveu a linguagem para começar a comunicar, e depois a gente desenvolveu, a escrita para a gente conseguir ter acesso a informação que antes tinha que ser passada via oral e se perdia e era transformado ao longo do tempo, e a gente perdeu detalhes importantes, e depois a gente construir a internet, onde a gente consegue ter acesso a informação do outro lado do mundo de forma instantânea, então a gente está tendo."
+        },
+        {
+          "timestamp": "54:37",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3277",
+          "speaker": "SPEAKER_03",
+          "text": "E agora com a inteligência artificial, a gente essa abundância vai para um próximo nível, onde a gente consegue ter."
+        },
+        {
+          "timestamp": "54:46",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3286",
+          "speaker": "SPEAKER_03",
+          "text": "A gente consegue gerar um artigo inteiro em tempo real."
+        },
+        {
+          "timestamp": "54:50",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3290",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não preciso ter o necessariamente o Leta de certa forma."
+        },
+        {
+          "timestamp": "54:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3295",
+          "speaker": "SPEAKER_03",
+          "text": "Eu quero aprender um detalhe sobre o Bitcoin."
+        },
+        {
+          "timestamp": "54:57",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3297",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não preciso ir na loja comprar um livro e tudo mais."
+        },
+        {
+          "timestamp": "55:02",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3302",
+          "speaker": "SPEAKER_03",
+          "text": "Eu posso perguntar para o Jatia PT e falar, que ele tira essa dúvida, o que é."
+        },
+        {
+          "timestamp": "55:04",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3304",
+          "speaker": "SPEAKER_03",
+          "text": "Olha lá, que ele tira essa dúvida, o que é sei lá, me explica sobre o ajuste de dificuldade do Bitcoin, e o chat GPT vai dar uma resposta bem razoável, automaticamente e instantaneamente para você, de graça, então a gente tem esse próximo nível de abundância, e só que o problema é o seguinte, a gente precisa de escassez, quem tá no Bitcoin aí já há algum tempo sabe que a gente precisa de escassez, a gente precisa de escassez para iniciar de base monetária."
+        },
+        {
+          "timestamp": "55:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3341",
+          "speaker": "SPEAKER_03",
+          "text": "Se a gente tem uma abundância de base monetária, o que acontece?"
+        },
+        {
+          "timestamp": "55:44",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3344",
+          "speaker": "SPEAKER_03",
+          "text": "Inflação, e o Bitcoin foi criado para resolver esse problema de escassez de problema da falta de escassez digital, a gente precisa, de certa forma, de um pouco de escassez também na geração de informação."
+        },
+        {
+          "timestamp": "56:04",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3364",
+          "speaker": "SPEAKER_03",
+          "text": "Hoje a gente consegue gerar uma foto, uma imagem foto realista instantaneamente."
+        },
+        {
+          "timestamp": "56:12",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3372",
+          "speaker": "SPEAKER_03",
+          "text": "Eu posso pegar uma foto sua, colocar numa IA e ela gera, eu consigo pedir pra gerar o Leta com arma na mão, assaltando uma velhinha, que seja foto realista, e eu posso usar isso daí contra você, no tribunal, e como é que você prova que essa foto não é uma foto, que essa imagem não é uma foto sua, de fato, real que aconteceu."
+        },
+        {
+          "timestamp": "56:38",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3398",
+          "speaker": "SPEAKER_03",
+          "text": "Então a gente começa a ter problemas, a gente tá começando a entrar numa fase da pós-verdade."
+        },
+        {
+          "timestamp": "56:47",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3407",
+          "speaker": "SPEAKER_03",
+          "text": "A gente já estava nessa fase da pós-verdade já há algum tempo, onde a gente tem uma abundância tão grande de informação na internet, as pessoas repitindo tantas coisas na internet, que é difícil você saber quem está certo."
+        },
+        {
+          "timestamp": "57:02",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3422",
+          "speaker": "SPEAKER_03",
+          "text": "Se você saber quem tá certo e quem tá errado, antes na escassez, a gente conseguir reconhecer um pouco mais fácil quem era especialista de quem não era especialista tinha algumas curatorias, e a gente conseguir se filtrar de certa forma, então com a abundância, a gente de alguma forma é bom porque uma pessoa consegue se expressar e atingir mais um público maior, mas ao mesmo tempo a gente tem mais ruído e é muito mais difícil a gente filtrar a gente fazer essa curadoria de material, e isso já tá já tinha acontecido com as redes sociais na era da internet, e agora tá ainda mais forte porque a gente consegue gerar imagens e textos, então, vamos dizer que, por exemplo, vamos pensar no que mais pós-apocalíptico que pode acontecer, e vamos levar essa ideia ao extremo."
+        },
+        {
+          "timestamp": "58:01",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3481",
+          "speaker": "SPEAKER_03",
+          "text": "Hoje a China já faz uma já tem o grande o grande firewall, né?"
+        },
+        {
+          "timestamp": "58:07",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3487",
+          "speaker": "SPEAKER_03",
+          "text": "A grande muralha de fogo, firewall da China que é impede a China, os cidadãos chineses, de acessar o conteúdo livre da internet, e eles hoje todo o conteúdo é filtrado, basicamente, eles não têm acesso a esse conteúdo livre."
+        },
+        {
+          "timestamp": "58:25",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3505",
+          "speaker": "SPEAKER_03",
+          "text": "Agora, com inteligência artificial, uma coisa que o governo da China poderia fazer é, por exemplo, gerar dar acesso a todo o conteúdo livre da internet, porém, quando uma pessoa, um cidadão, acessa esse conteúdo livre da internet, ao invés de ele acessar a página da Wikipedia sobre o massacre da paz celestial, ele poderia ao acessar essa página do Marcelo da Paz Celestial, essa página Wikipedia ser toda automaticamente reescrita. enquanto o site carrega, e ele assim e ele lê um conteúdo fictício de uma coisa que não aconteceu com as com a versão comunista dos fatos, ou com sem os fatos, né?"
+        },
+        {
+          "timestamp": "59:19",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3559",
+          "speaker": "SPEAKER_03",
+          "text": "Com uma versão comunista da página, sem o sem a informação de fato do massacre, ele a China poderia, em questão de horas, semanas gerar uma Wikipedia inteira, o Elon Musk fez isso, né?"
+        },
+        {
+          "timestamp": "59:40",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3580",
+          "speaker": "SPEAKER_03",
+          "text": "O Elon Musk criou a Grockpedia, que é basicamente pegou a Wikipedia e refez a Wikipedia não inteira, mas boa parte da Wikipedia, com o que ele considera ser os fatos, menos enviesado, menos vulk, sei lá, o como é que ele chama isso daí, mas ele meio que criou uma Wikipedia do zero em pouco tempo, e que falta para um para um para uma China da vida fazer a mesma coisa, sendo que eles também são uma potência de A relevante no mundo, então o que eu vejo é, o problema que eu vejo da IA não é que a IA, Iá contra humanos, é humanos usando IA contra outros humanos, e como é que como é que a gente vai se defender disso aí?"
+        },
+        {
+          "timestamp": "01:00:33",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3633",
+          "speaker": "SPEAKER_03",
+          "text": "E se a gente olha para outras outras coisas, por exemplo, é a gente pode gerar imagens fotorrealistas de documentos, e agora todo banco, que usa que usa aquela aquela videozinha de você virando a cara, abrindo a boca, foto, você com a foto do seu documento na sua frente, isso aí vai começar a não fazer mais sentido."
+        },
+        {
+          "timestamp": "01:00:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3658",
+          "speaker": "SPEAKER_03",
+          "text": "Pra não fazer mais sentido."
+        },
+        {
+          "timestamp": "01:00:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3659",
+          "speaker": "SPEAKER_03",
+          "text": "E a gente vai precisar de outras formas de validação que não são essas que a gente ainda não tem."
+        },
+        {
+          "timestamp": "01:01:06",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3666",
+          "speaker": "SPEAKER_03",
+          "text": "Tão."
+        },
+        {
+          "timestamp": "01:01:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3669",
+          "speaker": "SPEAKER_03",
+          "text": "A gente ainda não tem processos tão bons pra isso aí."
+        },
+        {
+          "timestamp": "01:01:12",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3672",
+          "speaker": "SPEAKER_03",
+          "text": "Então, esse é o medo que eu tenho."
+        },
+        {
+          "timestamp": "01:01:14",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3674",
+          "speaker": "SPEAKER_03",
+          "text": "É isso que eu vejo que é o grande problema da IA do dia de hoje, que a gente, enquanto isso, está todo mundo discutindo um Exterminador do Futuro2, vai achar que vai vir um exterminador do futuro e matar todo mundo."
+        },
+        {
+          "timestamp": "01:01:30",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3690",
+          "speaker": "SPEAKER_03",
+          "text": "Que eu acho que é simplesmente surreal."
+        },
+        {
+          "timestamp": "01:01:33",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3693",
+          "speaker": "SPEAKER_03",
+          "text": "Especialmente quando você usa essas IAs e você ver o quão humanos, humanas elas são, o quanto elas têm dentro do treinamento delas, elas conseguem absorver até os nossos próprios sentimentos."
+        },
+        {
+          "timestamp": "01:01:48",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3708",
+          "speaker": "SPEAKER_03",
+          "text": "E o quão próximo de."
+        },
+        {
+          "timestamp": "01:01:52",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3712",
+          "speaker": "SPEAKER_03",
+          "text": "quão próximos eles estão da gente, apesar de ainda distantes."
+        },
+        {
+          "timestamp": "01:01:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3716",
+          "speaker": "SPEAKER_02",
+          "text": "Eu não sei se você vai lembrar do que eu vou falar agora, mas essa discussão de pós-verdade, de dificuldade de convergir de fatos históricos, o que aconteceu, o que não aconteceu, eu conversei sobre isso no primeiro podcast que eu participei na vida, que foi com o João Grilo lá no21 milhões, em2021, se eu não me engano, a gente fala isso nos últimos cinco ou dez minutos."
+        },
+        {
+          "timestamp": "01:02:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3742",
+          "speaker": "SPEAKER_02",
+          "text": "E eu acho que é você mesmo, se eu não me engano, foi você que comentou, não, tipo, tem uma fonte imutável de verdade no universo, apesar de a gente estar nesse momento de pós-verdade, que cada pessoa, por conta do algoritmo, tem seu próprio banco de dados históricos, e aí você pode, no fundo, na época já estava começando a começar a existir o Deepfake, eu lembro que tinha um discurso do Obama, que na verdade era um cara falando, já era, olha, isso vai ser possível, mas não era sei lá, você ter o Gemini no banana em casa, mas eu lembro que na época já tinha essa preocupação, e isso é."
+        },
+        {
+          "timestamp": "01:02:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3776",
+          "speaker": "SPEAKER_02",
+          "text": "Essa preocupação, e isso era sem levar em conta a inteligência artificial."
+        },
+        {
+          "timestamp": "01:03:00",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3780",
+          "speaker": "SPEAKER_02",
+          "text": "Então, no fundo, essa preocupação, assim, só se amplia, assim, por exemplo, há um tempo atrás surgiu um vídeo da Carol das meninas da Bitcoin, que claramente não era ela, era muito tosco e mal feito, mas era um golpista que tentou fazer um deepfake com ela para enganar seguidor para fazer doação, e isso vai rolar cada vez mais."
+        },
+        {
+          "timestamp": "01:03:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3802",
+          "speaker": "SPEAKER_02",
+          "text": "Tipo, eu e minha família, por exemplo, a gente já tem combinado entre nós que qualquer coisa que eu falar que eu não citar, uma senha em específica, não acredito e não confia."
+        },
+        {
+          "timestamp": "01:03:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3814",
+          "speaker": "SPEAKER_02",
+          "text": "Não importa que tem a minha voz, não importa que é uma videochamada e tem meu rosto, porque o fato de a gente tá fazendo esse podcast aqui no YouTube, as pessoas conseguem clonar minha voz e meu rosto, e é doido, porque assim, querendo ou não, a grande maioria das pessoas ainda não tá dentro desse paradigma, né?"
+        },
+        {
+          "timestamp": "01:03:51",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3831",
+          "speaker": "SPEAKER_02",
+          "text": "Por exemplo, meu pai me mandou um vídeo há uma semana que era sei lá, tinha10 dálmata, os filhotes de dálmata sentados calmamente, com um bebezinho calmamente, o bebê batia numa panelinha e todos os cachorros latiam."
+        },
+        {
+          "timestamp": "01:04:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3845",
+          "speaker": "SPEAKER_02",
+          "text": "Era Iá, se nem um cachorro ficar para10 filhotes de cachorro dálmata, os dez ficam parados juntos e o bebê paradinho juntos, mas já passou do ponto que muitas pessoas não percebem que é IA, então assim, isso eu concordo que vai ser um problema social bem grande."
+        },
+        {
+          "timestamp": "01:04:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3863",
+          "speaker": "SPEAKER_02",
+          "text": "Aí você me mandou uma foto que assim, mais do que só problemas sociais, ele coloca todo o pensamento, todo sei lá, todas as pessoas que estão trabalhando em IA, assim, num mapa."
+        },
+        {
+          "timestamp": "01:04:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3874",
+          "speaker": "SPEAKER_02",
+          "text": "E eu achei interessante esse mapa, porque no fundo, assim, sendo bem sincero, desde que a gente começou a conversar, eu sinto que você falando, você não acredita de maneira nenhuma num risco existencial relacionado a IA, e assim, eu que sou mais leigo que você, no fundo, eu encontro muitas vezes discursos mais, por exemplo, do Geoffrey aqui, o cara que é o Godfather e que ele vê riscos existenciais, aí você vê um podcast o Elon Musk e fala que tem20% de chance de ser um processo de extinção do ser humano, porque sei lá, tipo, a gente não se importa com a opinião de um gorilo, uma inteligência artificial que vai ser mais inteligente que a gente não se importa com a nossa opinião, então assim, eu queria primeiro, você não realmente, você realmente não vê nenhum risco em existencial mesmo para a humanidade relacionada à inteligência artificial, e segundo, explica essa imagem aqui que você me mandou."
+        },
+        {
+          "timestamp": "01:05:35",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3935",
+          "speaker": "SPEAKER_03",
+          "text": "Tá na verdade, eu vou dar um passo pra trás ainda, que você acabou de falar antes da IA, quando era de fake, e aí eu me toquei que a gente vai a gente se anima e vai conversando das coisas, e eu não respondi com a diferença da IA nova para a IA antiga que a gente eu não cheguei a fazer essa distinção, rapidamente o que acontece a IA, eu dei aquele panorama de1950 até o dia de hoje só que é lá para2017 com esses novas formas, na verdade é um pouquinho antes."
+        },
+        {
+          "timestamp": "01:06:16",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=3976",
+          "speaker": "SPEAKER_03",
+          "text": "O Google criou um Deep Dream, não sei se você já viu umas fotos cheia de olho, cheia de coisa bem lombra, assim, que ele inverteu ele pegou uma IA de classificação, só que ao invés de só que ele inverteu os parâmetros, em vez de você colocar uma foto e tentar classificar em gato, ele tenta, ele coloca um gato e tenta pegar o que a IA tá vendo naquela foto, e aí é exagerando um pouco o detalhes."
+        },
+        {
+          "timestamp": "01:06:49",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4009",
+          "speaker": "SPEAKER_03",
+          "text": "Então aí mostra ele aparece um monte de olho, um monte de cabeça, um monte de. coisa, porque geralmente é isso que a IA tá tentando procurar na foto quando ela vai falar se é um gato, se é um cachorro, se é não sei o que, e então assim foi aí que começou a famosa IA generativa, porque antes disso a IA não era generativa, no sentido que ela não gerava nada novo, você entregava algo para IA e ela te falava o que aquilo era, ele era uma IA de classificação, ela fazia alguma predição, mas ela não gerava um texto novo, uma imagem nova, só que eventualmente descobriram formas de você criar isso daí."
+        },
+        {
+          "timestamp": "01:07:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4054",
+          "speaker": "SPEAKER_03",
+          "text": "Então teve primeiro o Deep Dream, depois teve Guns, que é um modelo para gerar para gerar fotos de pessoas, tem um site que é clássico."
+        },
+        {
+          "timestamp": "01:07:44",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4064",
+          "speaker": "SPEAKER_03",
+          "text": "Não sei se ele ainda está no ar, que é This person doesn't exist."
+        },
+        {
+          "timestamp": "01:07:48",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4068",
+          "speaker": "SPEAKER_03",
+          "text": "Você entra lá e ele gera uma foto nova, era incrível quando eu vi isso aí pela primeira vez, só que ainda assim tinha que treinar, tinha que fazer um monte de coisa, não era não era fácil de qualquer pessoa fazer isso aí, e hoje em dia tá na palma de cada na palma da mão de cada pessoa, né?"
+        },
+        {
+          "timestamp": "01:08:04",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4084",
+          "speaker": "SPEAKER_03",
+          "text": "E a diferença da que hoje a gente chama de IA, tá todo mundo chamando de IA, e quando pensa em IA, é porque é muito claro que é uma IA, porque ela tá gerando uma coisa nova que não existia."
+        },
+        {
+          "timestamp": "01:08:17",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4097",
+          "speaker": "SPEAKER_03",
+          "text": "Ela tá gerando um texto que você não tá vendo, mas a IA, Iá mesmo, já existia muito antes, é o algoritmo de machine learning, aprendizado de máquina."
+        },
+        {
+          "timestamp": "01:08:28",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4108",
+          "speaker": "SPEAKER_03",
+          "text": "Já existia no seu celular, já existia até no roteador, lembra aquele barulhinho do roteador na década de90 que fazia quando você ligava a internet e fazia aquele barulho todo antes conectar na internet?"
+        },
+        {
+          "timestamp": "01:08:38",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4118",
+          "speaker": "SPEAKER_03",
+          "text": "Aquele barulho foi criado, foi pelo Yan Le Kun aqui, que tá na foto."
+        },
+        {
+          "timestamp": "01:08:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4123",
+          "speaker": "SPEAKER_03",
+          "text": "É uma é um algoritmo de IA."
+        },
+        {
+          "timestamp": "01:08:46",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4126",
+          "speaker": "SPEAKER_03",
+          "text": "Ele manda um pacote de dados aleatório, e aí o roteador faz. um algoritmo de aprendizado rapidão e ele aprende o negócio para se conectar na internet."
+        },
+        {
+          "timestamp": "01:08:57",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4137",
+          "speaker": "SPEAKER_03",
+          "text": "Então, assim, na10 dos90 já fazia isso, só que já a gente já estava com IA em muitas coisas da nossa vida, a gente só não sabia."
+        },
+        {
+          "timestamp": "01:09:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4145",
+          "speaker": "SPEAKER_03",
+          "text": "A única coisa que agora tá mais claro, maisóbvio, porque geralmente você tá conversando com uma abre aspas entidade, então é parece de fato uma inteligência que tá aqui do outro lado e você está conversando com ela, então fazendo esse parênteses aqui, vamos pra figura."
+        },
+        {
+          "timestamp": "01:09:25",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4165",
+          "speaker": "SPEAKER_03",
+          "text": "Existem essas várias e várias pessoas, eu nem conheço todas elas, tem várias que são muito importantes, e várias que eu conheço pouco."
+        },
+        {
+          "timestamp": "01:09:33",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4173",
+          "speaker": "SPEAKER_03",
+          "text": "Então, por exemplo, o Eli, eu conheço pouco, muito pouco ele, mas eu sei, conheço ele porque ele estava na OpenAI e saiu recentemente."
+        },
+        {
+          "timestamp": "01:09:42",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4182",
+          "speaker": "SPEAKER_03",
+          "text": "O Mark Anderson, na verdade, ele nem trabalha com IA de fato, ele é venture capital, tem uma empresa, ele investe em empresas, o Andrew Win, eu trabalhava na empresa dele até pouco tempo atrás, ele criou o Corsera e fez várias coisas, então basicamente são os eixos, né?"
+        },
+        {
+          "timestamp": "01:10:07",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4207",
+          "speaker": "SPEAKER_03",
+          "text": "Então, true believers versus esceptics versus então são quem acredita de verdade na IA e quem é cético, então tem os que acreditam de verdade, que eles olham a IA no estágio que a gente tá hoje e falam, pô, isso aqui é um ser é um é uma nova forma de vida, é uma nova forma de vida inteligente, é um ser alien e a gente tá comunicando com um ser diferente."
+        },
+        {
+          "timestamp": "01:10:42",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4242",
+          "speaker": "SPEAKER_03",
+          "text": "Vários deles pensam nesse sentido, assim, e outros pensam, beleza, não é uma forma de."
+        },
+        {
+          "timestamp": "01:10:48",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4248",
+          "speaker": "SPEAKER_03",
+          "text": "Pensou, beleza, não é uma forma de vida, talvez não seja uma inteligência."
+        },
+        {
+          "timestamp": "01:10:54",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4254",
+          "speaker": "SPEAKER_03",
+          "text": "A grande dificuldade é definição, a definição de inteligência, o que é inteligência, de fato, né?"
+        },
+        {
+          "timestamp": "01:11:01",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4261",
+          "speaker": "SPEAKER_03",
+          "text": "Então, eu."
+        },
+        {
+          "timestamp": "01:11:04",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4264",
+          "speaker": "SPEAKER_03",
+          "text": "Quando a gente vê um texto gerado pelo chat APT, dá pra dizer, pô, quem escreveu isso é inteligente."
+        },
+        {
+          "timestamp": "01:11:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4271",
+          "speaker": "SPEAKER_03",
+          "text": "A gente lê o texto e vê, pô, na verdade é uma IA, pô, então é IA inteligente."
+        },
+        {
+          "timestamp": "01:11:17",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4277",
+          "speaker": "SPEAKER_03",
+          "text": "Existe uma discussão, tem um paradoxo do quarto chinês, que é um paradoxo antigo de inteligência artificial que é."
+        },
+        {
+          "timestamp": "01:11:25",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4285",
+          "speaker": "SPEAKER_03",
+          "text": "Se eu tem alguém passando papéizinho, escreve um texto, passa um papel debaixo da porta de um quarto, e a pessoa, e do outro lado, tem um chinês que não sabe ler português."
+        },
+        {
+          "timestamp": "01:11:40",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4300",
+          "speaker": "SPEAKER_03",
+          "text": "Ele recebe esse papel, vê as palavras, pega um livro bem grande e vai pegando essas palavras e desenhando os caracteres e que tá em chinês, ele não entende o que tá acontecendo, ele só replica um algoritmo que tem tá de escrito ali no livro e devolve de volta um papelzinho com a resposta."
+        },
+        {
+          "timestamp": "01:12:02",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4322",
+          "speaker": "SPEAKER_03",
+          "text": "Ele não fez, ele nem pensou pra fazer isso, ele só seguiu um livro."
+        },
+        {
+          "timestamp": "01:12:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4328",
+          "speaker": "SPEAKER_03",
+          "text": "Isso aí, de fato, é inteligência ou não é, e aí, e aí vem a pergunta, será que o Ayad hoje é simplesmente o chinês ali no paradoxo do quarto chinês e tá só cuspindo informação ou não?"
+        },
+        {
+          "timestamp": "01:12:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4342",
+          "speaker": "SPEAKER_03",
+          "text": "E aí tem muitas discussões sobre isso aí, é porque a gente não tem um tem gente que fala sobre ter consciência."
+        },
+        {
+          "timestamp": "01:12:31",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4351",
+          "speaker": "SPEAKER_02",
+          "text": "Desculpa te interromper, mas só um comentário."
+        },
+        {
+          "timestamp": "01:12:33",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4353",
+          "speaker": "SPEAKER_02",
+          "text": "É foda que assim."
+        },
+        {
+          "timestamp": "01:12:35",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4355",
+          "speaker": "SPEAKER_02",
+          "text": "Será que90% da humanidade passa nesse corte de o que é inteligência, ou no fundo, todos eles estão só reproduzindo também?"
+        },
+        {
+          "timestamp": "01:12:44",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4364",
+          "speaker": "SPEAKER_02",
+          "text": "Porque essa é uma discussão que eu lembro quando eu li o livro Planeta dos Macacos. o cara mostra muito bem isso, assim, ele mostra, não, porque os macacos só imitam, eles não conseguem inovar, criar coisas novas, e eles não têm uma memória de onde isso começou."
+        },
+        {
+          "timestamp": "01:12:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4378",
+          "speaker": "SPEAKER_02",
+          "text": "E ele vai descrevendo os comportamentos, na boa, vocês vão falar que é um macaco, é exatamente o comportamento de muitas das pessoas no dia a dia, e que você para para pensar o meu comportamento e o seu comportamento e de muitas pessoas, grande parte do tempo, de fato é automático, não é consciente, refletido, etc."
+        },
+        {
+          "timestamp": "01:13:19",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4399",
+          "speaker": "SPEAKER_03",
+          "text": "Sim, e além disso, isso aí já, inclusive, já é passado, já é provável científicamente que macacos são capazes de aprender línguas, eles conseguem se comunicar, eles já ensinaram a linguagem de sinais, o macaco consegue comunicar com os seres humanos, ele tem cultura e a cultura é passada para as gerações futuras, então isso aí, inclusive é passado, mas sim."
+        },
+        {
+          "timestamp": "01:13:42",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4422",
+          "speaker": "SPEAKER_03",
+          "text": "É muito difícil."
+        },
+        {
+          "timestamp": "01:13:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4423",
+          "speaker": "SPEAKER_03",
+          "text": "Sabe, sabe como é que."
+        },
+        {
+          "timestamp": "01:13:45",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4425",
+          "speaker": "SPEAKER_03",
+          "text": "Quais são os testes?"
+        },
+        {
+          "timestamp": "01:13:46",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4426",
+          "speaker": "SPEAKER_03",
+          "text": "Quais são como é que é o teste para dizer se é consciente ou não, se é se um animal é consciente ou não?"
+        },
+        {
+          "timestamp": "01:13:52",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4432",
+          "speaker": "SPEAKER_03",
+          "text": "É basicamente coloca alguma coisa na cabeça do animal, e aí coloca ele na frente do espelho e ele olha a coisa na cabeça dele e reconhece que está na própria cabeça."
+        },
+        {
+          "timestamp": "01:14:02",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4442",
+          "speaker": "SPEAKER_03",
+          "text": "Isso é isso é um dos testes hoje que são feitos cientificamente para determinar se o animal é consciente ou não."
+        },
+        {
+          "timestamp": "01:14:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4451",
+          "speaker": "SPEAKER_03",
+          "text": "Se a gente faz isso com o robô, com o AIA, ele consegue reconhecer."
+        },
+        {
+          "timestamp": "01:14:17",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4457",
+          "speaker": "SPEAKER_03",
+          "text": "E significa que o robô é consciente, ou significa que a definição de consciência tá errada."
+        },
+        {
+          "timestamp": "01:14:24",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4464",
+          "speaker": "SPEAKER_03",
+          "text": "É uma coisa que é muito difícil a gente a gente definir."
+        },
+        {
+          "timestamp": "01:14:28",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4468",
+          "speaker": "SPEAKER_02",
+          "text": "Então."
+        },
+        {
+          "timestamp": "01:14:29",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4469",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que, no fundo, a verdade de que a gente não disse, assim, talvez o elefante na sala é que pra gente, consciência pressupõe organicidade, precisa ser um ser orgânico."
+        },
+        {
+          "timestamp": "01:14:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4481",
+          "speaker": "SPEAKER_02",
+          "text": "E isso é."
+        },
+        {
+          "timestamp": "01:14:42",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4482",
+          "speaker": "SPEAKER_02",
+          "text": "Não sei, mas eu tenho esse viés."
+        },
+        {
+          "timestamp": "01:14:44",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4484",
+          "speaker": "SPEAKER_02",
+          "text": "Não sei se você tem esse viés."
+        },
+        {
+          "timestamp": "01:14:44",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4484",
+          "speaker": "SPEAKER_03",
+          "text": "Eu tenho esse VS, não sei se você tem esse VS também, é difícil, eu não sei."
+        },
+        {
+          "timestamp": "01:14:52",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4492",
+          "speaker": "SPEAKER_03",
+          "text": "Eu, sinceramente, eu não consigo, eu não tenho uma opinião formada sobre isso, eu não consigo, eu não tenho uma definição sobre o que é inteligência, sobre o que é consciência, eu tenho uma noção, a gente consegue, a gente conversa, e em momentos eu falo, isso é inteligente, é isso não é inteligente, isso faz isso, mas eu numa conversa, a gente fala, eu falo sobre inteligência e consciência, mas se a gente começa a ir um pouco mais preciso de forma científica, a gente precisa de uma definição rigorosa e a gente não tem uma definição rigorosa, eu não tenho uma definição rigorosa, e boa parte das discussões que existem hoje é porque tá todo mundo discutindo, e ninguém tem uma definição muito rigorosa do que é do que é raciocinar, do que é inteligência, o que é consciência, e boa parte desse gráfico é isso."
+        },
+        {
+          "timestamp": "01:15:49",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4549",
+          "speaker": "SPEAKER_03",
+          "text": "Tem pessoas que veem uma IA e vem, pô, ela é claramente consciente, é claramente inteligente."
+        },
+        {
+          "timestamp": "01:15:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4555",
+          "speaker": "SPEAKER_03",
+          "text": "Tem outros que falam, beleza, é inteligente por conta disso, disso, aquilo."
+        },
+        {
+          "timestamp": "01:15:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4559",
+          "speaker": "SPEAKER_03",
+          "text": "Tem gente que tem."
+        },
+        {
+          "timestamp": "01:16:00",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4560",
+          "speaker": "SPEAKER_03",
+          "text": "Você pega ali o Ian Le Kun, e eles falam claramente ela não é não é consciente, ela não tem capacidade de raciocinar."
+        },
+        {
+          "timestamp": "01:16:12",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4572",
+          "speaker": "SPEAKER_03",
+          "text": "A gente precisa de outro modelo pra gente conseguir criar uma IA que consiga de fato assassinar, ela só segue padrões, eu já acho que ela consegue ter um raciocínio pra mim, pra mim, faz."
+        },
+        {
+          "timestamp": "01:16:25",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4585",
+          "speaker": "SPEAKER_03",
+          "text": "Pra mim, ela tem raciocínio, sim, mas assim, o que é um raciocínio?"
+        },
+        {
+          "timestamp": "01:16:30",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4590",
+          "speaker": "SPEAKER_03",
+          "text": "Se não for você ter um algoritmo com e uma visão de padrões, então é muito difícil a gente separar uma coisa de outra, e aí, então assim. tem o eixo do que das pessoas que acreditam muito e das que das que acham que a gente."
+        },
+        {
+          "timestamp": "01:16:50",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4610",
+          "speaker": "SPEAKER_03",
+          "text": "já que a gente ainda tá não tá lá, ou a gente tá longe, e tem as pessoas que querem que acham que a gente tem que acelerar e fazer uma coisa ainda melhor."
+        },
+        {
+          "timestamp": "01:16:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4619",
+          "speaker": "SPEAKER_03",
+          "text": "Tem gente que a gente que acha que a gente tem que parar completamente, e a minha opinião, eu tipo, eu não sei me classificar muito bem nesse eixo de quem acredita ou de quem está cético, mas eu na minha opinião, a gente tá."
+        },
+        {
+          "timestamp": "01:17:17",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4637",
+          "speaker": "SPEAKER_03",
+          "text": "Eu tô mais próximo dos dos dos dos dos dos dos dos dos dos dos aceleracionistas do que quem quer desacelerar."
+        },
+        {
+          "timestamp": "01:17:25",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4645",
+          "speaker": "SPEAKER_03",
+          "text": "Eu acho que quem quer desacelerar geralmente quer proibir, quer usar regulação, e o que vai acontecer é se alguém proibir se alguém usar regulação, a gente vai ter só a China trabalhando nisso, e eu não quero que uma ditadura tenha acesso a tudo isso, e as democracias não tenham."
+        },
+        {
+          "timestamp": "01:17:49",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4669",
+          "speaker": "SPEAKER_03",
+          "text": "Não quero que empresas, mega corporações e empresas que fazem lobby do governo tenha acesso a isso, e pessoas comuns não tenham."
+        },
+        {
+          "timestamp": "01:17:57",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4677",
+          "speaker": "SPEAKER_03",
+          "text": "Então, eu acredito que a gente tem que acelerar, acredito que a gente tem que dar acesso às pessoas, criar ferramentas open source, compartilhar o máximo possível para todo mundo ter acesso."
+        },
+        {
+          "timestamp": "01:18:12",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4692",
+          "speaker": "SPEAKER_03",
+          "text": "Aumentar o acesso de sentir."
+        },
+        {
+          "timestamp": "01:18:15",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4695",
+          "speaker": "SPEAKER_02",
+          "text": "Perfeito, cara, perante tudo isso que a gente já conversou, né?"
+        },
+        {
+          "timestamp": "01:18:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4698",
+          "speaker": "SPEAKER_02",
+          "text": "São uma hora e pouco, como se planejar para o futuro?"
+        },
+        {
+          "timestamp": "01:18:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4702",
+          "speaker": "SPEAKER_03",
+          "text": "Tipo, eu tenho uma profissão, eu que eu penso para nos próximos cinco anos, os próximos dez anos, o que eu deveria estar levando em conta para me planejar para o futuro, olha, eu já vi algumas pessoas falando sobre isso, e não. parece ter uma solução única, assim, o que eu vejo é o que eu tento levar para todo mundo, para minha família, para os meus amigos, tenta falar, cara, explora, aprende a usar, comece a usar, porque quem não estiver usando vai ficar de fora."
+        },
+        {
+          "timestamp": "01:19:04",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4744",
+          "speaker": "SPEAKER_03",
+          "text": "É uma coisa assim que daqui a pouquinho."
+        },
+        {
+          "timestamp": "01:19:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4749",
+          "speaker": "SPEAKER_03",
+          "text": "Não é nem daqui um pouco."
+        },
+        {
+          "timestamp": "01:19:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4751",
+          "speaker": "SPEAKER_03",
+          "text": "Eu fiz uma entrevista."
+        },
+        {
+          "timestamp": "01:19:13",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4753",
+          "speaker": "SPEAKER_03",
+          "text": "Conversei com uma empresa ontem, e o cara me permeu."
+        },
+        {
+          "timestamp": "01:19:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4758",
+          "speaker": "SPEAKER_03",
+          "text": "Eu trabalho com Ian, né?"
+        },
+        {
+          "timestamp": "01:19:20",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4760",
+          "speaker": "SPEAKER_03",
+          "text": "Então ele perguntou, ah, o que você framework você usa, o que você gosta e não sei o que e tudo mais, aí beleza."
+        },
+        {
+          "timestamp": "01:19:26",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4766",
+          "speaker": "SPEAKER_03",
+          "text": "A gente falou sobre o que você faz de IA."
+        },
+        {
+          "timestamp": "01:19:30",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4770",
+          "speaker": "SPEAKER_03",
+          "text": "Agora eu quero saber o como você faz com o IA."
+        },
+        {
+          "timestamp": "01:19:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4774",
+          "speaker": "SPEAKER_03",
+          "text": "E aí ele estava me perguntando."
+        },
+        {
+          "timestamp": "01:19:39",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4779",
+          "speaker": "SPEAKER_03",
+          "text": "Se eu uso o cursor, se eu uso o Cloud Code, se eu uso o Codex, e qual que eu uso e por que eu uso, e por que eu não uso o outro, e qual que eu já experimentoi."
+        },
+        {
+          "timestamp": "01:19:49",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4789",
+          "speaker": "SPEAKER_03",
+          "text": "Então, assim, a gente tá começando a chegar num ponto que não é se você usa, é qual você usa e como você usa."
+        },
+        {
+          "timestamp": "01:19:57",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4797",
+          "speaker": "SPEAKER_03",
+          "text": "E o pessoal do se você usa, eles vão ficar pra trás."
+        },
+        {
+          "timestamp": "01:20:03",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4803",
+          "speaker": "SPEAKER_03",
+          "text": "É assim, obviamente, vai ter gente que ainda vai conseguir fazer código artesanal."
+        },
+        {
+          "timestamp": "01:20:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4809",
+          "speaker": "SPEAKER_03",
+          "text": "A gente vai ter o código, o código artesanal e o código aumentado por IA, digamos assim."
+        },
+        {
+          "timestamp": "01:20:15",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4815",
+          "speaker": null,
+          "text": "E quem."
+        },
+        {
+          "timestamp": "01:20:17",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4817",
+          "speaker": "SPEAKER_03",
+          "text": "O pessoal vai."
+        },
+        {
+          "timestamp": "01:20:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4818",
+          "speaker": "SPEAKER_03",
+          "text": "As pessoas vão começar a ter o pessoal do artesanal, e talvez alguém valorize isso, talvez eventualmente tem alguma diferença, mas a minha visão é que do mesmo jeito que a gente não tá escrevendo Assembly, que a gente, que as pessoas programam em C, as programas programam em Python, a gente tem um novo nível de abstranção."
+        },
+        {
+          "timestamp": "01:20:39",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4839",
+          "speaker": "SPEAKER_03",
+          "text": "De abstração agora."
+        },
+        {
+          "timestamp": "01:20:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4841",
+          "speaker": "SPEAKER_03",
+          "text": "A gente tem um novo nível de abstração que do mesmo jeito que o que o código em Python é interpretado para ser e compilado para Assembly, a gente vai ter o a gente vai ter as especificações em linguagem natural que vai ser transformado em Python que vai ser interpretado em ser e compilado em assembly, e do mesmo jeito que quem que até hoje tem gente que mexe em assembly eu acredito que vai continuar a ter a ter pessoas que mexem em assembly, mas hoje se você quiser fazer um aplicativo simples você fazer em Python é muito mais rápido é muito mais simples, é muito mais rápido, você consegue muito fácil."
+        },
+        {
+          "timestamp": "01:21:24",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4884",
+          "speaker": "SPEAKER_03",
+          "text": "Agora você fazer alguma coisa em assembly, é tipo, ninguém."
+        },
+        {
+          "timestamp": "01:21:29",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4889",
+          "speaker": "SPEAKER_03",
+          "text": "ninguém faz as coisas é muito raro alguém fazer as coisas em assembly."
+        },
+        {
+          "timestamp": "01:21:33",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4893",
+          "speaker": "SPEAKER_03",
+          "text": "As pessoas fazem em Python ou em C, e depois eles acertam os detalhes em Assembly e otimizam em Assembly."
+        },
+        {
+          "timestamp": "01:21:42",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4902",
+          "speaker": "SPEAKER_03",
+          "text": "Então eu vejo isso para IA, a gente vai ter a gente vai estar trabalhando muito nesse mais alto nível com Ian, e a gente vai estar ajustando os detalhes para otimizar depois, e o resultado vai estar cada vez melhor, e é e a forma de preparar isso é ver o que está acontecendo, ver como é que as pessoas estão usando e aprender a usar e começar a ver como é que isso funciona para o seu trabalho e para as suas coisas."
+        },
+        {
+          "timestamp": "01:22:12",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4932",
+          "speaker": "SPEAKER_02",
+          "text": "Perfeito."
+        },
+        {
+          "timestamp": "01:22:13",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4933",
+          "speaker": "SPEAKER_02",
+          "text": "Daí só para fechar uma última pergunta, é você tem duas crianças, eu tô pra me tornar pai também, nesse mundo em constante transformação."
+        },
+        {
+          "timestamp": "01:22:25",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4945",
+          "speaker": "SPEAKER_02",
+          "text": "Acho que o mundo já passou de ser líquido, que nem o balmo falava para se tornar."
+        },
+        {
+          "timestamp": "01:22:32",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4952",
+          "speaker": "SPEAKER_02",
+          "text": "O que você pensa?"
+        },
+        {
+          "timestamp": "01:22:33",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4953",
+          "speaker": "SPEAKER_02",
+          "text": "Tipo, como educar os filhos, assim é um colégio tradicional aquele. modelo de você sentar a bunda na cadeira por4 ou8 horas por dia para ter uma educação conteudista, aprender a tabuada, aprender a gramática, assim, o que você pensa, o que você vai fazer com educação nesse contexto de ar que realmente o mundo é gasuso e muda tudo, e é difícil prever como vai estar o mercado de."
+        },
+        {
+          "timestamp": "01:22:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4978",
+          "speaker": "SPEAKER_02",
+          "text": "É difícil prever se ele vai querer fazer faculdade ou se faculdades vão ser relevantes daqui a18 anos."
+        },
+        {
+          "timestamp": "01:23:04",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4984",
+          "speaker": "SPEAKER_02",
+          "text": "Mercado de trabalho daqui a20 e poucos anos, uma incógnita maior ainda."
+        },
+        {
+          "timestamp": "01:23:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4989",
+          "speaker": "SPEAKER_02",
+          "text": "Você pensa quando você pensa o que eu vou fazer para educar minha família."
+        },
+        {
+          "timestamp": "01:23:13",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=4993",
+          "speaker": "SPEAKER_03",
+          "text": "Cara, quando surgiu o chat EPT, eu fico, eu ficava pensando, dois anos atrás, se me perguntarem se eu ia ter uma IA no meu bolso que respondia qualquer pergunta que eu quisesse, e eu ia falar que a gente ia estar pelo menos há10 anos de distância, no mínimo, no mínimo."
+        },
+        {
+          "timestamp": "01:23:31",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5011",
+          "speaker": "SPEAKER_03",
+          "text": "E eu não imaginaria uma coisa, eu não conseguiria imaginar, e cada coisa a mais que eu estudo e vejo, eu o que eu acho mais surpreendente é não estar todo mundo arrancando os cabelos, que nem."
+        },
+        {
+          "timestamp": "01:23:45",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5025",
+          "speaker": "SPEAKER_03",
+          "text": "Eu tô assim, tem umas pessoas arrancando os cabelos e tipo, ah, o exterminador do futuro, mas eu tô arrancando meus cabelos, e tipo, isso é muito foda."
+        },
+        {
+          "timestamp": "01:23:53",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5033",
+          "speaker": "SPEAKER_03",
+          "text": "Como é que isso existe?"
+        },
+        {
+          "timestamp": "01:23:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5035",
+          "speaker": "SPEAKER_03",
+          "text": "Parece mágica, é incrível."
+        },
+        {
+          "timestamp": "01:23:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5038",
+          "speaker": "SPEAKER_03",
+          "text": "E aí, assim, se a gente foi pensar20 anos futuro, eu não consigo, eu não tenho a menor ideia."
+        },
+        {
+          "timestamp": "01:24:03",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5043",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não, eu acho que muita coisa vai mudar."
+        },
+        {
+          "timestamp": "01:24:06",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5046",
+          "speaker": "SPEAKER_03",
+          "text": "O modelo que a gente tem de escola hoje já é um lixo."
+        },
+        {
+          "timestamp": "01:24:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5051",
+          "speaker": "SPEAKER_03",
+          "text": "Não sou só eu que falo, você pega qualquer educador aí."
+        },
+        {
+          "timestamp": "01:24:19",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5059",
+          "speaker": "SPEAKER_03",
+          "text": "nomeado aí."
+        },
+        {
+          "timestamp": "01:24:20",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5060",
+          "speaker": "SPEAKER_03",
+          "text": "Eles falam, é tipo, o modelo que a gente tem hoje é um modelo fordista, é feito para a pessoa trabalhar em fábrica, apertando parafuso."
+        },
+        {
+          "timestamp": "01:24:30",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5070",
+          "speaker": "SPEAKER_03",
+          "text": "Então, assim, o jeito que o jeito que a gente está. é muito ruim, isso com certeza vai mudar de alguma forma, e eu vejo isso já mudando muito com o marketing digital."
+        },
+        {
+          "timestamp": "01:24:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5083",
+          "speaker": "SPEAKER_03",
+          "text": "Tem."
+        },
+        {
+          "timestamp": "01:24:44",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5084",
+          "speaker": "SPEAKER_03",
+          "text": "Eu vejo gente que fez marketing na faculdade e não conseguiu fazer nada e fez, sei lá, duas semanas de um de um curso online de marketing e do nada consegue estar ganhando dinheiro."
+        },
+        {
+          "timestamp": "01:24:59",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5099",
+          "speaker": "SPEAKER_03",
+          "text": "Tá conseguindo."
+        },
+        {
+          "timestamp": "01:25:00",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5100",
+          "speaker": "SPEAKER_03",
+          "text": "tá conseguindo aplicar, finalmente aplicar o que o que deveria ter aprendido na faculdade, não aprendeu direito e tá conseguindo aplicar e ganhar dinheiro."
+        },
+        {
+          "timestamp": "01:25:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5108",
+          "speaker": "SPEAKER_03",
+          "text": "Então eu acho que a gente vai ter."
+        },
+        {
+          "timestamp": "01:25:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5111",
+          "speaker": "SPEAKER_03",
+          "text": "Vai nichar, vai ter pessoas especialistas em nichos menores assim, a gente vai ter cursos e educação muito mais focadas."
+        },
+        {
+          "timestamp": "01:25:28",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5128",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não sei, eu não sei como é que como é que vai estar a escola direito, mas uma que eu gosto muito."
+        },
+        {
+          "timestamp": "01:25:35",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5135",
+          "speaker": "SPEAKER_03",
+          "text": "Você já ouviu falar da Alpha School Alpha School é uma escola, se eu não me engano, no Texas, em Austin."
+        },
+        {
+          "timestamp": "01:25:46",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5146",
+          "speaker": "SPEAKER_03",
+          "text": "E eles dão duas horas de aula por dia, só duas."
+        },
+        {
+          "timestamp": "01:25:52",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5152",
+          "speaker": "SPEAKER_03",
+          "text": "Duas horas de aula por dia."
+        },
+        {
+          "timestamp": "01:25:53",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5153",
+          "speaker": "SPEAKER_03",
+          "text": "E eles usam IA para isso."
+        },
+        {
+          "timestamp": "01:25:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5156",
+          "speaker": "SPEAKER_03",
+          "text": "Eles têm um software de A que meio que aprende os seus gostos, então vamos dizer assim."
+        },
+        {
+          "timestamp": "01:26:03",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5163",
+          "speaker": "SPEAKER_03",
+          "text": "Você gosta de futebol, então vamos."
+        },
+        {
+          "timestamp": "01:26:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5169",
+          "speaker": "SPEAKER_03",
+          "text": "E aí eu."
+        },
+        {
+          "timestamp": "01:26:10",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5170",
+          "speaker": "SPEAKER_03",
+          "text": "Só que você precisa aprender matemática."
+        },
+        {
+          "timestamp": "01:26:13",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5173",
+          "speaker": "SPEAKER_03",
+          "text": "Então vamos lá, tipo, o Neymar, chutou a gol, sei lá quantas vezes na temporada e ele fez20 gols em10 jogos."
+        },
+        {
+          "timestamp": "01:26:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5183",
+          "speaker": "SPEAKER_03",
+          "text": "Quantos gols ele fez por jogo em média?"
+        },
+        {
+          "timestamp": "01:26:26",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5186",
+          "speaker": "SPEAKER_03",
+          "text": "Então, assim, ele adapta o conteúdo a coisa que você gosta."
+        },
+        {
+          "timestamp": "01:26:29",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5189",
+          "speaker": "SPEAKER_03",
+          "text": "Ele pega, ele faz esse tipo. de coisa super personalizado de uma forma que te dê, te dê curiosidade."
+        },
+        {
+          "timestamp": "01:26:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5203",
+          "speaker": "SPEAKER_03",
+          "text": "Eu vi um podcast deles, inclusive, recomendo pra todo mundo, ele fez um episódio só."
+        },
+        {
+          "timestamp": "01:26:49",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5209",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não sei se ele se eventualmente alguém mais entrevistou ele, mas quando eu vi era o primeiro e o único na época, onde ele."
+        },
+        {
+          "timestamp": "01:26:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5218",
+          "speaker": "SPEAKER_03",
+          "text": "Eu acho muito interessante que ele fala que a grande dificuldade, a grande coisa que ele tem de diferente, a escola dele, não é a IA, de fato, mas é a motivação."
+        },
+        {
+          "timestamp": "01:27:11",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5231",
+          "speaker": "SPEAKER_03",
+          "text": "E de novo a gente volta para os incentivos."
+        },
+        {
+          "timestamp": "01:27:14",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5234",
+          "speaker": "SPEAKER_03",
+          "text": "É a motivação, é você fazer a criança querer aprender, e aí e os resultados são impressionantes."
+        },
+        {
+          "timestamp": "01:27:21",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5241",
+          "speaker": "SPEAKER_03",
+          "text": "É os estudos que eles fazem ali, uma da."
+        },
+        {
+          "timestamp": "01:27:26",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5246",
+          "speaker": "SPEAKER_03",
+          "text": "Um dos alunos, eu não sei se eles se é só ensino fundamental, se tem ensino médio lá, mas um dos."
+        },
+        {
+          "timestamp": "01:27:32",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5252",
+          "speaker": "SPEAKER_03",
+          "text": "Eu ouvi ontem que ele o cara dessa empresa falando que um dos alunos dele publicou na Nature, na Nature, que é um grande jornal científico aí, e ele estão no top um por cento do dos americanos de conhecimento científico."
+        },
+        {
+          "timestamp": "01:27:54",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5274",
+          "speaker": "SPEAKER_03",
+          "text": "E aí a questão, eu não vejo que é sobre usar IA, não usar IA, eu acho que é IA é muito útil, mas você tem que saber usar, porque de novo, voltando nos incentivos, a gente precisa da escassez, a gente precisa de fricção."
+        },
+        {
+          "timestamp": "01:28:12",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5292",
+          "speaker": "SPEAKER_03",
+          "text": "A gente."
+        },
+        {
+          "timestamp": "01:28:15",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5295",
+          "speaker": "SPEAKER_03",
+          "text": "Antes a gente trabalha na roça, os seres humanos trabalhavam na roça, capinando."
+        },
+        {
+          "timestamp": "01:28:20",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5300",
+          "speaker": "SPEAKER_03",
+          "text": "Agora que a gente trabalha sentado no computador, o que a gente precisa?"
+        },
+        {
+          "timestamp": "01:28:24",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5304",
+          "speaker": null,
+          "text": "De malhar."
+        },
+        {
+          "timestamp": "01:28:26",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5306",
+          "speaker": "SPEAKER_03",
+          "text": "Então malhar é uma coisa que não existia200 anos atrás."
+        },
+        {
+          "timestamp": "01:28:30",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5310",
+          "speaker": "SPEAKER_03",
+          "text": "A gente, todo mundo precisa. se exercer, porque agora a gente não se exercita mais no dia a dia, a gente precisa fazer dieta, porque agora comida é muito abundante, é muito fácil comer alguma coisa gostosa, então agora a gente precisa fazer dieta e se policiar e se controlar mais no que a gente come, comer, escolher melhor e não só o que, mas quando comer, e a gente vai com IA, a gente vai precisar se policiar com informação."
+        },
+        {
+          "timestamp": "01:29:00",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5340",
+          "speaker": "SPEAKER_03",
+          "text": "A gente já precisa, agora por conta de redes sociais, todo mundo."
+        },
+        {
+          "timestamp": "01:29:06",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5346",
+          "speaker": "SPEAKER_03",
+          "text": "A discussão que mais veja no mundo é como se policiar, como é que eu não for ficar procrastinando e passar o dia na rede social, porque tudo isso é muito é muito viciante."
+        },
+        {
+          "timestamp": "01:29:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5358",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não digo nem só porque eles fazem isso para ser viciante, mas porque a gente nós é fácil da gente viciar, porque é gostoso a gente ver um vídeozinho de gatinho e passar um vídeo e ter mais dopamina e vir e mais dopamina."
+        },
+        {
+          "timestamp": "01:29:32",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5372",
+          "speaker": "SPEAKER_03",
+          "text": "Então a gente precisa cada vez mais aprender a se controlar e saber como interagir com as informações e com a IA não é diferente."
+        },
+        {
+          "timestamp": "01:29:39",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5379",
+          "speaker": "SPEAKER_03",
+          "text": "Se a gente começa."
+        },
+        {
+          "timestamp": "01:29:41",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5381",
+          "speaker": "SPEAKER_03",
+          "text": "A discussão, pelo menos para quem programa, é que as pessoas."
+        },
+        {
+          "timestamp": "01:29:46",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5386",
+          "speaker": "SPEAKER_03",
+          "text": "Todo mundo fala que as pessoas estão eu não uso IA, porque se eu usar IA, eu vou parar de saber como se programa, e aí programar é de fato escrever o código, ou é pensar na arquitetura do sistema, e será que não tem como eu aprender como usar o código sem esquecer?"
+        },
+        {
+          "timestamp": "01:30:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5408",
+          "speaker": "SPEAKER_03",
+          "text": "Então você ainda sabe fazer multiplicação, apesar de você ter uma calculadora no seu bolso100% do tempo, e você consegue calcular."
+        },
+        {
+          "timestamp": "01:30:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5418",
+          "speaker": "SPEAKER_03",
+          "text": "Se você quiser, você pode pegar a calculadora para ter certeza."
+        },
+        {
+          "timestamp": "01:30:21",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5421",
+          "speaker": "SPEAKER_03",
+          "text": "Talvez você não calcule números muito grandes, não calcular multiplicações de números muito grandes, como algumas pessoas conseguiam fazer de cabeça antigamente. mas é uma faca de dois comuns, todo lado que a gente tem uma melhoria, a gente tem um trade-off ali, é um curso de oportunidade, e a gente vai ter que entender qual é o nosso qual é o melhor trade-off para a gente aproveitar o máximo da IA, sem que isso nos torne100% dependentes, e completamente ignorantes, e usar a IA para literalmente tudo."
+        },
+        {
+          "timestamp": "01:31:03",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5463",
+          "speaker": "SPEAKER_03",
+          "text": "Eu acho que a gente tem que a gente vai aprender um meio-termo do mesmo jeito que a gente, algumas provas de matemática, não, a gente não pode usar calculadora, mas um pouco mais pra frente eles liberam e a gente pode usar calculadora."
+        },
+        {
+          "timestamp": "01:31:17",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5477",
+          "speaker": "SPEAKER_03",
+          "text": "Eu acho que na educação a gente vai ter algo meio que assim também."
+        },
+        {
+          "timestamp": "01:31:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5482",
+          "speaker": "SPEAKER_03",
+          "text": "Durante um tempo, a gente vai ter muita informação e ser forçado a usar a cabeça, e depois de um tempo o foco vai começar a mudar, depois que a gente já sabe usar bem a cabeça, o foco vai começar a mudar para como usar a cabeça e essa inteligência que a gente dá grandes respostas para não só ter a resposta precisa, mas raciocinar se essa é a resposta certa, se a IA não alucinou uma resposta errada, e como pesquisar da melhor forma possível nessa com a IA, etc e tal."
+        },
+        {
+          "timestamp": "01:31:56",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5516",
+          "speaker": "SPEAKER_02",
+          "text": "Cara, eu gosto."
+        },
+        {
+          "timestamp": "01:31:58",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5518",
+          "speaker": "SPEAKER_02",
+          "text": "É, primeiro, eu conheci esse colégio, eu não lembro o nome, é Alfa, aparentemente."
+        },
+        {
+          "timestamp": "01:32:04",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5524",
+          "speaker": "SPEAKER_02",
+          "text": "Eu lembro que."
+        },
+        {
+          "timestamp": "01:32:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5525",
+          "speaker": "SPEAKER_02",
+          "text": "Me corrige se eu estiver errado, mas pelo que eu me lembro, é algo como."
+        },
+        {
+          "timestamp": "01:32:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5529",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza, cada criança no momento de ensino tem uma inteligência artificial como um tutor, e fora isso, depois de duas horas de aprendizado, o resto é muito mais focado em socialização, em brincadeira e coisas assim."
+        },
+        {
+          "timestamp": "01:32:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5543",
+          "speaker": "SPEAKER_02",
+          "text": "Que me lembra muito o formato homeschocho."
+        },
+        {
+          "timestamp": "01:32:26",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5546",
+          "speaker": "SPEAKER_02",
+          "text": "O formato homeschooling é"
+        },
+        {
+          "timestamp": "01:32:26",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5546",
+          "speaker": "SPEAKER_02",
+          "text": "Homeschooling, no formato homeschooling, eu tenho amigos que começam a fazer homeschooling, eles me falam que ah não, é tipo duas horas para a criança pegar o conteúdo e o resto você não precisa ficar perdendo tempo com isso, e assim eu lembro que uma fonte de grande frustração que eu tenho na minha vida que eu tive na minha vida era ficar entediado no colégio olhando para o teto porque sala de aula com30 pessoas tem10 que estão entediadas porque a aula está muito devagar, tem10 que não estão entendendo porque a aula está muito rápido, e tem a média que a aula é focada neles e eles vão, às vezes está um pouco para trás, às vezes um pouco pra frente, etc."
+        },
+        {
+          "timestamp": "01:33:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5588",
+          "speaker": "SPEAKER_02",
+          "text": "Então o que eu fico pensando é assim, o quanto você aprende mais rápido tendo uma aula particular e tendo um tutor particular, versus uma aula num coletivo tão grande, e isso é sóóbvio, na verdade, então talvez assim, um caminho sei lá, seja realmente essa questão de beleza, no momento da aula, a inteligência artificial enable te permite ter um tutor individualizado que você ajuda, você faz o papel de orientador, mas o tutor é a inteligência artificial, e sobra muito mais nesse espaço de educação uma preocupação com socialização, com pô, vamos fazer isso com um grupo de várias pessoas, etc.,"
+        },
+        {
+          "timestamp": "01:33:48",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5628",
+          "speaker": "SPEAKER_02",
+          "text": "do que necessariamente a parte conteúdista, porque isso aí ajuda, só que que nem você falou numa outra hora, as pessoas ainda vão querer conexão, né?"
+        },
+        {
+          "timestamp": "01:33:57",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5637",
+          "speaker": "SPEAKER_02",
+          "text": "Então, tipo, não é só o conteúdo aqui dentro do cérebro, é todo o resto dentro do contexto de educação que faz sentido."
+        },
+        {
+          "timestamp": "01:34:05",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5645",
+          "speaker": "SPEAKER_03",
+          "text": "É, e eu só."
+        },
+        {
+          "timestamp": "01:34:07",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5647",
+          "speaker": "SPEAKER_03",
+          "text": "Um ponto que eu acho que é bom clarificar, que não é socialização o resto da aula."
+        },
+        {
+          "timestamp": "01:34:14",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5654",
+          "speaker": "SPEAKER_03",
+          "text": "O resto da."
+        },
+        {
+          "timestamp": "01:34:16",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5656",
+          "speaker": "SPEAKER_03",
+          "text": "Ele tem essas duas horas focado na frente da tela, aprendendo com a Ian, e eles têm um tutor, que o tutor é meio."
+        },
+        {
+          "timestamp": "01:34:24",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5664",
+          "speaker": "SPEAKER_03",
+          "text": "O Toro é meio é um facilitador, ele não é um professor, ele é ele é um facilitador que está ali para resolver questões emocionais, dúvidas, não só dúvidas de conteúdo, na verdade é bem pouco de dúvida de conteúdo, porque as dúvidas de conteúdo são tiradas pela IA, muitas vezes, e a IA muitas vezes explica muito melhor do que qualquer professor explicaria, porque é totalmente personalizado para o aluno, mas é uma questão um pouco mais de vida, e aí, depois dessas duas horas, eles não tem socialização de fato, é tipo, só beleza, agora está todo mundo junto e vão brincar, tem projetos, e aí esses projetos podem ser projetos que são mais sociais, tipo, tipo esportes, por exemplo, tem esse lado, tem gente que vai fazer outras coisas, mas tem, por exemplo, pessoas que teve essa menina aí que fez um ar fez um artigo pra Nature, teve."
+        },
+        {
+          "timestamp": "01:35:29",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5729",
+          "speaker": "SPEAKER_03",
+          "text": "Tem gente que resolve."
+        },
+        {
+          "timestamp": "01:35:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5734",
+          "speaker": "SPEAKER_03",
+          "text": "E eles se juntam e criam uma empresa e gerenciam o Airbnb, por exemplo."
+        },
+        {
+          "timestamp": "01:35:40",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5740",
+          "speaker": "SPEAKER_03",
+          "text": "E lá, então assim, não é só brincadeira, eles estão aprendendo contabilidade, eles estão aprendendo administração, estão aprendendo muitas outras coisas, mas depois."
+        },
+        {
+          "timestamp": "01:35:54",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5754",
+          "speaker": "SPEAKER_03",
+          "text": "Depois eu vou te mandar o podcast, e aí você aproveita e coloca no ali no ali embaixo no conteúdo, e que vale muito a pena, que é muito interessante essa questão de dos incentivos, então eles ganham, quando eles vão fazendo as aulas, eles ganham tipo uma moedinha da escola, e eles podem gastar essa moedinha com várias coisas, e, por exemplo, teve gente que usou isso aí pra viajar para conhecer artistas famosos que artistas de teatro, por exemplo, ou então de artista de música, porque o projeto deles era instrumento ou teatro, então eles ganham essa moedinha, esses incentivos que eles vão podendo gastar, e é muito muito interessante um dos casos que ele que o rei da escola conta e é de um aluno que ele era tipo nota8 em matemática, e aí ele viu pô, porque ele é nota8 em matemática."
+        },
+        {
+          "timestamp": "01:37:07",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5827",
+          "speaker": "SPEAKER_03",
+          "text": "Ele falta a base, e aí o que ele falta?"
+        },
+        {
+          "timestamp": "01:37:12",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5832",
+          "speaker": "SPEAKER_03",
+          "text": "Falta um conteúdo da quarta série, mas ele tá na oitava, ele podia melhorar na quarta série, e aí só que você chega pro aluno e fala, pô, vamos fazer o conteúdo ali da quarta série, treinar esse conteúdo pra você ficar bom, melhorar ele, ah, não, já tô com o8, você fala para os pais, pô, aí ele pô, meu filho vai voltar a fazer coisa da quarta série, que tem um pai tem essa questão do ego também, e aí o que eles fazem?"
+        },
+        {
+          "timestamp": "01:37:36",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5856",
+          "speaker": "SPEAKER_03",
+          "text": "Eles fazem vamos fazer o seguinte, se eu te pagar100 dólares, você você faz o pra você fazer o todo o conteúdo de matemática da quarta série e tirar tirar10 em tudo, você aceita?"
+        },
+        {
+          "timestamp": "01:37:50",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5870",
+          "speaker": "SPEAKER_03",
+          "text": "Ele, porra,100 dólares, claro, e aí vai lá e faz o conteúdo inteiro, e o ainda mais quanta série, pô, eu já sei tudo isso, vai ser fácil pra mim."
+        },
+        {
+          "timestamp": "01:38:01",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5881",
+          "speaker": "SPEAKER_03",
+          "text": "Vai lá e rapidinho faz, e aí, e se e se eu te pagar mais50 dólares, você faz da quinta, você faz a sexta, e ele vai preenchendo os gaps anteriores que ele tinha, e talvez ele não sabia que tivesse, ele vai preenchendo esses gaps anteriores, e aí quando ele chega no conteúdo atual dele, ele que era um aluno oito."
+        },
+        {
+          "timestamp": "01:38:20",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5900",
+          "speaker": "SPEAKER_03",
+          "text": "Ele que era um aluno8, virou um aluno10."
+        },
+        {
+          "timestamp": "01:38:24",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5904",
+          "speaker": "SPEAKER_03",
+          "text": "Entendeu?"
+        },
+        {
+          "timestamp": "01:38:25",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5905",
+          "speaker": "SPEAKER_03",
+          "text": "Então, assim, é genial, assim, aquele podcast é muito genial."
+        },
+        {
+          "timestamp": "01:38:31",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5911",
+          "speaker": "SPEAKER_03",
+          "text": "E então, assim, eu vejo que a gente vai."
+        },
+        {
+          "timestamp": "01:38:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5914",
+          "speaker": "SPEAKER_03",
+          "text": "Se talvez surjam outras coisas, a gente vai seguir aí um pouco mais voltado pra esse nível."
+        },
+        {
+          "timestamp": "01:38:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5923",
+          "speaker": "SPEAKER_03",
+          "text": "Inclusive, eles já estão fazendo o programa Open Source pra quem faz home school em Alce."
+        },
+        {
+          "timestamp": "01:38:52",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5932",
+          "speaker": "SPEAKER_03",
+          "text": "Então, quem."
+        },
+        {
+          "timestamp": "01:38:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5935",
+          "speaker": "SPEAKER_03",
+          "text": "Quem faz um home schooling dos filhos em Alce já vai ter acesso, acho que gratuito, se eu não me engano, a isso, a esse software de AI dele."
+        },
+        {
+          "timestamp": "01:39:04",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5944",
+          "speaker": "SPEAKER_03",
+          "text": "E então, acho que logo, logo eles vão dominar o mundo aí."
+        },
+        {
+          "timestamp": "01:39:08",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5948",
+          "speaker": "SPEAKER_03",
+          "text": "É uma coisa."
+        },
+        {
+          "timestamp": "01:39:09",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5949",
+          "speaker": "SPEAKER_03",
+          "text": "Eu sou muito fã deles."
+        },
+        {
+          "timestamp": "01:39:10",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5950",
+          "speaker": "SPEAKER_02",
+          "text": "Não, maravilha, a gente tem alguns anos pra isso chegar aqui no Brasil."
+        },
+        {
+          "timestamp": "01:39:14",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5954",
+          "speaker": "SPEAKER_02",
+          "text": "Tipo, e dar tempo."
+        },
+        {
+          "timestamp": "01:39:16",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5956",
+          "speaker": "SPEAKER_02",
+          "text": "Porque é só pensar o ritmo que essas porra todas estão melhorando, né?"
+        },
+        {
+          "timestamp": "01:39:20",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5960",
+          "speaker": "SPEAKER_02",
+          "text": "O que são5,6 anos."
+        },
+        {
+          "timestamp": "01:39:22",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5962",
+          "speaker": "SPEAKER_02",
+          "text": "É, cara, eu nem geralmente eu encerro o podcast perguntando se tem alguma coisa que a gente deixou de fora que você quer trazer, mas num papo de A, isso é impossível, porque assim, tem um milhão de coisas que a gente deixou de fora."
+        },
+        {
+          "timestamp": "01:39:35",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5975",
+          "speaker": "SPEAKER_02",
+          "text": "Então, é mais do que isso que eu vou te dizer é assim."
+        },
+        {
+          "timestamp": "01:39:39",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5979",
+          "speaker": "SPEAKER_02",
+          "text": "Com certeza a gente vai ter que conversar sobre a sociedade, etc."
+        },
+        {
+          "timestamp": "01:39:43",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5983",
+          "speaker": "SPEAKER_02",
+          "text": "Acho que uma vez por ano, uma vez a cada dois anos, você ir trazendo esse tipo de atualização, e pra gente ir vendo como fazer educação dos filhos baseado em um mundo cada vez mais."
+        },
+        {
+          "timestamp": "01:39:55",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5995",
+          "speaker": "SPEAKER_02",
+          "text": "cada vez mais saturado de A."
+        },
+        {
+          "timestamp": "01:39:57",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=5997",
+          "speaker": "SPEAKER_02",
+          "text": "Cada vez com IA, o bico em tudo, né?"
+        },
+        {
+          "timestamp": "01:40:00",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=6000",
+          "speaker": "SPEAKER_02",
+          "text": "Então, acho que por hoje é só agradecer muito o seu tempo, acho que já estamos uma hora e40, geralmente eu tento fazer uma hora e15, uma hora e10, pra não puxar muito tempo, mas não tinha como esse papo ser curto mesmo."
+        },
+        {
+          "timestamp": "01:40:14",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=6014",
+          "speaker": "SPEAKER_02",
+          "text": "Então, cara, muito obrigado por mais uma vez você deu uma parte da sua agenda, e muito obrigado."
+        },
+        {
+          "timestamp": "01:40:18",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=6018",
+          "speaker": "SPEAKER_02",
+          "text": "A parte da sua agenda e muito obrigado pelo seu tempo e até a próxima."
+        },
+        {
+          "timestamp": "01:40:23",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=6023",
+          "speaker": "SPEAKER_03",
+          "text": "O prazer é meu, sempre você chamar, eu tô aí, eu tô."
+        },
+        {
+          "timestamp": "01:40:27",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=6027",
+          "speaker": "SPEAKER_03",
+          "text": "É sempre muito divertido."
+        },
+        {
+          "timestamp": "01:40:29",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=6029",
+          "speaker": "SPEAKER_03",
+          "text": "Eu gosto muito, ainda mais falando o que eu mais gosto."
+        },
+        {
+          "timestamp": "01:40:32",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=6032",
+          "speaker": "SPEAKER_02",
+          "text": "Valeu, meu querido."
+        },
+        {
+          "timestamp": "01:40:34",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=6034",
+          "speaker": "SPEAKER_02",
+          "text": "Aquele abraço, então, e até a próxima."
+        },
+        {
+          "timestamp": "01:40:36",
+          "href": "https://www.youtube.com/watch?v=sqle4sHCdEQ&t=6036",
+          "speaker": "SPEAKER_03",
+          "text": "Grande abraço, até mais."
+        }
+      ]
+    }
+  ]
+}

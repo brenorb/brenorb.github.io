@@ -438,3 +438,77 @@ header .entry-meta {
 		font-size: 1.9rem;
 	}
 }
+
+.transcript-jump {
+	margin: 0.75rem 0 1.5rem;
+	@include font-rem(13);
+	color: lighten($color_tuatara, 18);
+
+	a {
+		color: inherit;
+		text-decoration: underline;
+		text-decoration-style: dotted;
+	}
+}
+
+.media-transcripts {
+	margin-top: 2rem;
+	padding-top: 1rem;
+	border-top: 1px solid rgba($color_tuatara, 0.12);
+}
+
+.media-transcript {
+	margin-top: 1rem;
+	border: 1px solid rgba($color_tuatara, 0.12);
+	border-radius: 6px;
+	background: rgba($white, 0.88);
+
+	summary {
+		cursor: pointer;
+		list-style: none;
+		padding: 0.9rem 1rem;
+		font-weight: 600;
+	}
+
+	summary::-webkit-details-marker {
+		display: none;
+	}
+}
+
+.media-transcript__summary-meta {
+	margin-left: 0.5rem;
+	font-weight: 400;
+	color: lighten($color_tuatara, 25);
+}
+
+.media-transcript__body {
+	padding: 0 1rem 1rem;
+}
+
+.media-transcript__source {
+	margin: 0 0 0.8rem;
+	@include font-rem(13);
+	color: lighten($color_tuatara, 20);
+}
+
+.media-transcript__lines {
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+
+	li {
+		margin-top: 0.8rem;
+		line-height: 1.65;
+	}
+}
+
+.media-transcript__stamp {
+	display: inline-block;
+	min-width: 3.5rem;
+	margin-right: 0.55rem;
+	font-variant-numeric: tabular-nums;
+}
+
+.media-transcript__speaker {
+	margin-right: 0.45rem;
+}

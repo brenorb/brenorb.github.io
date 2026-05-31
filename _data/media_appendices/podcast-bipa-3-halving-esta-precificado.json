@@ -1,0 +1,3191 @@
+{
+  "items": [
+    {
+      "id": "podcast-bipa-3-halving-esta-precificado",
+      "slug": "podcast-bipa-3-halving-esta-precificado",
+      "label": "Transcricao diarizada",
+      "source_label": "YouTube",
+      "source_url": "https://www.youtube.com/watch?v=ekQtXuTDOIs",
+      "stats": {
+        "line_count": 529,
+        "speaker_count": 3
+      },
+      "lines": [
+        {
+          "timestamp": "00:14",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=14",
+          "speaker": "SPEAKER_01",
+          "text": "Fala, galera, tudo bem com vocês?"
+        },
+        {
+          "timestamp": "00:17",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=17",
+          "speaker": "SPEAKER_01",
+          "text": "No Bipacast de hoje, eu conversei com o Breno Brito sobre a pergunta que muitas pessoas se fazem, que é o Halving já está precificado."
+        },
+        {
+          "timestamp": "00:29",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=29",
+          "speaker": "SPEAKER_01",
+          "text": "Para isso a gente contextualizou o que é o Halving, o que significa estar precificado, que é uma definição também que não existe um consenso tão grande, e também entramos bastante num tema que chama hipótese do mercado eficiente, que é um hipótese do mercado tradicional, que acredita que todas as informações já estão contidas no preço."
+        },
+        {
+          "timestamp": "00:55",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=55",
+          "speaker": "SPEAKER_01",
+          "text": "Ou seja, se o preço tá mostrando um valor, ele está levando em conta todas as informações que existem em relação a um determinado ativo, ação, Bitcoin e investimento."
+        },
+        {
+          "timestamp": "01:09",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=69",
+          "speaker": "SPEAKER_01",
+          "text": "A gente dá nossa opinião sobre se a gente acredita ou não nessa hipótese, e se aprofundam um pouco nela."
+        },
+        {
+          "timestamp": "01:17",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=77",
+          "speaker": "SPEAKER_01",
+          "text": "Então, sem mais delongas, vamos para o episódio."
+        },
+        {
+          "timestamp": "01:23",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=83",
+          "speaker": "SPEAKER_01",
+          "text": "Bom, bem-vindo, Bruno."
+        },
+        {
+          "timestamp": "01:26",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=86",
+          "speaker": "SPEAKER_01",
+          "text": "Já conversamos diversas vezes, tanto ao vivo, quanto em outros podcasts, mas nunca pelo podcast da Bipa."
+        },
+        {
+          "timestamp": "01:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=94",
+          "speaker": "SPEAKER_01",
+          "text": "É um podcast novo, estamos começando, então, vamos imaginar que talvez tenha pessoas novas no público, então, deixa eu pedir para você se apresentar novamente."
+        },
+        {
+          "timestamp": "01:45",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=105",
+          "speaker": "SPEAKER_01",
+          "text": "Então, quem é o Bruno Brito, qual é a sua formação, e também conta um pouco da sua trajetória dentro do universo Bitcoin."
+        },
+        {
+          "timestamp": "01:55",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=115",
+          "speaker": "SPEAKER_02",
+          "text": "Legal."
+        },
+        {
+          "timestamp": "01:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=117",
+          "speaker": "SPEAKER_02",
+          "text": "Primeiro de tudo, obrigado aí por ter me. convidado."
+        },
+        {
+          "timestamp": "02:00",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=120",
+          "speaker": "SPEAKER_02",
+          "text": "Mais uma vez a gente conversando é sempre muito legal ter esses papos, prazer, gente, eu sou Breno, eu sou formado em engenharia elétrica e me formei lá em2013, trabalhei com fui para o mercado financeiro em seguida."
+        },
+        {
+          "timestamp": "02:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=140",
+          "speaker": "SPEAKER_02",
+          "text": "Eu trabalhei com meu trabalho de conclusão foi mercado foi inteligência artificial aplicada no mercado financeiro, e aí eu fui para o lado do mercado financeiro e eu já conhecia o Bitcoin mais ou menos, até que em2017 eu vi tá muita coisa rolando, e Bitcoin tá subindo, tá esse boom market aí maluco."
+        },
+        {
+          "timestamp": "02:48",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=168",
+          "speaker": "SPEAKER_02",
+          "text": "Eu vou criar uma empresa, não tem empresas sérias trabalhando aí."
+        },
+        {
+          "timestamp": "02:52",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=172",
+          "speaker": "SPEAKER_02",
+          "text": "Criei uma empresa, nessa época foi investindo, foi acelerado, e eu não parei de trabalhar com Bitcoin desde então, então eu tenho esses meio que três pilares aí, a parte Bitcoin, a parte financeira, e a parte de data science, né?"
+        },
+        {
+          "timestamp": "03:08",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=188",
+          "speaker": "SPEAKER_02",
+          "text": "Inteligência artificial, data ciência de dados, análise de dados, etc."
+        },
+        {
+          "timestamp": "03:14",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=194",
+          "speaker": "SPEAKER_01",
+          "text": "Boa."
+        },
+        {
+          "timestamp": "03:15",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=195",
+          "speaker": "SPEAKER_01",
+          "text": "Eu sei que não é o tema do podcast de hoje, mas acho que para ajudar os nossos ouvintes a se contextualizar um pouco mais."
+        },
+        {
+          "timestamp": "03:24",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=204",
+          "speaker": "SPEAKER_01",
+          "text": "Fala um pouquinho desse último projeto que você está lá trabalhando, que o inteligência artificial com o mundo do Bitcoin, ou Spirit of Satoshi."
+        },
+        {
+          "timestamp": "03:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=213",
+          "speaker": "SPEAKER_02",
+          "text": "Claro, então, o Bitcoin é um tema que é muito legal, mas ele é muito diferente para quem nunca viu, então, quem é a primeira vez que alguém olha, parece uma coisa de outro mundo, né?"
+        },
+        {
+          "timestamp": "03:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=227",
+          "speaker": "SPEAKER_02",
+          "text": "Tem um é super comum a gente ter que explicar várias e várias e várias vezes para, às vezes até para as mesmas pessoas, até a pessoa começar a entender, porque."
+        },
+        {
+          "timestamp": "03:56",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=236",
+          "speaker": "SPEAKER_02",
+          "text": "É a pessoa começar a entender, porque é realmente outro mundo, né?"
+        },
+        {
+          "timestamp": "03:59",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=239",
+          "speaker": "SPEAKER_02",
+          "text": "Ele assume até, inclusive, uma outra ótica sobre o próprio dinheiro, que inclusive vários economistas aí tem dificuldade de entender o que está acontecendo justamente por isso, é meio que uma teoria diferente da mais corrente atual, e aí a gente criou uma inteligência artificial."
+        },
+        {
+          "timestamp": "04:21",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=261",
+          "speaker": "SPEAKER_02",
+          "text": "Quem já conhece aí o chat GPT, alguma coisa assim, são uma inteligência artificial de linguagem, ou seja, você escreve alguma coisa, ela te responde, ela é como se você estivesse conversando com alguém."
+        },
+        {
+          "timestamp": "04:37",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=277",
+          "speaker": "SPEAKER_02",
+          "text": "Então a gente fez um treinamento dessa inteligência artificial para ela poder ajudar as pessoas que estão conhecendo aí o Bitcoin, então tem vários."
+        },
+        {
+          "timestamp": "04:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=289",
+          "speaker": "SPEAKER_02",
+          "text": "Ela consegue, você consegue tirar várias dúvidas sobre Bitcoin lá, e a gente fez algumas mais específicas também, focado mais no aspecto técnico, e em código especificamente."
+        },
+        {
+          "timestamp": "05:00",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=300",
+          "speaker": "SPEAKER_02",
+          "text": "Então tem se você vai programar, por exemplo, o MiniScript, que é uma linguagem de contrato inteligente do Bitcoin, você consegue usar uma das inteligências artificiais que a gente criou para te ajudar a desenvolver esses contratos."
+        },
+        {
+          "timestamp": "05:17",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=317",
+          "speaker": "SPEAKER_01",
+          "text": "Boa."
+        },
+        {
+          "timestamp": "05:19",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=319",
+          "speaker": "SPEAKER_01",
+          "text": "Você tipo, continuando nessa contextualização, você também está para publicar um livro, a gente estava conversando em obvio e você recebeu a revisão final hoje."
+        },
+        {
+          "timestamp": "05:30",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=330",
+          "speaker": "SPEAKER_01",
+          "text": "Conta também um minutinho o que é esse livro, o que as pessoas que estão vendo aqui podem esperar dele."
+        },
+        {
+          "timestamp": "05:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=338",
+          "speaker": "SPEAKER_02",
+          "text": "Claro, claro."
+        },
+        {
+          "timestamp": "05:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=340",
+          "speaker": "SPEAKER_02",
+          "text": "O livro ele se chama Sem Uma Pergunta sobre Bitcoin, é uma ideia relativamente simples."
+        },
+        {
+          "timestamp": "05:50",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=350",
+          "speaker": "SPEAKER_02",
+          "text": "Tô tentando."
+        },
+        {
+          "timestamp": "05:51",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=351",
+          "speaker": "SPEAKER_02",
+          "text": "O objetivo do livro é pegar alguém que não saiba nada, esteja. no zero, levar ele até ter um conhecimento robusto o suficiente para conseguir se virar sozinho, para conseguir conversar com outras pessoas, entender do que estão falando para se virar sozinho."
+        },
+        {
+          "timestamp": "06:08",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=368",
+          "speaker": "SPEAKER_02",
+          "text": "Ele é estruturado de forma para ser bem prático, então ele, cada capítulo é uma pergunta, e a pergunta tem uma resposta que é relativamente curta, algumas são mais curtas, outras são mais longas, dependendo da complexidade do assunto, e do nível de mito que eu tenho que desfazer, algumas vezes, eu tenho que desmistificar alguns assuntos antes, mas eu tento deixar ele extremamente objetivo, mas sem ficar também quadrado, digamos assim, de uma forma que seja gostoso de ler."
+        },
+        {
+          "timestamp": "06:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=407",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, ele é muito bom para quem para quem não tem muito tempo, consegue ir nas perguntas que tem dúvida, para a pessoa que não sabe nada, e eu tentei fazer o máximo de esforço possível para ele ficar muito interessante também para quem já conhece, trazer algumas curiosidades, algumas coisinhas interessantes aí no meio do livro, algumas perspectivas diferentes, às vezes."
+        },
+        {
+          "timestamp": "07:12",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=432",
+          "speaker": "SPEAKER_01",
+          "text": "Boa."
+        },
+        {
+          "timestamp": "07:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=433",
+          "speaker": "SPEAKER_01",
+          "text": "É, como o pessoal já está sabendo, né?"
+        },
+        {
+          "timestamp": "07:16",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=436",
+          "speaker": "SPEAKER_01",
+          "text": "Que eu conversei conversando aqui com você, não fiz uma introdução, mas porque eu nesse podcast tem um gravado introdução para colocar antes."
+        },
+        {
+          "timestamp": "07:24",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=444",
+          "speaker": "SPEAKER_01",
+          "text": "O tema que a gente vai conversar hoje é se o Halving já está precificado."
+        },
+        {
+          "timestamp": "07:30",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=450",
+          "speaker": "SPEAKER_01",
+          "text": "Vai acontecer esse mês."
+        },
+        {
+          "timestamp": "07:32",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=452",
+          "speaker": "SPEAKER_01",
+          "text": "Então, primeiro queria te perguntar o que é o Hoving."
+        },
+        {
+          "timestamp": "07:37",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=457",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza, o que é o Hoving."
+        },
+        {
+          "timestamp": "07:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=460",
+          "speaker": "SPEAKER_02",
+          "text": "O Bitcoin, ele é uma moeda, ele tem uma."
+        },
+        {
+          "timestamp": "07:45",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=465",
+          "speaker": "SPEAKER_02",
+          "text": "Ele tem uma taxa de emissão."
+        },
+        {
+          "timestamp": "07:48",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=468",
+          "speaker": "SPEAKER_02",
+          "text": "Quando o Bitcoin surgiu, não existiam Bitcoins e o Satoshi não. surgiu com todos, ele surgiu sem nada, e você tem que fazer alguma coisa para gerar bitcoins novos."
+        },
+        {
+          "timestamp": "08:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=481",
+          "speaker": "SPEAKER_02",
+          "text": "Isso aí foi uma forma do Satoshi Nakamoto conseguir fazer uma distribuição justa, é porque se ele pega todos pra ele e vende e faz alguma coisa, tem muito abre muito espaço para viés, para injustiças."
+        },
+        {
+          "timestamp": "08:17",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=497",
+          "speaker": "SPEAKER_02",
+          "text": "Então ele fez, ele pensou numa forma como o ouro, o ouro ele já existe na crosta da terra e você minera esse ouro, e quanto mais você minera, mais difícil fica de minerar no futuro, e ele vai diminuindo a quantidade no mundo até que você minera todo o ouro que existe no planeta Terra, e você transaciona, pensando numa ideia dele sendo moeda, né?"
+        },
+        {
+          "timestamp": "08:44",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=524",
+          "speaker": "SPEAKER_02",
+          "text": "Você transaciona ele com o que ele já existe, então a ideia da mineração é justamente isso."
+        },
+        {
+          "timestamp": "08:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=529",
+          "speaker": "SPEAKER_02",
+          "text": "Você emite novos bitcoins, os mineradores emitem novos bitcoins, só que eles não podem emitir para sempre, eu tenho uma hora que tem que acabar."
+        },
+        {
+          "timestamp": "09:02",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=542",
+          "speaker": "SPEAKER_02",
+          "text": "Para ter uma ter uma supply, uma oferta finita, e para ele acabar, você tem que ter alguma forma de ir diminuindo essa emissão, e essa diminuição é o Halving, que significa literalmente dividir pela metade, então a cada quatro anos, aproximadamente, essa emissão de bitcoins vai sendo diminuída pela metade, até que aproximadamente2.140"
+        },
+        {
+          "timestamp": "09:28",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=568",
+          "speaker": "SPEAKER_02",
+          "text": "nunca mais vai surgir nenhum Bitcoin novo e a gente vai se manter com uma oferta constante."
+        },
+        {
+          "timestamp": "09:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=575",
+          "speaker": "SPEAKER_02",
+          "text": "Então o Halving é justamente essa diminuição de emissão."
+        },
+        {
+          "timestamp": "09:39",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=579",
+          "speaker": "SPEAKER_01",
+          "text": "Boa."
+        },
+        {
+          "timestamp": "09:39",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=579",
+          "speaker": "SPEAKER_01",
+          "text": "Essa é da parte simples da pergunta, né?"
+        },
+        {
+          "timestamp": "09:43",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=583",
+          "speaker": "SPEAKER_01",
+          "text": "E se o Halvens está precificado, como pergunta, a gente precisa entender o que é o Halving e dois, o que significa estar precificado?"
+        },
+        {
+          "timestamp": "09:50",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=590",
+          "speaker": "SPEAKER_01",
+          "text": "Fica estar precificado."
+        },
+        {
+          "timestamp": "09:51",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=591",
+          "speaker": "SPEAKER_01",
+          "text": "Então agora eu te pergunto o que significa estar precificado."
+        },
+        {
+          "timestamp": "09:56",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=596",
+          "speaker": "SPEAKER_02",
+          "text": "Ok, essa parte é mais complexa mesmo."
+        },
+        {
+          "timestamp": "10:02",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=602",
+          "speaker": "SPEAKER_02",
+          "text": "Vou talvez essa resposta seja um pouco grande, qualquer coisa."
+        },
+        {
+          "timestamp": "10:07",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=607",
+          "speaker": "SPEAKER_02",
+          "text": "Se eu se eu pular algum raciocínio ou alguma coisa no meio do caminho, você me interrompe e me pergunta, mas para a gente entender o que é estar precificado, a gente tem que ir ali para o mercado de ações."
+        },
+        {
+          "timestamp": "10:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=620",
+          "speaker": "SPEAKER_02",
+          "text": "Então, no mercado de ações, você vai comprar uma."
+        },
+        {
+          "timestamp": "10:23",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=623",
+          "speaker": "SPEAKER_02",
+          "text": "Pensar primeiro no mercado de ações, você vai comprar uma."
+        },
+        {
+          "timestamp": "10:27",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=627",
+          "speaker": "SPEAKER_02",
+          "text": "Vamos colocar aí a ação da Petrobras."
+        },
+        {
+          "timestamp": "10:29",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=629",
+          "speaker": "SPEAKER_02",
+          "text": "Você vai quando você vai comprar uma ação da Petrobras, você tem vários motivos diferentes que podem te influenciar a comprar, ou a não comprar, ou até tentar entrar vendido no mercado apostar que vai cair."
+        },
+        {
+          "timestamp": "10:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=647",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, quando você vai comprar, o que a princípio todo mundo deveria fazer de alguma forma, era sendo investidor, né?"
+        },
+        {
+          "timestamp": "10:59",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=659",
+          "speaker": "SPEAKER_02",
+          "text": "É você pensar, beleza?"
+        },
+        {
+          "timestamp": "11:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=661",
+          "speaker": "SPEAKER_02",
+          "text": "Eu vou comprar Petrobras, quanto é que vale a Petrobras, porque se a Petrobras vale10 e eu tô pagando11, então eu tô pagando caro."
+        },
+        {
+          "timestamp": "11:12",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=672",
+          "speaker": "SPEAKER_02",
+          "text": "Como é que eu sei?"
+        },
+        {
+          "timestamp": "11:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=673",
+          "speaker": "SPEAKER_02",
+          "text": "Para eu estar investindo em alguma coisa, eu tô investindo porque eu acho que esse preço tá barato, então primeiro de tudo, a gente tem que ter um modelo, tem que tentar precificar de alguma forma, fazer um valuation."
+        },
+        {
+          "timestamp": "11:29",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=689",
+          "speaker": "SPEAKER_02",
+          "text": "Tem inúmeras formas de fazer valuation, tem valuations que você consegue fazer de forma absoluta, onde você no final fala Petrobras vale30 reais por ação."
+        },
+        {
+          "timestamp": "11:41",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=701",
+          "speaker": "SPEAKER_02",
+          "text": "Ponto."
+        },
+        {
+          "timestamp": "11:42",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=702",
+          "speaker": "SPEAKER_02",
+          "text": "Tem evaluations que são de forma relativa, como, por exemplo, ah, tem uma outra empresa petrolífera, sei lá."
+        },
+        {
+          "timestamp": "11:48",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=708",
+          "speaker": "SPEAKER_02",
+          "text": "A empresa petrolífera, sei lá, a Shell, que ela trabalha com alguma coisa parecida, e o preço dela tá ela é duas vezes melhor que a Petrobras."
+        },
+        {
+          "timestamp": "12:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=721",
+          "speaker": "SPEAKER_02",
+          "text": "Mas a Petrobras vale metade do preço dela, então tem isso é uma é um valuation relativo."
+        },
+        {
+          "timestamp": "12:09",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=729",
+          "speaker": "SPEAKER_02",
+          "text": "Você tenta descobrir uma precificação relativa do ativo, você tenta usar outros ativos similares para tentar encontrar, então é isso aí, é isso aí é o é a precificação."
+        },
+        {
+          "timestamp": "12:22",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=742",
+          "speaker": "SPEAKER_02",
+          "text": "Você está tentando descobrir o preço que faz sentido você comprar ou não você está tentando atribuir um preço para um ativo, beleza."
+        },
+        {
+          "timestamp": "12:32",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=752",
+          "speaker": "SPEAKER_02",
+          "text": "Então você está precificando esse ativo, você está atribuindo preço."
+        },
+        {
+          "timestamp": "12:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=758",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, como é que o poderia estar precificado ou não estar precificado, o é um evento que acontece no Bitcoin, né?"
+        },
+        {
+          "timestamp": "12:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=769",
+          "speaker": "SPEAKER_02",
+          "text": "Ele existem várias teorias sobre ele afetar ou não afetar o preço do Bitcoin, então a ideia de ele já estar precificado significa que várias pessoas correram na frente e compraram Bitcoin, fazendo o preço subir o suficiente para anular essa variação de preço do Hovind."
+        },
+        {
+          "timestamp": "13:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=800",
+          "speaker": "SPEAKER_02",
+          "text": "Então, se a gente voltar para o exemplo da Petrobras, para a gente tentar pegar uma coisa um pouco mais, digamos assim, palpável, vamos dizer que a Petrobras descobre que tem um novo posto de petróleo e vai e ela vai estar valendo30%, e na verdade o preço justo é35%, com essa descoberta do novo preço de petróleo."
+        },
+        {
+          "timestamp": "13:44",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=824",
+          "speaker": "SPEAKER_02",
+          "text": "Então, enquanto ninguém sabe, o preço continua ali. por volta de30."
+        },
+        {
+          "timestamp": "13:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=829",
+          "speaker": "SPEAKER_02",
+          "text": "Só que o que acontece é que, eventualmente, alguma pessoa pode ter vazado a informação, pode ser que alguém pensou, pô, tem muito engenheiro nessa plataforma tal aqui, tem muito material indo para esse canto."
+        },
+        {
+          "timestamp": "14:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=844",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que deve ter alguma coisa acontecendo ali para esse tanto de material estar indo para lá, provavelmente eles estão construindo um negócio enorme porque eles acharam um poço enorme ali."
+        },
+        {
+          "timestamp": "14:16",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=856",
+          "speaker": "SPEAKER_02",
+          "text": "E aí eles fazem uma estimativa, e então pode ser vários tipos de rumor diferentes, né?"
+        },
+        {
+          "timestamp": "14:23",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=863",
+          "speaker": "SPEAKER_02",
+          "text": "E quando isso eventualmente vaza, as pessoas começam a se movimentar em relação a isso."
+        },
+        {
+          "timestamp": "14:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=874",
+          "speaker": "SPEAKER_02",
+          "text": "Elas começam a."
+        },
+        {
+          "timestamp": "14:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=875",
+          "speaker": "SPEAKER_02",
+          "text": "Pô, a Petrobras está valendo35, mas agora ela vale30%."
+        },
+        {
+          "timestamp": "14:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=880",
+          "speaker": "SPEAKER_02",
+          "text": "Então eu vou comprar, porque está muito barato."
+        },
+        {
+          "timestamp": "14:44",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=884",
+          "speaker": "SPEAKER_02",
+          "text": "E aí a pessoa compra30, empurra o preço ali para31, outras pessoas compra31, que empurra o preço para32, e até que vai ao35%."
+        },
+        {
+          "timestamp": "14:53",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=893",
+          "speaker": "SPEAKER_02",
+          "text": "E esse é o uma das razões que as pessoas falam que se compra o rumor e vende a notícia."
+        },
+        {
+          "timestamp": "15:03",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=903",
+          "speaker": "SPEAKER_02",
+          "text": "No mercado financeiro tem muita gente que tem esse ditado, né?"
+        },
+        {
+          "timestamp": "15:07",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=907",
+          "speaker": "SPEAKER_02",
+          "text": "O compra o rumor e vende a notícia."
+        },
+        {
+          "timestamp": "15:09",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=909",
+          "speaker": "SPEAKER_02",
+          "text": "Ou seja, você tem essa ideia de que vai."
+        },
+        {
+          "timestamp": "15:14",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=914",
+          "speaker": "SPEAKER_02",
+          "text": "Que a Petrobras teve essa coisa, chegou e comprou até o preço subir, mas aí quando chega a notícia, e a Petrobras anuncia que de fato aconteceu isso daí, de fato eles encontrarem isso daí, e eles vão ter isso daí."
+        },
+        {
+          "timestamp": "15:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=933",
+          "speaker": "SPEAKER_02",
+          "text": "Esse valor adicional que aumenta no preço da Petrobras, ele já foi adicionado durante a fase do rumor."
+        },
+        {
+          "timestamp": "15:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=940",
+          "speaker": "SPEAKER_02",
+          "text": "Então alguém que resolveu fazer somente um trade, fazer um trade desse rumor. ele comprou antes, e ali naquele momento ele vende, então ele vende a ele compra o humor, vende a notícia, e é por isso que muitas vezes a gente vê um empresa que tem um resultado muito bom, mas o valor da ação cai, porque esse resultado muito bom, ele já estava sendo esperado pelo mercado, as pessoas já tinham se movimentado, e depois que o resultado sai, beleza, era justamente isso que eu queria, já agora eu posso vender, colocar o lucro no bolso, e aí eu."
+        },
+        {
+          "timestamp": "16:18",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=978",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, quem compra a notícia, às vezes é se surpreende o preço cai."
+        },
+        {
+          "timestamp": "16:24",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=984",
+          "speaker": "SPEAKER_01",
+          "text": "Não, perfeito."
+        },
+        {
+          "timestamp": "16:26",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=986",
+          "speaker": "SPEAKER_01",
+          "text": "No fundo, você falando isso me fez pensar muito que isso tem a ver com uma dinâmica meio de traders de curto prazo, né?"
+        },
+        {
+          "timestamp": "16:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=993",
+          "speaker": "SPEAKER_01",
+          "text": "Por exemplo, tradicionalmente tem essa expectativa pelo Halvin, e quando acontece o Halving, o efeito dele não é imediato, não é que logo no bloco seguinte já tem um choque de oferta, e, portanto, o preço dispara."
+        },
+        {
+          "timestamp": "16:50",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1010",
+          "speaker": "SPEAKER_01",
+          "text": "Na verdade, pelo que eu vi no passado, muitas vezes, quando eu tenho o Halving, o preço justamente cai porque vira esse evento cell the news, só que no fundo são os traders focados no curto prazo e não levando em conta no que o Halvin vai fazer na questão de oferta e demanda nesse equilíbrio do longo prazo, né?"
+        },
+        {
+          "timestamp": "17:11",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1031",
+          "speaker": "SPEAKER_01",
+          "text": "Você acha que essa avaliação faz sentido?"
+        },
+        {
+          "timestamp": "17:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1033",
+          "speaker": "SPEAKER_01",
+          "text": "Você concorda com ela?"
+        },
+        {
+          "timestamp": "17:15",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1035",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que eu acho que faz muito sentido sim."
+        },
+        {
+          "timestamp": "17:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1040",
+          "speaker": "SPEAKER_02",
+          "text": "A gente, na verdade, não existe uma forma de medir esse impacto, porque a gente tem muitas variáveis, então a gente pode assumir, a gente pode estimar, e o que a gente."
+        },
+        {
+          "timestamp": "17:36",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1056",
+          "speaker": "SPEAKER_02",
+          "text": "e o que mais provável que aconteça é justamente isso."
+        },
+        {
+          "timestamp": "17:41",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1061",
+          "speaker": "SPEAKER_02",
+          "text": "Tem algumas pessoas que acham ali que. o que o Halvin vai dar um vai dar um pump ali e compra, compra, compra."
+        },
+        {
+          "timestamp": "17:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1069",
+          "speaker": "SPEAKER_02",
+          "text": "Quando acontece o Halvin ele pode chegar e falar, pô, não cresceu, não era isso que eu queria e vende, ou então, ou então, ah, eu já ganhei o que eu queria ganhar, e pronto, ganhei o ganhei ganha esse lucro e realisa, e então isso acaba forçando o preço a cair naquele momento específico."
+        },
+        {
+          "timestamp": "18:17",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1097",
+          "speaker": null,
+          "text": "Boa."
+        },
+        {
+          "timestamp": "18:18",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1098",
+          "speaker": "SPEAKER_01",
+          "text": "Isso que também essa dinâmica lembra o que a gente viu esse ano agora em janeiro com a aprovação dos ETFs, né?"
+        },
+        {
+          "timestamp": "18:24",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1104",
+          "speaker": "SPEAKER_01",
+          "text": "Querendo ou não, o preço do Bitcoin saiu dos2530, foi buscar os50, e aí, quando os ETFs foram aprovados, muita gente achava que o efeito no preço seria imediato e que o Bitcoin ia disparar na hora."
+        },
+        {
+          "timestamp": "18:39",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1119",
+          "speaker": "SPEAKER_01",
+          "text": "O que aconteceu foi o oposto, o Bitcoin saiu de50, caiu de volta para40, antes de buscar os75 mil e quebrar a máxima histórica passada, e no fundo é isso, foi muita gente vendendo justamente a notícia, esse cell de news da aprovação em si, porque muito desse movimento inicial de subida foi a expectativa, esses rumores e boatos de que ocorreria a aprovação."
+        },
+        {
+          "timestamp": "19:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1144",
+          "speaker": "SPEAKER_01",
+          "text": "Então, no fundo, foram traders focados no curto prazo, operando sei lá, essa volatilidade da notícia muito mais do que entendendo a trajetória e as macro tendências que a aprovação do ZTF significariam, né?"
+        },
+        {
+          "timestamp": "19:22",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1162",
+          "speaker": "SPEAKER_01",
+          "text": "Daí, baseado nisso, eu te pergunto, tem aquela hipótese que é uma hipótese muito famosa no mercado financeiro que é a hipótese do Eugene Fama sobre os mercados eficientes, como tudo isso que a gente está conversando se relaciona a mercados eficientes, se"
+        },
+        {
+          "timestamp": "19:41",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1181",
+          "speaker": "SPEAKER_02",
+          "text": "Sim, é só comentando que foi perfeita a sua avaliação, foi justamente isso que aconteceu, assim, dacho que difícil encontrar um evento mais claro do que esse."
+        },
+        {
+          "timestamp": "19:56",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1196",
+          "speaker": "SPEAKER_02",
+          "text": "Vários traders compraram o rumor de que ia ser aprovado o ETF, e quando o ETF saiu, na verdade, no momento que ele saiu, no mesmo dia, eu não sei se você lembra, ele deu uma bela de uma subida ainda, e um pouquinho depois ele virou e caiu bastante, e perdeu tudo que ele subiu, e mais um pouco ali, e aí depois de alguns dias o mercado acalmou e aí voltou a subir e deu essa despichada aí até os70 mil setenta e tantos."
+        },
+        {
+          "timestamp": "20:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1233",
+          "speaker": "SPEAKER_02",
+          "text": "Desculpa, eu acho que eu falei, comentei isso aí, esqueci."
+        },
+        {
+          "timestamp": "20:37",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1237",
+          "speaker": "SPEAKER_02",
+          "text": "A pergunta do."
+        },
+        {
+          "timestamp": "20:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1238",
+          "speaker": "SPEAKER_02",
+          "text": "Você perguntou do da hipótese do mercado eficiente, né?"
+        },
+        {
+          "timestamp": "20:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1240",
+          "speaker": null,
+          "text": "O que isso tem a ver."
+        },
+        {
+          "timestamp": "20:42",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1242",
+          "speaker": "SPEAKER_02",
+          "text": "Tá."
+        },
+        {
+          "timestamp": "20:42",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1242",
+          "speaker": "SPEAKER_02",
+          "text": "O que primeiro é hipótese do mercado eficiente."
+        },
+        {
+          "timestamp": "20:45",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1245",
+          "speaker": "SPEAKER_02",
+          "text": "Ela é, pra começar."
+        },
+        {
+          "timestamp": "20:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1247",
+          "speaker": "SPEAKER_02",
+          "text": "Ela é uma hipótese."
+        },
+        {
+          "timestamp": "20:48",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1248",
+          "speaker": "SPEAKER_02",
+          "text": "Ele não tem não tem uma comprovação, não tem uma comprovação, não é um, não é uma lei do mercado."
+        },
+        {
+          "timestamp": "20:56",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1256",
+          "speaker": "SPEAKER_02",
+          "text": "Ela é só uma hipótese, mas ela é útil."
+        },
+        {
+          "timestamp": "21:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1261",
+          "speaker": "SPEAKER_02",
+          "text": "Ela é um."
+        },
+        {
+          "timestamp": "21:02",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1262",
+          "speaker": "SPEAKER_02",
+          "text": "A gente pode falar que ele é ela é um framework, assim, é uma estrutura de pensamento onde a gente consegue que ela é útil para a gente tomar alguns riscos e avaliar os nossos riscos, e qual é qual é a ideia?"
+        },
+        {
+          "timestamp": "21:18",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1278",
+          "speaker": "SPEAKER_02",
+          "text": "A ideia é de que o preço de um ativo, ele sempre está refletindo toda a informação disponível, e agora só fazer um pequeno parênteses."
+        },
+        {
+          "timestamp": "21:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1294",
+          "speaker": "SPEAKER_02",
+          "text": "Existem três formas dessa hipótese de mercado eficiente, a fraca, a semiforte, a forte."
+        },
+        {
+          "timestamp": "21:39",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1299",
+          "speaker": "SPEAKER_02",
+          "text": "Eu não vou entrar."
+        },
+        {
+          "timestamp": "21:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1298",
+          "speaker": "SPEAKER_02",
+          "text": "forte é forte eu não vou entrar em detalhes então eu tô simplificando aqui porque para não ficar muito técnico mas a ideia é essa os o preço do ativo já tá refletindo toda a informação que a gente tem ou seja assim que a Petrobras divulga que tem um novo poço essa informação ela já já já já já já já já já já é pública e então o mercado ela ele age já em cima dessa informação e essa informação já prática praticamente instantaneamente já fica precificada assim que o assim que uma que o que o mercado que é anunciado alguma alguma novidade essa novidade já é automaticamente embuído aí no preço e aí a hipótese do mercado eficiente o que que ela o que que isso de o que a gente deriva dela né se a gente se todas as informações de um ativo é já são instantaneamente precificadas no preço é impossível você ganhar do mercado de maneira consistente é claro vai vão ter as pessoas ah mas olha aqui ó esse negócio aqui especificamente ganhou é sei lá quanto tempo beleza isso aí isso aí eventualmente acontece aqui ali mas isso é simplesmente distribuição estatística se você for pegar na média não se ganha se você fazer um ajuste ao risco acima do mercado é justamente porque todas as pessoas já já já já já já já já já já já tomaram ações relativas às informações públicas e se e aí ou seja é a única forma de você ter você ganhar acima do mercado consistentemente ajustada ao risco seria você tendo uma informação privilegiada, você tendo uma você, por exemplo, você você é o cara dentro da Petrobras que sabe que tem esse posto de petróleo, então você compra ações da Petrobras, enquanto não existe nenhum rumor ainda, então você comprou onde todo mundo, aí depois, quando lançar isso aí vai subir, você vai ganhar dinheiro com isso, então o corolário, o que a consequência dessa hipótese é isso, que você sempre tá restrito ao mercado, você tem uma você tem a Petrobras ali, você nunca vai você você vai comprar suas ações, você vai ter sua carteira e você não vai consistentemente bater o Ibov."
+        },
+        {
+          "timestamp": "24:23",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1463",
+          "speaker": "SPEAKER_02",
+          "text": "Você tem as suas ações lá nos Estados Unidos, você não vai conseguir bater consistentemente o SP500 e assim por diante."
+        },
+        {
+          "timestamp": "24:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1473",
+          "speaker": "SPEAKER_02",
+          "text": "Se essa hipótese dos mercados eficientes fizeram sentido, faria sentido investir em algum fundo de ações com gestor ativo, pois é, não se essa se essa hipótese ela fosse uma lei do mercado, ela fosse comprovada e tudo mais, não faz sentido você ter uma gestão ativa, faz muito a única coisa que faria sentido é você comprar o índice, comprar um ETF do mercado, comprar um SP500 e deixar lá e todo mundo ir comprando esse P500 e deixar lá não tem não tem margem para outro tipo de coisa."
+        },
+        {
+          "timestamp": "25:25",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1525",
+          "speaker": "SPEAKER_02",
+          "text": "Isso se a gente for pensar assim, a forma forte, a forma mais forte dessa hipótese, e é claro que a gente vê isso daí, e a gente vê que"
+        },
+        {
+          "timestamp": "25:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1534",
+          "speaker": "SPEAKER_02",
+          "text": "A gente vê isso daí, a gente vê que tem alguns traders que sistematicamente conseguem bater o mercado, e isso e aí assim."
+        },
+        {
+          "timestamp": "25:45",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1545",
+          "speaker": "SPEAKER_02",
+          "text": "Algumas."
+        },
+        {
+          "timestamp": "25:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1547",
+          "speaker": "SPEAKER_02",
+          "text": "Vão ter vão ter gente que vai falar."
+        },
+        {
+          "timestamp": "25:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1549",
+          "speaker": "SPEAKER_02",
+          "text": "Ah, mas são tão poucos que isso é um efeito estatístico."
+        },
+        {
+          "timestamp": "25:53",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1553",
+          "speaker": "SPEAKER_02",
+          "text": "Se eu tô apostando, se eu tenho um bilhão de pessoas apostando caro coroa, eventualmente vai ter uma pessoa que vai ganhar100 vezes seguidas, e a gente vai pensar, pô, ele é muito bom no cara coroa, não."
+        },
+        {
+          "timestamp": "26:07",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1567",
+          "speaker": "SPEAKER_02",
+          "text": "Ele simplesmente teve sorte num espectro grande de da distribuição de pessoas do da amostra populacional, então é uma coisa que realmente é muito difícil a gente realmente conseguir colocar para testar, mas tem uma tem uma piada, inclusive, que eu acho que é bom pra ilustrar, é um pouco do absurdo para os que se levam muito."
+        },
+        {
+          "timestamp": "26:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1595",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que é um a hipótese do mercado eficiente é uma é um framework muito bom, porque para você para você ter o primeiro pensamento do que você vai fazer, porque quando você vai, você vai encontrar um padrão no mercado, tem existem vários padrões aleatórios, tem muita gente que tenta investir em padrão, e acaba e funciona ali dois, três meses, às vezes um ano, e depois se quebra, e esse e a hipótese do mercado eficiente é uma coisa que é muito legal que você consegue parar e pensar pô, se eu tô vendo isso daqui, quem me garante que alguém não viu primeiro, quem me garante que eu não tô vendo só uma miragem, então dessa nesse sentido, o hipótese do mercado eficiente ela faz ela é muito boa, mas ela pode, às vezes ela é levada para absurdos, porque, por exemplo, tem muita gente que fica falando ah. day trade não funciona."
+        },
+        {
+          "timestamp": "27:39",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1659",
+          "speaker": "SPEAKER_02",
+          "text": "Tipo, realmente, se você olhar a grande, grande, grande, grande maioria dos day trades, provavelmente mais de99%, eles não conseguem ganhar dinheiro."
+        },
+        {
+          "timestamp": "27:50",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1670",
+          "speaker": "SPEAKER_02",
+          "text": "Mas, mas tem alguns que ganham consistentemente há vários anos."
+        },
+        {
+          "timestamp": "27:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1677",
+          "speaker": "SPEAKER_02",
+          "text": "E aí o que acontece?"
+        },
+        {
+          "timestamp": "28:00",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1680",
+          "speaker": "SPEAKER_02",
+          "text": "Tem essa piada que fala que duas pessoas estavam andando e tem uma nota de100 reais no chão."
+        },
+        {
+          "timestamp": "28:07",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1687",
+          "speaker": "SPEAKER_02",
+          "text": "E aí o economista simplesmente passou reto, a outra pessoa abaixou, pegou a nota de100 reais."
+        },
+        {
+          "timestamp": "28:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1693",
+          "speaker": "SPEAKER_02",
+          "text": "A outra pessoa falou, ué, mas você passou por uma nota de100 reais no chão e você não pegou?"
+        },
+        {
+          "timestamp": "28:18",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1698",
+          "speaker": "SPEAKER_02",
+          "text": "Quem é um seu."
+        },
+        {
+          "timestamp": "28:19",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1699",
+          "speaker": "SPEAKER_02",
+          "text": "E economista falou."
+        },
+        {
+          "timestamp": "28:21",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1701",
+          "speaker": "SPEAKER_02",
+          "text": "Se fosse tivesse realmente essa oportunidade de ter uma nota de100 reais no chão de graça, alguém já teria pegado na minha frente."
+        },
+        {
+          "timestamp": "28:29",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1709",
+          "speaker": "SPEAKER_02",
+          "text": "Não é de verdade."
+        },
+        {
+          "timestamp": "28:31",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1711",
+          "speaker": "SPEAKER_01",
+          "text": "É, perfeito."
+        },
+        {
+          "timestamp": "28:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1713",
+          "speaker": "SPEAKER_01",
+          "text": "No fundo."
+        },
+        {
+          "timestamp": "28:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1714",
+          "speaker": "SPEAKER_01",
+          "text": "Isso diz muito de como a gente."
+        },
+        {
+          "timestamp": "28:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1718",
+          "speaker": "SPEAKER_01",
+          "text": "Acaba acreditando demais nos nossos modelos mentais, nas nossas hipóteses, e a gente esquece de simplesmente avaliar a realidade e ficar refém do maneira que a gente interpreta o mundo, né?"
+        },
+        {
+          "timestamp": "28:51",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1731",
+          "speaker": "SPEAKER_01",
+          "text": "E sei lá, puxando mais agora pra."
+        },
+        {
+          "timestamp": "28:53",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1733",
+          "speaker": "SPEAKER_01",
+          "text": "Você começou falando bastante do mercado tradicional, Petrobras, tudo mais."
+        },
+        {
+          "timestamp": "28:58",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1738",
+          "speaker": "SPEAKER_01",
+          "text": "Eu acho que é muito útil para entender essa questão da hipótese do mercado eficiente."
+        },
+        {
+          "timestamp": "29:02",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1742",
+          "speaker": "SPEAKER_01",
+          "text": "O exemplo do próprio Warren Buffett, assim, ele tem um caso famoso que é tal da aposta do Warren Buffett, que é basicamente pegar um gestor, um fundo, e apostar se ele vai render mais ou menos do que o S<unk>P500 ao longo de uma janela temporal grande."
+        },
+        {
+          "timestamp": "29:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1760",
+          "speaker": "SPEAKER_01",
+          "text": "Tanto é que ele recomenda para a grande maioria das pessoas investir no SMP500."
+        },
+        {
+          "timestamp": "29:25",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1765",
+          "speaker": "SPEAKER_01",
+          "text": "Só que ao mesmo tempo ele tem a Berkshire Hatway."
+        },
+        {
+          "timestamp": "29:28",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1768",
+          "speaker": "SPEAKER_01",
+          "text": "Ele não faz o que ele prega, ele acredita que ele sim. é mais que ele sim consegue ter uma."
+        },
+        {
+          "timestamp": "29:36",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1776",
+          "speaker": "SPEAKER_01",
+          "text": "consegue ganhar do mercado, em outras palavras."
+        },
+        {
+          "timestamp": "29:39",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1779",
+          "speaker": "SPEAKER_01",
+          "text": "E aí, tipo, querendo ou não, tipo, eu antes de entrar no Bitcoin, eu acho que muita gente do universo do Bitcoin, antes de entrar no Bitcoin, investia na bolsa de valores tradicional, e na bolsa de valores tradicionais tem duas estratégias diferentes que são bastante utilizadas pelas pessoas físicas."
+        },
+        {
+          "timestamp": "29:59",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1799",
+          "speaker": "SPEAKER_01",
+          "text": "Tem aquela estratégia que é denominada o preço não importa, e a estratégia o preço não importa é basicamente o pessoal que realmente acredita na hipótese dos mercados eficientes, e aí tem o pessoal que sim tenta fazer um stock picking, procurando o melhor momento de entrada, procurando um buy the dip, procurando assimetrias, e o que eu sempre pensava sobre isso antes de virar bitcoineiro e portanto investir em Bitcoin e desencanar de comprar ações da B3, é que, por exemplo, numa ação com market cap muito alto, que nem a Petrobras que você está citando, de fato, eu não vou ter nenhum diferencial competitivo, eu não vou ter uma informação diferente do que a média do mercado, então nela, como ter um market cap maior, eu acredito que ela tem mais eficiência na sua precificação, mas daí existem outras small caps muito pequenas, tipo a Taurus, tipo aquela deônibus que eu esqueci o nome, tem umas small caps que apresentam uma multiplicação muito grande."
+        },
+        {
+          "timestamp": "31:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1865",
+          "speaker": "SPEAKER_01",
+          "text": "Por quê?"
+        },
+        {
+          "timestamp": "31:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1865",
+          "speaker": "SPEAKER_01",
+          "text": "Porque tem menos pessoas olhando, se tem menos pessoas olhando, tem menos pessoas processando os dados, se tem menos pessoas processando os dados, muito provavelmente essa precificação está menos eficiente, então eu gosto muito de como você falou que é realmente é uma hipótese, não é uma lei, ou seja, ela é útil de uma certa maneira. mas a gente não pode se prender dogmaticamente a ela, porque convenhamos, se a gente acreditar realmente nessa hipótese do mercado eficiente, nenhum de nós seria bitcoinheiro."
+        },
+        {
+          "timestamp": "31:42",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1902",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, a verdade é que todos os bitcoinheiros são extremamente do contra."
+        },
+        {
+          "timestamp": "31:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1907",
+          "speaker": "SPEAKER_01",
+          "text": "Eles realmente acreditam que eles têm uma informação muito diferente, que existe uma simetria de informação que a gente está arbitrando, e que a galera do mercado tradicional não está ligado do que está acontecendo."
+        },
+        {
+          "timestamp": "32:00",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1920",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, você procura, tipo, pessoas do mercado tradicional comentando sobre o Bitcoin, fica clara a assimetria de informação, assim."
+        },
+        {
+          "timestamp": "32:10",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1930",
+          "speaker": "SPEAKER_01",
+          "text": "Então, por isso que eu acho que essa resposta, se o Halving está precificado ou não, depende muito da definição do que é estar precificado, porque não sei, tipo, eu não consigo acreditar que a informação acerca do Bitcoin está igualmente distribuída entre todos os players alucadores de capital do mercado."
+        },
+        {
+          "timestamp": "32:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1955",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, acho que isso é algo que nenhum Bitcoinheiro acredita."
+        },
+        {
+          "timestamp": "32:39",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1959",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, você já deve ter usado bastante aquele site que o Alphazeta da sua fez, que é o Schrödinger, como é?"
+        },
+        {
+          "timestamp": "32:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1969",
+          "speaker": "SPEAKER_01",
+          "text": "O Nakamoto Portfólio, aquela parte, o modelo de Schrödinger."
+        },
+        {
+          "timestamp": "32:53",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1973",
+          "speaker": "SPEAKER_01",
+          "text": "O modelo de Schrödinger basicamente é uma questão de quão sei lá, é o que você falou de valuation comparativo, em vez de ser a Petrobras com a Shell é o Bitcoin com outras reservas de valores, e se eles tivesse corretamente precificado nas nossas perspectivas, o preço do Bitcoin é muito diferente do que ele está atualmente."
+        },
+        {
+          "timestamp": "33:16",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=1996",
+          "speaker": "SPEAKER_01",
+          "text": "Enfim, eu fiz agora uma pequena digressão, mas no fundo, queria te perguntar, apesar de tudo isso que a gente falou, então você, Breno, você acredita que o Halving está precificado?"
+        },
+        {
+          "timestamp": "33:26",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2006",
+          "speaker": "SPEAKER_01",
+          "text": "E o Alvin tá precificado."
+        },
+        {
+          "timestamp": "33:28",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2008",
+          "speaker": "SPEAKER_03",
+          "text": "Seja muito bem-vindo à Bipa."
+        },
+        {
+          "timestamp": "33:30",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2010",
+          "speaker": "SPEAKER_03",
+          "text": "Aqui."
+        },
+        {
+          "timestamp": "33:31",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2011",
+          "speaker": "SPEAKER_03",
+          "text": "Você faz parte do futuro das finanças sem complicações."
+        },
+        {
+          "timestamp": "33:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2014",
+          "speaker": "SPEAKER_03",
+          "text": "Nesse vídeo, vamos te mostrar rapidamente tudo o que você pode fazer dentro do nosso app."
+        },
+        {
+          "timestamp": "33:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2020",
+          "speaker": null,
+          "text": "Bora lá?"
+        },
+        {
+          "timestamp": "33:42",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2022",
+          "speaker": "SPEAKER_03",
+          "text": "Comece criando sua chave Pix em segundos."
+        },
+        {
+          "timestamp": "33:45",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2025",
+          "speaker": "SPEAKER_03",
+          "text": "Depositar e sacar reais é tão fácil quanto enviar uma mensagem."
+        },
+        {
+          "timestamp": "33:50",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2030",
+          "speaker": "SPEAKER_03",
+          "text": "Agora, comece a negociar."
+        },
+        {
+          "timestamp": "33:53",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2033",
+          "speaker": "SPEAKER_03",
+          "text": "Compra ou venda Bitcoin e dólar digital com apenas alguns cliques."
+        },
+        {
+          "timestamp": "33:59",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2039",
+          "speaker": "SPEAKER_03",
+          "text": "Personalizem seus investimentos com compras recorrentes ou defina o preço exato que deseja comprar ou vender seu Bitcoin."
+        },
+        {
+          "timestamp": "34:06",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2046",
+          "speaker": "SPEAKER_03",
+          "text": "Nós cuidamos de tudo."
+        },
+        {
+          "timestamp": "34:07",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2047",
+          "speaker": "SPEAKER_03",
+          "text": "Você só receberá a notificação de que a sua ordem foi executada."
+        },
+        {
+          "timestamp": "34:11",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2051",
+          "speaker": "SPEAKER_03",
+          "text": "Ah, e você consegue ir na tela de atividades e cancelar suas compras automáticas, tanto a recorrente quanto a compreensual."
+        },
+        {
+          "timestamp": "34:19",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2059",
+          "speaker": "SPEAKER_03",
+          "text": "Envie e receba pagamentos instantaneamente, usando Pix ou Bitcoin com agilidade da rede Lightning."
+        },
+        {
+          "timestamp": "34:25",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2065",
+          "speaker": "SPEAKER_03",
+          "text": "Comece a simplificar suas finanças digitais hoje mesmo."
+        },
+        {
+          "timestamp": "34:29",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2069",
+          "speaker": "SPEAKER_03",
+          "text": "Na Bipa, é simples de verdade."
+        },
+        {
+          "timestamp": "34:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2073",
+          "speaker": "SPEAKER_02",
+          "text": "Tá, vamos."
+        },
+        {
+          "timestamp": "34:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2074",
+          "speaker": "SPEAKER_02",
+          "text": "Deixa eu."
+        },
+        {
+          "timestamp": "34:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2075",
+          "speaker": "SPEAKER_02",
+          "text": "Você trouxe uns pontos muito interessantes aqui, deixa eu comentar."
+        },
+        {
+          "timestamp": "34:39",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2079",
+          "speaker": "SPEAKER_02",
+          "text": "Comentar aqui antes."
+        },
+        {
+          "timestamp": "34:41",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2081",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, eu concordo plenamente se a gente vê o."
+        },
+        {
+          "timestamp": "34:45",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2085",
+          "speaker": "SPEAKER_02",
+          "text": "A gente vê o pessoal, os farialimers, né?"
+        },
+        {
+          "timestamp": "34:48",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2088",
+          "speaker": "SPEAKER_02",
+          "text": "Galera do mercado financeiro falando sobre o Bitcoin, fica extremamente claro que a maioria deles não sabe do que tá falando."
+        },
+        {
+          "timestamp": "34:55",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2095",
+          "speaker": "SPEAKER_02",
+          "text": "Eles não."
+        },
+        {
+          "timestamp": "34:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2097",
+          "speaker": "SPEAKER_02",
+          "text": "Alguns deles, assim, dá pra ver que eles não chegaram a estudar15 minutos que seja."
+        },
+        {
+          "timestamp": "35:03",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2103",
+          "speaker": "SPEAKER_02",
+          "text": "Eles pegaram simplesmente uma sentimento de revolta e espremeram ali."
+        },
+        {
+          "timestamp": "35:10",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2110",
+          "speaker": "SPEAKER_02",
+          "text": "Falou, não, esse negócio não presta."
+        },
+        {
+          "timestamp": "35:12",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2112",
+          "speaker": "SPEAKER_02",
+          "text": "Então, sim, tem essa questão que eu acho que é o primeiro ponto."
+        },
+        {
+          "timestamp": "35:21",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2121",
+          "speaker": "SPEAKER_02",
+          "text": "O primeiro ponto importante contra a ideia de. mercado eficiente para o Bitcoin, que é se a gente pensar assim que a informação ela está distribuída já no mundo, a informação não está distribuída no mundo, ela está disponível, mas ela não está ainda acessível, o que eu quero dizer com isso, a gente ela, qualquer um que for tentar que for tentar estudar, é que nem o Alan falou uma vez, ele falou que Bitcoin é para todo mundo, mas não é para qualquer um."
+        },
+        {
+          "timestamp": "36:00",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2160",
+          "speaker": "SPEAKER_02",
+          "text": "Então, ou seja, a informação ela está ela está disponível, mas não necessariamente ela está acessível, por diversos motivos.Às"
+        },
+        {
+          "timestamp": "36:09",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2169",
+          "speaker": "SPEAKER_02",
+          "text": "vezes a pessoa tem uma noção muito errada, muito diferente aí do que a gente entende como dinheiro, do que a gente entende como ativo, ela tem uma noção, ela não tem noção técnica, ela tem uma dificuldade muito grande de às vezes até, às vezes, até um bloqueio mesmo para entender alguns assuntos mais técnicos, ele chega um pouquinho ali perto da matemática, ela não, nem quer escutar, não sei então, e isso aí acontece muito."
+        },
+        {
+          "timestamp": "36:43",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2203",
+          "speaker": "SPEAKER_02",
+          "text": "O próprio Orren Buffett que ele eu tenho até um artigo falando porque que o filosofia do Bitcoin vai contra a filosofia de investimento do Warren Buffett, ele pô, ele demorou muito para comprar Apple, ele demorou muito para comprar Amazon, ele demorou muito para tudo que é tecnologia, ele ou não investiu ou demorou muito para entrar, e foi justamente porque ele tem aquela máxima dele de diversificação é coisa de quem não sabe o que está fazendo, ou seja, ele não investe no que ele não entende, ele não entende a tecnologia, então ele não compra Apple e até o momento que estava suficientemente adotado, muita gente ali com iPhone que aí ele parou para pensar, pô, acho que até que faz sentido o iPhone, né?"
+        },
+        {
+          "timestamp": "37:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2260",
+          "speaker": "SPEAKER_02",
+          "text": "Minha minha filha me encher o saco tanto, e eu comprei um, não nem sei se ele tem filha, mas assim, chega um momento que eu acho que eu, você, quase muita gente aqui passou pela fase de que de quando eu, pelo menos, passei quando eu tinha o WhatsApp, e meu pai achava um absurdo usar o WhatsApp, quando já tinha SMS, quando já tinha você podia ligar, e você tem orelhão para que precisa de telefone, celular, etc."
+        },
+        {
+          "timestamp": "38:09",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2289",
+          "speaker": "SPEAKER_02",
+          "text": "Então assim, o não é uma um novo paradigma tecnológico, ele não entra assim na cabeça de todo mundo, não é não é simplesmente falar Bitcoin é legal por conta disso, disso e disso, e a pessoa a beleza, vou comprar, e coloque o dinheiro lá, e até hoje a gente não tem uma forma, muito certa de como de como precificar o Bitcoin."
+        },
+        {
+          "timestamp": "38:36",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2316",
+          "speaker": "SPEAKER_02",
+          "text": "Inclusive, a gente tem essa luta de modelos, né?"
+        },
+        {
+          "timestamp": "38:42",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2322",
+          "speaker": "SPEAKER_02",
+          "text": "Tem lá o Stock to Flow, Stock to FOMO, o time, o lei de potência, tem o arco modelo do arco-íris, o Trollo Law, vários, vários modelos diferentes."
+        },
+        {
+          "timestamp": "38:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2337",
+          "speaker": "SPEAKER_02",
+          "text": "Muita gente tentando pensar numa forma de precificar, não existe uma união que as pessoas chegaram e falar, isso aqui é a forma que mais faz sentido."
+        },
+        {
+          "timestamp": "39:06",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2346",
+          "speaker": "SPEAKER_02",
+          "text": "Existem vários modelos, e ainda a gente ainda está tentando descobrir o que qual que faz ou não faz sentido, e em relação ao Buffett ali, você que você comentou, ele tem uma história que é muito boa também, que ele é muito interessante que o Buffett. ele entende muito de investimento trade economia então assim você vê momentos aí que ele tá claramente apoiando apoiando a hipótese do mercado eficiente tem momentos que ele tá que ele que ele as pessoas que seguem ele muitas vezes é aquelas pessoas ah vou comprar e esquecer o Bayern Hold porque ele costuma fazer isso com empresas boas ah vou comprar empresas boas de qualidade e segurar que vai dar certo tem e mas se a gente for olhar ele já fez trade de opção o cara o cara fazia uns trade de opção lá fazia fazer umas operações com derivativos quando ele fala para todo mundo que não se deve fazer mas é porque é diferente você fazer uma coisa que você sabe o que tem como fazer o porquê fazer etc e recome e falar abertamente ele sabe o peso do que a voz dele tem ele chegar e falar ah eu fico brincando com derivativo e aí vai uma pessoa qualquer que escuta isso aí fala pô comprar derivativo porque o buffett me veste também então vou ganhar dinheiro e acaba se ferrando então ele ele por isso que às vezes parece parece um pouco contra senso algumas coisas que ele fala e aí ele tem inclusive uma história aí que é contra a hipótese do mercado eficiente que ele fala ele ele traz a ideia pô se você tem um campeonato de caro coroa mas nesse campeonato caro coroa a gente começa a ver que tem algumas pessoas que sempre ganham no caro coroa e essas pessoas elas todas elas elas são de uma de um de um país específico não só de um país específico mas elas são de um estado específico não só do estado específico elas são de um bairro de uma cidade específica nos Estados Unidos se e elas sempre ganham no caro coroa e qual é a qual é a probabilidade estatística de todas as pessoas que se isso for aleatório porque todas as pessoas estão localizadas exatamente no mesmo bairro, e isso aí é uma é uma disparidade estatística."
+        },
+        {
+          "timestamp": "41:27",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2487",
+          "speaker": "SPEAKER_02",
+          "text": "Ele e ele trouxe isso para falar como uma alegoria para falar, pô, eu faço o velho investing, eu faço eu tenho esse meu estilo, e não só eu, o Charlie Manger, o Fulano, o Ciclano, não sei o que, todo mundo que trabalha, todo mundo que faz mais ou menos o que eu faço de formas diferentes, mas adotando os meus princípios, todo mundo ganhou dinheiro e ficou milionário."
+        },
+        {
+          "timestamp": "41:50",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2510",
+          "speaker": "SPEAKER_02",
+          "text": "Por que que o isso seria uma disparidade estatística."
+        },
+        {
+          "timestamp": "41:58",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2518",
+          "speaker": "SPEAKER_02",
+          "text": "Se todo mundo que aprende comigo consegue ganhar dinheiro, e como é que a como é que isso é simplesmente devido à aleatoriedade, então ele trouxe isso daí pra falar, não é o mercado eficiente, realmente não é exatamente eficiente, dá pra você, dá para você consistentemente ganhar no mercado, assim como eu ganhei, assim como meus alunos aqui ganharam, meus colegas aqui ganharam, meus amigos ganharam, então ele traz essa ideia, beleza?"
+        },
+        {
+          "timestamp": "42:27",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2547",
+          "speaker": "SPEAKER_02",
+          "text": "Eu falei, deu uma volta aqui muito grande, mas só deixa eu fazer um só."
+        },
+        {
+          "timestamp": "42:32",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2552",
+          "speaker": "SPEAKER_01",
+          "text": "Deixa eu fazer uma dentro antes."
+        },
+        {
+          "timestamp": "42:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2553",
+          "speaker": "SPEAKER_01",
+          "text": "Essa história que você falou do Buffett, eu achei ela muito boa, porque lembra muito uma história que o Taleb fala em algum livro que eu não lembro se não é antifrágio, se é na lógica do Cisne Negro, mas que teoricamente o caru coroa tem50% de chance de dar A,50% de chance de dar B, beleza, mas você jogou a moeda nove vezes deu nove vezes, cara?"
+        },
+        {
+          "timestamp": "42:58",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2578",
+          "speaker": "SPEAKER_01",
+          "text": "O que você acha que pode dar na décima?"
+        },
+        {
+          "timestamp": "43:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2581",
+          "speaker": "SPEAKER_01",
+          "text": "Aí pessoas que são mais ingênuas vão falar tem50% de chance de dar um,50% de chance da outra."
+        },
+        {
+          "timestamp": "43:08",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2588",
+          "speaker": "SPEAKER_01",
+          "text": "Taleb fala, não, você tem os dados reais que mostram que não importa o seu modelo mental, a realidade está se comportando de um jeito, então esquece seu modelo mental. esquece sua hipótese e seja esperto."
+        },
+        {
+          "timestamp": "43:21",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2601",
+          "speaker": "SPEAKER_01",
+          "text": "Tenha o Street Smart de pensar, pô, essa moeda talvez esteja viciada e o meu modelo mental tá errado."
+        },
+        {
+          "timestamp": "43:27",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2607",
+          "speaker": "SPEAKER_01",
+          "text": "Então é isso, você também não pode se."
+        },
+        {
+          "timestamp": "43:29",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2609",
+          "speaker": "SPEAKER_01",
+          "text": "É isso, é uma hipótese, não é uma lei."
+        },
+        {
+          "timestamp": "43:32",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2612",
+          "speaker": "SPEAKER_01",
+          "text": "Não é uma lei que nem da gravidade da seleção natural, é uma hipótese, mas você tem que ter jogo de cintura de saber quando usar e quando usar as informações do mundo real."
+        },
+        {
+          "timestamp": "43:43",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2623",
+          "speaker": "SPEAKER_01",
+          "text": "É o que você falou sobre o Velo Investing."
+        },
+        {
+          "timestamp": "43:45",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2625",
+          "speaker": "SPEAKER_01",
+          "text": "Pô, tá todo mundo conseguindo ganhar dinheiro assim."
+        },
+        {
+          "timestamp": "43:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2629",
+          "speaker": "SPEAKER_01",
+          "text": "Não é só aleatoriedade, é porque tem uma maneira de você bater o mercado usando certas maneiras de pensar que não são simplesmente aleatórias."
+        },
+        {
+          "timestamp": "44:00",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2640",
+          "speaker": "SPEAKER_01",
+          "text": "Bom, desculpa, esse continua aí."
+        },
+        {
+          "timestamp": "44:02",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2642",
+          "speaker": "SPEAKER_02",
+          "text": "Não, perfeito, perfeito."
+        },
+        {
+          "timestamp": "44:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2644",
+          "speaker": "SPEAKER_02",
+          "text": "É justamente isso."
+        },
+        {
+          "timestamp": "44:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2645",
+          "speaker": "SPEAKER_02",
+          "text": "Quando você tem uma moeda que dá nove caras sucessivamente, você começa a pensar, pô, mas se você for malandro, você começa a ver, pô, o cara tá de malandragem comigo."
+        },
+        {
+          "timestamp": "44:17",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2657",
+          "speaker": "SPEAKER_02",
+          "text": "Ele tá querendo ganhar dinheiro em cima de mim, ele tem uma moeda viciada."
+        },
+        {
+          "timestamp": "44:22",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2662",
+          "speaker": "SPEAKER_02",
+          "text": "Tá achando que eu sou trouxa e vou considerar que é50%."
+        },
+        {
+          "timestamp": "44:26",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2666",
+          "speaker": "SPEAKER_02",
+          "text": "Então já deu nove caras, então provavelmente a próxima vai ser coroa, mas o cara, enfim, é uma forma de pensar."
+        },
+        {
+          "timestamp": "44:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2674",
+          "speaker": "SPEAKER_02",
+          "text": "É uma forma, é uma forma de pensar."
+        },
+        {
+          "timestamp": "44:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2678",
+          "speaker": "SPEAKER_02",
+          "text": "Mas aí você me perguntou, né?"
+        },
+        {
+          "timestamp": "44:41",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2681",
+          "speaker": "SPEAKER_02",
+          "text": "O que eu respondo quando as pessoas me perguntam se o Halvin tá precificado."
+        },
+        {
+          "timestamp": "44:46",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2686",
+          "speaker": "SPEAKER_02",
+          "text": "Primeiro de tudo, pra o gente considerar que o Hovind está precificado, eu tenho que ter um modelo de precificação."
+        },
+        {
+          "timestamp": "44:55",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2695",
+          "speaker": "SPEAKER_02",
+          "text": "Então, tipo, antes de discutir se o Alwing tal ou não está precificado, eu tenho que ter um modelo de precificação."
+        },
+        {
+          "timestamp": "45:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2701",
+          "speaker": "SPEAKER_02",
+          "text": "Então, qual é o preço justo do Bitcoin?"
+        },
+        {
+          "timestamp": "45:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2705",
+          "speaker": "SPEAKER_02",
+          "text": "Você tem."
+        },
+        {
+          "timestamp": "45:06",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2706",
+          "speaker": "SPEAKER_02",
+          "text": "Você sabe qual é o preço justo do Bitcoin hoje?"
+        },
+        {
+          "timestamp": "45:10",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2710",
+          "speaker": "SPEAKER_01",
+          "text": "Eu sei, o preço justo do Bitcoin é pelo menos30 milhões de dólares."
+        },
+        {
+          "timestamp": "45:14",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2714",
+          "speaker": "SPEAKER_01",
+          "text": "Os30 milhões de dólares."
+        },
+        {
+          "timestamp": "45:16",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2716",
+          "speaker": "SPEAKER_01",
+          "text": "Brincadeira."
+        },
+        {
+          "timestamp": "45:19",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2719",
+          "speaker": "SPEAKER_02",
+          "text": "Se esse é o preço justo do Bitcoin, eu acho que o eu diria que o Halving não está precificado."
+        },
+        {
+          "timestamp": "45:25",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2725",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, o para começar, pode ser que o Hoving afete o preço ou não afete o preço."
+        },
+        {
+          "timestamp": "45:31",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2731",
+          "speaker": "SPEAKER_02",
+          "text": "Eu tendo acreditar que ele afeta o preço, e eu tendo a acreditar que não, ele não está precificado."
+        },
+        {
+          "timestamp": "45:37",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2737",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, por quê?"
+        },
+        {
+          "timestamp": "45:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2738",
+          "speaker": "SPEAKER_02",
+          "text": "Primeiro de tudo, para ele estar precificado, a gente tem que ter um modelo, um modelo de preço."
+        },
+        {
+          "timestamp": "45:46",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2746",
+          "speaker": "SPEAKER_02",
+          "text": "Então, quando a gente falou lá do exemplo da Petrobras, a gente fez um valuation da Petrobras e definiu que o preço que o preço justo é30%."
+        },
+        {
+          "timestamp": "45:56",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2756",
+          "speaker": "SPEAKER_02",
+          "text": "Então ele."
+        },
+        {
+          "timestamp": "45:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2757",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, com o com a nova notícia, o preço justo seria35%."
+        },
+        {
+          "timestamp": "46:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2764",
+          "speaker": "SPEAKER_02",
+          "text": "E aí a gente tem essa."
+        },
+        {
+          "timestamp": "46:06",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2766",
+          "speaker": "SPEAKER_02",
+          "text": "E aí a gente pode precificar essa nova notícia em cima do preço justo."
+        },
+        {
+          "timestamp": "46:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2773",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, por exemplo, se o preço do Bitcoin hoje está subprecificado, se ele se a gente considerar, por exemplo, que o preço hoje do por exemplo você falou aí10 milhões de dólares."
+        },
+        {
+          "timestamp": "46:27",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2787",
+          "speaker": "SPEAKER_02",
+          "text": "Se o preço do Bitcoin hoje está subprecificado em relação a10 milhões de dólares, e a gente falar, mas o halvin está precificado, pode estar, mas e aí?"
+        },
+        {
+          "timestamp": "46:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2798",
+          "speaker": "SPEAKER_02",
+          "text": "Se ele se ele estiver precificado mesmo, que diferença faz?"
+        },
+        {
+          "timestamp": "46:41",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2801",
+          "speaker": "SPEAKER_02",
+          "text": "Tipo, ele está ele está mal precificado, porque tem muito para subir ainda."
+        },
+        {
+          "timestamp": "46:48",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2808",
+          "speaker": "SPEAKER_02",
+          "text": "E a gente."
+        },
+        {
+          "timestamp": "46:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2809",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, como é que ele, como é que costuma ser feito essa precificação de ativos, né?"
+        },
+        {
+          "timestamp": "46:54",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2814",
+          "speaker": "SPEAKER_02",
+          "text": "A forma mais simples de ser feita a precificação de ativos é geralmente o de ações, o título de agenda fixa, porque elas pagam ou dividendos, ou tem um fluxo de caixa, ou então paga juros, e aí, como é que você faz?"
+        },
+        {
+          "timestamp": "47:09",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2829",
+          "speaker": "SPEAKER_02",
+          "text": "Você tem um fluxo de caixa, né?"
+        },
+        {
+          "timestamp": "47:11",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2831",
+          "speaker": "SPEAKER_02",
+          "text": "O juros sendo pago, então a receita da empresa. e você faz um desconto temporal."
+        },
+        {
+          "timestamp": "47:16",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2836",
+          "speaker": "SPEAKER_02",
+          "text": "Então, quem lembra aí do do Bom Bavaver que fala sobre que criou a ideia aí de da nossa esqueci a palavra agora, o nosso orientação temporal, né?"
+        },
+        {
+          "timestamp": "47:31",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2851",
+          "speaker": "SPEAKER_02",
+          "text": "A gente tem baixa preferência temporal, alta preferência temporal, o que é isso, é justamente o quão quão descontado você dá um evento futuro, então, por exemplo, para você se eu te der se eu te der um milhão de reais hoje ou um milhão de reais daqui a um ano, você vai querer quando?"
+        },
+        {
+          "timestamp": "47:51",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2871",
+          "speaker": "SPEAKER_02",
+          "text": "Você vai querer um milhão de reais hoje, obviamente."
+        },
+        {
+          "timestamp": "47:54",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2874",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, e se eu te oferecer um milhão de reais, um milhão de reais e dois."
+        },
+        {
+          "timestamp": "48:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2881",
+          "speaker": "SPEAKER_02",
+          "text": "Um milhão de reais e dez centavos."
+        },
+        {
+          "timestamp": "48:03",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2883",
+          "speaker": "SPEAKER_02",
+          "text": "É mais do que de hoje, mas você vai provavelmente ainda vai preferir um milhão de reais hoje do que esperar um ano para ganhar10 centavos."
+        },
+        {
+          "timestamp": "48:11",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2891",
+          "speaker": "SPEAKER_02",
+          "text": "Então, e até que vou chegar um momento que eu vou pensar, que eu vou te perguntar, mas você quer um milhão de reais hoje ou10 milhões de reais daqui a um ano."
+        },
+        {
+          "timestamp": "48:19",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2899",
+          "speaker": "SPEAKER_02",
+          "text": "Não, você quer10 milhões de reais daqui a um ano, provavelmente."
+        },
+        {
+          "timestamp": "48:23",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2903",
+          "speaker": "SPEAKER_02",
+          "text": "Porque esperar um ano e multiplicar por10."
+        },
+        {
+          "timestamp": "48:27",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2907",
+          "speaker": "SPEAKER_02",
+          "text": "É uma coisa assim que se você colocar no."
+        },
+        {
+          "timestamp": "48:29",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2909",
+          "speaker": "SPEAKER_02",
+          "text": "Se você pegar esse um milhão de reais e colocar no Bitcoin, vai dar a mesma coisa, ou vai talvez talvez possa dar até menos, mas pô,10 milhões em um ano é um tempo bom para esperar, então até o momento que você que você equivale."
+        },
+        {
+          "timestamp": "48:46",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2926",
+          "speaker": "SPEAKER_02",
+          "text": "Geralmente, esse essa equivalência de quanto você quer hoje para o quanto você quer num preço futuro é a taxa de juros, então o você tem você ter um dinheiro guardado, e você empresta ele e você você pede uma taxa de juros, porque você tem você tem seu risco, você tem você tem você vai ficar sem um dinheiro se você precisar para comprar qualquer coisa para fazer qualquer coisa, você não vai. ter, então você tem uma taxa de juros ali que a pessoa vai te pagar para você ter essa taxa, ou essa preferência temporal ou desconto temporal geralmente está imbuída na taxa de juros, e aí a gente só que a gente pode ter coisas diferentes, por exemplo, juros diferentes, né?"
+        },
+        {
+          "timestamp": "49:30",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2970",
+          "speaker": "SPEAKER_02",
+          "text": "Preferência, descontos diferentes."
+        },
+        {
+          "timestamp": "49:32",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2972",
+          "speaker": "SPEAKER_02",
+          "text": "Se você vai ter."
+        },
+        {
+          "timestamp": "49:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2974",
+          "speaker": "SPEAKER_02",
+          "text": "Se você vai colocar, se a gente for pensar aqui no mercado brasileiro, para não dar polêmica, vamos pensar no mercado brasileiro."
+        },
+        {
+          "timestamp": "49:41",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2981",
+          "speaker": "SPEAKER_02",
+          "text": "Eu vou colocar esse elic, o governo sempre pode imprimir dinheiro para pagar a Selic, então você sabe que vai ser pago."
+        },
+        {
+          "timestamp": "49:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2987",
+          "speaker": "SPEAKER_02",
+          "text": "Então a gente no mercado a gente chama de taxa livre de risco."
+        },
+        {
+          "timestamp": "49:50",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2990",
+          "speaker": "SPEAKER_02",
+          "text": "Apesar de não ser literalmente livre de risco, ela é praticamente livre de risco, porque o governo sempre pode imprimir dinheiro e te pagar."
+        },
+        {
+          "timestamp": "49:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=2997",
+          "speaker": "SPEAKER_02",
+          "text": "Então a gente coloca lá e a gente, e essa é geralmente é a menor taxa, a taxa base, a menor taxa de juros do mercado brasileiro inteiro."
+        },
+        {
+          "timestamp": "50:06",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3006",
+          "speaker": "SPEAKER_02",
+          "text": "Mas aí se ao invés disso, se a gente pensar que vai investir numa startup, a startup ela pode falir, você não sabe quando é que ela vai estar dinheiro, você não sabe quando é que você vai conseguir pegar esse dinheiro de volta."
+        },
+        {
+          "timestamp": "50:16",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3016",
+          "speaker": "SPEAKER_02",
+          "text": "Você não sabe se os caras são vão."
+        },
+        {
+          "timestamp": "50:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3020",
+          "speaker": "SPEAKER_02",
+          "text": "É uma fraude, se você não sabia."
+        },
+        {
+          "timestamp": "50:22",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3022",
+          "speaker": "SPEAKER_02",
+          "text": "Então assim, tem várias coisas que podem acontecer que adiciona risco, que é o risco de mercado."
+        },
+        {
+          "timestamp": "50:30",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3030",
+          "speaker": "SPEAKER_02",
+          "text": "Isso aí a gente pede uma taxa de retorno mais alta."
+        },
+        {
+          "timestamp": "50:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3035",
+          "speaker": "SPEAKER_02",
+          "text": "Então a gente tem a gente precisa descontar diferente."
+        },
+        {
+          "timestamp": "50:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3040",
+          "speaker": "SPEAKER_02",
+          "text": "Então, enquanto juros ali, digando assim é10% ao ano, se eu for investir numa ação, às vezes eu vou querer15%."
+        },
+        {
+          "timestamp": "50:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3047",
+          "speaker": "SPEAKER_02",
+          "text": "Se eu vou, se eu for investir numa startup, às vezes eu vou querer30%, para começar a valer a pena."
+        },
+        {
+          "timestamp": "50:54",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3054",
+          "speaker": "SPEAKER_02",
+          "text": "Então, e aí com o Bitcoin, onde é que a gente coloca essa taxa para o Bitcoin?"
+        },
+        {
+          "timestamp": "51:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3064",
+          "speaker": "SPEAKER_02",
+          "text": "Quando é?"
+        },
+        {
+          "timestamp": "51:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3064",
+          "speaker": "SPEAKER_02",
+          "text": "Qual é o qual é o nível de risco que uma pessoa pensa. para o Bitcoin quando ela vai investir no Bitcoin."
+        },
+        {
+          "timestamp": "51:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3073",
+          "speaker": "SPEAKER_02",
+          "text": "Ela coloca que nem uma startup talvez então assim, a gente."
+        },
+        {
+          "timestamp": "51:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3080",
+          "speaker": "SPEAKER_02",
+          "text": "Ela pode fazer vários tipos de estimativa, mas se ela tem que ter uma noção de quanto que ela quer que o Bitcoin suba, e ela tem que achar que o Bitcoin vai subir por esse tanto para colocar o dinheiro nessa coisa que ele que a pessoa possa achar mega super arriscada."
+        },
+        {
+          "timestamp": "51:41",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3101",
+          "speaker": "SPEAKER_02",
+          "text": "Então, tem muita gente que nem tá no mercado, porque ele não sabe avaliar essas informações."
+        },
+        {
+          "timestamp": "51:51",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3111",
+          "speaker": "SPEAKER_02",
+          "text": "É isso aí é um primeiro ponto, um segundo, e grande pra caramba, mas primeiro ponto só."
+        },
+        {
+          "timestamp": "51:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3117",
+          "speaker": "SPEAKER_02",
+          "text": "O segundo ponto, atrito."
+        },
+        {
+          "timestamp": "51:59",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3119",
+          "speaker": "SPEAKER_02",
+          "text": "Por exemplo, um fundo não pode investir em Bitcoin diretamente."
+        },
+        {
+          "timestamp": "52:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3125",
+          "speaker": "SPEAKER_02",
+          "text": "Então, até pouco tempo atrás, pra alguém se expor a Bitcoin, eu tinha que comprar a MicroStrated."
+        },
+        {
+          "timestamp": "52:10",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3130",
+          "speaker": "SPEAKER_02",
+          "text": "Antes da MicroStrategy não tinha como fazer."
+        },
+        {
+          "timestamp": "52:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3133",
+          "speaker": "SPEAKER_02",
+          "text": "Então, se eu, por exemplo, eu quiser investir numa ação no Japão, eu não consigo."
+        },
+        {
+          "timestamp": "52:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3140",
+          "speaker": "SPEAKER_02",
+          "text": "Então, imagina que de hoje pra amanhã surge uma startup, que fala que lança um produto que me permite investir em empresas no Japão, eu posso comprar, sei lá, Honda, Toyota, etc."
+        },
+        {
+          "timestamp": "52:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3160",
+          "speaker": null,
+          "text": "Isso aí."
+        },
+        {
+          "timestamp": "52:42",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3162",
+          "speaker": "SPEAKER_02",
+          "text": "Será que será que tinha gente já precificando isso daí?"
+        },
+        {
+          "timestamp": "52:46",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3166",
+          "speaker": "SPEAKER_02",
+          "text": "Se chega a startup aí do nada, estava trabalhando em segredo, lança, lança isso daí, começa."
+        },
+        {
+          "timestamp": "52:53",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3173",
+          "speaker": "SPEAKER_02",
+          "text": "Começa a surgir outras coisas que são meramente atrito, né?"
+        },
+        {
+          "timestamp": "52:59",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3179",
+          "speaker": "SPEAKER_02",
+          "text": "Que não impedem, por exemplo, se quando a MicroStrategy entrar no SP500, muito dinheiro vai. entrar da Max Strategy, meramente porque ela está dentro da do SP500 e muita gente compra o SP500 por conta da hipótese de mercado eficiente."
+        },
+        {
+          "timestamp": "53:17",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3197",
+          "speaker": "SPEAKER_02",
+          "text": "Hoje um formato, muita gente ganha dinheiro arbitrando empresas que entram e saem de índices, então se a se ela sabe que uma se ela faz uma estimativa e acredita que a empresa pode entrar ou sair de um índice, ela compra ou vende, às vezes esse índice, para conseguir para conseguir ganhar essa diferença, porque existe esse atrito, o mundo é discreto, não é não é contínuo."
+        },
+        {
+          "timestamp": "53:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3227",
+          "speaker": "SPEAKER_02",
+          "text": "Então às vezes você não tem alguma coisa e de repente tem."
+        },
+        {
+          "timestamp": "53:52",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3232",
+          "speaker": "SPEAKER_02",
+          "text": "E nesse nesse momento que de repente tem, você não consegue ir de uma vez."
+        },
+        {
+          "timestamp": "53:58",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3238",
+          "speaker": "SPEAKER_02",
+          "text": "Então, vamos dizer também."
+        },
+        {
+          "timestamp": "54:00",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3240",
+          "speaker": "SPEAKER_02",
+          "text": "Outra analogia."
+        },
+        {
+          "timestamp": "54:02",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3242",
+          "speaker": "SPEAKER_02",
+          "text": "Vamos dizer aqui que o similar àquela do economista que achou dinheiro no chão."
+        },
+        {
+          "timestamp": "54:08",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3248",
+          "speaker": "SPEAKER_02",
+          "text": "Vamos dizer que você está que você está num cinema e o cinema começa a pegar fogo."
+        },
+        {
+          "timestamp": "54:15",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3255",
+          "speaker": "SPEAKER_02",
+          "text": "O economista da piadinha anterior vai falar que isso nunca vai acontecer."
+        },
+        {
+          "timestamp": "54:19",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3259",
+          "speaker": "SPEAKER_02",
+          "text": "Porque assim que tiver o fogo, ninguém vai estar dentro do cinema."
+        },
+        {
+          "timestamp": "54:22",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3262",
+          "speaker": "SPEAKER_02",
+          "text": "Ninguém quer ficar lá dentro com o fogo acontecendo."
+        },
+        {
+          "timestamp": "54:27",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3267",
+          "speaker": "SPEAKER_02",
+          "text": "Só que no momento que acontece o fogo."
+        },
+        {
+          "timestamp": "54:31",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3271",
+          "speaker": "SPEAKER_02",
+          "text": "Tem uma coisa que é uma limitação, que é a porta do cinema."
+        },
+        {
+          "timestamp": "54:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3274",
+          "speaker": "SPEAKER_02",
+          "text": "Se a gente lembrar da boate Kiz, que infelizmente aconteceu, começou a pegar fogo, e obviamente ninguém queria estar lá dentro."
+        },
+        {
+          "timestamp": "54:43",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3283",
+          "speaker": "SPEAKER_02",
+          "text": "Só que existe uma limitante, que é o tamanho da porta do cinema, as pessoas tentando sair uma empurrando a outra, e nesse Vulku VUCO tem gente que não sabia se ia rolar, se ia rolar, e tem."
+        },
+        {
+          "timestamp": "54:55",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3295",
+          "speaker": "SPEAKER_02",
+          "text": "Tinha gente de fora que tentou entrar para resgatar amigos pra tentar puxar para fora e acabou morrendo, então."
+        },
+        {
+          "timestamp": "55:02",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3302",
+          "speaker": "SPEAKER_02",
+          "text": "A gente tá numa sala de cinema pegando fogo aqui."
+        },
+        {
+          "timestamp": "55:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3305",
+          "speaker": "SPEAKER_02",
+          "text": "É isso."
+        },
+        {
+          "timestamp": "55:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3304",
+          "speaker": "SPEAKER_02",
+          "text": "Sala de cinema pegando fogo aqui."
+        },
+        {
+          "timestamp": "55:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3305",
+          "speaker": "SPEAKER_02",
+          "text": "É isso que eu penso."
+        },
+        {
+          "timestamp": "55:06",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3306",
+          "speaker": "SPEAKER_02",
+          "text": "A gente tá numa sala de cinema pegando fogo, o Halving faz parte dessa fagulha do incêndio."
+        },
+        {
+          "timestamp": "55:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3313",
+          "speaker": "SPEAKER_02",
+          "text": "O Halving tá ali, queimando."
+        },
+        {
+          "timestamp": "55:17",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3317",
+          "speaker": "SPEAKER_02",
+          "text": "Tá queimando aos poucos."
+        },
+        {
+          "timestamp": "55:19",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3319",
+          "speaker": "SPEAKER_02",
+          "text": "E chega, e as pessoas veem, poxa, tem um Halvin ali, eu acho que eu vou sentar perto da porta."
+        },
+        {
+          "timestamp": "55:25",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3325",
+          "speaker": "SPEAKER_02",
+          "text": "Pra sair mais rápido."
+        },
+        {
+          "timestamp": "55:27",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3327",
+          "speaker": "SPEAKER_02",
+          "text": "Tô vendo esse fogo ali, eu vou ficar ali."
+        },
+        {
+          "timestamp": "55:30",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3330",
+          "speaker": "SPEAKER_02",
+          "text": "Eu tenho o cara que tá, sei lá, fumando um cigarro do lado de alguma coisa inflamável."
+        },
+        {
+          "timestamp": "55:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3335",
+          "speaker": "SPEAKER_02",
+          "text": "Eu vou ficar ali perto da saída."
+        },
+        {
+          "timestamp": "55:37",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3337",
+          "speaker": "SPEAKER_02",
+          "text": "Então, eu vou já me posicionar."
+        },
+        {
+          "timestamp": "55:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3340",
+          "speaker": "SPEAKER_02",
+          "text": "Tem gente que falo, porra, isso aqui com certeza é vai dar problema, então eu nunca nem vou enxolar."
+        },
+        {
+          "timestamp": "55:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3349",
+          "speaker": "SPEAKER_02",
+          "text": "Seria como se fosse eu e você."
+        },
+        {
+          "timestamp": "55:51",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3351",
+          "speaker": "SPEAKER_02",
+          "text": "Eu e você, a gente é o cara que tá vendo o Halving ali e falo, cara, o negócio vai bombar, então eu já vou, tô comprado."
+        },
+        {
+          "timestamp": "56:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3361",
+          "speaker": "SPEAKER_02",
+          "text": "Então, a gente, nós, eu e você, a gente tá precificando o Halvin."
+        },
+        {
+          "timestamp": "56:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3364",
+          "speaker": "SPEAKER_02",
+          "text": "Só que me diz."
+        },
+        {
+          "timestamp": "56:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3365",
+          "speaker": "SPEAKER_02",
+          "text": "Você é."
+        },
+        {
+          "timestamp": "56:06",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3366",
+          "speaker": "SPEAKER_02",
+          "text": "Você acabou de me falar que é10 milhões.10"
+        },
+        {
+          "timestamp": "56:10",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3370",
+          "speaker": "SPEAKER_02",
+          "text": "milhões de dólares o preço, um preço justo do Bitcoin."
+        },
+        {
+          "timestamp": "56:15",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3375",
+          "speaker": "SPEAKER_02",
+          "text": "Por que você não colocou?"
+        },
+        {
+          "timestamp": "56:16",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3376",
+          "speaker": "SPEAKER_02",
+          "text": "Porque você não colocou mais dinheiro no Bitcoin?"
+        },
+        {
+          "timestamp": "56:21",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3381",
+          "speaker": "SPEAKER_01",
+          "text": "No meu caso é só porque eu não tenho acesso a mais dinheiro."
+        },
+        {
+          "timestamp": "56:25",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3385",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, eu não gosto de me alavancar, eu, tipo, eu prefiro a tranquilidade de não ter dívida que vai afetar o meu fluxo de caixa no curto prazo."
+        },
+        {
+          "timestamp": "56:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3395",
+          "speaker": "SPEAKER_01",
+          "text": "Então, eu pego bastante aquela máxima de se manter humilde e acumular essa torche de acordo com o fluxo de caixa, sabe?"
+        },
+        {
+          "timestamp": "56:43",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3403",
+          "speaker": "SPEAKER_01",
+          "text": "Ou seja, eu não faço a fina pra não ser liquidado, eu basicamente coloco tudo que sobra todo mês, e eu vou."
+        },
+        {
+          "timestamp": "56:53",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3413",
+          "speaker": "SPEAKER_01",
+          "text": "sei lá, de grão em grão a ganhar o papo, mas é isso, eu faço o máximo possível."
+        },
+        {
+          "timestamp": "56:58",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3418",
+          "speaker": "SPEAKER_01",
+          "text": "Eu, por exemplo, eu tirei as primeiras férias desde2021, na semana passada."
+        },
+        {
+          "timestamp": "57:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3424",
+          "speaker": "SPEAKER_01",
+          "text": "Ano passado que o Bitcoin estava na bacia das almas,15 mil, essas coisas."
+        },
+        {
+          "timestamp": "57:09",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3429",
+          "speaker": "SPEAKER_01",
+          "text": "Eu não tirei esférias, baixei a cabeça e trabalhei o máximo possível, para justamente investir o máximo possível."
+        },
+        {
+          "timestamp": "57:17",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3437",
+          "speaker": "SPEAKER_02",
+          "text": "Perfeito."
+        },
+        {
+          "timestamp": "57:18",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3438",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, o que acontece?"
+        },
+        {
+          "timestamp": "57:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3440",
+          "speaker": "SPEAKER_02",
+          "text": "Para você ter um mercado."
+        },
+        {
+          "timestamp": "57:22",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3442",
+          "speaker": "SPEAKER_02",
+          "text": "Para você ter um mercado eficiente da forma mais pura possível, você tem que ter a possibilidade de apostar, e se você aposta."
+        },
+        {
+          "timestamp": "57:37",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3457",
+          "speaker": "SPEAKER_02",
+          "text": "Se você tá vendo isso acontecendo, você está vendo que o Bitcoin deveria estar valendo10 milhões de dólares."
+        },
+        {
+          "timestamp": "57:43",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3463",
+          "speaker": "SPEAKER_02",
+          "text": "E por que você não aposta10 milhões de dólares?"
+        },
+        {
+          "timestamp": "57:46",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3466",
+          "speaker": "SPEAKER_02",
+          "text": "Por conta do atrito, você não tem condições de fazer isso daí."
+        },
+        {
+          "timestamp": "57:51",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3471",
+          "speaker": "SPEAKER_02",
+          "text": "Você não tem uma linha de crédito infinita, onde você pode pegar dinheiro infinito, colocar no Bitcoin e aí aguentar ou ir para negativo e ficar lá."
+        },
+        {
+          "timestamp": "58:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3485",
+          "speaker": "SPEAKER_02",
+          "text": "Porque se, eventualmente, você se alavanca e compra mais Bitcoin, se acontece alguma algum evento de volatilidade, você vai se ferrar, você vai perder seu dinheiro todo, vai tomar uma chamada de margem e vai ser obrigado a tirar esse dinheiro."
+        },
+        {
+          "timestamp": "58:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3500",
+          "speaker": "SPEAKER_02",
+          "text": "Então, uma das condições para ter essa possibilidade de dar informação refletir completamente o preço, é você ter você ter um acesso, ter possibilidade de se alavancar, então você não consegue hoje, se alavancar com juros baixos."
+        },
+        {
+          "timestamp": "58:39",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3519",
+          "speaker": "SPEAKER_02",
+          "text": "Se você fosse alavancar, você vai se alavancar o que no cartão de crédito você vai se alavancar pegando pegando dinheiro no banco, que vai estar pagando, sei lá,3% ao mês, no melhor do melhor do melhor dos casos ali, vamos dizer que você pega ali na Rispar, paga um e pouco, um e-mail ao mês."
+        },
+        {
+          "timestamp": "58:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3537",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, é um dinheiro que custa caro pra você."
+        },
+        {
+          "timestamp": "59:00",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3540",
+          "speaker": "SPEAKER_02",
+          "text": "Caro para você para você fazer isso daí sendo que eventualmente o pode o preço pode cair e você pode perder tudo."
+        },
+        {
+          "timestamp": "59:09",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3549",
+          "speaker": "SPEAKER_02",
+          "text": "Isso aqui ele não a hipótese de mercado eficiente ela não considera um mercado ele considera um mercado ideal, ele não está considerando um mercado real onde você pode tomar uma chamada de margem e perder tudo, por exemplo, então ele que é o que é o ambiente assim a maioria das teorias de mercado elas consideram que são teoria sem arbitragem, você não que tipo tudo que pode ser arbitrado já foi arbitrado, e aí faz muito sentido, e isso faz muito sentido, por exemplo, quando você está pensando na Petrobras, que é um que praticamente o mundo inteiro consegue acessar."
+        },
+        {
+          "timestamp": "59:51",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3591",
+          "speaker": "SPEAKER_02",
+          "text": "Você consegue comprar a ações da Petrobras no mercado brasileiro."
+        },
+        {
+          "timestamp": "59:54",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3594",
+          "speaker": "SPEAKER_02",
+          "text": "Você consegue comprar a ações da Petrobras no mercado de Nova York, toda maior parte do capital do mundo consegue consegue investir dinheiro na Petrobras, mas não é não é o que o que acontece com Bitcoin, considerando que é maior parte, é pelo menos estimado, né?"
+        },
+        {
+          "timestamp": "01:00:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3613",
+          "speaker": "SPEAKER_02",
+          "text": "Maior parte dos bitecoins tá com a gente, os plebeus aqui, então isso daí impede essa hipótese de acontecer, então você tá lá no cinema, e você tá vendo alguém acende um alguém acende um alguma coisa, o cinema começa a pegar fogo, e você quer sair, só que você tem a porta tem um tamanho que só consegue passar duas pessoas por segundo, e às vezes é isso, você tem que esperar para conseguir chegar lá para você conseguir pegar, e esse é um cenário metafórico, onde esse atrito que seja o tamanho da porta pode ser de empresas podendo acessar. por conta de do ETF, por conta de regulação pode ser o modelo mental que a gente tem hoje para dinheiro que mudou radicalmente com o Bitcoin é assim a gente na verdade a gente usa um modelo não um novo né um modelo antigo até o modelo lá do do da escola austríaca lá de ali mais perto de Menger e Mises ali da do início do início de século20 mas não é o modelo mais utilizado hoje né e é até ocorrer essa transição leva tempo para uma pessoa falar com a outra é um é um impedimento físico literalmente se você existe a informação por mais que ela seja digamos assim digital ela é se você procura existe uma fórmula matemática para espalhar fofoca então se você cria uma fofoca ela tem uma fórmula matemática do tempo que leva para a fofoca chegar em todo mundo ou seja mesmo a fofoca que não depende de dinheiro não depende de regulação não depende de nada você tem um tempo até essa difusão e com o Bitcoin não tem como ser diferente você tem um tempo físico que demora até as pessoas entenderem o que está acontecendo até as pessoas perceberem o que está rolando aceitarem o que está rolando e conseguirem tomar uma ação com isso e ter às vezes a regulação necessária para elas poderem tomar essa ação ou às vezes é o estudo necessário para poder também para ser eu vou comprar Bitcoin mas eu nem sei o que é uma carteira tem que uma carteira onde é que eu baixo então assim é leva tempo leva tempo e eu então eu acho que o Halving ele está ele não está precificado"
+        },
+        {
+          "timestamp": "01:02:56",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3776",
+          "speaker": "SPEAKER_02",
+          "text": "Ele não tá precificado, mas é uma coisa assim, eu acho, não tem, assim como as pessoas que falam que tá precificado não conseguem provar, eu também não consigo não conseguir provar que ele que ele não tá, mas o."
+        },
+        {
+          "timestamp": "01:03:12",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3792",
+          "speaker": "SPEAKER_02",
+          "text": "Mas quando o dinheiro começa a secar, você pode você pode você pode ter previsto isso,10 anos na frente."
+        },
+        {
+          "timestamp": "01:03:24",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3804",
+          "speaker": "SPEAKER_02",
+          "text": "A gente sabe disso aí, já desde2008 tá esse escrito que vai ser que vai acontecer isso, só que até a gente ligar os pontos, pô, tá acontecendo isso, então vai secar o dinheiro ali, então vai chegar menos dinheiro na exchange, então vai ter menos gente vendendo, então o preço vai subir, mesmo você tentando ou você tentando se adiantar isso daí, eu acho que todas as tentativas de precificação foram tentativas subprecificadas, foram tentativas muito pra baixo, justamente para não arriscar demais, porque é muito risco, né?"
+        },
+        {
+          "timestamp": "01:04:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3841",
+          "speaker": "SPEAKER_02",
+          "text": "Pô, você vai colocar."
+        },
+        {
+          "timestamp": "01:04:03",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3843",
+          "speaker": "SPEAKER_02",
+          "text": "Se você tá colocando, tá achando que o Halvin que o Bitcoin vai para10 milhões, você vai colocar dinheiro."
+        },
+        {
+          "timestamp": "01:04:11",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3851",
+          "speaker": "SPEAKER_02",
+          "text": "Se eu se eu vou pegar todo o dinheiro que eu tenho acesso e vou colocar, e o Bitcoin não vai chegar a10 milhões, e eu vou convencer minha família, eu vou convencer meus amigos, eu vou convencer minha cidade, e a gente vai comprar, comprar, comprar, e o Bitcoin não vai chegar a10 milhões, vai demorar muito até chegar a10 milhões, porque ele não chega assim de uma hora para outra, e então assim, vai acabar muito minha possibilidade de."
+        },
+        {
+          "timestamp": "01:04:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3878",
+          "speaker": "SPEAKER_02",
+          "text": "Minha possibilidade de acesso a alavancagem, a minha possibilidade de poder estar precificando esse ativo é limitada em relação ao quanto esse ativo pode ganhar valor ainda."
+        },
+        {
+          "timestamp": "01:04:56",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3896",
+          "speaker": "SPEAKER_03",
+          "text": "O BitPix automatiza a conversão dos seus depósitos Pix em Bitcoin ou dólar digital."
+        },
+        {
+          "timestamp": "01:05:03",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3903",
+          "speaker": "SPEAKER_03",
+          "text": "Pra usar, você só precisa transformar uma chave Pix em uma chave BitPix."
+        },
+        {
+          "timestamp": "01:05:08",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3908",
+          "speaker": "SPEAKER_03",
+          "text": "Após isso, todo o valor enviado essa chave será automaticamente convertida na sua moeda digital preferida."
+        },
+        {
+          "timestamp": "01:05:15",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3915",
+          "speaker": "SPEAKER_03",
+          "text": "E pra transformar a sua chave Pix em BitPix, é só seguir esses passos."
+        },
+        {
+          "timestamp": "01:05:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3920",
+          "speaker": "SPEAKER_03",
+          "text": "Na página inicial, clique no símbolo de Bitcoin e dólar no menu inferior."
+        },
+        {
+          "timestamp": "01:05:25",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3925",
+          "speaker": "SPEAKER_03",
+          "text": "Dê essa tela e clique em Conheça o BitPix."
+        },
+        {
+          "timestamp": "01:05:30",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3930",
+          "speaker": "SPEAKER_03",
+          "text": "Lê as instruções."
+        },
+        {
+          "timestamp": "01:05:31",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3931",
+          "speaker": "SPEAKER_03",
+          "text": "Em seguida clique em Cadastrar uma chave Bitpix."
+        },
+        {
+          "timestamp": "01:05:36",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3936",
+          "speaker": "SPEAKER_03",
+          "text": "Escolha uma chave Pix para transformá-la em uma chave Bitpix."
+        },
+        {
+          "timestamp": "01:05:43",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3943",
+          "speaker": "SPEAKER_03",
+          "text": "Escolha a moeda na qual deseja que os depósitos em reais feitos para elas sejam convertidos e clique em Selecionar."
+        },
+        {
+          "timestamp": "01:05:52",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3952",
+          "speaker": "SPEAKER_03",
+          "text": "E pronto, é só fazer um depósito para a chave e ver a mágica acontecer."
+        },
+        {
+          "timestamp": "01:05:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3957",
+          "speaker": "SPEAKER_01",
+          "text": "É, anotei alguns comentários tanto do ponto1 quanto do ponto2."
+        },
+        {
+          "timestamp": "01:06:02",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3962",
+          "speaker": "SPEAKER_01",
+          "text": "Do ponto1."
+        },
+        {
+          "timestamp": "01:06:03",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3963",
+          "speaker": "SPEAKER_01",
+          "text": "É muito interessante que você falou, né?"
+        },
+        {
+          "timestamp": "01:06:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3965",
+          "speaker": "SPEAKER_01",
+          "text": "Que querendo ou não, muita gente do mercado tradicional vê o Bitcoin como um ativo de risco."
+        },
+        {
+          "timestamp": "01:06:10",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3970",
+          "speaker": "SPEAKER_01",
+          "text": "Se comporta que nem ações de tecnologia ou startup."
+        },
+        {
+          "timestamp": "01:06:15",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3975",
+          "speaker": "SPEAKER_01",
+          "text": "E isso entra muito na frase que você também citou do Warren Buffett, que é diversificação é para quem não entende o que está fazendo."
+        },
+        {
+          "timestamp": "01:06:23",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3983",
+          "speaker": "SPEAKER_01",
+          "text": "E querendo ou não, acho que tem uma outra coisa que significa a mesma coisa no fundo, que basicamente risco é estar envolvido em algo que você não entende e por isso o fator educação é tão importante."
+        },
+        {
+          "timestamp": "01:06:37",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=3997",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, querendo ou não, a gente está realmente arbitrando uma simetria de informação gigantesca."
+        },
+        {
+          "timestamp": "01:06:43",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4003",
+          "speaker": "SPEAKER_01",
+          "text": "E sei lá, isso me lembra até um meme clássico do mundo do Bitcoin, que é uma pessoa aqui na frente falando."
+        },
+        {
+          "timestamp": "01:06:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4009",
+          "speaker": "SPEAKER_01",
+          "text": "E aí tem uma massa atrás e a pessoa ia falando, sim, vocês estão todos errando."
+        },
+        {
+          "timestamp": "01:06:52",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4012",
+          "speaker": "SPEAKER_01",
+          "text": "Sim, vocês estão todos errados, e assim, eu acho que essa é a sensação de todo mundo que estudou o Bitcoin e tenta conversar com amigos, com família, e todo mundo tenta falar que a gente está errado, e a gente fala, não, quem está errado são vocês."
+        },
+        {
+          "timestamp": "01:07:06",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4026",
+          "speaker": "SPEAKER_01",
+          "text": "Eu não tô louco, eu estudei bastante."
+        },
+        {
+          "timestamp": "01:07:08",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4028",
+          "speaker": "SPEAKER_01",
+          "text": "Eu sei que eu estudei mais de100 mil horas, eu sei que vocês não estudaram nem três horas, vocês viram o que talvez tenha aparecido na Economist sobre o Bitcoin, e convenhamos não é a melhor fonte, então é isso, né?"
+        },
+        {
+          "timestamp": "01:07:23",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4043",
+          "speaker": "SPEAKER_01",
+          "text": "Querendo ou não, risco é fazer algo que você não entende, tá exposto a algo que você não entende."
+        },
+        {
+          "timestamp": "01:07:29",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4049",
+          "speaker": "SPEAKER_01",
+          "text": "E aí o ponto2, achei muito legal a analogia sobre a fagulha do incêndio."
+        },
+        {
+          "timestamp": "01:07:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4053",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, sim, teve a catástrofe da botkeys, então não essa parte eu achei legal, mas a analogia é que o Halving representa essa fagulha do incêndio que vai mudar bastante o equilíbrio entre a oferta e a demanda."
+        },
+        {
+          "timestamp": "01:07:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4069",
+          "speaker": "SPEAKER_01",
+          "text": "E eu acho que uma maneira muito interessante de ilustrar isso é mostrar o que aconteceu nos halvins passados, querendo ou não, isso mostra muito precisamente o histórico, e com certeza supostamente cada halving vai ter uma influência menor, porque a quantidade de emissão de moedas tem é menos relevante comparativamente a total que está em circulação sendo negociado, mas eu acho que enxergar o que está o que aconteceu nos halvins passados ajuda a gente também entender tendências, e aqui a gente vê o que aconteceu no vários halvings."
+        },
+        {
+          "timestamp": "01:08:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4114",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, no primeiro, o que acontece com o preço do Bitcoin, isso aqui é a data do Hoving, ele em algum tempo ele multiplicou30 mil por cento, e aí você pode falar, não, mas isso é uma época muito antiga, muito anterior, o Bitcoin está no começo do seu processo de monetização."
+        },
+        {
+          "timestamp": "01:08:50",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4130",
+          "speaker": "SPEAKER_01",
+          "text": "Isso do seu processo de monetização, beleza, na segunda época também depois do Halvim tem uma multiplicação de9 mil por cento, na terceira época tem uma multiplicação de quase3 mil por cento, na quarta época tem uma multiplicação até ao time high de quase700%,690%, então assim, historicamente a gente vê que sim, todo mundo tem a informação que vai acontecer o Halving, e mesmo assim acontece autas históricas, algum tempo depois do Halvim, geralmente é de12% a18 meses depois do Halving, que é justamente o tempo que leva para esse equilíbrio novo entre a oferta que diminuiu e a demanda que se manteve mais ou menos constante tem de aumentar um pouco pelo processo de adoção, gera esse efeito no preço, então assim, eu acho que a gente não pode ver o Halving de uma maneira isolada, né?"
+        },
+        {
+          "timestamp": "01:09:52",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4192",
+          "speaker": "SPEAKER_01",
+          "text": "O Halving ele é um choque na oferta, então, por exemplo, o Halving não explica, porque a gente já quebrou a máxima histórica atual, antes do Halving que vai acontecer esse mês, historicamente isso não estava acontecendo assim, tipo, na minha visão, a gente está num paradigma novo e diferente, e eu sei que isso pode trigar muita gente, porque o pessoal acha que usar a palavra paradigma deveria ser para ocasiões muito raras e únicas, mas pra mim é o que está acontecendo, tipo, sendo bem sincero, tipo, o choque de."
+        },
+        {
+          "timestamp": "01:10:27",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4227",
+          "speaker": "SPEAKER_01",
+          "text": "Tipo, o Halv é um choque de oferta, o choque de demanda que os ETFs representam, ele estava precificado?"
+        },
+        {
+          "timestamp": "01:10:36",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4236",
+          "speaker": "SPEAKER_01",
+          "text": "Não estava precificado?"
+        },
+        {
+          "timestamp": "01:10:37",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4237",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, mas o ponto é isso é uma coisa que não tem paralelo na história do Bitcoin, então para mim, em vez de analisar só para se o Halving tá precificado ou não."
+        },
+        {
+          "timestamp": "01:10:48",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4248",
+          "speaker": "SPEAKER_01",
+          "text": "Se o Hwing tá precificado ou não é ver a ver a tendência como um todo."
+        },
+        {
+          "timestamp": "01:10:53",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4253",
+          "speaker": "SPEAKER_01",
+          "text": "E pra mim ver a tendência como um todo é teremos o Hauving que vai representar sim um choque de oferta, já temos um grande choque de demanda."
+        },
+        {
+          "timestamp": "01:11:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4264",
+          "speaker": "SPEAKER_01",
+          "text": "Então, pra mim, tanto faz se um que tá precificado, o outro tá precificado, a tendência macro."
+        },
+        {
+          "timestamp": "01:11:12",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4272",
+          "speaker": "SPEAKER_01",
+          "text": "É um novo equilíbrio entre oferta e demanda."
+        },
+        {
+          "timestamp": "01:11:15",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4275",
+          "speaker": "SPEAKER_01",
+          "text": "E sendo bem sincero, eu não acredito que nenhum dos dois está precificado, eu acredito que a gente ainda tá no começo desse bom marketing, tem gente que fala que a gente já tá num topo local, porque o Bitcoin caiu de70 mil para65 mil, agora ontem hoje essa madrugada que a gente está gravando hoje, que é dia2 de abril, mas pra mim a gente está."
+        },
+        {
+          "timestamp": "01:11:41",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4301",
+          "speaker": "SPEAKER_01",
+          "text": "Sei lá, eu não chamaria isso de precificado também de maneira nenhuma, assim, sendo bem sincero."
+        },
+        {
+          "timestamp": "01:11:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4307",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que existe uma tentativa de precificação."
+        },
+        {
+          "timestamp": "01:11:50",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4310",
+          "speaker": "SPEAKER_02",
+          "text": "A gente vê que o que a subida do hash rate deu, me pareceu que deu uma acelerada."
+        },
+        {
+          "timestamp": "01:11:59",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4319",
+          "speaker": "SPEAKER_02",
+          "text": "Existe."
+        },
+        {
+          "timestamp": "01:11:59",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4319",
+          "speaker": "SPEAKER_02",
+          "text": "Parece que existe."
+        },
+        {
+          "timestamp": "01:12:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4321",
+          "speaker": "SPEAKER_02",
+          "text": "Teve já uma aceleração do Hash Rage, parece que está entrando mais mineradores, que assim, por que eles vão entrar, se não porque eles acham que o preço vai subir bastante, né?"
+        },
+        {
+          "timestamp": "01:12:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4333",
+          "speaker": "SPEAKER_02",
+          "text": "Então, eu acho que existe um início de front-run, né?"
+        },
+        {
+          "timestamp": "01:12:20",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4340",
+          "speaker": "SPEAKER_02",
+          "text": "Um início de players se adiantando, assim como nós mesmos, eu, eu e você, nós estamos aí nos adiantando, já tem meses, aí, se não, porque a gente acredita que lá na frente o preço vai estar tal."
+        },
+        {
+          "timestamp": "01:12:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4358",
+          "speaker": "SPEAKER_02",
+          "text": "Então, se a gente for fazer um valuation relativo, tá?"
+        },
+        {
+          "timestamp": "01:12:45",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4365",
+          "speaker": "SPEAKER_02",
+          "text": "Eu não sei qual é o preço justo do Bitcoin, mas. vamos comparar aqui o custo benefício o quanto eu posso ter de retorno com o quanto de risco eu posso ter se a gente for olhar o Bitcoin até hoje tem um sharp ratio extremamente superior a todas as outras classes de ativos no mundo assim tem um tem um gráfico lá no site do Williu que tem que dá para você acompanhar o Sharp ratio do Bitcoin para quem não sabe Sharp Ratio é você dividir o retorno é o retorno livre de risco dividido pelo risco que seria a volatilidade então assim normalmente quando você vai investir um sharp ratio que é excelente quando você vai investir é um sharp ratio de um bitcoin tem um sharp ration de três por um tempo ele era quatro agora ele cai um pouquinho tá dois e meio três e meio e nenhum nenhum outro ativo chega nem próximo disso quando você mede nessa janela de quatro anos então se eu se eu se eu vou investir em alguma coisa que sentido faz eu investir em alguma coisa que paga uma fração do que eu vou receber investindo em Bitcoin ou seja o Sharp ratio ele já é o retorno é ajustado ao risco ou seja se ele é um se o se outros outras classes de ativo são tem um preço tem um sharp ratio de sei lá de meio de um de um e vamos colocar aí um só para arredondar quer dizer que o Bitcoin vai ser três vezes a gente vai ganhar se a gente mesmo se a gente investir menos para ter menos volatilidade a gente vai ter"
+        },
+        {
+          "timestamp": "01:14:44",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4484",
+          "speaker": "SPEAKER_02",
+          "text": "V volatilidade a gente vai ter três vezes o retorno com o mesmo nível de risco, então não faz."
+        },
+        {
+          "timestamp": "01:14:54",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4494",
+          "speaker": "SPEAKER_02",
+          "text": "Como é que."
+        },
+        {
+          "timestamp": "01:14:55",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4495",
+          "speaker": "SPEAKER_02",
+          "text": "Se eu tenho esse Sharp Ratio constantemente acima de todos os outros, como que eu posso dizer que já está tudo precificado, não tem como."
+        },
+        {
+          "timestamp": "01:15:08",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4508",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que o essa ideia de precificação é uma coisa que faz muito sentido quando você está no mercado, num mercado maduro, digamos assim, um mercado maduro com o mercado financeiro."
+        },
+        {
+          "timestamp": "01:15:22",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4522",
+          "speaker": "SPEAKER_02",
+          "text": "Então tá todo mundo."
+        },
+        {
+          "timestamp": "01:15:23",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4523",
+          "speaker": "SPEAKER_02",
+          "text": "Todo mundo tem acesso a Petrobras, todo mundo tem acesso ao mercado ao bolsa, todo mundo tem acesso a Nova York, todo mundo tem acesso, e já tem várias empresas que estudam isso há vários anos, que tem especialistas tem universidades que ensinam que estão trabalhando e estudando e pesquisando, e em cima disso daí o tempo todo, e enquanto no Bitcoin tem, porra, por mais que hoje tem algumas empresas que são monstros, né?"
+        },
+        {
+          "timestamp": "01:15:52",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4552",
+          "speaker": "SPEAKER_02",
+          "text": "Tipo a Coinbase é enorme, mercado Bitcoin, um unicórnio no Brasil."
+        },
+        {
+          "timestamp": "01:15:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4557",
+          "speaker": "SPEAKER_02",
+          "text": "Tem a Kraken, tem um monte de empresas que são enormes, comparado com uma bolsa de Nova York, não é nada, não é nada, é muito pequenininho, é assim."
+        },
+        {
+          "timestamp": "01:16:09",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4569",
+          "speaker": "SPEAKER_02",
+          "text": "Por mais ter mais, por exemplo, a Bolsa Brasileira tem mais gente investindo em cripto, no geral, do que no do que na bolsa, mas ainda assim, é um é um mercado, o mercado financeiro tradicional é muito mais maduro e robusto, por anos e anos e anos e anos de prática, e então assim, uma empresa de investimento, um fundo de investimento brasileiro, até hoje não vê muito."
+        },
+        {
+          "timestamp": "01:16:43",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4603",
+          "speaker": "SPEAKER_02",
+          "text": "Você vê, nem se importa de estudar, porque para eles."
+        },
+        {
+          "timestamp": "01:16:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4609",
+          "speaker": "SPEAKER_02",
+          "text": "Ah, eu já enviou sonho em ação e tá tudo certo, é isso aí."
+        },
+        {
+          "timestamp": "01:16:53",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4613",
+          "speaker": "SPEAKER_02",
+          "text": "Quando eu vi esses dias a Luiz e Barcio, a filha do Barsi, falando que."
+        },
+        {
+          "timestamp": "01:16:59",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4619",
+          "speaker": "SPEAKER_02",
+          "text": "Olha, quando eu invisto em empresas, quando as empresas adotarem Bitcoin, eu vou ter no meu portfólio empresas que tem Bitcoin."
+        },
+        {
+          "timestamp": "01:17:08",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4628",
+          "speaker": "SPEAKER_02",
+          "text": "Então eu vou estar exposta a Bitcoin de forma de forma indireta."
+        },
+        {
+          "timestamp": "01:17:14",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4634",
+          "speaker": "SPEAKER_02",
+          "text": "E é isso que vai acontecer."
+        },
+        {
+          "timestamp": "01:17:16",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4636",
+          "speaker": "SPEAKER_02",
+          "text": "Quando as empresas começarem a adotar Bitcoin, essas últimas pessoas aí que estão decididas a não entrar agora, elas vão."
+        },
+        {
+          "timestamp": "01:17:26",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4646",
+          "speaker": "SPEAKER_02",
+          "text": "Elas vão entrar ali no final, e elas não estão hoje precificando o Bitcoin."
+        },
+        {
+          "timestamp": "01:17:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4653",
+          "speaker": "SPEAKER_01",
+          "text": "Cara,100% de acordo."
+        },
+        {
+          "timestamp": "01:17:37",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4657",
+          "speaker": "SPEAKER_01",
+          "text": "E é isso, querendo ou não, não tem nada errado de seguir essa estratégia da Luiz e Barsi, mas ao mesmo tempo isso significa que você abrir o mão do upside, né?"
+        },
+        {
+          "timestamp": "01:17:48",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4668",
+          "speaker": "SPEAKER_01",
+          "text": "Querendo ou não, o bom momento de você entrar numa tese de investimento é quando o mato tá alto que você consegue arbitrar essa assimetria de informação, que é justamente o que a gente está fazendo."
+        },
+        {
+          "timestamp": "01:18:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4681",
+          "speaker": "SPEAKER_01",
+          "text": "Por isso que eu não tirei férias, é o que a gente conversou sobre pô, sabemos que vai ter Hitcoinheiro, se dedica pra caramba, pra comprar o máximo possível."
+        },
+        {
+          "timestamp": "01:18:11",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4691",
+          "speaker": "SPEAKER_01",
+          "text": "A maioria das pessoas nem sabe o que essa palavra significa, então não dá pra acreditar que essas pessoas estão tomando decisões racionais baseadas num conhecimento que elas não têm."
+        },
+        {
+          "timestamp": "01:18:26",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4706",
+          "speaker": "SPEAKER_01",
+          "text": "Dito tudo isso, cara, tem a pauta aqui, então queria perguntar se você tem alguma consideração final para fazer sobre esse tema em específico do se o Halving está precificado, e também pedir duas. dicas de leitura para você."
+        },
+        {
+          "timestamp": "01:18:44",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4724",
+          "speaker": "SPEAKER_01",
+          "text": "Uma relacionada ao tema Bitcoin."
+        },
+        {
+          "timestamp": "01:18:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4727",
+          "speaker": "SPEAKER_01",
+          "text": "E aí pode ser Bitcoin, economia austríaca, biologia evolutiva, sei lá, qualquer tema que na sua cabeça se conecta com o mundo do Bitcoin, e uma leitura que não tenha nada a ver com Bitcoin, que seja uma leitura que você gosta, por e simplesmente por gostar, sabe?"
+        },
+        {
+          "timestamp": "01:19:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4744",
+          "speaker": "SPEAKER_01",
+          "text": "Num sentido bem mais eu daimônico e não num sentido estudo."
+        },
+        {
+          "timestamp": "01:19:10",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4750",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza."
+        },
+        {
+          "timestamp": "01:19:12",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4752",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que tem a gente falou de muita, muita, muita coisa, mas eu acho que vale a pena aproveitar que a gente está nesse assunto, e eu acrescentar só mais um conceito, que eu acho que é que é um conceito que eu acho que é muito valioso, que é o conceito de pensamento de segunda ordem, terceira ordem, ordem K, que é o seguinte, vamos pensar num jogo, é tem um jogo que criaram, que eu vou chegar para uma."
+        },
+        {
+          "timestamp": "01:19:51",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4791",
+          "speaker": "SPEAKER_02",
+          "text": "A gente pode até fazer agora com quem está escutando o nosso podcast."
+        },
+        {
+          "timestamp": "01:19:57",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4797",
+          "speaker": "SPEAKER_02",
+          "text": "Você tem um número de um a100, eu quem ganhar, eu vou mandar100 sets pela Lightning para quem chegar mais perto do número."
+        },
+        {
+          "timestamp": "01:20:08",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4808",
+          "speaker": "SPEAKER_02",
+          "text": "Que vai ser o seguinte, e aí você fala depois como é que as pessoas mandam o número pra você, mas o tem que."
+        },
+        {
+          "timestamp": "01:20:16",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4816",
+          "speaker": "SPEAKER_02",
+          "text": "Vai ter que escolher um número de zero a100, e ganha."
+        },
+        {
+          "timestamp": "01:20:22",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4822",
+          "speaker": "SPEAKER_02",
+          "text": "Quem adivinhar um número que está a dois terços da média, então eu vou pegar a média de todo mundo que chutou."
+        },
+        {
+          "timestamp": "01:20:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4835",
+          "speaker": "SPEAKER_02",
+          "text": "Então vamos pensar aí, sei lá, zero sim."
+        },
+        {
+          "timestamp": "01:20:38",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4838",
+          "speaker": "SPEAKER_02",
+          "text": "0,50,50,100, então a média é50 vezes2 terços, vai ser50 dividido por3 vezes2, dá33, aproximadamente, então, o."
+        },
+        {
+          "timestamp": "01:20:56",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4856",
+          "speaker": "SPEAKER_02",
+          "text": "Então, quem chegar mais perto de33 ganhou, então esse é o."
+        },
+        {
+          "timestamp": "01:21:00",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4860",
+          "speaker": "SPEAKER_02",
+          "text": "Esse é o jogo."
+        },
+        {
+          "timestamp": "01:21:01",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4861",
+          "speaker": "SPEAKER_02",
+          "text": "E o que acontece?"
+        },
+        {
+          "timestamp": "01:21:03",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4863",
+          "speaker": "SPEAKER_02",
+          "text": "Esse é um jogo que tem uma coisa que o Jorge Soros, escreveu sobre que é a reflexividade do mercado."
+        },
+        {
+          "timestamp": "01:21:13",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4873",
+          "speaker": "SPEAKER_02",
+          "text": "O que é reflexividade?"
+        },
+        {
+          "timestamp": "01:21:15",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4875",
+          "speaker": "SPEAKER_02",
+          "text": "A sua ação no mercado altera o mercado, então, quando eu tem, por exemplo, alguém colocou o número100,50,50,0, então eu quero chutar33, porque eu acho que esses aqui são os números, então eu vou colocar."
+        },
+        {
+          "timestamp": "01:21:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4894",
+          "speaker": "SPEAKER_02",
+          "text": "Vou chutar33."
+        },
+        {
+          "timestamp": "01:21:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4895",
+          "speaker": "SPEAKER_02",
+          "text": "No momento que eu coloco33, a média muda, e não é mais33, então eu ia acertar exatamente, e agora eu vou estar mais longe da resposta, então você tem que."
+        },
+        {
+          "timestamp": "01:21:48",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4908",
+          "speaker": "SPEAKER_02",
+          "text": "Então, é o um jogo que a forma que todo mundo interage altera o resultado final, e isso é muito interessante, porque se você pensar o mercado é racional, vamos pensar em seres racionais, então, pô, qual é a média."
+        },
+        {
+          "timestamp": "01:22:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4925",
+          "speaker": "SPEAKER_02",
+          "text": "Se a gente pensar cada um chutando aleatoriamente, qual vai ser a média?50,"
+        },
+        {
+          "timestamp": "01:22:09",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4929",
+          "speaker": "SPEAKER_02",
+          "text": "mas aí dá33, mas o qual é o pensamento segunda ordem, a mas as pessoas não consideraram."
+        },
+        {
+          "timestamp": "01:22:16",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4936",
+          "speaker": "SPEAKER_02",
+          "text": "Se ninguém conseguir se as pessoas não consideraram que na verdade é dois terços, então."
+        },
+        {
+          "timestamp": "01:22:22",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4942",
+          "speaker": "SPEAKER_02",
+          "text": "Se alguém chutou aleatoriamente, porque sem pensar, então vai ser33, então."
+        },
+        {
+          "timestamp": "01:22:28",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4948",
+          "speaker": "SPEAKER_02",
+          "text": "Na verdade, eu vou colocar a média."
+        },
+        {
+          "timestamp": "01:22:30",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4950",
+          "speaker": "SPEAKER_02",
+          "text": "Vai ser33, a média vai ser33, e aí, dois terços da média vai ser dois terços de33. que vai ser22, mas pô, tem as pessoas que pensaram que isso poderia acontecer, então o ser22, e se a gente for até o infinito, isso vai pra zero, então a forma ingenuamente racional, como as pessoas geralmente definem racionalidade, é simplesmente colocar zero, mas racional de verdade, quem quer ganhar não vai ganhar, não vai ganhar no zero, porque pra ser zero, todo mundo tem que colocar zero."
+        },
+        {
+          "timestamp": "01:23:12",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4992",
+          "speaker": "SPEAKER_02",
+          "text": "Então, se alguém quiser ser zoeiro e colocar100, já não vai ser mais zero."
+        },
+        {
+          "timestamp": "01:23:18",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=4998",
+          "speaker": "SPEAKER_02",
+          "text": "E aí você vai ter que ser outro número."
+        },
+        {
+          "timestamp": "01:23:21",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5001",
+          "speaker": "SPEAKER_02",
+          "text": "Então, é um jogo que você tem que pensar."
+        },
+        {
+          "timestamp": "01:23:23",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5003",
+          "speaker": "SPEAKER_02",
+          "text": "O Kings tem essa."
+        },
+        {
+          "timestamp": "01:23:25",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5005",
+          "speaker": "SPEAKER_02",
+          "text": "Criou essa."
+        },
+        {
+          "timestamp": "01:23:26",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5006",
+          "speaker": "SPEAKER_02",
+          "text": "Cria essa ideia também que eu falando que o mercado é um concurso de beleza, onde você não vota na candidata mais bonita."
+        },
+        {
+          "timestamp": "01:23:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5014",
+          "speaker": "SPEAKER_02",
+          "text": "Você vota na candidata que você acha que os outros vão achar mais bonito."
+        },
+        {
+          "timestamp": "01:23:39",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5019",
+          "speaker": "SPEAKER_02",
+          "text": "Então, você está sempre ali pensando o que os outros vão pensar para se posicionar pra ver o que você vai fazer."
+        },
+        {
+          "timestamp": "01:23:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5027",
+          "speaker": "SPEAKER_02",
+          "text": "Então, quando puder, fala depois ali onde é que as pessoas podem mandar, a gente coloca uma data final, e aí quem quem ganhar, ganha, sei lá, eu mando sem sats.Ó,"
+        },
+        {
+          "timestamp": "01:23:58",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5038",
+          "speaker": "SPEAKER_01",
+          "text": "vamos fazer assim, o pessoal comenta no post do Twitter da Bipa que vai ter publicado esse podcast."
+        },
+        {
+          "timestamp": "01:24:08",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5048",
+          "speaker": "SPEAKER_01",
+          "text": "E cara, no fundo, é isso, né?"
+        },
+        {
+          "timestamp": "01:24:10",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5050",
+          "speaker": "SPEAKER_01",
+          "text": "Querendo ou não, as nossas ações sempre dependem das ações de outras pessoas, a gente não atua no vácuo, né?"
+        },
+        {
+          "timestamp": "01:24:18",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5058",
+          "speaker": "SPEAKER_01",
+          "text": "Então, quando você começou a explicar, eu pensei, puta, eu vou chutar20, não, vou chutar10, puta, não, mas outra pessoa vai chutar, e aí vai puxando, mas é o que você falou, vai ter a pessoa que não vai se importar e vai colocar69, ou vai colocar99, ou vai colocar88, que é o ano que nasceu."
+        },
+        {
+          "timestamp": "01:24:34",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5074",
+          "speaker": "SPEAKER_01",
+          "text": "38, que é o ano que nasceu, e aí é isso, tipo, o ser humano é realmente racional."
+        },
+        {
+          "timestamp": "01:24:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5080",
+          "speaker": "SPEAKER_01",
+          "text": "Vários são, mas alguns não são, e esses alguns também influenciam o sistema, o que torna o sistema um sistema mais caótico, né?"
+        },
+        {
+          "timestamp": "01:24:49",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5089",
+          "speaker": "SPEAKER_01",
+          "text": "Então."
+        },
+        {
+          "timestamp": "01:24:51",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5091",
+          "speaker": "SPEAKER_01",
+          "text": "Vai ser interessante ver o resultado na prática, se o pessoal comprou a ideia e a gente tiver bastante comentário para ter uma relevância estatística nesse desafio."
+        },
+        {
+          "timestamp": "01:25:02",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5102",
+          "speaker": "SPEAKER_01",
+          "text": "Me dá dois livros agora."
+        },
+        {
+          "timestamp": "01:25:04",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5104",
+          "speaker": "SPEAKER_01",
+          "text": "Dois livros."
+        },
+        {
+          "timestamp": "01:25:05",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5105",
+          "speaker": "SPEAKER_01",
+          "text": "Beleza."
+        },
+        {
+          "timestamp": "01:25:06",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5106",
+          "speaker": "SPEAKER_02",
+          "text": "Pô, eu acho que o primeiro livro não tem como não recomendar o meu livro."
+        },
+        {
+          "timestamp": "01:25:14",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5114",
+          "speaker": "SPEAKER_02",
+          "text": "Vai ser lançado agora, daqui a."
+        },
+        {
+          "timestamp": "01:25:18",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5118",
+          "speaker": "SPEAKER_02",
+          "text": "Mandei pra editora hoje, então, provavelmente aí essa semana na próxima, deve já deve estar na Amazon, então eu recomendo aí o meu livro, ele é muito legal aí para quem é para quem é iniciante, sair do zero e aprender tudo, mas quem ainda tem algumas dúvidas mais iniciais, ou então até gosta de ler o tema, tem eu tento colocar algumas curiosidades legais para quem já é mais experiente, algumas algumas formas diferentes de pensar sobre alguns assuntos, ele é ele é bem prático, é fácil de ler, você consegue ler e escolher a pergunta no índice direto na pergunta e ver a resposta, então ele é que é um livro bem legal aí para isso que é101 perguntas sobre Bitcoin."
+        },
+        {
+          "timestamp": "01:25:59",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5159",
+          "speaker": "SPEAKER_02",
+          "text": "Esse é o nome aí que logo, logo vai estar na Amazon."
+        },
+        {
+          "timestamp": "01:26:03",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5163",
+          "speaker": "SPEAKER_02",
+          "text": "Agora, o segundo livro, um livro que não tem a ver com Bitcoin."
+        },
+        {
+          "timestamp": "01:26:10",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5170",
+          "speaker": "SPEAKER_02",
+          "text": "Hoje em dia, eu tô tão."
+        },
+        {
+          "timestamp": "01:26:14",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5174",
+          "speaker": "SPEAKER_02",
+          "text": "Hoje em dia eu praticamente só leio sobre assuntos relacionados."
+        },
+        {
+          "timestamp": "01:26:18",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5178",
+          "speaker": "SPEAKER_02",
+          "text": "Tem um que é um pouco menos relacionado, é um livro sobre matemática."
+        },
+        {
+          "timestamp": "01:26:25",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5185",
+          "speaker": "SPEAKER_02",
+          "text": "Que tem a ver com a conversa que a gente teve, então, de certa forma, acaba tendo um pouco a ver com Bitcoin. mas assim, de forma bem superficial, então vamos colocar ele, que é o The End of Average."
+        },
+        {
+          "timestamp": "01:26:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5200",
+          "speaker": "SPEAKER_02",
+          "text": "Eu acho que ele não tem em português, é o fim da média, The End of Average, do Todd Rose."
+        },
+        {
+          "timestamp": "01:26:46",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5206",
+          "speaker": "SPEAKER_02",
+          "text": "Eu já tô indicando ele tem algum tempo, eu não sei, eu espero que eu não tenha indicado em outro podcast que vocês tenham me perguntado, porque pode ser que tenha acontecido, mas ele é um livro muito legal, porque ele fala sobre formas erradas de você usar a média aritmética, parece um tema meio meio nerd, meio estranho, mas ele vem do início de pega a história de quando as pessoas começaram a usar a média do conceito de expectativa de esperança matemática, quando você pega um expectativa, e aí ele traz, por exemplo, ele traz a história de várias histórias, vou contar uma só para exemplificar, no bem no início, ele fala de um na guerra, eles estavam fazendo um avião, e aí para fazer esse avião para as pessoas, para os pilotos ganharem a guerra lá, eles fizeram um avião, tiraram a média, qual é o tamanho médio de um braço, o tamanho médio da uma perna, e pegaram essa média, e aí fizeram avião, e o avião estava dando problema, caía, ninguém conseguia pilotar esse avião direito, até que é o um cara, não lembro quem lá, que ele conta a história, ele foi medir as pessoas e comparar com a média de todo mundo, e viu que ninguém, ninguém tinha as mesmas proporções da média, tinha gente que tinha braço mais comprido, tinha gente que tinha que a perna mais comprida, tinha gente que tinha a cabeça maior, menor, e aí o que acontece?"
+        },
+        {
+          "timestamp": "01:28:24",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5304",
+          "speaker": "SPEAKER_02",
+          "text": "Por mais que existia assim a média do tamanho do braço, a média do tamanho da perna, só que quando você juntava todas essas médias, você não gerar."
+        },
+        {
+          "timestamp": "01:28:30",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5310",
+          "speaker": "SPEAKER_02",
+          "text": "Você não gerava uma pessoa real, você gerava uma pessoa fictícia."
+        },
+        {
+          "timestamp": "01:28:35",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5315",
+          "speaker": "SPEAKER_02",
+          "text": "Ou seja, em vez de ser um negócio que fica bom pra todo mundo, é um negócio que fica ruim pra todo mundo, que não fica bom pra ninguém."
+        },
+        {
+          "timestamp": "01:28:42",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5322",
+          "speaker": "SPEAKER_02",
+          "text": "E aí ele fala, ele vai trazendo esse conceito lá de trás, e vai trazendo ali em várias questões, em educação, em neurologia, em vários aspectos diferentes, sobre como a ideia da média, tanto em se tentar conformar a média, quanto tentar se distanciar da média, como esses dois modelos são dois modelos que, eventualmente, não funcionam."
+        },
+        {
+          "timestamp": "01:29:12",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5352",
+          "speaker": "SPEAKER_02",
+          "text": "E é muito legal, porque você cria novos modelos na sua cabeça, novos mapas, mapas mentais, assim, que você começa a avaliar criticamente várias coisas que acontecem aí no dia a dia, e você vê, pô, isso aqui claramente não faz sentido."
+        },
+        {
+          "timestamp": "01:29:28",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5368",
+          "speaker": "SPEAKER_02",
+          "text": "Alguém chegou simplesmente tirou uma média sem mais nem menos, e não funciona."
+        },
+        {
+          "timestamp": "01:29:33",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5373",
+          "speaker": "SPEAKER_02",
+          "text": "Então é um livro e a leitura é sensacional, a leitura é muito gostosa de ler, o livro é excelente, recomendo demais."
+        },
+        {
+          "timestamp": "01:29:40",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5380",
+          "speaker": null,
+          "text": "Boa."
+        },
+        {
+          "timestamp": "01:29:41",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5381",
+          "speaker": "SPEAKER_01",
+          "text": "Cara, muito obrigado pelo seu tempo, como sempre é um prazer, eu aprendo bastante."
+        },
+        {
+          "timestamp": "01:29:47",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5387",
+          "speaker": "SPEAKER_01",
+          "text": "E com certeza a gente ainda vai se falar várias vezes, não só ao vivo, mas também no podcast."
+        },
+        {
+          "timestamp": "01:29:53",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5393",
+          "speaker": "SPEAKER_01",
+          "text": "Então, até a próxima."
+        },
+        {
+          "timestamp": "01:29:55",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5395",
+          "speaker": "SPEAKER_02",
+          "text": "Até, até logo."
+        },
+        {
+          "timestamp": "01:29:58",
+          "href": "https://www.youtube.com/watch?v=ekQtXuTDOIs&t=5398",
+          "speaker": null,
+          "text": "E obrigado."
+        }
+      ]
+    }
+  ]
+}

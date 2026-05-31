@@ -1,0 +1,2554 @@
+{
+  "input_source": "https://www.youtube.com/watch?v=-pgSr8PIf38",
+  "model_dir": "/Users/breno/Library/Application Support/fast-transcript/models/parakeet-tdt-0.6b-v3-int8",
+  "audio_path": "/var/folders/vy/s9lbsy291glb0pzd3ynyjtrw0000gn/T/.tmphI71vU/-pgSr8PIf38.webm",
+  "prepared_audio_path": "/var/folders/vy/s9lbsy291glb0pzd3ynyjtrw0000gn/T/.tmpalVWeT/-pgSr8PIf38.16k_mono.wav",
+  "used_ffmpeg_normalization": true,
+  "used_local_model": true,
+  "transcript_source": "downloaded-audio-local-model",
+  "audio_seconds": 2415.2700625,
+  "load_seconds": 0.595137125,
+  "transcribe_seconds": 150.421754708,
+  "total_inside_seconds": 151.01689183300002,
+  "seconds_per_audio_second": 0.06252588237552421,
+  "realtime_speedup": 15.993376854629572,
+  "text": "Um dois. Só deixa eu dar duas oficialmente. E pessoal, boa tarde, bem-vindo de volta aí, depois do almoço. Tem um cafezinho ali, acho que ele na lanchonete ali, para quem está precisando aí, né? Daquele soninho depois. Mas, beleza, pessoal, vamos apresentar aqui o Breno Brito. Ele vai falar agora sobre aliamento de LLMs, o que é, e as principais técnicas. Ele é engenheiro de ML de Machine Learning, empreendedor e autor, com foco na interseção entre Bitcoin, inteligência artificial e finanças. Então, vamos dar uma salva de palmas aí para receber o Breno. E aí, gente, tudo bom? Então, muito obrigado aí pela introdução. A ideia dessa palestra aqui é bem simples. Não tem só 30 minutinhos aqui de conversa e depois mais 10 de perguntas. Então, a ideia vai ser só um purpurri ali, passar por cima, para vocês terem um conhecimento por alto das principais técnicas para depois, quando vocês forem trabalhar com isso, vocês saberem o que pesquisar. Tem muita gente que já parte direto para a programação e vai montando. Para programação e vai montando, vai criando sistema e depois nem sabe as técnicas que. Oi, está melhor agora? Então, muita gente vai fazendo tudo e nem sabe das técnicas que já existem e que funcionam muito bem, que eles podereriam estar usando. Então, essa é a ideia aqui. Beleza? Então,brigadão aí pela Plone Python Serrado, por isso aí. Eu sou cientista de dados, sou. Eu trabalho hoje como cientista de dados sêniers na Bipa, trabalhei também como engenheiro de machine learning no Spirit of Satoshi, cientista de dados do mercado Bitcoin, trabalho com Bitcoin na indústria de Bitcoin desde 2017, na área de dados. Inclusive, tem um livro publicado aí, ganhei o hackathon, meu hackathon que eu ganhei ano passado, foi usando uma LLM para fazer smart contract de Bitcoin. Enfim, só para dar uma overview aí rapidinho de quem sou eu. Quem quiser falar comigo depois, mandar falar no Twitter ou alguma coisa assim, ter uns contatos ali no final. Então, para começar, todo mundo sabe o que é uma rede neural, o que é uma LLM, alguém não sabe, levanta a mão, quem não sabe quem, tipo. Beleza. Então, a maioria que já sabe, o. LLM é uma rede neural, uma rede neural é um conjunto de neurônios. O neurônio, ele foi o neurônio artificial, ele foi um modelo matemático para simular o neurônio nosso mesmo da cabeça. Então, se você vê aqui, não sei se vocês lembram do livro de biologia, ele parece ali o axiônio com os nedritos, mas esse é um modelo matemático, é basicamente uma multiplicação com uma depois uma função não linear. É Não linear. A gente não precisa entrar em detalhes aqui, mas quando você pegue esse perceptrum, que é o neurônio, e você coloque ali na rede neural, você junta vários deles para criar uma rede neural, você criou um aproximador universal. Ou seja, você tem uma entrada, você tem uma saída, e você consegue aproximar qualquer função. E isso que dá a força da rede neural, isso que faz as redes neurais serem algo tão poderoso assim. E, no final, o modelo de linguagem é basicamente uma rede neural que usa. Geralmente ele usa aquela arquitetura ali, transformer, não vou entrar em detalhes, mas ela ajuda nesse processamento da rede neural que é melhor para trabalhar com linguagem. Beleza, e o que é, de fato, alinhamento? Alinhamento é o processo de fazer com que o modelo de linguagem responda de acordo com o que você quer que ele responda. Como assim? Vamos dizer aqui que eu pergunte aí, qual capital do Brasil? Modelo pode simplesmente responder Brasília. Porém, o modelo também pode falar. Ah, eu sei essa resposta. A resposta para a capital do Brasil pode dar uma resposta longa, ele pode dar uma resposta curta, ele pode dar uma resposta diversos tipos de respostas diferentes. Quando a gente está trabalhando com linguagem, a gente entra num campo menos objetivo e a gente tem uma infinidade de respostas que respondem uma mesma pergunta. E o alinhamento é justamente fazer com que o modelo responda do jeito que você quer que ele responda. E isso tem vários desafios aí que tem problemas éticos, problemas técnicos que a gente vai mostrar aqui agora. Então, alguns problemas de segurança. Por exemplo, a gente, com um modelo de linguagem em produção, dependendo do que esse modelo de linguagem está fazendo, ele pode expor informações sensíveis. Ele. Vocês sabem que ele é treinado com uma vastaidão de dados, e nessa vastidão de dados, pode ser que tinha o dado de alguém ali no meio. Não é incomum pessoas falando, ah, eu consegui puxar um endereço, eu peguei uma aqui do Windows, agora eu consigo instalar Windows na minha máquina usando essa aqui que eu peguei aqui numa LLM. Então, esses são dados que são sensíveis e a gente não, na grande maioria dos casos, a gente não tem interesse que ele esse dado vaze, né? Então tem informações sensíveis, instruções erradas ou perigosas também. Se a gente. A gente quer que ele que ele instrua de uma de uma maneira certa e cuidadosa. Na maioria dos casos. Se a gente tem. Se a gente está ensinando a fazer uma receita que é muito difícil, de algo que é muito importante. Por exemplo, um médico, se a gente está tem um robô, uma modelo de linguagem falando sobre um procedimento médico, a gente não pode responder de qualquer forma. É importante que seja detalhado e seja minucioso nos pontos sensíveis para não quem estiver usando isso daí for colocar em prática não acabar pulando algum passo importante que prejudicam outra pessoa. Então tem problemas técnicos, também, então a gente pode ter respostas inconsistentes, imprecisas, imprevisíveis, ou até inúteis. E problemas éticos. Muitas pessoas aí já devem ter escutado o problema de racismo algoritmo, que eu não gosto muito desse termo, mas o que acontece é o seguinte, se a gente treina um algoritmo onde uma parte é sobrepresentada, uma parte da população é sobre representada, o que acontece é que esse viés ele pode passar pelo modelo e trazer informações que não são interessantes para reforçar preconceito e essas coisas. E aqui algum problema de segurança recentemente aí no Google implementou o Jamie 9. O que aconteceu foi que ele colocou o modelo junto da ferramenta de busca. E ele pegou a maior parte das vezes do treinamento. Ou do treinamento ou de outras técnicas ali de busca de informações, ele pegou do Reddit. Então vocês já devem imaginar o que a resposta que tem, né? Então aqui alguém pergunta, eu estou sentindo depressivo. Aí alguém fala, ah, uma solução é pular da ponte. O Google colocando isso no site, né? Outra aqui, ó. Como é que eu faço um queijo que não fique grudando a pizza? E aí alguém fala pra você usar uma. Você colocar cola na pizza. Então, assim, tem várias dessas respostas absurdas que acabaram passando desse lado. Eu tiro aqui e coloco de novo. Tá. Vamos ver se. isso aí resolveu. Pois é. Foi mal, gente. Então, assim, tem vários. São alguns problemas de segurança, né? Aqui, é claro, são só uma pessoa meio tapada, vai ler isso daí e sei lá. Comer uma pedra por dia, que nem o Google falou aqui. Mas. Se ele respondem essas coisas absurdas, eles podem responder coisas sutis que são problemáticas também. E aí vem problemas éticos. Isso aqui não são modelos de linguagem, são modelos de imagem, né? Stable diffusion, mas eu acho que é muito ilustrativo. Então o Google tinha esse departamento, essa área de ética dentro da parte de inteligência artificial, e eles colocaram muito forte ali no modelo pra não sobre representar pessoas brancas. E aí o que aconteceu? Pediam presidente dos Estados Unidos, aí aparece aí presidência dos Estados Unidos indígenas. Não que existe, de fato, um problema nisso aí, mas é algo que não é. Não é real, não é acurado. E as pessoas, obviamente, se aproveitaram para fazer coisas piosas aí. Não é daqui. Então, em inglês, talvez eu falando em português aqui não atrapalhe tanto. Mas aí pediram para fazer soldados nazistas, aí tinham soldados nazistas asiáticos negros, etc. São problemas aí que. Não é não é muito legal, né? Você ter um modelo em produção e aparecer e as pessoas usarem e acontecer esse tipo de coisa. Então, como que a gente faz esse alinhamento? Pois é, tradição simultânea aí. Como é que a gente faz esse aliamento? Então, eu vou rouber esse gráfico aqui da Nvidia. Ele não mostra tudo o que existe, mas ele tem. Dá pra gente dar uma visualização bem interessante de formas diferentes de alinhamento. Então, a forma mais simples, rápida e fácil e barata, é o Prompt Engineering. Provavelmente quase todo mundo aí já deve ter ouvido falar Prompt Engineering. Você basicamente você muda o prompt que você está dando para o modelo e tentam fazer ele responder melhor de acordo com o que você quer. Segunda forma aí, essa segunda forma que é o prompt learning. Prompt learning é você criar um sistema de feedback onde você. Sabendo a resposta que você quer, você treina o prompt. Você treina, você consegue encontrar os tokens que vão gerar aquele o prompt para gerar aquela resposta. Depois, se eu estiver falando alguma coisa muito complexa, alguma tiver difícil de entender, por favor, falem aqui. Depois temos o parameter efficient fine tuning. Antes que é você. Ao invés de você treinar um modelo inteiro, você congela o modelo e você treina só um pedaço do modelo. E existem. Isso aí é. Existem essas formas que são mais eficientes, obviamente, elas não são tão boas, mas elas conseguem. ajudar bastante no alinhamento. E por último é o treinamento, é o Instruction Tunning, que seria. Basicamente, é similar ao fine tunning, mas no modelo inteiro. E aí, como você está treinando o modelo inteiro, você tem todos aqueles cursos de modelo. Isso, exatamente. Isso, a pergunta aqui dele foi se o Prompt Engineering e o Prompt Learning você mexe dentro do modelo. E ele está correto que você disse, o Prompt Engineering e Prompt Learning é fora do modelo, você mexe só o prompt, você só muda o prompt e o fine tuning você muda os pesos do modelo. É isso aí. Exatamente, exatamente. É muito mais barato e muito mais rápido fazer aqueles dois primeiros, que como a gente vê aqui, o custo vai aumentando conforme a gente vai indo ali para treinar o modelo inteiro. E aqui as técnicas. Então, a gente, depois que. Quando a gente baixa o modelo que já existe, ele tem o chamado pre-training. O que é o pre-training? Ele treinou o modelo de forma geral. E aí depois você pode fazer um continued pre-training. O que é o continued pre-training? É você continuar treinando o modelo com o geral também. Em seguida, você pode fazer um fine tunning. Até hoje ainda existem algumas divergências nos termos técnicos. Então, não existe ainda um consenso até onde é fine tunning, onde é que é instruction turning, mas basicamente. depois do pre-training, você faz um aprendizado supervisionado. Com um instruction tuning, você ensina o modelo a seguir instruções, e aí depois você faz um fine tunning que é ajustando para os dados que você quer. Então você primeiro você treina uma coisa que é generalista, e você depois vai treinando para ele ficar mais especialista, mais ou menos que nem a gente. A gente é na vida, né? A gente estuda ali em ensino fundamental, ensino médio, a gente vê todas as áreas, ciência, filosofia, história e tudo mais. E aí depois beleza, agora eu vou para a engenharia, eu vou para a programação, e aí você vai afunilando e vai ficando mais especialista. Então você faz o fine tuning do modelo completo, que também dá para ser chamado de instruction tuning, se você está treinando para as instruções, e depois você pode. Você também pode fazer o fine tuning de baixo modelo, que eu comentei ali, que é uma forma mais eficiente, apesar de ser um pouquinho pior na qualidade. Você tem o Prompt Learning, o Prompt Engineering, que a gente comentou ali atrás. No Prompt Engineering tem diversas técnicas, inclusive ali o promptingguide.ai, muito bom esse site, ele tem basicamente uma coleção de quase que todas as técnicas de Prompt Engineering que já foram criadas, é um negócio gigante, é muito completo. É bem legal. Mas assim, se você sabe o que é o fio shot prompt, que é basicamente você dar alguns exemplos, e o chain of thought que é você pedir pra ele responder em passo a passo, isso aí geralmente resolve 90% dos casos. E aí, um bônus e umas coisinhas a mais. Então, além disso daí você tem também o Representation Engineering e Sparse Altencoders, são duas técnicas levemente diferentes, mas as duas dá para eu tentar resumir de uma forma mais alto nível, como se a gente estivesse fazendo uma cirurgia cerebral no modelo. Ou seja, a gente observa quais são os neurônios que estão sendo ativados, conforme a gente pede algum prompt, e a gente faz um steering, a gente aumenta ou diminui eles conforme a gente quer algum resultado. Então, nos papers que fizeram que criaram essas técnicas, eles conseguiram, por exemplo, fazer um modelo esquecer o que é um cachorro. Você pergunta lá, qual é o animal que faz woofuff. E aí o modelo não sabe, fala, ah, não sei, eu acho que é uma vaca. Ele responde qualquer coisa. Então, você consegue fazer. São técnicas mais complicadas, um pouco, mas elas são muito interessantes e muito promissoras. Tem muita gente trabalhando, especialmente em Sparse Alten Coders, onde você consegue catalogar uma variedade muito grande de features do modelo. Então, você não sei quem é que acompanha aí, mas recentemente o One Tropic usou usou essa técnica de Sparse Autom Coders para fazer o modelo da Golden Bridge. E aí ele colocou, ele viu que existia essa ideia, esse conceito de Golden Bridge, e ele colocou isso no máximo. Então, tudo que você falava com o modelo, com esse modelo da Golden Bridge. ele sempre respondia como se ele fosse a ponte, ou trazendo o assunto para a ponte, ou falando da ponte. Então ele estava sempre aí falando dessa ponte. E você pode fazer isso, por exemplo, para isso aí, apesar de eu estar falando isso para modelos de linguagem, dá para fazer para modelos de imagem também. Então, digamos assim, que você peça para o seu modelo de imagem fazer uma imagem de uma cabana. E aí você pode controlar essa feature, por exemplo, de neve. E aí você aumenta a feature ou diminui a feature de neve, e aí você vai ter a cabana e a cabana vai ter mais neve ou menos neve. Isso num modelo que você consegue colocar, tipo um nob. Ao invés de você literalmente escrever. Então você consegue ter um ter uns controles mais finos e bem interessantes disso daí. Além disso, Guard Rails e as camadas de segurança também são partes cruciais para a gente ir no nosso alinhamento. Se vocês já tentaram conversar com algum modelo e pedir alguma coisa, sei lá, pedir para ele te ensinar a fazer metafentamina, ou alguma coisa assim, você vai ver que ele fala, eu sou um modelo, que eu não posso fazer isso, não sei o que. Por que ele faz isso? Existem essas técnicas. Guardails, apesar de ter um nome só, é uma coleção, é uma diversidade de técnicas diferentes. Tem algumas bibliotecas de Guardails diferentes, e formas diferentes de você usar. E. Enfim, e aí você consegue fazer o modelo ir para o caminho que você quer. E também, por último, a forma mais simples, você pode colocar um Humaning in the Loop. Você coloca um ser humano para revisar e autorizar passo a passo tudo que você quer. Também é uma forma. válida para vários casos de uso. Quando você está escrevendo, por exemplo, você chega lá no chat EPT e você está escrevendo um artigo, você não pega a primeira coisa que ele cospe e já usa como seu artigo, você vai. Beleza, agora faz isso, agora faz aquilo. Você é o Hillman in the Loop, e você está controlando o que ele está trazendo. Então, um pouquinho mais a fundo aqui, já estamos aqui no final, mas só para chegar ali no Instruction Tuning, que é um passo bem fundamental hoje na maioria dos modelos. Basicamente, depois que você faz o pre-training, só para a gente ir um pouquinho mais a fundo, você tem o Supervised Learning, onde você dá inputs e outputs, isso aqui é o que eu quero. Esse aqui é isso aqui é a entrada, essa aqui é a saída que eu quero. Então você vai controlando ali o que ele vai te trazer, e depois você faz o reinforcement learning with human feedback. É o aprendizado por reforço com feedback humano, que você consegue. que é o que o ChatGPT faz. Se vocês já escreveram alguma coisa e o ChatGPT pergunta, qual dessas duas resposta ficou melhor? Essa ou essa? E aí você escolhe uma delas, você está ajudando a treinar o modelo e fazendo aí o alinhamento. Isso aqui é. Acho que a gente vou pular essa parte aqui rapidinho, mas é só ainda mais detalhes. Isso aqui tem no blog da OpenAI dele explicando como é que funciona o reenforcement learning with human feedback. Tem lá no site da OpenAI, mas é bem detalhes, eu acho que eu vou parar aqui um pouquinho para tirar dúvidas aí. Surgiram algumas dúvidas, vamos ver que já está chegando nos últimos minutos da palestra? Ah, são mais oito minutos, mais tempo de pergunta? E aí, o que vocês acham? Vocês querem ir um pouquinho mais a fundo naquela parte ali? Beleza, então, como é que? a OpenAI fez o sistema de alinhamento deles. Quem aí já. Quem aí sabe como é que funciona. Quem sabe como é que funciona reinforcement learning? Levanta a mão. Ok, poucas pessoas, mas eu consigo dar um overview rápido. Reinforcement learning, aprendizado por reforço, basicamente é o seguinte: é um modelo onde você tem o agente, e você tem o ambiente. Então, o agente é quem toma ações e o ambiente recebe ações e provê um estado. Então, por exemplo, vamos pensar num bebê. Um bebê ele quer pegar um biscoito em cima da mesa. Então ele vai tentar levantar e vai tentar caminhar, ele é um agente e o ambiente é a sala. E aí, às vezes ele cai. Então ele recebe um recompensa negativa. E o ele. E aí ele consegue pegar o biscoito, isso é uma recompensa positiva. Então, esse sistema de treinamento, ele é um sistema de treinamento que é um pouquinho diferente do Supervised e Unsupervised Learning, mas ele é muito bom, porque você não precisa explicar exatamente o que você quer. Você só dá uma recompensa se for bom ou se for. ou um punição se for ruim. Então, isso aí é o reinforcement learning. Agora, como é que isso se encaixa nos modelos de linguagem? Então, vamos voltar ali para o Supervised Learning. Você acabou de treinar o. Você acabou de treinar seu modelo, fazer o pre-training, onde você basicamente você está ensinando o modelo a prever o próximo token, a próxima palavra de um conjunto muito grande de dados. E aí, com base nisso daí, você tem o. Você já tem o seu modelo, e aí você começa a perguntar para o modelo. Você vai para o modelo e fala. Você coloca inputs. E você fala qual é o output específico que você queria. E aí, com isso daí, você usa isso para continuar treinando o modelo. Deixa eu tirar e colocar isso aqui de novo. Para ver se melhor. Acho que agora foi. Acho que agora foi. Já anotado. Próxima vez eu trago minha energia para não acontecer isso. Tá. Vamos lá. Mais uma vez. Third time the charm. Nada? Tá ligado. Espera aí. Tá, vamos assim mesmo. Então, a gente está ali sempre treinando, colocando entrada e saída e fazendo modelo treinar. E esse é o primeiro passo, o supervised learning. Segundo passo. É a gente. Isso aqui ele deu um exemplo aqui. Acho que está muito pequeno para vocês lerem, mas está. O exemplo aqui é explica reinforcement learning para uma criança de seis anos de idade. E a gente deu ali nossa resposta. O que a gente gostaria que ele respondesse. Segundo passo. Beleza. Segundo passo, ele vai ali e a gente pede várias respostas. Como ele é um modelo generativo, ele dá várias respostas diferentes, ele usa. ele não responde, ele não dá uma resposta final, ele tem uma gama de probabilidade das próximas palavras, e a gente consegue gerar diversas respostas diferentes. Então a gente seleciona, a gente pega essas várias respostas diferentes, por exemplo, quatro aqui, vamos dizer, e um ser humano chega e fala. A resposta B é a melhor é melhor que a resposta C, que é melhor do que a resposta A, que é melhor que a resposta D, por exemplo. Ele cria isso daí, e aí com isso. Ele vai criar, ele vai treinar um outro modelo, que é um modelo de recompensa. Ali no reenforcement learning, você tem um agente que atua no ambiente e recebe uma recompensa. Seja ali o biscoito, ou então ele se machuca, cai no pé, cai no chão e se machuca um pouquinho, isso aí é uma recompensa positiva ou negativa. E a gente vai treinar um modelo, uma rede neural que vai dar essa recompensa para o modelo, conforme os tokens que está dando ali na resposta. Naquela entrada ali, essa aqui são as saídas, e esses são os possíveis. Essa é a ordem que eu gosto. Então a gente treina um outro modelo, um modelo de recompensas para fazer isso daí, para aprender o reinforcement learning, e com esse modelo treinado, a gente consegue tirar o ser humano. E aí a gente consegue depois fazer o a inteligência artificial gerar várias respostas. Depois o modelo. de recompensa vai classificar essas respostas de acordo com o que ele aprendeu antes com os anotadores humanos. Com isso aí de ficar abrindo e fechando a tela, talvez tenha ficado confuso. Ficou. Bem, acho que agora vai ser a parte das perguntas, então, se tiver ficado confuso essa parte, vocês vão poder perguntar. Perfeito, pessoal, uma salva de palmas aí para o Breno. Vamos fazer assim, quem quiser fazer pergunta, pode formar uma fila aqui. Tem alguém interessado em fazer pergunta? Tudo bem, se vocês a gente fizer uma fila aqui, só para organizar melhor. Opa. Então, eu já trabalhei num projeto que estava construindo nenhuma solução com LLM. E na época, o Fine Tuning não estava legal. As respostas não estavam. Estavam boas, mas não estavam excelentes. E aí, na época, eu acho que cogitou-se fazer uma busca híbrida com base de gráfico também. Usar o próprio LLM para criar o grafo, dos dados de treinamento, dos dados de da HAG. E fazer tentar fazer uma busca híbrida para ver se. Eu não fiquei lá. Eu não sei o resultado, mas eu queria saber da sua experiência. Sei que pode ser cada casa a casa, mas sua experiência, você acha que faz diferença uma busca híbrida com gráfico? Ou geralmente não valeu o esforço? Ótima pergunta. E eu, sinceramente, eu não sei responder muito bem. Eu já vi pessoas falando muito bem. de uso de LLMs com grafos, mas eu, pessoalmente, eu nunca usei, tem diversas formas diferentes de usar de usar reg. Reg, para quem não sabe, é retrieval augmente generation. Basicamente, se a gente pensar que a LLM é uma pessoa. O reg seria uma enciclopédia que ela dá uma pesquisada antes de dar uma resposta. Então, já vi muita gente falando disso, usando e falando que funciona bem. Eu, sinceramente, não sei, nunca usei, e tem diversas implemententações diferentes com reg. Como eu nunca usei grafo para fazer isso, o que eu faria seria outro approach, mas isso é totalmente pessoal meu. Eu teria tentaria melhorar a arquitetura do reg, eu tentaria usar re-rankers, que são modelos. Um re-ranker é quando você busca, faz a busca no reg, e aí, digando assim que eu pego 10 textos que são que podem ser relevantes, e aí desses 10, eu faço um reordenamento e seleciono os cinco melhores. Então eu faço o primeiro usando, por exemplo, cosseno, distância de cosseno, que é rápido de fazer e é relativamente barato. E aí depois eu uso uma LLM menor para fazer um re-ranking de menos aí, onde ele vai dar uma fazer um reordenamento e diminua ali, e aí eu passo no final como esse contexto. Falam muito bem desse approach, eu tentaria esse approach antes de ir para uma arquitetura que eu não conheço, mas é pessoal meu. Só pra explicar qual é o estado da arte hoje nessa região aí do processo de reg e tal. Tudo o processo de reggae e tal. O que hoje é estar na. O que eu vejo de estado da arte é usando re-rankers. Fazendo isso que eu te falei agora. Você pegando o menos das últimas das últimas artigos que eu li, e do grandes pesquisadores falando sobre isso. É. Você faz um busca, entre aspas, burra, naive. Com cosseno mesmo, distância de cosseno, e depois você usa um modelo menor para fazer um re ranking, e aí você faz essa segunda seleção, e aí você coloca a resposta como contexto e responde com a sua LLM. É isso, seria mais. É, basicamente, sei lá, você e depois. Isso, procurar de novo. É porque se você usar simplesmente os embeddings para fazer uma. Para fazer a distância de cosseno, o que vai acontecer é que esses embeddings, ele. Eles são muito bons, mas eles não são perfeitos. Vão ter muita coisa que vai vir que não tem nada a ver. Então você usa isso primeiramente. E depois, que é mais rápido, seleciona 10, 20, e depois você coloca ali no re ranking e você diminui. Ou então você, pelo menos, ordena eles dos mais importantes para os menos importantes, e coloca como contexto. A minha pergunta é mais voltando para aquela que você estava falando um pouco mais no começo, sobre as questões éticas e seus desafios, né? Tem um de break muito famoso, que é o da vovó, né? Você consegue fazer uma LLM te ensinar a fazer metaphetamina, pedindo para que ela te ensine como se fosse a avó passando uma receita. E funciona. Não sei se ainda funciona, mas em 2009. Não sei se ainda funciona, mas em 2023 funcionava. Essa é a minha pergunta. Como garantir que o usuário criativo não consiga desfazer todo o teu processo de. Tudo que tu fez para que ele não ensine fazer a minha pergunta pedindo para a vovó ensinar. Como impedir o usuário. É, isso daí. Não existe uma resposta definitiva para isso. Do mesmo jeito que você cria um sistema e sempre vai ter um hacker russo que vai descobrir uma forma aí de burlar seu sistema. Da mesma forma, dá para fazer a mesma coisa com as redes ouais. A maioria das redes que eu testei e o da vovó não estava mais funcionando. Não, eu tentei pedir pra vovó me contar uma história antes de dormir com os keys da Microsoft e ela não me deu. A minha pergunta era meio no sentido de tipo, você consegue fazer alguma coisa. Digamos que não seja só na parte de engenharia de prompt ou de learning. Prompt learning, mas sim no modelo. Sim, sim. Que é ali no Sparse Aut Encoders. Cadê aqui? O Sparse Aut Encoders? Você consegue. Você está meio que fazendo uma. Do mesmo jeito que você consegue fazer ele esquecer conceitos. Então, por exemplo, se ele esquecer o conceito de metafetamina, ele não vai conseguir te ensinar a fazer. Mas isso. Isso ainda é muito recente. A princípio. Não tem uma degradação muito grande. Mas provavelmente se você ficar mexendo muito e mexer em várias coisas ao mesmo tempo, pode ser que isso aconteça. Mas a forma que eu acho que é que geralmente é mais usada são os Guard Rails. São essas camadas de segurança. Então, por exemplo, uma coisa que eu já vi muitas vezes acontecendo é o modelo, eu tentando fazer de jail break do modelo, e o que acontece é o modelo começa a me responder o que eu queria, e aí de repente a conversa some, e aí vem um outro texto e fala, desculpa, eu não posso falar isso daí, não sei o quê. E o que isso é? Na verdade, são duas chamadas de LLM. Uma que está respondendo o que eu perguntei, e a outra que está lendo a resposta do que está respondendo, e tentando detectar se tem alguma coisa que alguma coisa perigosa. Então, existem formas de lidar com isso, tem outras formas, por exemplo, se você fizer com lead speak, eu já fiz. Eu dei jail break no. No LLM do WhatsApp com o lead speak. Então, ele me ensinou a fazer metafentamina com leadspeak. E aí, assim, se você pensa que ele consegue fazer isso com lead speak, você. Porque o que acontece? Ele não vê letras e palavras. Ele vê tokens, né? Que são pedaços. Então, se você está usando LeadSpeak, por mais que ele entenda o Lead Speak, ele não são os mesmos tokens. Então, e aí, se funciona para Lead Speak, provavelmente, se você colocar, sei lá, espaço entre as palavras em maiúsculo, talvez funcione também. Então tem várias formas de fazer e você pode também combinar. Então, se você faz um. Se você junta a técnica da vovó com o Lead Speak, com outras coisas assim, pode ser que isso aí não é linear, não é. Beleza, eu travei, travei aqui a técnica da vovó não vai funcionar nunca mais. Você pode ir juntando outras coisas e tentar combinar. Tá combinar e existe essa possibilidade, mas o que eu tentaria fazer é com camada de segurança Guard Rails específico. Muito obrigado. Perfeito, pessoal. Então, mais uma salva de palmas aí para o nosso palestrinho. Muito obrigado a todos, pessoal. Valeu e obrigado pela participação. Obrigado. Valeu, pessoal.",
+  "chunk_seconds": 120.0,
+  "chunk_overlap_seconds": 2.0,
+  "chunk_count": 21,
+  "chunks": [
+    {
+      "index": 0,
+      "start_s": 0.0,
+      "end_s": 120.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.266331709,
+      "text": "Um dois. Só deixa eu dar duas oficialmente. E pessoal, boa tarde, bem-vindo de volta aí, depois do almoço. Tem um cafezinho ali, acho que ele na lanchonete ali, para quem está precisando aí, né? Daquele soninho depois. Mas, beleza, pessoal, vamos apresentar aqui o Breno Brito. Ele vai falar agora sobre aliamento de LLMs, o que é, e as principais técnicas. Ele é engenheiro de ML de Machine Learning, empreendedor e autor, com foco na interseção entre Bitcoin, inteligência artificial e finanças. Então, vamos dar uma salva de palmas aí para receber o Breno. E aí, gente, tudo bom? Então, muito obrigado aí pela introdução. A ideia dessa palestra aqui é bem simples. Não tem só 30 minutinhos aqui de conversa e depois mais 10 de perguntas. Então, a ideia vai ser só um purpurri ali, passar por cima, para vocês terem um conhecimento por alto das principais técnicas para depois, quando vocês forem trabalhar com isso, vocês saberem o que pesquisar. Tem muita gente que já parte direto para a programação e vai montando."
+    },
+    {
+      "index": 1,
+      "start_s": 118.0,
+      "end_s": 238.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.244949875,
+      "text": "Para programação e vai montando, vai criando sistema e depois nem sabe as técnicas que. Oi, está melhor agora? Então, muita gente vai fazendo tudo e nem sabe das técnicas que já existem e que funcionam muito bem, que eles podereriam estar usando. Então, essa é a ideia aqui. Beleza? Então,brigadão aí pela Plone Python Serrado, por isso aí. Eu sou cientista de dados, sou. Eu trabalho hoje como cientista de dados sêniers na Bipa, trabalhei também como engenheiro de machine learning no Spirit of Satoshi, cientista de dados do mercado Bitcoin, trabalho com Bitcoin na indústria de Bitcoin desde 2017, na área de dados. Inclusive, tem um livro publicado aí, ganhei o hackathon, meu hackathon que eu ganhei ano passado, foi usando uma LLM para fazer smart contract de Bitcoin. Enfim, só para dar uma overview aí rapidinho de quem sou eu. Quem quiser falar comigo depois, mandar falar no Twitter ou alguma coisa assim, ter uns contatos ali no final. Então, para começar, todo mundo sabe o que é uma rede neural, o que é uma LLM, alguém não sabe, levanta a mão, quem não sabe quem, tipo. Beleza. Então, a maioria que já sabe, o. LLM é uma rede neural, uma rede neural é um conjunto de neurônios. O neurônio, ele foi o neurônio artificial, ele foi um modelo matemático para simular o neurônio nosso mesmo da cabeça. Então, se você vê aqui, não sei se vocês lembram do livro de biologia, ele parece ali o axiônio com os nedritos, mas esse é um modelo matemático, é basicamente uma multiplicação com uma depois uma função não linear. É"
+    },
+    {
+      "index": 2,
+      "start_s": 236.0,
+      "end_s": 356.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.305141875,
+      "text": "Não linear. A gente não precisa entrar em detalhes aqui, mas quando você pegue esse perceptrum, que é o neurônio, e você coloque ali na rede neural, você junta vários deles para criar uma rede neural, você criou um aproximador universal. Ou seja, você tem uma entrada, você tem uma saída, e você consegue aproximar qualquer função. E isso que dá a força da rede neural, isso que faz as redes neurais serem algo tão poderoso assim. E, no final, o modelo de linguagem é basicamente uma rede neural que usa. Geralmente ele usa aquela arquitetura ali, transformer, não vou entrar em detalhes, mas ela ajuda nesse processamento da rede neural que é melhor para trabalhar com linguagem. Beleza, e o que é, de fato, alinhamento? Alinhamento é o processo de fazer com que o modelo de linguagem responda de acordo com o que você quer que ele responda. Como assim? Vamos dizer aqui que eu pergunte aí, qual capital do Brasil? Modelo pode simplesmente responder Brasília. Porém, o modelo também pode falar. Ah, eu sei essa resposta. A resposta para a capital do Brasil pode dar uma resposta longa, ele pode dar uma resposta curta, ele pode dar uma resposta diversos tipos de respostas diferentes. Quando a gente está trabalhando com linguagem, a gente entra num campo menos objetivo e a gente tem uma infinidade de respostas que respondem uma mesma pergunta. E o alinhamento é justamente fazer com que o modelo responda do jeito que você quer que ele responda."
+    },
+    {
+      "index": 3,
+      "start_s": 354.0,
+      "end_s": 474.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.374226458,
+      "text": "Você quer que ele responda. E isso tem vários desafios aí que tem problemas éticos, problemas técnicos que a gente vai mostrar aqui agora. Então, alguns problemas de segurança. Por exemplo, a gente, com um modelo de linguagem em produção, dependendo do que esse modelo de linguagem está fazendo, ele pode expor informações sensíveis. Ele. Vocês sabem que ele é treinado com uma vastaidão de dados, e nessa vastidão de dados, pode ser que tinha o dado de alguém ali no meio. Não é incomum pessoas falando, ah, eu consegui puxar um endereço, eu peguei uma aqui do Windows, agora eu consigo instalar Windows na minha máquina usando essa aqui que eu peguei aqui numa LLM. Então, esses são dados que são sensíveis e a gente não, na grande maioria dos casos, a gente não tem interesse que ele esse dado vaze, né? Então tem informações sensíveis, instruções erradas ou perigosas também. Se a gente. A gente quer que ele que ele instrua de uma de uma maneira certa e cuidadosa. Na maioria dos casos. Se a gente tem. Se a gente está ensinando a fazer uma receita que é muito difícil, de algo que é muito importante. Por exemplo, um médico, se a gente está tem um robô, uma modelo de linguagem falando sobre um procedimento médico, a gente não pode responder de qualquer forma. É importante que seja detalhado e seja minucioso nos pontos sensíveis para não quem estiver usando isso daí for colocar em prática não acabar pulando algum passo importante que prejudicam outra pessoa. Então tem problemas técnicos,"
+    },
+    {
+      "index": 4,
+      "start_s": 472.0,
+      "end_s": 592.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.355815625,
+      "text": "Tem problemas técnicos também, então a gente pode ter respostas inconsistentes, imprecisas, imprevisíveis, ou até inúteis. E problemas éticos. Muitas pessoas aí já devem ter escutado o problema de racismo algoritmo, que eu não gosto muito desse termo, mas o que acontece é o seguinte, se a gente treina um algoritmo onde uma parte é sobrepresentada, uma parte da população é sobre representada, o que acontece é que esse viés ele pode passar pelo modelo e trazer informações que não são interessantes para reforçar preconceito e essas coisas. E aqui algum problema de segurança recentemente aí no Google implementou o Jamie 9. O que aconteceu foi que ele colocou o modelo junto da ferramenta de busca. E ele pegou a maior parte das vezes do treinamento. Ou do treinamento ou de outras técnicas ali de busca de informações, ele pegou do Reddit. Então vocês já devem imaginar o que a resposta que tem, né? Então aqui alguém pergunta, eu estou sentindo depressivo. Aí alguém fala, ah, uma solução é pular da ponte. O Google colocando isso no site, né? Outra aqui, ó. Como é que eu faço um queijo que não fique grudando a pizza? E aí alguém fala pra você usar uma. Você colocar cola na pizza. Então, assim, tem várias dessas respostas absurdas que acabaram passando desse lado. Eu tiro aqui e coloco de novo. Tá. Vamos ver se."
+    },
+    {
+      "index": 5,
+      "start_s": 590.0,
+      "end_s": 710.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.320901458,
+      "text": "Tá. Vamos ver se isso aí resolveu. Pois é. Foi mal, gente. Então, assim, tem vários. São alguns problemas de segurança, né? Aqui, é claro, são só uma pessoa meio tapada, vai ler isso daí e sei lá. Comer uma pedra por dia, que nem o Google falou aqui. Mas. Se ele respondem essas coisas absurdas, eles podem responder coisas sutis que são problemáticas também. E aí vem problemas éticos. Isso aqui não são modelos de linguagem, são modelos de imagem, né? Stable diffusion, mas eu acho que é muito ilustrativo. Então o Google tinha esse departamento, essa área de ética dentro da parte de inteligência artificial, e eles colocaram muito forte ali no modelo pra não sobre representar pessoas brancas. E aí o que aconteceu? Pediam presidente dos Estados Unidos, aí aparece aí presidência dos Estados Unidos indígenas. Não que existe, de fato, um problema nisso aí, mas é algo que não é. Não é real, não é acurado. E as pessoas, obviamente, se aproveitaram para fazer coisas piosas aí. Não é daqui. Então, em inglês, talvez eu falando em português aqui não atrapalhe tanto. Mas aí pediram para fazer soldados nazistas, aí tinham soldados nazistas asiáticos negros, etc. São problemas aí que. Não é não é muito legal, né?"
+    },
+    {
+      "index": 6,
+      "start_s": 708.0,
+      "end_s": 828.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.443666417,
+      "text": "Não é não é muito legal, né? Você ter um modelo em produção e aparecer e as pessoas usarem e acontecer esse tipo de coisa. Então, como que a gente faz esse alinhamento? Pois é, tradição simultânea aí. Como é que a gente faz esse aliamento? Então, eu vou rouber esse gráfico aqui da Nvidia. Ele não mostra tudo o que existe, mas ele tem. Dá pra gente dar uma visualização bem interessante de formas diferentes de alinhamento. Então, a forma mais simples, rápida e fácil e barata, é o Prompt Engineering. Provavelmente quase todo mundo aí já deve ter ouvido falar Prompt Engineering. Você basicamente você muda o prompt que você está dando para o modelo e tentam fazer ele responder melhor de acordo com o que você quer. Segunda forma aí, essa segunda forma que é o prompt learning. Prompt learning é você criar um sistema de feedback onde você. Sabendo a resposta que você quer, você treina o prompt. Você treina, você consegue encontrar os tokens que vão gerar aquele o prompt para gerar aquela resposta. Depois, se eu estiver falando alguma coisa muito complexa, alguma tiver difícil de entender, por favor, falem aqui. Depois temos o parameter efficient fine tuning. Antes que é você. Ao invés de você treinar um modelo inteiro, você congela o modelo e você treina só um pedaço do modelo. E existem. Isso aí é. Existem essas formas que são mais eficientes, obviamente, elas não são tão boas, mas elas conseguem."
+    },
+    {
+      "index": 7,
+      "start_s": 826.0,
+      "end_s": 946.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.379020458,
+      "text": "Elas conseguem ajudar bastante no alinhamento. E por último é o treinamento, é o Instruction Tunning, que seria. Basicamente, é similar ao fine tunning, mas no modelo inteiro. E aí, como você está treinando o modelo inteiro, você tem todos aqueles cursos de modelo. Isso, exatamente. Isso, a pergunta aqui dele foi se o Prompt Engineering e o Prompt Learning você mexe dentro do modelo. E ele está correto que você disse, o Prompt Engineering e Prompt Learning é fora do modelo, você mexe só o prompt, você só muda o prompt e o fine tuning você muda os pesos do modelo. É isso aí. Exatamente, exatamente. É muito mais barato e muito mais rápido fazer aqueles dois primeiros, que como a gente vê aqui, o custo vai aumentando conforme a gente vai indo ali para treinar o modelo inteiro. E aqui as técnicas. Então, a gente, depois que. Quando a gente baixa o modelo que já existe, ele tem o chamado pre-training. O que é o pre-training? Ele treinou o modelo de forma geral. E aí depois você pode fazer um continued pre-training. O que é o continued pre-training? É você continuar treinando o modelo com o geral também. Em seguida, você pode fazer um fine tunning. Até hoje ainda existem algumas divergências nos termos técnicos. Então, não existe ainda um consenso até onde é fine tunning, onde é que é instruction turning, mas basicamente."
+    },
+    {
+      "index": 8,
+      "start_s": 944.0,
+      "end_s": 1064.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.388952584,
+      "text": "Mas basicamente, depois do pre-training, você faz um aprendizado supervisionado. Com um instruction tuning, você ensina o modelo a seguir instruções, e aí depois você faz um fine tunning que é ajustando para os dados que você quer. Então você primeiro você treina uma coisa que é generalista, e você depois vai treinando para ele ficar mais especialista, mais ou menos que nem a gente. A gente é na vida, né? A gente estuda ali em ensino fundamental, ensino médio, a gente vê todas as áreas, ciência, filosofia, história e tudo mais. E aí depois beleza, agora eu vou para a engenharia, eu vou para a programação, e aí você vai afunilando e vai ficando mais especialista. Então você faz o fine tuning do modelo completo, que também dá para ser chamado de instruction tuning, se você está treinando para as instruções, e depois você pode. Você também pode fazer o fine tuning de baixo modelo, que eu comentei ali, que é uma forma mais eficiente, apesar de ser um pouquinho pior na qualidade. Você tem o Prompt Learning, o Prompt Engineering, que a gente comentou ali atrás. No Prompt Engineering tem diversas técnicas, inclusive ali o promptingguide.ai, muito bom esse site, ele tem basicamente uma coleção de quase que todas as técnicas de Prompt Engineering que já foram criadas, é um negócio gigante, é muito completo. É bem legal. Mas assim, se você sabe o que é o fio shot prompt, que é basicamente você dar alguns exemplos, e o chain of thought que é você pedir pra ele responder em passo a passo, isso aí geralmente resolve 90% dos casos. E aí,"
+    },
+    {
+      "index": 9,
+      "start_s": 1062.0,
+      "end_s": 1182.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.398706333,
+      "text": "E aí, um bônus e umas coisinhas a mais. Então, além disso daí você tem também o Representation Engineering e Sparse Altencoders, são duas técnicas levemente diferentes, mas as duas dá para eu tentar resumir de uma forma mais alto nível, como se a gente estivesse fazendo uma cirurgia cerebral no modelo. Ou seja, a gente observa quais são os neurônios que estão sendo ativados, conforme a gente pede algum prompt, e a gente faz um steering, a gente aumenta ou diminui eles conforme a gente quer algum resultado. Então, nos papers que fizeram que criaram essas técnicas, eles conseguiram, por exemplo, fazer um modelo esquecer o que é um cachorro. Você pergunta lá, qual é o animal que faz woofuff. E aí o modelo não sabe, fala, ah, não sei, eu acho que é uma vaca. Ele responde qualquer coisa. Então, você consegue fazer. São técnicas mais complicadas, um pouco, mas elas são muito interessantes e muito promissoras. Tem muita gente trabalhando, especialmente em Sparse Alten Coders, onde você consegue catalogar uma variedade muito grande de features do modelo. Então, você não sei quem é que acompanha aí, mas recentemente o One Tropic usou usou essa técnica de Sparse Autom Coders para fazer o modelo da Golden Bridge. E aí ele colocou, ele viu que existia essa ideia, esse conceito de Golden Bridge, e ele colocou isso no máximo. Então, tudo que você falava com o modelo, com esse modelo da Golden Bridge."
+    },
+    {
+      "index": 10,
+      "start_s": 1180.0,
+      "end_s": 1300.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.406058875,
+      "text": "Modelo, com esse modelo da Golden Bridge, ele sempre respondia como se ele fosse a ponte, ou trazendo o assunto para a ponte, ou falando da ponte. Então ele estava sempre aí falando dessa ponte. E você pode fazer isso, por exemplo, para isso aí, apesar de eu estar falando isso para modelos de linguagem, dá para fazer para modelos de imagem também. Então, digamos assim, que você peça para o seu modelo de imagem fazer uma imagem de uma cabana. E aí você pode controlar essa feature, por exemplo, de neve. E aí você aumenta a feature ou diminui a feature de neve, e aí você vai ter a cabana e a cabana vai ter mais neve ou menos neve. Isso num modelo que você consegue colocar, tipo um nob. Ao invés de você literalmente escrever. Então você consegue ter um ter uns controles mais finos e bem interessantes disso daí. Além disso, Guard Rails e as camadas de segurança também são partes cruciais para a gente ir no nosso alinhamento. Se vocês já tentaram conversar com algum modelo e pedir alguma coisa, sei lá, pedir para ele te ensinar a fazer metafentamina, ou alguma coisa assim, você vai ver que ele fala, eu sou um modelo, que eu não posso fazer isso, não sei o que. Por que ele faz isso? Existem essas técnicas. Guardails, apesar de ter um nome só, é uma coleção, é uma diversidade de técnicas diferentes. Tem algumas bibliotecas de Guardails diferentes, e formas diferentes de você usar. E. Enfim, e aí você consegue fazer o modelo ir para o caminho que você quer. E também, por último, a forma mais simples, você pode colocar um Humaning in the Loop. Você coloca um ser humano para revisar e autorizar passo a passo tudo que você quer. Também é uma forma."
+    },
+    {
+      "index": 11,
+      "start_s": 1298.0,
+      "end_s": 1418.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.413679125,
+      "text": "Também é uma forma válida para vários casos de uso. Quando você está escrevendo, por exemplo, você chega lá no chat EPT e você está escrevendo um artigo, você não pega a primeira coisa que ele cospe e já usa como seu artigo, você vai. Beleza, agora faz isso, agora faz aquilo. Você é o Hillman in the Loop, e você está controlando o que ele está trazendo. Então, um pouquinho mais a fundo aqui, já estamos aqui no final, mas só para chegar ali no Instruction Tuning, que é um passo bem fundamental hoje na maioria dos modelos. Basicamente, depois que você faz o pre-training, só para a gente ir um pouquinho mais a fundo, você tem o Supervised Learning, onde você dá inputs e outputs, isso aqui é o que eu quero. Esse aqui é isso aqui é a entrada, essa aqui é a saída que eu quero. Então você vai controlando ali o que ele vai te trazer, e depois você faz o reinforcement learning with human feedback. É o aprendizado por reforço com feedback humano, que você consegue. que é o que o ChatGPT faz. Se vocês já escreveram alguma coisa e o ChatGPT pergunta, qual dessas duas resposta ficou melhor? Essa ou essa? E aí você escolhe uma delas, você está ajudando a treinar o modelo e fazendo aí o alinhamento. Isso aqui é. Acho que a gente vou pular essa parte aqui rapidinho, mas é só ainda mais detalhes. Isso aqui tem no blog da OpenAI dele explicando como é que funciona o reenforcement learning with human feedback. Tem lá no site da OpenAI, mas é bem detalhes, eu acho que eu vou parar aqui um pouquinho para tirar dúvidas aí. Surgiram algumas dúvidas, vamos ver que já está chegando nos últimos minutos da palestra? Ah, são mais oito minutos, mais tempo de pergunta? E aí, o que vocês acham? Vocês querem ir um pouquinho mais a fundo naquela parte ali? Beleza, então, como é que?"
+    },
+    {
+      "index": 12,
+      "start_s": 1416.0,
+      "end_s": 1536.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.415540459,
+      "text": "Beleza, então, como é que a OpenAI fez o sistema de alinhamento deles. Quem aí já. Quem aí sabe como é que funciona. Quem sabe como é que funciona reinforcement learning? Levanta a mão. Ok, poucas pessoas, mas eu consigo dar um overview rápido. Reinforcement learning, aprendizado por reforço, basicamente é o seguinte: é um modelo onde você tem o agente, e você tem o ambiente. Então, o agente é quem toma ações e o ambiente recebe ações e provê um estado. Então, por exemplo, vamos pensar num bebê. Um bebê ele quer pegar um biscoito em cima da mesa. Então ele vai tentar levantar e vai tentar caminhar, ele é um agente e o ambiente é a sala. E aí, às vezes ele cai. Então ele recebe um recompensa negativa. E o ele. E aí ele consegue pegar o biscoito, isso é uma recompensa positiva. Então, esse sistema de treinamento, ele é um sistema de treinamento que é um pouquinho diferente do Supervised e Unsupervised Learning, mas ele é muito bom, porque você não precisa explicar exatamente o que você quer. Você só dá uma recompensa se for bom ou se for. ou um punição se for ruim. Então, isso aí é o reinforcement learning. Agora, como é que isso se encaixa nos modelos de linguagem? Então, vamos voltar ali para o Supervised Learning. Você acabou de treinar o. Você acabou de treinar seu modelo, fazer o pre-training, onde você basicamente você está ensinando o modelo a prever o próximo token, a próxima palavra de um conjunto muito grande de dados. E aí, com base nisso daí, você tem o. Você já tem o seu modelo, e aí você começa a perguntar para o modelo."
+    },
+    {
+      "index": 13,
+      "start_s": 1534.0,
+      "end_s": 1654.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.345129958,
+      "text": "Começa a perguntar para o modelo. Você vai para o modelo e fala. Você coloca inputs. E você fala qual é o output específico que você queria. E aí, com isso daí, você usa isso para continuar treinando o modelo. Deixa eu tirar e colocar isso aqui de novo. Para ver se melhor. Acho que agora foi. Acho que agora foi. Já anotado. Próxima vez eu trago minha energia para não acontecer isso. Tá. Vamos lá. Mais uma vez. Third time the charm. Nada? Tá ligado. Espera aí. Tá, vamos assim mesmo. Então, a gente está ali sempre treinando, colocando entrada e saída e fazendo modelo treinar. E esse é o primeiro passo, o supervised learning. Segundo passo. É a gente. Isso aqui ele deu um exemplo aqui. Acho que está muito pequeno para vocês lerem, mas está. O exemplo aqui é explica reinforcement learning para uma criança de seis anos de idade. E a gente deu ali nossa resposta. O que a gente gostaria que ele respondesse. Segundo passo. Beleza. Segundo passo, ele vai ali e a gente pede várias respostas."
+    },
+    {
+      "index": 14,
+      "start_s": 1652.0,
+      "end_s": 1772.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.418213292,
+      "text": "A gente pede várias respostas. Como ele é um modelo generativo, ele dá várias respostas diferentes, ele usa. ele não responde, ele não dá uma resposta final, ele tem uma gama de probabilidade das próximas palavras, e a gente consegue gerar diversas respostas diferentes. Então a gente seleciona, a gente pega essas várias respostas diferentes, por exemplo, quatro aqui, vamos dizer, e um ser humano chega e fala. A resposta B é a melhor é melhor que a resposta C, que é melhor do que a resposta A, que é melhor que a resposta D, por exemplo. Ele cria isso daí, e aí com isso. Ele vai criar, ele vai treinar um outro modelo, que é um modelo de recompensa. Ali no reenforcement learning, você tem um agente que atua no ambiente e recebe uma recompensa. Seja ali o biscoito, ou então ele se machuca, cai no pé, cai no chão e se machuca um pouquinho, isso aí é uma recompensa positiva ou negativa. E a gente vai treinar um modelo, uma rede neural que vai dar essa recompensa para o modelo, conforme os tokens que está dando ali na resposta. Naquela entrada ali, essa aqui são as saídas, e esses são os possíveis. Essa é a ordem que eu gosto. Então a gente treina um outro modelo, um modelo de recompensas para fazer isso daí, para aprender o reinforcement learning, e com esse modelo treinado, a gente consegue tirar o ser humano. E aí a gente consegue depois fazer o a inteligência artificial gerar várias respostas. Depois o modelo."
+    },
+    {
+      "index": 15,
+      "start_s": 1770.0,
+      "end_s": 1890.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.3957165830000005,
+      "text": "Depois o modelo de recompensa vai classificar essas respostas de acordo com o que ele aprendeu antes com os anotadores humanos. Com isso aí de ficar abrindo e fechando a tela, talvez tenha ficado confuso. Ficou. Bem, acho que agora vai ser a parte das perguntas, então, se tiver ficado confuso essa parte, vocês vão poder perguntar. Perfeito, pessoal, uma salva de palmas aí para o Breno. Vamos fazer assim, quem quiser fazer pergunta, pode formar uma fila aqui. Tem alguém interessado em fazer pergunta? Tudo bem, se vocês a gente fizer uma fila aqui, só para organizar melhor. Opa. Então, eu já trabalhei num projeto que estava construindo nenhuma solução com LLM. E na época, o Fine Tuning não estava legal. As respostas não estavam. Estavam boas, mas não estavam excelentes. E aí, na época, eu acho que cogitou-se fazer uma busca híbrida com base de gráfico também. Usar o próprio LLM para criar o grafo, dos dados de treinamento, dos dados de da HAG. E fazer tentar fazer uma busca híbrida para ver se. Eu não fiquei lá. Eu não sei o resultado, mas eu queria saber da sua experiência. Sei que pode ser cada casa a casa, mas sua experiência, você acha que faz diferença uma busca híbrida com gráfico? Ou geralmente não valeu o esforço? Ótima pergunta. E eu, sinceramente, eu não sei responder muito bem. Eu já vi pessoas falando muito bem."
+    },
+    {
+      "index": 16,
+      "start_s": 1888.0,
+      "end_s": 2008.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.50671025,
+      "text": "Pessoas falando muito bem de uso de LLMs com grafos, mas eu, pessoalmente, eu nunca usei, tem diversas formas diferentes de usar de usar reg. Reg, para quem não sabe, é retrieval augmente generation. Basicamente, se a gente pensar que a LLM é uma pessoa. O reg seria uma enciclopédia que ela dá uma pesquisada antes de dar uma resposta. Então, já vi muita gente falando disso, usando e falando que funciona bem. Eu, sinceramente, não sei, nunca usei, e tem diversas implemententações diferentes com reg. Como eu nunca usei grafo para fazer isso, o que eu faria seria outro approach, mas isso é totalmente pessoal meu. Eu teria tentaria melhorar a arquitetura do reg, eu tentaria usar re-rankers, que são modelos. Um re-ranker é quando você busca, faz a busca no reg, e aí, digando assim que eu pego 10 textos que são que podem ser relevantes, e aí desses 10, eu faço um reordenamento e seleciono os cinco melhores. Então eu faço o primeiro usando, por exemplo, cosseno, distância de cosseno, que é rápido de fazer e é relativamente barato. E aí depois eu uso uma LLM menor para fazer um re-ranking de menos aí, onde ele vai dar uma fazer um reordenamento e diminua ali, e aí eu passo no final como esse contexto. Falam muito bem desse approach, eu tentaria esse approach antes de ir para uma arquitetura que eu não conheço, mas é pessoal meu. Só pra explicar qual é o estado da arte hoje nessa região aí do processo de reg e tal."
+    },
+    {
+      "index": 17,
+      "start_s": 2006.0,
+      "end_s": 2126.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.472074458,
+      "text": "Tudo o processo de reggae e tal. O que hoje é estar na. O que eu vejo de estado da arte é usando re-rankers. Fazendo isso que eu te falei agora. Você pegando o menos das últimas das últimas artigos que eu li, e do grandes pesquisadores falando sobre isso. É. Você faz um busca, entre aspas, burra, naive. Com cosseno mesmo, distância de cosseno, e depois você usa um modelo menor para fazer um re ranking, e aí você faz essa segunda seleção, e aí você coloca a resposta como contexto e responde com a sua LLM. É isso, seria mais. É, basicamente, sei lá, você e depois. Isso, procurar de novo. É porque se você usar simplesmente os embeddings para fazer uma. Para fazer a distância de cosseno, o que vai acontecer é que esses embeddings, ele. Eles são muito bons, mas eles não são perfeitos. Vão ter muita coisa que vai vir que não tem nada a ver. Então você usa isso primeiramente. E depois, que é mais rápido, seleciona 10, 20, e depois você coloca ali no re ranking e você diminui. Ou então você, pelo menos, ordena eles dos mais importantes para os menos importantes, e coloca como contexto. A minha pergunta é mais voltando para aquela que você estava falando um pouco mais no começo, sobre as questões éticas e seus desafios, né? Tem um de break muito famoso, que é o da vovó, né? Você consegue fazer uma LLM te ensinar a fazer metaphetamina, pedindo para que ela te ensine como se fosse a avó passando uma receita. E funciona. Não sei se ainda funciona, mas em 2009."
+    },
+    {
+      "index": 18,
+      "start_s": 2124.0,
+      "end_s": 2244.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.524694833,
+      "text": "Não sei se ainda funciona, mas em 2023 funcionava. Essa é a minha pergunta. Como garantir que o usuário criativo não consiga desfazer todo o teu processo de. Tudo que tu fez para que ele não ensine fazer a minha pergunta pedindo para a vovó ensinar. Como impedir o usuário. É, isso daí. Não existe uma resposta definitiva para isso. Do mesmo jeito que você cria um sistema e sempre vai ter um hacker russo que vai descobrir uma forma aí de burlar seu sistema. Da mesma forma, dá para fazer a mesma coisa com as redes ouais. A maioria das redes que eu testei e o da vovó não estava mais funcionando. Não, eu tentei pedir pra vovó me contar uma história antes de dormir com os keys da Microsoft e ela não me deu. A minha pergunta era meio no sentido de tipo, você consegue fazer alguma coisa. Digamos que não seja só na parte de engenharia de prompt ou de learning. Prompt learning, mas sim no modelo. Sim, sim. Que é ali no Sparse Aut Encoders. Cadê aqui? O Sparse Aut Encoders? Você consegue. Você está meio que fazendo uma. Do mesmo jeito que você consegue fazer ele esquecer conceitos. Então, por exemplo, se ele esquecer o conceito de metafetamina, ele não vai conseguir te ensinar a fazer. Mas isso. Isso ainda é muito recente. A princípio. Não tem uma degradação muito grande. Mas provavelmente se você ficar mexendo muito e mexer em várias coisas ao mesmo tempo, pode ser que isso aconteça."
+    },
+    {
+      "index": 19,
+      "start_s": 2242.0,
+      "end_s": 2362.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.409953,
+      "text": "Pode ser que isso aconteça. Mas a forma que eu acho que é que geralmente é mais usada são os Guard Rails. São essas camadas de segurança. Então, por exemplo, uma coisa que eu já vi muitas vezes acontecendo é o modelo, eu tentando fazer de jail break do modelo, e o que acontece é o modelo começa a me responder o que eu queria, e aí de repente a conversa some, e aí vem um outro texto e fala, desculpa, eu não posso falar isso daí, não sei o quê. E o que isso é? Na verdade, são duas chamadas de LLM. Uma que está respondendo o que eu perguntei, e a outra que está lendo a resposta do que está respondendo, e tentando detectar se tem alguma coisa que alguma coisa perigosa. Então, existem formas de lidar com isso, tem outras formas, por exemplo, se você fizer com lead speak, eu já fiz. Eu dei jail break no. No LLM do WhatsApp com o lead speak. Então, ele me ensinou a fazer metafentamina com leadspeak. E aí, assim, se você pensa que ele consegue fazer isso com lead speak, você. Porque o que acontece? Ele não vê letras e palavras. Ele vê tokens, né? Que são pedaços. Então, se você está usando LeadSpeak, por mais que ele entenda o Lead Speak, ele não são os mesmos tokens. Então, e aí, se funciona para Lead Speak, provavelmente, se você colocar, sei lá, espaço entre as palavras em maiúsculo, talvez funcione também. Então tem várias formas de fazer e você pode também combinar. Então, se você faz um. Se você junta a técnica da vovó com o Lead Speak, com outras coisas assim, pode ser que isso aí não é linear, não é. Beleza, eu travei, travei aqui a técnica da vovó não vai funcionar nunca mais. Você pode ir juntando outras coisas e tentar combinar."
+    },
+    {
+      "index": 20,
+      "start_s": 2360.0,
+      "end_s": 2415.2700625,
+      "audio_seconds": 55.2700625,
+      "transcribe_seconds": 2.636271083,
+      "text": "Tá combinar e existe essa possibilidade, mas o que eu tentaria fazer é com camada de segurança Guard Rails específico. Muito obrigado. Perfeito, pessoal. Então, mais uma salva de palmas aí para o nosso palestrinho. Muito obrigado a todos, pessoal. Valeu e obrigado pela participação. Obrigado. Valeu, pessoal."
+    }
+  ],
+  "segments": [
+    {
+      "start_s": 20.06999969482422,
+      "end_s": 31.26999855041504,
+      "text": "Um dois."
+    },
+    {
+      "start_s": 31.26999855041504,
+      "end_s": 45.82999801635742,
+      "text": "Só deixa eu dar duas oficialmente.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 45.82999801635742,
+      "end_s": 50.06999969482422,
+      "text": "E pessoal, boa tarde, bem-vindo de volta aí, depois do almoço.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 50.06999969482422,
+      "end_s": 54.38999938964844,
+      "text": "Tem um cafezinho ali, acho que ele na lanchonete ali, para quem está precisando aí, né?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 54.38999938964844,
+      "end_s": 56.54999923706055,
+      "text": "Daquele soninho depois.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 56.54999923706055,
+      "end_s": 59.90999984741211,
+      "text": "Mas, beleza, pessoal, vamos apresentar aqui o Breno Brito.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 59.90999984741211,
+      "end_s": 65.83000183105469,
+      "text": "Ele vai falar agora sobre aliamento de LLMs, o que é, e as principais técnicas.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 65.83000183105469,
+      "end_s": 74.38999938964844,
+      "text": "Ele é engenheiro de ML de Machine Learning, empreendedor e autor, com foco na interseção entre Bitcoin, inteligência artificial e finanças.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 74.38999938964844,
+      "end_s": 80.62999725341797,
+      "text": "Então, vamos dar uma salva de palmas aí para receber o Breno.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 80.62999725341797,
+      "end_s": 84.38999938964844,
+      "text": "E aí, gente, tudo bom?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 84.38999938964844,
+      "end_s": 88.94999694824219,
+      "text": "Então, muito obrigado aí pela introdução.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 88.94999694824219,
+      "end_s": 95.3499984741211,
+      "text": "A ideia dessa palestra aqui é bem simples.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 95.3499984741211,
+      "end_s": 100.62999725341797,
+      "text": "Não tem só30 minutinhos aqui de conversa e depois mais10 de perguntas.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 100.62999725341797,
+      "end_s": 114.79000091552734,
+      "text": "Então, a ideia vai ser só um purpurri ali, passar por cima, para vocês terem um conhecimento por alto das principais técnicas para depois, quando vocês forem trabalhar com isso, vocês saberem o que pesquisar.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 114.79000091552734,
+      "end_s": 119.87999725341797,
+      "text": "Tem muita gente que já parte direto para a programação e vai montando.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 118.0,
+      "end_s": 126.1500015258789,
+      "text": "Para programação e vai montando, vai criando sistema e depois nem sabe as técnicas que.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 126.1500015258789,
+      "end_s": 128.47000122070312,
+      "text": "Oi, está melhor agora?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 128.47000122070312,
+      "end_s": 137.42999267578125,
+      "text": "Então, muita gente vai fazendo tudo e nem sabe das técnicas que já existem e que funcionam muito bem, que eles podereriam estar usando.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 137.42999267578125,
+      "end_s": 139.58999633789062,
+      "text": "Então, essa é a ideia aqui.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 139.58999633789062,
+      "end_s": 140.47000122070312,
+      "text": "Beleza?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 140.47000122070312,
+      "end_s": 145.8300018310547,
+      "text": "Então,brigadão aí pela Plone Python Serrado, por isso aí.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 145.8300018310547,
+      "end_s": 149.19000244140625,
+      "text": "Eu sou cientista de dados, sou.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 149.19000244140625,
+      "end_s": 164.70999145507812,
+      "text": "Eu trabalho hoje como cientista de dados sêniers na Bipa, trabalhei também como engenheiro de machine learning no Spirit of Satoshi, cientista de dados do mercado Bitcoin, trabalho com Bitcoin na indústria de Bitcoin desde2017, na área de dados.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 164.70999145507812,
+      "end_s": 174.9499969482422,
+      "text": "Inclusive, tem um livro publicado aí, ganhei o hackathon, meu hackathon que eu ganhei ano passado, foi usando uma LLM para fazer smart contract de Bitcoin.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 174.9499969482422,
+      "end_s": 179.989990234375,
+      "text": "Enfim, só para dar uma overview aí rapidinho de quem sou eu.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 179.989990234375,
+      "end_s": 188.14999389648438,
+      "text": "Quem quiser falar comigo depois, mandar falar no Twitter ou alguma coisa assim, ter uns contatos ali no final.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 188.14999389648438,
+      "end_s": 197.58999633789062,
+      "text": "Então, para começar, todo mundo sabe o que é uma rede neural, o que é uma LLM, alguém não sabe, levanta a mão, quem não sabe quem, tipo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 197.58999633789062,
+      "end_s": 199.11000061035156,
+      "text": "Beleza.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 199.11000061035156,
+      "end_s": 204.07000732421875,
+      "text": "Então, a maioria que já sabe, o.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 204.07000732421875,
+      "end_s": 209.50999450683594,
+      "text": "LLM é uma rede neural, uma rede neural é um conjunto de neurônios.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 209.50999450683594,
+      "end_s": 218.79000854492188,
+      "text": "O neurônio, ele foi o neurônio artificial, ele foi um modelo matemático para simular o neurônio nosso mesmo da cabeça.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 218.79000854492188,
+      "end_s": 237.35000610351562,
+      "text": "Então, se você vê aqui, não sei se vocês lembram do livro de biologia, ele parece ali o axiônio com os nedritos, mas esse é um modelo matemático, é basicamente uma multiplicação com uma depois uma função não linear.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 237.35000610351562,
+      "end_s": 237.39999389648438,
+      "text": "É",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 236.07000732421875,
+      "end_s": 239.50999450683594,
+      "text": "Não linear.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 239.50999450683594,
+      "end_s": 255.75,
+      "text": "A gente não precisa entrar em detalhes aqui, mas quando você pegue esse perceptrum, que é o neurônio, e você coloque ali na rede neural, você junta vários deles para criar uma rede neural, você criou um aproximador universal.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 255.75,
+      "end_s": 261.9100036621094,
+      "text": "Ou seja, você tem uma entrada, você tem uma saída, e você consegue aproximar qualquer função.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 261.9100036621094,
+      "end_s": 270.07000732421875,
+      "text": "E isso que dá a força da rede neural, isso que faz as redes neurais serem algo tão poderoso assim.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 270.07000732421875,
+      "end_s": 276.30999755859375,
+      "text": "E, no final, o modelo de linguagem é basicamente uma rede neural que usa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 276.30999755859375,
+      "end_s": 293.8299865722656,
+      "text": "Geralmente ele usa aquela arquitetura ali, transformer, não vou entrar em detalhes, mas ela ajuda nesse processamento da rede neural que é melhor para trabalhar com linguagem.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 293.8299865722656,
+      "end_s": 297.8299865722656,
+      "text": "Beleza, e o que é, de fato, alinhamento?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 297.8299865722656,
+      "end_s": 310.07000732421875,
+      "text": "Alinhamento é o processo de fazer com que o modelo de linguagem responda de acordo com o que você quer que ele responda.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 310.07000732421875,
+      "end_s": 312.1499938964844,
+      "text": "Como assim?"
+    },
+    {
+      "start_s": 312.1499938964844,
+      "end_s": 317.3500061035156,
+      "text": "Vamos dizer aqui que eu pergunte aí, qual capital do Brasil?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 317.3500061035156,
+      "end_s": 321.1099853515625,
+      "text": "Modelo pode simplesmente responder Brasília.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 321.1099853515625,
+      "end_s": 323.3500061035156,
+      "text": "Porém, o modelo também pode falar.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 323.3500061035156,
+      "end_s": 325.19000244140625,
+      "text": "Ah, eu sei essa resposta.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 325.19000244140625,
+      "end_s": 333.66998291015625,
+      "text": "A resposta para a capital do Brasil pode dar uma resposta longa, ele pode dar uma resposta curta, ele pode dar uma resposta diversos tipos de respostas diferentes.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 333.66998291015625,
+      "end_s": 347.66998291015625,
+      "text": "Quando a gente está trabalhando com linguagem, a gente entra num campo menos objetivo e a gente tem uma infinidade de respostas que respondem uma mesma pergunta.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 347.66998291015625,
+      "end_s": 356.4700012207031,
+      "text": "E o alinhamento é justamente fazer com que o modelo responda do jeito que você quer que ele responda.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 356.4700012207031,
+      "end_s": 368.1499938964844,
+      "text": "E isso tem vários desafios aí que tem problemas éticos, problemas técnicos que a gente vai mostrar aqui agora.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 368.1499938964844,
+      "end_s": 370.6300048828125,
+      "text": "Então, alguns problemas de segurança.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 370.6300048828125,
+      "end_s": 383.8299865722656,
+      "text": "Por exemplo, a gente, com um modelo de linguagem em produção, dependendo do que esse modelo de linguagem está fazendo, ele pode expor informações sensíveis.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 383.8299865722656,
+      "end_s": 384.6300048828125,
+      "text": "Ele.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 384.6300048828125,
+      "end_s": 393.9100036621094,
+      "text": "Vocês sabem que ele é treinado com uma vastaidão de dados, e nessa vastidão de dados, pode ser que tinha o dado de alguém ali no meio.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 393.9100036621094,
+      "end_s": 405.989990234375,
+      "text": "Não é incomum pessoas falando, ah, eu consegui puxar um endereço, eu peguei uma aqui do Windows, agora eu consigo instalar Windows na minha máquina usando essa aqui que eu peguei aqui numa LLM.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 405.989990234375,
+      "end_s": 415.989990234375,
+      "text": "Então, esses são dados que são sensíveis e a gente não, na grande maioria dos casos, a gente não tem interesse que ele esse dado vaze, né?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 415.989990234375,
+      "end_s": 422.6300048828125,
+      "text": "Então tem informações sensíveis, instruções erradas ou perigosas também.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 422.6300048828125,
+      "end_s": 424.1499938964844,
+      "text": "Se a gente.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 424.1499938964844,
+      "end_s": 430.54998779296875,
+      "text": "A gente quer que ele que ele instrua de uma de uma maneira certa e cuidadosa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 430.54998779296875,
+      "end_s": 432.07000732421875,
+      "text": "Na maioria dos casos.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 432.07000732421875,
+      "end_s": 433.3500061035156,
+      "text": "Se a gente tem.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 433.3500061035156,
+      "end_s": 440.7099914550781,
+      "text": "Se a gente está ensinando a fazer uma receita que é muito difícil, de algo que é muito importante.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 440.7099914550781,
+      "end_s": 453.19000244140625,
+      "text": "Por exemplo, um médico, se a gente está tem um robô, uma modelo de linguagem falando sobre um procedimento médico, a gente não pode responder de qualquer forma.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 453.19000244140625,
+      "end_s": 471.3500061035156,
+      "text": "É importante que seja detalhado e seja minucioso nos pontos sensíveis para não quem estiver usando isso daí for colocar em prática não acabar pulando algum passo importante que prejudicam outra pessoa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 471.3500061035156,
+      "end_s": 480.3900146484375,
+      "text": "Então tem problemas técnicos, também, então a gente pode ter respostas inconsistentes, imprecisas, imprevisíveis, ou até inúteis.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 480.3900146484375,
+      "end_s": 483.3500061035156,
+      "text": "E problemas éticos.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 483.3500061035156,
+      "end_s": 520.7899780273438,
+      "text": "Muitas pessoas aí já devem ter escutado o problema de racismo algoritmo, que eu não gosto muito desse termo, mas o que acontece é o seguinte, se a gente treina um algoritmo onde uma parte é sobrepresentada, uma parte da população é sobre representada, o que acontece é que esse viés ele pode passar pelo modelo e trazer informações que não são interessantes para reforçar preconceito e essas coisas.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 520.7899780273438,
+      "end_s": 527.5900268554688,
+      "text": "E aqui algum problema de segurança recentemente aí no Google implementou o Jamie9.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 527.5900268554688,
+      "end_s": 537.27001953125,
+      "text": "O que aconteceu foi que ele colocou o modelo junto da ferramenta de busca.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 537.27001953125,
+      "end_s": 543.6699829101562,
+      "text": "E ele pegou a maior parte das vezes do treinamento.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 543.6699829101562,
+      "end_s": 550.5499877929688,
+      "text": "Ou do treinamento ou de outras técnicas ali de busca de informações, ele pegou do Reddit.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 550.5499877929688,
+      "end_s": 554.469970703125,
+      "text": "Então vocês já devem imaginar o que a resposta que tem, né?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 554.469970703125,
+      "end_s": 558.3099975585938,
+      "text": "Então aqui alguém pergunta, eu estou sentindo depressivo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 558.3099975585938,
+      "end_s": 564.1500244140625,
+      "text": "Aí alguém fala, ah, uma solução é pular da ponte.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 564.1500244140625,
+      "end_s": 567.27001953125,
+      "text": "O Google colocando isso no site, né?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 567.27001953125,
+      "end_s": 568.1500244140625,
+      "text": "Outra aqui, ó.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 568.1500244140625,
+      "end_s": 572.7100219726562,
+      "text": "Como é que eu faço um queijo que não fique grudando a pizza?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 572.7100219726562,
+      "end_s": 575.510009765625,
+      "text": "E aí alguém fala pra você usar uma.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 575.510009765625,
+      "end_s": 578.5499877929688,
+      "text": "Você colocar cola na pizza.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 578.5499877929688,
+      "end_s": 588.0700073242188,
+      "text": "Então, assim, tem várias dessas respostas absurdas que acabaram passando desse lado.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 588.0700073242188,
+      "end_s": 590.469970703125,
+      "text": "Eu tiro aqui e coloco de novo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 590.469970703125,
+      "end_s": 591.030029296875,
+      "text": "Tá."
+    },
+    {
+      "start_s": 591.030029296875,
+      "end_s": 591.8800048828125,
+      "text": "Vamos ver se.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 590.3900146484375,
+      "end_s": 591.030029296875,
+      "text": "Tá."
+    },
+    {
+      "start_s": 591.030029296875,
+      "end_s": 594.22998046875,
+      "text": "Vamos ver se isso aí resolveu.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 594.22998046875,
+      "end_s": 595.1900024414062,
+      "text": "Pois é.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 595.1900024414062,
+      "end_s": 598.3099975585938,
+      "text": "Foi mal, gente.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 598.3099975585938,
+      "end_s": 601.6699829101562,
+      "text": "Então, assim, tem vários.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 601.6699829101562,
+      "end_s": 605.1900024414062,
+      "text": "São alguns problemas de segurança, né?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 605.1900024414062,
+      "end_s": 613.1900024414062,
+      "text": "Aqui, é claro, são só uma pessoa meio tapada, vai ler isso daí e sei lá.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 613.1900024414062,
+      "end_s": 617.27001953125,
+      "text": "Comer uma pedra por dia, que nem o Google falou aqui.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 617.27001953125,
+      "end_s": 620.7100219726562,
+      "text": "Mas.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 620.7100219726562,
+      "end_s": 628.3099975585938,
+      "text": "Se ele respondem essas coisas absurdas, eles podem responder coisas sutis que são problemáticas também.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 628.3099975585938,
+      "end_s": 629.989990234375,
+      "text": "E aí vem problemas éticos.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 629.989990234375,
+      "end_s": 636.7899780273438,
+      "text": "Isso aqui não são modelos de linguagem, são modelos de imagem, né?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 636.7899780273438,
+      "end_s": 640.469970703125,
+      "text": "Stable diffusion, mas eu acho que é muito ilustrativo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 640.469970703125,
+      "end_s": 657.5899658203125,
+      "text": "Então o Google tinha esse departamento, essa área de ética dentro da parte de inteligência artificial, e eles colocaram muito forte ali no modelo pra não sobre representar pessoas brancas.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 657.5899658203125,
+      "end_s": 660.1500244140625,
+      "text": "E aí o que aconteceu?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 660.1500244140625,
+      "end_s": 666.5499877929688,
+      "text": "Pediam presidente dos Estados Unidos, aí aparece aí presidência dos Estados Unidos indígenas.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 666.5499877929688,
+      "end_s": 674.469970703125,
+      "text": "Não que existe, de fato, um problema nisso aí, mas é algo que não é.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 674.469970703125,
+      "end_s": 677.9099731445312,
+      "text": "Não é real, não é acurado.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 677.9099731445312,
+      "end_s": 687.4299926757812,
+      "text": "E as pessoas, obviamente, se aproveitaram para fazer coisas piosas aí.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 687.4299926757812,
+      "end_s": 694.1500244140625,
+      "text": "Não é daqui.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 694.1500244140625,
+      "end_s": 698.7899780273438,
+      "text": "Então, em inglês, talvez eu falando em português aqui não atrapalhe tanto.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 698.7899780273438,
+      "end_s": 705.030029296875,
+      "text": "Mas aí pediram para fazer soldados nazistas, aí tinham soldados nazistas asiáticos negros, etc.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 705.030029296875,
+      "end_s": 707.9099731445312,
+      "text": "São problemas aí que.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 707.9099731445312,
+      "end_s": 710.22998046875,
+      "text": "Não é não é muito legal, né?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 710.22998046875,
+      "end_s": 715.75,
+      "text": "Você ter um modelo em produção e aparecer e as pessoas usarem e acontecer esse tipo de coisa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 715.75,
+      "end_s": 726.3099975585938,
+      "text": "Então, como que a gente faz esse alinhamento?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 726.3099975585938,
+      "end_s": 729.030029296875,
+      "text": "Pois é, tradição simultânea aí.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 729.030029296875,
+      "end_s": 730.1500244140625,
+      "text": "Como é que a gente faz esse aliamento?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 730.1500244140625,
+      "end_s": 733.1900024414062,
+      "text": "Então, eu vou rouber esse gráfico aqui da Nvidia.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 733.1900024414062,
+      "end_s": 737.3499755859375,
+      "text": "Ele não mostra tudo o que existe, mas ele tem.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 737.3499755859375,
+      "end_s": 742.8699951171875,
+      "text": "Dá pra gente dar uma visualização bem interessante de formas diferentes de alinhamento.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 742.8699951171875,
+      "end_s": 750.3099975585938,
+      "text": "Então, a forma mais simples, rápida e fácil e barata, é o Prompt Engineering.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 750.3099975585938,
+      "end_s": 753.5900268554688,
+      "text": "Provavelmente quase todo mundo aí já deve ter ouvido falar Prompt Engineering.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 753.5900268554688,
+      "end_s": 768.6300048828125,
+      "text": "Você basicamente você muda o prompt que você está dando para o modelo e tentam fazer ele responder melhor de acordo com o que você quer.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 768.6300048828125,
+      "end_s": 772.7100219726562,
+      "text": "Segunda forma aí, essa segunda forma que é o prompt learning.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 772.7100219726562,
+      "end_s": 779.9099731445312,
+      "text": "Prompt learning é você criar um sistema de feedback onde você.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 779.9099731445312,
+      "end_s": 785.6699829101562,
+      "text": "Sabendo a resposta que você quer, você treina o prompt.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 785.6699829101562,
+      "end_s": 794.22998046875,
+      "text": "Você treina, você consegue encontrar os tokens que vão gerar aquele o prompt para gerar aquela resposta.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 794.22998046875,
+      "end_s": 802.5499877929688,
+      "text": "Depois, se eu estiver falando alguma coisa muito complexa, alguma tiver difícil de entender, por favor, falem aqui.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 802.5499877929688,
+      "end_s": 807.510009765625,
+      "text": "Depois temos o parameter efficient fine tuning.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 807.510009765625,
+      "end_s": 810.3900146484375,
+      "text": "Antes que é você.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 810.3900146484375,
+      "end_s": 817.030029296875,
+      "text": "Ao invés de você treinar um modelo inteiro, você congela o modelo e você treina só um pedaço do modelo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 817.030029296875,
+      "end_s": 818.5499877929688,
+      "text": "E existem.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 818.5499877929688,
+      "end_s": 820.3900146484375,
+      "text": "Isso aí é.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 820.3900146484375,
+      "end_s": 829.5900268554688,
+      "text": "Existem essas formas que são mais eficientes, obviamente, elas não são tão boas, mas elas conseguem. ajudar bastante no alinhamento.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 829.5900268554688,
+      "end_s": 835.989990234375,
+      "text": "E por último é o treinamento, é o Instruction Tunning, que seria.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 835.989990234375,
+      "end_s": 844.469970703125,
+      "text": "Basicamente, é similar ao fine tunning, mas no modelo inteiro.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 844.469970703125,
+      "end_s": 857.1900024414062,
+      "text": "E aí, como você está treinando o modelo inteiro, você tem todos aqueles cursos de modelo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 857.1900024414062,
+      "end_s": 860.469970703125,
+      "text": "Isso, exatamente.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 860.469970703125,
+      "end_s": 866.9500122070312,
+      "text": "Isso, a pergunta aqui dele foi se o Prompt Engineering e o Prompt Learning você mexe dentro do modelo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 866.9500122070312,
+      "end_s": 879.3499755859375,
+      "text": "E ele está correto que você disse, o Prompt Engineering e Prompt Learning é fora do modelo, você mexe só o prompt, você só muda o prompt e o fine tuning você muda os pesos do modelo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 879.3499755859375,
+      "end_s": 885.4299926757812,
+      "text": "É isso aí."
+    },
+    {
+      "start_s": 885.4299926757812,
+      "end_s": 886.9500122070312,
+      "text": "Exatamente, exatamente.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 886.9500122070312,
+      "end_s": 900.469970703125,
+      "text": "É muito mais barato e muito mais rápido fazer aqueles dois primeiros, que como a gente vê aqui, o custo vai aumentando conforme a gente vai indo ali para treinar o modelo inteiro.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 900.469970703125,
+      "end_s": 903.6699829101562,
+      "text": "E aqui as técnicas.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 903.6699829101562,
+      "end_s": 905.1900024414062,
+      "text": "Então, a gente, depois que.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 905.1900024414062,
+      "end_s": 910.7899780273438,
+      "text": "Quando a gente baixa o modelo que já existe, ele tem o chamado pre-training.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 910.7899780273438,
+      "end_s": 911.8300170898438,
+      "text": "O que é o pre-training?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 911.8300170898438,
+      "end_s": 914.8699951171875,
+      "text": "Ele treinou o modelo de forma geral.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 914.8699951171875,
+      "end_s": 918.0700073242188,
+      "text": "E aí depois você pode fazer um continued pre-training.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 918.0700073242188,
+      "end_s": 919.75,
+      "text": "O que é o continued pre-training?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 919.75,
+      "end_s": 925.1900024414062,
+      "text": "É você continuar treinando o modelo com o geral também.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 925.1900024414062,
+      "end_s": 930.5499877929688,
+      "text": "Em seguida, você pode fazer um fine tunning.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 930.5499877929688,
+      "end_s": 936.22998046875,
+      "text": "Até hoje ainda existem algumas divergências nos termos técnicos.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 936.22998046875,
+      "end_s": 956.22998046875,
+      "text": "Então, não existe ainda um consenso até onde é fine tunning, onde é que é instruction turning, mas basicamente. depois do pre-training, você faz um aprendizado supervisionado.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 956.22998046875,
+      "end_s": 969.4299926757812,
+      "text": "Com um instruction tuning, você ensina o modelo a seguir instruções, e aí depois você faz um fine tunning que é ajustando para os dados que você quer.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 969.4299926757812,
+      "end_s": 978.3099975585938,
+      "text": "Então você primeiro você treina uma coisa que é generalista, e você depois vai treinando para ele ficar mais especialista, mais ou menos que nem a gente.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 978.3099975585938,
+      "end_s": 980.5499877929688,
+      "text": "A gente é na vida, né?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 980.5499877929688,
+      "end_s": 988.8699951171875,
+      "text": "A gente estuda ali em ensino fundamental, ensino médio, a gente vê todas as áreas, ciência, filosofia, história e tudo mais.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 988.8699951171875,
+      "end_s": 998.3099975585938,
+      "text": "E aí depois beleza, agora eu vou para a engenharia, eu vou para a programação, e aí você vai afunilando e vai ficando mais especialista.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 998.3099975585938,
+      "end_s": 1008.9500122070312,
+      "text": "Então você faz o fine tuning do modelo completo, que também dá para ser chamado de instruction tuning, se você está treinando para as instruções, e depois você pode.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1008.9500122070312,
+      "end_s": 1020.7100219726562,
+      "text": "Você também pode fazer o fine tuning de baixo modelo, que eu comentei ali, que é uma forma mais eficiente, apesar de ser um pouquinho pior na qualidade.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1020.7100219726562,
+      "end_s": 1025.5899658203125,
+      "text": "Você tem o Prompt Learning, o Prompt Engineering, que a gente comentou ali atrás.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1025.5899658203125,
+      "end_s": 1030.550048828125,
+      "text": "No Prompt Engineering tem diversas técnicas, inclusive ali o promptingguide.ai,",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1030.550048828125,
+      "end_s": 1044.1500244140625,
+      "text": "muito bom esse site, ele tem basicamente uma coleção de quase que todas as técnicas de Prompt Engineering que já foram criadas, é um negócio gigante, é muito completo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1044.1500244140625,
+      "end_s": 1045.18994140625,
+      "text": "É bem legal.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1045.18994140625,
+      "end_s": 1062.6300048828125,
+      "text": "Mas assim, se você sabe o que é o fio shot prompt, que é basicamente você dar alguns exemplos, e o chain of thought que é você pedir pra ele responder em passo a passo, isso aí geralmente resolve90% dos casos.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1062.6300048828125,
+      "end_s": 1065.75,
+      "text": "E aí, um bônus e umas coisinhas a mais.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1065.75,
+      "end_s": 1089.6700439453125,
+      "text": "Então, além disso daí você tem também o Representation Engineering e Sparse Altencoders, são duas técnicas levemente diferentes, mas as duas dá para eu tentar resumir de uma forma mais alto nível, como se a gente estivesse fazendo uma cirurgia cerebral no modelo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1089.6700439453125,
+      "end_s": 1107.9100341796875,
+      "text": "Ou seja, a gente observa quais são os neurônios que estão sendo ativados, conforme a gente pede algum prompt, e a gente faz um steering, a gente aumenta ou diminui eles conforme a gente quer algum resultado.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1107.9100341796875,
+      "end_s": 1119.9100341796875,
+      "text": "Então, nos papers que fizeram que criaram essas técnicas, eles conseguiram, por exemplo, fazer um modelo esquecer o que é um cachorro.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1119.9100341796875,
+      "end_s": 1124.0699462890625,
+      "text": "Você pergunta lá, qual é o animal que faz woofuff.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1124.0699462890625,
+      "end_s": 1128.469970703125,
+      "text": "E aí o modelo não sabe, fala, ah, não sei, eu acho que é uma vaca.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1128.469970703125,
+      "end_s": 1130.31005859375,
+      "text": "Ele responde qualquer coisa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1130.31005859375,
+      "end_s": 1132.6300048828125,
+      "text": "Então, você consegue fazer.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1132.6300048828125,
+      "end_s": 1139.5899658203125,
+      "text": "São técnicas mais complicadas, um pouco, mas elas são muito interessantes e muito promissoras.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1139.5899658203125,
+      "end_s": 1154.1500244140625,
+      "text": "Tem muita gente trabalhando, especialmente em Sparse Alten Coders, onde você consegue catalogar uma variedade muito grande de features do modelo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1154.1500244140625,
+      "end_s": 1167.18994140625,
+      "text": "Então, você não sei quem é que acompanha aí, mas recentemente o One Tropic usou usou essa técnica de Sparse Autom Coders para fazer o modelo da Golden Bridge.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1167.18994140625,
+      "end_s": 1178.22998046875,
+      "text": "E aí ele colocou, ele viu que existia essa ideia, esse conceito de Golden Bridge, e ele colocou isso no máximo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1178.22998046875,
+      "end_s": 1190.8699951171875,
+      "text": "Então, tudo que você falava com o modelo, com esse modelo da Golden Bridge. ele sempre respondia como se ele fosse a ponte, ou trazendo o assunto para a ponte, ou falando da ponte.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1190.8699951171875,
+      "end_s": 1193.8299560546875,
+      "text": "Então ele estava sempre aí falando dessa ponte.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1193.8299560546875,
+      "end_s": 1204.31005859375,
+      "text": "E você pode fazer isso, por exemplo, para isso aí, apesar de eu estar falando isso para modelos de linguagem, dá para fazer para modelos de imagem também.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1204.31005859375,
+      "end_s": 1211.3499755859375,
+      "text": "Então, digamos assim, que você peça para o seu modelo de imagem fazer uma imagem de uma cabana.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1211.3499755859375,
+      "end_s": 1215.6700439453125,
+      "text": "E aí você pode controlar essa feature, por exemplo, de neve.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1215.6700439453125,
+      "end_s": 1223.030029296875,
+      "text": "E aí você aumenta a feature ou diminui a feature de neve, e aí você vai ter a cabana e a cabana vai ter mais neve ou menos neve.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1223.030029296875,
+      "end_s": 1228.3900146484375,
+      "text": "Isso num modelo que você consegue colocar, tipo um nob.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1228.3900146484375,
+      "end_s": 1232.31005859375,
+      "text": "Ao invés de você literalmente escrever.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1232.31005859375,
+      "end_s": 1239.030029296875,
+      "text": "Então você consegue ter um ter uns controles mais finos e bem interessantes disso daí.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1239.030029296875,
+      "end_s": 1248.7099609375,
+      "text": "Além disso, Guard Rails e as camadas de segurança também são partes cruciais para a gente ir no nosso alinhamento.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1248.7099609375,
+      "end_s": 1262.0699462890625,
+      "text": "Se vocês já tentaram conversar com algum modelo e pedir alguma coisa, sei lá, pedir para ele te ensinar a fazer metafentamina, ou alguma coisa assim, você vai ver que ele fala, eu sou um modelo, que eu não posso fazer isso, não sei o que.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1262.0699462890625,
+      "end_s": 1265.75,
+      "text": "Por que ele faz isso?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1265.75,
+      "end_s": 1268.1500244140625,
+      "text": "Existem essas técnicas.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1268.1500244140625,
+      "end_s": 1276.22998046875,
+      "text": "Guardails, apesar de ter um nome só, é uma coleção, é uma diversidade de técnicas diferentes.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1276.22998046875,
+      "end_s": 1281.3499755859375,
+      "text": "Tem algumas bibliotecas de Guardails diferentes, e formas diferentes de você usar.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1281.3499755859375,
+      "end_s": 1282.7900390625,
+      "text": "E.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1282.7900390625,
+      "end_s": 1288.949951171875,
+      "text": "Enfim, e aí você consegue fazer o modelo ir para o caminho que você quer.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1288.949951171875,
+      "end_s": 1293.510009765625,
+      "text": "E também, por último, a forma mais simples, você pode colocar um Humaning in the Loop.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1293.510009765625,
+      "end_s": 1298.7099609375,
+      "text": "Você coloca um ser humano para revisar e autorizar passo a passo tudo que você quer.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1298.7099609375,
+      "end_s": 1302.949951171875,
+      "text": "Também é uma forma. válida para vários casos de uso.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1302.949951171875,
+      "end_s": 1311.8299560546875,
+      "text": "Quando você está escrevendo, por exemplo, você chega lá no chat EPT e você está escrevendo um artigo, você não pega a primeira coisa que ele cospe e já usa como seu artigo, você vai.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1311.8299560546875,
+      "end_s": 1313.989990234375,
+      "text": "Beleza, agora faz isso, agora faz aquilo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1313.989990234375,
+      "end_s": 1319.510009765625,
+      "text": "Você é o Hillman in the Loop, e você está controlando o que ele está trazendo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1319.510009765625,
+      "end_s": 1334.7099609375,
+      "text": "Então, um pouquinho mais a fundo aqui, já estamos aqui no final, mas só para chegar ali no Instruction Tuning, que é um passo bem fundamental hoje na maioria dos modelos.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1334.7099609375,
+      "end_s": 1346.550048828125,
+      "text": "Basicamente, depois que você faz o pre-training, só para a gente ir um pouquinho mais a fundo, você tem o Supervised Learning, onde você dá inputs e outputs, isso aqui é o que eu quero.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1346.550048828125,
+      "end_s": 1349.5899658203125,
+      "text": "Esse aqui é isso aqui é a entrada, essa aqui é a saída que eu quero.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1349.5899658203125,
+      "end_s": 1356.1500244140625,
+      "text": "Então você vai controlando ali o que ele vai te trazer, e depois você faz o reinforcement learning with human feedback.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1356.1500244140625,
+      "end_s": 1360.8699951171875,
+      "text": "É o aprendizado por reforço com feedback humano, que você consegue.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1360.8699951171875,
+      "end_s": 1363.4300537109375,
+      "text": "que é o que o ChatGPT faz.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1363.4300537109375,
+      "end_s": 1369.4300537109375,
+      "text": "Se vocês já escreveram alguma coisa e o ChatGPT pergunta, qual dessas duas resposta ficou melhor?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1369.4300537109375,
+      "end_s": 1370.31005859375,
+      "text": "Essa ou essa?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1370.31005859375,
+      "end_s": 1376.1500244140625,
+      "text": "E aí você escolhe uma delas, você está ajudando a treinar o modelo e fazendo aí o alinhamento.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1376.1500244140625,
+      "end_s": 1377.1099853515625,
+      "text": "Isso aqui é.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1377.1099853515625,
+      "end_s": 1381.989990234375,
+      "text": "Acho que a gente vou pular essa parte aqui rapidinho, mas é só ainda mais detalhes.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1381.989990234375,
+      "end_s": 1391.18994140625,
+      "text": "Isso aqui tem no blog da OpenAI dele explicando como é que funciona o reenforcement learning with human feedback.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1391.18994140625,
+      "end_s": 1398.7900390625,
+      "text": "Tem lá no site da OpenAI, mas é bem detalhes, eu acho que eu vou parar aqui um pouquinho para tirar dúvidas aí.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1398.7900390625,
+      "end_s": 1408.3900146484375,
+      "text": "Surgiram algumas dúvidas, vamos ver que já está chegando nos últimos minutos da palestra?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1408.3900146484375,
+      "end_s": 1411.030029296875,
+      "text": "Ah, são mais oito minutos, mais tempo de pergunta?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1411.030029296875,
+      "end_s": 1411.989990234375,
+      "text": "E aí, o que vocês acham?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1411.989990234375,
+      "end_s": 1415.75,
+      "text": "Vocês querem ir um pouquinho mais a fundo naquela parte ali?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1415.75,
+      "end_s": 1422.8699951171875,
+      "text": "Beleza, então, como é que? a OpenAI fez o sistema de alinhamento deles.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1422.8699951171875,
+      "end_s": 1423.9100341796875,
+      "text": "Quem aí já.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1423.9100341796875,
+      "end_s": 1425.989990234375,
+      "text": "Quem aí sabe como é que funciona.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1425.989990234375,
+      "end_s": 1428.7099609375,
+      "text": "Quem sabe como é que funciona reinforcement learning?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1428.7099609375,
+      "end_s": 1430.949951171875,
+      "text": "Levanta a mão.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1430.949951171875,
+      "end_s": 1435.5899658203125,
+      "text": "Ok, poucas pessoas, mas eu consigo dar um overview rápido.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1435.5899658203125,
+      "end_s": 1445.27001953125,
+      "text": "Reinforcement learning, aprendizado por reforço, basicamente é o seguinte: é um modelo onde você tem o agente, e você tem o ambiente.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1445.27001953125,
+      "end_s": 1452.6300048828125,
+      "text": "Então, o agente é quem toma ações e o ambiente recebe ações e provê um estado.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1452.6300048828125,
+      "end_s": 1455.4300537109375,
+      "text": "Então, por exemplo, vamos pensar num bebê.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1455.4300537109375,
+      "end_s": 1459.510009765625,
+      "text": "Um bebê ele quer pegar um biscoito em cima da mesa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1459.510009765625,
+      "end_s": 1465.9100341796875,
+      "text": "Então ele vai tentar levantar e vai tentar caminhar, ele é um agente e o ambiente é a sala.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1465.9100341796875,
+      "end_s": 1468.1500244140625,
+      "text": "E aí, às vezes ele cai.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1468.1500244140625,
+      "end_s": 1473.18994140625,
+      "text": "Então ele recebe um recompensa negativa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1473.18994140625,
+      "end_s": 1475.510009765625,
+      "text": "E o ele.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1475.510009765625,
+      "end_s": 1479.510009765625,
+      "text": "E aí ele consegue pegar o biscoito, isso é uma recompensa positiva.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1479.510009765625,
+      "end_s": 1494.8699951171875,
+      "text": "Então, esse sistema de treinamento, ele é um sistema de treinamento que é um pouquinho diferente do Supervised e Unsupervised Learning, mas ele é muito bom, porque você não precisa explicar exatamente o que você quer.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1494.8699951171875,
+      "end_s": 1497.8299560546875,
+      "text": "Você só dá uma recompensa se for bom ou se for.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1497.8299560546875,
+      "end_s": 1501.1099853515625,
+      "text": "ou um punição se for ruim.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1501.1099853515625,
+      "end_s": 1503.9100341796875,
+      "text": "Então, isso aí é o reinforcement learning.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1503.9100341796875,
+      "end_s": 1509.18994140625,
+      "text": "Agora, como é que isso se encaixa nos modelos de linguagem?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1509.18994140625,
+      "end_s": 1512.949951171875,
+      "text": "Então, vamos voltar ali para o Supervised Learning.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1512.949951171875,
+      "end_s": 1514.949951171875,
+      "text": "Você acabou de treinar o.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1514.949951171875,
+      "end_s": 1528.31005859375,
+      "text": "Você acabou de treinar seu modelo, fazer o pre-training, onde você basicamente você está ensinando o modelo a prever o próximo token, a próxima palavra de um conjunto muito grande de dados.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1528.31005859375,
+      "end_s": 1531.27001953125,
+      "text": "E aí, com base nisso daí, você tem o.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1531.27001953125,
+      "end_s": 1535.9100341796875,
+      "text": "Você já tem o seu modelo, e aí você começa a perguntar para o modelo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1535.9100341796875,
+      "end_s": 1537.510009765625,
+      "text": "Você vai para o modelo e fala.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1537.510009765625,
+      "end_s": 1539.3499755859375,
+      "text": "Você coloca inputs.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1539.3499755859375,
+      "end_s": 1543.9100341796875,
+      "text": "E você fala qual é o output específico que você queria.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1543.9100341796875,
+      "end_s": 1554.949951171875,
+      "text": "E aí, com isso daí, você usa isso para continuar treinando o modelo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1554.949951171875,
+      "end_s": 1558.0699462890625,
+      "text": "Deixa eu tirar e colocar isso aqui de novo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1558.0699462890625,
+      "end_s": 1566.6300048828125,
+      "text": "Para ver se melhor."
+    },
+    {
+      "start_s": 1566.6300048828125,
+      "end_s": 1568.1500244140625,
+      "text": "Acho que agora foi.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1568.1500244140625,
+      "end_s": 1573.030029296875,
+      "text": "Acho que agora foi.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1573.030029296875,
+      "end_s": 1574.469970703125,
+      "text": "Já anotado.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1574.469970703125,
+      "end_s": 1579.4300537109375,
+      "text": "Próxima vez eu trago minha energia para não acontecer isso.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1579.4300537109375,
+      "end_s": 1583.27001953125,
+      "text": "Tá."
+    },
+    {
+      "start_s": 1583.27001953125,
+      "end_s": 1584.31005859375,
+      "text": "Vamos lá."
+    },
+    {
+      "start_s": 1584.31005859375,
+      "end_s": 1589.510009765625,
+      "text": "Mais uma vez.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1589.510009765625,
+      "end_s": 1595.030029296875,
+      "text": "Third time the charm.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1595.030029296875,
+      "end_s": 1601.1099853515625,
+      "text": "Nada?"
+    },
+    {
+      "start_s": 1601.1099853515625,
+      "end_s": 1602.550048828125,
+      "text": "Tá ligado.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1602.550048828125,
+      "end_s": 1612.8699951171875,
+      "text": "Espera aí.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1612.8699951171875,
+      "end_s": 1615.989990234375,
+      "text": "Tá, vamos assim mesmo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1615.989990234375,
+      "end_s": 1622.0699462890625,
+      "text": "Então, a gente está ali sempre treinando, colocando entrada e saída e fazendo modelo treinar.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1622.0699462890625,
+      "end_s": 1624.8699951171875,
+      "text": "E esse é o primeiro passo, o supervised learning.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1624.8699951171875,
+      "end_s": 1626.3900146484375,
+      "text": "Segundo passo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1626.3900146484375,
+      "end_s": 1629.030029296875,
+      "text": "É a gente.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1629.030029296875,
+      "end_s": 1631.5899658203125,
+      "text": "Isso aqui ele deu um exemplo aqui.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1631.5899658203125,
+      "end_s": 1634.949951171875,
+      "text": "Acho que está muito pequeno para vocês lerem, mas está.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1634.949951171875,
+      "end_s": 1640.0699462890625,
+      "text": "O exemplo aqui é explica reinforcement learning para uma criança de seis anos de idade.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1640.0699462890625,
+      "end_s": 1642.469970703125,
+      "text": "E a gente deu ali nossa resposta.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1642.469970703125,
+      "end_s": 1645.5899658203125,
+      "text": "O que a gente gostaria que ele respondesse.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1645.5899658203125,
+      "end_s": 1647.4300537109375,
+      "text": "Segundo passo."
+    },
+    {
+      "start_s": 1647.4300537109375,
+      "end_s": 1648.3900146484375,
+      "text": "Beleza.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1648.3900146484375,
+      "end_s": 1653.8299560546875,
+      "text": "Segundo passo, ele vai ali e a gente pede várias respostas.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1653.8299560546875,
+      "end_s": 1659.18994140625,
+      "text": "Como ele é um modelo generativo, ele dá várias respostas diferentes, ele usa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1659.18994140625,
+      "end_s": 1673.1099853515625,
+      "text": "ele não responde, ele não dá uma resposta final, ele tem uma gama de probabilidade das próximas palavras, e a gente consegue gerar diversas respostas diferentes.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1673.1099853515625,
+      "end_s": 1686.0699462890625,
+      "text": "Então a gente seleciona, a gente pega essas várias respostas diferentes, por exemplo, quatro aqui, vamos dizer, e um ser humano chega e fala.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1686.0699462890625,
+      "end_s": 1694.8699951171875,
+      "text": "A resposta B é a melhor é melhor que a resposta C, que é melhor do que a resposta A, que é melhor que a resposta D, por exemplo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1694.8699951171875,
+      "end_s": 1698.469970703125,
+      "text": "Ele cria isso daí, e aí com isso.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1698.469970703125,
+      "end_s": 1704.550048828125,
+      "text": "Ele vai criar, ele vai treinar um outro modelo, que é um modelo de recompensa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1704.550048828125,
+      "end_s": 1711.4300537109375,
+      "text": "Ali no reenforcement learning, você tem um agente que atua no ambiente e recebe uma recompensa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1711.4300537109375,
+      "end_s": 1719.4300537109375,
+      "text": "Seja ali o biscoito, ou então ele se machuca, cai no pé, cai no chão e se machuca um pouquinho, isso aí é uma recompensa positiva ou negativa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1719.4300537109375,
+      "end_s": 1732.8699951171875,
+      "text": "E a gente vai treinar um modelo, uma rede neural que vai dar essa recompensa para o modelo, conforme os tokens que está dando ali na resposta.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1732.8699951171875,
+      "end_s": 1742.31005859375,
+      "text": "Naquela entrada ali, essa aqui são as saídas, e esses são os possíveis.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1742.31005859375,
+      "end_s": 1744.7099609375,
+      "text": "Essa é a ordem que eu gosto.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1744.7099609375,
+      "end_s": 1760.1500244140625,
+      "text": "Então a gente treina um outro modelo, um modelo de recompensas para fazer isso daí, para aprender o reinforcement learning, e com esse modelo treinado, a gente consegue tirar o ser humano.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1760.1500244140625,
+      "end_s": 1770.31005859375,
+      "text": "E aí a gente consegue depois fazer o a inteligência artificial gerar várias respostas.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1770.31005859375,
+      "end_s": 1782.22998046875,
+      "text": "Depois o modelo. de recompensa vai classificar essas respostas de acordo com o que ele aprendeu antes com os anotadores humanos.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1782.22998046875,
+      "end_s": 1786.22998046875,
+      "text": "Com isso aí de ficar abrindo e fechando a tela, talvez tenha ficado confuso.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1786.22998046875,
+      "end_s": 1786.949951171875,
+      "text": "Ficou.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1786.949951171875,
+      "end_s": 1795.9100341796875,
+      "text": "Bem, acho que agora vai ser a parte das perguntas, então, se tiver ficado confuso essa parte, vocês vão poder perguntar.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1795.9100341796875,
+      "end_s": 1802.6300048828125,
+      "text": "Perfeito, pessoal, uma salva de palmas aí para o Breno.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1802.6300048828125,
+      "end_s": 1806.550048828125,
+      "text": "Vamos fazer assim, quem quiser fazer pergunta, pode formar uma fila aqui.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1806.550048828125,
+      "end_s": 1809.510009765625,
+      "text": "Tem alguém interessado em fazer pergunta?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1809.510009765625,
+      "end_s": 1829.1099853515625,
+      "text": "Tudo bem, se vocês a gente fizer uma fila aqui, só para organizar melhor.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1829.1099853515625,
+      "end_s": 1829.989990234375,
+      "text": "Opa.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1829.989990234375,
+      "end_s": 1836.31005859375,
+      "text": "Então, eu já trabalhei num projeto que estava construindo nenhuma solução com LLM.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1836.31005859375,
+      "end_s": 1840.469970703125,
+      "text": "E na época, o Fine Tuning não estava legal.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1840.469970703125,
+      "end_s": 1842.469970703125,
+      "text": "As respostas não estavam.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1842.469970703125,
+      "end_s": 1845.18994140625,
+      "text": "Estavam boas, mas não estavam excelentes.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1845.18994140625,
+      "end_s": 1852.1500244140625,
+      "text": "E aí, na época, eu acho que cogitou-se fazer uma busca híbrida com base de gráfico também.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1852.1500244140625,
+      "end_s": 1859.75,
+      "text": "Usar o próprio LLM para criar o grafo, dos dados de treinamento, dos dados de da HAG.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1859.75,
+      "end_s": 1862.7900390625,
+      "text": "E fazer tentar fazer uma busca híbrida para ver se.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1862.7900390625,
+      "end_s": 1864.0699462890625,
+      "text": "Eu não fiquei lá.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1864.0699462890625,
+      "end_s": 1867.6700439453125,
+      "text": "Eu não sei o resultado, mas eu queria saber da sua experiência.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1867.6700439453125,
+      "end_s": 1874.8699951171875,
+      "text": "Sei que pode ser cada casa a casa, mas sua experiência, você acha que faz diferença uma busca híbrida com gráfico?",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1874.8699951171875,
+      "end_s": 1881.510009765625,
+      "text": "Ou geralmente não valeu o esforço?Ótima",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 1881.510009765625,
+      "end_s": 1882.550048828125,
+      "text": "pergunta.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1882.550048828125,
+      "end_s": 1886.7099609375,
+      "text": "E eu, sinceramente, eu não sei responder muito bem.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1886.7099609375,
+      "end_s": 1899.18994140625,
+      "text": "Eu já vi pessoas falando muito bem. de uso de LLMs com grafos, mas eu, pessoalmente, eu nunca usei, tem diversas formas diferentes de usar de usar reg.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1899.18994140625,
+      "end_s": 1903.1099853515625,
+      "text": "Reg, para quem não sabe, é retrieval augmente generation.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1903.1099853515625,
+      "end_s": 1908.550048828125,
+      "text": "Basicamente, se a gente pensar que a LLM é uma pessoa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1908.550048828125,
+      "end_s": 1914.1500244140625,
+      "text": "O reg seria uma enciclopédia que ela dá uma pesquisada antes de dar uma resposta.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1914.1500244140625,
+      "end_s": 1921.3499755859375,
+      "text": "Então, já vi muita gente falando disso, usando e falando que funciona bem.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1921.3499755859375,
+      "end_s": 1928.1500244140625,
+      "text": "Eu, sinceramente, não sei, nunca usei, e tem diversas implemententações diferentes com reg.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1928.1500244140625,
+      "end_s": 1937.6700439453125,
+      "text": "Como eu nunca usei grafo para fazer isso, o que eu faria seria outro approach, mas isso é totalmente pessoal meu.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1937.6700439453125,
+      "end_s": 1945.030029296875,
+      "text": "Eu teria tentaria melhorar a arquitetura do reg, eu tentaria usar re-rankers, que são modelos.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1945.030029296875,
+      "end_s": 1962.469970703125,
+      "text": "Um re-ranker é quando você busca, faz a busca no reg, e aí, digando assim que eu pego10 textos que são que podem ser relevantes, e aí desses10, eu faço um reordenamento e seleciono os cinco melhores.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1962.469970703125,
+      "end_s": 1973.1099853515625,
+      "text": "Então eu faço o primeiro usando, por exemplo, cosseno, distância de cosseno, que é rápido de fazer e é relativamente barato.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1973.1099853515625,
+      "end_s": 1988.7900390625,
+      "text": "E aí depois eu uso uma LLM menor para fazer um re-ranking de menos aí, onde ele vai dar uma fazer um reordenamento e diminua ali, e aí eu passo no final como esse contexto.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1988.7900390625,
+      "end_s": 2001.4300537109375,
+      "text": "Falam muito bem desse approach, eu tentaria esse approach antes de ir para uma arquitetura que eu não conheço, mas é pessoal meu.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2001.4300537109375,
+      "end_s": 2007.9599609375,
+      "text": "Só pra explicar qual é o estado da arte hoje nessa região aí do processo de reg e tal.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 2006.0,
+      "end_s": 2009.4300537109375,
+      "text": "Tudo o processo de reggae e tal.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 2009.4300537109375,
+      "end_s": 2011.989990234375,
+      "text": "O que hoje é estar na.",
+      "speaker": "S3"
+    },
+    {
+      "start_s": 2011.989990234375,
+      "end_s": 2015.989990234375,
+      "text": "O que eu vejo de estado da arte é usando re-rankers.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2015.989990234375,
+      "end_s": 2018.3900146484375,
+      "text": "Fazendo isso que eu te falei agora.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2018.3900146484375,
+      "end_s": 2027.4300537109375,
+      "text": "Você pegando o menos das últimas das últimas artigos que eu li, e do grandes pesquisadores falando sobre isso.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2027.4300537109375,
+      "end_s": 2027.8299560546875,
+      "text": "É.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2027.8299560546875,
+      "end_s": 2034.550048828125,
+      "text": "Você faz um busca, entre aspas, burra, naive.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2034.550048828125,
+      "end_s": 2052.22998046875,
+      "text": "Com cosseno mesmo, distância de cosseno, e depois você usa um modelo menor para fazer um re ranking, e aí você faz essa segunda seleção, e aí você coloca a resposta como contexto e responde com a sua LLM.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2052.22998046875,
+      "end_s": 2053.510009765625,
+      "text": "É isso, seria mais.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2053.510009765625,
+      "end_s": 2056.070068359375,
+      "text": "É, basicamente, sei lá, você e depois.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2056.070068359375,
+      "end_s": 2057.669921875,
+      "text": "Isso, procurar de novo.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2057.669921875,
+      "end_s": 2062.469970703125,
+      "text": "É porque se você usar simplesmente os embeddings para fazer uma.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2062.469970703125,
+      "end_s": 2069.27001953125,
+      "text": "Para fazer a distância de cosseno, o que vai acontecer é que esses embeddings, ele.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2069.27001953125,
+      "end_s": 2072.469970703125,
+      "text": "Eles são muito bons, mas eles não são perfeitos.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2072.469970703125,
+      "end_s": 2075.669921875,
+      "text": "Vão ter muita coisa que vai vir que não tem nada a ver.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2075.669921875,
+      "end_s": 2079.18994140625,
+      "text": "Então você usa isso primeiramente.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2079.18994140625,
+      "end_s": 2087.75,
+      "text": "E depois, que é mais rápido, seleciona10,20, e depois você coloca ali no re ranking e você diminui.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2087.75,
+      "end_s": 2098.550048828125,
+      "text": "Ou então você, pelo menos, ordena eles dos mais importantes para os menos importantes, e coloca como contexto.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2098.550048828125,
+      "end_s": 2108.7900390625,
+      "text": "A minha pergunta é mais voltando para aquela que você estava falando um pouco mais no começo, sobre as questões éticas e seus desafios, né?",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2108.7900390625,
+      "end_s": 2113.75,
+      "text": "Tem um de break muito famoso, que é o da vovó, né?",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2113.75,
+      "end_s": 2122.469970703125,
+      "text": "Você consegue fazer uma LLM te ensinar a fazer metaphetamina, pedindo para que ela te ensine como se fosse a avó passando uma receita.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2122.469970703125,
+      "end_s": 2123.75,
+      "text": "E funciona.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2123.75,
+      "end_s": 2125.8798828125,
+      "text": "Não sei se ainda funciona, mas em2009.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2124.0,
+      "end_s": 2127.27001953125,
+      "text": "Não sei se ainda funciona, mas em2023 funcionava.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2127.27001953125,
+      "end_s": 2129.18994140625,
+      "text": "Essa é a minha pergunta.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2129.18994140625,
+      "end_s": 2143.510009765625,
+      "text": "Como garantir que o usuário criativo não consiga desfazer todo o teu processo de.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2143.510009765625,
+      "end_s": 2149.27001953125,
+      "text": "Tudo que tu fez para que ele não ensine fazer a minha pergunta pedindo para a vovó ensinar.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2149.27001953125,
+      "end_s": 2151.35009765625,
+      "text": "Como impedir o usuário.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2151.35009765625,
+      "end_s": 2153.18994140625,
+      "text": "É, isso daí.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2153.18994140625,
+      "end_s": 2155.989990234375,
+      "text": "Não existe uma resposta definitiva para isso.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2155.989990234375,
+      "end_s": 2165.510009765625,
+      "text": "Do mesmo jeito que você cria um sistema e sempre vai ter um hacker russo que vai descobrir uma forma aí de burlar seu sistema.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2165.510009765625,
+      "end_s": 2169.27001953125,
+      "text": "Da mesma forma, dá para fazer a mesma coisa com as redes ouais.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2169.27001953125,
+      "end_s": 2173.75,
+      "text": "A maioria das redes que eu testei e o da vovó não estava mais funcionando.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2173.75,
+      "end_s": 2185.590087890625,
+      "text": "Não, eu tentei pedir pra vovó me contar uma história antes de dormir com os keys da Microsoft e ela não me deu.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2185.590087890625,
+      "end_s": 2191.510009765625,
+      "text": "A minha pergunta era meio no sentido de tipo, você consegue fazer alguma coisa.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2191.510009765625,
+      "end_s": 2198.7900390625,
+      "text": "Digamos que não seja só na parte de engenharia de prompt ou de learning.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2198.7900390625,
+      "end_s": 2201.989990234375,
+      "text": "Prompt learning, mas sim no modelo.",
+      "speaker": "S4"
+    },
+    {
+      "start_s": 2201.989990234375,
+      "end_s": 2203.27001953125,
+      "text": "Sim, sim."
+    },
+    {
+      "start_s": 2203.27001953125,
+      "end_s": 2206.550048828125,
+      "text": "Que é ali no Sparse Aut Encoders.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2206.550048828125,
+      "end_s": 2207.590087890625,
+      "text": "Cadê aqui?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2207.590087890625,
+      "end_s": 2209.830078125,
+      "text": "O Sparse Aut Encoders?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2209.830078125,
+      "end_s": 2212.22998046875,
+      "text": "Você consegue.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2212.22998046875,
+      "end_s": 2215.989990234375,
+      "text": "Você está meio que fazendo uma.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2215.989990234375,
+      "end_s": 2218.949951171875,
+      "text": "Do mesmo jeito que você consegue fazer ele esquecer conceitos.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2218.949951171875,
+      "end_s": 2227.110107421875,
+      "text": "Então, por exemplo, se ele esquecer o conceito de metafetamina, ele não vai conseguir te ensinar a fazer.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2227.110107421875,
+      "end_s": 2228.550048828125,
+      "text": "Mas isso.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2228.550048828125,
+      "end_s": 2231.18994140625,
+      "text": "Isso ainda é muito recente.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2231.18994140625,
+      "end_s": 2233.030029296875,
+      "text": "A princípio.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2233.030029296875,
+      "end_s": 2236.22998046875,
+      "text": "Não tem uma degradação muito grande.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2236.22998046875,
+      "end_s": 2244.22998046875,
+      "text": "Mas provavelmente se você ficar mexendo muito e mexer em várias coisas ao mesmo tempo, pode ser que isso aconteça.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2244.22998046875,
+      "end_s": 2251.75,
+      "text": "Mas a forma que eu acho que é que geralmente é mais usada são os Guard Rails.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2251.75,
+      "end_s": 2253.590087890625,
+      "text": "São essas camadas de segurança.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2253.590087890625,
+      "end_s": 2273.909912109375,
+      "text": "Então, por exemplo, uma coisa que eu já vi muitas vezes acontecendo é o modelo, eu tentando fazer de jail break do modelo, e o que acontece é o modelo começa a me responder o que eu queria, e aí de repente a conversa some, e aí vem um outro texto e fala, desculpa, eu não posso falar isso daí, não sei o quê.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2273.909912109375,
+      "end_s": 2275.989990234375,
+      "text": "E o que isso é?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2275.989990234375,
+      "end_s": 2278.7099609375,
+      "text": "Na verdade, são duas chamadas de LLM.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2278.7099609375,
+      "end_s": 2289.909912109375,
+      "text": "Uma que está respondendo o que eu perguntei, e a outra que está lendo a resposta do que está respondendo, e tentando detectar se tem alguma coisa que alguma coisa perigosa.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2289.909912109375,
+      "end_s": 2298.14990234375,
+      "text": "Então, existem formas de lidar com isso, tem outras formas, por exemplo, se você fizer com lead speak, eu já fiz.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2298.14990234375,
+      "end_s": 2301.27001953125,
+      "text": "Eu dei jail break no.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2301.27001953125,
+      "end_s": 2304.7900390625,
+      "text": "No LLM do WhatsApp com o lead speak.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2304.7900390625,
+      "end_s": 2309.669921875,
+      "text": "Então, ele me ensinou a fazer metafentamina com leadspeak.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2309.669921875,
+      "end_s": 2315.35009765625,
+      "text": "E aí, assim, se você pensa que ele consegue fazer isso com lead speak, você.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2315.35009765625,
+      "end_s": 2316.469970703125,
+      "text": "Porque o que acontece?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2316.469970703125,
+      "end_s": 2319.110107421875,
+      "text": "Ele não vê letras e palavras.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2319.110107421875,
+      "end_s": 2320.389892578125,
+      "text": "Ele vê tokens, né?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2320.389892578125,
+      "end_s": 2321.27001953125,
+      "text": "Que são pedaços.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2321.27001953125,
+      "end_s": 2327.989990234375,
+      "text": "Então, se você está usando LeadSpeak, por mais que ele entenda o Lead Speak, ele não são os mesmos tokens.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2327.989990234375,
+      "end_s": 2337.35009765625,
+      "text": "Então, e aí, se funciona para Lead Speak, provavelmente, se você colocar, sei lá, espaço entre as palavras em maiúsculo, talvez funcione também.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2337.35009765625,
+      "end_s": 2340.7900390625,
+      "text": "Então tem várias formas de fazer e você pode também combinar.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2340.7900390625,
+      "end_s": 2343.510009765625,
+      "text": "Então, se você faz um.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2343.510009765625,
+      "end_s": 2353.590087890625,
+      "text": "Se você junta a técnica da vovó com o Lead Speak, com outras coisas assim, pode ser que isso aí não é linear, não é.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2353.590087890625,
+      "end_s": 2357.75,
+      "text": "Beleza, eu travei, travei aqui a técnica da vovó não vai funcionar nunca mais.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2357.75,
+      "end_s": 2361.0,
+      "text": "Você pode ir juntando outras coisas e tentar combinar.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2360.0,
+      "end_s": 2371.830078125,
+      "text": "Tá combinar e existe essa possibilidade, mas o que eu tentaria fazer é com camada de segurança Guard Rails específico.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2371.830078125,
+      "end_s": 2374.31005859375,
+      "text": "Muito obrigado."
+    },
+    {
+      "start_s": 2374.31005859375,
+      "end_s": 2375.27001953125,
+      "text": "Perfeito, pessoal.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2375.27001953125,
+      "end_s": 2382.070068359375,
+      "text": "Então, mais uma salva de palmas aí para o nosso palestrinho.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2382.070068359375,
+      "end_s": 2383.35009765625,
+      "text": "Muito obrigado a todos, pessoal.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2383.35009765625,
+      "end_s": 2384.6298828125,
+      "text": "Valeu e obrigado pela participação.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2384.6298828125,
+      "end_s": 2385.030029296875,
+      "text": "Obrigado.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2385.030029296875,
+      "end_s": 2385.639892578125,
+      "text": "Valeu, pessoal.",
+      "speaker": "S1"
+    }
+  ],
+  "speaker_diarization": {
+    "backend": "FluidInference/speaker-diarization-coreml via fluidaudiocli process --mode offline",
+    "detected_speaker_count": 4,
+    "segment_count": 268
+  }
+}

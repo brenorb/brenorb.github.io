@@ -1,0 +1,2387 @@
+{
+  "items": [
+    {
+      "id": "palestra-plone-alinhamento-de-llms",
+      "slug": "palestra-plone-alinhamento-de-llms",
+      "label": "Transcricao diarizada",
+      "source_label": "YouTube",
+      "source_url": "https://www.youtube.com/watch?v=-pgSr8PIf38",
+      "stats": {
+        "line_count": 395,
+        "speaker_count": 4
+      },
+      "lines": [
+        {
+          "timestamp": "00:20",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=20",
+          "speaker": null,
+          "text": "Um dois."
+        },
+        {
+          "timestamp": "00:31",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=31",
+          "speaker": "SPEAKER_01",
+          "text": "Só deixa eu dar duas oficialmente."
+        },
+        {
+          "timestamp": "00:45",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=45",
+          "speaker": "SPEAKER_01",
+          "text": "E pessoal, boa tarde, bem-vindo de volta aí, depois do almoço."
+        },
+        {
+          "timestamp": "00:50",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=50",
+          "speaker": "SPEAKER_01",
+          "text": "Tem um cafezinho ali, acho que ele na lanchonete ali, para quem está precisando aí, né?"
+        },
+        {
+          "timestamp": "00:54",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=54",
+          "speaker": "SPEAKER_01",
+          "text": "Daquele soninho depois."
+        },
+        {
+          "timestamp": "00:56",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=56",
+          "speaker": "SPEAKER_01",
+          "text": "Mas, beleza, pessoal, vamos apresentar aqui o Breno Brito."
+        },
+        {
+          "timestamp": "00:59",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=59",
+          "speaker": "SPEAKER_01",
+          "text": "Ele vai falar agora sobre aliamento de LLMs, o que é, e as principais técnicas."
+        },
+        {
+          "timestamp": "01:05",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=65",
+          "speaker": "SPEAKER_01",
+          "text": "Ele é engenheiro de ML de Machine Learning, empreendedor e autor, com foco na interseção entre Bitcoin, inteligência artificial e finanças."
+        },
+        {
+          "timestamp": "01:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=74",
+          "speaker": "SPEAKER_01",
+          "text": "Então, vamos dar uma salva de palmas aí para receber o Breno."
+        },
+        {
+          "timestamp": "01:20",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=80",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, gente, tudo bom?"
+        },
+        {
+          "timestamp": "01:24",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=84",
+          "speaker": "SPEAKER_02",
+          "text": "Então, muito obrigado aí pela introdução."
+        },
+        {
+          "timestamp": "01:28",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=88",
+          "speaker": "SPEAKER_02",
+          "text": "A ideia dessa palestra aqui é bem simples."
+        },
+        {
+          "timestamp": "01:35",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=95",
+          "speaker": "SPEAKER_02",
+          "text": "Não tem só30 minutinhos aqui de conversa e depois mais10 de perguntas."
+        },
+        {
+          "timestamp": "01:40",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=100",
+          "speaker": "SPEAKER_02",
+          "text": "Então, a ideia vai ser só um purpurri ali, passar por cima, para vocês terem um conhecimento por alto das principais técnicas para depois, quando vocês forem trabalhar com isso, vocês saberem o que pesquisar."
+        },
+        {
+          "timestamp": "01:54",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=114",
+          "speaker": "SPEAKER_02",
+          "text": "Tem muita gente que já parte direto para a programação e vai montando."
+        },
+        {
+          "timestamp": "01:58",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=118",
+          "speaker": "SPEAKER_02",
+          "text": "Para programação e vai montando, vai criando sistema e depois nem sabe as técnicas que."
+        },
+        {
+          "timestamp": "02:06",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=126",
+          "speaker": "SPEAKER_02",
+          "text": "Oi, está melhor agora?"
+        },
+        {
+          "timestamp": "02:08",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=128",
+          "speaker": "SPEAKER_02",
+          "text": "Então, muita gente vai fazendo tudo e nem sabe das técnicas que já existem e que funcionam muito bem, que eles podereriam estar usando."
+        },
+        {
+          "timestamp": "02:17",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=137",
+          "speaker": "SPEAKER_02",
+          "text": "Então, essa é a ideia aqui."
+        },
+        {
+          "timestamp": "02:19",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=139",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza?"
+        },
+        {
+          "timestamp": "02:20",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=140",
+          "speaker": "SPEAKER_02",
+          "text": "Então,brigadão aí pela Plone Python Serrado, por isso aí."
+        },
+        {
+          "timestamp": "02:25",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=145",
+          "speaker": "SPEAKER_02",
+          "text": "Eu sou cientista de dados, sou."
+        },
+        {
+          "timestamp": "02:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=149",
+          "speaker": "SPEAKER_02",
+          "text": "Eu trabalho hoje como cientista de dados sêniers na Bipa, trabalhei também como engenheiro de machine learning no Spirit of Satoshi, cientista de dados do mercado Bitcoin, trabalho com Bitcoin na indústria de Bitcoin desde2017, na área de dados."
+        },
+        {
+          "timestamp": "02:44",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=164",
+          "speaker": "SPEAKER_02",
+          "text": "Inclusive, tem um livro publicado aí, ganhei o hackathon, meu hackathon que eu ganhei ano passado, foi usando uma LLM para fazer smart contract de Bitcoin."
+        },
+        {
+          "timestamp": "02:54",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=174",
+          "speaker": "SPEAKER_02",
+          "text": "Enfim, só para dar uma overview aí rapidinho de quem sou eu."
+        },
+        {
+          "timestamp": "02:59",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=179",
+          "speaker": "SPEAKER_02",
+          "text": "Quem quiser falar comigo depois, mandar falar no Twitter ou alguma coisa assim, ter uns contatos ali no final."
+        },
+        {
+          "timestamp": "03:08",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=188",
+          "speaker": "SPEAKER_02",
+          "text": "Então, para começar, todo mundo sabe o que é uma rede neural, o que é uma LLM, alguém não sabe, levanta a mão, quem não sabe quem, tipo."
+        },
+        {
+          "timestamp": "03:17",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=197",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza."
+        },
+        {
+          "timestamp": "03:19",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=199",
+          "speaker": "SPEAKER_02",
+          "text": "Então, a maioria que já sabe, o."
+        },
+        {
+          "timestamp": "03:24",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=204",
+          "speaker": "SPEAKER_02",
+          "text": "LLM é uma rede neural, uma rede neural é um conjunto de neurônios."
+        },
+        {
+          "timestamp": "03:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=209",
+          "speaker": "SPEAKER_02",
+          "text": "O neurônio, ele foi o neurônio artificial, ele foi um modelo matemático para simular o neurônio nosso mesmo da cabeça."
+        },
+        {
+          "timestamp": "03:38",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=218",
+          "speaker": "SPEAKER_02",
+          "text": "Então, se você vê aqui, não sei se vocês lembram do livro de biologia, ele parece ali o axiônio com os nedritos, mas esse é um modelo matemático, é basicamente uma multiplicação com uma depois uma função não linear."
+        },
+        {
+          "timestamp": "03:57",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=237",
+          "speaker": "SPEAKER_02",
+          "text": "É"
+        },
+        {
+          "timestamp": "03:56",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=236",
+          "speaker": "SPEAKER_02",
+          "text": "Não linear."
+        },
+        {
+          "timestamp": "03:59",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=239",
+          "speaker": "SPEAKER_02",
+          "text": "A gente não precisa entrar em detalhes aqui, mas quando você pegue esse perceptrum, que é o neurônio, e você coloque ali na rede neural, você junta vários deles para criar uma rede neural, você criou um aproximador universal."
+        },
+        {
+          "timestamp": "04:15",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=255",
+          "speaker": "SPEAKER_02",
+          "text": "Ou seja, você tem uma entrada, você tem uma saída, e você consegue aproximar qualquer função."
+        },
+        {
+          "timestamp": "04:21",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=261",
+          "speaker": "SPEAKER_02",
+          "text": "E isso que dá a força da rede neural, isso que faz as redes neurais serem algo tão poderoso assim."
+        },
+        {
+          "timestamp": "04:30",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=270",
+          "speaker": "SPEAKER_02",
+          "text": "E, no final, o modelo de linguagem é basicamente uma rede neural que usa."
+        },
+        {
+          "timestamp": "04:36",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=276",
+          "speaker": "SPEAKER_02",
+          "text": "Geralmente ele usa aquela arquitetura ali, transformer, não vou entrar em detalhes, mas ela ajuda nesse processamento da rede neural que é melhor para trabalhar com linguagem."
+        },
+        {
+          "timestamp": "04:53",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=293",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza, e o que é, de fato, alinhamento?"
+        },
+        {
+          "timestamp": "04:57",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=297",
+          "speaker": "SPEAKER_02",
+          "text": "Alinhamento é o processo de fazer com que o modelo de linguagem responda de acordo com o que você quer que ele responda."
+        },
+        {
+          "timestamp": "05:10",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=310",
+          "speaker": null,
+          "text": "Como assim?"
+        },
+        {
+          "timestamp": "05:12",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=312",
+          "speaker": "SPEAKER_02",
+          "text": "Vamos dizer aqui que eu pergunte aí, qual capital do Brasil?"
+        },
+        {
+          "timestamp": "05:17",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=317",
+          "speaker": "SPEAKER_02",
+          "text": "Modelo pode simplesmente responder Brasília."
+        },
+        {
+          "timestamp": "05:21",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=321",
+          "speaker": "SPEAKER_02",
+          "text": "Porém, o modelo também pode falar."
+        },
+        {
+          "timestamp": "05:23",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=323",
+          "speaker": "SPEAKER_02",
+          "text": "Ah, eu sei essa resposta."
+        },
+        {
+          "timestamp": "05:25",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=325",
+          "speaker": "SPEAKER_02",
+          "text": "A resposta para a capital do Brasil pode dar uma resposta longa, ele pode dar uma resposta curta, ele pode dar uma resposta diversos tipos de respostas diferentes."
+        },
+        {
+          "timestamp": "05:33",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=333",
+          "speaker": "SPEAKER_02",
+          "text": "Quando a gente está trabalhando com linguagem, a gente entra num campo menos objetivo e a gente tem uma infinidade de respostas que respondem uma mesma pergunta."
+        },
+        {
+          "timestamp": "05:47",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=347",
+          "speaker": "SPEAKER_02",
+          "text": "E o alinhamento é justamente fazer com que o modelo responda do jeito que você quer que ele responda."
+        },
+        {
+          "timestamp": "05:56",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=356",
+          "speaker": "SPEAKER_02",
+          "text": "E isso tem vários desafios aí que tem problemas éticos, problemas técnicos que a gente vai mostrar aqui agora."
+        },
+        {
+          "timestamp": "06:08",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=368",
+          "speaker": "SPEAKER_02",
+          "text": "Então, alguns problemas de segurança."
+        },
+        {
+          "timestamp": "06:10",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=370",
+          "speaker": "SPEAKER_02",
+          "text": "Por exemplo, a gente, com um modelo de linguagem em produção, dependendo do que esse modelo de linguagem está fazendo, ele pode expor informações sensíveis."
+        },
+        {
+          "timestamp": "06:23",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=383",
+          "speaker": "SPEAKER_02",
+          "text": "Ele."
+        },
+        {
+          "timestamp": "06:24",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=384",
+          "speaker": "SPEAKER_02",
+          "text": "Vocês sabem que ele é treinado com uma vastaidão de dados, e nessa vastidão de dados, pode ser que tinha o dado de alguém ali no meio."
+        },
+        {
+          "timestamp": "06:33",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=393",
+          "speaker": "SPEAKER_02",
+          "text": "Não é incomum pessoas falando, ah, eu consegui puxar um endereço, eu peguei uma aqui do Windows, agora eu consigo instalar Windows na minha máquina usando essa aqui que eu peguei aqui numa LLM."
+        },
+        {
+          "timestamp": "06:45",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=405",
+          "speaker": "SPEAKER_02",
+          "text": "Então, esses são dados que são sensíveis e a gente não, na grande maioria dos casos, a gente não tem interesse que ele esse dado vaze, né?"
+        },
+        {
+          "timestamp": "06:55",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=415",
+          "speaker": "SPEAKER_02",
+          "text": "Então tem informações sensíveis, instruções erradas ou perigosas também."
+        },
+        {
+          "timestamp": "07:02",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=422",
+          "speaker": "SPEAKER_02",
+          "text": "Se a gente."
+        },
+        {
+          "timestamp": "07:04",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=424",
+          "speaker": "SPEAKER_02",
+          "text": "A gente quer que ele que ele instrua de uma de uma maneira certa e cuidadosa."
+        },
+        {
+          "timestamp": "07:10",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=430",
+          "speaker": "SPEAKER_02",
+          "text": "Na maioria dos casos."
+        },
+        {
+          "timestamp": "07:12",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=432",
+          "speaker": "SPEAKER_02",
+          "text": "Se a gente tem."
+        },
+        {
+          "timestamp": "07:13",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=433",
+          "speaker": "SPEAKER_02",
+          "text": "Se a gente está ensinando a fazer uma receita que é muito difícil, de algo que é muito importante."
+        },
+        {
+          "timestamp": "07:20",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=440",
+          "speaker": "SPEAKER_02",
+          "text": "Por exemplo, um médico, se a gente está tem um robô, uma modelo de linguagem falando sobre um procedimento médico, a gente não pode responder de qualquer forma."
+        },
+        {
+          "timestamp": "07:33",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=453",
+          "speaker": "SPEAKER_02",
+          "text": "É importante que seja detalhado e seja minucioso nos pontos sensíveis para não quem estiver usando isso daí for colocar em prática não acabar pulando algum passo importante que prejudicam outra pessoa."
+        },
+        {
+          "timestamp": "07:51",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=471",
+          "speaker": "SPEAKER_02",
+          "text": "Então tem problemas técnicos, também, então a gente pode ter respostas inconsistentes, imprecisas, imprevisíveis, ou até inúteis."
+        },
+        {
+          "timestamp": "08:00",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=480",
+          "speaker": "SPEAKER_02",
+          "text": "E problemas éticos."
+        },
+        {
+          "timestamp": "08:03",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=483",
+          "speaker": "SPEAKER_02",
+          "text": "Muitas pessoas aí já devem ter escutado o problema de racismo algoritmo, que eu não gosto muito desse termo, mas o que acontece é o seguinte, se a gente treina um algoritmo onde uma parte é sobrepresentada, uma parte da população é sobre representada, o que acontece é que esse viés ele pode passar pelo modelo e trazer informações que não são interessantes para reforçar preconceito e essas coisas."
+        },
+        {
+          "timestamp": "08:40",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=520",
+          "speaker": "SPEAKER_02",
+          "text": "E aqui algum problema de segurança recentemente aí no Google implementou o Jamie9."
+        },
+        {
+          "timestamp": "08:47",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=527",
+          "speaker": "SPEAKER_02",
+          "text": "O que aconteceu foi que ele colocou o modelo junto da ferramenta de busca."
+        },
+        {
+          "timestamp": "08:57",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=537",
+          "speaker": "SPEAKER_02",
+          "text": "E ele pegou a maior parte das vezes do treinamento."
+        },
+        {
+          "timestamp": "09:03",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=543",
+          "speaker": "SPEAKER_02",
+          "text": "Ou do treinamento ou de outras técnicas ali de busca de informações, ele pegou do Reddit."
+        },
+        {
+          "timestamp": "09:10",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=550",
+          "speaker": "SPEAKER_02",
+          "text": "Então vocês já devem imaginar o que a resposta que tem, né?"
+        },
+        {
+          "timestamp": "09:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=554",
+          "speaker": "SPEAKER_02",
+          "text": "Então aqui alguém pergunta, eu estou sentindo depressivo."
+        },
+        {
+          "timestamp": "09:18",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=558",
+          "speaker": "SPEAKER_02",
+          "text": "Aí alguém fala, ah, uma solução é pular da ponte."
+        },
+        {
+          "timestamp": "09:24",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=564",
+          "speaker": "SPEAKER_02",
+          "text": "O Google colocando isso no site, né?"
+        },
+        {
+          "timestamp": "09:27",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=567",
+          "speaker": "SPEAKER_02",
+          "text": "Outra aqui, ó."
+        },
+        {
+          "timestamp": "09:28",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=568",
+          "speaker": "SPEAKER_02",
+          "text": "Como é que eu faço um queijo que não fique grudando a pizza?"
+        },
+        {
+          "timestamp": "09:32",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=572",
+          "speaker": "SPEAKER_02",
+          "text": "E aí alguém fala pra você usar uma."
+        },
+        {
+          "timestamp": "09:35",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=575",
+          "speaker": "SPEAKER_02",
+          "text": "Você colocar cola na pizza."
+        },
+        {
+          "timestamp": "09:38",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=578",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, tem várias dessas respostas absurdas que acabaram passando desse lado."
+        },
+        {
+          "timestamp": "09:48",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=588",
+          "speaker": "SPEAKER_02",
+          "text": "Eu tiro aqui e coloco de novo."
+        },
+        {
+          "timestamp": "09:50",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=590",
+          "speaker": null,
+          "text": "Tá."
+        },
+        {
+          "timestamp": "09:51",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=591",
+          "speaker": "SPEAKER_02",
+          "text": "Vamos ver se."
+        },
+        {
+          "timestamp": "09:50",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=590",
+          "speaker": null,
+          "text": "Tá."
+        },
+        {
+          "timestamp": "09:51",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=591",
+          "speaker": "SPEAKER_02",
+          "text": "Vamos ver se isso aí resolveu."
+        },
+        {
+          "timestamp": "09:54",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=594",
+          "speaker": "SPEAKER_02",
+          "text": "Pois é."
+        },
+        {
+          "timestamp": "09:55",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=595",
+          "speaker": "SPEAKER_02",
+          "text": "Foi mal, gente."
+        },
+        {
+          "timestamp": "09:58",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=598",
+          "speaker": "SPEAKER_02",
+          "text": "Então, assim, tem vários."
+        },
+        {
+          "timestamp": "10:01",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=601",
+          "speaker": "SPEAKER_02",
+          "text": "São alguns problemas de segurança, né?"
+        },
+        {
+          "timestamp": "10:05",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=605",
+          "speaker": "SPEAKER_02",
+          "text": "Aqui, é claro, são só uma pessoa meio tapada, vai ler isso daí e sei lá."
+        },
+        {
+          "timestamp": "10:13",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=613",
+          "speaker": "SPEAKER_02",
+          "text": "Comer uma pedra por dia, que nem o Google falou aqui."
+        },
+        {
+          "timestamp": "10:17",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=617",
+          "speaker": "SPEAKER_02",
+          "text": "Mas."
+        },
+        {
+          "timestamp": "10:20",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=620",
+          "speaker": "SPEAKER_02",
+          "text": "Se ele respondem essas coisas absurdas, eles podem responder coisas sutis que são problemáticas também."
+        },
+        {
+          "timestamp": "10:28",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=628",
+          "speaker": "SPEAKER_02",
+          "text": "E aí vem problemas éticos."
+        },
+        {
+          "timestamp": "10:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=629",
+          "speaker": "SPEAKER_02",
+          "text": "Isso aqui não são modelos de linguagem, são modelos de imagem, né?"
+        },
+        {
+          "timestamp": "10:36",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=636",
+          "speaker": "SPEAKER_02",
+          "text": "Stable diffusion, mas eu acho que é muito ilustrativo."
+        },
+        {
+          "timestamp": "10:40",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=640",
+          "speaker": "SPEAKER_02",
+          "text": "Então o Google tinha esse departamento, essa área de ética dentro da parte de inteligência artificial, e eles colocaram muito forte ali no modelo pra não sobre representar pessoas brancas."
+        },
+        {
+          "timestamp": "10:57",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=657",
+          "speaker": "SPEAKER_02",
+          "text": "E aí o que aconteceu?"
+        },
+        {
+          "timestamp": "11:00",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=660",
+          "speaker": "SPEAKER_02",
+          "text": "Pediam presidente dos Estados Unidos, aí aparece aí presidência dos Estados Unidos indígenas."
+        },
+        {
+          "timestamp": "11:06",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=666",
+          "speaker": "SPEAKER_02",
+          "text": "Não que existe, de fato, um problema nisso aí, mas é algo que não é."
+        },
+        {
+          "timestamp": "11:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=674",
+          "speaker": "SPEAKER_02",
+          "text": "Não é real, não é acurado."
+        },
+        {
+          "timestamp": "11:17",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=677",
+          "speaker": "SPEAKER_02",
+          "text": "E as pessoas, obviamente, se aproveitaram para fazer coisas piosas aí."
+        },
+        {
+          "timestamp": "11:27",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=687",
+          "speaker": "SPEAKER_01",
+          "text": "Não é daqui."
+        },
+        {
+          "timestamp": "11:34",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=694",
+          "speaker": "SPEAKER_02",
+          "text": "Então, em inglês, talvez eu falando em português aqui não atrapalhe tanto."
+        },
+        {
+          "timestamp": "11:38",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=698",
+          "speaker": "SPEAKER_02",
+          "text": "Mas aí pediram para fazer soldados nazistas, aí tinham soldados nazistas asiáticos negros, etc."
+        },
+        {
+          "timestamp": "11:45",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=705",
+          "speaker": "SPEAKER_02",
+          "text": "São problemas aí que."
+        },
+        {
+          "timestamp": "11:47",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=707",
+          "speaker": "SPEAKER_02",
+          "text": "Não é não é muito legal, né?"
+        },
+        {
+          "timestamp": "11:50",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=710",
+          "speaker": "SPEAKER_02",
+          "text": "Você ter um modelo em produção e aparecer e as pessoas usarem e acontecer esse tipo de coisa."
+        },
+        {
+          "timestamp": "11:55",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=715",
+          "speaker": "SPEAKER_02",
+          "text": "Então, como que a gente faz esse alinhamento?"
+        },
+        {
+          "timestamp": "12:06",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=726",
+          "speaker": "SPEAKER_02",
+          "text": "Pois é, tradição simultânea aí."
+        },
+        {
+          "timestamp": "12:09",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=729",
+          "speaker": "SPEAKER_02",
+          "text": "Como é que a gente faz esse aliamento?"
+        },
+        {
+          "timestamp": "12:10",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=730",
+          "speaker": "SPEAKER_02",
+          "text": "Então, eu vou rouber esse gráfico aqui da Nvidia."
+        },
+        {
+          "timestamp": "12:13",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=733",
+          "speaker": "SPEAKER_02",
+          "text": "Ele não mostra tudo o que existe, mas ele tem."
+        },
+        {
+          "timestamp": "12:17",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=737",
+          "speaker": "SPEAKER_02",
+          "text": "Dá pra gente dar uma visualização bem interessante de formas diferentes de alinhamento."
+        },
+        {
+          "timestamp": "12:22",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=742",
+          "speaker": "SPEAKER_02",
+          "text": "Então, a forma mais simples, rápida e fácil e barata, é o Prompt Engineering."
+        },
+        {
+          "timestamp": "12:30",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=750",
+          "speaker": "SPEAKER_02",
+          "text": "Provavelmente quase todo mundo aí já deve ter ouvido falar Prompt Engineering."
+        },
+        {
+          "timestamp": "12:33",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=753",
+          "speaker": "SPEAKER_02",
+          "text": "Você basicamente você muda o prompt que você está dando para o modelo e tentam fazer ele responder melhor de acordo com o que você quer."
+        },
+        {
+          "timestamp": "12:48",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=768",
+          "speaker": "SPEAKER_02",
+          "text": "Segunda forma aí, essa segunda forma que é o prompt learning."
+        },
+        {
+          "timestamp": "12:52",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=772",
+          "speaker": "SPEAKER_01",
+          "text": "Prompt learning é você criar um sistema de feedback onde você."
+        },
+        {
+          "timestamp": "12:59",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=779",
+          "speaker": "SPEAKER_02",
+          "text": "Sabendo a resposta que você quer, você treina o prompt."
+        },
+        {
+          "timestamp": "13:05",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=785",
+          "speaker": "SPEAKER_02",
+          "text": "Você treina, você consegue encontrar os tokens que vão gerar aquele o prompt para gerar aquela resposta."
+        },
+        {
+          "timestamp": "13:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=794",
+          "speaker": "SPEAKER_02",
+          "text": "Depois, se eu estiver falando alguma coisa muito complexa, alguma tiver difícil de entender, por favor, falem aqui."
+        },
+        {
+          "timestamp": "13:22",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=802",
+          "speaker": "SPEAKER_02",
+          "text": "Depois temos o parameter efficient fine tuning."
+        },
+        {
+          "timestamp": "13:27",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=807",
+          "speaker": "SPEAKER_02",
+          "text": "Antes que é você."
+        },
+        {
+          "timestamp": "13:30",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=810",
+          "speaker": "SPEAKER_02",
+          "text": "Ao invés de você treinar um modelo inteiro, você congela o modelo e você treina só um pedaço do modelo."
+        },
+        {
+          "timestamp": "13:37",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=817",
+          "speaker": "SPEAKER_02",
+          "text": "E existem."
+        },
+        {
+          "timestamp": "13:38",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=818",
+          "speaker": "SPEAKER_02",
+          "text": "Isso aí é."
+        },
+        {
+          "timestamp": "13:40",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=820",
+          "speaker": "SPEAKER_02",
+          "text": "Existem essas formas que são mais eficientes, obviamente, elas não são tão boas, mas elas conseguem. ajudar bastante no alinhamento."
+        },
+        {
+          "timestamp": "13:49",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=829",
+          "speaker": "SPEAKER_02",
+          "text": "E por último é o treinamento, é o Instruction Tunning, que seria."
+        },
+        {
+          "timestamp": "13:55",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=835",
+          "speaker": "SPEAKER_02",
+          "text": "Basicamente, é similar ao fine tunning, mas no modelo inteiro."
+        },
+        {
+          "timestamp": "14:04",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=844",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, como você está treinando o modelo inteiro, você tem todos aqueles cursos de modelo."
+        },
+        {
+          "timestamp": "14:17",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=857",
+          "speaker": "SPEAKER_02",
+          "text": "Isso, exatamente."
+        },
+        {
+          "timestamp": "14:20",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=860",
+          "speaker": "SPEAKER_02",
+          "text": "Isso, a pergunta aqui dele foi se o Prompt Engineering e o Prompt Learning você mexe dentro do modelo."
+        },
+        {
+          "timestamp": "14:26",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=866",
+          "speaker": "SPEAKER_02",
+          "text": "E ele está correto que você disse, o Prompt Engineering e Prompt Learning é fora do modelo, você mexe só o prompt, você só muda o prompt e o fine tuning você muda os pesos do modelo."
+        },
+        {
+          "timestamp": "14:39",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=879",
+          "speaker": null,
+          "text": "É isso aí."
+        },
+        {
+          "timestamp": "14:45",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=885",
+          "speaker": "SPEAKER_02",
+          "text": "Exatamente, exatamente."
+        },
+        {
+          "timestamp": "14:46",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=886",
+          "speaker": "SPEAKER_02",
+          "text": "É muito mais barato e muito mais rápido fazer aqueles dois primeiros, que como a gente vê aqui, o custo vai aumentando conforme a gente vai indo ali para treinar o modelo inteiro."
+        },
+        {
+          "timestamp": "15:00",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=900",
+          "speaker": "SPEAKER_02",
+          "text": "E aqui as técnicas."
+        },
+        {
+          "timestamp": "15:03",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=903",
+          "speaker": "SPEAKER_02",
+          "text": "Então, a gente, depois que."
+        },
+        {
+          "timestamp": "15:05",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=905",
+          "speaker": "SPEAKER_02",
+          "text": "Quando a gente baixa o modelo que já existe, ele tem o chamado pre-training."
+        },
+        {
+          "timestamp": "15:10",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=910",
+          "speaker": "SPEAKER_02",
+          "text": "O que é o pre-training?"
+        },
+        {
+          "timestamp": "15:11",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=911",
+          "speaker": "SPEAKER_02",
+          "text": "Ele treinou o modelo de forma geral."
+        },
+        {
+          "timestamp": "15:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=914",
+          "speaker": "SPEAKER_02",
+          "text": "E aí depois você pode fazer um continued pre-training."
+        },
+        {
+          "timestamp": "15:18",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=918",
+          "speaker": "SPEAKER_02",
+          "text": "O que é o continued pre-training?"
+        },
+        {
+          "timestamp": "15:19",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=919",
+          "speaker": "SPEAKER_02",
+          "text": "É você continuar treinando o modelo com o geral também."
+        },
+        {
+          "timestamp": "15:25",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=925",
+          "speaker": "SPEAKER_02",
+          "text": "Em seguida, você pode fazer um fine tunning."
+        },
+        {
+          "timestamp": "15:30",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=930",
+          "speaker": "SPEAKER_02",
+          "text": "Até hoje ainda existem algumas divergências nos termos técnicos."
+        },
+        {
+          "timestamp": "15:36",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=936",
+          "speaker": "SPEAKER_02",
+          "text": "Então, não existe ainda um consenso até onde é fine tunning, onde é que é instruction turning, mas basicamente. depois do pre-training, você faz um aprendizado supervisionado."
+        },
+        {
+          "timestamp": "15:56",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=956",
+          "speaker": "SPEAKER_02",
+          "text": "Com um instruction tuning, você ensina o modelo a seguir instruções, e aí depois você faz um fine tunning que é ajustando para os dados que você quer."
+        },
+        {
+          "timestamp": "16:09",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=969",
+          "speaker": "SPEAKER_02",
+          "text": "Então você primeiro você treina uma coisa que é generalista, e você depois vai treinando para ele ficar mais especialista, mais ou menos que nem a gente."
+        },
+        {
+          "timestamp": "16:18",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=978",
+          "speaker": "SPEAKER_02",
+          "text": "A gente é na vida, né?"
+        },
+        {
+          "timestamp": "16:20",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=980",
+          "speaker": "SPEAKER_02",
+          "text": "A gente estuda ali em ensino fundamental, ensino médio, a gente vê todas as áreas, ciência, filosofia, história e tudo mais."
+        },
+        {
+          "timestamp": "16:28",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=988",
+          "speaker": "SPEAKER_02",
+          "text": "E aí depois beleza, agora eu vou para a engenharia, eu vou para a programação, e aí você vai afunilando e vai ficando mais especialista."
+        },
+        {
+          "timestamp": "16:38",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=998",
+          "speaker": "SPEAKER_02",
+          "text": "Então você faz o fine tuning do modelo completo, que também dá para ser chamado de instruction tuning, se você está treinando para as instruções, e depois você pode."
+        },
+        {
+          "timestamp": "16:48",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1008",
+          "speaker": "SPEAKER_02",
+          "text": "Você também pode fazer o fine tuning de baixo modelo, que eu comentei ali, que é uma forma mais eficiente, apesar de ser um pouquinho pior na qualidade."
+        },
+        {
+          "timestamp": "17:00",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1020",
+          "speaker": "SPEAKER_02",
+          "text": "Você tem o Prompt Learning, o Prompt Engineering, que a gente comentou ali atrás."
+        },
+        {
+          "timestamp": "17:05",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1025",
+          "speaker": "SPEAKER_02",
+          "text": "No Prompt Engineering tem diversas técnicas, inclusive ali o promptingguide.ai,"
+        },
+        {
+          "timestamp": "17:10",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1030",
+          "speaker": "SPEAKER_02",
+          "text": "muito bom esse site, ele tem basicamente uma coleção de quase que todas as técnicas de Prompt Engineering que já foram criadas, é um negócio gigante, é muito completo."
+        },
+        {
+          "timestamp": "17:24",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1044",
+          "speaker": "SPEAKER_02",
+          "text": "É bem legal."
+        },
+        {
+          "timestamp": "17:25",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1045",
+          "speaker": "SPEAKER_02",
+          "text": "Mas assim, se você sabe o que é o fio shot prompt, que é basicamente você dar alguns exemplos, e o chain of thought que é você pedir pra ele responder em passo a passo, isso aí geralmente resolve90% dos casos."
+        },
+        {
+          "timestamp": "17:42",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1062",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, um bônus e umas coisinhas a mais."
+        },
+        {
+          "timestamp": "17:45",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1065",
+          "speaker": "SPEAKER_02",
+          "text": "Então, além disso daí você tem também o Representation Engineering e Sparse Altencoders, são duas técnicas levemente diferentes, mas as duas dá para eu tentar resumir de uma forma mais alto nível, como se a gente estivesse fazendo uma cirurgia cerebral no modelo."
+        },
+        {
+          "timestamp": "18:09",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1089",
+          "speaker": "SPEAKER_02",
+          "text": "Ou seja, a gente observa quais são os neurônios que estão sendo ativados, conforme a gente pede algum prompt, e a gente faz um steering, a gente aumenta ou diminui eles conforme a gente quer algum resultado."
+        },
+        {
+          "timestamp": "18:27",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1107",
+          "speaker": "SPEAKER_02",
+          "text": "Então, nos papers que fizeram que criaram essas técnicas, eles conseguiram, por exemplo, fazer um modelo esquecer o que é um cachorro."
+        },
+        {
+          "timestamp": "18:39",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1119",
+          "speaker": "SPEAKER_02",
+          "text": "Você pergunta lá, qual é o animal que faz woofuff."
+        },
+        {
+          "timestamp": "18:44",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1124",
+          "speaker": "SPEAKER_02",
+          "text": "E aí o modelo não sabe, fala, ah, não sei, eu acho que é uma vaca."
+        },
+        {
+          "timestamp": "18:48",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1128",
+          "speaker": "SPEAKER_02",
+          "text": "Ele responde qualquer coisa."
+        },
+        {
+          "timestamp": "18:50",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1130",
+          "speaker": "SPEAKER_02",
+          "text": "Então, você consegue fazer."
+        },
+        {
+          "timestamp": "18:52",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1132",
+          "speaker": "SPEAKER_02",
+          "text": "São técnicas mais complicadas, um pouco, mas elas são muito interessantes e muito promissoras."
+        },
+        {
+          "timestamp": "18:59",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1139",
+          "speaker": "SPEAKER_02",
+          "text": "Tem muita gente trabalhando, especialmente em Sparse Alten Coders, onde você consegue catalogar uma variedade muito grande de features do modelo."
+        },
+        {
+          "timestamp": "19:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1154",
+          "speaker": "SPEAKER_02",
+          "text": "Então, você não sei quem é que acompanha aí, mas recentemente o One Tropic usou usou essa técnica de Sparse Autom Coders para fazer o modelo da Golden Bridge."
+        },
+        {
+          "timestamp": "19:27",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1167",
+          "speaker": "SPEAKER_02",
+          "text": "E aí ele colocou, ele viu que existia essa ideia, esse conceito de Golden Bridge, e ele colocou isso no máximo."
+        },
+        {
+          "timestamp": "19:38",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1178",
+          "speaker": "SPEAKER_02",
+          "text": "Então, tudo que você falava com o modelo, com esse modelo da Golden Bridge. ele sempre respondia como se ele fosse a ponte, ou trazendo o assunto para a ponte, ou falando da ponte."
+        },
+        {
+          "timestamp": "19:50",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1190",
+          "speaker": "SPEAKER_02",
+          "text": "Então ele estava sempre aí falando dessa ponte."
+        },
+        {
+          "timestamp": "19:53",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1193",
+          "speaker": "SPEAKER_02",
+          "text": "E você pode fazer isso, por exemplo, para isso aí, apesar de eu estar falando isso para modelos de linguagem, dá para fazer para modelos de imagem também."
+        },
+        {
+          "timestamp": "20:04",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1204",
+          "speaker": "SPEAKER_02",
+          "text": "Então, digamos assim, que você peça para o seu modelo de imagem fazer uma imagem de uma cabana."
+        },
+        {
+          "timestamp": "20:11",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1211",
+          "speaker": "SPEAKER_02",
+          "text": "E aí você pode controlar essa feature, por exemplo, de neve."
+        },
+        {
+          "timestamp": "20:15",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1215",
+          "speaker": "SPEAKER_02",
+          "text": "E aí você aumenta a feature ou diminui a feature de neve, e aí você vai ter a cabana e a cabana vai ter mais neve ou menos neve."
+        },
+        {
+          "timestamp": "20:23",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1223",
+          "speaker": "SPEAKER_02",
+          "text": "Isso num modelo que você consegue colocar, tipo um nob."
+        },
+        {
+          "timestamp": "20:28",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1228",
+          "speaker": "SPEAKER_02",
+          "text": "Ao invés de você literalmente escrever."
+        },
+        {
+          "timestamp": "20:32",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1232",
+          "speaker": "SPEAKER_02",
+          "text": "Então você consegue ter um ter uns controles mais finos e bem interessantes disso daí."
+        },
+        {
+          "timestamp": "20:39",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1239",
+          "speaker": "SPEAKER_02",
+          "text": "Além disso, Guard Rails e as camadas de segurança também são partes cruciais para a gente ir no nosso alinhamento."
+        },
+        {
+          "timestamp": "20:48",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1248",
+          "speaker": "SPEAKER_02",
+          "text": "Se vocês já tentaram conversar com algum modelo e pedir alguma coisa, sei lá, pedir para ele te ensinar a fazer metafentamina, ou alguma coisa assim, você vai ver que ele fala, eu sou um modelo, que eu não posso fazer isso, não sei o que."
+        },
+        {
+          "timestamp": "21:02",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1262",
+          "speaker": "SPEAKER_02",
+          "text": "Por que ele faz isso?"
+        },
+        {
+          "timestamp": "21:05",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1265",
+          "speaker": "SPEAKER_02",
+          "text": "Existem essas técnicas."
+        },
+        {
+          "timestamp": "21:08",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1268",
+          "speaker": "SPEAKER_02",
+          "text": "Guardails, apesar de ter um nome só, é uma coleção, é uma diversidade de técnicas diferentes."
+        },
+        {
+          "timestamp": "21:16",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1276",
+          "speaker": "SPEAKER_02",
+          "text": "Tem algumas bibliotecas de Guardails diferentes, e formas diferentes de você usar."
+        },
+        {
+          "timestamp": "21:21",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1281",
+          "speaker": "SPEAKER_02",
+          "text": "E."
+        },
+        {
+          "timestamp": "21:22",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1282",
+          "speaker": "SPEAKER_02",
+          "text": "Enfim, e aí você consegue fazer o modelo ir para o caminho que você quer."
+        },
+        {
+          "timestamp": "21:28",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1288",
+          "speaker": "SPEAKER_02",
+          "text": "E também, por último, a forma mais simples, você pode colocar um Humaning in the Loop."
+        },
+        {
+          "timestamp": "21:33",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1293",
+          "speaker": "SPEAKER_02",
+          "text": "Você coloca um ser humano para revisar e autorizar passo a passo tudo que você quer."
+        },
+        {
+          "timestamp": "21:38",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1298",
+          "speaker": "SPEAKER_02",
+          "text": "Também é uma forma. válida para vários casos de uso."
+        },
+        {
+          "timestamp": "21:42",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1302",
+          "speaker": "SPEAKER_02",
+          "text": "Quando você está escrevendo, por exemplo, você chega lá no chat EPT e você está escrevendo um artigo, você não pega a primeira coisa que ele cospe e já usa como seu artigo, você vai."
+        },
+        {
+          "timestamp": "21:51",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1311",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza, agora faz isso, agora faz aquilo."
+        },
+        {
+          "timestamp": "21:53",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1313",
+          "speaker": "SPEAKER_02",
+          "text": "Você é o Hillman in the Loop, e você está controlando o que ele está trazendo."
+        },
+        {
+          "timestamp": "21:59",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1319",
+          "speaker": "SPEAKER_02",
+          "text": "Então, um pouquinho mais a fundo aqui, já estamos aqui no final, mas só para chegar ali no Instruction Tuning, que é um passo bem fundamental hoje na maioria dos modelos."
+        },
+        {
+          "timestamp": "22:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1334",
+          "speaker": "SPEAKER_02",
+          "text": "Basicamente, depois que você faz o pre-training, só para a gente ir um pouquinho mais a fundo, você tem o Supervised Learning, onde você dá inputs e outputs, isso aqui é o que eu quero."
+        },
+        {
+          "timestamp": "22:26",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1346",
+          "speaker": "SPEAKER_02",
+          "text": "Esse aqui é isso aqui é a entrada, essa aqui é a saída que eu quero."
+        },
+        {
+          "timestamp": "22:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1349",
+          "speaker": "SPEAKER_02",
+          "text": "Então você vai controlando ali o que ele vai te trazer, e depois você faz o reinforcement learning with human feedback."
+        },
+        {
+          "timestamp": "22:36",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1356",
+          "speaker": "SPEAKER_02",
+          "text": "É o aprendizado por reforço com feedback humano, que você consegue."
+        },
+        {
+          "timestamp": "22:40",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1360",
+          "speaker": "SPEAKER_02",
+          "text": "que é o que o ChatGPT faz."
+        },
+        {
+          "timestamp": "22:43",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1363",
+          "speaker": "SPEAKER_02",
+          "text": "Se vocês já escreveram alguma coisa e o ChatGPT pergunta, qual dessas duas resposta ficou melhor?"
+        },
+        {
+          "timestamp": "22:49",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1369",
+          "speaker": "SPEAKER_02",
+          "text": "Essa ou essa?"
+        },
+        {
+          "timestamp": "22:50",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1370",
+          "speaker": "SPEAKER_02",
+          "text": "E aí você escolhe uma delas, você está ajudando a treinar o modelo e fazendo aí o alinhamento."
+        },
+        {
+          "timestamp": "22:56",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1376",
+          "speaker": "SPEAKER_02",
+          "text": "Isso aqui é."
+        },
+        {
+          "timestamp": "22:57",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1377",
+          "speaker": "SPEAKER_02",
+          "text": "Acho que a gente vou pular essa parte aqui rapidinho, mas é só ainda mais detalhes."
+        },
+        {
+          "timestamp": "23:01",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1381",
+          "speaker": "SPEAKER_02",
+          "text": "Isso aqui tem no blog da OpenAI dele explicando como é que funciona o reenforcement learning with human feedback."
+        },
+        {
+          "timestamp": "23:11",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1391",
+          "speaker": "SPEAKER_02",
+          "text": "Tem lá no site da OpenAI, mas é bem detalhes, eu acho que eu vou parar aqui um pouquinho para tirar dúvidas aí."
+        },
+        {
+          "timestamp": "23:18",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1398",
+          "speaker": "SPEAKER_02",
+          "text": "Surgiram algumas dúvidas, vamos ver que já está chegando nos últimos minutos da palestra?"
+        },
+        {
+          "timestamp": "23:28",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1408",
+          "speaker": "SPEAKER_02",
+          "text": "Ah, são mais oito minutos, mais tempo de pergunta?"
+        },
+        {
+          "timestamp": "23:31",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1411",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, o que vocês acham?"
+        },
+        {
+          "timestamp": "23:31",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1411",
+          "speaker": "SPEAKER_02",
+          "text": "Vocês querem ir um pouquinho mais a fundo naquela parte ali?"
+        },
+        {
+          "timestamp": "23:35",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1415",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza, então, como é que? a OpenAI fez o sistema de alinhamento deles."
+        },
+        {
+          "timestamp": "23:42",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1422",
+          "speaker": "SPEAKER_02",
+          "text": "Quem aí já."
+        },
+        {
+          "timestamp": "23:43",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1423",
+          "speaker": "SPEAKER_02",
+          "text": "Quem aí sabe como é que funciona."
+        },
+        {
+          "timestamp": "23:45",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1425",
+          "speaker": "SPEAKER_02",
+          "text": "Quem sabe como é que funciona reinforcement learning?"
+        },
+        {
+          "timestamp": "23:48",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1428",
+          "speaker": "SPEAKER_02",
+          "text": "Levanta a mão."
+        },
+        {
+          "timestamp": "23:50",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1430",
+          "speaker": "SPEAKER_02",
+          "text": "Ok, poucas pessoas, mas eu consigo dar um overview rápido."
+        },
+        {
+          "timestamp": "23:55",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1435",
+          "speaker": "SPEAKER_02",
+          "text": "Reinforcement learning, aprendizado por reforço, basicamente é o seguinte: é um modelo onde você tem o agente, e você tem o ambiente."
+        },
+        {
+          "timestamp": "24:05",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1445",
+          "speaker": "SPEAKER_02",
+          "text": "Então, o agente é quem toma ações e o ambiente recebe ações e provê um estado."
+        },
+        {
+          "timestamp": "24:12",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1452",
+          "speaker": "SPEAKER_02",
+          "text": "Então, por exemplo, vamos pensar num bebê."
+        },
+        {
+          "timestamp": "24:15",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1455",
+          "speaker": "SPEAKER_02",
+          "text": "Um bebê ele quer pegar um biscoito em cima da mesa."
+        },
+        {
+          "timestamp": "24:19",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1459",
+          "speaker": "SPEAKER_02",
+          "text": "Então ele vai tentar levantar e vai tentar caminhar, ele é um agente e o ambiente é a sala."
+        },
+        {
+          "timestamp": "24:25",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1465",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, às vezes ele cai."
+        },
+        {
+          "timestamp": "24:28",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1468",
+          "speaker": "SPEAKER_02",
+          "text": "Então ele recebe um recompensa negativa."
+        },
+        {
+          "timestamp": "24:33",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1473",
+          "speaker": "SPEAKER_02",
+          "text": "E o ele."
+        },
+        {
+          "timestamp": "24:35",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1475",
+          "speaker": "SPEAKER_02",
+          "text": "E aí ele consegue pegar o biscoito, isso é uma recompensa positiva."
+        },
+        {
+          "timestamp": "24:39",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1479",
+          "speaker": "SPEAKER_02",
+          "text": "Então, esse sistema de treinamento, ele é um sistema de treinamento que é um pouquinho diferente do Supervised e Unsupervised Learning, mas ele é muito bom, porque você não precisa explicar exatamente o que você quer."
+        },
+        {
+          "timestamp": "24:54",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1494",
+          "speaker": "SPEAKER_02",
+          "text": "Você só dá uma recompensa se for bom ou se for."
+        },
+        {
+          "timestamp": "24:57",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1497",
+          "speaker": "SPEAKER_02",
+          "text": "ou um punição se for ruim."
+        },
+        {
+          "timestamp": "25:01",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1501",
+          "speaker": "SPEAKER_02",
+          "text": "Então, isso aí é o reinforcement learning."
+        },
+        {
+          "timestamp": "25:03",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1503",
+          "speaker": "SPEAKER_02",
+          "text": "Agora, como é que isso se encaixa nos modelos de linguagem?"
+        },
+        {
+          "timestamp": "25:09",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1509",
+          "speaker": "SPEAKER_02",
+          "text": "Então, vamos voltar ali para o Supervised Learning."
+        },
+        {
+          "timestamp": "25:12",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1512",
+          "speaker": "SPEAKER_02",
+          "text": "Você acabou de treinar o."
+        },
+        {
+          "timestamp": "25:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1514",
+          "speaker": "SPEAKER_02",
+          "text": "Você acabou de treinar seu modelo, fazer o pre-training, onde você basicamente você está ensinando o modelo a prever o próximo token, a próxima palavra de um conjunto muito grande de dados."
+        },
+        {
+          "timestamp": "25:28",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1528",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, com base nisso daí, você tem o."
+        },
+        {
+          "timestamp": "25:31",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1531",
+          "speaker": "SPEAKER_02",
+          "text": "Você já tem o seu modelo, e aí você começa a perguntar para o modelo."
+        },
+        {
+          "timestamp": "25:35",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1535",
+          "speaker": "SPEAKER_02",
+          "text": "Você vai para o modelo e fala."
+        },
+        {
+          "timestamp": "25:37",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1537",
+          "speaker": "SPEAKER_02",
+          "text": "Você coloca inputs."
+        },
+        {
+          "timestamp": "25:39",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1539",
+          "speaker": "SPEAKER_02",
+          "text": "E você fala qual é o output específico que você queria."
+        },
+        {
+          "timestamp": "25:43",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1543",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, com isso daí, você usa isso para continuar treinando o modelo."
+        },
+        {
+          "timestamp": "25:54",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1554",
+          "speaker": "SPEAKER_02",
+          "text": "Deixa eu tirar e colocar isso aqui de novo."
+        },
+        {
+          "timestamp": "25:58",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1558",
+          "speaker": null,
+          "text": "Para ver se melhor."
+        },
+        {
+          "timestamp": "26:06",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1566",
+          "speaker": "SPEAKER_02",
+          "text": "Acho que agora foi."
+        },
+        {
+          "timestamp": "26:08",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1568",
+          "speaker": "SPEAKER_02",
+          "text": "Acho que agora foi."
+        },
+        {
+          "timestamp": "26:13",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1573",
+          "speaker": "SPEAKER_02",
+          "text": "Já anotado."
+        },
+        {
+          "timestamp": "26:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1574",
+          "speaker": "SPEAKER_02",
+          "text": "Próxima vez eu trago minha energia para não acontecer isso."
+        },
+        {
+          "timestamp": "26:19",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1579",
+          "speaker": null,
+          "text": "Tá."
+        },
+        {
+          "timestamp": "26:23",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1583",
+          "speaker": null,
+          "text": "Vamos lá."
+        },
+        {
+          "timestamp": "26:24",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1584",
+          "speaker": "SPEAKER_02",
+          "text": "Mais uma vez."
+        },
+        {
+          "timestamp": "26:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1589",
+          "speaker": "SPEAKER_02",
+          "text": "Third time the charm."
+        },
+        {
+          "timestamp": "26:35",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1595",
+          "speaker": null,
+          "text": "Nada?"
+        },
+        {
+          "timestamp": "26:41",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1601",
+          "speaker": "SPEAKER_01",
+          "text": "Tá ligado."
+        },
+        {
+          "timestamp": "26:42",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1602",
+          "speaker": "SPEAKER_01",
+          "text": "Espera aí."
+        },
+        {
+          "timestamp": "26:52",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1612",
+          "speaker": "SPEAKER_02",
+          "text": "Tá, vamos assim mesmo."
+        },
+        {
+          "timestamp": "26:55",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1615",
+          "speaker": "SPEAKER_02",
+          "text": "Então, a gente está ali sempre treinando, colocando entrada e saída e fazendo modelo treinar."
+        },
+        {
+          "timestamp": "27:02",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1622",
+          "speaker": "SPEAKER_02",
+          "text": "E esse é o primeiro passo, o supervised learning."
+        },
+        {
+          "timestamp": "27:04",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1624",
+          "speaker": "SPEAKER_02",
+          "text": "Segundo passo."
+        },
+        {
+          "timestamp": "27:06",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1626",
+          "speaker": "SPEAKER_02",
+          "text": "É a gente."
+        },
+        {
+          "timestamp": "27:09",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1629",
+          "speaker": "SPEAKER_02",
+          "text": "Isso aqui ele deu um exemplo aqui."
+        },
+        {
+          "timestamp": "27:11",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1631",
+          "speaker": "SPEAKER_02",
+          "text": "Acho que está muito pequeno para vocês lerem, mas está."
+        },
+        {
+          "timestamp": "27:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1634",
+          "speaker": "SPEAKER_02",
+          "text": "O exemplo aqui é explica reinforcement learning para uma criança de seis anos de idade."
+        },
+        {
+          "timestamp": "27:20",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1640",
+          "speaker": "SPEAKER_02",
+          "text": "E a gente deu ali nossa resposta."
+        },
+        {
+          "timestamp": "27:22",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1642",
+          "speaker": "SPEAKER_02",
+          "text": "O que a gente gostaria que ele respondesse."
+        },
+        {
+          "timestamp": "27:25",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1645",
+          "speaker": null,
+          "text": "Segundo passo."
+        },
+        {
+          "timestamp": "27:27",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1647",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza."
+        },
+        {
+          "timestamp": "27:28",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1648",
+          "speaker": "SPEAKER_02",
+          "text": "Segundo passo, ele vai ali e a gente pede várias respostas."
+        },
+        {
+          "timestamp": "27:33",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1653",
+          "speaker": "SPEAKER_02",
+          "text": "Como ele é um modelo generativo, ele dá várias respostas diferentes, ele usa."
+        },
+        {
+          "timestamp": "27:39",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1659",
+          "speaker": "SPEAKER_02",
+          "text": "ele não responde, ele não dá uma resposta final, ele tem uma gama de probabilidade das próximas palavras, e a gente consegue gerar diversas respostas diferentes."
+        },
+        {
+          "timestamp": "27:53",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1673",
+          "speaker": "SPEAKER_02",
+          "text": "Então a gente seleciona, a gente pega essas várias respostas diferentes, por exemplo, quatro aqui, vamos dizer, e um ser humano chega e fala."
+        },
+        {
+          "timestamp": "28:06",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1686",
+          "speaker": "SPEAKER_02",
+          "text": "A resposta B é a melhor é melhor que a resposta C, que é melhor do que a resposta A, que é melhor que a resposta D, por exemplo."
+        },
+        {
+          "timestamp": "28:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1694",
+          "speaker": "SPEAKER_02",
+          "text": "Ele cria isso daí, e aí com isso."
+        },
+        {
+          "timestamp": "28:18",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1698",
+          "speaker": "SPEAKER_02",
+          "text": "Ele vai criar, ele vai treinar um outro modelo, que é um modelo de recompensa."
+        },
+        {
+          "timestamp": "28:24",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1704",
+          "speaker": "SPEAKER_02",
+          "text": "Ali no reenforcement learning, você tem um agente que atua no ambiente e recebe uma recompensa."
+        },
+        {
+          "timestamp": "28:31",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1711",
+          "speaker": "SPEAKER_02",
+          "text": "Seja ali o biscoito, ou então ele se machuca, cai no pé, cai no chão e se machuca um pouquinho, isso aí é uma recompensa positiva ou negativa."
+        },
+        {
+          "timestamp": "28:39",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1719",
+          "speaker": "SPEAKER_02",
+          "text": "E a gente vai treinar um modelo, uma rede neural que vai dar essa recompensa para o modelo, conforme os tokens que está dando ali na resposta."
+        },
+        {
+          "timestamp": "28:52",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1732",
+          "speaker": "SPEAKER_02",
+          "text": "Naquela entrada ali, essa aqui são as saídas, e esses são os possíveis."
+        },
+        {
+          "timestamp": "29:02",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1742",
+          "speaker": "SPEAKER_02",
+          "text": "Essa é a ordem que eu gosto."
+        },
+        {
+          "timestamp": "29:04",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1744",
+          "speaker": "SPEAKER_02",
+          "text": "Então a gente treina um outro modelo, um modelo de recompensas para fazer isso daí, para aprender o reinforcement learning, e com esse modelo treinado, a gente consegue tirar o ser humano."
+        },
+        {
+          "timestamp": "29:20",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1760",
+          "speaker": "SPEAKER_02",
+          "text": "E aí a gente consegue depois fazer o a inteligência artificial gerar várias respostas."
+        },
+        {
+          "timestamp": "29:30",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1770",
+          "speaker": "SPEAKER_02",
+          "text": "Depois o modelo. de recompensa vai classificar essas respostas de acordo com o que ele aprendeu antes com os anotadores humanos."
+        },
+        {
+          "timestamp": "29:42",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1782",
+          "speaker": "SPEAKER_02",
+          "text": "Com isso aí de ficar abrindo e fechando a tela, talvez tenha ficado confuso."
+        },
+        {
+          "timestamp": "29:46",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1786",
+          "speaker": "SPEAKER_02",
+          "text": "Ficou."
+        },
+        {
+          "timestamp": "29:46",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1786",
+          "speaker": "SPEAKER_02",
+          "text": "Bem, acho que agora vai ser a parte das perguntas, então, se tiver ficado confuso essa parte, vocês vão poder perguntar."
+        },
+        {
+          "timestamp": "29:55",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1795",
+          "speaker": "SPEAKER_01",
+          "text": "Perfeito, pessoal, uma salva de palmas aí para o Breno."
+        },
+        {
+          "timestamp": "30:02",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1802",
+          "speaker": "SPEAKER_01",
+          "text": "Vamos fazer assim, quem quiser fazer pergunta, pode formar uma fila aqui."
+        },
+        {
+          "timestamp": "30:06",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1806",
+          "speaker": "SPEAKER_01",
+          "text": "Tem alguém interessado em fazer pergunta?"
+        },
+        {
+          "timestamp": "30:09",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1809",
+          "speaker": "SPEAKER_01",
+          "text": "Tudo bem, se vocês a gente fizer uma fila aqui, só para organizar melhor."
+        },
+        {
+          "timestamp": "30:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1829",
+          "speaker": "SPEAKER_03",
+          "text": "Opa."
+        },
+        {
+          "timestamp": "30:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1829",
+          "speaker": "SPEAKER_03",
+          "text": "Então, eu já trabalhei num projeto que estava construindo nenhuma solução com LLM."
+        },
+        {
+          "timestamp": "30:36",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1836",
+          "speaker": "SPEAKER_03",
+          "text": "E na época, o Fine Tuning não estava legal."
+        },
+        {
+          "timestamp": "30:40",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1840",
+          "speaker": "SPEAKER_03",
+          "text": "As respostas não estavam."
+        },
+        {
+          "timestamp": "30:42",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1842",
+          "speaker": "SPEAKER_03",
+          "text": "Estavam boas, mas não estavam excelentes."
+        },
+        {
+          "timestamp": "30:45",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1845",
+          "speaker": "SPEAKER_03",
+          "text": "E aí, na época, eu acho que cogitou-se fazer uma busca híbrida com base de gráfico também."
+        },
+        {
+          "timestamp": "30:52",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1852",
+          "speaker": "SPEAKER_03",
+          "text": "Usar o próprio LLM para criar o grafo, dos dados de treinamento, dos dados de da HAG."
+        },
+        {
+          "timestamp": "30:59",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1859",
+          "speaker": "SPEAKER_03",
+          "text": "E fazer tentar fazer uma busca híbrida para ver se."
+        },
+        {
+          "timestamp": "31:02",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1862",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não fiquei lá."
+        },
+        {
+          "timestamp": "31:04",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1864",
+          "speaker": "SPEAKER_03",
+          "text": "Eu não sei o resultado, mas eu queria saber da sua experiência."
+        },
+        {
+          "timestamp": "31:07",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1867",
+          "speaker": "SPEAKER_03",
+          "text": "Sei que pode ser cada casa a casa, mas sua experiência, você acha que faz diferença uma busca híbrida com gráfico?"
+        },
+        {
+          "timestamp": "31:14",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1874",
+          "speaker": "SPEAKER_03",
+          "text": "Ou geralmente não valeu o esforço?Ótima"
+        },
+        {
+          "timestamp": "31:21",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1881",
+          "speaker": "SPEAKER_02",
+          "text": "pergunta."
+        },
+        {
+          "timestamp": "31:22",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1882",
+          "speaker": "SPEAKER_02",
+          "text": "E eu, sinceramente, eu não sei responder muito bem."
+        },
+        {
+          "timestamp": "31:26",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1886",
+          "speaker": "SPEAKER_02",
+          "text": "Eu já vi pessoas falando muito bem. de uso de LLMs com grafos, mas eu, pessoalmente, eu nunca usei, tem diversas formas diferentes de usar de usar reg."
+        },
+        {
+          "timestamp": "31:39",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1899",
+          "speaker": "SPEAKER_02",
+          "text": "Reg, para quem não sabe, é retrieval augmente generation."
+        },
+        {
+          "timestamp": "31:43",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1903",
+          "speaker": "SPEAKER_02",
+          "text": "Basicamente, se a gente pensar que a LLM é uma pessoa."
+        },
+        {
+          "timestamp": "31:48",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1908",
+          "speaker": "SPEAKER_02",
+          "text": "O reg seria uma enciclopédia que ela dá uma pesquisada antes de dar uma resposta."
+        },
+        {
+          "timestamp": "31:54",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1914",
+          "speaker": "SPEAKER_02",
+          "text": "Então, já vi muita gente falando disso, usando e falando que funciona bem."
+        },
+        {
+          "timestamp": "32:01",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1921",
+          "speaker": "SPEAKER_02",
+          "text": "Eu, sinceramente, não sei, nunca usei, e tem diversas implemententações diferentes com reg."
+        },
+        {
+          "timestamp": "32:08",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1928",
+          "speaker": "SPEAKER_02",
+          "text": "Como eu nunca usei grafo para fazer isso, o que eu faria seria outro approach, mas isso é totalmente pessoal meu."
+        },
+        {
+          "timestamp": "32:17",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1937",
+          "speaker": "SPEAKER_02",
+          "text": "Eu teria tentaria melhorar a arquitetura do reg, eu tentaria usar re-rankers, que são modelos."
+        },
+        {
+          "timestamp": "32:25",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1945",
+          "speaker": "SPEAKER_02",
+          "text": "Um re-ranker é quando você busca, faz a busca no reg, e aí, digando assim que eu pego10 textos que são que podem ser relevantes, e aí desses10, eu faço um reordenamento e seleciono os cinco melhores."
+        },
+        {
+          "timestamp": "32:42",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1962",
+          "speaker": "SPEAKER_02",
+          "text": "Então eu faço o primeiro usando, por exemplo, cosseno, distância de cosseno, que é rápido de fazer e é relativamente barato."
+        },
+        {
+          "timestamp": "32:53",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1973",
+          "speaker": "SPEAKER_02",
+          "text": "E aí depois eu uso uma LLM menor para fazer um re-ranking de menos aí, onde ele vai dar uma fazer um reordenamento e diminua ali, e aí eu passo no final como esse contexto."
+        },
+        {
+          "timestamp": "33:08",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=1988",
+          "speaker": "SPEAKER_02",
+          "text": "Falam muito bem desse approach, eu tentaria esse approach antes de ir para uma arquitetura que eu não conheço, mas é pessoal meu."
+        },
+        {
+          "timestamp": "33:21",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2001",
+          "speaker": "SPEAKER_03",
+          "text": "Só pra explicar qual é o estado da arte hoje nessa região aí do processo de reg e tal."
+        },
+        {
+          "timestamp": "33:26",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2006",
+          "speaker": "SPEAKER_03",
+          "text": "Tudo o processo de reggae e tal."
+        },
+        {
+          "timestamp": "33:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2009",
+          "speaker": "SPEAKER_03",
+          "text": "O que hoje é estar na."
+        },
+        {
+          "timestamp": "33:31",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2011",
+          "speaker": "SPEAKER_02",
+          "text": "O que eu vejo de estado da arte é usando re-rankers."
+        },
+        {
+          "timestamp": "33:35",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2015",
+          "speaker": "SPEAKER_02",
+          "text": "Fazendo isso que eu te falei agora."
+        },
+        {
+          "timestamp": "33:38",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2018",
+          "speaker": "SPEAKER_02",
+          "text": "Você pegando o menos das últimas das últimas artigos que eu li, e do grandes pesquisadores falando sobre isso."
+        },
+        {
+          "timestamp": "33:47",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2027",
+          "speaker": "SPEAKER_02",
+          "text": "É."
+        },
+        {
+          "timestamp": "33:47",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2027",
+          "speaker": "SPEAKER_02",
+          "text": "Você faz um busca, entre aspas, burra, naive."
+        },
+        {
+          "timestamp": "33:54",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2034",
+          "speaker": "SPEAKER_02",
+          "text": "Com cosseno mesmo, distância de cosseno, e depois você usa um modelo menor para fazer um re ranking, e aí você faz essa segunda seleção, e aí você coloca a resposta como contexto e responde com a sua LLM."
+        },
+        {
+          "timestamp": "34:12",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2052",
+          "speaker": "SPEAKER_02",
+          "text": "É isso, seria mais."
+        },
+        {
+          "timestamp": "34:13",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2053",
+          "speaker": "SPEAKER_02",
+          "text": "É, basicamente, sei lá, você e depois."
+        },
+        {
+          "timestamp": "34:16",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2056",
+          "speaker": "SPEAKER_02",
+          "text": "Isso, procurar de novo."
+        },
+        {
+          "timestamp": "34:17",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2057",
+          "speaker": "SPEAKER_02",
+          "text": "É porque se você usar simplesmente os embeddings para fazer uma."
+        },
+        {
+          "timestamp": "34:22",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2062",
+          "speaker": "SPEAKER_02",
+          "text": "Para fazer a distância de cosseno, o que vai acontecer é que esses embeddings, ele."
+        },
+        {
+          "timestamp": "34:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2069",
+          "speaker": "SPEAKER_02",
+          "text": "Eles são muito bons, mas eles não são perfeitos."
+        },
+        {
+          "timestamp": "34:32",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2072",
+          "speaker": "SPEAKER_02",
+          "text": "Vão ter muita coisa que vai vir que não tem nada a ver."
+        },
+        {
+          "timestamp": "34:35",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2075",
+          "speaker": "SPEAKER_02",
+          "text": "Então você usa isso primeiramente."
+        },
+        {
+          "timestamp": "34:39",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2079",
+          "speaker": "SPEAKER_02",
+          "text": "E depois, que é mais rápido, seleciona10,20, e depois você coloca ali no re ranking e você diminui."
+        },
+        {
+          "timestamp": "34:47",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2087",
+          "speaker": "SPEAKER_02",
+          "text": "Ou então você, pelo menos, ordena eles dos mais importantes para os menos importantes, e coloca como contexto."
+        },
+        {
+          "timestamp": "34:58",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2098",
+          "speaker": "SPEAKER_04",
+          "text": "A minha pergunta é mais voltando para aquela que você estava falando um pouco mais no começo, sobre as questões éticas e seus desafios, né?"
+        },
+        {
+          "timestamp": "35:08",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2108",
+          "speaker": "SPEAKER_04",
+          "text": "Tem um de break muito famoso, que é o da vovó, né?"
+        },
+        {
+          "timestamp": "35:13",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2113",
+          "speaker": "SPEAKER_04",
+          "text": "Você consegue fazer uma LLM te ensinar a fazer metaphetamina, pedindo para que ela te ensine como se fosse a avó passando uma receita."
+        },
+        {
+          "timestamp": "35:22",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2122",
+          "speaker": "SPEAKER_04",
+          "text": "E funciona."
+        },
+        {
+          "timestamp": "35:23",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2123",
+          "speaker": "SPEAKER_04",
+          "text": "Não sei se ainda funciona, mas em2009."
+        },
+        {
+          "timestamp": "35:24",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2124",
+          "speaker": "SPEAKER_04",
+          "text": "Não sei se ainda funciona, mas em2023 funcionava."
+        },
+        {
+          "timestamp": "35:27",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2127",
+          "speaker": "SPEAKER_04",
+          "text": "Essa é a minha pergunta."
+        },
+        {
+          "timestamp": "35:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2129",
+          "speaker": "SPEAKER_04",
+          "text": "Como garantir que o usuário criativo não consiga desfazer todo o teu processo de."
+        },
+        {
+          "timestamp": "35:43",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2143",
+          "speaker": "SPEAKER_04",
+          "text": "Tudo que tu fez para que ele não ensine fazer a minha pergunta pedindo para a vovó ensinar."
+        },
+        {
+          "timestamp": "35:49",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2149",
+          "speaker": "SPEAKER_04",
+          "text": "Como impedir o usuário."
+        },
+        {
+          "timestamp": "35:51",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2151",
+          "speaker": "SPEAKER_02",
+          "text": "É, isso daí."
+        },
+        {
+          "timestamp": "35:53",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2153",
+          "speaker": "SPEAKER_02",
+          "text": "Não existe uma resposta definitiva para isso."
+        },
+        {
+          "timestamp": "35:55",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2155",
+          "speaker": "SPEAKER_02",
+          "text": "Do mesmo jeito que você cria um sistema e sempre vai ter um hacker russo que vai descobrir uma forma aí de burlar seu sistema."
+        },
+        {
+          "timestamp": "36:05",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2165",
+          "speaker": "SPEAKER_02",
+          "text": "Da mesma forma, dá para fazer a mesma coisa com as redes ouais."
+        },
+        {
+          "timestamp": "36:09",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2169",
+          "speaker": "SPEAKER_02",
+          "text": "A maioria das redes que eu testei e o da vovó não estava mais funcionando."
+        },
+        {
+          "timestamp": "36:13",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2173",
+          "speaker": "SPEAKER_02",
+          "text": "Não, eu tentei pedir pra vovó me contar uma história antes de dormir com os keys da Microsoft e ela não me deu."
+        },
+        {
+          "timestamp": "36:25",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2185",
+          "speaker": "SPEAKER_04",
+          "text": "A minha pergunta era meio no sentido de tipo, você consegue fazer alguma coisa."
+        },
+        {
+          "timestamp": "36:31",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2191",
+          "speaker": "SPEAKER_04",
+          "text": "Digamos que não seja só na parte de engenharia de prompt ou de learning."
+        },
+        {
+          "timestamp": "36:38",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2198",
+          "speaker": "SPEAKER_04",
+          "text": "Prompt learning, mas sim no modelo."
+        },
+        {
+          "timestamp": "36:41",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2201",
+          "speaker": null,
+          "text": "Sim, sim."
+        },
+        {
+          "timestamp": "36:43",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2203",
+          "speaker": "SPEAKER_02",
+          "text": "Que é ali no Sparse Aut Encoders."
+        },
+        {
+          "timestamp": "36:46",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2206",
+          "speaker": "SPEAKER_02",
+          "text": "Cadê aqui?"
+        },
+        {
+          "timestamp": "36:47",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2207",
+          "speaker": "SPEAKER_02",
+          "text": "O Sparse Aut Encoders?"
+        },
+        {
+          "timestamp": "36:49",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2209",
+          "speaker": "SPEAKER_02",
+          "text": "Você consegue."
+        },
+        {
+          "timestamp": "36:52",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2212",
+          "speaker": "SPEAKER_02",
+          "text": "Você está meio que fazendo uma."
+        },
+        {
+          "timestamp": "36:55",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2215",
+          "speaker": "SPEAKER_02",
+          "text": "Do mesmo jeito que você consegue fazer ele esquecer conceitos."
+        },
+        {
+          "timestamp": "36:58",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2218",
+          "speaker": "SPEAKER_02",
+          "text": "Então, por exemplo, se ele esquecer o conceito de metafetamina, ele não vai conseguir te ensinar a fazer."
+        },
+        {
+          "timestamp": "37:07",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2227",
+          "speaker": "SPEAKER_02",
+          "text": "Mas isso."
+        },
+        {
+          "timestamp": "37:08",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2228",
+          "speaker": "SPEAKER_02",
+          "text": "Isso ainda é muito recente."
+        },
+        {
+          "timestamp": "37:11",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2231",
+          "speaker": "SPEAKER_02",
+          "text": "A princípio."
+        },
+        {
+          "timestamp": "37:13",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2233",
+          "speaker": "SPEAKER_02",
+          "text": "Não tem uma degradação muito grande."
+        },
+        {
+          "timestamp": "37:16",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2236",
+          "speaker": "SPEAKER_02",
+          "text": "Mas provavelmente se você ficar mexendo muito e mexer em várias coisas ao mesmo tempo, pode ser que isso aconteça."
+        },
+        {
+          "timestamp": "37:24",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2244",
+          "speaker": "SPEAKER_02",
+          "text": "Mas a forma que eu acho que é que geralmente é mais usada são os Guard Rails."
+        },
+        {
+          "timestamp": "37:31",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2251",
+          "speaker": "SPEAKER_02",
+          "text": "São essas camadas de segurança."
+        },
+        {
+          "timestamp": "37:33",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2253",
+          "speaker": "SPEAKER_02",
+          "text": "Então, por exemplo, uma coisa que eu já vi muitas vezes acontecendo é o modelo, eu tentando fazer de jail break do modelo, e o que acontece é o modelo começa a me responder o que eu queria, e aí de repente a conversa some, e aí vem um outro texto e fala, desculpa, eu não posso falar isso daí, não sei o quê."
+        },
+        {
+          "timestamp": "37:53",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2273",
+          "speaker": "SPEAKER_02",
+          "text": "E o que isso é?"
+        },
+        {
+          "timestamp": "37:55",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2275",
+          "speaker": "SPEAKER_02",
+          "text": "Na verdade, são duas chamadas de LLM."
+        },
+        {
+          "timestamp": "37:58",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2278",
+          "speaker": "SPEAKER_02",
+          "text": "Uma que está respondendo o que eu perguntei, e a outra que está lendo a resposta do que está respondendo, e tentando detectar se tem alguma coisa que alguma coisa perigosa."
+        },
+        {
+          "timestamp": "38:09",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2289",
+          "speaker": "SPEAKER_02",
+          "text": "Então, existem formas de lidar com isso, tem outras formas, por exemplo, se você fizer com lead speak, eu já fiz."
+        },
+        {
+          "timestamp": "38:18",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2298",
+          "speaker": "SPEAKER_02",
+          "text": "Eu dei jail break no."
+        },
+        {
+          "timestamp": "38:21",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2301",
+          "speaker": "SPEAKER_02",
+          "text": "No LLM do WhatsApp com o lead speak."
+        },
+        {
+          "timestamp": "38:24",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2304",
+          "speaker": "SPEAKER_02",
+          "text": "Então, ele me ensinou a fazer metafentamina com leadspeak."
+        },
+        {
+          "timestamp": "38:29",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2309",
+          "speaker": "SPEAKER_02",
+          "text": "E aí, assim, se você pensa que ele consegue fazer isso com lead speak, você."
+        },
+        {
+          "timestamp": "38:35",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2315",
+          "speaker": "SPEAKER_02",
+          "text": "Porque o que acontece?"
+        },
+        {
+          "timestamp": "38:36",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2316",
+          "speaker": "SPEAKER_02",
+          "text": "Ele não vê letras e palavras."
+        },
+        {
+          "timestamp": "38:39",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2319",
+          "speaker": "SPEAKER_02",
+          "text": "Ele vê tokens, né?"
+        },
+        {
+          "timestamp": "38:40",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2320",
+          "speaker": "SPEAKER_02",
+          "text": "Que são pedaços."
+        },
+        {
+          "timestamp": "38:41",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2321",
+          "speaker": "SPEAKER_02",
+          "text": "Então, se você está usando LeadSpeak, por mais que ele entenda o Lead Speak, ele não são os mesmos tokens."
+        },
+        {
+          "timestamp": "38:47",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2327",
+          "speaker": "SPEAKER_02",
+          "text": "Então, e aí, se funciona para Lead Speak, provavelmente, se você colocar, sei lá, espaço entre as palavras em maiúsculo, talvez funcione também."
+        },
+        {
+          "timestamp": "38:57",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2337",
+          "speaker": "SPEAKER_02",
+          "text": "Então tem várias formas de fazer e você pode também combinar."
+        },
+        {
+          "timestamp": "39:00",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2340",
+          "speaker": "SPEAKER_02",
+          "text": "Então, se você faz um."
+        },
+        {
+          "timestamp": "39:03",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2343",
+          "speaker": "SPEAKER_02",
+          "text": "Se você junta a técnica da vovó com o Lead Speak, com outras coisas assim, pode ser que isso aí não é linear, não é."
+        },
+        {
+          "timestamp": "39:13",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2353",
+          "speaker": "SPEAKER_02",
+          "text": "Beleza, eu travei, travei aqui a técnica da vovó não vai funcionar nunca mais."
+        },
+        {
+          "timestamp": "39:17",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2357",
+          "speaker": "SPEAKER_02",
+          "text": "Você pode ir juntando outras coisas e tentar combinar."
+        },
+        {
+          "timestamp": "39:20",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2360",
+          "speaker": "SPEAKER_02",
+          "text": "Tá combinar e existe essa possibilidade, mas o que eu tentaria fazer é com camada de segurança Guard Rails específico."
+        },
+        {
+          "timestamp": "39:31",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2371",
+          "speaker": null,
+          "text": "Muito obrigado."
+        },
+        {
+          "timestamp": "39:34",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2374",
+          "speaker": "SPEAKER_01",
+          "text": "Perfeito, pessoal."
+        },
+        {
+          "timestamp": "39:35",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2375",
+          "speaker": "SPEAKER_01",
+          "text": "Então, mais uma salva de palmas aí para o nosso palestrinho."
+        },
+        {
+          "timestamp": "39:42",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2382",
+          "speaker": "SPEAKER_01",
+          "text": "Muito obrigado a todos, pessoal."
+        },
+        {
+          "timestamp": "39:43",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2383",
+          "speaker": "SPEAKER_01",
+          "text": "Valeu e obrigado pela participação."
+        },
+        {
+          "timestamp": "39:44",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2384",
+          "speaker": "SPEAKER_01",
+          "text": "Obrigado."
+        },
+        {
+          "timestamp": "39:45",
+          "href": "https://www.youtube.com/watch?v=-pgSr8PIf38&t=2385",
+          "speaker": "SPEAKER_01",
+          "text": "Valeu, pessoal."
+        }
+      ]
+    }
+  ]
+}

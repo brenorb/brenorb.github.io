@@ -1,0 +1,183 @@
+{
+  "input_source": "https://www.youtube.com/watch?v=Lq_zZx2cBXk",
+  "model_dir": "/Users/breno/Library/Application Support/fast-transcript/models/parakeet-tdt-0.6b-v3-int8",
+  "audio_path": "/var/folders/vy/s9lbsy291glb0pzd3ynyjtrw0000gn/T/.tmpGkR83m/Lq_zZx2cBXk.webm",
+  "prepared_audio_path": "/var/folders/vy/s9lbsy291glb0pzd3ynyjtrw0000gn/T/.tmpNknj73/Lq_zZx2cBXk.16k_mono.wav",
+  "used_ffmpeg_normalization": true,
+  "used_local_model": true,
+  "transcript_source": "downloaded-audio-local-model",
+  "audio_seconds": 186.752,
+  "load_seconds": 0.934460208,
+  "transcribe_seconds": 18.280838333,
+  "total_inside_seconds": 19.215298541,
+  "seconds_per_audio_second": 0.10289206295514906,
+  "realtime_speedup": 9.718922638725815,
+  "text": "Hello, ladies and gentlemen, boys and girls, thank you very much. We are here all bitcoiners, and uh we are really grateful for Bitcoin because it gives us an inflation hedge. It's a barrier asset, so it's hard to confiscate. It's also resistant to censorship, but privacy, we need to improve on that. So we have financial surveillance and it's getting stronger everywhere here in Brazil, for example, all trades go to IRS using exchanges, um, and it's going only to get worse, and uh that's why we built granola, the first cashu based exchange. So just like Grenola is made of different nuts and uh cereals and other things, our granola is made of multiple cash means for multiple assets. So when you deposit there, you can trade inside using atomic cross bean swaps orchestrated on Australia. And this way it gives you the same privacy uh regular cash mean does, and it this is this happens because chalman e cash is currency agnostic. So we integrate means with the root assets and liquid, so users can use stablecoins negatively, or if they have pure fields, they can work through our banking partner. So we don't even need to know who are dealing with it here. So yeah, uh, we want to have off the line transactions, we want to be completely open source, and uh we want to release we are going to release on Q1 uh better release and Q3. We expect to create also a liquidity pool and an automated. People an automated market maker using um using this technology. So my name is Brito, my name is Bruno Brito. There uh Luis Schwab is the developer of the team, and uh so let's show the demo. So here uh we've made the fork of Cashu.me and uh let's put something here like a hundred thousand sets for 70,000 USD. So let's create this order. The order is successfully created, and uh as you can see it's right here, and uh there's another order here, so let's take this order 2200 euros for uh six uh sixty five hundred thousand sets. So let's take the order confirm sweep, yeah. And that's it. We got this order, so that's how it works. Thank you.",
+  "chunk_seconds": 120.0,
+  "chunk_overlap_seconds": 2.0,
+  "chunk_count": 2,
+  "chunks": [
+    {
+      "index": 0,
+      "start_s": 0.0,
+      "end_s": 120.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 12.384834166,
+      "text": "Hello, ladies and gentlemen, boys and girls, thank you very much. We are here all bitcoiners, and uh we are really grateful for Bitcoin because it gives us an inflation hedge. It's a barrier asset, so it's hard to confiscate. It's also resistant to censorship, but privacy, we need to improve on that. So we have financial surveillance and it's getting stronger everywhere here in Brazil, for example, all trades go to IRS using exchanges, um, and it's going only to get worse, and uh that's why we built granola, the first cashu based exchange. So just like Grenola is made of different nuts and uh cereals and other things, our granola is made of multiple cash means for multiple assets. So when you deposit there, you can trade inside using atomic cross bean swaps orchestrated on Australia. And this way it gives you the same privacy uh regular cash mean does, and it this is this happens because chalman e cash is currency agnostic. So we integrate means with the root assets and liquid, so users can use stablecoins negatively, or if they have pure fields, they can work through our banking partner. So we don't even need to know who are dealing with it here. So yeah, uh, we want to have off the line transactions, we want to be completely open source, and uh we want to release we are going to release on Q1 uh better release and Q3. We expect to create also a liquidity pool and an automated."
+    },
+    {
+      "index": 1,
+      "start_s": 118.0,
+      "end_s": 186.752,
+      "audio_seconds": 68.752,
+      "transcribe_seconds": 5.896004167,
+      "text": "People an automated market maker using um using this technology. So my name is Brito, my name is Bruno Brito. There uh Luis Schwab is the developer of the team, and uh so let's show the demo. So here uh we've made the fork of Cashu.me and uh let's put something here like a hundred thousand sets for 70,000 USD. So let's create this order. The order is successfully created, and uh as you can see it's right here, and uh there's another order here, so let's take this order 2200 euros for uh six uh sixty five hundred thousand sets. So let's take the order confirm sweep, yeah. And that's it. We got this order, so that's how it works. Thank you."
+    }
+  ],
+  "segments": [
+    {
+      "start_s": 0.0,
+      "end_s": 3.989999771118164,
+      "text": "Hello, ladies and gentlemen, boys and girls, thank you very much.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 3.989999771118164,
+      "end_s": 12.309999465942383,
+      "text": "We are here all bitcoiners, and uh we are really grateful for Bitcoin because it gives us an inflation hedge.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 12.309999465942383,
+      "end_s": 15.50999927520752,
+      "text": "It's a barrier asset, so it's hard to confiscate.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 15.50999927520752,
+      "end_s": 22.549999237060547,
+      "text": "It's also resistant to censorship, but privacy, we need to improve on that.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 22.549999237060547,
+      "end_s": 43.90999984741211,
+      "text": "So we have financial surveillance and it's getting stronger everywhere here in Brazil, for example, all trades go to IRS using exchanges, um, and it's going only to get worse, and uh that's why we built granola, the first cashu based exchange.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 43.90999984741211,
+      "end_s": 58.54999923706055,
+      "text": "So just like Grenola is made of different nuts and uh cereals and other things, our granola is made of multiple cash means for multiple assets.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 58.54999923706055,
+      "end_s": 68.54999542236328,
+      "text": "So when you deposit there, you can trade inside using atomic cross bean swaps orchestrated on Australia.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 68.54999542236328,
+      "end_s": 81.90999603271484,
+      "text": "And this way it gives you the same privacy uh regular cash mean does, and it this is this happens because chalman e cash is currency agnostic.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 81.90999603271484,
+      "end_s": 94.06999969482422,
+      "text": "So we integrate means with the root assets and liquid, so users can use stablecoins negatively, or if they have pure fields, they can work through our banking partner.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 94.06999969482422,
+      "end_s": 100.62999725341797,
+      "text": "So we don't even need to know who are dealing with it here.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 100.62999725341797,
+      "end_s": 114.62999725341797,
+      "text": "So yeah, uh, we want to have off the line transactions, we want to be completely open source, and uh we want to release we are going to release on Q1 uh better release and Q3.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 114.62999725341797,
+      "end_s": 119.87999725341797,
+      "text": "We expect to create also a liquidity pool and an automated.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 118.0,
+      "end_s": 125.2699966430664,
+      "text": "People an automated market maker using um using this technology.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 125.2699966430664,
+      "end_s": 128.6300048828125,
+      "text": "So my name is Brito, my name is Bruno Brito.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 128.6300048828125,
+      "end_s": 137.35000610351562,
+      "text": "There uh Luis Schwab is the developer of the team, and uh so let's show the demo.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 137.35000610351562,
+      "end_s": 142.22999572753906,
+      "text": "So here uh we've made the fork of Cashu.me",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 142.22999572753906,
+      "end_s": 151.42999267578125,
+      "text": "and uh let's put something here like a hundred thousand sets for70,000 USD.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 151.42999267578125,
+      "end_s": 153.02999877929688,
+      "text": "So let's create this order.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 153.02999877929688,
+      "end_s": 173.27000427246094,
+      "text": "The order is successfully created, and uh as you can see it's right here, and uh there's another order here, so let's take this order2200 euros for uh six uh sixty five hundred thousand sets.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 173.27000427246094,
+      "end_s": 178.70999145507812,
+      "text": "So let's take the order confirm sweep, yeah.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 178.70999145507812,
+      "end_s": 179.75,
+      "text": "And that's it.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 179.75,
+      "end_s": 183.26998901367188,
+      "text": "We got this order, so that's how it works.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 183.26998901367188,
+      "end_s": 186.04000854492188,
+      "text": "Thank you.",
+      "speaker": "S1"
+    }
+  ],
+  "speaker_diarization": {
+    "backend": "FluidInference/speaker-diarization-coreml via fluidaudiocli process --mode offline",
+    "requested_num_speakers": 2,
+    "detected_speaker_count": 1,
+    "segment_count": 34
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "items": [
+    {
+      "id": "podcast-criptoverso-lancamento-livro-bitcoin-101",
+      "slug": "podcast-criptoverso-lancamento-livro-bitcoin-101",
+      "label": "Transcricao diarizada",
+      "source_label": "YouTube",
+      "source_url": "https://www.youtube.com/watch?v=9mM1cLua69Y",
+      "stats": {
+        "line_count": 16,
+        "speaker_count": 1
+      },
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=0",
+          "speaker": "SPEAKER_01",
+          "text": "Nossa, acho que ia ser o primeiro podcast que eu fui que vai tão longe."
+        },
+        {
+          "timestamp": "00:03",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=3",
+          "speaker": "SPEAKER_01",
+          "text": "É o único lugar que ganha é quem perde."
+        },
+        {
+          "timestamp": "00:05",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=5",
+          "speaker": "SPEAKER_01",
+          "text": "O Instagram é o maior palco de todos."
+        },
+        {
+          "timestamp": "00:07",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=7",
+          "speaker": "SPEAKER_01",
+          "text": "Eu fiz um robô trader com inteligência artificial, usando aprendizado por reforço."
+        },
+        {
+          "timestamp": "00:12",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=12",
+          "speaker": "SPEAKER_01",
+          "text": "Eu comprei porque eu queria mandar dinheiro pra fora."
+        },
+        {
+          "timestamp": "00:14",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=14",
+          "speaker": "SPEAKER_01",
+          "text": "Não tem os japoneses casando com o Almofado, com travesseiro."
+        },
+        {
+          "timestamp": "00:17",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=17",
+          "speaker": "SPEAKER_01",
+          "text": "Eu falei, poxa, tá faltando um livro aí."
+        },
+        {
+          "timestamp": "00:19",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=19",
+          "speaker": "SPEAKER_01",
+          "text": "Cadê o livro do Satoshi?"
+        },
+        {
+          "timestamp": "00:20",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=20",
+          "speaker": "SPEAKER_01",
+          "text": "O livro do Satoshi é um dos melhores livros que eu já li, ele é muito bom."
+        },
+        {
+          "timestamp": "00:24",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=24",
+          "speaker": "SPEAKER_01",
+          "text": "Assim, eu não sou aqueles Red Pill cristão tradicionalista, não sei o quê."
+        },
+        {
+          "timestamp": "00:29",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=29",
+          "speaker": "SPEAKER_01",
+          "text": "Eu não discordo um pouco da visão deles."
+        },
+        {
+          "timestamp": "00:32",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=32",
+          "speaker": "SPEAKER_01",
+          "text": "Por que o Bitcoin importa?"
+        },
+        {
+          "timestamp": "00:33",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=33",
+          "speaker": "SPEAKER_01",
+          "text": "Gente, não pode perder."
+        },
+        {
+          "timestamp": "00:35",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=35",
+          "speaker": "SPEAKER_01",
+          "text": "O Bitcoin é um tsunami que tá vindo e chega uma hora que não tem outra opção."
+        },
+        {
+          "timestamp": "00:40",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=40",
+          "speaker": "SPEAKER_01",
+          "text": "Não tem outra opção."
+        },
+        {
+          "timestamp": "00:41",
+          "href": "https://www.youtube.com/watch?v=9mM1cLua69Y&t=41",
+          "speaker": "SPEAKER_01",
+          "text": "É ou você entra no bar, ou você vai ser a única pessoa ali, vai ser o Jack afundando na água ali do Titanic."
+        }
+      ]
+    }
+  ]
+}

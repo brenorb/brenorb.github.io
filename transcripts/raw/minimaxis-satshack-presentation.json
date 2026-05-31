@@ -1,0 +1,298 @@
+{
+  "input_source": "https://www.youtube.com/watch?v=huvBFj1M4Fo",
+  "model_dir": "/Users/breno/Library/Application Support/fast-transcript/models/parakeet-tdt-0.6b-v3-int8",
+  "audio_path": "/var/folders/vy/s9lbsy291glb0pzd3ynyjtrw0000gn/T/.tmp06hlUz/huvBFj1M4Fo.webm",
+  "prepared_audio_path": "/var/folders/vy/s9lbsy291glb0pzd3ynyjtrw0000gn/T/.tmp4EI2HM/huvBFj1M4Fo.16k_mono.wav",
+  "used_ffmpeg_normalization": true,
+  "used_local_model": true,
+  "transcript_source": "downloaded-audio-local-model",
+  "audio_seconds": 304.1465625,
+  "load_seconds": 0.726996875,
+  "transcribe_seconds": 33.356460958,
+  "total_inside_seconds": 34.083457833,
+  "seconds_per_audio_second": 0.11206261071255735,
+  "realtime_speedup": 8.923582929591193,
+  "text": "So hello, proud to be here. First of all, let me ask you something. Kai, you are you are developer in Bitcoin ecosystem, right? Do you code mini script? No. Would you like to call mini script like today? Absolutely. Yeah, so who calls MiniScript here? Who would like to today know how to call the miniScript? Yeah, so this is what we do. We have a big problem that it's hard to understand Bitcoin script. MiniScript makes it simpler but still some thing difficult. And uh we have right now uh three uh 13,000 uh bitcoin developers who are given so more or less. And also it's really hard to develop stuff, who codes know that debugging is like 50% at least of the time you spend coding. So uh having a tool that you can easily code and debug and assist and explain the code that you have is something that uh every every uh programmer is having is using right now, but we don't have it in Bitcoin yet. We don't have this for mini script or anything. So we built it uh machine learning uh LM language learning uh language model that can uh do this. Uh can we can prompt it to give us uh mini script code, we can uh give mini script code and explains it code for us, it can you can give uh buggy code and it shows what is wrong in the code. And uh there's also uh an extension uh for for GoPilot. Like a GoPilot in uh so we can have you can it can complete the code for you. So yeah, and this is the beginning. This is the the road. What we intend to do after this is working because this is like the the low hanging route. After this we can go to to the actual script as well, and understand uh you can copy and paste the script directly from the blockchain to the block explorer and understand and tell us what what's happening there. And also not only this, we have also uh a pull program that we can uh understand how the code works. So when when you output the code, everybody could think okay, what if it's a hallucination. I don't want to to it's a loss. So we use the compiler to so to see if the code makes sense, and then uh a full program where you can use your finger like okay from here to here to here to here, okay it works, it makes sense. So and this is not only it's uh this this this uh the I just output the code and we can check in uh deterministic save, not uh code to check everything. So this is our group, our way for and Victor, unfortunately we couldn't be here. And so this is what we have we I'll show a little bit uh like one minute. So let me show you just a little bit. This is uh demo. So somebody has uh to write bitcoin code. It's a mini script, three out of three, the terms, uh two out of the case. Okay, let's go. So it's there the the first line is the code and there's an explanation of each part of the code for the mini script and there's a flow chart where you can you can uh go there and understand okay this is the key so check if it's being more than something some time of days it's another uh uh uh uh uh uh uh uh uh uh you I can pause the video here. So you can if you have three keys check if three out of three, if it's more than ninety days then check two out of three. If yes you can spend, if not it does nothing. So you can get uh a code and uh like a flow chart that everyone can read and understand. So it's basically it.",
+  "chunk_seconds": 120.0,
+  "chunk_overlap_seconds": 2.0,
+  "chunk_count": 3,
+  "chunks": [
+    {
+      "index": 0,
+      "start_s": 0.0,
+      "end_s": 120.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 10.611705958,
+      "text": "So hello, proud to be here. First of all, let me ask you something. Kai, you are you are developer in Bitcoin ecosystem, right? Do you code mini script? No. Would you like to call mini script like today? Absolutely. Yeah, so who calls MiniScript here? Who would like to today know how to call the miniScript? Yeah, so this is what we do. We have a big problem that it's hard to understand Bitcoin script. MiniScript makes it simpler but still some thing difficult. And uh we have right now uh three uh 13,000 uh bitcoin developers who are given so more or less. And also it's really hard to develop stuff, who codes know that debugging is like 50% at least of the time you spend coding. So uh having a tool that you can easily code and debug and assist and explain the code that you have is something that uh every every uh programmer is having is using right now, but we don't have it in Bitcoin yet. We don't have this for mini script or anything. So we built it uh machine learning uh LM language learning uh language model that can uh do this. Uh can we can prompt it to give us uh mini script code, we can uh give mini script code and explains it code for us, it can you can give uh buggy code and it shows what is wrong in the code. And uh there's also uh an extension uh for for GoPilot. Like a GoPilot in uh so we can"
+    },
+    {
+      "index": 1,
+      "start_s": 118.0,
+      "end_s": 238.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 14.232716458,
+      "text": "So we can have you can it can complete the code for you. So yeah, and this is the beginning. This is the the road. What we intend to do after this is working because this is like the the low hanging route. After this we can go to to the actual script as well, and understand uh you can copy and paste the script directly from the blockchain to the block explorer and understand and tell us what what's happening there. And also not only this, we have also uh a pull program that we can uh understand how the code works. So when when you output the code, everybody could think okay, what if it's a hallucination. I don't want to to it's a loss. So we use the compiler to so to see if the code makes sense, and then uh a full program where you can use your finger like okay from here to here to here to here, okay it works, it makes sense. So and this is not only it's uh this this this uh the I just output the code and we can check in uh deterministic save, not uh code to check everything. So this is our group, our way for and Victor, unfortunately we couldn't be here. And so this is what we have we I'll show a little bit uh like one minute. So let me show you just a little bit. This is uh demo. So somebody has uh to write bitcoin code. It's a mini script, three out of three, the terms, uh two out of the case."
+    },
+    {
+      "index": 2,
+      "start_s": 236.0,
+      "end_s": 304.1465625,
+      "audio_seconds": 68.1465625,
+      "transcribe_seconds": 8.512038541999999,
+      "text": "Okay, let's go. So it's there the the first line is the code and there's an explanation of each part of the code for the mini script and there's a flow chart where you can you can uh go there and understand okay this is the key so check if it's being more than something some time of days it's another uh uh uh uh uh uh uh uh uh uh you I can pause the video here. So you can if you have three keys check if three out of three, if it's more than ninety days then check two out of three. If yes you can spend, if not it does nothing. So you can get uh a code and uh like a flow chart that everyone can read and understand. So it's basically it."
+    }
+  ],
+  "segments": [
+    {
+      "start_s": 0.6299999952316284,
+      "end_s": 4.549999713897705,
+      "text": "So hello, proud to be here.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 4.549999713897705,
+      "end_s": 7.029999732971191,
+      "text": "First of all, let me ask you something.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 7.029999732971191,
+      "end_s": 13.59000015258789,
+      "text": "Kai, you are you are developer in Bitcoin ecosystem, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 13.59000015258789,
+      "end_s": 16.709999084472656,
+      "text": "Do you code mini script?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 16.709999084472656,
+      "end_s": 17.270000457763672,
+      "text": "No.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 17.270000457763672,
+      "end_s": 19.989999771118164,
+      "text": "Would you like to call mini script like today?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 19.989999771118164,
+      "end_s": 20.78999900817871,
+      "text": "Absolutely.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 20.78999900817871,
+      "end_s": 24.309999465942383,
+      "text": "Yeah, so who calls MiniScript here?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 24.309999465942383,
+      "end_s": 29.42999839782715,
+      "text": "Who would like to today know how to call the miniScript?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 29.42999839782715,
+      "end_s": 32.790000915527344,
+      "text": "Yeah, so this is what we do.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 32.790000915527344,
+      "end_s": 38.709999084472656,
+      "text": "We have a big problem that it's hard to understand Bitcoin script.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 38.709999084472656,
+      "end_s": 43.349998474121094,
+      "text": "MiniScript makes it simpler but still some thing difficult.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 43.349998474121094,
+      "end_s": 53.27000045776367,
+      "text": "And uh we have right now uh three uh13,000 uh bitcoin developers who are given so more or less.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 53.27000045776367,
+      "end_s": 62.78999710083008,
+      "text": "And also it's really hard to develop stuff, who codes know that debugging is like50% at least of the time you spend coding.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 62.78999710083008,
+      "end_s": 80.1500015258789,
+      "text": "So uh having a tool that you can easily code and debug and assist and explain the code that you have is something that uh every every uh programmer is having is using right now, but we don't have it in Bitcoin yet.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 80.1500015258789,
+      "end_s": 84.22999572753906,
+      "text": "We don't have this for mini script or anything.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 84.22999572753906,
+      "end_s": 95.98999786376953,
+      "text": "So we built it uh machine learning uh LM language learning uh language model that can uh do this.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 95.98999786376953,
+      "end_s": 111.2699966430664,
+      "text": "Uh can we can prompt it to give us uh mini script code, we can uh give mini script code and explains it code for us, it can you can give uh buggy code and it shows what is wrong in the code.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 111.2699966430664,
+      "end_s": 116.70999908447266,
+      "text": "And uh there's also uh an extension uh for for GoPilot.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 116.70999908447266,
+      "end_s": 125.11000061035156,
+      "text": "Like a GoPilot in uh so we can have you can it can complete the code for you.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 125.11000061035156,
+      "end_s": 128.6300048828125,
+      "text": "So yeah, and this is the beginning.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 128.6300048828125,
+      "end_s": 130.22999572753906,
+      "text": "This is the the road.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 130.22999572753906,
+      "end_s": 136.7899932861328,
+      "text": "What we intend to do after this is working because this is like the the low hanging route.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 136.7899932861328,
+      "end_s": 152.47000122070312,
+      "text": "After this we can go to to the actual script as well, and understand uh you can copy and paste the script directly from the blockchain to the block explorer and understand and tell us what what's happening there.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 152.47000122070312,
+      "end_s": 161.50999450683594,
+      "text": "And also not only this, we have also uh a pull program that we can uh understand how the code works.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 161.50999450683594,
+      "end_s": 168.70999145507812,
+      "text": "So when when you output the code, everybody could think okay, what if it's a hallucination.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 168.70999145507812,
+      "end_s": 171.42999267578125,
+      "text": "I don't want to to it's a loss.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 171.42999267578125,
+      "end_s": 185.510009765625,
+      "text": "So we use the compiler to so to see if the code makes sense, and then uh a full program where you can use your finger like okay from here to here to here to here, okay it works, it makes sense.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 185.510009765625,
+      "end_s": 202.79000854492188,
+      "text": "So and this is not only it's uh this this this uh the I just output the code and we can check in uh deterministic save, not uh code to check everything.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 202.79000854492188,
+      "end_s": 209.35000610351562,
+      "text": "So this is our group, our way for and Victor, unfortunately we couldn't be here.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 209.35000610351562,
+      "end_s": 216.79000854492188,
+      "text": "And so this is what we have we I'll show a little bit uh like one minute.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 216.79000854492188,
+      "end_s": 221.6699981689453,
+      "text": "So let me show you just a little bit.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 221.6699981689453,
+      "end_s": 225.75,
+      "text": "This is uh demo.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 225.75,
+      "end_s": 232.07000732421875,
+      "text": "So somebody has uh to write bitcoin code.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 232.07000732421875,
+      "end_s": 237.95999145507812,
+      "text": "It's a mini script, three out of three, the terms, uh two out of the case.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 242.22999572753906,
+      "end_s": 243.99000549316406,
+      "text": "Okay, let's go.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 243.99000549316406,
+      "end_s": 270.95001220703125,
+      "text": "So it's there the the first line is the code and there's an explanation of each part of the code for the mini script and there's a flow chart where you can you can uh go there and understand okay this is the key so check if it's being more than something some time of days it's another uh uh uh uh uh uh uh uh uh uh you I can pause the video here.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 270.95001220703125,
+      "end_s": 280.7900085449219,
+      "text": "So you can if you have three keys check if three out of three, if it's more than ninety days then check two out of three.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 280.7900085449219,
+      "end_s": 283.8299865722656,
+      "text": "If yes you can spend, if not it does nothing.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 283.8299865722656,
+      "end_s": 291.9100036621094,
+      "text": "So you can get uh a code and uh like a flow chart that everyone can read and understand.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 291.9100036621094,
+      "end_s": 293.79998779296875,
+      "text": "So it's basically it.",
+      "speaker": "S1"
+    }
+  ],
+  "speaker_diarization": {
+    "backend": "FluidInference/speaker-diarization-coreml via fluidaudiocli process --mode offline",
+    "detected_speaker_count": 1,
+    "segment_count": 18
+  }
+}

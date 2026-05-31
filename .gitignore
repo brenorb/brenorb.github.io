@@ -1,4 +1,8 @@
 _site/
+_site_localtest/
 .sass-cache/
 .jekyll-metadata
 .specstory/
+.playwright-mcp/
+.DS_Store
+transcripts/source_cache/

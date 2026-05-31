@@ -55,3 +55,22 @@ $(document).ready(function() {
     mainClass: 'mfp-fade'
   });
 });
+
+window.addEventListener("load", function() {
+  var transcriptAnchor = document.querySelector("[data-transcript-anchor]");
+  var firstMedia = document.querySelector(".content iframe, .content video");
+  if (!transcriptAnchor || !firstMedia || document.querySelector(".transcript-jump")) {
+    return;
+  }
+
+  var transcriptTop = transcriptAnchor.getBoundingClientRect().top;
+  if (transcriptTop <= window.innerHeight * 1.1) {
+    return;
+  }
+
+  var mediaAnchor = firstMedia.closest(".fluid-width-video-wrapper") || firstMedia;
+  var note = document.createElement("p");
+  note.className = "transcript-jump";
+  note.innerHTML = '<a href="#transcricao">Transcricao diarizada abaixo.</a>';
+  mediaAnchor.insertAdjacentElement("afterend", note);
+});

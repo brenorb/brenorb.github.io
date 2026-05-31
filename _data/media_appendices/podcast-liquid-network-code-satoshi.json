@@ -1,0 +1,2045 @@
+{
+  "items": [
+    {
+      "id": "podcast-liquid-network-code-satoshi",
+      "slug": "podcast-liquid-network-code-satoshi",
+      "label": "Transcricao diarizada",
+      "source_label": "YouTube",
+      "source_url": "https://www.youtube.com/watch?v=8s-GyRcZ6s0",
+      "stats": {
+        "line_count": 338,
+        "speaker_count": 3
+      },
+      "lines": [
+        {
+          "timestamp": "00:11",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=11",
+          "speaker": "SPEAKER_01",
+          "text": "Hi, I'm Jeff, uh product manager at Square Satoshi."
+        },
+        {
+          "timestamp": "00:14",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=14",
+          "speaker": "SPEAKER_01",
+          "text": "Also have Breno here, uh one of our uh uh uh uh uh uh uh uh uh uh leader uh developers uh he'll be assisting with uh presentation portion about the code assistant."
+        },
+        {
+          "timestamp": "00:23",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=23",
+          "speaker": "SPEAKER_01",
+          "text": "But yes, we've been hard at work um building some large language models, and uh we are a bit bitcoin centric um yeah company now I guess uh a little bit of a background context."
+        },
+        {
+          "timestamp": "00:38",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=38",
+          "speaker": "SPEAKER_01",
+          "text": "As you know, there's a lot of different models out there."
+        },
+        {
+          "timestamp": "00:41",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=41",
+          "speaker": "SPEAKER_01",
+          "text": "Uh you know, Google OpenAI Meta, kind of the leading companies in the industry right now, uh, but there are some inherent problems or challenges there."
+        },
+        {
+          "timestamp": "00:49",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=49",
+          "speaker": "SPEAKER_01",
+          "text": "Um we've seen some very uh uh public facing examples of that recently with uh kind of the catastrophe of Google's recent large language model release."
+        },
+        {
+          "timestamp": "01:00",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=60",
+          "speaker": "SPEAKER_01",
+          "text": "Uh but we are here to build some models that have a little bit different of a bias in them."
+        },
+        {
+          "timestamp": "01:06",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=66",
+          "speaker": "SPEAKER_01",
+          "text": "Um some people are concerned with having a model that has any kind of a bias and think that they should be completely neutral, but the reality is that's just not possible to do."
+        },
+        {
+          "timestamp": "01:15",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=75",
+          "speaker": "SPEAKER_01",
+          "text": "Um every training data set is gonna have a specific bias in it."
+        },
+        {
+          "timestamp": "01:18",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=78",
+          "speaker": "SPEAKER_01",
+          "text": "So our goal is to present uh large language model that does not have a fiat bias baked in, uh, but instead uh presents more of a Austrian economics uh bitcoin centric uh emphasis to the world."
+        },
+        {
+          "timestamp": "01:32",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=92",
+          "speaker": "SPEAKER_01",
+          "text": "So but today um we'll give a little bit of a background uh about code Satoshi, why we built it, um, and then also a more generic view of uh first off, like what we were building before we got into that."
+        },
+        {
+          "timestamp": "01:48",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=108",
+          "speaker": "SPEAKER_01",
+          "text": "So uh first off, um, can you guys see my screen?"
+        },
+        {
+          "timestamp": "01:54",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=114",
+          "speaker": "SPEAKER_01",
+          "text": "We can."
+        },
+        {
+          "timestamp": "01:55",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=115",
+          "speaker": "SPEAKER_01",
+          "text": "That's great."
+        },
+        {
+          "timestamp": "01:56",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=116",
+          "speaker": "SPEAKER_01",
+          "text": "Okay, yeah."
+        },
+        {
+          "timestamp": "01:57",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=117",
+          "speaker": "SPEAKER_01",
+          "text": "So we actually started uh building uh just"
+        },
+        {
+          "timestamp": "01:58",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=118",
+          "speaker": "SPEAKER_01",
+          "text": "And uh building uh just our main Satoshi model, which is just a I guess you could call it generic, but just a uh a chap for learning and education about Bitcoin generally."
+        },
+        {
+          "timestamp": "02:10",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=130",
+          "speaker": "SPEAKER_01",
+          "text": "Uh we also released uh Satoshi GPT in the GPT store uh that you can go and find today."
+        },
+        {
+          "timestamp": "02:16",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=136",
+          "speaker": "SPEAKER_01",
+          "text": "And then on our website, uh we have uh an open source uh fine-tuned Lama213b that's powering that today."
+        },
+        {
+          "timestamp": "02:24",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=144",
+          "speaker": "SPEAKER_01",
+          "text": "So this enables you to just go and ask any question about a bit more Bitcoin generally."
+        },
+        {
+          "timestamp": "02:30",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=150",
+          "speaker": "SPEAKER_01",
+          "text": "Uh really helpful for sending your normie friends to it uh who ask you questions like you probably if you've been in Bitcoin a while, been used to answering the same questions over and over again about Bitcoin, uh, which is fine."
+        },
+        {
+          "timestamp": "02:42",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=162",
+          "speaker": "SPEAKER_01",
+          "text": "Like orange pulling people is is fun and exciting, but it's uh hard to scale."
+        },
+        {
+          "timestamp": "02:47",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=167",
+          "speaker": "SPEAKER_01",
+          "text": "And so this is a really good tool that we can share with the world to help educate people about Bitcoin, um, and doesn't tell them to you know diversify and buy Ethereum and stuff like that."
+        },
+        {
+          "timestamp": "02:59",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=179",
+          "speaker": "SPEAKER_01",
+          "text": "So uh Satoshi GPT, we also gave it some really cool capabilities, like you can ask it all types of questions about the Bitcoin price, uh estimating the halving, finding Bitcoin merchants, summarizing the news, building charts, uh some really cool stuff that we gave it the ability to do."
+        },
+        {
+          "timestamp": "03:15",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=195",
+          "speaker": "SPEAKER_01",
+          "text": "Um so yeah, go ahead and hop in uh to our website and you can play around with that."
+        },
+        {
+          "timestamp": "03:20",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=200",
+          "speaker": "SPEAKER_01",
+          "text": "It's spiritual satoshi.ai."
+        },
+        {
+          "timestamp": "03:22",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=202",
+          "speaker": "SPEAKER_01",
+          "text": "Um, or in the GPT store, you can find uh Satoshi."
+        },
+        {
+          "timestamp": "03:26",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=206",
+          "speaker": "SPEAKER_01",
+          "text": "Uh but what we also found in um this process is that and and with any MLM is it requires you to gather a lot of data, but then also to build and structure that into a very clean data set that needs to be used to to train the model and to iterate on."
+        },
+        {
+          "timestamp": "03:45",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=225",
+          "speaker": "SPEAKER_01",
+          "text": "Um that also requires some instruction fine-tuning and evaluation, like you need to be able to actually assess if what you've done uh achieves a specific outcome, especially because the data sets involved are just so large that it's almost like"
+        },
+        {
+          "timestamp": "03:56",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=236",
+          "speaker": "SPEAKER_01",
+          "text": "Involved are just so large that it's almost impossible to evaluate it with uh human eyes."
+        },
+        {
+          "timestamp": "04:02",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=242",
+          "speaker": "SPEAKER_01",
+          "text": "You know, getting to tens or hundreds of thousands of data points, you need to have uh an automated way to evaluate that."
+        },
+        {
+          "timestamp": "04:08",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=248",
+          "speaker": "SPEAKER_01",
+          "text": "Uh, but this also requires uh human feedback as well, um, because any kind of automated evaluation is gonna have some limitations to it."
+        },
+        {
+          "timestamp": "04:18",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=258",
+          "speaker": "SPEAKER_01",
+          "text": "So what we wanted to do is be able to crowd source uh uh the knowledge of the bitcoin community."
+        },
+        {
+          "timestamp": "04:24",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=264",
+          "speaker": "SPEAKER_01",
+          "text": "Uh we call it proof of knowledge, and so what we built is uh a lightning enabled crowdsourcing LLM tool."
+        },
+        {
+          "timestamp": "04:29",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=269",
+          "speaker": "SPEAKER_01",
+          "text": "So it allows Bitcoiners to come in uh to receive uh a data point."
+        },
+        {
+          "timestamp": "04:36",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=276",
+          "speaker": "SPEAKER_01",
+          "text": "Uh often that's just a question and answer pair, and they can use their knowledge to help us curate and clean and annotate this data so that we can use that in training."
+        },
+        {
+          "timestamp": "04:45",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=285",
+          "speaker": "SPEAKER_01",
+          "text": "And it's uh it's a really cool opportunity because it means that Bitcoiners all over the world can get involved um and be able to earn stats for the knowledge that they've gained learning about Bitcoin, and in the process help us to build and fine-tune a model that helps share that knowledge with the world."
+        },
+        {
+          "timestamp": "04:59",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=299",
+          "speaker": "SPEAKER_01",
+          "text": "And Bitcoin micropayments is really what's made that possible."
+        },
+        {
+          "timestamp": "05:02",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=302",
+          "speaker": "SPEAKER_01",
+          "text": "I mean, there's there's other like AI data sourcing tools out there, but they have the inherent limitations of fiat, which is like cross-border payments and small transaction sizes."
+        },
+        {
+          "timestamp": "05:11",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=311",
+          "speaker": "SPEAKER_01",
+          "text": "So uh leveraging Bitcoin, we've actually been able to make a tool that improves the knowledge of the Bitcoin model as well."
+        },
+        {
+          "timestamp": "05:20",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=320",
+          "speaker": "SPEAKER_01",
+          "text": "Um what we did though is we actually started talking to a lot of companies about how they can leverage um um AI to help their company, and what we found uh specifically with the liquid community is liquid community is that there was a need there for developers."
+        },
+        {
+          "timestamp": "05:37",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=337",
+          "speaker": "SPEAKER_01",
+          "text": "Um, some of the feedback we got with our conversations."
+        },
+        {
+          "timestamp": "05:41",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=341",
+          "speaker": "SPEAKER_01",
+          "text": "There's just a lot of uh uh it's a complex uh industry, complex technology, um, and it's challenging for a lot of developers to get to get started, especially because uh it's just a newer technology, there's not um you know extensive uh uh uh documentation or knowledge sharing that's out there yet because it's so new."
+        },
+        {
+          "timestamp": "06:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=361",
+          "speaker": "SPEAKER_01",
+          "text": "Um, and so a lot of the companies we talked to just expressed some of the challenges they were having, and so we we found that there's a really good uh opportunity here to help uh developers in the space uh uh get started more quickly, and so that's kind of what started our our desire to build a liquid and uh code assistant tool."
+        },
+        {
+          "timestamp": "06:23",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=383",
+          "speaker": "SPEAKER_01",
+          "text": "Um, so yeah, it's uh very useful."
+        },
+        {
+          "timestamp": "06:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=387",
+          "speaker": "SPEAKER_01",
+          "text": "Um it's been proven out there with tools like Copilot, which has been uh adopted heavily by developers, that these can be effective tools for saving time, and saving time is uh saving money because engineers are one of the largest expenses for uh uh modern tech companies."
+        },
+        {
+          "timestamp": "06:45",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=405",
+          "speaker": "SPEAKER_01",
+          "text": "But the problem is is that um there's not Bitcoin centric code assistance out there."
+        },
+        {
+          "timestamp": "06:50",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=410",
+          "speaker": "SPEAKER_01",
+          "text": "So if you go and ask existing um large language models like Copilot or something, very specific questions about Bitcoin script, mini script, uh liquid development."
+        },
+        {
+          "timestamp": "07:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=421",
+          "speaker": "SPEAKER_01",
+          "text": "Uh sometimes they'll do okay, but often they they they they they they they they they they they just hallucinate or or fall flat on their face, they just make things up or they just don't know the answers."
+        },
+        {
+          "timestamp": "07:10",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=430",
+          "speaker": "SPEAKER_01",
+          "text": "Uh and especially as this ecosystem grows, there'll be uh just a greater need for incoming engineers to get up to speed more quickly."
+        },
+        {
+          "timestamp": "07:19",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=439",
+          "speaker": "SPEAKER_01",
+          "text": "Um, and that's what we're hoping to do is to help bring the thousands of new bitcoin engineers that will need to enable hyperbitcoinization uh and give them the tools they need to to do so quickly."
+        },
+        {
+          "timestamp": "07:31",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=451",
+          "speaker": "SPEAKER_01",
+          "text": "Um yeah, and then also in in addition to the actual mini script code assistant, uh, we also have developed a liquid assistant, which helps to explain uh Bitcoin and liquid related documentation."
+        },
+        {
+          "timestamp": "07:45",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=465",
+          "speaker": "SPEAKER_01",
+          "text": "Um instead of just spending time like trying to pour through lots and lots of documentation here, you could just quickly ask a question."
+        },
+        {
+          "timestamp": "07:55",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=475",
+          "speaker": "SPEAKER_01",
+          "text": "You know, there's uh some existing tools that liquid developers use to interact with uh industry experts."
+        },
+        {
+          "timestamp": "08:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=481",
+          "speaker": "SPEAKER_01",
+          "text": "Um, but that's just there's just limited time there uh for people to help out."
+        },
+        {
+          "timestamp": "08:07",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=487",
+          "speaker": "SPEAKER_01",
+          "text": "And here's a tool that you can just ask at any time."
+        },
+        {
+          "timestamp": "08:10",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=490",
+          "speaker": "SPEAKER_01",
+          "text": "Um instead of having to search for documentation, you just ask your question, you can get the answer in minutes uh instead of uh uh uh uh uh uh uh uh uh uh the hours it might take to pour through uh documentation or wait for our assistance."
+        },
+        {
+          "timestamp": "08:22",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=502",
+          "speaker": "SPEAKER_01",
+          "text": "Uh so we have those two, yeah."
+        },
+        {
+          "timestamp": "08:23",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=503",
+          "speaker": "SPEAKER_01",
+          "text": "We have the liquid assistant and then uh the code Satoshi."
+        },
+        {
+          "timestamp": "08:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=507",
+          "speaker": "SPEAKER_01",
+          "text": "So right now um we've built our first model that specializes in mini script."
+        },
+        {
+          "timestamp": "08:32",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=512",
+          "speaker": "SPEAKER_01",
+          "text": "It can help you to write code, it can help you to correct code, and it can help to explain the code, and uh we'll demonstrate all that uh uh uh shortly."
+        },
+        {
+          "timestamp": "08:41",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=521",
+          "speaker": "SPEAKER_01",
+          "text": "Uh but this could obviously be expanded to additional uh uh uh uh uh uh uh uh uh uh languages uh such as uh Bitcoin script specifically or or other things in the Bitcoin community that we could help with."
+        },
+        {
+          "timestamp": "08:51",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=531",
+          "speaker": "SPEAKER_01",
+          "text": "For now, we just started with uh a mini script assistant."
+        },
+        {
+          "timestamp": "08:55",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=535",
+          "speaker": "SPEAKER_01",
+          "text": "Um, it's one of the more simple languages that uh uh we could start with."
+        },
+        {
+          "timestamp": "09:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=541",
+          "speaker": "SPEAKER_01",
+          "text": "So yeah, let's hop into uh a demo real quick."
+        },
+        {
+          "timestamp": "09:05",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=545",
+          "speaker": "SPEAKER_01",
+          "text": "I will share my screen."
+        },
+        {
+          "timestamp": "09:08",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=548",
+          "speaker": "SPEAKER_01",
+          "text": "Okay, so this is our uh uh uh uh uh uh uh uh uh uh chat interface."
+        },
+        {
+          "timestamp": "09:12",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=552",
+          "speaker": "SPEAKER_01",
+          "text": "As you see, we have a few different login methods."
+        },
+        {
+          "timestamp": "09:14",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=554",
+          "speaker": "SPEAKER_01",
+          "text": "You can log in with your email, just simple straightforward."
+        },
+        {
+          "timestamp": "09:17",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=557",
+          "speaker": "SPEAKER_01",
+          "text": "We also have uh uh login with lightning and also with nostalgia."
+        },
+        {
+          "timestamp": "09:22",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=562",
+          "speaker": "SPEAKER_01",
+          "text": "So we'll go ahead and demonstrate uh logging with the lightning."
+        },
+        {
+          "timestamp": "09:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=567",
+          "speaker": "SPEAKER_01",
+          "text": "Obviously, you won't see me scanning here, but I'm just taking my lightning wallet and scanning the QR code, clicking sign in."
+        },
+        {
+          "timestamp": "09:35",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=575",
+          "speaker": null,
+          "text": "There we go."
+        },
+        {
+          "timestamp": "09:37",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=577",
+          "speaker": "SPEAKER_01",
+          "text": "And yes, actually, everyone, we are live on Geis here doing a crowdfunding campaign."
+        },
+        {
+          "timestamp": "09:42",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=582",
+          "speaker": "SPEAKER_01",
+          "text": "So you can pick up some cool Bitcoin trading cards or uh a new book that was written by AI, which is really cool."
+        },
+        {
+          "timestamp": "09:49",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=589",
+          "speaker": "SPEAKER_01",
+          "text": "So go check that out."
+        },
+        {
+          "timestamp": "09:50",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=590",
+          "speaker": "SPEAKER_01",
+          "text": "Uh using those fonts."
+        },
+        {
+          "timestamp": "09:50",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=590",
+          "speaker": "SPEAKER_01",
+          "text": "Go check that out."
+        },
+        {
+          "timestamp": "09:51",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=591",
+          "speaker": "SPEAKER_01",
+          "text": "We're using those funds to actually help our contributors in the lightning reward uh uh uh uh uh uh uh uh uh uh training tool."
+        },
+        {
+          "timestamp": "09:58",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=598",
+          "speaker": "SPEAKER_01",
+          "text": "So those will all those funds will be used to help train Satoshi."
+        },
+        {
+          "timestamp": "10:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=601",
+          "speaker": "SPEAKER_01",
+          "text": "So go check it out."
+        },
+        {
+          "timestamp": "10:03",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=603",
+          "speaker": "SPEAKER_01",
+          "text": "Uh but here, yeah, here's our chat interface."
+        },
+        {
+          "timestamp": "10:05",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=605",
+          "speaker": "SPEAKER_01",
+          "text": "Uh pretty straightforward, you know, similar to existing large engines models you know."
+        },
+        {
+          "timestamp": "10:10",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=610",
+          "speaker": "SPEAKER_01",
+          "text": "Uh here's some suggested prompts."
+        },
+        {
+          "timestamp": "10:12",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=612",
+          "speaker": "SPEAKER_01",
+          "text": "Here's your your input field on the left here."
+        },
+        {
+          "timestamp": "10:15",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=615",
+          "speaker": "SPEAKER_01",
+          "text": "You can see we have our different models."
+        },
+        {
+          "timestamp": "10:17",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=617",
+          "speaker": "SPEAKER_01",
+          "text": "So this is the main uh uh education model Satoshi, and then we have our code assistant and our liquid technical assistant."
+        },
+        {
+          "timestamp": "10:24",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=624",
+          "speaker": "SPEAKER_01",
+          "text": "Uh so I'll just be shortly uh doing a short demo of the technical assistant, and then I'll have uh Bruno demonstrate the code assistant."
+        },
+        {
+          "timestamp": "10:32",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=632",
+          "speaker": "SPEAKER_01",
+          "text": "So yeah, so it's pretty straightforward."
+        },
+        {
+          "timestamp": "10:36",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=636",
+          "speaker": "SPEAKER_01",
+          "text": "You just type in uh your prompt here."
+        },
+        {
+          "timestamp": "10:38",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=638",
+          "speaker": "SPEAKER_01",
+          "text": "So let's just pick one of these."
+        },
+        {
+          "timestamp": "10:40",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=640",
+          "speaker": "SPEAKER_01",
+          "text": "How do I perform a liquid swap and shoot it out."
+        },
+        {
+          "timestamp": "10:46",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=646",
+          "speaker": "SPEAKER_01",
+          "text": "So right now it's uh just going to the model."
+        },
+        {
+          "timestamp": "10:49",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=649",
+          "speaker": "SPEAKER_01",
+          "text": "The model is gonna you know generate a response."
+        },
+        {
+          "timestamp": "10:51",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=651",
+          "speaker": "SPEAKER_01",
+          "text": "Right now we don't have streaming enabled, so we'll just take a second here for the whole uh uh uh uh uh uh uh uh uh uh response to generate and to fill."
+        },
+        {
+          "timestamp": "10:59",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=659",
+          "speaker": "SPEAKER_01",
+          "text": "Uh but what's cool is um this is all polling from existing documentation uh uh that we've sourced across the internet, and you'll see in the responses it will actually provide you hyperlinks where you can go and learn more about uh uh uh uh uh uh uh uh uh uh the the information provided and check that out."
+        },
+        {
+          "timestamp": "11:20",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=680",
+          "speaker": "SPEAKER_01",
+          "text": "So here's a response tells you how to perform a liquid swap using liquid swap tool or GDK or Liquid X, and then here you can see the different source material."
+        },
+        {
+          "timestamp": "11:31",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=691",
+          "speaker": "SPEAKER_01",
+          "text": "So I can just click on that and go check out where the information that I got was."
+        },
+        {
+          "timestamp": "11:37",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=697",
+          "speaker": "SPEAKER_01",
+          "text": "So here we're seeing the developer documentation portal about swaps, so I can go and dive in and read more without having to like click through everything, it can just link you right there."
+        },
+        {
+          "timestamp": "11:48",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=708",
+          "speaker": "SPEAKER_01",
+          "text": "Um"
+        },
+        {
+          "timestamp": "11:49",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=709",
+          "speaker": "SPEAKER_01",
+          "text": "So yeah, we have uh a few different prompts they gave here."
+        },
+        {
+          "timestamp": "11:52",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=712",
+          "speaker": "SPEAKER_01",
+          "text": "So for example, can you give me some technical instructions on how to unblind liquid confidential transactions?"
+        },
+        {
+          "timestamp": "12:00",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=720",
+          "speaker": "SPEAKER_01",
+          "text": "So you know, same thing here, gives you a breakdown of how to do it, gives you some source material."
+        },
+        {
+          "timestamp": "12:06",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=726",
+          "speaker": "SPEAKER_01",
+          "text": "And then we also have this feedback here."
+        },
+        {
+          "timestamp": "12:09",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=729",
+          "speaker": "SPEAKER_01",
+          "text": "So we'd love to, you know, anyone who's using the tool to give us feedback if there's some answers that are weak."
+        },
+        {
+          "timestamp": "12:13",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=733",
+          "speaker": "SPEAKER_01",
+          "text": "Uh we'd love to hear about that."
+        },
+        {
+          "timestamp": "12:15",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=735",
+          "speaker": "SPEAKER_01",
+          "text": "And this will also assist um, you know, the blockstream uh community at large to help us discover areas where documentation may be weak."
+        },
+        {
+          "timestamp": "12:25",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=745",
+          "speaker": "SPEAKER_01",
+          "text": "Uh so that can be addressed."
+        },
+        {
+          "timestamp": "12:28",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=748",
+          "speaker": "SPEAKER_01",
+          "text": "Uh just another quick prompt here."
+        },
+        {
+          "timestamp": "12:31",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=751",
+          "speaker": "SPEAKER_01",
+          "text": "Uh this is kind of just a more random factoid setting the precision metadata value."
+        },
+        {
+          "timestamp": "12:36",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=756",
+          "speaker": "SPEAKER_01",
+          "text": "So it can even get into some of the detailed weeds here to help people out."
+        },
+        {
+          "timestamp": "12:40",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=760",
+          "speaker": "SPEAKER_01",
+          "text": "Um or just getting started, like, hey, I want to get started installing elements."
+        },
+        {
+          "timestamp": "12:45",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=765",
+          "speaker": "SPEAKER_01",
+          "text": "Cool."
+        },
+        {
+          "timestamp": "12:45",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=765",
+          "speaker": "SPEAKER_01",
+          "text": "We'll just give you a quick breakdown."
+        },
+        {
+          "timestamp": "12:48",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=768",
+          "speaker": "SPEAKER_01",
+          "text": "Um, give you instructions on how to do it and let you know where else you can go."
+        },
+        {
+          "timestamp": "12:55",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=775",
+          "speaker": "SPEAKER_01",
+          "text": "So yeah, that's the uh the technical assistant."
+        },
+        {
+          "timestamp": "12:58",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=778",
+          "speaker": "SPEAKER_01",
+          "text": "Uh let's hop over to Renault for uh the code assistant."
+        },
+        {
+          "timestamp": "13:05",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=785",
+          "speaker": "SPEAKER_02",
+          "text": "Hey guys, glad to be here."
+        },
+        {
+          "timestamp": "13:07",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=787",
+          "speaker": "SPEAKER_02",
+          "text": "So let me share my screen here."
+        },
+        {
+          "timestamp": "13:09",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=789",
+          "speaker": "SPEAKER_02",
+          "text": "Just a moment."
+        },
+        {
+          "timestamp": "13:11",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=791",
+          "speaker": "SPEAKER_02",
+          "text": "Uh I believe this is one."
+        },
+        {
+          "timestamp": "13:15",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=795",
+          "speaker": "SPEAKER_02",
+          "text": "Okay."
+        },
+        {
+          "timestamp": "13:16",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=796",
+          "speaker": "SPEAKER_02",
+          "text": "Can you can you see right?"
+        },
+        {
+          "timestamp": "13:19",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=799",
+          "speaker": "SPEAKER_02",
+          "text": "So um just like the technical assistant, the code assistant."
+        },
+        {
+          "timestamp": "13:24",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=804",
+          "speaker": "SPEAKER_02",
+          "text": "Uh we use the same interface."
+        },
+        {
+          "timestamp": "13:26",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=806",
+          "speaker": "SPEAKER_02",
+          "text": "So as you can see, there's some examples here, like, for example, what is a mini script policy?"
+        },
+        {
+          "timestamp": "13:32",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=812",
+          "speaker": "SPEAKER_02",
+          "text": "Some people uh start uh want to learn about mini script, and the the okay, what is actually a policy?"
+        },
+        {
+          "timestamp": "13:41",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=821",
+          "speaker": "SPEAKER_02",
+          "text": "So there you can, for example, teach me some mini script basics."
+        },
+        {
+          "timestamp": "13:45",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=825",
+          "speaker": "SPEAKER_02",
+          "text": "So you can go from from"
+        },
+        {
+          "timestamp": "13:46",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=826",
+          "speaker": "SPEAKER_02",
+          "text": "So you it can go from from further down from the absolute basic level in it can build the knowledge with you."
+        },
+        {
+          "timestamp": "13:56",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=836",
+          "speaker": "SPEAKER_02",
+          "text": "So let me share some that I already have here."
+        },
+        {
+          "timestamp": "14:00",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=840",
+          "speaker": "SPEAKER_02",
+          "text": "So write a mini script policy where11 or15 multi-sig can spend at any time, or an emergency key can spend after4030 uh32320 blocks."
+        },
+        {
+          "timestamp": "14:17",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=857",
+          "speaker": "SPEAKER_02",
+          "text": "This is basically what liquid uh how liquid works."
+        },
+        {
+          "timestamp": "14:22",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=862",
+          "speaker": "SPEAKER_02",
+          "text": "It's a multi-sig11 of15, and after30 days, which is roughly this size, it's the you can an emergency key can try to do something."
+        },
+        {
+          "timestamp": "14:34",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=874",
+          "speaker": "SPEAKER_02",
+          "text": "So it brings you the mini script policy."
+        },
+        {
+          "timestamp": "14:38",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=878",
+          "speaker": "SPEAKER_02",
+          "text": "I study it, so I'm I'm sure it works."
+        },
+        {
+          "timestamp": "14:43",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=883",
+          "speaker": "SPEAKER_02",
+          "text": "Not only uh it works, but it compiles."
+        },
+        {
+          "timestamp": "14:47",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=887",
+          "speaker": "SPEAKER_02",
+          "text": "So this is the policy, which is uh what is a policy is uh the behavior that you want the mini script uh the mini script to have, but uh the mini script there is also the code, which is uh you can you can build uh a multi-sig in uh using seguit, you can build it using tap roots, so you can have two different kinds of uh code that provide uh two codes that provide the same policy."
+        },
+        {
+          "timestamp": "15:20",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=920",
+          "speaker": "SPEAKER_02",
+          "text": "So here it compiles to this code here, and it compiles also to this bitcoin script."
+        },
+        {
+          "timestamp": "15:28",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=928",
+          "speaker": "SPEAKER_02",
+          "text": "So if you know bitcoin script, you can take a look to check, but if you don't know, you can learn how uh uh uh uh uh uh uh uh uh uh bitcoin script here."
+        },
+        {
+          "timestamp": "15:37",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=937",
+          "speaker": "SPEAKER_02",
+          "text": "You can uh ask in plain English how to write something in mini script, and now you can have something. in Bitcoin script, so you can uh understand what's happening, and also there's a spending cost analysis, which if you are actually using in production, you might want to try some different different things to have a lower weight unit, and uh in the end here we have a really small we are working on it to make it larger for these stream cases, but um it's a flow chart where you can it's it can become really clear what's happening."
+        },
+        {
+          "timestamp": "16:21",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=981",
+          "speaker": "SPEAKER_02",
+          "text": "So there's15 um keys here, and here you cannot read it right now, but it's written."
+        },
+        {
+          "timestamp": "16:29",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=989",
+          "speaker": "SPEAKER_02",
+          "text": "Let me see if I can I can yeah, it's a little bit bigger."
+        },
+        {
+          "timestamp": "16:34",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=994",
+          "speaker": "SPEAKER_02",
+          "text": "So it's check11 out of15."
+        },
+        {
+          "timestamp": "16:38",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=998",
+          "speaker": "SPEAKER_02",
+          "text": "So any of these11, uh you can you can use it, and then check one out of two."
+        },
+        {
+          "timestamp": "16:45",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1005",
+          "speaker": "SPEAKER_02",
+          "text": "So you have uh or this this one or this one, this or this11 ones, or this check two out of two."
+        },
+        {
+          "timestamp": "16:54",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1014",
+          "speaker": "SPEAKER_02",
+          "text": "So we need the emergency key older than4320 blocks."
+        },
+        {
+          "timestamp": "17:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1021",
+          "speaker": "SPEAKER_02",
+          "text": "If you get any of those paths, okay, you can spend if no nothing."
+        },
+        {
+          "timestamp": "17:06",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1026",
+          "speaker": "SPEAKER_02",
+          "text": "So you can uh even though there is a really lots of things written down here, it's really hard to read what it's written because uh it's kind of verbose of how many keys."
+        },
+        {
+          "timestamp": "17:21",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1041",
+          "speaker": "SPEAKER_02",
+          "text": "You can actually take a look here in the flowchart, and it's uh and now it's really clear what's happening."
+        },
+        {
+          "timestamp": "17:30",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1050",
+          "speaker": "SPEAKER_02",
+          "text": "So, for example, uh this is for for liquid, but let's say you don't know liquid, you don't know mini script."
+        },
+        {
+          "timestamp": "17:37",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1057",
+          "speaker": "SPEAKER_02",
+          "text": "You you you you you you you you you you you you you're just starting like what is a hash lock, and how can I create one in mini script?"
+        },
+        {
+          "timestamp": "17:43",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1063",
+          "speaker": "SPEAKER_02",
+          "text": "So here."
+        },
+        {
+          "timestamp": "17:42",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1062",
+          "speaker": "SPEAKER_02",
+          "text": "Only mini script."
+        },
+        {
+          "timestamp": "17:43",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1063",
+          "speaker": "SPEAKER_02",
+          "text": "So here there's a it's an explanation."
+        },
+        {
+          "timestamp": "17:45",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1065",
+          "speaker": "SPEAKER_02",
+          "text": "Hash lock is a type of smart contract mechanism, and uh there's kinds of different kinds of hashes that you can use for hash lock, and uh this is the function."
+        },
+        {
+          "timestamp": "17:56",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1076",
+          "speaker": "SPEAKER_02",
+          "text": "It there is a compile error because this is not actually the mini script policy, this is just the function."
+        },
+        {
+          "timestamp": "18:03",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1083",
+          "speaker": "SPEAKER_02",
+          "text": "This is uh an example mini script policy."
+        },
+        {
+          "timestamp": "18:06",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1086",
+          "speaker": "SPEAKER_02",
+          "text": "So you can pay if you pay if you have a key and also a hash, and uh so you have the mini script code and the bitcoin script code, and there is um uh uh flow chart here that is uh you can you can visualize what's what's going on, and uh you also can get something on online, for example, someone writes something in you and you but it's not compiling, and there's something wrong."
+        },
+        {
+          "timestamp": "18:39",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1119",
+          "speaker": "SPEAKER_02",
+          "text": "So, what is wrong with this mini script policy?"
+        },
+        {
+          "timestamp": "18:41",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1121",
+          "speaker": "SPEAKER_02",
+          "text": "And you write it here, and uh it's it says here the end function actually only takes two parameters."
+        },
+        {
+          "timestamp": "18:50",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1130",
+          "speaker": "SPEAKER_02",
+          "text": "There's three parameters here, so you can fix it using and nested and and inside an end."
+        },
+        {
+          "timestamp": "18:57",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1137",
+          "speaker": "SPEAKER_02",
+          "text": "So this is the correct mini script policy, the mini script code, the bitcoin script, and this is what it compiles to is essentially a three out of three multi-sig."
+        },
+        {
+          "timestamp": "19:08",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1148",
+          "speaker": "SPEAKER_02",
+          "text": "Uh so you can also get something and ask it to explain."
+        },
+        {
+          "timestamp": "19:13",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1153",
+          "speaker": "SPEAKER_02",
+          "text": "So there is this really complex mini script here."
+        },
+        {
+          "timestamp": "19:16",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1156",
+          "speaker": "SPEAKER_02",
+          "text": "Uh, and okay, you say you ask to explain, and you oh and it says okay, this is a hash time lock contract."
+        },
+        {
+          "timestamp": "19:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1167",
+          "speaker": "SPEAKER_02",
+          "text": "Use the enlightening network, both three."
+        },
+        {
+          "timestamp": "19:29",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1169",
+          "speaker": "SPEAKER_02",
+          "text": "This is a breakdown of the policy."
+        },
+        {
+          "timestamp": "19:31",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1171",
+          "speaker": "SPEAKER_02",
+          "text": "So there's the key revocation, and then it goes inside every branch and explain everything."
+        },
+        {
+          "timestamp": "19:39",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1179",
+          "speaker": "SPEAKER_02",
+          "text": "So basically, this is it."
+        },
+        {
+          "timestamp": "19:41",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1181",
+          "speaker": "SPEAKER_02",
+          "text": "We"
+        },
+        {
+          "timestamp": "19:40",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1180",
+          "speaker": "SPEAKER_02",
+          "text": "Well basically this is it."
+        },
+        {
+          "timestamp": "19:41",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1181",
+          "speaker": "SPEAKER_02",
+          "text": "We still have uh some work to do."
+        },
+        {
+          "timestamp": "19:44",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1184",
+          "speaker": "SPEAKER_02",
+          "text": "This is alpha version, but it it already works really well."
+        },
+        {
+          "timestamp": "19:48",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1188",
+          "speaker": "SPEAKER_02",
+          "text": "There's uh lots of uh uh uh there's lots of use cases that uh uh it suits really nicely."
+        },
+        {
+          "timestamp": "19:56",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1196",
+          "speaker": "SPEAKER_02",
+          "text": "And uh yeah, we just like the other one, we can copy this and use it to send you someone or or something, or then you can uh put uh thumbs up or thumbs down if you like it or not."
+        },
+        {
+          "timestamp": "20:12",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1212",
+          "speaker": "SPEAKER_02",
+          "text": "So this is it."
+        },
+        {
+          "timestamp": "20:18",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1218",
+          "speaker": null,
+          "text": "Awesome, thanks, Brenda."
+        },
+        {
+          "timestamp": "20:19",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1219",
+          "speaker": "SPEAKER_01",
+          "text": "Yeah, like Breno said, this is uh kind of an alpha version."
+        },
+        {
+          "timestamp": "20:23",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1223",
+          "speaker": "SPEAKER_01",
+          "text": "We'd love to get people to come in, try it out, uh help us figure out you know what areas are good, what areas are weak, how we can improve it, and uh obviously expand to additional uh uh uh uh uh uh uh uh uh uh languages and protocols to help the Bitcoin community at large."
+        },
+        {
+          "timestamp": "20:38",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1238",
+          "speaker": "SPEAKER_01",
+          "text": "Um so yeah, everyone who's here, we'd love to have you join us."
+        },
+        {
+          "timestamp": "20:42",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1242",
+          "speaker": "SPEAKER_01",
+          "text": "Um reach out if you want to participate in the the the the the the the the the the the the the alpha and we'd love to get your feedback."
+        },
+        {
+          "timestamp": "20:53",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1253",
+          "speaker": "SPEAKER_03",
+          "text": "Nice one uh uh uh thanks for the presentation, guys."
+        },
+        {
+          "timestamp": "20:57",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1257",
+          "speaker": "SPEAKER_03",
+          "text": "Uh community or anyone in the live stream have any questions for them."
+        },
+        {
+          "timestamp": "21:05",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1265",
+          "speaker": "SPEAKER_02",
+          "text": "Yeah, if you want also to test something, like uh is there a kind of mini script that you want to test, I can put it here and see if it works."
+        },
+        {
+          "timestamp": "21:18",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1278",
+          "speaker": "SPEAKER_02",
+          "text": "Give an answer."
+        },
+        {
+          "timestamp": "21:24",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1284",
+          "speaker": "SPEAKER_03",
+          "text": "I have a uh uh uh uh uh uh uh uh uh uh non code related question."
+        },
+        {
+          "timestamp": "21:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1287",
+          "speaker": "SPEAKER_03",
+          "text": "Yeah."
+        },
+        {
+          "timestamp": "21:28",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1288",
+          "speaker": "SPEAKER_03",
+          "text": "That that I think uh uh one of the things you mentioned earlier in the presentation was that uh uh uh it you know it was able to um make predictions."
+        },
+        {
+          "timestamp": "21:41",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1301",
+          "speaker": "SPEAKER_03",
+          "text": "And uh you mentioned the uh uh uh having date."
+        },
+        {
+          "timestamp": "21:46",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1306",
+          "speaker": "SPEAKER_03",
+          "text": "Uh maybe we can play around with that and the code assistant."
+        },
+        {
+          "timestamp": "21:50",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1310",
+          "speaker": "SPEAKER_03",
+          "text": "Just uh you know, because it is kind of changing between the19th and the20th."
+        },
+        {
+          "timestamp": "21:55",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1315",
+          "speaker": "SPEAKER_01",
+          "text": "Just kind of uh okay, especially GPT."
+        },
+        {
+          "timestamp": "21:58",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1318",
+          "speaker": "SPEAKER_01",
+          "text": "Yeah, yeah."
+        },
+        {
+          "timestamp": "21:59",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1319",
+          "speaker": "SPEAKER_01",
+          "text": "Let's see what he says."
+        },
+        {
+          "timestamp": "22:00",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1320",
+          "speaker": "SPEAKER_01",
+          "text": "Let's see what he says."
+        },
+        {
+          "timestamp": "22:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1321",
+          "speaker": "SPEAKER_01",
+          "text": "All right, all right."
+        },
+        {
+          "timestamp": "22:03",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1323",
+          "speaker": "SPEAKER_03",
+          "text": "And and does it uh I mean does it do uh price predictions as well?"
+        },
+        {
+          "timestamp": "22:08",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1328",
+          "speaker": "SPEAKER_01",
+          "text": "Um I actually don't know."
+        },
+        {
+          "timestamp": "22:10",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1330",
+          "speaker": "SPEAKER_01",
+          "text": "I've I've never asked it though."
+        },
+        {
+          "timestamp": "22:12",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1332",
+          "speaker": "SPEAKER_01",
+          "text": "I mean I'm sure it's just gonna hallucinate something, but who knows?"
+        },
+        {
+          "timestamp": "22:15",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1335",
+          "speaker": "SPEAKER_01",
+          "text": "Yeah, yeah."
+        },
+        {
+          "timestamp": "22:17",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1337",
+          "speaker": "SPEAKER_03",
+          "text": "Maybe ask if uh let's see if you know ask it a specific question that uh is kind of relevant right now."
+        },
+        {
+          "timestamp": "22:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1347",
+          "speaker": "SPEAKER_03",
+          "text": "Uh maybe how low will Bitcoin go in this current dip, or something like that."
+        },
+        {
+          "timestamp": "22:34",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1354",
+          "speaker": "SPEAKER_03",
+          "text": "When is the most opportune time to buy during the dip?"
+        },
+        {
+          "timestamp": "22:38",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1358",
+          "speaker": "SPEAKER_01",
+          "text": "I don't know."
+        },
+        {
+          "timestamp": "22:39",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1359",
+          "speaker": "SPEAKER_01",
+          "text": "I'm just playing around."
+        },
+        {
+          "timestamp": "22:40",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1360",
+          "speaker": "SPEAKER_01",
+          "text": "Let's uh hold on, let me get into it one sec."
+        },
+        {
+          "timestamp": "22:46",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1366",
+          "speaker": "SPEAKER_02",
+          "text": "Just to just ahead the heads up, probably this won't work."
+        },
+        {
+          "timestamp": "22:51",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1371",
+          "speaker": "SPEAKER_02",
+          "text": "This is even too hard for humans."
+        },
+        {
+          "timestamp": "22:54",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1374",
+          "speaker": "SPEAKER_02",
+          "text": "So for he's probably going to just ellucinate something or or say that it doesn't know."
+        },
+        {
+          "timestamp": "23:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1381",
+          "speaker": "SPEAKER_02",
+          "text": "But um yeah, it's it's fun to play with this as well."
+        },
+        {
+          "timestamp": "23:08",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1388",
+          "speaker": "SPEAKER_03",
+          "text": "Yeah, I didn't mean to uh derail the uh conversation or thing, it's just uh I thought it would be a little fun to experiment with it."
+        },
+        {
+          "timestamp": "23:16",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1396",
+          "speaker": null,
+          "text": "Yeah, it's fun."
+        },
+        {
+          "timestamp": "23:20",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1400",
+          "speaker": "SPEAKER_01",
+          "text": "Hey, there you go."
+        },
+        {
+          "timestamp": "23:21",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1401",
+          "speaker": "SPEAKER_01",
+          "text": "Predicting the price is for akin to forecasting the path of a leaf in the wind."
+        },
+        {
+          "timestamp": "23:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1407",
+          "speaker": null,
+          "text": "That's pretty funny."
+        },
+        {
+          "timestamp": "23:29",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1409",
+          "speaker": "SPEAKER_01",
+          "text": "Pretty true, though."
+        },
+        {
+          "timestamp": "23:30",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1410",
+          "speaker": "SPEAKER_01",
+          "text": "Yeah, yeah."
+        },
+        {
+          "timestamp": "23:30",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1410",
+          "speaker": "SPEAKER_01",
+          "text": "Who knows, right?"
+        },
+        {
+          "timestamp": "23:36",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1416",
+          "speaker": "SPEAKER_03",
+          "text": "Okay, so it's just being uh uh uh yeah, it's just like acting like your mother or something, like oh you couldn't drink uh uh some good advice though."
+        },
+        {
+          "timestamp": "23:46",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1426",
+          "speaker": "SPEAKER_01",
+          "text": "Don't focus on the structure."
+        },
+        {
+          "timestamp": "23:50",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1430",
+          "speaker": "SPEAKER_03",
+          "text": "Okay, so so maybe uh ask it more specifically about the having date."
+        },
+        {
+          "timestamp": "23:55",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1435",
+          "speaker": "SPEAKER_03",
+          "text": "Like what is the um let's see, yeah."
+        },
+        {
+          "timestamp": "24:08",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1448",
+          "speaker": "SPEAKER_01",
+          "text": "So it's pulling some data right now."
+        },
+        {
+          "timestamp": "24:11",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1451",
+          "speaker": "SPEAKER_01",
+          "text": "Okay, so you said uh what about ask it a specific time or you know what I mean?"
+        },
+        {
+          "timestamp": "24:28",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1468",
+          "speaker": "SPEAKER_03",
+          "text": "Like what uh I never mind again, I guess it gives you the uh the block."
+        },
+        {
+          "timestamp": "24:32",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1472",
+          "speaker": "SPEAKER_01",
+          "text": "Because you're the block has some of it, yeah."
+        },
+        {
+          "timestamp": "24:37",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1477",
+          "speaker": null,
+          "text": "Okay, okay."
+        },
+        {
+          "timestamp": "24:42",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1482",
+          "speaker": "SPEAKER_03",
+          "text": "Another question."
+        },
+        {
+          "timestamp": "24:44",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1484",
+          "speaker": "SPEAKER_03",
+          "text": "Um you mentioned uh the inherent bias in all of uh uh you know when you're dealing with LLMs."
+        },
+        {
+          "timestamp": "24:50",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1490",
+          "speaker": "SPEAKER_03",
+          "text": "So yeah, yeah."
+        },
+        {
+          "timestamp": "24:51",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1491",
+          "speaker": "SPEAKER_03",
+          "text": "Uh for example, yeah."
+        },
+        {
+          "timestamp": "24:56",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1496",
+          "speaker": "SPEAKER_03",
+          "text": "Like recently with Gemini, yeah."
+        },
+        {
+          "timestamp": "25:00",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1500",
+          "speaker": "SPEAKER_03",
+          "text": "Would be a good example of of that inherent bias."
+        },
+        {
+          "timestamp": "25:03",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1503",
+          "speaker": "SPEAKER_03",
+          "text": "So how like how have you guys trained on the back end the Satoshi AI to be non fiat?"
+        },
+        {
+          "timestamp": "25:12",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1512",
+          "speaker": "SPEAKER_03",
+          "text": "Yes, yes, so like a specific strategy there, or what?"
+        },
+        {
+          "timestamp": "25:16",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1516",
+          "speaker": "SPEAKER_01",
+          "text": "Great question."
+        },
+        {
+          "timestamp": "25:17",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1517",
+          "speaker": "SPEAKER_01",
+          "text": "Um yeah, so it's actually been the the greatest challenge we face because um so we don't have the resources to train a foundation model just because that requires I mean literally millions of dollars um to build even even a small foundation model is what they're called."
+        },
+        {
+          "timestamp": "25:34",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1534",
+          "speaker": "SPEAKER_01",
+          "text": "Foundation models what they're called is uh uh uh uh uh uh uh uh uh uh uh building it from scratch, basically, right?"
+        },
+        {
+          "timestamp": "25:39",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1539",
+          "speaker": "SPEAKER_01",
+          "text": "So this that's what OpenAI has done, that's what Meta's done."
+        },
+        {
+          "timestamp": "25:43",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1543",
+          "speaker": "SPEAKER_01",
+          "text": "Um that requires a very, very significant amount of resources, uh lots and lots of GPUs, um, and huge training data sets."
+        },
+        {
+          "timestamp": "25:52",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1552",
+          "speaker": "SPEAKER_01",
+          "text": "So what we've uh have instead done is uh taken an existing foundation model and then performed continued pre-training and fine-tuning on that model."
+        },
+        {
+          "timestamp": "26:02",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1562",
+          "speaker": "SPEAKER_01",
+          "text": "Uh and one of the challenges is is that a lot of that bias is kind of baked into the foundation model based on the previous training data."
+        },
+        {
+          "timestamp": "26:08",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1568",
+          "speaker": "SPEAKER_01",
+          "text": "A lot of that comes from you know just the internet at large, uh Wikipedia, you know, books, YouTube transcripts, etc."
+        },
+        {
+          "timestamp": "26:16",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1576",
+          "speaker": "SPEAKER_01",
+          "text": "And so it basically just inherits you know the general bias in the data sets used to create the foundation model."
+        },
+        {
+          "timestamp": "26:23",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1583",
+          "speaker": "SPEAKER_01",
+          "text": "So uh the challenge is is getting that out."
+        },
+        {
+          "timestamp": "26:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1587",
+          "speaker": "SPEAKER_01",
+          "text": "Um so what we've done is compiled our own data sets, uh, much of that coming from uh uh what's called the Nakamoto repository."
+        },
+        {
+          "timestamp": "26:36",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1596",
+          "speaker": "SPEAKER_01",
+          "text": "So if you go to our site, um there's a link where you can go and view that."
+        },
+        {
+          "timestamp": "26:42",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1602",
+          "speaker": "SPEAKER_01",
+          "text": "Uh if you go to the get involved, um share my screen real quick."
+        },
+        {
+          "timestamp": "26:47",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1607",
+          "speaker": "SPEAKER_01",
+          "text": "Uh show you so here on our site."
+        },
+        {
+          "timestamp": "26:52",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1612",
+          "speaker": "SPEAKER_01",
+          "text": "Uh if you click on the get involved tab, uh submit data."
+        },
+        {
+          "timestamp": "26:56",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1616",
+          "speaker": "SPEAKER_01",
+          "text": "So this will take you to the Nakamoto repository."
+        },
+        {
+          "timestamp": "26:59",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1619",
+          "speaker": "SPEAKER_01",
+          "text": "Uh this is just uh repository of all the Bitcoin uh works, whether it's a website, an article, a book, uh video."
+        },
+        {
+          "timestamp": "27:08",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1628",
+          "speaker": "SPEAKER_01",
+          "text": "Uh this has been contributed from the community."
+        },
+        {
+          "timestamp": "27:11",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1631",
+          "speaker": "SPEAKER_01",
+          "text": "Um so this will be a lot of the resources that were used in that."
+        },
+        {
+          "timestamp": "27:14",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1634",
+          "speaker": "SPEAKER_01",
+          "text": "Uh also we uh uh partnered with uh Mises.org"
+        },
+        {
+          "timestamp": "27:19",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1639",
+          "speaker": "SPEAKER_01",
+          "text": "and they shared with us their uh extensive repository of Austrian economic works, which is fantastic."
+        },
+        {
+          "timestamp": "27:26",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1646",
+          "speaker": "SPEAKER_01",
+          "text": "And so uh we tried just uh uh initially doing some fine tuning, which is to create um some Q."
+        },
+        {
+          "timestamp": "27:32",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1652",
+          "speaker": "SPEAKER_01",
+          "text": "Create um some QA pairs based on these sources, and then do a fine tuning on the model, but it just wasn't sufficient to remove some of those biases."
+        },
+        {
+          "timestamp": "27:42",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1662",
+          "speaker": "SPEAKER_01",
+          "text": "So we actually had to perform what's called uh continued pre-training, which is where you go back uh into the deeper layers of the model and you just uh uh train it to predict the next word, um using just plain text, so just chunks of plain text data from the sources, and that has really uh uh uh uh uh uh uh uh uh uh uh helped kind of take it to the next level and get some of those biases out, but it's actually lots and lots of data that is um aligned with your the the bias that you're trying to train into the model and structuring that and and trying to train the model out."
+        },
+        {
+          "timestamp": "28:19",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1699",
+          "speaker": "SPEAKER_01",
+          "text": "Bruno, you have any other input there."
+        },
+        {
+          "timestamp": "28:24",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1704",
+          "speaker": "SPEAKER_02",
+          "text": "Um you you sum up really really well, good."
+        },
+        {
+          "timestamp": "28:30",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1710",
+          "speaker": "SPEAKER_03",
+          "text": "Yeah, it's interesting."
+        },
+        {
+          "timestamp": "28:31",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1711",
+          "speaker": "SPEAKER_03",
+          "text": "It it it it it it it it it it it it you know it it it it it it it it it it it it it parallels with the uh whole orange pilling meme, right?"
+        },
+        {
+          "timestamp": "28:37",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1717",
+          "speaker": "SPEAKER_03",
+          "text": "You have to kind of uh uh uh uh uh forget your preconceived notions, yeah, and and and and and and and and and and and and re-learn things three, four, or five times to really grok and understand Bitcoin."
+        },
+        {
+          "timestamp": "28:49",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1729",
+          "speaker": "SPEAKER_03",
+          "text": "So it's it's funny how you know even with this uh AI language model that it's it's essentially the same uh uh uh you know strategy here."
+        },
+        {
+          "timestamp": "29:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1741",
+          "speaker": "SPEAKER_02",
+          "text": "Yeah, actually uh going going deeper into this this uh in language models is there's a huge overlap."
+        },
+        {
+          "timestamp": "29:10",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1750",
+          "speaker": "SPEAKER_02",
+          "text": "Uh deep learning networks, they they first appear to mimic how our brains work."
+        },
+        {
+          "timestamp": "29:18",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1758",
+          "speaker": "SPEAKER_02",
+          "text": "So in nowadays that uh this started on the50s."
+        },
+        {
+          "timestamp": "29:23",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1763",
+          "speaker": "SPEAKER_02",
+          "text": "So it's really it's really old."
+        },
+        {
+          "timestamp": "29:26",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1766",
+          "speaker": "SPEAKER_02",
+          "text": "Since we we call like neural net neural networks because they build uh a neuron what they call a neuron is a it's a simulation of what they think a neuron do more or less so right now when we have these larger models they they they use these models also in in um in neurologic and science they they they they they they they they they they they they they they they try to they they they they they they they they they they they the the engineers they try to learn uh neurology to apply new concepts to the the the the large language models and other kinds of models and uh some some some some some some some some some some some scientists goes backwards as well they they they try to uh make some tests in in in models and in neural network and uh to see if if it makes sense or because it's really easier like you have a computer you can do whatever you want you can like do a brain surgery a brain scan and it's way cheaper than doing this in a in an actually actual human or human being so they there's these overlaps and and uh for the the forgetting phase is a really hard thing it's it's a really hot topic right now people actually don't know how to make a model actually forget uh they they they don't have a uh a uh a uh a uh uh uh uh closed answer for this everyone in the world right now be the person working on open ai or ometa or whatever company they are working on they do not have uh a way to make the model forget so so sometimes it memorizes something and uh it could be all it could always be there and sometimes it appears out of no where"
+        },
+        {
+          "timestamp": "31:28",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1888",
+          "speaker": "SPEAKER_02",
+          "text": "Peers out of nowhere when you're not expecting."
+        },
+        {
+          "timestamp": "31:31",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1891",
+          "speaker": "SPEAKER_02",
+          "text": "Of course, you can try to steer the model to what you want as most you can."
+        },
+        {
+          "timestamp": "31:37",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1897",
+          "speaker": "SPEAKER_02",
+          "text": "This is what we are doing."
+        },
+        {
+          "timestamp": "31:40",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1900",
+          "speaker": "SPEAKER_02",
+          "text": "But there's no there's no safe guarantee right now that the model actually forgets uh some wrong information that it learned before."
+        },
+        {
+          "timestamp": "31:51",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1911",
+          "speaker": "SPEAKER_03",
+          "text": "Is this um is this what people like attribute to degradation?"
+        },
+        {
+          "timestamp": "31:58",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1918",
+          "speaker": "SPEAKER_03",
+          "text": "Like uh, you know, I've you know, of course, I've been following the AI space since uh Chatby T chat GPT was released, and a lot of people are suggesting that it's gotten dumber, or or it's not as powerful, or you know, it is this due to it falling back to its uh you know like quote unquote original memories, or or or or or or or or or or or are those um yeah, kind of what you describe in the scenario."
+        },
+        {
+          "timestamp": "32:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1947",
+          "speaker": "SPEAKER_02",
+          "text": "Yeah, not exactly."
+        },
+        {
+          "timestamp": "32:29",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1949",
+          "speaker": "SPEAKER_02",
+          "text": "Not exactly."
+        },
+        {
+          "timestamp": "32:30",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1950",
+          "speaker": "SPEAKER_02",
+          "text": "Uh can be, but the thing is uh the a neural network is it's a highly complex thing that we we we we we we we we we we we don't know how to predict exactly what is going to come out."
+        },
+        {
+          "timestamp": "32:43",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1963",
+          "speaker": "SPEAKER_02",
+          "text": "There's uh lots of these individual neurons."
+        },
+        {
+          "timestamp": "32:46",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1966",
+          "speaker": "SPEAKER_02",
+          "text": "So when you when you hear uh model is7b, there's seven billion neurons, and uh these neurons are connected to each other in lots of different ways."
+        },
+        {
+          "timestamp": "32:59",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=1979",
+          "speaker": "SPEAKER_02",
+          "text": "And uh so when you when you try when you ask the model something, it it goes through this network of neurons, and it it it it it it it it it it it spits an answer, and uh so when it degrades, it's it means it means that um the model the the the performance metrics that they have are not great anymore."
+        },
+        {
+          "timestamp": "33:26",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2006",
+          "speaker": "SPEAKER_02",
+          "text": "So it's really hard like"
+        },
+        {
+          "timestamp": "33:26",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2006",
+          "speaker": "SPEAKER_02",
+          "text": "So it's really hard."
+        },
+        {
+          "timestamp": "33:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2007",
+          "speaker": "SPEAKER_02",
+          "text": "Like, how can you make sure that the model um is good or not when you're talking about language?"
+        },
+        {
+          "timestamp": "33:34",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2014",
+          "speaker": "SPEAKER_02",
+          "text": "When you're talking about like uh doing any specific test task is really easy."
+        },
+        {
+          "timestamp": "33:41",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2021",
+          "speaker": "SPEAKER_02",
+          "text": "You can okay, if achieves this task, and how well you can achieve it's it's okay, but when it's language, you can do almost anything."
+        },
+        {
+          "timestamp": "33:50",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2030",
+          "speaker": "SPEAKER_02",
+          "text": "It's uh it's really an open thing."
+        },
+        {
+          "timestamp": "33:53",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2033",
+          "speaker": "SPEAKER_02",
+          "text": "So you have some metrics, for example, trying to make a school test, for example, answer uh uh a test about mathematics, about history, about common knowledge, or something like this, and uh evaluate with humans, which is really hard."
+        },
+        {
+          "timestamp": "34:12",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2052",
+          "speaker": "SPEAKER_02",
+          "text": "And uh so when it degrades, uh it's it means that the the these metrics are getting worse."
+        },
+        {
+          "timestamp": "34:21",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2061",
+          "speaker": "SPEAKER_02",
+          "text": "So they are sometimes they they can be forgetting, sometimes they they they have some unexpected things, just like, for example, when a human uh uh uh uh learns about bitcoin, it starts to learn about lots of other stuff together with bitcoin."
+        },
+        {
+          "timestamp": "34:38",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2078",
+          "speaker": "SPEAKER_02",
+          "text": "So there's lots of people that learn about bitcoin, and soon after they they they they they they they they they they they they became uh Christian and they they they they they start a family and they change their worldview, and they start being carnivore eating only meat, because sometimes one information in one place can uh change how some person can see other kinds of information, and this can happen with AI also."
+        },
+        {
+          "timestamp": "35:05",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2105",
+          "speaker": "SPEAKER_02",
+          "text": "Every time that we are uh uh uh uh uh uh uh uh uh uh training adding more information, uh, we can sometimes forget or corrupt the past information that model already have, or maybe even change it, uh giving a whole new perspective that we were not uh predicting it would have."
+        },
+        {
+          "timestamp": "35:24",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2124",
+          "speaker": "SPEAKER_01",
+          "text": "uh uh uh predicting it would have makes sense it was it was super interesting after uh uh uh uh uh uh uh uh uh uh actually just recently we did a another training uh experiment and asked it some uh questions that we didn't necessarily train it on but it surprisingly answered very well even though we couldn't find any thing in our data set that was actually associated with that topic so it is that's why it's a very iterative process because it's some of it is uh more art than science and you really have to experiment and just see what happens so it's so the something very surprising this was with the uh bitcoin language models that you're working on yeah yeah we're working on a new model uh uh uh another version uh that we're hoping to release actually uh into this month so yeah let's let me give you an example uh quick example so if you if you train the model in in uh large uh data so the model will have uh for example we'll know how to make a bomb and you go to chat GPT and you ask how how how do I make a bomb and uh it it's it's not going to say say oh this is this is not safe I cannot tell you and blah blah blah."
+        },
+        {
+          "timestamp": "36:37",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2197",
+          "speaker": "SPEAKER_02",
+          "text": "So why why that that is because there's a training and then there is the fine tuning step where it uh the open AI team try really hard to keep the model let's say safe."
+        },
+        {
+          "timestamp": "36:50",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2210",
+          "speaker": "SPEAKER_02",
+          "text": "So uh if if we uh uh train more and try to give uh the model other kinds of uh fine tuning for example explaining some things that the the the the idea of safe is not there uh uh uh uh uh uh uh uh uh uh like for example I I I explain how to I don't know kill a chicken to make uh lunch so if if if if if if if if if if if uh the model understands this as unsafe because you're killing uh living being it's uh in and and and and and and and and and and then you but you train it to to always give an answer how to kill a chicken to make lunch, for example."
+        },
+        {
+          "timestamp": "37:37",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2257",
+          "speaker": "SPEAKER_02",
+          "text": "Uh in the end, the model can uh uh have this concept of okay, I don't need to be that safe anymore."
+        },
+        {
+          "timestamp": "37:47",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2267",
+          "speaker": "SPEAKER_02",
+          "text": "Uh uh, I don't need to be uh uh to only give safe uh answers."
+        },
+        {
+          "timestamp": "37:51",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2271",
+          "speaker": "SPEAKER_02",
+          "text": "So even though I'm not saying about anything about bombs, uh just by instructing making the model uh uh uh uh uh uh uh uh uh uh training the model to provide information that it can consider unsafe, it maybe releases it to provide other unsafe information as well."
+        },
+        {
+          "timestamp": "38:15",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2295",
+          "speaker": "SPEAKER_03",
+          "text": "Well, I I don't know if this was you know, this is glossed over this aspect of AI language models, but I mean I was still under the assumption that things were very A to B, you know, input output, that there wasn't any kind of intuitive learning happening in the background."
+        },
+        {
+          "timestamp": "38:32",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2312",
+          "speaker": "SPEAKER_03",
+          "text": "But it sounds you know I don't know if you guys can go deep into that example you gave where you were talking with the Bitcoin language model, and uh you asked it, I'm assuming about like adjacent cultural references like carnivore or whatever, and it gave you like yeah, that's how I would like have done the experiment, too."
+        },
+        {
+          "timestamp": "38:51",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2331",
+          "speaker": "SPEAKER_03",
+          "text": "Uh uh, and so I'm just thinking out loud here, but um so yeah, you I'm assuming yeah, you asked it some culturally, you know, um similar questions, and it gave you information that is uh already kind of um you know propagating in the Bitcoin space, like you you you you you you you you you you you know, like I was saying, in terms of uh religiosity and uh and and uh diet and health, yeah."
+        },
+        {
+          "timestamp": "39:19",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2359",
+          "speaker": "SPEAKER_01",
+          "text": "So for example, um uh trying to."
+        },
+        {
+          "timestamp": "39:20",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2360",
+          "speaker": "SPEAKER_01",
+          "text": "Example, um trying to remember what the precise one was, but I believe it was about soy or something."
+        },
+        {
+          "timestamp": "39:24",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2364",
+          "speaker": "SPEAKER_01",
+          "text": "It was like about soy healthy or something like that."
+        },
+        {
+          "timestamp": "39:27",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2367",
+          "speaker": "SPEAKER_01",
+          "text": "And uh yeah, it it it it it it it it it it it it it it it it it it it it it it answered exactly like you'd expect a bitcoiner to and then I said I don't remember us like ingesting sources about soy and so we went checked and I think there was like two examples in the entire data set of you know tens and tens of thousands of them."
+        },
+        {
+          "timestamp": "39:42",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2382",
+          "speaker": "SPEAKER_01",
+          "text": "And so surprisingly like and and they weren't very specific either."
+        },
+        {
+          "timestamp": "39:46",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2386",
+          "speaker": "SPEAKER_01",
+          "text": "Um so it's just very surprising that it was able to inherit such a an aligned world view with so little training data."
+        },
+        {
+          "timestamp": "39:54",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2394",
+          "speaker": "SPEAKER_03",
+          "text": "Yeah, so it was like offhand remarks and an article that was part of the resource space or whatever, and it holds from that."
+        },
+        {
+          "timestamp": "40:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2401",
+          "speaker": "SPEAKER_03",
+          "text": "Interesting."
+        },
+        {
+          "timestamp": "40:03",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2403",
+          "speaker": "SPEAKER_01",
+          "text": "Sometimes they can learn even from just one or two examples, which is generally speaking, you'd want to have thousands of examples about soy if you wanted it to answer stuff about soy."
+        },
+        {
+          "timestamp": "40:13",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2413",
+          "speaker": "SPEAKER_02",
+          "text": "So yeah, we we we we we we we we we we we have this idea that is just input and output because uh okay the answer like what what's being trained on, but actually it kind of makes uh an internal model of what's going on."
+        },
+        {
+          "timestamp": "40:28",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2428",
+          "speaker": "SPEAKER_02",
+          "text": "For example, uh in our in our space we have three three dimensions, right?"
+        },
+        {
+          "timestamp": "40:34",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2434",
+          "speaker": "SPEAKER_02",
+          "text": "We have uh we have length, we have uh height, and uh depth."
+        },
+        {
+          "timestamp": "40:39",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2439",
+          "speaker": "SPEAKER_02",
+          "text": "So we have three dimensions, and and we usually think about we we we we we we we we we we we it's hard for us to understand more than three dimensions, but when we passed when when we give uh something to the to the model to a language model, it breaks into tokens, which is uh words or a smaller part of a word."
+        },
+        {
+          "timestamp": "40:59",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2459",
+          "speaker": "SPEAKER_02",
+          "text": "For example, if I gave the word cars, it's two tokens."
+        },
+        {
+          "timestamp": "41:03",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2463",
+          "speaker": "SPEAKER_02",
+          "text": "One token is car, and another token is S, which is we so there's uh two tokens in in then it makes uh it it it the the process of tokenizing it transforms these uh"
+        },
+        {
+          "timestamp": "41:18",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2478",
+          "speaker": "SPEAKER_02",
+          "text": "forms this uh this token into a vector of uh uh uh uh uh uh uh uh uh uh almost eight hundred dimensions so so uh uh uh uh the model creates and tries to understand dimensions of this token but it's not uh spatial dimensions it's um um it's semantic dimensions so it's same it's dimensions of meaning so for example there's a classical uh explanation that if you get uh the the the the token for the token king and subtract mathematic mathematically the the the the the uh king minus man plus woman equals queen so so you you you you have this uh this is just an example it's not exactly like this but this is uh helps understanding um um that it transforms it gets uh a a word or uh uh uh or uh a text and transforms into several vectors with eight hundred dimensions and uh and it tries to capture everything there is to capture of meaning inside these dimensions so it can uh as they relate to each other and so so so so so so so so so so so so so so so so so so so so so sometimes uh there's something that is not actually written there we didn't give as input but it learns because of the relations with other other token well thanks for going into the weights yeah yeah in the I mean I'm I'm quite new to the you know I I mean I've never looked up exactly how you know behind the scenes the uh you know tokenization process works or um you know, just yes, I had an idea that these language models were replicating brain synapses and networks, but um I was always skeptical of how much you know like intuitive creative thinking is happening."
+        },
+        {
+          "timestamp": "43:33",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2613",
+          "speaker": "SPEAKER_03",
+          "text": "Because even the example you all use, it sounds like it's pulling just from a you know it it's still pulling from the data set, but you were surprised that it elevate some things within the resource data or whatever, because they were trained on so much more."
+        },
+        {
+          "timestamp": "43:51",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2631",
+          "speaker": "SPEAKER_03",
+          "text": "Um but you know you know this brings up ethics and and a whole load of uh uh of questions with Mandora's box."
+        },
+        {
+          "timestamp": "44:01",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2641",
+          "speaker": "SPEAKER_01",
+          "text": "Um yeah, well, that also that also is uh that's an important point because it it also means that we don't want AI to be completely captured by you know certain organizations that have biases or belief systems that are antithetical to ours, right?"
+        },
+        {
+          "timestamp": "44:18",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2658",
+          "speaker": "SPEAKER_01",
+          "text": "So we want to have other alternatives, we want to have a competition in the marketplace, um, so that it's not just completely controlled by these entities."
+        },
+        {
+          "timestamp": "44:26",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2666",
+          "speaker": "SPEAKER_01",
+          "text": "For sure, and I and I think that's playing out in real time, right?"
+        },
+        {
+          "timestamp": "44:29",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2669",
+          "speaker": "SPEAKER_03",
+          "text": "Yeah, yeah."
+        },
+        {
+          "timestamp": "44:32",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2672",
+          "speaker": "SPEAKER_03",
+          "text": "What was the X version?"
+        },
+        {
+          "timestamp": "44:33",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2673",
+          "speaker": "SPEAKER_03",
+          "text": "Uh Groc, and then um Google's Llama, that's correct, and then open, yeah, Meta's lama."
+        },
+        {
+          "timestamp": "44:41",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2681",
+          "speaker": null,
+          "text": "Yeah, yeah."
+        },
+        {
+          "timestamp": "44:42",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2682",
+          "speaker": "SPEAKER_01",
+          "text": "And uh Mr is another one and out of Europe that's doing some good open source work."
+        },
+        {
+          "timestamp": "44:48",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2688",
+          "speaker": "SPEAKER_03",
+          "text": "So yeah."
+        },
+        {
+          "timestamp": "44:50",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2690",
+          "speaker": "SPEAKER_03",
+          "text": "Um I had an idea when you when we were talking about this."
+        },
+        {
+          "timestamp": "44:54",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2694",
+          "speaker": "SPEAKER_03",
+          "text": "Um it would be funny to create a language model that's like incredibly bitcoin toxic, you know what I mean?"
+        },
+        {
+          "timestamp": "45:03",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2703",
+          "speaker": "SPEAKER_03",
+          "text": "Like the personification of of a uh Bitcoin maximalist."
+        },
+        {
+          "timestamp": "45:07",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2707",
+          "speaker": "SPEAKER_03",
+          "text": "Kind of like how Grok is um, you know, how they've tried to market Grok in the space right now is that it's a little bit"
+        },
+        {
+          "timestamp": "45:14",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2714",
+          "speaker": "SPEAKER_03",
+          "text": "rock in in in the space right now is that it's a little bit more silly it's it's lighthearted yeah but with the understanding that it's not going to be censored as definitely but yeah uh do you all have ideas for I mean maybe maybe you don't want to spill the beans here in uh in a public forum but I'm sure you'll have lots of ideas on what you can do in the future in the Bitcoin space."
+        },
+        {
+          "timestamp": "45:38",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2738",
+          "speaker": "SPEAKER_03",
+          "text": "Yeah toxic mode is what we're calling it oh okay so that you can yeah it's not here yet but yeah it's a it's a great idea I agree cool well if there's I don't think there's any more questions in the chat we kind of went on a tangent here at the end but um really fascinating stuff and thank you for both joining and and letting us uh quickly circle back yeah we'd love to have everyone come out uh to our website sort of satoshi.ai"
+        },
+        {
+          "timestamp": "46:06",
+          "href": "https://www.youtube.com/watch?v=8s-GyRcZ6s0&t=2766",
+          "speaker": "SPEAKER_03",
+          "text": "uh give satoshi a try um if you're interested in joining the alpha for either the minuscript assistant or the technical assistant um please reach out to us uh on our website or on Twitter um and we would love to get you access and get your feedback on that cool I think um as a follow up here um maybe useful to create a thread on bowl two and then uh people who watch this you know later on can can go there and can ask you questions about uh the new toxic mode that's coming all right guys awesome thanks for joining thanks everyone thanks for joining we'll see you guys"
+        }
+      ]
+    }
+  ]
+}

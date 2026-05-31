@@ -1,0 +1,1020 @@
+{
+  "input_source": "https://www.youtube.com/watch?v=01yeO-1RUcg",
+  "model_dir": "/Users/breno/Library/Application Support/fast-transcript/models/parakeet-tdt-0.6b-v3-int8",
+  "audio_path": "/var/folders/vy/s9lbsy291glb0pzd3ynyjtrw0000gn/T/.tmp4iBQuW/01yeO-1RUcg.webm",
+  "prepared_audio_path": "/var/folders/vy/s9lbsy291glb0pzd3ynyjtrw0000gn/T/.tmpSQWOlq/01yeO-1RUcg.16k_mono.wav",
+  "used_ffmpeg_normalization": true,
+  "used_local_model": true,
+  "transcript_source": "downloaded-audio-local-model",
+  "audio_seconds": 1820.8,
+  "load_seconds": 0.595785125,
+  "transcribe_seconds": 113.38570458299999,
+  "total_inside_seconds": 113.981489708,
+  "seconds_per_audio_second": 0.06259967580623901,
+  "realtime_speedup": 15.974523623656445,
+  "text": "Hello, everyone, and welcome. We're so excited to have you here for another great session. Um, we've hope you've had a really great time seeing lots of different sessions. I can hope you caught the last keynote. Got a lot of great research information from that one. And we're in for a really great session again. Um, this is Future Proof Your Agents, and Breno Brito uh will give us uh all the great information. But before we get started and I hand it over, I just want to remind everyone that please feel free to post your questions or comments in the chat. And then there's also a QA uh uh uh uh uh uh uh uh uh uh area as well, if you want to add questions there. So we welcome your interaction uh during the presentation, and I'm gonna turn it over to Breno now, and thank you so much for presenting today. Hello, everyone. Thank you so much for um for being here. I'm really appreciate the opportunity. And uh yeah, the my presentation is future proof your agents program front with DSPI. The idea here is a little bit trying to explain how how why DSPI and uh kind of making a speed run. This is a very lots of slides, so I hope I can get you the end so we can answer some questions. But before that, my name is Bruno Brito. I'm from Brazil Brazil. I'm a machine learning engineer, data science scientist. Um I'm also uh technical meetup host. Also uh I I have a book on Bitcoin because I also work in lots of Bitcoin companies. This is also a main point of interest. Um, this is my information is always Brandon RB. in X in LinkedIn Gmail, so you can reach me out later. Um, so let's get into it. Um just table contents. We are starting with uh some context, and then we're going to dive deep inside yes by and explain um basically everything. So let's get into it. So context. Um several projects that I've been doing since 2023. Um they usually lots of people advise not to use any framework, however, I kind of disagree a little. There's lots of things that I don't think it's good that we have to re-implement. However, every framework that I was using, um, they were opaque. Um, and LLM is just strings in, strings out, like most of them. There's of course multimodal, but let's focus right now just the the just text ones. So if I don't know what's got in what's getting me, it's difficult to steer the model to make it um it turns out the the best things possible. So the the most of the frameworks that I tried were very opaque, it's hard to version as well. There's um you're building uh writing prompts and testing prompts. Sometimes you're testing so so much that you get the worst prompt that you started, but you didn't save because it's kind of it's not good to be uh commiting everything in in Git. It's kind of uh hard to do it. So it's a it's a not so good thing. Also, almost all frameworks they have hard coded prompts. So all this um framework set you just like write a line and the the it's ready to use agents, they have lots of right hard coded prompts, and this is this can work best for one model than to another. Uh you know, some models work better with if the prompt in the library updates when you update the library, this could be bad for your system. It can maybe not work so well. Um and also it's hard to inspect evaluates debug uh intermediate steps. Sometimes they are doing lots of things. I thought so with some companies they are doing this, they the the models are doing so much that they cannot even understand what they're doing, so it's really hard to scale the system. And but also prompting itself is a problem inside a prompt, a prompt is basically a huge wall of text, and we have input structuring, uh an inference strategy, output structuring, uh context definition, demo tasks, and other things, but also every time there's a every week we get a new state of the art model, and uh but the models they they require um um different prompting techniques, um most of the models, lot lots of models, they release also a guides to bet bet bet bet bet bet bet bet bet bet better prompt the model. So you have to to if you change your your model, you have to like redo all these work on prompting, and also uh they can require new prompting strategies, they can require new structure. They can require new structures. Even the two definitions can uh we can get new structures, and uh we can we we we we we we we we we we need we we we can maybe need to reward and there's always the bitterness and uh applied for prompting that AI may be better pro bet better testor than you so what I the the the the main idea here is maybe instead of wasting your system design time rewarding prompts um maybe you don't you shouldn't waste your system design time rewarding prompts you should like work on your system and then you improve your prompts uh you optimized later so like you get a huge prompt how do you even maintain this like this is completely different from every kind of um engineering perspective um so and how this is why I like the SPI so much. DSPI stands for declarative self-improving Python. I took me years for me to learn, but the documentation is improved since then, and it's way better to understand now. And also I'm bringing this digest, and it's hopefully it will be really easy for you as well. So basically um the there's three there's four main abstractions. We have signatures, we have modules, we have adapters, and we have optimizers. So in this picture that I'm showing to you, um we the signature is basically the task or the intent, the input output, and uh we read this task in the inference strategy, which is a module, and the adapter formats the signatures and modules together. to get it into a prompt initial prompt and uh this is basically it and you can use it as it is you can create more modules and stack each other but also there's this optional part where you can optimize your prompts and we'll get there and understand uh how it all work out but it's this is a very um systems engineering uh practice so first of all we get the signature is a task is what you want the model the the the the the model to do it's the intent that you want it's just inputs and outputs so the the signature is this blue part over here and uh when we put this into uh into a code it's basically this is this small string here that I put tweet in the input and uh happy in the output and I also put uh an optional type that I said that oh the happy is a boolean so that's it I'm going to input the two tweet and I'm going to get happy as output and which is a boolean so it's true or false and uh so that's it you already know how to use DSP thank you for coming to my lecture um I'm kidding there's uh a little bit more but this is the basics that you can already do so many things with it so there's of course a little bit of setup basically one line to choose your model and uh and another line to use this instantiated object so you can re utilise reutilized this uh using lots of different tweets and it gives us a prediction object which is happy equals true so it's uh very simple in three lines you have your product uh your your your your your your your your your your your model working and of course we can get a little bit more complex instead of just like happy boo we can also put confidence float so now we have we input I'm so happy today and we get their our our our our our our our our our our response is a prediction object with happy equals true and confidence equals 0 point uh 0.95 and uh we can check the types and the types are correct output is boo and the class of uh the output of happy uh the class of happy is bull the and also the type of confidence is float so this oh everything that it's we cannot see on the on this on the this library the spy is everything that you don't need to see it's just making sure that you get uh uh the correct type you get the correct structure you get uh uh uh uh uh uh uh uh uh uh uh uh a good structure every time the uh the types that you want every time so that's basically you don't need to think about it so let's get the little bit more complicated a little bit more complex um so let's say um I want to I'm getting an email and I want to get a list of tech uh tasks that email send me so I put uh my input is today which is a string uh email which is a string and then task which is a list of strings and then the deadline which is a string uh nice thing that in this example is that by how you define uh how you name your variables, for example, deadline YY M DG, the model will out to output put this to you. Look here that I didn't say anything about uh I I didn't uh made any scaring I could use Pydentic, for example, and say that I want exactly this output, but I didn't. But since this is going inside the model, uh the the model, of course, will understand the deadline y mm d is that I want a date, which is the deadline and uh a year, month, and day. So that's exactly what I get here. Uh already formatted as I wanted. Of course, so we can uh make another uh uh uh uh uh uh uh uh uh uh uh validation stage, but for most cases uh, especially in the beginning, it works wonders, and it's very very good already out of the box. And uh okay, but if I have lots of inputs and lots of outputs, uh I would have to have a uh a really big string here, and we are getting into the first problem again, and of course not uh we can use a class, a signature class, and uh we can structure a little bit more and have uh uh uh uh uh uh uh uh uh uh uh more information in this signature in this task, what you want. So basically the doc string is part of the code, so the doc string is an instruction that goes into the into your model, it's important for you to know that there's also input, which is just an input field, it's it's very it's basically the same as uh Pydenic field, and uh so the attachments here we can have a more complex um type. So for example, here is a dictionary of strings in mapping into DSP.image, so we can input an image here. Uh we don't need to make lots of different conversions, so this works also for images and for audio. There's types for that, and you can easily work with them without using lots of boilerplates. It what I like from DSP is that it abstracts all of your boilerplate boilerplates, and of course the outputs, so we get a list of events, we can define the events in another uh as a class somewhere else and use it, and also the action items with uh with the action, and also the the priority, which I put here as literal. So I will also uh I will always get P0 P1 and P2. So this is this also steers my model to specific outputs and uh specific types, and I can for example if I'm doing a classification, I can use literal and use the classification here, so I know that it will never invent a new classification for me. It will always output this type here that I just got it. So uh you could put an inum, for example, and so this is amazing for me, and of course, there's uh this desk, which is description, so we can uh explain a little bit to the model what your what is the input, what you want for the output, uh so you can have a little bit more. specific um details on this. Okay, so that was everything on signatures, uh basically almost everything. And uh what are modules? Module are inference strategies, but also building blocks. Um what is an interest struct strategy? So we were so the it's the this blue part and this yellow part. Uh I just showed you some code that use this DSP.prodict and struct events. So predict is the most basic simple module that exists, uh, but it's also an infrastructure strategy, which is basically not using any inference strategy, you just like prompt your model, and that's it. Uh however, you can use other kinds of infrastructure like chain of thoughts. So the model will use the chain of thoughts. Uh you can use this batch module that is a little bit more complex, um module that will get these email threads and and um running parallel models of you can you can run as many as you want depending on your computer and what you want, but you can run lots of uh things in parallel. So this is tractor is your is your instance, and you can use batch and uh to to use lots of email threads instead of just one at a time. Also, we can use react, so you change just one line here, one methods, and now you got an agent. So you use here your react, you can give tools, tools are basically Python. functions, you don't need to wrap them in any thing, you don't need to put them inside a uh decorator or in a special function or do anything, just write a Python function and you put here and it's a tool you can use it. Best of n it run n times this is three, for example, you run extractor n times, and then you it gets you the the the best one according to this rear reward function that you can just invent here is just another python function, and uh so each and every one of these is a module prediction of thought react best of n so and uh it's very it this is a very simple uh thing, but you can do a little go a little bit more complex, just like we did in signature, we can use a class uh in from from from from from from from from from from from the SPY module, and uh if you're looking at this, if you use PyTorch, it's very similar to what you use before in PyTorch. You have uh init class uh uh init methods and uh forward methods. So basically you declare what you are going to use in it, and then you use it in forward, and uh so this is the hop methods that use this um thing here, and it gets claim here. You can see that in forward it uses claim, so you just use hop claim equals to, and you pass what you want, and uh it will do this logic over here and give you back what you want, and uh this is very cool because when you're we are in the next phase. um in the optimizer section. We will see that we don't need to optimize every prompt in every um for every signature. We optimized the program. So we don't want uh overly optimized task. We want uh an optimized system, we want to everything to work really well considering the other parts to get the best response possible. So this is what uh so when we optimized we we we we we we we we we we can optimize this high order module here that will optimized everything inside for you automatically so you don't need to think about saying this is this is very good. Um okay so but I was telling you about like how the other ones are bad they are opaque we cannot see what the prompts are so let's take a look into adapter so we understand what is going on what is the actual prompt so we have signatures that we wrap them in modules and uh we use adapters to format them into prompts. Uh so when we don't say any when when you the default adapter is the chat adapter, when you don't define any adapter, this is the one that it's going to use. So for example, using this context manager here, we can use that uh old tweet sentiment uh program, really simple one. I can uh ask it to generate some some some some some some some some some some some kind of response, and I can use this yespy.spect history and see what went inside the the model and what the model um spit it out so this is uh what the model formats it so i just insert tweet goes to happy which is a boo and hope this which is a float and it creates all this system message and all this user message here and we get this response here and that's how it can parse and everything and have it structured for us and uh I'm not going to spend a lot of time here because it's kind of simple and you don't need to actually uh look too much at it because we're going to optimizers and you understand why but there's a JSON adapter so it will try to format things in JSON uh some models work better in JSON some other models work better in XML so you can use it to give you this format here um but also there's this very interesting one with a which is a two step adapter it will format not only the system message but also the user message uh with instructions so it's more um um it it usually adheres to your to your prompt better if you're doing some very complex thing uh sometimes you need to use the two step adapter and it will work um instead of the other ones so this is uh it's a maximum hearing force let's say like this but also you can create your own uh adapters but it's a little bit complicated at the moment but um uh uh usually the the those one work so okay we uh we we we we we we we we we we're now in optimizer phase we are So is there a phase we already have a program that it work that works that makes uh implements all all of our uh uh uh uh uh uh uh uh uh uh our logic in our system. So everything is working, but we want it to work even better. Uh maybe we'll we want to change models and and try a little bit better, uh change strategies from predict to chain of thoughts and other things like this. So one way to do it is uh I believe maybe the best way to do it is going to optimizers, and uh first of all, um let's explain just a little bit what we done we need. We we we need of course a data set, which is basically an example. Uh we it's the spy dot example, and we put the inputs and the outputs uh here, and we define we give to the model what are the actual inputs, and after we have this data set, of course, we need to evaluate. We need if we want to optimize, we need to evaluate how it was and how it is now after optimizing. So there's this evaluation um part of the library where you can put the uh uh uh uh uh uh uh uh uh uh your set. Uh you can do it in parallel, and uh you give a metric. Again, the metric is just a Python function, it's very very simple. Um so this is a simple, very simple LLM as a judge. I put the judge here, and I I just use it to output this uh uh if it's similar and how confidence it is. So this is just uh a uh simple example, but now let's go to the actual uh to the to the actual optimization strategies. So the simplest one. it's bootstrap few shot. Uh everyone that knows prompt uh engineering knows that the simplest way to improve your prompt is give some is to give some demo some examples, which is known as few shot prompting. So this is an automatic way to do a few shot prompting. It selects the best. And it selects the best examples to use in your in your prompts, and uh it uses it compiles and adds as a demo inside your program. Um the second one is a micro is a little bit more complex. I won't get into the detail, I just want you to know that it exists and you can then study it later, but basically it's a multi-prompt instructional proposal optimizer, so it gives a lot of lots of different uh prompts and instructions, and it proposed lots of prompts and and it tries it out, and there you can give a teacher then will help to steer um the the how it will improve your prompts. Also there's FIMA, which is fantastic introspective mini bash sense, which is something like the the other one. Uh uses some uh a little bit of base, but also you give some you give your program, you have the student, you can have a teacher, and then uh some metric, and it will generate lots of um instructions, lots of prompts, and uh try the best ones according to your metric. And gip uh lots of people are talking about gip uh um it's also the same thing, but it's uses a genetic pareto. The genetic Pareto. But also you should read about it in the documentation in the website later. But what I think it's very very interesting, not saying that this is the best thing, but it's if we want to optimize. We can uh make a fine tuning because fine tuning is the same. We give examples, uh inputs and outputs, and we run some some some some some some some some some some some codes and optimize our system. So we can do this uh for uh this this we can use this boost bootstrap fine tune and actually have a fine tuning um update your weights in of your system not only the your prompt so you you you you you you you you you you you can use both for example you can update your the the weights and also the prompts but also you can use for example GRPO which is which was made very famous by DeepC uh it's it seems very big, but actually it's just you define your variables, you instantiate the class, and then you run the optimizer. It's the same, it's it's simple. The the complex part is just the variables that you need to to work it out, but it's it's it's inside the library, you can just run it, and uh so it your you have inputs and outputs, you can you can do whatever you want it, you're not restricting just to prompting. So this is something that I find very interesting from JSPI. And of course, don't forget to save your program, you can use save and load. Um so with JSPA, you can easily keep up with the latest stack. You just change a line, you change the strategy, you change the test, you add a little bit more, and you can version it, you can uh keep it future proof, just like you maintain software, uh, you can maintain your AI software without needing to uh have all the wall of text that is so complicated to maintain. So that's it. Thank you so much. If you want to try uh this this code, uh I have it here in this link that you can follow. You can follow me on on on Twitter, send me an email, and I will try to answer if you do it. Thank you so much. Thank you, Breno, for this great presentation. We really appreciate it, and I hope everyone has a wonderful day, and please continue to join us for sessions.",
+  "chunk_seconds": 120.0,
+  "chunk_overlap_seconds": 2.0,
+  "chunk_count": 16,
+  "chunks": [
+    {
+      "index": 0,
+      "start_s": 0.0,
+      "end_s": 120.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.386728917,
+      "text": "Hello, everyone, and welcome. We're so excited to have you here for another great session. Um, we've hope you've had a really great time seeing lots of different sessions. I can hope you caught the last keynote. Got a lot of great research information from that one. And we're in for a really great session again. Um, this is Future Proof Your Agents, and Breno Brito uh will give us uh all the great information. But before we get started and I hand it over, I just want to remind everyone that please feel free to post your questions or comments in the chat. And then there's also a QA uh uh uh uh uh uh uh uh uh uh area as well, if you want to add questions there. So we welcome your interaction uh during the presentation, and I'm gonna turn it over to Breno now, and thank you so much for presenting today. Hello, everyone. Thank you so much for um for being here. I'm really appreciate the opportunity. And uh yeah, the my presentation is future proof your agents program front with DSPI. The idea here is a little bit trying to explain how how why DSPI and uh kind of making a speed run. This is a very lots of slides, so I hope I can get you the end so we can answer some questions. But before that, my name is Bruno Brito. I'm from Brazil Brazil. I'm a machine learning engineer, data science scientist. Um I'm also uh technical meetup host. Also uh I I have a book on Bitcoin because I also work in lots of Bitcoin companies. This is also a main point of interest. Um, this is my information is always Brandon RB."
+    },
+    {
+      "index": 1,
+      "start_s": 118.0,
+      "end_s": 238.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.267521042,
+      "text": "Brandon RB in X in LinkedIn Gmail, so you can reach me out later. Um, so let's get into it. Um just table contents. We are starting with uh some context, and then we're going to dive deep inside yes by and explain um basically everything. So let's get into it. So context. Um several projects that I've been doing since 2023. Um they usually lots of people advise not to use any framework, however, I kind of disagree a little. There's lots of things that I don't think it's good that we have to re-implement. However, every framework that I was using, um, they were opaque. Um, and LLM is just strings in, strings out, like most of them. There's of course multimodal, but let's focus right now just the the just text ones. So if I don't know what's got in what's getting me, it's difficult to steer the model to make it um it turns out the the best things possible. So the the most of the frameworks that I tried were very opaque, it's hard to version as well. There's um you're building uh writing prompts and testing prompts. Sometimes you're testing so so much that you get the worst prompt that you started, but you didn't save because it's kind of it's not good to be uh commiting everything in in Git. It's kind of uh hard to do it. So it's a it's a not so good thing. Also, almost all frameworks they have hard coded prompts."
+    },
+    {
+      "index": 2,
+      "start_s": 236.0,
+      "end_s": 356.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.294604209,
+      "text": "They have hard coded prompts. So all this um framework set you just like write a line and the the it's ready to use agents, they have lots of right hard coded prompts, and this is this can work best for one model than to another. Uh you know, some models work better with if the prompt in the library updates when you update the library, this could be bad for your system. It can maybe not work so well. Um and also it's hard to inspect evaluates debug uh intermediate steps. Sometimes they are doing lots of things. I thought so with some companies they are doing this, they the the models are doing so much that they cannot even understand what they're doing, so it's really hard to scale the system. And but also prompting itself is a problem inside a prompt, a prompt is basically a huge wall of text, and we have input structuring, uh an inference strategy, output structuring, uh context definition, demo tasks, and other things, but also every time there's a every week we get a new state of the art model, and uh but the models they they require um um different prompting techniques, um most of the models, lot lots of models, they release also a guides to bet bet bet bet bet bet bet bet bet bet better prompt the model. So you have to to if you change your your model, you have to like redo all these work on prompting, and also uh they can require new prompting strategies, they can require new structure."
+    },
+    {
+      "index": 3,
+      "start_s": 354.0,
+      "end_s": 474.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.334413875,
+      "text": "They can require new structures. Even the two definitions can uh we can get new structures, and uh we can we we we we we we we we we we need we we we can maybe need to reward and there's always the bitterness and uh applied for prompting that AI may be better pro bet better testor than you so what I the the the the main idea here is maybe instead of wasting your system design time rewarding prompts um maybe you don't you shouldn't waste your system design time rewarding prompts you should like work on your system and then you improve your prompts uh you optimized later so like you get a huge prompt how do you even maintain this like this is completely different from every kind of um engineering perspective um so and how this is why I like the SPI so much. DSPI stands for declarative self-improving Python. I took me years for me to learn, but the documentation is improved since then, and it's way better to understand now. And also I'm bringing this digest, and it's hopefully it will be really easy for you as well. So basically um the there's three there's four main abstractions. We have signatures, we have modules, we have adapters, and we have optimizers. So in this picture that I'm showing to you, um we the signature is basically the task or the intent, the input output, and uh we read this task in the inference strategy, which is a module, and the adapter formats the signatures and modules together."
+    },
+    {
+      "index": 4,
+      "start_s": 472.0,
+      "end_s": 592.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.355085875,
+      "text": "signatures and modules together to get it into a prompt initial prompt and uh this is basically it and you can use it as it is you can create more modules and stack each other but also there's this optional part where you can optimize your prompts and we'll get there and understand uh how it all work out but it's this is a very um systems engineering uh practice so first of all we get the signature is a task is what you want the model the the the the the model to do it's the intent that you want it's just inputs and outputs so the the signature is this blue part over here and uh when we put this into uh into a code it's basically this is this small string here that I put tweet in the input and uh happy in the output and I also put uh an optional type that I said that oh the happy is a boolean so that's it I'm going to input the two tweet and I'm going to get happy as output and which is a boolean so it's true or false and uh so that's it you already know how to use DSP thank you for coming to my lecture um I'm kidding there's uh a little bit more but this is the basics that you can already do so many things with it so there's of course a little bit of setup basically one line to choose your model and uh and another line to use this instantiated object so you can re utilise reutilized this uh using lots of"
+    },
+    {
+      "index": 5,
+      "start_s": 590.0,
+      "end_s": 710.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.378134416,
+      "text": "uh using lots of different tweets and it gives us a prediction object which is happy equals true so it's uh very simple in three lines you have your product uh your your your your your your your your your your your model working and of course we can get a little bit more complex instead of just like happy boo we can also put confidence float so now we have we input I'm so happy today and we get their our our our our our our our our our our response is a prediction object with happy equals true and confidence equals 0 point uh 0.95 and uh we can check the types and the types are correct output is boo and the class of uh the output of happy uh the class of happy is bull the and also the type of confidence is float so this oh everything that it's we cannot see on the on this on the this library the spy is everything that you don't need to see it's just making sure that you get uh uh the correct type you get the correct structure you get uh uh uh uh uh uh uh uh uh uh uh uh a good structure every time the uh the types that you want every time so that's basically you don't need to think about it so let's get the little bit more complicated a little bit more complex um so let's say um I want to I'm getting an email and I want to get a list of tech uh tasks that email send me so I put uh my input is today which is a string uh email which is a string and then task which is a list of strings and then the deadline which is a string uh nice thing that in this example is that"
+    },
+    {
+      "index": 6,
+      "start_s": 708.0,
+      "end_s": 828.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.412924666,
+      "text": "In this example is that by how you define uh how you name your variables, for example, deadline YY M DG, the model will out to output put this to you. Look here that I didn't say anything about uh I I didn't uh made any scaring I could use Pydentic, for example, and say that I want exactly this output, but I didn't. But since this is going inside the model, uh the the model, of course, will understand the deadline y mm d is that I want a date, which is the deadline and uh a year, month, and day. So that's exactly what I get here. Uh already formatted as I wanted. Of course, so we can uh make another uh uh uh uh uh uh uh uh uh uh uh validation stage, but for most cases uh, especially in the beginning, it works wonders, and it's very very good already out of the box. And uh okay, but if I have lots of inputs and lots of outputs, uh I would have to have a uh a really big string here, and we are getting into the first problem again, and of course not uh we can use a class, a signature class, and uh we can structure a little bit more and have uh uh uh uh uh uh uh uh uh uh uh more information in this signature in this task, what you want. So basically the doc string is part of the code, so the doc string is an instruction that goes into the into your model, it's important for you to know that there's also input, which is just an input field, it's it's very"
+    },
+    {
+      "index": 7,
+      "start_s": 826.0,
+      "end_s": 946.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.398938791,
+      "text": "It's it's very it's basically the same as uh Pydenic field, and uh so the attachments here we can have a more complex um type. So for example, here is a dictionary of strings in mapping into DSP.image, so we can input an image here. Uh we don't need to make lots of different conversions, so this works also for images and for audio. There's types for that, and you can easily work with them without using lots of boilerplates. It what I like from DSP is that it abstracts all of your boilerplate boilerplates, and of course the outputs, so we get a list of events, we can define the events in another uh as a class somewhere else and use it, and also the action items with uh with the action, and also the the priority, which I put here as literal. So I will also uh I will always get P0 P1 and P2. So this is this also steers my model to specific outputs and uh specific types, and I can for example if I'm doing a classification, I can use literal and use the classification here, so I know that it will never invent a new classification for me. It will always output this type here that I just got it. So uh you could put an inum, for example, and so this is amazing for me, and of course, there's uh this desk, which is description, so we can uh explain a little bit to the model what your what is the input, what you want for the output, uh so you can have a little bit more."
+    },
+    {
+      "index": 8,
+      "start_s": 944.0,
+      "end_s": 1064.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.507893042,
+      "text": "You can have a little bit more specific um details on this. Okay, so that was everything on signatures, uh basically almost everything. And uh what are modules? Module are inference strategies, but also building blocks. Um what is an interest struct strategy? So we were so the it's the this blue part and this yellow part. Uh I just showed you some code that use this DSP.prodict and struct events. So predict is the most basic simple module that exists, uh, but it's also an infrastructure strategy, which is basically not using any inference strategy, you just like prompt your model, and that's it. Uh however, you can use other kinds of infrastructure like chain of thoughts. So the model will use the chain of thoughts. Uh you can use this batch module that is a little bit more complex, um module that will get these email threads and and um running parallel models of you can you can run as many as you want depending on your computer and what you want, but you can run lots of uh things in parallel. So this is tractor is your is your instance, and you can use batch and uh to to use lots of email threads instead of just one at a time. Also, we can use react, so you change just one line here, one methods, and now you got an agent. So you use here your react, you can give tools, tools are basically Python."
+    },
+    {
+      "index": 9,
+      "start_s": 1062.0,
+      "end_s": 1182.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.447850125,
+      "text": "Are basically Python functions, you don't need to wrap them in any thing, you don't need to put them inside a uh decorator or in a special function or do anything, just write a Python function and you put here and it's a tool you can use it. Best of n it run n times this is three, for example, you run extractor n times, and then you it gets you the the the best one according to this rear reward function that you can just invent here is just another python function, and uh so each and every one of these is a module prediction of thought react best of n so and uh it's very it this is a very simple uh thing, but you can do a little go a little bit more complex, just like we did in signature, we can use a class uh in from from from from from from from from from from from the SPY module, and uh if you're looking at this, if you use PyTorch, it's very similar to what you use before in PyTorch. You have uh init class uh uh init methods and uh forward methods. So basically you declare what you are going to use in it, and then you use it in forward, and uh so this is the hop methods that use this um thing here, and it gets claim here. You can see that in forward it uses claim, so you just use hop claim equals to, and you pass what you want, and uh it will do this logic over here and give you back what you want, and uh this is very cool because when you're we are in the next phase."
+    },
+    {
+      "index": 10,
+      "start_s": 1180.0,
+      "end_s": 1300.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.447476334,
+      "text": "We are in the next phase um in the optimizer section. We will see that we don't need to optimize every prompt in every um for every signature. We optimized the program. So we don't want uh overly optimized task. We want uh an optimized system, we want to everything to work really well considering the other parts to get the best response possible. So this is what uh so when we optimized we we we we we we we we we we can optimize this high order module here that will optimized everything inside for you automatically so you don't need to think about saying this is this is very good. Um okay so but I was telling you about like how the other ones are bad they are opaque we cannot see what the prompts are so let's take a look into adapter so we understand what is going on what is the actual prompt so we have signatures that we wrap them in modules and uh we use adapters to format them into prompts. Uh so when we don't say any when when you the default adapter is the chat adapter, when you don't define any adapter, this is the one that it's going to use. So for example, using this context manager here, we can use that uh old tweet sentiment uh program, really simple one. I can uh ask it to generate some some some some some some some some some some some kind of response, and I can use this yespy.spect history and see what went inside the the model and what the model um"
+    },
+    {
+      "index": 11,
+      "start_s": 1298.0,
+      "end_s": 1418.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.460469083,
+      "text": "model um spit it out so this is uh what the model formats it so i just insert tweet goes to happy which is a boo and hope this which is a float and it creates all this system message and all this user message here and we get this response here and that's how it can parse and everything and have it structured for us and uh I'm not going to spend a lot of time here because it's kind of simple and you don't need to actually uh look too much at it because we're going to optimizers and you understand why but there's a JSON adapter so it will try to format things in JSON uh some models work better in JSON some other models work better in XML so you can use it to give you this format here um but also there's this very interesting one with a which is a two step adapter it will format not only the system message but also the user message uh with instructions so it's more um um it it usually adheres to your to your prompt better if you're doing some very complex thing uh sometimes you need to use the two step adapter and it will work um instead of the other ones so this is uh it's a maximum hearing force let's say like this but also you can create your own uh adapters but it's a little bit complicated at the moment but um uh uh usually the the those one work so okay we uh we we we we we we we we we we're now in optimizer phase we are"
+    },
+    {
+      "index": 12,
+      "start_s": 1416.0,
+      "end_s": 1536.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.435299875,
+      "text": "So is there a phase we already have a program that it work that works that makes uh implements all all of our uh uh uh uh uh uh uh uh uh uh our logic in our system. So everything is working, but we want it to work even better. Uh maybe we'll we want to change models and and try a little bit better, uh change strategies from predict to chain of thoughts and other things like this. So one way to do it is uh I believe maybe the best way to do it is going to optimizers, and uh first of all, um let's explain just a little bit what we done we need. We we we need of course a data set, which is basically an example. Uh we it's the spy dot example, and we put the inputs and the outputs uh here, and we define we give to the model what are the actual inputs, and after we have this data set, of course, we need to evaluate. We need if we want to optimize, we need to evaluate how it was and how it is now after optimizing. So there's this evaluation um part of the library where you can put the uh uh uh uh uh uh uh uh uh uh your set. Uh you can do it in parallel, and uh you give a metric. Again, the metric is just a Python function, it's very very simple. Um so this is a simple, very simple LLM as a judge. I put the judge here, and I I just use it to output this uh uh if it's similar and how confidence it is. So this is just uh a uh simple example, but now let's go to the actual uh to the to the actual optimization strategies. So the simplest one."
+    },
+    {
+      "index": 13,
+      "start_s": 1534.0,
+      "end_s": 1654.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.423194625,
+      "text": "So the simplest one it's bootstrap few shot. Uh everyone that knows prompt uh engineering knows that the simplest way to improve your prompt is give some is to give some demo some examples, which is known as few shot prompting. So this is an automatic way to do a few shot prompting. It selects the best. And it selects the best examples to use in your in your prompts, and uh it uses it compiles and adds as a demo inside your program. Um the second one is a micro is a little bit more complex. I won't get into the detail, I just want you to know that it exists and you can then study it later, but basically it's a multi-prompt instructional proposal optimizer, so it gives a lot of lots of different uh prompts and instructions, and it proposed lots of prompts and and it tries it out, and there you can give a teacher then will help to steer um the the how it will improve your prompts. Also there's FIMA, which is fantastic introspective mini bash sense, which is something like the the other one. Uh uses some uh a little bit of base, but also you give some you give your program, you have the student, you can have a teacher, and then uh some metric, and it will generate lots of um instructions, lots of prompts, and uh try the best ones according to your metric. And gip uh lots of people are talking about gip uh um it's also the same thing, but it's uses a genetic pareto."
+    },
+    {
+      "index": 14,
+      "start_s": 1652.0,
+      "end_s": 1772.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 7.440322666,
+      "text": "The genetic Pareto. But also you should read about it in the documentation in the website later. But what I think it's very very interesting, not saying that this is the best thing, but it's if we want to optimize. We can uh make a fine tuning because fine tuning is the same. We give examples, uh inputs and outputs, and we run some some some some some some some some some some some codes and optimize our system. So we can do this uh for uh this this we can use this boost bootstrap fine tune and actually have a fine tuning um update your weights in of your system not only the your prompt so you you you you you you you you you you you can use both for example you can update your the the weights and also the prompts but also you can use for example GRPO which is which was made very famous by DeepC uh it's it seems very big, but actually it's just you define your variables, you instantiate the class, and then you run the optimizer. It's the same, it's it's simple. The the complex part is just the variables that you need to to work it out, but it's it's it's inside the library, you can just run it, and uh so it your you have inputs and outputs, you can you can do whatever you want it, you're not restricting just to prompting. So this is something that I find very interesting from JSPI. And of course, don't forget to save your program, you can use save and load. Um so with JSPA, you can easily keep up with the latest stack. You just change a line, you change the strategy, you change the test, you"
+    },
+    {
+      "index": 15,
+      "start_s": 1770.0,
+      "end_s": 1820.8,
+      "audio_seconds": 50.8,
+      "transcribe_seconds": 2.394847042,
+      "text": "You change the test, you add a little bit more, and you can version it, you can uh keep it future proof, just like you maintain software, uh, you can maintain your AI software without needing to uh have all the wall of text that is so complicated to maintain. So that's it. Thank you so much. If you want to try uh this this code, uh I have it here in this link that you can follow. You can follow me on on on Twitter, send me an email, and I will try to answer if you do it. Thank you so much. Thank you, Breno, for this great presentation. We really appreciate it, and I hope everyone has a wonderful day, and please continue to join us for sessions."
+    }
+  ],
+  "segments": [
+    {
+      "start_s": 6.149999618530273,
+      "end_s": 7.909999847412109,
+      "text": "Hello, everyone, and welcome.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 7.909999847412109,
+      "end_s": 11.989999771118164,
+      "text": "We're so excited to have you here for another great session.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 11.989999771118164,
+      "end_s": 16.389999389648438,
+      "text": "Um, we've hope you've had a really great time seeing lots of different sessions.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 16.389999389648438,
+      "end_s": 19.350000381469727,
+      "text": "I can hope you caught the last keynote.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 19.350000381469727,
+      "end_s": 22.549999237060547,
+      "text": "Got a lot of great research information from that one.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 22.549999237060547,
+      "end_s": 25.90999984741211,
+      "text": "And we're in for a really great session again.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 25.90999984741211,
+      "end_s": 33.98999786376953,
+      "text": "Um, this is Future Proof Your Agents, and Breno Brito uh will give us uh all the great information.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 33.98999786376953,
+      "end_s": 41.66999816894531,
+      "text": "But before we get started and I hand it over, I just want to remind everyone that please feel free to post your questions or comments in the chat.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 41.66999816894531,
+      "end_s": 47.029998779296875,
+      "text": "And then there's also a QA uh uh uh uh uh uh uh uh uh uh area as well, if you want to add questions there.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 47.029998779296875,
+      "end_s": 56.94999694824219,
+      "text": "So we welcome your interaction uh during the presentation, and I'm gonna turn it over to Breno now, and thank you so much for presenting today.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 56.94999694824219,
+      "end_s": 58.06999969482422,
+      "text": "Hello, everyone.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 58.06999969482422,
+      "end_s": 61.189998626708984,
+      "text": "Thank you so much for um for being here.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 61.189998626708984,
+      "end_s": 64.8699951171875,
+      "text": "I'm really appreciate the opportunity.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 64.8699951171875,
+      "end_s": 73.51000213623047,
+      "text": "And uh yeah, the my presentation is future proof your agents program front with DSPI.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 73.51000213623047,
+      "end_s": 84.30999755859375,
+      "text": "The idea here is a little bit trying to explain how how why DSPI and uh kind of making a speed run.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 84.30999755859375,
+      "end_s": 91.11000061035156,
+      "text": "This is a very lots of slides, so I hope I can get you the end so we can answer some questions.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 91.11000061035156,
+      "end_s": 93.82999420166016,
+      "text": "But before that, my name is Bruno Brito.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 93.82999420166016,
+      "end_s": 95.2699966430664,
+      "text": "I'm from Brazil Brazil.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 95.2699966430664,
+      "end_s": 99.50999450683594,
+      "text": "I'm a machine learning engineer, data science scientist.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 99.50999450683594,
+      "end_s": 103.66999816894531,
+      "text": "Um I'm also uh technical meetup host.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 103.66999816894531,
+      "end_s": 112.06999969482422,
+      "text": "Also uh I I have a book on Bitcoin because I also work in lots of Bitcoin companies.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 112.06999969482422,
+      "end_s": 114.79000091552734,
+      "text": "This is also a main point of interest.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 114.79000091552734,
+      "end_s": 124.79000091552734,
+      "text": "Um, this is my information is always Brandon RB. in X in LinkedIn Gmail, so you can reach me out later.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 124.79000091552734,
+      "end_s": 128.14999389648438,
+      "text": "Um, so let's get into it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 128.14999389648438,
+      "end_s": 130.47000122070312,
+      "text": "Um just table contents.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 130.47000122070312,
+      "end_s": 140.38999938964844,
+      "text": "We are starting with uh some context, and then we're going to dive deep inside yes by and explain um basically everything.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 140.38999938964844,
+      "end_s": 142.38999938964844,
+      "text": "So let's get into it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 142.38999938964844,
+      "end_s": 143.8300018310547,
+      "text": "So context.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 143.8300018310547,
+      "end_s": 149.8300018310547,
+      "text": "Um several projects that I've been doing since2023.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 149.8300018310547,
+      "end_s": 158.79000854492188,
+      "text": "Um they usually lots of people advise not to use any framework, however, I kind of disagree a little.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 158.79000854492188,
+      "end_s": 165.50999450683594,
+      "text": "There's lots of things that I don't think it's good that we have to re-implement.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 165.50999450683594,
+      "end_s": 171.11000061035156,
+      "text": "However, every framework that I was using, um, they were opaque.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 171.11000061035156,
+      "end_s": 176.7899932861328,
+      "text": "Um, and LLM is just strings in, strings out, like most of them.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 176.7899932861328,
+      "end_s": 184.79000854492188,
+      "text": "There's of course multimodal, but let's focus right now just the the just text ones.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 184.79000854492188,
+      "end_s": 198.47000122070312,
+      "text": "So if I don't know what's got in what's getting me, it's difficult to steer the model to make it um it turns out the the best things possible.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 198.47000122070312,
+      "end_s": 205.989990234375,
+      "text": "So the the most of the frameworks that I tried were very opaque, it's hard to version as well.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 205.989990234375,
+      "end_s": 210.6300048828125,
+      "text": "There's um you're building uh writing prompts and testing prompts.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 210.6300048828125,
+      "end_s": 227.19000244140625,
+      "text": "Sometimes you're testing so so much that you get the worst prompt that you started, but you didn't save because it's kind of it's not good to be uh commiting everything in in Git.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 227.19000244140625,
+      "end_s": 230.07000732421875,
+      "text": "It's kind of uh hard to do it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 230.07000732421875,
+      "end_s": 233.989990234375,
+      "text": "So it's a it's a not so good thing.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 233.989990234375,
+      "end_s": 238.30999755859375,
+      "text": "Also, almost all frameworks they have hard coded prompts.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 238.30999755859375,
+      "end_s": 257.510009765625,
+      "text": "So all this um framework set you just like write a line and the the it's ready to use agents, they have lots of right hard coded prompts, and this is this can work best for one model than to another.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 257.510009765625,
+      "end_s": 273.2699890136719,
+      "text": "Uh you know, some models work better with if the prompt in the library updates when you update the library, this could be bad for your system.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 273.2699890136719,
+      "end_s": 275.9100036621094,
+      "text": "It can maybe not work so well.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 275.9100036621094,
+      "end_s": 281.19000244140625,
+      "text": "Um and also it's hard to inspect evaluates debug uh intermediate steps.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 281.19000244140625,
+      "end_s": 283.510009765625,
+      "text": "Sometimes they are doing lots of things.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 283.510009765625,
+      "end_s": 297.66998291015625,
+      "text": "I thought so with some companies they are doing this, they the the models are doing so much that they cannot even understand what they're doing, so it's really hard to scale the system.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 297.66998291015625,
+      "end_s": 340.95001220703125,
+      "text": "And but also prompting itself is a problem inside a prompt, a prompt is basically a huge wall of text, and we have input structuring, uh an inference strategy, output structuring, uh context definition, demo tasks, and other things, but also every time there's a every week we get a new state of the art model, and uh but the models they they require um um different prompting techniques, um most of the models, lot lots of models, they release also a guides to bet bet bet bet bet bet bet bet bet bet better prompt the model.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 340.95001220703125,
+      "end_s": 355.8800048828125,
+      "text": "So you have to to if you change your your model, you have to like redo all these work on prompting, and also uh they can require new prompting strategies, they can require new structure.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 354.0,
+      "end_s": 356.54998779296875,
+      "text": "They can require new structures.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 356.54998779296875,
+      "end_s": 418.8699951171875,
+      "text": "Even the two definitions can uh we can get new structures, and uh we can we we we we we we we we we we need we we we can maybe need to reward and there's always the bitterness and uh applied for prompting that AI may be better pro bet better testor than you so what I the the the the main idea here is maybe instead of wasting your system design time rewarding prompts um maybe you don't you shouldn't waste your system design time rewarding prompts you should like work on your system and then you improve your prompts uh you optimized later so like you get a huge prompt how do you even maintain this like this is completely different from every kind of um engineering perspective um so and how this is why I like the SPI so much.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 418.8699951171875,
+      "end_s": 423.510009765625,
+      "text": "DSPI stands for declarative self-improving Python.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 423.510009765625,
+      "end_s": 431.510009765625,
+      "text": "I took me years for me to learn, but the documentation is improved since then, and it's way better to understand now.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 431.510009765625,
+      "end_s": 440.07000732421875,
+      "text": "And also I'm bringing this digest, and it's hopefully it will be really easy for you as well.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 440.07000732421875,
+      "end_s": 446.7099914550781,
+      "text": "So basically um the there's three there's four main abstractions.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 446.7099914550781,
+      "end_s": 451.66998291015625,
+      "text": "We have signatures, we have modules, we have adapters, and we have optimizers.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 451.66998291015625,
+      "end_s": 629.27001953125,
+      "text": "So in this picture that I'm showing to you, um we the signature is basically the task or the intent, the input output, and uh we read this task in the inference strategy, which is a module, and the adapter formats the signatures and modules together. to get it into a prompt initial prompt and uh this is basically it and you can use it as it is you can create more modules and stack each other but also there's this optional part where you can optimize your prompts and we'll get there and understand uh how it all work out but it's this is a very um systems engineering uh practice so first of all we get the signature is a task is what you want the model the the the the the model to do it's the intent that you want it's just inputs and outputs so the the signature is this blue part over here and uh when we put this into uh into a code it's basically this is this small string here that I put tweet in the input and uh happy in the output and I also put uh an optional type that I said that oh the happy is a boolean so that's it I'm going to input the two tweet and I'm going to get happy as output and which is a boolean so it's true or false and uh so that's it you already know how to use DSP thank you for coming to my lecture um I'm kidding there's uh a little bit more but this is the basics that you can already do so many things with it so there's of course a little bit of setup basically one line to choose your model and uh and another line to use this instantiated object so you can re utilise reutilized this uh using lots of different tweets and it gives us a prediction object which is happy equals true so it's uh very simple in three lines you have your product uh your your your your your your your your your your your model working and of course we can get a little bit more complex instead of just like happy boo we can also put confidence float so now we have we input I'm so happy today and we get their our our our our our our our our our our response is a prediction object with happy equals true and confidence equals0 point uh0.95",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 629.27001953125,
+      "end_s": 723.8300170898438,
+      "text": "and uh we can check the types and the types are correct output is boo and the class of uh the output of happy uh the class of happy is bull the and also the type of confidence is float so this oh everything that it's we cannot see on the on this on the this library the spy is everything that you don't need to see it's just making sure that you get uh uh the correct type you get the correct structure you get uh uh uh uh uh uh uh uh uh uh uh uh a good structure every time the uh the types that you want every time so that's basically you don't need to think about it so let's get the little bit more complicated a little bit more complex um so let's say um I want to I'm getting an email and I want to get a list of tech uh tasks that email send me so I put uh my input is today which is a string uh email which is a string and then task which is a list of strings and then the deadline which is a string uh nice thing that in this example is that by how you define uh how you name your variables, for example, deadline YY M DG, the model will out to output put this to you.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 723.8300170898438,
+      "end_s": 738.7100219726562,
+      "text": "Look here that I didn't say anything about uh I I didn't uh made any scaring I could use Pydentic, for example, and say that I want exactly this output, but I didn't.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 738.7100219726562,
+      "end_s": 756.1500244140625,
+      "text": "But since this is going inside the model, uh the the model, of course, will understand the deadline y mm d is that I want a date, which is the deadline and uh a year, month, and day.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 756.1500244140625,
+      "end_s": 759.1099853515625,
+      "text": "So that's exactly what I get here.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 759.1099853515625,
+      "end_s": 762.469970703125,
+      "text": "Uh already formatted as I wanted.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 762.469970703125,
+      "end_s": 779.1900024414062,
+      "text": "Of course, so we can uh make another uh uh uh uh uh uh uh uh uh uh uh validation stage, but for most cases uh, especially in the beginning, it works wonders, and it's very very good already out of the box.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 779.1900024414062,
+      "end_s": 809.5899658203125,
+      "text": "And uh okay, but if I have lots of inputs and lots of outputs, uh I would have to have a uh a really big string here, and we are getting into the first problem again, and of course not uh we can use a class, a signature class, and uh we can structure a little bit more and have uh uh uh uh uh uh uh uh uh uh uh more information in this signature in this task, what you want.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 809.5899658203125,
+      "end_s": 837.510009765625,
+      "text": "So basically the doc string is part of the code, so the doc string is an instruction that goes into the into your model, it's important for you to know that there's also input, which is just an input field, it's it's very it's basically the same as uh Pydenic field, and uh so the attachments here we can have a more complex um type.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 837.510009765625,
+      "end_s": 845.9099731445312,
+      "text": "So for example, here is a dictionary of strings in mapping into DSP.image,",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 845.9099731445312,
+      "end_s": 849.030029296875,
+      "text": "so we can input an image here.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 849.030029296875,
+      "end_s": 856.5499877929688,
+      "text": "Uh we don't need to make lots of different conversions, so this works also for images and for audio.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 856.5499877929688,
+      "end_s": 864.7100219726562,
+      "text": "There's types for that, and you can easily work with them without using lots of boilerplates.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 864.7100219726562,
+      "end_s": 896.1500244140625,
+      "text": "It what I like from DSP is that it abstracts all of your boilerplate boilerplates, and of course the outputs, so we get a list of events, we can define the events in another uh as a class somewhere else and use it, and also the action items with uh with the action, and also the the priority, which I put here as literal.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 896.1500244140625,
+      "end_s": 901.4299926757812,
+      "text": "So I will also uh I will always get P0 P1 and P2.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 901.4299926757812,
+      "end_s": 920.22998046875,
+      "text": "So this is this also steers my model to specific outputs and uh specific types, and I can for example if I'm doing a classification, I can use literal and use the classification here, so I know that it will never invent a new classification for me.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 920.22998046875,
+      "end_s": 925.510009765625,
+      "text": "It will always output this type here that I just got it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 925.510009765625,
+      "end_s": 950.7899780273438,
+      "text": "So uh you could put an inum, for example, and so this is amazing for me, and of course, there's uh this desk, which is description, so we can uh explain a little bit to the model what your what is the input, what you want for the output, uh so you can have a little bit more. specific um details on this.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 950.7899780273438,
+      "end_s": 957.030029296875,
+      "text": "Okay, so that was everything on signatures, uh basically almost everything.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 957.030029296875,
+      "end_s": 959.27001953125,
+      "text": "And uh what are modules?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 959.27001953125,
+      "end_s": 963.9099731445312,
+      "text": "Module are inference strategies, but also building blocks.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 963.9099731445312,
+      "end_s": 967.4299926757812,
+      "text": "Um what is an interest struct strategy?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 967.4299926757812,
+      "end_s": 973.5900268554688,
+      "text": "So we were so the it's the this blue part and this yellow part.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 973.5900268554688,
+      "end_s": 979.989990234375,
+      "text": "Uh I just showed you some code that use this DSP.prodict",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 979.989990234375,
+      "end_s": 982.1500244140625,
+      "text": "and struct events.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 982.1500244140625,
+      "end_s": 998.1500244140625,
+      "text": "So predict is the most basic simple module that exists, uh, but it's also an infrastructure strategy, which is basically not using any inference strategy, you just like prompt your model, and that's it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 998.1500244140625,
+      "end_s": 1004.469970703125,
+      "text": "Uh however, you can use other kinds of infrastructure like chain of thoughts.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1004.469970703125,
+      "end_s": 1008.22998046875,
+      "text": "So the model will use the chain of thoughts.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1008.22998046875,
+      "end_s": 1035.030029296875,
+      "text": "Uh you can use this batch module that is a little bit more complex, um module that will get these email threads and and um running parallel models of you can you can run as many as you want depending on your computer and what you want, but you can run lots of uh things in parallel.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1035.030029296875,
+      "end_s": 1047.3499755859375,
+      "text": "So this is tractor is your is your instance, and you can use batch and uh to to use lots of email threads instead of just one at a time.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1047.3499755859375,
+      "end_s": 1057.18994140625,
+      "text": "Also, we can use react, so you change just one line here, one methods, and now you got an agent.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1057.18994140625,
+      "end_s": 1081.6700439453125,
+      "text": "So you use here your react, you can give tools, tools are basically Python. functions, you don't need to wrap them in any thing, you don't need to put them inside a uh decorator or in a special function or do anything, just write a Python function and you put here and it's a tool you can use it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1081.6700439453125,
+      "end_s": 1138.469970703125,
+      "text": "Best of n it run n times this is three, for example, you run extractor n times, and then you it gets you the the the best one according to this rear reward function that you can just invent here is just another python function, and uh so each and every one of these is a module prediction of thought react best of n so and uh it's very it this is a very simple uh thing, but you can do a little go a little bit more complex, just like we did in signature, we can use a class uh in from from from from from from from from from from from the SPY module, and uh if you're looking at this, if you use PyTorch, it's very similar to what you use before in PyTorch.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1138.469970703125,
+      "end_s": 1144.8699951171875,
+      "text": "You have uh init class uh uh init methods and uh forward methods.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1144.8699951171875,
+      "end_s": 1161.27001953125,
+      "text": "So basically you declare what you are going to use in it, and then you use it in forward, and uh so this is the hop methods that use this um thing here, and it gets claim here.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1161.27001953125,
+      "end_s": 1185.27001953125,
+      "text": "You can see that in forward it uses claim, so you just use hop claim equals to, and you pass what you want, and uh it will do this logic over here and give you back what you want, and uh this is very cool because when you're we are in the next phase. um in the optimizer section.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1185.27001953125,
+      "end_s": 1194.469970703125,
+      "text": "We will see that we don't need to optimize every prompt in every um for every signature.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1194.469970703125,
+      "end_s": 1196.7900390625,
+      "text": "We optimized the program.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1196.7900390625,
+      "end_s": 1202.8699951171875,
+      "text": "So we don't want uh overly optimized task.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1202.8699951171875,
+      "end_s": 1215.18994140625,
+      "text": "We want uh an optimized system, we want to everything to work really well considering the other parts to get the best response possible.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1215.18994140625,
+      "end_s": 1233.989990234375,
+      "text": "So this is what uh so when we optimized we we we we we we we we we we can optimize this high order module here that will optimized everything inside for you automatically so you don't need to think about saying this is this is very good.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1233.989990234375,
+      "end_s": 1262.31005859375,
+      "text": "Um okay so but I was telling you about like how the other ones are bad they are opaque we cannot see what the prompts are so let's take a look into adapter so we understand what is going on what is the actual prompt so we have signatures that we wrap them in modules and uh we use adapters to format them into prompts.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1262.31005859375,
+      "end_s": 1274.550048828125,
+      "text": "Uh so when we don't say any when when you the default adapter is the chat adapter, when you don't define any adapter, this is the one that it's going to use.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1274.550048828125,
+      "end_s": 1284.949951171875,
+      "text": "So for example, using this context manager here, we can use that uh old tweet sentiment uh program, really simple one.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1284.949951171875,
+      "end_s": 1293.3499755859375,
+      "text": "I can uh ask it to generate some some some some some some some some some some some kind of response, and I can use this yespy.spect",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1293.3499755859375,
+      "end_s": 1417.56005859375,
+      "text": "history and see what went inside the the model and what the model um spit it out so this is uh what the model formats it so i just insert tweet goes to happy which is a boo and hope this which is a float and it creates all this system message and all this user message here and we get this response here and that's how it can parse and everything and have it structured for us and uh I'm not going to spend a lot of time here because it's kind of simple and you don't need to actually uh look too much at it because we're going to optimizers and you understand why but there's a JSON adapter so it will try to format things in JSON uh some models work better in JSON some other models work better in XML so you can use it to give you this format here um but also there's this very interesting one with a which is a two step adapter it will format not only the system message but also the user message uh with instructions so it's more um um it it usually adheres to your to your prompt better if you're doing some very complex thing uh sometimes you need to use the two step adapter and it will work um instead of the other ones so this is uh it's a maximum hearing force let's say like this but also you can create your own uh adapters but it's a little bit complicated at the moment but um uh uh usually the the those one work so okay we uh we we we we we we we we we we're now in optimizer phase we are",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1416.0,
+      "end_s": 1427.27001953125,
+      "text": "So is there a phase we already have a program that it work that works that makes uh implements all all of our uh uh uh uh uh uh uh uh uh uh our logic in our system.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1427.27001953125,
+      "end_s": 1431.9100341796875,
+      "text": "So everything is working, but we want it to work even better.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1431.9100341796875,
+      "end_s": 1443.1099853515625,
+      "text": "Uh maybe we'll we want to change models and and try a little bit better, uh change strategies from predict to chain of thoughts and other things like this.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1443.1099853515625,
+      "end_s": 1458.7099609375,
+      "text": "So one way to do it is uh I believe maybe the best way to do it is going to optimizers, and uh first of all, um let's explain just a little bit what we done we need.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1458.7099609375,
+      "end_s": 1463.8299560546875,
+      "text": "We we we need of course a data set, which is basically an example.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1463.8299560546875,
+      "end_s": 1480.469970703125,
+      "text": "Uh we it's the spy dot example, and we put the inputs and the outputs uh here, and we define we give to the model what are the actual inputs, and after we have this data set, of course, we need to evaluate.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1480.469970703125,
+      "end_s": 1488.8699951171875,
+      "text": "We need if we want to optimize, we need to evaluate how it was and how it is now after optimizing.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1488.8699951171875,
+      "end_s": 1496.6300048828125,
+      "text": "So there's this evaluation um part of the library where you can put the uh uh uh uh uh uh uh uh uh uh your set.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1496.6300048828125,
+      "end_s": 1501.030029296875,
+      "text": "Uh you can do it in parallel, and uh you give a metric.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1501.030029296875,
+      "end_s": 1507.1099853515625,
+      "text": "Again, the metric is just a Python function, it's very very simple.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1507.1099853515625,
+      "end_s": 1513.3499755859375,
+      "text": "Um so this is a simple, very simple LLM as a judge.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1513.3499755859375,
+      "end_s": 1523.5899658203125,
+      "text": "I put the judge here, and I I just use it to output this uh uh if it's similar and how confidence it is.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1523.5899658203125,
+      "end_s": 1533.75,
+      "text": "So this is just uh a uh simple example, but now let's go to the actual uh to the to the actual optimization strategies.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1533.75,
+      "end_s": 1540.550048828125,
+      "text": "So the simplest one. it's bootstrap few shot.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1540.550048828125,
+      "end_s": 1556.550048828125,
+      "text": "Uh everyone that knows prompt uh engineering knows that the simplest way to improve your prompt is give some is to give some demo some examples, which is known as few shot prompting.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1556.550048828125,
+      "end_s": 1560.7900390625,
+      "text": "So this is an automatic way to do a few shot prompting.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1560.7900390625,
+      "end_s": 1565.510009765625,
+      "text": "It selects the best.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1565.510009765625,
+      "end_s": 1578.0699462890625,
+      "text": "And it selects the best examples to use in your in your prompts, and uh it uses it compiles and adds as a demo inside your program.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1578.0699462890625,
+      "end_s": 1582.6300048828125,
+      "text": "Um the second one is a micro is a little bit more complex.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1582.6300048828125,
+      "end_s": 1612.8699951171875,
+      "text": "I won't get into the detail, I just want you to know that it exists and you can then study it later, but basically it's a multi-prompt instructional proposal optimizer, so it gives a lot of lots of different uh prompts and instructions, and it proposed lots of prompts and and it tries it out, and there you can give a teacher then will help to steer um the the how it will improve your prompts.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1612.8699951171875,
+      "end_s": 1623.27001953125,
+      "text": "Also there's FIMA, which is fantastic introspective mini bash sense, which is something like the the other one.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1623.27001953125,
+      "end_s": 1645.27001953125,
+      "text": "Uh uses some uh a little bit of base, but also you give some you give your program, you have the student, you can have a teacher, and then uh some metric, and it will generate lots of um instructions, lots of prompts, and uh try the best ones according to your metric.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1645.27001953125,
+      "end_s": 1653.6400146484375,
+      "text": "And gip uh lots of people are talking about gip uh um it's also the same thing, but it's uses a genetic pareto.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1652.0,
+      "end_s": 1654.550048828125,
+      "text": "The genetic Pareto.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1654.550048828125,
+      "end_s": 1660.6300048828125,
+      "text": "But also you should read about it in the documentation in the website later.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1660.6300048828125,
+      "end_s": 1673.510009765625,
+      "text": "But what I think it's very very interesting, not saying that this is the best thing, but it's if we want to optimize.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1673.510009765625,
+      "end_s": 1678.22998046875,
+      "text": "We can uh make a fine tuning because fine tuning is the same.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1678.22998046875,
+      "end_s": 1686.31005859375,
+      "text": "We give examples, uh inputs and outputs, and we run some some some some some some some some some some some codes and optimize our system.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1686.31005859375,
+      "end_s": 1729.5899658203125,
+      "text": "So we can do this uh for uh this this we can use this boost bootstrap fine tune and actually have a fine tuning um update your weights in of your system not only the your prompt so you you you you you you you you you you you can use both for example you can update your the the weights and also the prompts but also you can use for example GRPO which is which was made very famous by DeepC uh it's it seems very big, but actually it's just you define your variables, you instantiate the class, and then you run the optimizer.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1729.5899658203125,
+      "end_s": 1732.0699462890625,
+      "text": "It's the same, it's it's simple.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1732.0699462890625,
+      "end_s": 1752.469970703125,
+      "text": "The the complex part is just the variables that you need to to work it out, but it's it's it's inside the library, you can just run it, and uh so it your you have inputs and outputs, you can you can do whatever you want it, you're not restricting just to prompting.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1752.469970703125,
+      "end_s": 1756.949951171875,
+      "text": "So this is something that I find very interesting from JSPI.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1756.949951171875,
+      "end_s": 1761.3499755859375,
+      "text": "And of course, don't forget to save your program, you can use save and load.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1761.3499755859375,
+      "end_s": 1767.3499755859375,
+      "text": "Um so with JSPA, you can easily keep up with the latest stack.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1767.3499755859375,
+      "end_s": 1791.75,
+      "text": "You just change a line, you change the strategy, you change the test, you add a little bit more, and you can version it, you can uh keep it future proof, just like you maintain software, uh, you can maintain your AI software without needing to uh have all the wall of text that is so complicated to maintain.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1791.75,
+      "end_s": 1792.8699951171875,
+      "text": "So that's it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1792.8699951171875,
+      "end_s": 1793.8299560546875,
+      "text": "Thank you so much.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1793.8299560546875,
+      "end_s": 1801.6700439453125,
+      "text": "If you want to try uh this this code, uh I have it here in this link that you can follow.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1801.6700439453125,
+      "end_s": 1809.18994140625,
+      "text": "You can follow me on on on Twitter, send me an email, and I will try to answer if you do it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1809.18994140625,
+      "end_s": 1811.75,
+      "text": "Thank you so much.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1811.75,
+      "end_s": 1814.0699462890625,
+      "text": "Thank you, Breno, for this great presentation.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1814.0699462890625,
+      "end_s": 1820.280029296875,
+      "text": "We really appreciate it, and I hope everyone has a wonderful day, and please continue to join us for sessions.",
+      "speaker": "S1"
+    }
+  ],
+  "speaker_diarization": {
+    "backend": "FluidInference/speaker-diarization-coreml via fluidaudiocli process --mode offline",
+    "detected_speaker_count": 3,
+    "segment_count": 42
+  }
+}

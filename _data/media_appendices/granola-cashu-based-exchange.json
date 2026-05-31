@@ -1,0 +1,155 @@
+{
+  "items": [
+    {
+      "id": "granola-cashu-based-exchange",
+      "slug": "granola-cashu-based-exchange",
+      "label": "Transcricao diarizada",
+      "source_label": "YouTube",
+      "source_url": "https://www.youtube.com/watch?v=Lq_zZx2cBXk",
+      "stats": {
+        "line_count": 23,
+        "speaker_count": 1
+      },
+      "lines": [
+        {
+          "timestamp": "00:00",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=0",
+          "speaker": "SPEAKER_01",
+          "text": "Hello, ladies and gentlemen, boys and girls, thank you very much."
+        },
+        {
+          "timestamp": "00:03",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=3",
+          "speaker": "SPEAKER_01",
+          "text": "We are here all bitcoiners, and uh we are really grateful for Bitcoin because it gives us an inflation hedge."
+        },
+        {
+          "timestamp": "00:12",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=12",
+          "speaker": "SPEAKER_01",
+          "text": "It's a barrier asset, so it's hard to confiscate."
+        },
+        {
+          "timestamp": "00:15",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=15",
+          "speaker": "SPEAKER_01",
+          "text": "It's also resistant to censorship, but privacy, we need to improve on that."
+        },
+        {
+          "timestamp": "00:22",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=22",
+          "speaker": "SPEAKER_01",
+          "text": "So we have financial surveillance and it's getting stronger everywhere here in Brazil, for example, all trades go to IRS using exchanges, um, and it's going only to get worse, and uh that's why we built granola, the first cashu based exchange."
+        },
+        {
+          "timestamp": "00:43",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=43",
+          "speaker": "SPEAKER_01",
+          "text": "So just like Grenola is made of different nuts and uh cereals and other things, our granola is made of multiple cash means for multiple assets."
+        },
+        {
+          "timestamp": "00:58",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=58",
+          "speaker": "SPEAKER_01",
+          "text": "So when you deposit there, you can trade inside using atomic cross bean swaps orchestrated on Australia."
+        },
+        {
+          "timestamp": "01:08",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=68",
+          "speaker": "SPEAKER_01",
+          "text": "And this way it gives you the same privacy uh regular cash mean does, and it this is this happens because chalman e cash is currency agnostic."
+        },
+        {
+          "timestamp": "01:21",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=81",
+          "speaker": "SPEAKER_01",
+          "text": "So we integrate means with the root assets and liquid, so users can use stablecoins negatively, or if they have pure fields, they can work through our banking partner."
+        },
+        {
+          "timestamp": "01:34",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=94",
+          "speaker": "SPEAKER_01",
+          "text": "So we don't even need to know who are dealing with it here."
+        },
+        {
+          "timestamp": "01:40",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=100",
+          "speaker": "SPEAKER_01",
+          "text": "So yeah, uh, we want to have off the line transactions, we want to be completely open source, and uh we want to release we are going to release on Q1 uh better release and Q3."
+        },
+        {
+          "timestamp": "01:54",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=114",
+          "speaker": "SPEAKER_01",
+          "text": "We expect to create also a liquidity pool and an automated."
+        },
+        {
+          "timestamp": "01:58",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=118",
+          "speaker": "SPEAKER_01",
+          "text": "People an automated market maker using um using this technology."
+        },
+        {
+          "timestamp": "02:05",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=125",
+          "speaker": "SPEAKER_01",
+          "text": "So my name is Brito, my name is Bruno Brito."
+        },
+        {
+          "timestamp": "02:08",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=128",
+          "speaker": "SPEAKER_01",
+          "text": "There uh Luis Schwab is the developer of the team, and uh so let's show the demo."
+        },
+        {
+          "timestamp": "02:17",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=137",
+          "speaker": "SPEAKER_01",
+          "text": "So here uh we've made the fork of Cashu.me"
+        },
+        {
+          "timestamp": "02:22",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=142",
+          "speaker": "SPEAKER_01",
+          "text": "and uh let's put something here like a hundred thousand sets for70,000 USD."
+        },
+        {
+          "timestamp": "02:31",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=151",
+          "speaker": "SPEAKER_01",
+          "text": "So let's create this order."
+        },
+        {
+          "timestamp": "02:33",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=153",
+          "speaker": "SPEAKER_01",
+          "text": "The order is successfully created, and uh as you can see it's right here, and uh there's another order here, so let's take this order2200 euros for uh six uh sixty five hundred thousand sets."
+        },
+        {
+          "timestamp": "02:53",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=173",
+          "speaker": "SPEAKER_01",
+          "text": "So let's take the order confirm sweep, yeah."
+        },
+        {
+          "timestamp": "02:58",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=178",
+          "speaker": "SPEAKER_01",
+          "text": "And that's it."
+        },
+        {
+          "timestamp": "02:59",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=179",
+          "speaker": "SPEAKER_01",
+          "text": "We got this order, so that's how it works."
+        },
+        {
+          "timestamp": "03:03",
+          "href": "https://www.youtube.com/watch?v=Lq_zZx2cBXk&t=183",
+          "speaker": "SPEAKER_01",
+          "text": "Thank you."
+        }
+      ]
+    }
+  ]
+}
