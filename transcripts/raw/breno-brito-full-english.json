@@ -1,0 +1,1512 @@
+{
+  "input_source": "/Users/breno/Documents/code/SITES/brenorb.github.io/transcripts/source_cache/breno-brito-full-english.webm",
+  "model_dir": "/Users/breno/Library/Application Support/fast-transcript/models/parakeet-tdt-0.6b-v3-int8",
+  "audio_path": "/Users/breno/Documents/code/SITES/brenorb.github.io/transcripts/source_cache/breno-brito-full-english.webm",
+  "prepared_audio_path": "/var/folders/vy/s9lbsy291glb0pzd3ynyjtrw0000gn/T/.tmpw5cRms/breno-brito-full-english.16k_mono.wav",
+  "used_ffmpeg_normalization": true,
+  "used_local_model": true,
+  "transcript_source": "local-audio-local-model",
+  "audio_seconds": 3010.8154375,
+  "load_seconds": 1.067088875,
+  "transcribe_seconds": 440.208186378,
+  "total_inside_seconds": 441.275275253,
+  "seconds_per_audio_second": 0.1465633760730975,
+  "realtime_speedup": 6.822986934343385,
+  "text": "Welcome to the first of a series of interviews I'm gonna be making with some people I admire to some capacity. Today I have here with me an author, a father, a known carnivore and bitcoiner, and a good friend, Breno Brito. Breno, how are you doing today, brother? Yeah, um, well, I'm I'm extremely honored to be invited to be your first person ever here. So uh I'm I'm actually really really happy uh uh about it. Nice, man. It's great to have you here. But anyway and I have worked together in the past translating the fiat standard. It was a uh uh uh uh uh uh uh uh uh uh it was we met there, right? Translating the fiat standard, right? Yeah, that's one. That's the one. Yeah, yeah, now I have all the books here, almost all. I there is uh there's one that I don't have it here, which is the little bitcoin book. Um, but um I I now I'm I'm doing some some job interviews, so so it's always great to show oh. I I wrote this book, I translated his other books. By the way, show me show me the book you wrote. 1001 questions about bitcoin. Yeah, 1001 questions about bitcoin. It's uh it's a book full of uh questions and uh a little bit of figures, images. Um some questions, some answers are are uh uh are a little bit longer, but like two, three, four pages stops. Usually it's a very short, concise, and direct to the point, straight to the point and sort of. Perfect for beginners. I'm gonna leave the link uh for your Amazon page so people can buy your book over here, and you definitely should buy. I have a I have already read it, so I can attest to it. It's quality. By the way, my first question, man, is about this book. Like you've written a book, right? This is something that many people get owed, and they say, Oh, I wish I had written. And and they say, Oh, I wish I had written a book in my life. And you actually did. How was that, man? How how did you decide to write, and how was actually writing it? Yeah, um, it was kind of it was awesome writing it. It was really you know when you um I don't I don't know about most people. I I can't say I'm I was always uh I was always the the strange person in my class, so I so I can't say like oh everyone wants this so I I'm not really sure about that, but um after a while uh about reading, studying, thinking and and talking to people, uh specifically about Bitcoin. I have uh opinions about lots of other things, but specifically about Bitcoin, which I'm I delve into since 2017, and I'm in love and and working with it since then, uh for the for the last seven years. So I I saw things uh uh uh uh people uh nowadays, even nowadays, people have trouble to understanding Bitcoin, it's uh always very difficult. Uh like there's like some some people who are huge bitcoiners, but there's pauses, doesn't they don't know almost anything, and and they cannot um teach properly. They they they cannot explain properly because it's it's actually a hard thing, it's it's not that easy, uh, but this is something that I really like. It's getting something that is really hard and and breaking it down, and and trying to put it together as simple as possible, like that, like deconstructing. it to to like so so so so so so so so so so so any layman can can look and get it from the start so so so this is this is something that i i i write uh i like a lot because this is how i actually think stuff i i'm really bad at remembering so so so so i i try to deconstruct stuff and think from from from from from from from from from from from the first principles oh um i i i went far from from from from from from from from from from from the the no worries that was actually my next question so you're you're doing great don't worry yeah and uh so when i so uh um there is this saying oh you need uh to to plant a tree have a uh uh uh uh uh uh uh uh uh uh kid and and and write a book and uh i i i was never i i i find it's interesting but after a while of thinking about like oh they they they they they they could answer this in this particular way which i think it's better for people to understand uh uh uh uh uh uh uh uh uh uh there is this is a little bit of a me con mis misconception uh uh uh I never saw this particular view expressed in a book uh uh uh uh usually a book for example the one uh uh uh uh uh uh uh uh uh uh Bitcoin standards uh uh this book is great it's it's one of the best books uh about Bitcoin but I I've seen people that read it and didn't get it they they they they read it okay I understand the the the economics part but whatever my my my currency is not that that that that that that that that that that that bad I can send uh money to Japan I talk to my personality broker in my bank and I I I pay only a hundred dollars to do it so it's it's very cheap for me because I'm rich and uh and and so so so so so so so so so so so they they really don't get it and uh they they they they they they they they they they they they they they that and uh they they they they they they they they they they they they they they they they they they they they don't get uh they they they they they they they they they they they have like this their particular bubble and uh they if if if if if if if if if if if you present just one side of the thing they they they they they they they they they they they are going to look for this one side apply to them and they won't get it so uh in all the books are are focused on a specific thing like there's one to explain the technical part there's one to explain the economics part there was one to explain so so I wanted to do one that would um that would express all these uh uh these things inside of me that I I wanted that people knew more about uh the this uh perspectives these ways to understand the technology to understand the the as a currency as a technology as culture as uh as contract as uh I I I bring lots of different kinds of uh of ways uh into into into into into into into into into into into this book and I wanted to to express which I believe it's it's something that would help people understand it better it would it would raise the the the level of uh of this the discussion about it and uh and but I I didn't know actually how I I had this idea okay I have I have lots of um unstructured thoughts so I I and I I I want to express it and I don't know how and I was like I I had actually more or less two ideas of books before actually getting this one and uh it I I'm not sure if they were great ideas I I just wanted to like contribute to to the bitcoin ecosystem because they they always help me so much and I I I think it's a great exchange And I I think it's a great exchange to give something the more I give, the more I I get it back, and and especially if I'm not uh the more I give without expecting anything, the more I get it back. I if I if I am expecting anything, it's it's uh it's a terrible, but we can get into this discussion later. Um but um but I I I wanted to contribute. I I saw people have doing great projects, really really great uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh articles, books, and I I have written some articles, but a book is a huge thing. So when I was working in Mercado Bitcoin, uh my friend Claudio Habin, which is his uh editor chief, chief editor, chief editor in uh Portal do Bitcoin, which is uh the uh one of the biggest uh crypto portals, bitcoin and crypto portals in in Brazil, and uh he's he I was telling him, Oh, I I'm I'm thinking about writing a book. I don't know, I have some ideas, and he said, Oh, there is a project here, and I have these ideas here. Uh I want to do uh 101 questions about Bitcoin, and uh it's just an idea, and I and this was Friday, and I said, Okay, consider it done. So this was Friday. Uh I was in São Paulo, I went to Brazil, uh to Brazilia, actually. Sorry, I went back to Brazilia, and uh in during Saturday, I wrote I sat down and wrote 160 questions. You did it all in one set, you figured all the questions out. Um not all, because as you you go writing, you you you start I I wrote all the questions. I I told him okay, these are the questions now. We have to select them. Uh this is just one hundred and one, and I I wrote like 160, and I I had a really huge brainstorm. And uh like I'd say 90 percent of the like 80 90 percent of the questions were done in that Saturday. Uh but just the questions, obviously, not the answers. And then uh, but then as you start writing, you say, okay, um, I need to explain how a transaction what is a block, but if I want to explain it, like if I I I I I I need to explain what is a blockchain, but if I want to explain how is what is a blockchain, I need to uh explain what is a block, and because it's a blockchain, so and and and and and and and and and and what is a block, it's a it's a collection collection of transactions. So so how transaction work in Bitcoin. So so uh there is uh uh uh uh uh uh uh uh uh uh uh while I I was writing, I was discovering the the the logical not exactly logical flaws, it's more chronological flaws. Which okay, uh to to explain this higher level concept. I need to also explain this lower level concept, and uh and uh and then also like okay, um I uh what are the the the the the the the the the the the biggest um um misconceptions people have and so it's uh it's uh I I start looking and then and then of course after writing a good part of it, I sent to some friends, and um what do you think is missing? What do you so lots of people helped a lot? You were one of one of those, and I my pleasure appreciated a lot. Um My pleasure. Appreciate it a lot. I'm very grateful for this. Diego Colin, there's my mother in law, lots of lots of people, uh people who actually understand free bitcoin really well, but also people who have no idea what Bitcoin is, which was really good because I could actually see if they were really understanding uh the concepts that I was trying to portray in the book. I think that was the most important feedback, I believe, right? From people who had no idea, I see. There is something that I hear a lot, man, when we talk about Bitcoin, because as you said, it is a complex topic. Because there are lots of little things you need to grasp. But there are many people who say that the same way people use phones without exactly knowing how they work, people are also gonna be able to use Bitcoin without exactly knowing how they work. And so how do you view that? Do you think that the everyone is gonna want to know what a block is in order to use it, or you think it's gonna be possible for everyone to use it without knowing all that? Um I I completely agree with these people that uh people will be using Bitcoin with all actually this happens today. It does like like even you and me, like there's so much thing there, there's so many things about Bitcoin that we we we we we we we we we we we we we we only know about, only only heard about. We don't even know about, yeah, so so so many. Like I host BitDevs, which is uh for those who don't who don't know, is uh is a place that we go once a month and we discuss bitcoin technology, and like every I am the host, and I every bit devs I know like about 70, if I'm really being like uh it's it like uh in not deep not deep i i i know 70 percent like okay i i can explain more or less like in a really high level setting and being like um i forgot how to say this in english um like uh um generous being generous uh but um i i i in this is me imagine other people that are using bitcoin right now so so this already happens this uh uh uh uh uh uh uh uh uh uh uh uh we we we we we we we we we we we but the thing is uh since bitcoin is so new there is not a uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh best practice where really well established it. So and and also the stakes uh are higher because like for example if you don't need to know uh TCP IP to use internet uh you just open your browser type Facebook.com and or whatever and and browse it but um and and uh so so so so so you don't need to know but also the stakes are are way less uh there's no money to be lost in this case right yeah yeah if if if if if if if if if if if you lose like uh I don't know if you if you lose uh your Facebook account yeah okay it's it sucks but uh it's it's okay but if you lose your life savings this is a whole lot of stuff so I I believe it's kind of uh there's we we we we we we we we we we we need to have like better best practices in and I believe there they will take a little bit longer to to to be developed as well because there are there are new technologies we'll there are there are new technologies will which will help a lot for example um uh uh vaults when we have vaults it will be better better to to keep your your your could uh uh bitcoin in in self custody and uh so anyways this is uh i i but i yeah i believe we don't any any no one needs to like know everything but um i like knowing uh i like knowing more and going and and going deeper and uh there there is a kind of a sweet spot if you if you know if you know enough to be okay it's great and and this is the purpose of the book it's for for for for for for for for for for for someone that that doesn't know anything they they they read the book and they know enough to to be from for this for themselves so they they they they they they now can after reading the book they they they they they they they they they they they can they can read the news and understand if the the the news is bullshit or not because there's lots of bullshit being talked about about this topic uh uh uh it can it can uh go uh find another places to learn more as well and uh and and be able to learn more because the the the most problem when when when when when when when when when when when you're trying to learn something new is the the the the part that you that you don't know you don't know uh yeah because if you know you don't know you you you you you you you you you you you can go you can search in the web and and try to understand but if you don't know you don't know you you you you just you're just lost you you you you you you it's nothing works in in your kind of in desperation yeah you you you you you you you you you you you you mentioned two very interesting things you mentioned about um best practices and the sweet spot between like not super super super super super super super super super super superficial but also not super super deep as well, and I think that's interesting because um and I have fallen into this mistake before when trying to explain Bitcoin to other people. I try like I try to explain what an UTXO is, for example, I think which is a terrible idea, but because it's very new, we don't we still don't have the best practice. Like when I teach English, oh we start with the verb to be. Everybody starts there because it's the easiest part to understand, but we still don't know what is the easiest part to um explain from Bitcoin, right? So it so we don't even know where the sweet spot is, but then your book is gonna be for someone who's looking for the sweet spot, they're not gonna like read the book and become um a Bitcoin core developer, right? They don't need it, they're just gonna know what's happening, right? Yeah, yeah, exactly. I if they want to be a bitcoin core developer, I I put a lot lots of information links for them to learn more. This is not the purpose of the book, so if you want to learn more, it's great. I totally encourage you to, and you can look at here, and it's already pretty well uh uh uh uh uh uh uh uh uh uh written and way better than probably I could ever do go there, and it's great. Uh so but but but but but but but but but but but most people they don't want to be core developers, they they they they they they they they they they they they just want to know what's happening, like uh my my uncle, I was talking to him when I when I launched the book, he told me that um oh this book is perfect for me because I I I I I'm in the I'm I'm in my job, and everybody's talking about Bitcoin, I just shrug. point I just shrug and hide because I have no idea what they're talking about. I I try to be away because I don't want the embarrassment to be the only one that have no idea what they're talking about. So if so this book it will change my life so it so it's amazing it in and it's actually like when I wrote the book I wrote for myself my 2013 myself my 2015 self uh uh uh uh uh uh uh uh uh uh which uh is uh Bruno in the university I was graduating from electrical engineering I knew about bitcoin and I wanted to learn more about I I actually found lots of uh lots of information I I I met uh Jameson loop more or less at that time uh and uh and uh he had this uh his bitcoin page website he already had a collection of of uh bitcoin information and I opened there and there was so many link so many stuff I was paralyzed I I actually never even clicked one of their links because I I I I I I I I I I I I there was I there was the paralysis of choice there are so many things so many places I I didn't know which one was the best I didn't know how how to choose I didn't know how what I and and and also I didn't know anything about it I I just know it was kind of a quote unquote libertarian coin and uh I was curious about it so I I did I didn't know if if if the links were trustworthy I I didn't know anything about this so it was very all very recent all very new and uh yeah so so so now Yeah, so now if I had this book, I would kind of have a really quick understanding, really quick grasp of the basics. Yeah, I wouldn't be so overwhelmed, and I will be much more confident to understand uh other things. Imagine you are you are like kind of uh uh uh uh uh uh uh uh uh uh uh you're from humanities, you're layman in all tech stuff, and you open uh a web page, and the first thing is that it's saying about UTXOs in uh in a blockchain P2P system, like you you you you you you you just close it, it's it's it's it and you read it and you read it and you read it, and and it's it's using and it gets worse in saying private key, public key, uh cryptography, and blockchains, and and you take exos, and it never explains anyone or any one of these concepts. So you you get like terrified. There's lots of things in technology. I'm uh I'm a kind of hard science guy, uh more of a I like uh I like STEM uh science, technology, mathematics. I I love it, but I I get frozen when I go to to some web pages to learn something about uh uh uh uh uh uh uh uh uh uh uh a new concept, a new technology, and you open it and it's just jargon. It's just jargon. You can't you cannot comprehend anything. You you you you you you you you you you you you you feel you're stupid, and you and you and you don't even like in sometimes you you get one of these jargons and you look for it, and the explanation of this jargon, it's like more jargons, and and more and and some really it's it's really messed up. I I have a really uh almost trauma with uh computer science things because they're they're they're the worst people from all to explain what they do, they they always explain as if the other people already knew what they were talking about. Yeah, it's uh I have the same experience. I I thought you mentioned something very interesting, right? That you had to uh uh follow some links that Jameson Lop directed to, like you you said you didn't know if the links were trustworthy, so I just thought uh you first had to trust so that you could verify it later, right? So I think that is very funny. And kind of you know, bitcoin kind of works a little bit like this, in uh sense. Like, for example, when you run a node, uh you need to connect to other nodes, right? But how to how do you connect to other nodes if you if you don't know any node, if you don't have any information of any nodes, so how bitcoin solves it, and some people um criticizes for it, but I'm not sure if there's a better way, is there is a a set of trusted nodes uh hard coded into the into the system. So you connect first to these trustworthy nodes, and then you from them, you start exploring the the the network, and then you connect to random random nodes, uh, but but but but but but but but but but but yeah you you're trust problem there it's uh it's uh it's a real problem. Yeah, yeah, I don't think it's a problem. I think it's something that is actually good, but in a in a deeper level, but uh I want to touch on something. Uh first uh you mentioned that when you started learning about bitcoin you were first in touch with jameson wap and jan and jameson wap is is he american or canadian i believe he's american he's american right american so you had to start learning about bitcoin in english and i remember that when i started learning even if when you're learning portuguese and i learned on that channel ideas had right from yeah and then he started saying stuff like hash rate blockchain transaction output even if you are learning in portuguese you're gonna have to deal with that so i would like to uh uh ask you a question here which is uh a little bit for my public like would you have been able to learn so much if you didn't have english on your side on that case of course not of course it's it's kind of no the the the the the the the the the the the the the the word is in english it's uh if you if you don't know english you're you're excluding uh seven and a half billion people it's it's uh it's uh if you if you you you you you you you you you you you're excluding yourself you're not like oh they don't have you're excluding yourself to the possibility of seven and a half billion people of knowledge of connections of opportunities of everything it's it's uh like the the the when I was when i like when when when when when when when when when when when i started in bitcoin uh when when when when when when when when when when when i first heard of bitcoin in more or less 2013 there was simply no content in portuguese at all so there was uh kind of there there was like kind of there was like uh one exchange i i i believe mercado bitcoin yeah but um i don't know was was was was was was was was was was was the niel fraga already making videos at that point yeah actually he was but i didn't know the new fraga uh well enough but he was the only voice for big coin in portuguese at that time yeah i uh i he he he he he did something like the he something like podcasts uh at the time we were not calling podcasts i i think but uh it's something like this he was talking like for for for for hours and i hate i hated the this this this this this this this kind of uh uh content the way that not not not not not not not not not not not the content itself but it the structure i i i i i i took years to start enjoying podcasts so i i i never watched uh complete the new fragas video yeah so yeah i did recommend yeah yeah well maybe maybe later i'm now now now now it's uh i i i i don't know if maybe it's kind of outdated or i don't know it's been a while he was a visionary in many ways it's funny that you you you you you you you you you you you mentioned like you you you you you enter bitcoin in 2013 every time i hear stories like that in 2013 i was 15 years old i was playing league of legends like there was no tomorrow you know i wish like oh my god that 15 year old holding should have been i don't know working at mcdonald's to buy bitcoin or something like that it's it's always funny oh um i i i i could have but in 2013 i i actually have an email i can i can send it to you a print please do uh uh uh uh yeah i i i i i i i i I I I I I I I sent to my my girlfriend at the time and I said oh too bad that uh too bad that we took so long it's we we lost the track it's never it's never too late to enter bitcoin yeah We're too late to enter Bitcoin. Very well. Yes. Very well. Yeah, I I said it in 2003. I have the I have the proof. Oh, it's uh it's too late. I uh we we lost it. So it's so uh there was there was already some some there was still faucets where you could get free bitcoin, and uh I I don't remember how much it was zero. zero zero something, or I don't know, I don't remember, but it was oh this is kind of like two cents of hell, it's better to buy, but I also didn't buy because I because I I didn't trust any any exchange. I oh I my money I I they will I I don't I have to understand it better than then buy it because I can lose it, but now that I think like if I just got I don't know uh that time a thousand he is would be a lot for me, maybe, but if I got like I don't know, a hundred five hundred or or something that it wasn't much if I happened to lose and just bought it something in it's uh it would be even if I later lost it, but it would be much better because if I had it, uh when when I first bought it, when I first had something, this I I had the urge to okay. Now I have some bitcoin and I I need to know how to keep it. I had the error to to learn when I had it. So when I when I didn't buy anything, I I was like, Oh, I I need to learn, and then but I didn't, I don't have time right now because I'm in a new job, and and uh but when I had it when I okay, it was 2016. I saw Bitcoin rising, rising, rising, rising, and I said, okay, it's been too long. I I talked with a friend from from tech, and uh and I how do I do it? Uh how what can I do? And he told me some some things, and I I finally bought it, and uh, and it's when I bought it that I I actually went out and learned. And okay, I now now I have no excuse. I like I have I don't know how I I bought the first time I bought it, I bought a hundred dollars, which was at the time 200s. Oh my god, good times, huh? Yeah, yeah, and and that was okay, I have 200 highs. I cannot lose it. I need to and and then I and then I went all I went uh all in in learning, not yeah, you went down the rabbit hole, right? Yeah, yeah, and uh I I like I bought it in December uh 2016, the first time I bought it, and uh in 2017, I was doing I was building a company of uh a bitcoin company, so that's what I call all in. I like to ask you something about that because you said you you took a while to take the first leap into bitcoin. Would you say that bitcoin made you more comfortable or more averse to risk? Because for me, man, like I learned to take the opportunity, but I also leave my money on the hardest asset ever because I don't want to lose it, so it's an interesting like dichotomy. What do you think? Yeah, it's uh it's kind of it's really funny because. you know it's really funny because risk it's a very convoluted um concept because you if you're not risking anything in the short term this is the biggest risk for the long term oh I'm gonna clip that amazing yeah it like for example if you never risk anything you like uh if you don't take I don't know if you don't take maybe one month of sitting down and and uh and learning something to get a better job in the future you you you won't progress your career if you're always in the same job for example if you're always in the same job and uh because you don't want to risk it you don't want to be unemployed and uh and uh and you're doing like the best but like the best way actually to to improve your your your your salary to grow in your career is most often than not like going to another company because some if you are trying to build a career in one company it it takes years but uh but if you're like a junior starts as as junior and and uh people say oh but uh you're you entered like one year ago you you you don't uh you don't uh um you're still junior after one year but I but sometimes like uh I I there there's uh examples is in in a company for friends that I worked with uh there was a uh uh uh uh uh uh uh uh uh uh a girl uh her name is Trix she she she she she she she she she she she's like amazing she was really really really really really really really really smart and and uh she was uh young she uh uh she was uh as a junior uh data scientist in mercado bitcoin and there was a huge layoff and she was unfortunately laid off and she was very very sad very upset because of this but after I don't know two three months she was uh hired as a senior like she she she she she she she she she she she worked about one year as a junior and she was hired uh uh as a senior it and it's not like oh but um it it it she she she she she she she she she she she was really good and and uh if they she was like trying to progress inside the company it would have taken a lot longer yeah a lot longer and and she wouldn't uh uh uh uh uh uh uh uh uh uh it and if she could because uh sometimes uh for for for for for for for for for for for a company to progress you they they they they they they they they they they they have to have a uh uh uh uh uh uh uh uh uh uh um a vacancy so okay now we have a spot now now now we can like kind try to promote someone there is uh there there's company bureaucracy but um but well this is this is one example there there's plenty of different example so coming back to Bitcoin um it's uh it's it's kind of a short term risk because of course if if if if if if if if if if if there's a bitcoin there's a lot of fluctuation in purchasing power right uh in 2018 the the the bitcoin went to twenty thousand dollars to three thousand dollars in one year so I I was there and it was uh frightening as hell it was my first bear market but um it uh after after you build uh uh you you you you you you you you you you you you you progressing life if you if you have uh uh uh you you you build your stuff you can you you you you you you you you you you you you you you have uh in portuguese we say like uh uh um liquidity caution uh uh uh anyway in English perhaps you have some leeway to do the yeah yeah it's like some some some some some some some some some some some fat to burn exactly perfect yeah yeah so it you need a little risk in the short term so you can get uh so you can be more risk averse in the long term yeah that that was that was very smart to say I'm gonna tweet that later very nice yeah yes that's it and uh one thing that that I that I wanted to touch before we wrap up is that um when I teach English man many people find excuse after excuse after excuse to not learn English right now just like you found many excuses to not enter bitcoin right now but today I see that you are not that kind of person and one this is one of the things I admire about you it for me it looks like you're always doing something like you're writing a book then you're in a data science then you're into ai then you're having a kid then you're hosting uh bit dev dev dev dev dev devs how do you find this energy or what mental frame do you need to have or you had to change to stop delaying stuff to stop pushing stuff to the future and just doing stuff and taking that little small risk right now oh I believe I'm the worst person for for answering this question because the the the thing that I I uh I I think that the way the the the reason I do so many stuff It's because I have ADHD. So I I always been in been the person that wants in Portugal. I don't know if there's a uh an expression in English, but in Portuguese we say like I want to hug the words with my legs. So uh so it I always wanted to do more than I can, and uh and actually this actually is this actually leads me to paralysis. This makes me uh I I lots of times I'm I'm studying a lot. I I like I like studying, and I like I like a lot to to understand how things work, and uh and but there's so many cool new stuff happening all the time that I'm always okay I I learned this new stuff, but oh this there's this next one really cool, and I learned this one, and I learned in and after a long time I I did a lot of stuff, and I didn't I learned a lot of stuff, and I actually didn't as a execute anything, I didn't do actually, I didn't actually do anything, so this is uh uh uh uh uh uh uh uh uh uh uh struggle that I I fight every day. It's this is something that I I always try to limit. Um it's kind of strange. I I I need to limit my study time, so I can try to apply it more. Okay, so the idea is not to do many things, but it's to focus down on one thing at a time, yeah. This was extremely crucial for me. I always did a lot of stuff. I uh I don't know if you know I I played a harmonica in a band for six years. I had no idea. Nice. Yeah, if you uh uh I can I can send you remember I can send you the link on YouTube. I I have some some some some some some some some some some some performances on YouTube, and uh I I did lots of uh different stuff. I love martial arts. I I love I I love too many stuff. So there was a a time in my life that I need to consciously focus, and I say, okay, I I will never uh uh uh uh uh uh uh uh uh uh progress in life being like the jack of all trades, uh master of none. I I need to focus a little bit. I I try to focus on one, but I couldn't because uh yeah, I can't, but but I I tried to narrow down the best I could, and uh the best way that I could is to narrow that okay. Uh what is something that I I really like that I it can get me money, and and uh I don't remember, but uh it's especially something that I really like. It's uh it's promising that it keeps me uh excited. There's always uh uh for me, I know I love new challenges and love new stuff to learn. So what that I will always have new stuff to learn that it will always be a challenge, I'll always be studying. It won't ever be boring, it won't ever be okay. I learned everything there is to know, and uh now I just apply it and I'll be comfortable the rest of my life. This is not something that I I want this is not the the the the best life like hell man, yeah, that it's it's it's paradise for some some some some some some some some some some some some people and uh it's hell for me. Uh when uh it's hell for me uh i would be very bored and and uh even even for things that i i i actually like i i need to change my focus constantly constantly so what i did is to i i i i i i i i i i i for I was working in the financial markets for for some years so and and I I I I I I I have a pretty good grasp of it I I have a and I really like like like like like like like like like like like uh uh uh uh uh uh uh uh uh uh uh financial um mathematics and quantum finance so so this is one part and and I had like I I kind of had a career there so that was one part the other part was Bitcoin which is which actually fits really well with uh finance because we also need maps we also need uh um um um um um um um um um um uh technology and uh and and this is something that I I'm really passionate about more than than professionally I'm I'm passionate about like for for life I I think that bitcoin is something that and um and the third thing is something that I I always loved as well actually it was the first which is AI I my first neural network I did it in 2010 2010 I created a neural network which we could play an instrument and it recognized which instrument it was playing damn so you you you you you you you you you you you have been way ahead of the game for a while then nice yeah kind of it this was like 14 years ago and I and I I I I I I I I I I I saw the development of the AI ecosystem from close uh um but the thing is that um when I graduated in 2013 There was no jobs using AI at all. I I tried to be a data scientist, but there was one company that was hiring for data sciences for data science was a was a relatively unknown company uh that just was created at the time. I don't know if you know it. It's uh no bank, yeah, just a small startup, right? I think I heard about it. Yeah, yeah, I I had an interview with them, and uh, but the the the salary expectation uh I I had I would have to move to Sawn Paulo with uh it was not like a terrible salary, but uh I did I did the calculation and probably I would need help from my my parents to to be there, and I I didn't want to move from from I didn't want to move from home and still depend on my parents, yeah. So I go there, and uh and there that's it. That's the only job in data science in Brazil. So and there and uh so I went to the financial markets, and I always try to like uh tell people we can use data science, we can use AI for for finance. Yeah, yeah, yeah, maybe later. And uh and I uh and I I was always trying, and I was always learning. I doing I was doing courses in in Coursera, which was also founded in 2013, 2014, and uh I did the first courses there in data science, machine learning, AI, and uh, and this is something that I I decided okay. This is something that I I don't want this is very useful. This is this is not only something big that but it will always become bigger, and it will always become better, and I I don't want better and i i i i don't want to lose this aspect although i didn't had like professional experience more or less uh uh because i i i i i i i i wasn't uh actually hired as a data science up to this up to that point but i i i i wanted to i i i need i knew that i i i i could and and i knew that i would like and i knew that i would be good at and i knew that i would get good money so yeah i i i i i this was my three pillars of knowledge that i i i i i i i i i i i in everything that i try that uh uh uh uh uh uh uh uh uh uh goes from it I kind of try to see okay this is one of these three things or not and actually there they they uh uh uh uh uh uh uh uh uh uh some I I always actually learn more stuff but I I try to limit them much more fiercely than than these other three teams or topics of course so the takeaway right if you want to accomplish as many things as Breno has find a way to get a D and fight it that's the best way yeah yeah very nice man if people want to follow you and see the stuff you have been doing where can they go yeah you can follow me on Twitter if Twitter is still on it will be it will be I hope so I hope so I I I Twitter is my main source of of knowledge nowadays I I learned so much in Twitter it's uh at Breno RB perfect which is uh which is my name and my my my surnames the the the first letters of my surnames and uh uh uh uh uh uh uh uh uh uh uh and also if Twitter is not uh if Twitter is shut down you can go to Nostor and uh my I just did uh uh uh uh uh uh uh uh uh uh uh N pub there. I uh I I don't know the name, but it's it's like an email that you you you you you you you you you you you can use it to follow people on and it's Breno RB, I believe it's at ZEP or Zeps.wall absolutely I'm gonna put everything in the description so you don't so you're it's gonna be able uh it's gonna be easy for people to uh find it. Don't worry about it. All right, yeah, send you nice, and don't forget to send me the the videos of you playing the harmonic, I'm very curious about that. Yeah, yeah, sure. Banana brother, thank you very much for this conversation, man. It was great to have you, and I I had some questions over here, I was not able to ask, so we're gonna I'm gonna have to invite you again in the future, right? Yeah, sure. Uh I talked too much. No worries, man. It's a pleasure. That's exactly why I invited you, man. Really. Thank you very much, and I see you next time. Thank you.",
+  "chunk_seconds": 120.0,
+  "chunk_overlap_seconds": 2.0,
+  "chunk_count": 26,
+  "chunks": [
+    {
+      "index": 0,
+      "start_s": 0.0,
+      "end_s": 120.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 24.15433925,
+      "text": "Welcome to the first of a series of interviews I'm gonna be making with some people I admire to some capacity. Today I have here with me an author, a father, a known carnivore and bitcoiner, and a good friend, Breno Brito. Breno, how are you doing today, brother? Yeah, um, well, I'm I'm extremely honored to be invited to be your first person ever here. So uh I'm I'm actually really really happy uh uh about it. Nice, man. It's great to have you here. But anyway and I have worked together in the past translating the fiat standard. It was a uh uh uh uh uh uh uh uh uh uh it was we met there, right? Translating the fiat standard, right? Yeah, that's one. That's the one. Yeah, yeah, now I have all the books here, almost all. I there is uh there's one that I don't have it here, which is the little bitcoin book. Um, but um I I now I'm I'm doing some some job interviews, so so it's always great to show oh. I I wrote this book, I translated his other books. By the way, show me show me the book you wrote. 1001 questions about bitcoin. Yeah, 1001 questions about bitcoin. It's uh it's a book full of uh questions and uh a little bit of figures, images. Um some questions, some answers are are uh uh are a little bit longer, but like two, three, four pages stops. Usually it's a very short, concise, and direct to the point, straight to the point and sort of. Perfect for beginners. I'm gonna leave the link uh for your Amazon page so people can buy your book over here, and you definitely should buy. I have a I have already read it, so I can attest to it. It's quality. By the way, my first question, man, is about this book. Like you've written a book, right? This is something that many people get owed, and they say, Oh, I wish I had written."
+    },
+    {
+      "index": 1,
+      "start_s": 118.0,
+      "end_s": 238.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 24.644048625,
+      "text": "And and they say, Oh, I wish I had written a book in my life. And you actually did. How was that, man? How how did you decide to write, and how was actually writing it? Yeah, um, it was kind of it was awesome writing it. It was really you know when you um I don't I don't know about most people. I I can't say I'm I was always uh I was always the the strange person in my class, so I so I can't say like oh everyone wants this so I I'm not really sure about that, but um after a while uh about reading, studying, thinking and and talking to people, uh specifically about Bitcoin. I have uh opinions about lots of other things, but specifically about Bitcoin, which I'm I delve into since 2017, and I'm in love and and working with it since then, uh for the for the last seven years. So I I saw things uh uh uh uh people uh nowadays, even nowadays, people have trouble to understanding Bitcoin, it's uh always very difficult. Uh like there's like some some people who are huge bitcoiners, but there's pauses, doesn't they don't know almost anything, and and they cannot um teach properly. They they they cannot explain properly because it's it's actually a hard thing, it's it's not that easy, uh, but this is something that I really like. It's getting something that is really hard and and breaking it down, and and trying to put it together as simple as possible, like that, like deconstructing."
+    },
+    {
+      "index": 2,
+      "start_s": 236.0,
+      "end_s": 356.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 21.18052175,
+      "text": "like that like deconstructing it to to like so so so so so so so so so so so any layman can can look and get it from the start so so so this is this is something that i i i write uh i like a lot because this is how i actually think stuff i i'm really bad at remembering so so so so i i try to deconstruct stuff and think from from from from from from from from from from from the first principles oh um i i i went far from from from from from from from from from from from the the no worries that was actually my next question so you're you're doing great don't worry yeah and uh so when i so uh um there is this saying oh you need uh to to plant a tree have a uh uh uh uh uh uh uh uh uh uh kid and and and write a book and uh i i i was never i i i find it's interesting but after a while of thinking about like oh they they they they they they could answer this in this particular way which i think it's better for people to understand uh uh uh uh uh uh uh uh uh uh there is this is a little bit of a me con mis misconception uh uh uh I never saw this particular view expressed in a book uh uh uh uh usually a book for example the one uh uh uh uh uh uh uh uh uh uh Bitcoin standards uh uh this book is great it's it's one of the best books uh about Bitcoin but I I've seen people that read it and didn't get it they they they they read it okay I understand the the the economics part but whatever my my my currency is not that that that that that that that that that that that bad I can send uh money to Japan I talk to my personality broker in my bank and I I I pay only a hundred dollars to do it so it's it's very cheap for me because I'm rich and uh and and so so so so so so so so so so so they they really don't get it and uh they they they they they they they they they they they they they they"
+    },
+    {
+      "index": 3,
+      "start_s": 354.0,
+      "end_s": 474.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 19.149442584,
+      "text": "that and uh they they they they they they they they they they they they they they they they they they they they don't get uh they they they they they they they they they they they have like this their particular bubble and uh they if if if if if if if if if if if you present just one side of the thing they they they they they they they they they they they are going to look for this one side apply to them and they won't get it so uh in all the books are are focused on a specific thing like there's one to explain the technical part there's one to explain the economics part there was one to explain so so I wanted to do one that would um that would express all these uh uh these things inside of me that I I wanted that people knew more about uh the this uh perspectives these ways to understand the technology to understand the the as a currency as a technology as culture as uh as contract as uh I I I bring lots of different kinds of uh of ways uh into into into into into into into into into into into this book and I wanted to to express which I believe it's it's something that would help people understand it better it would it would raise the the the level of uh of this the discussion about it and uh and but I I didn't know actually how I I had this idea okay I have I have lots of um unstructured thoughts so I I and I I I want to express it and I don't know how and I was like I I had actually more or less two ideas of books before actually getting this one and uh it I I'm not sure if they were great ideas I I just wanted to like contribute to to the bitcoin ecosystem because they they always help me so much and I I I think it's a great exchange"
+    },
+    {
+      "index": 4,
+      "start_s": 472.0,
+      "end_s": 592.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 20.7458965,
+      "text": "And I I think it's a great exchange to give something the more I give, the more I I get it back, and and especially if I'm not uh the more I give without expecting anything, the more I get it back. I if I if I am expecting anything, it's it's uh it's a terrible, but we can get into this discussion later. Um but um but I I I wanted to contribute. I I saw people have doing great projects, really really great uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh articles, books, and I I have written some articles, but a book is a huge thing. So when I was working in Mercado Bitcoin, uh my friend Claudio Habin, which is his uh editor chief, chief editor, chief editor in uh Portal do Bitcoin, which is uh the uh one of the biggest uh crypto portals, bitcoin and crypto portals in in Brazil, and uh he's he I was telling him, Oh, I I'm I'm thinking about writing a book. I don't know, I have some ideas, and he said, Oh, there is a project here, and I have these ideas here. Uh I want to do uh 101 questions about Bitcoin, and uh it's just an idea, and I and this was Friday, and I said, Okay, consider it done. So this was Friday. Uh I was in São Paulo, I went to Brazil, uh to Brazilia, actually. Sorry, I went back to Brazilia, and uh in during Saturday, I wrote I sat down and wrote 160 questions. You did it all in one set, you figured all the questions out. Um not all, because as you you go writing, you you you"
+    },
+    {
+      "index": 5,
+      "start_s": 590.0,
+      "end_s": 710.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 17.754034333,
+      "text": "You you start I I wrote all the questions. I I told him okay, these are the questions now. We have to select them. Uh this is just one hundred and one, and I I wrote like 160, and I I had a really huge brainstorm. And uh like I'd say 90 percent of the like 80 90 percent of the questions were done in that Saturday. Uh but just the questions, obviously, not the answers. And then uh, but then as you start writing, you say, okay, um, I need to explain how a transaction what is a block, but if I want to explain it, like if I I I I I I need to explain what is a blockchain, but if I want to explain how is what is a blockchain, I need to uh explain what is a block, and because it's a blockchain, so and and and and and and and and and and what is a block, it's a it's a collection collection of transactions. So so how transaction work in Bitcoin. So so uh there is uh uh uh uh uh uh uh uh uh uh uh while I I was writing, I was discovering the the the logical not exactly logical flaws, it's more chronological flaws. Which okay, uh to to explain this higher level concept. I need to also explain this lower level concept, and uh and uh and then also like okay, um I uh what are the the the the the the the the the the the biggest um um misconceptions people have and so it's uh it's uh I I start looking and then and then of course after writing a good part of it, I sent to some friends, and um what do you think is missing? What do you so lots of people helped a lot? You were one of one of those, and I my pleasure appreciated a lot. Um"
+    },
+    {
+      "index": 6,
+      "start_s": 708.0,
+      "end_s": 828.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 18.201861125,
+      "text": "My pleasure. Appreciate it a lot. I'm very grateful for this. Diego Colin, there's my mother in law, lots of lots of people, uh people who actually understand free bitcoin really well, but also people who have no idea what Bitcoin is, which was really good because I could actually see if they were really understanding uh the concepts that I was trying to portray in the book. I think that was the most important feedback, I believe, right? From people who had no idea, I see. There is something that I hear a lot, man, when we talk about Bitcoin, because as you said, it is a complex topic. Because there are lots of little things you need to grasp. But there are many people who say that the same way people use phones without exactly knowing how they work, people are also gonna be able to use Bitcoin without exactly knowing how they work. And so how do you view that? Do you think that the everyone is gonna want to know what a block is in order to use it, or you think it's gonna be possible for everyone to use it without knowing all that? Um I I completely agree with these people that uh people will be using Bitcoin with all actually this happens today. It does like like even you and me, like there's so much thing there, there's so many things about Bitcoin that we we we we we we we we we we we we we we only know about, only only heard about. We don't even know about, yeah, so so so many. Like I host BitDevs, which is uh for those who don't who don't know, is uh is a place that we go once a month and we discuss bitcoin technology, and like every I am the host, and I every bit devs I know like about 70, if I'm really being like"
+    },
+    {
+      "index": 7,
+      "start_s": 826.0,
+      "end_s": 946.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 17.739925834,
+      "text": "really being like uh it's it like uh in not deep not deep i i i know 70 percent like okay i i can explain more or less like in a really high level setting and being like um i forgot how to say this in english um like uh um generous being generous uh but um i i i in this is me imagine other people that are using bitcoin right now so so this already happens this uh uh uh uh uh uh uh uh uh uh uh uh we we we we we we we we we we we but the thing is uh since bitcoin is so new there is not a uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh best practice where really well established it. So and and also the stakes uh are higher because like for example if you don't need to know uh TCP IP to use internet uh you just open your browser type Facebook.com and or whatever and and browse it but um and and uh so so so so so you don't need to know but also the stakes are are way less uh there's no money to be lost in this case right yeah yeah if if if if if if if if if if if you lose like uh I don't know if you if you lose uh your Facebook account yeah okay it's it sucks but uh it's it's okay but if you lose your life savings this is a whole lot of stuff so I I believe it's kind of uh there's we we we we we we we we we we we need to have like better best practices in and I believe there they will take a little bit longer to to to be developed as well because there are there are new technologies we'll"
+    },
+    {
+      "index": 8,
+      "start_s": 944.0,
+      "end_s": 1064.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 17.555531875,
+      "text": "there are there are new technologies will which will help a lot for example um uh uh vaults when we have vaults it will be better better to to keep your your your could uh uh bitcoin in in self custody and uh so anyways this is uh i i but i yeah i believe we don't any any no one needs to like know everything but um i like knowing uh i like knowing more and going and and going deeper and uh there there is a kind of a sweet spot if you if you know if you know enough to be okay it's great and and this is the purpose of the book it's for for for for for for for for for for for someone that that doesn't know anything they they they read the book and they know enough to to be from for this for themselves so they they they they they they now can after reading the book they they they they they they they they they they they can they can read the news and understand if the the the news is bullshit or not because there's lots of bullshit being talked about about this topic uh uh uh it can it can uh go uh find another places to learn more as well and uh and and be able to learn more because the the the most problem when when when when when when when when when when when you're trying to learn something new is the the the the part that you that you don't know you don't know uh yeah because if you know you don't know you you you you you you you you you you you can go you can search in the web and and try to understand but if you don't know you don't know you you you you just you're just lost you you you you you you it's nothing works in in your kind of in desperation yeah you you you you you you you you you you you you mentioned two very interesting things you mentioned about um"
+    },
+    {
+      "index": 9,
+      "start_s": 1062.0,
+      "end_s": 1182.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 17.903493166,
+      "text": "Things you mentioned about um best practices and the sweet spot between like not super super super super super super super super super super superficial but also not super super deep as well, and I think that's interesting because um and I have fallen into this mistake before when trying to explain Bitcoin to other people. I try like I try to explain what an UTXO is, for example, I think which is a terrible idea, but because it's very new, we don't we still don't have the best practice. Like when I teach English, oh we start with the verb to be. Everybody starts there because it's the easiest part to understand, but we still don't know what is the easiest part to um explain from Bitcoin, right? So it so we don't even know where the sweet spot is, but then your book is gonna be for someone who's looking for the sweet spot, they're not gonna like read the book and become um a Bitcoin core developer, right? They don't need it, they're just gonna know what's happening, right? Yeah, yeah, exactly. I if they want to be a bitcoin core developer, I I put a lot lots of information links for them to learn more. This is not the purpose of the book, so if you want to learn more, it's great. I totally encourage you to, and you can look at here, and it's already pretty well uh uh uh uh uh uh uh uh uh uh written and way better than probably I could ever do go there, and it's great. Uh so but but but but but but but but but but but most people they don't want to be core developers, they they they they they they they they they they they they just want to know what's happening, like uh my my uncle, I was talking to him when I when I launched the book, he told me that um oh this book is perfect for me because I I I I I'm in the I'm I'm in my job, and everybody's talking about Bitcoin, I just shrug."
+    },
+    {
+      "index": 10,
+      "start_s": 1180.0,
+      "end_s": 1300.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 16.789917375,
+      "text": "point I just shrug and hide because I have no idea what they're talking about. I I try to be away because I don't want the embarrassment to be the only one that have no idea what they're talking about. So if so this book it will change my life so it so it's amazing it in and it's actually like when I wrote the book I wrote for myself my 2013 myself my 2015 self uh uh uh uh uh uh uh uh uh uh which uh is uh Bruno in the university I was graduating from electrical engineering I knew about bitcoin and I wanted to learn more about I I actually found lots of uh lots of information I I I met uh Jameson loop more or less at that time uh and uh and uh he had this uh his bitcoin page website he already had a collection of of uh bitcoin information and I opened there and there was so many link so many stuff I was paralyzed I I actually never even clicked one of their links because I I I I I I I I I I I I there was I there was the paralysis of choice there are so many things so many places I I didn't know which one was the best I didn't know how how to choose I didn't know how what I and and and also I didn't know anything about it I I just know it was kind of a quote unquote libertarian coin and uh I was curious about it so I I did I didn't know if if if the links were trustworthy I I didn't know anything about this so it was very all very recent all very new and uh yeah so so so now"
+    },
+    {
+      "index": 11,
+      "start_s": 1298.0,
+      "end_s": 1418.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 18.358755084,
+      "text": "Yeah, so now if I had this book, I would kind of have a really quick understanding, really quick grasp of the basics. Yeah, I wouldn't be so overwhelmed, and I will be much more confident to understand uh other things. Imagine you are you are like kind of uh uh uh uh uh uh uh uh uh uh uh you're from humanities, you're layman in all tech stuff, and you open uh a web page, and the first thing is that it's saying about UTXOs in uh in a blockchain P2P system, like you you you you you you you just close it, it's it's it's it and you read it and you read it and you read it, and and it's it's using and it gets worse in saying private key, public key, uh cryptography, and blockchains, and and you take exos, and it never explains anyone or any one of these concepts. So you you get like terrified. There's lots of things in technology. I'm uh I'm a kind of hard science guy, uh more of a I like uh I like STEM uh science, technology, mathematics. I I love it, but I I get frozen when I go to to some web pages to learn something about uh uh uh uh uh uh uh uh uh uh uh a new concept, a new technology, and you open it and it's just jargon. It's just jargon. You can't you cannot comprehend anything. You you you you you you you you you you you you you feel you're stupid, and you and you and you don't even like in sometimes you you get one of these jargons and you look for it, and the explanation of this jargon, it's like more jargons, and and more and and some really it's it's really"
+    },
+    {
+      "index": 12,
+      "start_s": 1416.0,
+      "end_s": 1536.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 19.412971667,
+      "text": "It's it's really messed up. I I have a really uh almost trauma with uh computer science things because they're they're they're the worst people from all to explain what they do, they they always explain as if the other people already knew what they were talking about. Yeah, it's uh I have the same experience. I I thought you mentioned something very interesting, right? That you had to uh uh follow some links that Jameson Lop directed to, like you you said you didn't know if the links were trustworthy, so I just thought uh you first had to trust so that you could verify it later, right? So I think that is very funny. And kind of you know, bitcoin kind of works a little bit like this, in uh sense. Like, for example, when you run a node, uh you need to connect to other nodes, right? But how to how do you connect to other nodes if you if you don't know any node, if you don't have any information of any nodes, so how bitcoin solves it, and some people um criticizes for it, but I'm not sure if there's a better way, is there is a a set of trusted nodes uh hard coded into the into the system. So you connect first to these trustworthy nodes, and then you from them, you start exploring the the the network, and then you connect to random random nodes, uh, but but but but but but but but but but but yeah you you're trust problem there it's uh it's uh it's a real problem. Yeah, yeah, I don't think it's a problem. I think it's something that is actually good, but in a in a deeper level, but uh I want to touch on something. Uh first uh you mentioned that when you started learning about"
+    },
+    {
+      "index": 13,
+      "start_s": 1534.0,
+      "end_s": 1654.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 17.206071125,
+      "text": "that when you started learning about bitcoin you were first in touch with jameson wap and jan and jameson wap is is he american or canadian i believe he's american he's american right american so you had to start learning about bitcoin in english and i remember that when i started learning even if when you're learning portuguese and i learned on that channel ideas had right from yeah and then he started saying stuff like hash rate blockchain transaction output even if you are learning in portuguese you're gonna have to deal with that so i would like to uh uh ask you a question here which is uh a little bit for my public like would you have been able to learn so much if you didn't have english on your side on that case of course not of course it's it's kind of no the the the the the the the the the the the the the the word is in english it's uh if you if you don't know english you're you're excluding uh seven and a half billion people it's it's uh it's uh if you if you you you you you you you you you you you're excluding yourself you're not like oh they don't have you're excluding yourself to the possibility of seven and a half billion people of knowledge of connections of opportunities of everything it's it's uh like the the the when I was when i like when when when when when when when when when when when i started in bitcoin uh when when when when when when when when when when when i first heard of bitcoin in more or less 2013 there was simply no content in portuguese at all so there was uh kind of there there was like"
+    },
+    {
+      "index": 14,
+      "start_s": 1652.0,
+      "end_s": 1772.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 17.43917575,
+      "text": "kind of there was like uh one exchange i i i believe mercado bitcoin yeah but um i don't know was was was was was was was was was was was the niel fraga already making videos at that point yeah actually he was but i didn't know the new fraga uh well enough but he was the only voice for big coin in portuguese at that time yeah i uh i he he he he he did something like the he something like podcasts uh at the time we were not calling podcasts i i think but uh it's something like this he was talking like for for for for hours and i hate i hated the this this this this this this this kind of uh uh content the way that not not not not not not not not not not not the content itself but it the structure i i i i i i took years to start enjoying podcasts so i i i never watched uh complete the new fragas video yeah so yeah i did recommend yeah yeah well maybe maybe later i'm now now now now it's uh i i i i don't know if maybe it's kind of outdated or i don't know it's been a while he was a visionary in many ways it's funny that you you you you you you you you you you you mentioned like you you you you you enter bitcoin in 2013 every time i hear stories like that in 2013 i was 15 years old i was playing league of legends like there was no tomorrow you know i wish like oh my god that 15 year old holding should have been i don't know working at mcdonald's to buy bitcoin or something like that it's it's always funny oh um i i i i could have but in 2013 i i actually have an email i can i can send it to you a print please do uh uh uh uh yeah i i i i i i i i I I I I I I I sent to my my girlfriend at the time and I said oh too bad that uh too bad that we took so long it's we we lost the track it's never it's never too late to enter bitcoin yeah"
+    },
+    {
+      "index": 15,
+      "start_s": 1770.0,
+      "end_s": 1890.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 19.154923208,
+      "text": "We're too late to enter Bitcoin. Very well. Yes. Very well. Yeah, I I said it in 2003. I have the I have the proof. Oh, it's uh it's too late. I uh we we lost it. So it's so uh there was there was already some some there was still faucets where you could get free bitcoin, and uh I I don't remember how much it was zero. zero zero something, or I don't know, I don't remember, but it was oh this is kind of like two cents of hell, it's better to buy, but I also didn't buy because I because I I didn't trust any any exchange. I oh I my money I I they will I I don't I have to understand it better than then buy it because I can lose it, but now that I think like if I just got I don't know uh that time a thousand he is would be a lot for me, maybe, but if I got like I don't know, a hundred five hundred or or something that it wasn't much if I happened to lose and just bought it something in it's uh it would be even if I later lost it, but it would be much better because if I had it, uh when when I first bought it, when I first had something, this I I had the urge to okay. Now I have some bitcoin and I I need to know how to keep it. I had the error to to learn when I had it. So when I when I didn't buy anything, I I was like, Oh, I I need to learn, and then but I didn't, I don't have time right now because I'm in a new job, and and uh but when I had it when I"
+    },
+    {
+      "index": 16,
+      "start_s": 1888.0,
+      "end_s": 2008.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 16.883011459,
+      "text": "When I had it, when I okay, it was 2016. I saw Bitcoin rising, rising, rising, rising, and I said, okay, it's been too long. I I talked with a friend from from tech, and uh and I how do I do it? Uh how what can I do? And he told me some some things, and I I finally bought it, and uh, and it's when I bought it that I I actually went out and learned. And okay, I now now I have no excuse. I like I have I don't know how I I bought the first time I bought it, I bought a hundred dollars, which was at the time 200s. Oh my god, good times, huh? Yeah, yeah, and and that was okay, I have 200 highs. I cannot lose it. I need to and and then I and then I went all I went uh all in in learning, not yeah, you went down the rabbit hole, right? Yeah, yeah, and uh I I like I bought it in December uh 2016, the first time I bought it, and uh in 2017, I was doing I was building a company of uh a bitcoin company, so that's what I call all in. I like to ask you something about that because you said you you took a while to take the first leap into bitcoin. Would you say that bitcoin made you more comfortable or more averse to risk? Because for me, man, like I learned to take the opportunity, but I also leave my money on the hardest asset ever because I don't want to lose it, so it's an interesting like dichotomy. What do you think? Yeah, it's uh it's kind of it's really funny because."
+    },
+    {
+      "index": 17,
+      "start_s": 2006.0,
+      "end_s": 2126.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 13.939007667,
+      "text": "you know it's really funny because risk it's a very convoluted um concept because you if you're not risking anything in the short term this is the biggest risk for the long term oh I'm gonna clip that amazing yeah it like for example if you never risk anything you like uh if you don't take I don't know if you don't take maybe one month of sitting down and and uh and learning something to get a better job in the future you you you won't progress your career if you're always in the same job for example if you're always in the same job and uh because you don't want to risk it you don't want to be unemployed and uh and uh and you're doing like the best but like the best way actually to to improve your your your your salary to grow in your career is most often than not like going to another company because some if you are trying to build a career in one company it it takes years but uh but if you're like a junior starts as as junior and and uh people say oh but uh you're you entered like one year ago you you you don't uh you don't uh um you're still junior after one year but I but sometimes like uh I I there there's uh examples is in in a company for friends that I worked with uh there was a uh uh uh uh uh uh uh uh uh uh a girl uh her name is Trix"
+    },
+    {
+      "index": 18,
+      "start_s": 2124.0,
+      "end_s": 2244.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 13.651662792,
+      "text": "uh her name is trix she she she she she she she she she she she's like amazing she was really really really really really really really really smart and and uh she was uh young she uh uh she was uh as a junior uh data scientist in mercado bitcoin and there was a huge layoff and she was unfortunately laid off and she was very very sad very upset because of this but after I don't know two three months she was uh hired as a senior like she she she she she she she she she she she worked about one year as a junior and she was hired uh uh as a senior it and it's not like oh but um it it it she she she she she she she she she she she was really good and and uh if they she was like trying to progress inside the company it would have taken a lot longer yeah a lot longer and and she wouldn't uh uh uh uh uh uh uh uh uh uh it and if she could because uh sometimes uh for for for for for for for for for for for a company to progress you they they they they they they they they they they they have to have a uh uh uh uh uh uh uh uh uh uh um a vacancy so okay now we have a spot now now now we can like kind try to promote someone there is uh there there's company bureaucracy but um but well this is this is one example there there's plenty of different example so coming back to Bitcoin um it's uh it's it's kind of a short term risk because of course if if if if if if if if if if if there's a bitcoin there's a lot of fluctuation in purchasing power right uh in 2018 the the the bitcoin went to twenty thousand dollars to three thousand dollars in one year so I I was there and it was uh frightening as hell it was my first bear market but um it"
+    },
+    {
+      "index": 19,
+      "start_s": 2242.0,
+      "end_s": 2362.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 13.742277209000001,
+      "text": "uh after after you build uh uh you you you you you you you you you you you you you progressing life if you if you have uh uh uh you you you build your stuff you can you you you you you you you you you you you you you you have uh in portuguese we say like uh uh um liquidity caution uh uh uh anyway in English perhaps you have some leeway to do the yeah yeah it's like some some some some some some some some some some some fat to burn exactly perfect yeah yeah so it you need a little risk in the short term so you can get uh so you can be more risk averse in the long term yeah that that was that was very smart to say I'm gonna tweet that later very nice yeah yes that's it and uh one thing that that I that I wanted to touch before we wrap up is that um when I teach English man many people find excuse after excuse after excuse to not learn English right now just like you found many excuses to not enter bitcoin right now but today I see that you are not that kind of person and one this is one of the things I admire about you it for me it looks like you're always doing something like you're writing a book then you're in a data science then you're into ai then you're having a kid then you're hosting uh bit dev dev dev dev dev devs how do you find this energy or what mental frame do you need to have or you had to change to stop delaying stuff to stop pushing stuff to the future and just doing stuff and taking that little small risk right now oh I believe I'm the worst person for for answering this question because the the the thing that I I uh I I think that the way the the the reason I do so many stuff"
+    },
+    {
+      "index": 20,
+      "start_s": 2360.0,
+      "end_s": 2480.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 13.324119625,
+      "text": "I do so many stuff. It's because I have ADHD. So I I always been in been the person that wants in Portugal. I don't know if there's a uh an expression in English, but in Portuguese we say like I want to hug the words with my legs. So uh so it I always wanted to do more than I can, and uh and actually this actually is this actually leads me to paralysis. This makes me uh I I lots of times I'm I'm studying a lot. I I like I like studying, and I like I like a lot to to understand how things work, and uh and but there's so many cool new stuff happening all the time that I'm always okay I I learned this new stuff, but oh this there's this next one really cool, and I learned this one, and I learned in and after a long time I I did a lot of stuff, and I didn't I learned a lot of stuff, and I actually didn't as a execute anything, I didn't do actually, I didn't actually do anything, so this is uh uh uh uh uh uh uh uh uh uh uh struggle that I I fight every day. It's this is something that I I always try to limit. Um it's kind of strange. I I I need to limit my study time, so I can try to apply it more. Okay, so the idea is not to do many things, but it's to focus down on one thing at a time, yeah. This was extremely crucial for me."
+    },
+    {
+      "index": 21,
+      "start_s": 2478.0,
+      "end_s": 2598.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 14.810496875,
+      "text": "For me, I always did a lot of stuff. I uh I don't know if you know I I played a harmonica in a band for six years. I had no idea. Nice. Yeah, if you uh uh I can I can send you remember I can send you the link on YouTube. I I have some some some some some some some some some some some performances on YouTube, and uh I I did lots of uh different stuff. I love martial arts. I I love I I love too many stuff. So there was a a time in my life that I need to consciously focus, and I say, okay, I I will never uh uh uh uh uh uh uh uh uh uh progress in life being like the jack of all trades, uh master of none. I I need to focus a little bit. I I try to focus on one, but I couldn't because uh yeah, I can't, but but I I tried to narrow down the best I could, and uh the best way that I could is to narrow that okay. Uh what is something that I I really like that I it can get me money, and and uh I don't remember, but uh it's especially something that I really like. It's uh it's promising that it keeps me uh excited. There's always uh uh for me, I know I love new challenges and love new stuff to learn. So what that I will always have new stuff to learn that it will always be a challenge, I'll always be studying. It won't ever be boring, it won't ever be okay. I learned everything there is to know, and uh now I just apply it and I'll be comfortable the rest of my life. This is not something that I I want this is not the the the the best life like hell man, yeah, that it's it's it's paradise for some some some some some some some some some some some some people and uh it's hell for me. Uh"
+    },
+    {
+      "index": 22,
+      "start_s": 2596.0,
+      "end_s": 2716.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 14.057284708,
+      "text": "when uh it's hell for me uh i would be very bored and and uh even even for things that i i i actually like i i need to change my focus constantly constantly so what i did is to i i i i i i i i i i i for I was working in the financial markets for for some years so and and I I I I I I I have a pretty good grasp of it I I have a and I really like like like like like like like like like like like uh uh uh uh uh uh uh uh uh uh uh financial um mathematics and quantum finance so so this is one part and and I had like I I kind of had a career there so that was one part the other part was Bitcoin which is which actually fits really well with uh finance because we also need maps we also need uh um um um um um um um um um um uh technology and uh and and this is something that I I'm really passionate about more than than professionally I'm I'm passionate about like for for life I I think that bitcoin is something that and um and the third thing is something that I I always loved as well actually it was the first which is AI I my first neural network I did it in 2010 2010 I created a neural network which we could play an instrument and it recognized which instrument it was playing damn so you you you you you you you you you you you have been way ahead of the game for a while then nice yeah kind of it this was like 14 years ago and I and I I I I I I I I I I I saw the development of the AI ecosystem from close uh um but the thing is that um when I graduated in 2013"
+    },
+    {
+      "index": 23,
+      "start_s": 2714.0,
+      "end_s": 2834.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 13.549719542,
+      "text": "I graduated in 2013. There was no jobs using AI at all. I I tried to be a data scientist, but there was one company that was hiring for data sciences for data science was a was a relatively unknown company uh that just was created at the time. I don't know if you know it. It's uh no bank, yeah, just a small startup, right? I think I heard about it. Yeah, yeah, I I had an interview with them, and uh, but the the the salary expectation uh I I had I would have to move to Sawn Paulo with uh it was not like a terrible salary, but uh I did I did the calculation and probably I would need help from my my parents to to be there, and I I didn't want to move from from I didn't want to move from home and still depend on my parents, yeah. So I go there, and uh and there that's it. That's the only job in data science in Brazil. So and there and uh so I went to the financial markets, and I always try to like uh tell people we can use data science, we can use AI for for finance. Yeah, yeah, yeah, maybe later. And uh and I uh and I I was always trying, and I was always learning. I doing I was doing courses in in Coursera, which was also founded in 2013, 2014, and uh I did the first courses there in data science, machine learning, AI, and uh, and this is something that I I decided okay. This is something that I I don't want this is very useful. This is this is not only something big that but it will always become bigger, and it will always become better, and I I don't want"
+    },
+    {
+      "index": 24,
+      "start_s": 2832.0,
+      "end_s": 2952.0,
+      "audio_seconds": 120.0,
+      "transcribe_seconds": 13.142463291,
+      "text": "better and i i i i don't want to lose this aspect although i didn't had like professional experience more or less uh uh because i i i i i i i i wasn't uh actually hired as a data science up to this up to that point but i i i i wanted to i i i need i knew that i i i i could and and i knew that i would like and i knew that i would be good at and i knew that i would get good money so yeah i i i i i this was my three pillars of knowledge that i i i i i i i i i i i in everything that i try that uh uh uh uh uh uh uh uh uh uh goes from it I kind of try to see okay this is one of these three things or not and actually there they they uh uh uh uh uh uh uh uh uh uh some I I always actually learn more stuff but I I try to limit them much more fiercely than than these other three teams or topics of course so the takeaway right if you want to accomplish as many things as Breno has find a way to get a D and fight it that's the best way yeah yeah very nice man if people want to follow you and see the stuff you have been doing where can they go yeah you can follow me on Twitter if Twitter is still on it will be it will be I hope so I hope so I I I Twitter is my main source of of knowledge nowadays I I learned so much in Twitter it's uh at Breno RB perfect which is uh which is my name and my my my surnames the the the first letters of my surnames and uh uh uh uh uh uh uh uh uh uh uh and also if Twitter is not uh if Twitter is shut down you can go to Nostor and uh my I"
+    },
+    {
+      "index": 25,
+      "start_s": 2950.0,
+      "end_s": 3010.8154375,
+      "audio_seconds": 60.8154375,
+      "transcribe_seconds": 5.717233959,
+      "text": "And uh my I just did uh uh uh uh uh uh uh uh uh uh uh N pub there. I uh I I don't know the name, but it's it's like an email that you you you you you you you you you you you can use it to follow people on and it's Breno RB, I believe it's at ZEP or Zeps.wall absolutely I'm gonna put everything in the description so you don't so you're it's gonna be able uh it's gonna be easy for people to uh find it. Don't worry about it. All right, yeah, send you nice, and don't forget to send me the the videos of you playing the harmonic, I'm very curious about that. Yeah, yeah, sure. Banana brother, thank you very much for this conversation, man. It was great to have you, and I I had some questions over here, I was not able to ask, so we're gonna I'm gonna have to invite you again in the future, right? Yeah, sure. Uh I talked too much. No worries, man. It's a pleasure. That's exactly why I invited you, man. Really. Thank you very much, and I see you next time. Thank you."
+    }
+  ],
+  "segments": [
+    {
+      "start_s": 0.22999998927116394,
+      "end_s": 8.069999694824219,
+      "text": "Welcome to the first of a series of interviews I'm gonna be making with some people I admire to some capacity.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 8.069999694824219,
+      "end_s": 16.94999885559082,
+      "text": "Today I have here with me an author, a father, a known carnivore and bitcoiner, and a good friend, Breno Brito.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 16.94999885559082,
+      "end_s": 19.029998779296875,
+      "text": "Breno, how are you doing today, brother?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 19.029998779296875,
+      "end_s": 26.869998931884766,
+      "text": "Yeah, um, well, I'm I'm extremely honored to be invited to be your first person ever here.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 26.869998931884766,
+      "end_s": 32.790000915527344,
+      "text": "So uh I'm I'm actually really really happy uh uh about it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 32.790000915527344,
+      "end_s": 33.66999816894531,
+      "text": "Nice, man.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 33.66999816894531,
+      "end_s": 34.95000076293945,
+      "text": "It's great to have you here.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 34.95000076293945,
+      "end_s": 40.06999969482422,
+      "text": "But anyway and I have worked together in the past translating the fiat standard.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 40.06999969482422,
+      "end_s": 42.790000915527344,
+      "text": "It was a uh uh uh uh uh uh uh uh uh uh it was we met there, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 42.790000915527344,
+      "end_s": 44.38999938964844,
+      "text": "Translating the fiat standard, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 44.38999938964844,
+      "end_s": 45.349998474121094,
+      "text": "Yeah, that's one.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 45.349998474121094,
+      "end_s": 46.14999771118164,
+      "text": "That's the one.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 46.14999771118164,
+      "end_s": 49.82999801635742,
+      "text": "Yeah, yeah, now I have all the books here, almost all.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 49.82999801635742,
+      "end_s": 56.22999954223633,
+      "text": "I there is uh there's one that I don't have it here, which is the little bitcoin book.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 56.22999954223633,
+      "end_s": 63.43000030517578,
+      "text": "Um, but um I I now I'm I'm doing some some job interviews, so so it's always great to show oh.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 63.43000030517578,
+      "end_s": 67.02999877929688,
+      "text": "I I wrote this book, I translated his other books.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 67.02999877929688,
+      "end_s": 70.38999938964844,
+      "text": "By the way, show me show me the book you wrote.1001",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 70.38999938964844,
+      "end_s": 71.83000183105469,
+      "text": "questions about bitcoin.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 71.83000183105469,
+      "end_s": 74.94999694824219,
+      "text": "Yeah,1001 questions about bitcoin.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 74.94999694824219,
+      "end_s": 82.54999542236328,
+      "text": "It's uh it's a book full of uh questions and uh a little bit of figures, images.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 82.54999542236328,
+      "end_s": 93.43000030517578,
+      "text": "Um some questions, some answers are are uh uh are a little bit longer, but like two, three, four pages stops.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 93.43000030517578,
+      "end_s": 99.18999481201172,
+      "text": "Usually it's a very short, concise, and direct to the point, straight to the point and sort of.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 99.18999481201172,
+      "end_s": 100.30999755859375,
+      "text": "Perfect for beginners.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 100.30999755859375,
+      "end_s": 106.79000091552734,
+      "text": "I'm gonna leave the link uh for your Amazon page so people can buy your book over here, and you definitely should buy.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 106.79000091552734,
+      "end_s": 109.58999633789062,
+      "text": "I have a I have already read it, so I can attest to it.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 109.58999633789062,
+      "end_s": 110.54999542236328,
+      "text": "It's quality.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 110.54999542236328,
+      "end_s": 113.50999450683594,
+      "text": "By the way, my first question, man, is about this book.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 113.50999450683594,
+      "end_s": 115.75,
+      "text": "Like you've written a book, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 115.75,
+      "end_s": 119.87999725341797,
+      "text": "This is something that many people get owed, and they say, Oh, I wish I had written.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 118.2300033569336,
+      "end_s": 121.11000061035156,
+      "text": "And and they say, Oh, I wish I had written a book in my life.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 121.11000061035156,
+      "end_s": 122.38999938964844,
+      "text": "And you actually did.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 122.38999938964844,
+      "end_s": 123.43000030517578,
+      "text": "How was that, man?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 123.43000030517578,
+      "end_s": 128.22999572753906,
+      "text": "How how did you decide to write, and how was actually writing it?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 128.22999572753906,
+      "end_s": 134.30999755859375,
+      "text": "Yeah, um, it was kind of it was awesome writing it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 134.30999755859375,
+      "end_s": 142.7899932861328,
+      "text": "It was really you know when you um I don't I don't know about most people.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 142.7899932861328,
+      "end_s": 170.30999755859375,
+      "text": "I I can't say I'm I was always uh I was always the the strange person in my class, so I so I can't say like oh everyone wants this so I I'm not really sure about that, but um after a while uh about reading, studying, thinking and and talking to people, uh specifically about Bitcoin.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 170.30999755859375,
+      "end_s": 189.02999877929688,
+      "text": "I have uh opinions about lots of other things, but specifically about Bitcoin, which I'm I delve into since2017, and I'm in love and and working with it since then, uh for the for the last seven years.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 189.02999877929688,
+      "end_s": 203.58999633789062,
+      "text": "So I I saw things uh uh uh uh people uh nowadays, even nowadays, people have trouble to understanding Bitcoin, it's uh always very difficult.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 203.58999633789062,
+      "end_s": 216.8699951171875,
+      "text": "Uh like there's like some some people who are huge bitcoiners, but there's pauses, doesn't they don't know almost anything, and and they cannot um teach properly.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 216.8699951171875,
+      "end_s": 226.14999389648438,
+      "text": "They they they cannot explain properly because it's it's actually a hard thing, it's it's not that easy, uh, but this is something that I really like.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 226.14999389648438,
+      "end_s": 355.6400146484375,
+      "text": "It's getting something that is really hard and and breaking it down, and and trying to put it together as simple as possible, like that, like deconstructing. it to to like so so so so so so so so so so so any layman can can look and get it from the start so so so this is this is something that i i i write uh i like a lot because this is how i actually think stuff i i'm really bad at remembering so so so so i i try to deconstruct stuff and think from from from from from from from from from from from the first principles oh um i i i went far from from from from from from from from from from from the the no worries that was actually my next question so you're you're doing great don't worry yeah and uh so when i so uh um there is this saying oh you need uh to to plant a tree have a uh uh uh uh uh uh uh uh uh uh kid and and and write a book and uh i i i was never i i i find it's interesting but after a while of thinking about like oh they they they they they they could answer this in this particular way which i think it's better for people to understand uh uh uh uh uh uh uh uh uh uh there is this is a little bit of a me con mis misconception uh uh uh I never saw this particular view expressed in a book uh uh uh uh usually a book for example the one uh uh uh uh uh uh uh uh uh uh Bitcoin standards uh uh this book is great it's it's one of the best books uh about Bitcoin but I I've seen people that read it and didn't get it they they they they read it okay I understand the the the economics part but whatever my my my currency is not that that that that that that that that that that that bad I can send uh money to Japan I talk to my personality broker in my bank and I I I pay only a hundred dollars to do it so it's it's very cheap for me because I'm rich and uh and and so so so so so so so so so so so they they really don't get it and uh they they they they they they they they they they they they they they",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 354.0,
+      "end_s": 473.6400146484375,
+      "text": "that and uh they they they they they they they they they they they they they they they they they they they they don't get uh they they they they they they they they they they they have like this their particular bubble and uh they if if if if if if if if if if if you present just one side of the thing they they they they they they they they they they they are going to look for this one side apply to them and they won't get it so uh in all the books are are focused on a specific thing like there's one to explain the technical part there's one to explain the economics part there was one to explain so so I wanted to do one that would um that would express all these uh uh these things inside of me that I I wanted that people knew more about uh the this uh perspectives these ways to understand the technology to understand the the as a currency as a technology as culture as uh as contract as uh I I I bring lots of different kinds of uh of ways uh into into into into into into into into into into into this book and I wanted to to express which I believe it's it's something that would help people understand it better it would it would raise the the the level of uh of this the discussion about it and uh and but I I didn't know actually how I I had this idea okay I have I have lots of um unstructured thoughts so I I and I I I want to express it and I don't know how and I was like I I had actually more or less two ideas of books before actually getting this one and uh it I I'm not sure if they were great ideas I I just wanted to like contribute to to the bitcoin ecosystem because they they always help me so much and I I I think it's a great exchange",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 472.0,
+      "end_s": 489.19000244140625,
+      "text": "And I I think it's a great exchange to give something the more I give, the more I I get it back, and and especially if I'm not uh the more I give without expecting anything, the more I get it back.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 489.19000244140625,
+      "end_s": 496.54998779296875,
+      "text": "I if I if I am expecting anything, it's it's uh it's a terrible, but we can get into this discussion later.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 496.54998779296875,
+      "end_s": 501.19000244140625,
+      "text": "Um but um but I I I wanted to contribute.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 501.19000244140625,
+      "end_s": 513.1900024414062,
+      "text": "I I saw people have doing great projects, really really great uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh articles, books, and I I have written some articles, but a book is a huge thing.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 513.1900024414062,
+      "end_s": 541.4299926757812,
+      "text": "So when I was working in Mercado Bitcoin, uh my friend Claudio Habin, which is his uh editor chief, chief editor, chief editor in uh Portal do Bitcoin, which is uh the uh one of the biggest uh crypto portals, bitcoin and crypto portals in in Brazil, and uh he's he I was telling him, Oh, I I'm I'm thinking about writing a book.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 541.4299926757812,
+      "end_s": 549.5899658203125,
+      "text": "I don't know, I have some ideas, and he said, Oh, there is a project here, and I have these ideas here.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 549.5899658203125,
+      "end_s": 563.3499755859375,
+      "text": "Uh I want to do uh101 questions about Bitcoin, and uh it's just an idea, and I and this was Friday, and I said, Okay, consider it done.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 563.3499755859375,
+      "end_s": 565.1099853515625,
+      "text": "So this was Friday.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 565.1099853515625,
+      "end_s": 569.3499755859375,
+      "text": "Uh I was in São Paulo, I went to Brazil, uh to Brazilia, actually.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 569.3499755859375,
+      "end_s": 579.989990234375,
+      "text": "Sorry, I went back to Brazilia, and uh in during Saturday, I wrote I sat down and wrote160 questions.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 579.989990234375,
+      "end_s": 583.8300170898438,
+      "text": "You did it all in one set, you figured all the questions out.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 583.8300170898438,
+      "end_s": 594.22998046875,
+      "text": "Um not all, because as you you go writing, you you you start I I wrote all the questions.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 594.22998046875,
+      "end_s": 597.27001953125,
+      "text": "I I told him okay, these are the questions now.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 597.27001953125,
+      "end_s": 598.6300048828125,
+      "text": "We have to select them.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 598.6300048828125,
+      "end_s": 606.7899780273438,
+      "text": "Uh this is just one hundred and one, and I I wrote like160, and I I had a really huge brainstorm.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 606.7899780273438,
+      "end_s": 615.030029296875,
+      "text": "And uh like I'd say90 percent of the like8090 percent of the questions were done in that Saturday.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 615.030029296875,
+      "end_s": 619.3499755859375,
+      "text": "Uh but just the questions, obviously, not the answers.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 619.3499755859375,
+      "end_s": 651.510009765625,
+      "text": "And then uh, but then as you start writing, you say, okay, um, I need to explain how a transaction what is a block, but if I want to explain it, like if I I I I I I need to explain what is a blockchain, but if I want to explain how is what is a blockchain, I need to uh explain what is a block, and because it's a blockchain, so and and and and and and and and and and what is a block, it's a it's a collection collection of transactions.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 651.510009765625,
+      "end_s": 654.469970703125,
+      "text": "So so how transaction work in Bitcoin.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 654.469970703125,
+      "end_s": 667.9099731445312,
+      "text": "So so uh there is uh uh uh uh uh uh uh uh uh uh uh while I I was writing, I was discovering the the the logical not exactly logical flaws, it's more chronological flaws.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 667.9099731445312,
+      "end_s": 673.1099853515625,
+      "text": "Which okay, uh to to explain this higher level concept.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 673.1099853515625,
+      "end_s": 701.75,
+      "text": "I need to also explain this lower level concept, and uh and uh and then also like okay, um I uh what are the the the the the the the the the the the biggest um um misconceptions people have and so it's uh it's uh I I start looking and then and then of course after writing a good part of it, I sent to some friends, and um what do you think is missing?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 701.75,
+      "end_s": 704.9500122070312,
+      "text": "What do you so lots of people helped a lot?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 704.9500122070312,
+      "end_s": 709.6699829101562,
+      "text": "You were one of one of those, and I my pleasure appreciated a lot.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 709.6699829101562,
+      "end_s": 709.719970703125,
+      "text": "Um",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 708.0700073242188,
+      "end_s": 708.8699951171875,
+      "text": "My pleasure.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 708.8699951171875,
+      "end_s": 710.0700073242188,
+      "text": "Appreciate it a lot.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 710.0700073242188,
+      "end_s": 712.7100219726562,
+      "text": "I'm very grateful for this.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 712.7100219726562,
+      "end_s": 734.7899780273438,
+      "text": "Diego Colin, there's my mother in law, lots of lots of people, uh people who actually understand free bitcoin really well, but also people who have no idea what Bitcoin is, which was really good because I could actually see if they were really understanding uh the concepts that I was trying to portray in the book.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 734.7899780273438,
+      "end_s": 738.7899780273438,
+      "text": "I think that was the most important feedback, I believe, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 738.7899780273438,
+      "end_s": 741.27001953125,
+      "text": "From people who had no idea, I see.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 741.27001953125,
+      "end_s": 750.469970703125,
+      "text": "There is something that I hear a lot, man, when we talk about Bitcoin, because as you said, it is a complex topic.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 750.469970703125,
+      "end_s": 753.3499755859375,
+      "text": "Because there are lots of little things you need to grasp.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 753.3499755859375,
+      "end_s": 763.6699829101562,
+      "text": "But there are many people who say that the same way people use phones without exactly knowing how they work, people are also gonna be able to use Bitcoin without exactly knowing how they work.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 763.6699829101562,
+      "end_s": 765.1900024414062,
+      "text": "And so how do you view that?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 765.1900024414062,
+      "end_s": 776.469970703125,
+      "text": "Do you think that the everyone is gonna want to know what a block is in order to use it, or you think it's gonna be possible for everyone to use it without knowing all that?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 776.469970703125,
+      "end_s": 787.1099853515625,
+      "text": "Um I I completely agree with these people that uh people will be using Bitcoin with all actually this happens today.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 787.1099853515625,
+      "end_s": 801.030029296875,
+      "text": "It does like like even you and me, like there's so much thing there, there's so many things about Bitcoin that we we we we we we we we we we we we we we only know about, only only heard about.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 801.030029296875,
+      "end_s": 804.6300048828125,
+      "text": "We don't even know about, yeah, so so so many.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 804.6300048828125,
+      "end_s": 878.9500122070312,
+      "text": "Like I host BitDevs, which is uh for those who don't who don't know, is uh is a place that we go once a month and we discuss bitcoin technology, and like every I am the host, and I every bit devs I know like about70, if I'm really being like uh it's it like uh in not deep not deep i i i know70 percent like okay i i can explain more or less like in a really high level setting and being like um i forgot how to say this in english um like uh um generous being generous uh but um i i i in this is me imagine other people that are using bitcoin right now so so this already happens this uh uh uh uh uh uh uh uh uh uh uh uh we we we we we we we we we we we but the thing is uh since bitcoin is so new there is not a uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh uh best practice where really well established it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 878.9500122070312,
+      "end_s": 896.5499877929688,
+      "text": "So and and also the stakes uh are higher because like for example if you don't need to know uh TCP IP to use internet uh you just open your browser type Facebook.com",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 896.5499877929688,
+      "end_s": 945.6400146484375,
+      "text": "and or whatever and and browse it but um and and uh so so so so so you don't need to know but also the stakes are are way less uh there's no money to be lost in this case right yeah yeah if if if if if if if if if if if you lose like uh I don't know if you if you lose uh your Facebook account yeah okay it's it sucks but uh it's it's okay but if you lose your life savings this is a whole lot of stuff so I I believe it's kind of uh there's we we we we we we we we we we we need to have like better best practices in and I believe there they will take a little bit longer to to to be developed as well because there are there are new technologies we'll",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 944.0,
+      "end_s": 1080.7900390625,
+      "text": "there are there are new technologies will which will help a lot for example um uh uh vaults when we have vaults it will be better better to to keep your your your could uh uh bitcoin in in self custody and uh so anyways this is uh i i but i yeah i believe we don't any any no one needs to like know everything but um i like knowing uh i like knowing more and going and and going deeper and uh there there is a kind of a sweet spot if you if you know if you know enough to be okay it's great and and this is the purpose of the book it's for for for for for for for for for for for someone that that doesn't know anything they they they read the book and they know enough to to be from for this for themselves so they they they they they they now can after reading the book they they they they they they they they they they they can they can read the news and understand if the the the news is bullshit or not because there's lots of bullshit being talked about about this topic uh uh uh it can it can uh go uh find another places to learn more as well and uh and and be able to learn more because the the the most problem when when when when when when when when when when when you're trying to learn something new is the the the the part that you that you don't know you don't know uh yeah because if you know you don't know you you you you you you you you you you you can go you can search in the web and and try to understand but if you don't know you don't know you you you you just you're just lost you you you you you you it's nothing works in in your kind of in desperation yeah you you you you you you you you you you you you mentioned two very interesting things you mentioned about um best practices and the sweet spot between like not super super super super super super super super super super superficial but also not super super deep as well, and I think that's interesting because um and I have fallen into this mistake before when trying to explain Bitcoin to other people.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1080.7900390625,
+      "end_s": 1091.989990234375,
+      "text": "I try like I try to explain what an UTXO is, for example, I think which is a terrible idea, but because it's very new, we don't we still don't have the best practice.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1091.989990234375,
+      "end_s": 1095.27001953125,
+      "text": "Like when I teach English, oh we start with the verb to be.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1095.27001953125,
+      "end_s": 1103.989990234375,
+      "text": "Everybody starts there because it's the easiest part to understand, but we still don't know what is the easiest part to um explain from Bitcoin, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1103.989990234375,
+      "end_s": 1116.469970703125,
+      "text": "So it so we don't even know where the sweet spot is, but then your book is gonna be for someone who's looking for the sweet spot, they're not gonna like read the book and become um a Bitcoin core developer, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1116.469970703125,
+      "end_s": 1120.469970703125,
+      "text": "They don't need it, they're just gonna know what's happening, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1120.469970703125,
+      "end_s": 1121.989990234375,
+      "text": "Yeah, yeah, exactly.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1121.989990234375,
+      "end_s": 1132.22998046875,
+      "text": "I if they want to be a bitcoin core developer, I I put a lot lots of information links for them to learn more.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1132.22998046875,
+      "end_s": 1137.4300537109375,
+      "text": "This is not the purpose of the book, so if you want to learn more, it's great.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1137.4300537109375,
+      "end_s": 1152.3900146484375,
+      "text": "I totally encourage you to, and you can look at here, and it's already pretty well uh uh uh uh uh uh uh uh uh uh written and way better than probably I could ever do go there, and it's great.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1152.3900146484375,
+      "end_s": 1181.8800048828125,
+      "text": "Uh so but but but but but but but but but but but most people they don't want to be core developers, they they they they they they they they they they they they just want to know what's happening, like uh my my uncle, I was talking to him when I when I launched the book, he told me that um oh this book is perfect for me because I I I I I'm in the I'm I'm in my job, and everybody's talking about Bitcoin, I just shrug.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1180.0699462890625,
+      "end_s": 1186.7099609375,
+      "text": "point I just shrug and hide because I have no idea what they're talking about.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1186.7099609375,
+      "end_s": 1195.75,
+      "text": "I I try to be away because I don't want the embarrassment to be the only one that have no idea what they're talking about.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1195.75,
+      "end_s": 1299.1600341796875,
+      "text": "So if so this book it will change my life so it so it's amazing it in and it's actually like when I wrote the book I wrote for myself my2013 myself my2015 self uh uh uh uh uh uh uh uh uh uh which uh is uh Bruno in the university I was graduating from electrical engineering I knew about bitcoin and I wanted to learn more about I I actually found lots of uh lots of information I I I met uh Jameson loop more or less at that time uh and uh and uh he had this uh his bitcoin page website he already had a collection of of uh bitcoin information and I opened there and there was so many link so many stuff I was paralyzed I I actually never even clicked one of their links because I I I I I I I I I I I I there was I there was the paralysis of choice there are so many things so many places I I didn't know which one was the best I didn't know how how to choose I didn't know how what I and and and also I didn't know anything about it I I just know it was kind of a quote unquote libertarian coin and uh I was curious about it so I I did I didn't know if if if the links were trustworthy I I didn't know anything about this so it was very all very recent all very new and uh yeah so so so now",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1298.0699462890625,
+      "end_s": 1312.31005859375,
+      "text": "Yeah, so now if I had this book, I would kind of have a really quick understanding, really quick grasp of the basics.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1312.31005859375,
+      "end_s": 1319.18994140625,
+      "text": "Yeah, I wouldn't be so overwhelmed, and I will be much more confident to understand uh other things.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1319.18994140625,
+      "end_s": 1363.6700439453125,
+      "text": "Imagine you are you are like kind of uh uh uh uh uh uh uh uh uh uh uh you're from humanities, you're layman in all tech stuff, and you open uh a web page, and the first thing is that it's saying about UTXOs in uh in a blockchain P2P system, like you you you you you you you just close it, it's it's it's it and you read it and you read it and you read it, and and it's it's using and it gets worse in saying private key, public key, uh cryptography, and blockchains, and and you take exos, and it never explains anyone or any one of these concepts.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1363.6700439453125,
+      "end_s": 1366.7900390625,
+      "text": "So you you get like terrified.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1366.7900390625,
+      "end_s": 1368.949951171875,
+      "text": "There's lots of things in technology.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1368.949951171875,
+      "end_s": 1379.1099853515625,
+      "text": "I'm uh I'm a kind of hard science guy, uh more of a I like uh I like STEM uh science, technology, mathematics.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1379.1099853515625,
+      "end_s": 1394.1500244140625,
+      "text": "I I love it, but I I get frozen when I go to to some web pages to learn something about uh uh uh uh uh uh uh uh uh uh uh a new concept, a new technology, and you open it and it's just jargon.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1394.1500244140625,
+      "end_s": 1395.3499755859375,
+      "text": "It's just jargon.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1395.3499755859375,
+      "end_s": 1397.9100341796875,
+      "text": "You can't you cannot comprehend anything.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1397.9100341796875,
+      "end_s": 1418.6300048828125,
+      "text": "You you you you you you you you you you you you you feel you're stupid, and you and you and you don't even like in sometimes you you get one of these jargons and you look for it, and the explanation of this jargon, it's like more jargons, and and more and and some really it's it's really messed up.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1418.6300048828125,
+      "end_s": 1438.0699462890625,
+      "text": "I I have a really uh almost trauma with uh computer science things because they're they're they're the worst people from all to explain what they do, they they always explain as if the other people already knew what they were talking about.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1438.0699462890625,
+      "end_s": 1440.8699951171875,
+      "text": "Yeah, it's uh I have the same experience.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1440.8699951171875,
+      "end_s": 1443.27001953125,
+      "text": "I I thought you mentioned something very interesting, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1443.27001953125,
+      "end_s": 1457.030029296875,
+      "text": "That you had to uh uh follow some links that Jameson Lop directed to, like you you said you didn't know if the links were trustworthy, so I just thought uh you first had to trust so that you could verify it later, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1457.030029296875,
+      "end_s": 1460.8699951171875,
+      "text": "So I think that is very funny.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1460.8699951171875,
+      "end_s": 1468.1500244140625,
+      "text": "And kind of you know, bitcoin kind of works a little bit like this, in uh sense.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1468.1500244140625,
+      "end_s": 1474.3900146484375,
+      "text": "Like, for example, when you run a node, uh you need to connect to other nodes, right?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1474.3900146484375,
+      "end_s": 1501.9100341796875,
+      "text": "But how to how do you connect to other nodes if you if you don't know any node, if you don't have any information of any nodes, so how bitcoin solves it, and some people um criticizes for it, but I'm not sure if there's a better way, is there is a a set of trusted nodes uh hard coded into the into the system.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1501.9100341796875,
+      "end_s": 1524.3900146484375,
+      "text": "So you connect first to these trustworthy nodes, and then you from them, you start exploring the the the network, and then you connect to random random nodes, uh, but but but but but but but but but but but yeah you you're trust problem there it's uh it's uh it's a real problem.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1524.3900146484375,
+      "end_s": 1526.3900146484375,
+      "text": "Yeah, yeah, I don't think it's a problem.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1526.3900146484375,
+      "end_s": 1531.9100341796875,
+      "text": "I think it's something that is actually good, but in a in a deeper level, but uh I want to touch on something.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1531.9100341796875,
+      "end_s": 1653.6400146484375,
+      "text": "Uh first uh you mentioned that when you started learning about bitcoin you were first in touch with jameson wap and jan and jameson wap is is he american or canadian i believe he's american he's american right american so you had to start learning about bitcoin in english and i remember that when i started learning even if when you're learning portuguese and i learned on that channel ideas had right from yeah and then he started saying stuff like hash rate blockchain transaction output even if you are learning in portuguese you're gonna have to deal with that so i would like to uh uh ask you a question here which is uh a little bit for my public like would you have been able to learn so much if you didn't have english on your side on that case of course not of course it's it's kind of no the the the the the the the the the the the the the the word is in english it's uh if you if you don't know english you're you're excluding uh seven and a half billion people it's it's uh it's uh if you if you you you you you you you you you you you're excluding yourself you're not like oh they don't have you're excluding yourself to the possibility of seven and a half billion people of knowledge of connections of opportunities of everything it's it's uh like the the the when I was when i like when when when when when when when when when when when i started in bitcoin uh when when when when when when when when when when when i first heard of bitcoin in more or less2013 there was simply no content in portuguese at all so there was uh kind of there there was like",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1652.0,
+      "end_s": 1771.8800048828125,
+      "text": "kind of there was like uh one exchange i i i believe mercado bitcoin yeah but um i don't know was was was was was was was was was was was the niel fraga already making videos at that point yeah actually he was but i didn't know the new fraga uh well enough but he was the only voice for big coin in portuguese at that time yeah i uh i he he he he he did something like the he something like podcasts uh at the time we were not calling podcasts i i think but uh it's something like this he was talking like for for for for hours and i hate i hated the this this this this this this this kind of uh uh content the way that not not not not not not not not not not not the content itself but it the structure i i i i i i took years to start enjoying podcasts so i i i never watched uh complete the new fragas video yeah so yeah i did recommend yeah yeah well maybe maybe later i'm now now now now it's uh i i i i don't know if maybe it's kind of outdated or i don't know it's been a while he was a visionary in many ways it's funny that you you you you you you you you you you you mentioned like you you you you you enter bitcoin in2013 every time i hear stories like that in2013 i was15 years old i was playing league of legends like there was no tomorrow you know i wish like oh my god that15 year old holding should have been i don't know working at mcdonald's to buy bitcoin or something like that it's it's always funny oh um i i i i could have but in2013 i i actually have an email i can i can send it to you a print please do uh uh uh uh yeah i i i i i i i i I I I I I I I sent to my my girlfriend at the time and I said oh too bad that uh too bad that we took so long it's we we lost the track it's never it's never too late to enter bitcoin yeah",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1770.0,
+      "end_s": 1772.22998046875,
+      "text": "We're too late to enter Bitcoin.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1772.22998046875,
+      "end_s": 1773.4300537109375,
+      "text": "Very well.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1773.4300537109375,
+      "end_s": 1773.9100341796875,
+      "text": "Yes.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1773.9100341796875,
+      "end_s": 1774.8699951171875,
+      "text": "Very well.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1774.8699951171875,
+      "end_s": 1777.75,
+      "text": "Yeah, I I said it in2003.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1777.75,
+      "end_s": 1780.3900146484375,
+      "text": "I have the I have the proof.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1780.3900146484375,
+      "end_s": 1782.1500244140625,
+      "text": "Oh, it's uh it's too late.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1782.1500244140625,
+      "end_s": 1784.0699462890625,
+      "text": "I uh we we lost it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1784.0699462890625,
+      "end_s": 1800.3900146484375,
+      "text": "So it's so uh there was there was already some some there was still faucets where you could get free bitcoin, and uh I I don't remember how much it was zero.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1800.3900146484375,
+      "end_s": 1818.550048828125,
+      "text": "zero zero something, or I don't know, I don't remember, but it was oh this is kind of like two cents of hell, it's better to buy, but I also didn't buy because I because I I didn't trust any any exchange.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1818.550048828125,
+      "end_s": 1864.949951171875,
+      "text": "I oh I my money I I they will I I don't I have to understand it better than then buy it because I can lose it, but now that I think like if I just got I don't know uh that time a thousand he is would be a lot for me, maybe, but if I got like I don't know, a hundred five hundred or or something that it wasn't much if I happened to lose and just bought it something in it's uh it would be even if I later lost it, but it would be much better because if I had it, uh when when I first bought it, when I first had something, this I I had the urge to okay.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1864.949951171875,
+      "end_s": 1871.510009765625,
+      "text": "Now I have some bitcoin and I I need to know how to keep it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1871.510009765625,
+      "end_s": 1875.1099853515625,
+      "text": "I had the error to to learn when I had it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1875.1099853515625,
+      "end_s": 1892.550048828125,
+      "text": "So when I when I didn't buy anything, I I was like, Oh, I I need to learn, and then but I didn't, I don't have time right now because I'm in a new job, and and uh but when I had it when I okay, it was2016.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1892.550048828125,
+      "end_s": 1897.9100341796875,
+      "text": "I saw Bitcoin rising, rising, rising, rising, and I said, okay, it's been too long.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1897.9100341796875,
+      "end_s": 1904.469970703125,
+      "text": "I I talked with a friend from from tech, and uh and I how do I do it?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1904.469970703125,
+      "end_s": 1906.6300048828125,
+      "text": "Uh how what can I do?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1906.6300048828125,
+      "end_s": 1921.18994140625,
+      "text": "And he told me some some things, and I I finally bought it, and uh, and it's when I bought it that I I actually went out and learned.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1921.18994140625,
+      "end_s": 1925.5899658203125,
+      "text": "And okay, I now now I have no excuse.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1925.5899658203125,
+      "end_s": 1935.27001953125,
+      "text": "I like I have I don't know how I I bought the first time I bought it, I bought a hundred dollars, which was at the time200s.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1935.27001953125,
+      "end_s": 1937.18994140625,
+      "text": "Oh my god, good times, huh?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1937.18994140625,
+      "end_s": 1943.030029296875,
+      "text": "Yeah, yeah, and and that was okay, I have200 highs.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1943.030029296875,
+      "end_s": 1944.469970703125,
+      "text": "I cannot lose it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1944.469970703125,
+      "end_s": 1955.1099853515625,
+      "text": "I need to and and then I and then I went all I went uh all in in learning, not yeah, you went down the rabbit hole, right?",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1955.1099853515625,
+      "end_s": 1976.0699462890625,
+      "text": "Yeah, yeah, and uh I I like I bought it in December uh2016, the first time I bought it, and uh in2017, I was doing I was building a company of uh a bitcoin company, so that's what I call all in.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 1976.0699462890625,
+      "end_s": 1982.550048828125,
+      "text": "I like to ask you something about that because you said you you took a while to take the first leap into bitcoin.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1982.550048828125,
+      "end_s": 1990.22998046875,
+      "text": "Would you say that bitcoin made you more comfortable or more averse to risk?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 1990.22998046875,
+      "end_s": 2001.989990234375,
+      "text": "Because for me, man, like I learned to take the opportunity, but I also leave my money on the hardest asset ever because I don't want to lose it, so it's an interesting like dichotomy.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2001.989990234375,
+      "end_s": 2003.3499755859375,
+      "text": "What do you think?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2003.3499755859375,
+      "end_s": 2007.8800048828125,
+      "text": "Yeah, it's uh it's kind of it's really funny because.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2006.0,
+      "end_s": 2243.39990234375,
+      "text": "you know it's really funny because risk it's a very convoluted um concept because you if you're not risking anything in the short term this is the biggest risk for the long term oh I'm gonna clip that amazing yeah it like for example if you never risk anything you like uh if you don't take I don't know if you don't take maybe one month of sitting down and and uh and learning something to get a better job in the future you you you won't progress your career if you're always in the same job for example if you're always in the same job and uh because you don't want to risk it you don't want to be unemployed and uh and uh and you're doing like the best but like the best way actually to to improve your your your your salary to grow in your career is most often than not like going to another company because some if you are trying to build a career in one company it it takes years but uh but if you're like a junior starts as as junior and and uh people say oh but uh you're you entered like one year ago you you you don't uh you don't uh um you're still junior after one year but I but sometimes like uh I I there there's uh examples is in in a company for friends that I worked with uh there was a uh uh uh uh uh uh uh uh uh uh a girl uh her name is Trix she she she she she she she she she she she's like amazing she was really really really really really really really really smart and and uh she was uh young she uh uh she was uh as a junior uh data scientist in mercado bitcoin and there was a huge layoff and she was unfortunately laid off and she was very very sad very upset because of this but after I don't know two three months she was uh hired as a senior like she she she she she she she she she she she worked about one year as a junior and she was hired uh uh as a senior it and it's not like oh but um it it it she she she she she she she she she she she was really good and and uh if they she was like trying to progress inside the company it would have taken a lot longer yeah a lot longer and and she wouldn't uh uh uh uh uh uh uh uh uh uh it and if she could because uh sometimes uh for for for for for for for for for for for a company to progress you they they they they they they they they they they they have to have a uh uh uh uh uh uh uh uh uh uh um a vacancy so okay now we have a spot now now now we can like kind try to promote someone there is uh there there's company bureaucracy but um but well this is this is one example there there's plenty of different example so coming back to Bitcoin um it's uh it's it's kind of a short term risk because of course if if if if if if if if if if if there's a bitcoin there's a lot of fluctuation in purchasing power right uh in2018 the the the bitcoin went to twenty thousand dollars to three thousand dollars in one year so I I was there and it was uh frightening as hell it was my first bear market but um it",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2242.389892578125,
+      "end_s": 2362.389892578125,
+      "text": "uh after after you build uh uh you you you you you you you you you you you you you progressing life if you if you have uh uh uh you you you build your stuff you can you you you you you you you you you you you you you you have uh in portuguese we say like uh uh um liquidity caution uh uh uh anyway in English perhaps you have some leeway to do the yeah yeah it's like some some some some some some some some some some some fat to burn exactly perfect yeah yeah so it you need a little risk in the short term so you can get uh so you can be more risk averse in the long term yeah that that was that was very smart to say I'm gonna tweet that later very nice yeah yes that's it and uh one thing that that I that I wanted to touch before we wrap up is that um when I teach English man many people find excuse after excuse after excuse to not learn English right now just like you found many excuses to not enter bitcoin right now but today I see that you are not that kind of person and one this is one of the things I admire about you it for me it looks like you're always doing something like you're writing a book then you're in a data science then you're into ai then you're having a kid then you're hosting uh bit dev dev dev dev dev devs how do you find this energy or what mental frame do you need to have or you had to change to stop delaying stuff to stop pushing stuff to the future and just doing stuff and taking that little small risk right now oh I believe I'm the worst person for for answering this question because the the the thing that I I uh I I think that the way the the the reason I do so many stuff",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2362.389892578125,
+      "end_s": 2367.830078125,
+      "text": "It's because I have ADHD.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2367.830078125,
+      "end_s": 2374.31005859375,
+      "text": "So I I always been in been the person that wants in Portugal.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2374.31005859375,
+      "end_s": 2381.909912109375,
+      "text": "I don't know if there's a uh an expression in English, but in Portuguese we say like I want to hug the words with my legs.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2381.909912109375,
+      "end_s": 2399.669921875,
+      "text": "So uh so it I always wanted to do more than I can, and uh and actually this actually is this actually leads me to paralysis.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2399.669921875,
+      "end_s": 2405.989990234375,
+      "text": "This makes me uh I I lots of times I'm I'm studying a lot.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2405.989990234375,
+      "end_s": 2450.6298828125,
+      "text": "I I like I like studying, and I like I like a lot to to understand how things work, and uh and but there's so many cool new stuff happening all the time that I'm always okay I I learned this new stuff, but oh this there's this next one really cool, and I learned this one, and I learned in and after a long time I I did a lot of stuff, and I didn't I learned a lot of stuff, and I actually didn't as a execute anything, I didn't do actually, I didn't actually do anything, so this is uh uh uh uh uh uh uh uh uh uh uh struggle that I I fight every day.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2450.6298828125,
+      "end_s": 2456.949951171875,
+      "text": "It's this is something that I I always try to limit.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2456.949951171875,
+      "end_s": 2459.110107421875,
+      "text": "Um it's kind of strange.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2459.110107421875,
+      "end_s": 2466.8701171875,
+      "text": "I I I need to limit my study time, so I can try to apply it more.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2466.8701171875,
+      "end_s": 2474.070068359375,
+      "text": "Okay, so the idea is not to do many things, but it's to focus down on one thing at a time, yeah.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2474.070068359375,
+      "end_s": 2483.27001953125,
+      "text": "This was extremely crucial for me. I always did a lot of stuff.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2483.27001953125,
+      "end_s": 2488.469970703125,
+      "text": "I uh I don't know if you know I I played a harmonica in a band for six years.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2488.469970703125,
+      "end_s": 2489.590087890625,
+      "text": "I had no idea.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2489.590087890625,
+      "end_s": 2490.22998046875,
+      "text": "Nice.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2490.22998046875,
+      "end_s": 2495.35009765625,
+      "text": "Yeah, if you uh uh I can I can send you remember I can send you the link on YouTube.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2495.35009765625,
+      "end_s": 2503.35009765625,
+      "text": "I I have some some some some some some some some some some some performances on YouTube, and uh I I did lots of uh different stuff.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2503.35009765625,
+      "end_s": 2504.949951171875,
+      "text": "I love martial arts.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2504.949951171875,
+      "end_s": 2509.27001953125,
+      "text": "I I love I I love too many stuff.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2509.27001953125,
+      "end_s": 2526.389892578125,
+      "text": "So there was a a time in my life that I need to consciously focus, and I say, okay, I I will never uh uh uh uh uh uh uh uh uh uh progress in life being like the jack of all trades, uh master of none.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2526.389892578125,
+      "end_s": 2529.590087890625,
+      "text": "I I need to focus a little bit.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2529.590087890625,
+      "end_s": 2543.35009765625,
+      "text": "I I try to focus on one, but I couldn't because uh yeah, I can't, but but I I tried to narrow down the best I could, and uh the best way that I could is to narrow that okay.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2543.35009765625,
+      "end_s": 2556.14990234375,
+      "text": "Uh what is something that I I really like that I it can get me money, and and uh I don't remember, but uh it's especially something that I really like.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2556.14990234375,
+      "end_s": 2560.14990234375,
+      "text": "It's uh it's promising that it keeps me uh excited.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2560.14990234375,
+      "end_s": 2566.22998046875,
+      "text": "There's always uh uh for me, I know I love new challenges and love new stuff to learn.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2566.22998046875,
+      "end_s": 2574.550048828125,
+      "text": "So what that I will always have new stuff to learn that it will always be a challenge, I'll always be studying.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2574.550048828125,
+      "end_s": 2578.389892578125,
+      "text": "It won't ever be boring, it won't ever be okay.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2578.389892578125,
+      "end_s": 2584.469970703125,
+      "text": "I learned everything there is to know, and uh now I just apply it and I'll be comfortable the rest of my life.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2584.469970703125,
+      "end_s": 2597.590087890625,
+      "text": "This is not something that I I want this is not the the the the best life like hell man, yeah, that it's it's it's paradise for some some some some some some some some some some some some people and uh it's hell for me.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2597.590087890625,
+      "end_s": 2597.719970703125,
+      "text": "Uh",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2596.0,
+      "end_s": 2716.070068359375,
+      "text": "when uh it's hell for me uh i would be very bored and and uh even even for things that i i i actually like i i need to change my focus constantly constantly so what i did is to i i i i i i i i i i i for I was working in the financial markets for for some years so and and I I I I I I I have a pretty good grasp of it I I have a and I really like like like like like like like like like like like uh uh uh uh uh uh uh uh uh uh uh financial um mathematics and quantum finance so so this is one part and and I had like I I kind of had a career there so that was one part the other part was Bitcoin which is which actually fits really well with uh finance because we also need maps we also need uh um um um um um um um um um um uh technology and uh and and this is something that I I'm really passionate about more than than professionally I'm I'm passionate about like for for life I I think that bitcoin is something that and um and the third thing is something that I I always loved as well actually it was the first which is AI I my first neural network I did it in20102010 I created a neural network which we could play an instrument and it recognized which instrument it was playing damn so you you you you you you you you you you you have been way ahead of the game for a while then nice yeah kind of it this was like14 years ago and I and I I I I I I I I I I I saw the development of the AI ecosystem from close uh um but the thing is that um when I graduated in2013",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2716.070068359375,
+      "end_s": 2718.949951171875,
+      "text": "There was no jobs using AI at all.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2718.949951171875,
+      "end_s": 2732.8701171875,
+      "text": "I I tried to be a data scientist, but there was one company that was hiring for data sciences for data science was a was a relatively unknown company uh that just was created at the time.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2732.8701171875,
+      "end_s": 2734.389892578125,
+      "text": "I don't know if you know it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2734.389892578125,
+      "end_s": 2738.22998046875,
+      "text": "It's uh no bank, yeah, just a small startup, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2738.22998046875,
+      "end_s": 2739.18994140625,
+      "text": "I think I heard about it.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2739.18994140625,
+      "end_s": 2773.989990234375,
+      "text": "Yeah, yeah, I I had an interview with them, and uh, but the the the salary expectation uh I I had I would have to move to Sawn Paulo with uh it was not like a terrible salary, but uh I did I did the calculation and probably I would need help from my my parents to to be there, and I I didn't want to move from from I didn't want to move from home and still depend on my parents, yeah.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2773.989990234375,
+      "end_s": 2777.989990234375,
+      "text": "So I go there, and uh and there that's it.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2777.989990234375,
+      "end_s": 2782.469970703125,
+      "text": "That's the only job in data science in Brazil.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2782.469970703125,
+      "end_s": 2795.909912109375,
+      "text": "So and there and uh so I went to the financial markets, and I always try to like uh tell people we can use data science, we can use AI for for finance.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2795.909912109375,
+      "end_s": 2798.31005859375,
+      "text": "Yeah, yeah, yeah, maybe later.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2798.31005859375,
+      "end_s": 2803.590087890625,
+      "text": "And uh and I uh and I I was always trying, and I was always learning.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2803.590087890625,
+      "end_s": 2820.070068359375,
+      "text": "I doing I was doing courses in in Coursera, which was also founded in2013,2014, and uh I did the first courses there in data science, machine learning, AI, and uh, and this is something that I I decided okay.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2820.070068359375,
+      "end_s": 2823.909912109375,
+      "text": "This is something that I I don't want this is very useful.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2823.909912109375,
+      "end_s": 2833.56005859375,
+      "text": "This is this is not only something big that but it will always become bigger, and it will always become better, and I I don't want",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2832.22998046875,
+      "end_s": 2954.949951171875,
+      "text": "better and i i i i don't want to lose this aspect although i didn't had like professional experience more or less uh uh because i i i i i i i i wasn't uh actually hired as a data science up to this up to that point but i i i i wanted to i i i need i knew that i i i i could and and i knew that i would like and i knew that i would be good at and i knew that i would get good money so yeah i i i i i this was my three pillars of knowledge that i i i i i i i i i i i in everything that i try that uh uh uh uh uh uh uh uh uh uh goes from it I kind of try to see okay this is one of these three things or not and actually there they they uh uh uh uh uh uh uh uh uh uh some I I always actually learn more stuff but I I try to limit them much more fiercely than than these other three teams or topics of course so the takeaway right if you want to accomplish as many things as Breno has find a way to get a D and fight it that's the best way yeah yeah very nice man if people want to follow you and see the stuff you have been doing where can they go yeah you can follow me on Twitter if Twitter is still on it will be it will be I hope so I hope so I I I Twitter is my main source of of knowledge nowadays I I learned so much in Twitter it's uh at Breno RB perfect which is uh which is my name and my my my surnames the the the first letters of my surnames and uh uh uh uh uh uh uh uh uh uh uh and also if Twitter is not uh if Twitter is shut down you can go to Nostor and uh my I just did uh uh uh uh uh uh uh uh uh uh uh N pub there.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2954.949951171875,
+      "end_s": 2968.949951171875,
+      "text": "I uh I I don't know the name, but it's it's like an email that you you you you you you you you you you you can use it to follow people on and it's Breno RB, I believe it's at ZEP or Zeps.wall",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2968.949951171875,
+      "end_s": 2975.989990234375,
+      "text": "absolutely I'm gonna put everything in the description so you don't so you're it's gonna be able uh it's gonna be easy for people to uh find it.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2975.989990234375,
+      "end_s": 2977.18994140625,
+      "text": "Don't worry about it.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2977.18994140625,
+      "end_s": 2985.110107421875,
+      "text": "All right, yeah, send you nice, and don't forget to send me the the videos of you playing the harmonic, I'm very curious about that.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2985.110107421875,
+      "end_s": 2986.550048828125,
+      "text": "Yeah, yeah, sure."
+    },
+    {
+      "start_s": 2986.550048828125,
+      "end_s": 2989.510009765625,
+      "text": "Banana brother, thank you very much for this conversation, man.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2989.510009765625,
+      "end_s": 2997.429931640625,
+      "text": "It was great to have you, and I I had some questions over here, I was not able to ask, so we're gonna I'm gonna have to invite you again in the future, right?",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 2997.429931640625,
+      "end_s": 2998.22998046875,
+      "text": "Yeah, sure.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 2998.22998046875,
+      "end_s": 3001.909912109375,
+      "text": "Uh I talked too much.",
+      "speaker": "S2"
+    },
+    {
+      "start_s": 3001.909912109375,
+      "end_s": 3003.030029296875,
+      "text": "No worries, man.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 3003.030029296875,
+      "end_s": 3004.14990234375,
+      "text": "It's a pleasure.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 3004.14990234375,
+      "end_s": 3006.550048828125,
+      "text": "That's exactly why I invited you, man.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 3006.550048828125,
+      "end_s": 3007.110107421875,
+      "text": "Really.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 3007.110107421875,
+      "end_s": 3009.989990234375,
+      "text": "Thank you very much, and I see you next time.",
+      "speaker": "S1"
+    },
+    {
+      "start_s": 3009.989990234375,
+      "end_s": 3010.52001953125,
+      "text": "Thank you."
+    }
+  ],
+  "speaker_diarization": {
+    "backend": "FluidInference/speaker-diarization-coreml via fluidaudiocli process --mode offline",
+    "detected_speaker_count": 2,
+    "segment_count": 365
+  }
+}

@@ -87,6 +87,20 @@
       { "start": 4200, "title": "Identidade, coordenacao e como viver num mundo de agentes" }
     ]
   },
+  "breno-brito-full-english": {
+    "url": "https://www.youtube.com/watch?v=DEjEP3U2dLM",
+    "chapters": [
+      { "start": 0, "title": "Abertura, livros e contexto da conversa" },
+      { "start": 128, "title": "Por que escrever 101 Perguntas sobre Bitcoin" },
+      { "start": 549, "title": "Como surgiram as perguntas e a estrutura do livro" },
+      { "start": 734, "title": "O ponto ideal entre explicar demais e de menos" },
+      { "start": 1531, "title": "Ingles como alavanca para aprender Bitcoin" },
+      { "start": 1800, "title": "Primeiros contatos com Bitcoin e a entrada tardia" },
+      { "start": 1982, "title": "Risco, carreira e por que nao arriscar tambem custa" },
+      { "start": 2362, "title": "ADHD, foco e paralisia por excesso de interesses" },
+      { "start": 2596, "title": "Os tres pilares: financas, Bitcoin e inteligencia artificial" }
+    ]
+  },
   "podcast-bettermoney-101-perguntas-sobre-bitcoin": {
     "url": "https://www.youtube.com/watch?v=CBq94KL66lU",
     "chapters": [
