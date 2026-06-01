@@ -717,6 +717,23 @@ Granola is currently an early design note rather than a production system. The i
 [Livecoins Coverage](https://livecoins.com.br/satsconf-2024-maior-evento-de-bitcoin-no-brasil-discute-futuro-da-moeda-digital/)
 [Portal do Bitcoin on SatsHack](https://portaldobitcoin.uol.com.br/vinteum-anuncia-hackathon-para-desenvolvedores-de-bitcoin-e-lightning-network/)
 
+### Interview - Breno Brito — Full English
+
+URL: https://brenorb.com/breno-brito-full-english/
+Source: _posts/2024-09-10-breno-brito-full-english.md
+Date: 2024-09-10T12:00:00-03:00
+Content type: media
+Tags: english, interview, youtube
+Summary: Conversa em inglês no canal Católico Poliglota, com foco em prática de idioma e apresentação pessoal.
+
+Embedded media: https://www.youtube.com/embed/DEjEP3U2dLM
+
+Esta conversa no canal `Católico Poliglota` está toda em inglês. Pelo material público disponível, a proposta é simples: uma participação voltada a prática de idioma, apresentação pessoal e conversa direta, sem a moldura mais formal de palestra técnica ou entrevista de imprensa.
+
+ 
+
+Estou registrando a participação aqui para manter o arquivo do site alinhado com as aparições públicas em vídeo.
+
 ### Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin
 
 URL: https://brenorb.com/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/
@@ -1133,6 +1150,8 @@ Tags: bitcoin, layer 2, book, podcast
 Summary: Conversa no Bipa Cast sobre o que significa dizer que o halving está ou não precificado, por que isso remete à hipótese de mercado eficiente e como ETF, oferta e reflexividade bagunçam respostas fáceis.
 
 Embedded media: https://www.youtube.com/embed/ekQtXuTDOIs
+
+Links: [YouTube](https://www.youtube.com/watch?v=ekQtXuTDOIs) | [Spotify](https://open.spotify.com/episode/1YdoJqdVhAarE8wE2cGlxM)
 
 Esta conversa começa com uma pergunta de mercado, mas rapidamente vira uma aula sobre como pensar preço, oferta, assimetria de informação e reflexividade. Em vez de responder "sim" ou "não" de forma telegráfica, eu tento desmontar a própria pergunta: para discutir se o halving está precificado, primeiro é preciso definir o que é o halving, o que é uma precificação e o que as pessoas querem dizer quando falam que o mercado já "absorveu" um evento.
 
