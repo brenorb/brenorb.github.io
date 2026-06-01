@@ -47,9 +47,15 @@ function loadChunkStarts(slug) {
   }
 
   const transcript = JSON.parse(fs.readFileSync(transcriptPath, "utf8"));
-  return (transcript.chunks || transcript.segments || [])
-    .map((chunk) => Number(chunk.start_s))
+  const starts = [
+    ...(Array.isArray(transcript.segments) ? transcript.segments : []),
+    ...(Array.isArray(transcript.chunks) ? transcript.chunks : [])
+  ];
+
+  return starts
+    .map((chunk) => Math.floor(Number(chunk.start_s)))
     .filter((start) => Number.isFinite(start))
+    .filter((start, index, values) => values.indexOf(start) === index)
     .sort((a, b) => a - b);
 }
 

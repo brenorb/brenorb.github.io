@@ -83,7 +83,7 @@ function main() {
       missingChapterSpec.push(slug);
     } else {
       const count = chapterSpec.chapters.length;
-      if (count < 1 || count > 20) {
+      if (count < 2 || count > 20) {
         invalidChapterCounts.push(`${slug} (${count})`);
       }
     }
@@ -106,7 +106,7 @@ function main() {
     problems.push(`Missing chapter spec entries: ${missingChapterSpec.join(", ")}`);
   }
   if (invalidChapterCounts.length > 0) {
-    problems.push(`Invalid chapter counts (must be between 1 and 20): ${invalidChapterCounts.join(", ")}`);
+    problems.push(`Invalid chapter counts (must be between 2 and 20): ${invalidChapterCounts.join(", ")}`);
   }
   if (missingGeneratedChapterFile.length > 0) {
     problems.push(`Missing generated chapter files: ${missingGeneratedChapterFile.join(", ")}`);

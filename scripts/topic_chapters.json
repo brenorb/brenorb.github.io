@@ -2,14 +2,15 @@
   "palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados": {
     "url": "https://www.youtube.com/watch?v=A4f7HJ42M8I",
     "chapters": [
-      { "start": 0, "title": "Abertura e o que significa alinhar um LLM" },
-      { "start": 300, "title": "Redes neurais, embeddings e o problema da resposta certa" },
-      { "start": 900, "title": "Riscos de seguranca, jailbreaks e vazamento de informacao" },
+      { "start": 0, "title": "Abertura do evento, recados e certificados" },
+      { "start": 491, "title": "Apresentacao do Breno e calibragem da audiencia" },
+      { "start": 826, "title": "O que e alinhamento e por que resposta certa nao basta" },
+      { "start": 904, "title": "Jailbreaks, seguranca e respostas fora do objetivo" },
       { "start": 1500, "title": "Fine-tuning, instruction tuning e representation engineering" },
       { "start": 2340, "title": "Guardrails, avaliacao e RLHF" },
-      { "start": 3840, "title": "Mudanca de tema: mitos sobre ciencia de dados" },
+      { "start": 3873, "title": "Transicao para ciencia de dados e perguntas do publico" },
       { "start": 4740, "title": "Hype cycle, mercado e o que empresas realmente contratam" },
-      { "start": 5700, "title": "Ferramentas, formacao e como estudar sem cair em ilusao" }
+      { "start": 5689, "title": "Ferramentas, formacao e como fugir do coach dos dados" }
     ]
   },
   "palestra-introducao-a-opcoes": {
@@ -147,10 +148,10 @@
       { "start": 300, "title": "Hackathon, projetos e o que foi construido" },
       { "start": 900, "title": "Agentes, automacao e novas ferramentas em Bitcoin" },
       { "start": 1200, "title": "Escalabilidade: Lightning, ecash e outras camadas" },
-      { "start": 1800, "title": "Comunidade, encontros e aprendizado presencial" },
-      { "start": 2400, "title": "Valuation, cenarios e Nakamoto Portfolio" },
-      { "start": 3000, "title": "Heranca, custody e seguranca pratica" },
-      { "start": 3240, "title": "Mineracao, micropagamentos e impressoes finais da conferencia" }
+      { "start": 1800, "title": "Valuation, premio monetario e Nakamoto Portfolio" },
+      { "start": 2400, "title": "Heranca, multisig e recuperacao sem depender da empresa" },
+      { "start": 3000, "title": "Mineracao, HPC e o futuro do design das maquinas" },
+      { "start": 3240, "title": "Agentes, micropagamentos e adocao nao humana do Bitcoin" }
     ]
   },
   "podcast-blocktrends-bitcoin-ia-mercados-eficientes": {
@@ -176,17 +177,12 @@
       { "start": 0, "title": "Apresentacao e primeiros interesses" },
       { "start": 1800, "title": "Formacao, escola e escolha por computacao" },
       { "start": 3000, "title": "Descoberta do Bitcoin e a virada maximalista" },
-      { "start": 4200, "title": "Spirit of Satoshi, IA e engenharia" },
-      { "start": 5400, "title": "Seeds, BIP39 e educacao tecnica" },
-      { "start": 6300, "title": "NFTs, prova de existencia e blockchain" },
-      { "start": 7200, "title": "Consciencia artificial e limites filosoficos" },
-      { "start": 7800, "title": "O livro 101 Perguntas e por que escreve-lo" }
-    ]
-  },
-  "podcast-criptoverso-lancamento-livro-bitcoin-101": {
-    "url": "https://www.youtube.com/watch?v=9mM1cLua69Y",
-    "chapters": [
-      { "start": 0, "title": "Lancamento de 101 Perguntas sobre Bitcoin e reacao inicial" }
+      { "start": 4200, "title": "Seeds, BIP39 em portugues e ergonomia da autocustodia" },
+      { "start": 5400, "title": "Spirit of Satoshi, IA especializada e trabalho infalsificavel" },
+      { "start": 6300, "title": "Companhia sintetica, web namoradas e substitutos afetivos" },
+      { "start": 6600, "title": "Por que faltava um livro introdutorio sobre Bitcoin" },
+      { "start": 7200, "title": "Barreiras tecnicas, didatica e a estrutura do livro" },
+      { "start": 7800, "title": "Por que Bitcoin importa e a metafora do tsunami" }
     ]
   },
   "podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon": {
@@ -223,11 +219,11 @@
       { "start": 1500, "title": "Do GPT-2 aos modelos atuais" },
       { "start": 2100, "title": "Produtividade, trabalho e adaptacao social" },
       { "start": 2700, "title": "Tributacao, politica e velocidade da mudanca" },
-      { "start": 3300, "title": "Arte, shows e por que criacao nao desaparece" },
-      { "start": 3600, "title": "Linguagem, escrita e salto civilizacional" },
-      { "start": 4200, "title": "Propaganda sintetica, midia e manipulacao" },
-      { "start": 4800, "title": "Consciencia artificial e testes filosoficos" },
-      { "start": 5400, "title": "Como conviver com IA e reinventar educacao" }
+      { "start": 3300, "title": "ChatGPT, abundancia de informacao e a necessidade de escassez" },
+      { "start": 3600, "title": "Propaganda sintetica, fraude documental e humanos usando IA" },
+      { "start": 4200, "title": "True believers, ceticos e o mapa das visoes sobre IA" },
+      { "start": 4800, "title": "Ferramentas de codigo, especializacao e novas alavancas de trabalho" },
+      { "start": 5400, "title": "Trade-offs de aprendizado, dependencia e convivencia com IA" }
     ]
   },
   "podcast-fernando-caixeta-101-perguntas-sobre-bitcoin": {
