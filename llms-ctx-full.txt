@@ -413,25 +413,6 @@ Ao longo do episódio eu tento manter uma linguagem simples sem desfigurar o pro
 
 Outro ponto bom é que a entrevista volta a perguntas que parecem óbvias, mas quase nunca são respondidas com clareza: o que significa dizer que o Bitcoin é melhor do que formas anteriores de dinheiro, onde entra a questão da privacidade, o que muda com propostas como o Drex, e por que uma moeda com oferta previsível reorganiza incentivos de consumo, poupança e poder político.
 
-### Podcast - Criptoverso - Lançamento do livro Bitcoin 101
-
-URL: https://brenorb.com/podcast-criptoverso-lancamento-livro-bitcoin-101/
-Source: _posts/2025-06-20-podcast-criptoverso-lancamento-livro-bitcoin-101.md
-Date: 2025-06-20T12:00:00-03:00
-Content type: media
-Tags: bitcoin, book, podcast
-Summary: Episódio do Criptoverso sobre o lançamento do livro Bitcoin 101, a lógica por trás da estrutura em perguntas e por que o Bitcoin precisa ser entendido como uma mudança monetária mais profunda do que um simples ativo especulativo.
-
-Embedded media: https://www.youtube.com/embed/9mM1cLua69Y
-
-Este episódio acompanha o lançamento da edição digital de [101 Perguntas sobre Bitcoin]( ) e funciona quase como um making-of da ideia. A conversa explica por que a estrutura em perguntas resolveu um problema que eu vinha sentindo havia anos: muito material sobre Bitcoin ou era técnico demais, ou parcial demais, ou longo demais para servir de boa porta de entrada.
-
- 
-
-O valor desta página não está só em divulgar promoção ou lançamento, mas em registrar a ambição do livro. Eu explico como tentei condensar uma visão 360 graus de Bitcoin sem transformar o leitor em especialista precoce e sem pedir que alguém comece por quatro livros e mil páginas. A ideia era dar base suficiente para a pessoa ler notícia, conversar, identificar besteira e seguir com as próprias pernas.
-
-O episódio também puxa algumas das teses que atravessam o livro inteiro: por que o Bitcoin importa, por que ele não é só “mais um ativo”, como o dinheiro fiduciário desorganiza incentivos de longo prazo e por que muita gente só percebe tarde demais que a mudança já começou. É dali que vem a metáfora que aparece na conversa: o Bitcoin não é um modismo passageiro, mas um processo que vai arrastar muita gente antes que ela se sinta intelectualmente pronta para isso.
-
 ### Podcast - Criptoverso #054 - Breno Brito
 
 URL: https://brenorb.com/podcast-criptoverso-54-breno-brito/
