@@ -1,0 +1,1469 @@
+{
+  "items": [
+    {
+      "id": "palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering",
+      "slug": "palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering",
+      "label": "Transcription (experimental)",
+      "source_label": "YouTube",
+      "source_url": "https://www.youtube.com/watch?v=90yNM5Pt8Nw",
+      "stats": {
+        "line_count": 242,
+        "speaker_count": 3
+      },
+      "lines": [
+        {
+          "timestamp": "00:02",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2",
+          "speaker": "SPEAKER_01",
+          "text": "First of all, I want to know here who uses AI here."
+        },
+        {
+          "timestamp": "00:10",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=10",
+          "speaker": "SPEAKER_01",
+          "text": "Yeah, everyone, nice."
+        },
+        {
+          "timestamp": "00:12",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=12",
+          "speaker": "SPEAKER_01",
+          "text": "It's uh actually if someone said it didn't actually everyone does because your EBA used it, your elevator has AI."
+        },
+        {
+          "timestamp": "00:21",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=21",
+          "speaker": "SPEAKER_01",
+          "text": "Catches actually it's the AI using you and not the opposite."
+        },
+        {
+          "timestamp": "00:26",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=26",
+          "speaker": "SPEAKER_01",
+          "text": "But uh even dialogue models had AI in it."
+        },
+        {
+          "timestamp": "00:31",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=31",
+          "speaker": "SPEAKER_01",
+          "text": "Uh when they connect to the internet, they use some AI to regulate how to regulate the the the line, the uh signal."
+        },
+        {
+          "timestamp": "00:47",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=47",
+          "speaker": "SPEAKER_01",
+          "text": "So but we're not talking here like AI in general, we're talking of course about language models."
+        },
+        {
+          "timestamp": "00:53",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=53",
+          "speaker": "SPEAKER_01",
+          "text": "We're talking about code."
+        },
+        {
+          "timestamp": "00:56",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=56",
+          "speaker": "SPEAKER_01",
+          "text": "Um first of all, why should I care?"
+        },
+        {
+          "timestamp": "01:02",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=62",
+          "speaker": "SPEAKER_01",
+          "text": "And uh it's uh especially after this great presentation, like there's so many problems."
+        },
+        {
+          "timestamp": "01:09",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=69",
+          "speaker": "SPEAKER_01",
+          "text": "But uh but there's also some really interesting things going on."
+        },
+        {
+          "timestamp": "01:15",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=75",
+          "speaker": "SPEAKER_01",
+          "text": "For example, the company side, uh the Shopify Shop if I say AI is no longer optional."
+        },
+        {
+          "timestamp": "01:21",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=81",
+          "speaker": "SPEAKER_01",
+          "text": "You should be using AI AI is a baseline expectation so there."
+        },
+        {
+          "timestamp": "01:25",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=85",
+          "speaker": "SPEAKER_01",
+          "text": "Um companies are expecting for you to use um Spotify says it's best developers haven't written a single line code since December."
+        },
+        {
+          "timestamp": "01:37",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=97",
+          "speaker": "SPEAKER_01",
+          "text": "It's uh it's a lot."
+        },
+        {
+          "timestamp": "01:39",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=99",
+          "speaker": "SPEAKER_01",
+          "text": "Um there's a guy that um wrote re-rolled next.js"
+        },
+        {
+          "timestamp": "01:47",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=107",
+          "speaker": "SPEAKER_01",
+          "text": "in byte or VT, I don't know how to pronounce this."
+        },
+        {
+          "timestamp": "01:52",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=112",
+          "speaker": "SPEAKER_01",
+          "text": "And uh just one guy in took one thousand dollars and uh now it's building uh"
+        },
+        {
+          "timestamp": "01:58",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=118",
+          "speaker": "SPEAKER_01",
+          "text": "And now it's doing uh far thanks lesser57% uh smaller models."
+        },
+        {
+          "timestamp": "02:04",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=124",
+          "speaker": "SPEAKER_03",
+          "text": "And there's actually um site."
+        },
+        {
+          "timestamp": "03:25",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=205",
+          "speaker": "SPEAKER_01",
+          "text": "Sorry, guys."
+        },
+        {
+          "timestamp": "03:26",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=206",
+          "speaker": "SPEAKER_01",
+          "text": "Um, so there he you built this next JS uh uh using V and uh there's a website using it already, uh government website is C IO box website."
+        },
+        {
+          "timestamp": "03:43",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=223",
+          "speaker": "SPEAKER_01",
+          "text": "Um he did it over a week more than uh I I forgot right now, but uh it took like a little bit more than a week to do everything."
+        },
+        {
+          "timestamp": "03:56",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=236",
+          "speaker": "SPEAKER_01",
+          "text": "Everything this is like when we look to people using it."
+        },
+        {
+          "timestamp": "04:02",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=242",
+          "speaker": "SPEAKER_01",
+          "text": "There's a Toby for from Shopify, there's Jack."
+        },
+        {
+          "timestamp": "04:07",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=247",
+          "speaker": "SPEAKER_01",
+          "text": "Everybody knows Jack here."
+        },
+        {
+          "timestamp": "04:09",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=249",
+          "speaker": "SPEAKER_01",
+          "text": "You can see in their uh in their GitHub that they are shipping more code."
+        },
+        {
+          "timestamp": "04:14",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=254",
+          "speaker": "SPEAKER_01",
+          "text": "And uh it's no small and uh more more more more specifically like this monster guy that uh he built open club we talked about open calling recently like he did32,000 contributions in two months in this year."
+        },
+        {
+          "timestamp": "04:38",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=278",
+          "speaker": "SPEAKER_01",
+          "text": "Yeah, it's a it's a movie he works like16 hours a day, he's he's crazy, he's completely nuts, but uh he's well open AI bought him, right?"
+        },
+        {
+          "timestamp": "04:49",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=289",
+          "speaker": "SPEAKER_01",
+          "text": "So so he is uh great guy."
+        },
+        {
+          "timestamp": "04:51",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=291",
+          "speaker": "SPEAKER_01",
+          "text": "Um there's uh some some some some some some some some some some some statistics some some there's a company that did uh more exactly statistics there's a looking for more than a hundred thousand developers,92% are using covenant assistance,26% of the code now is AI altered, and uh they're saving about four hours a week."
+        },
+        {
+          "timestamp": "05:17",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=317",
+          "speaker": "SPEAKER_01",
+          "text": "So it's uh interesting stuff."
+        },
+        {
+          "timestamp": "05:20",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=320",
+          "speaker": "SPEAKER_01",
+          "text": "And uh machine learning engineer scientist, I'm using UNED I never know since2010."
+        },
+        {
+          "timestamp": "05:31",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=331",
+          "speaker": "SPEAKER_01",
+          "text": "I worked in spiritual Satoshi, work on Bitcoin VIP, wrote that book, and and this month is one year anniversary of by coding."
+        },
+        {
+          "timestamp": "05:42",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=342",
+          "speaker": "SPEAKER_01",
+          "text": "Uh one year ago and re converts wrote um there's a new kind of coding I call vibe coding, and uh he in his words it's fully fully giving to the vibes, embrace potentials and forget that the code even exists."
+        },
+        {
+          "timestamp": "06:01",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=361",
+          "speaker": "SPEAKER_01",
+          "text": "And now one year later he wrote that lots of people are talking about this, and uh he actually likes the word agentic engineering as in uh opposite way to by coding."
+        },
+        {
+          "timestamp": "06:17",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=377",
+          "speaker": "SPEAKER_01",
+          "text": "In uh like my coding is kind of like he was doing something like for fun, not like serious work, and now that there are new people doing real thing with serious work, he really likes the the the name agentic engineer because agentich means that you're using the agents actually and uh the engineering part is the real part, there's an art and science and expertise to it."
+        },
+        {
+          "timestamp": "06:46",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=406",
+          "speaker": "SPEAKER_01",
+          "text": "And um so let's rewind a little bit, remember the basics."
+        },
+        {
+          "timestamp": "06:54",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=414",
+          "speaker": "SPEAKER_01",
+          "text": "So if we want to like really do this better, understand it better, we should understand what is another level."
+        },
+        {
+          "timestamp": "07:02",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=422",
+          "speaker": "SPEAKER_01",
+          "text": "Uh like first of all difference between classical and edge and AI, like the classical AI usually you you recognize you you don't generate data, you recognize a cat, the GI you draw a cat."
+        },
+        {
+          "timestamp": "07:15",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=435",
+          "speaker": "SPEAKER_01",
+          "text": "So I usually it's a classification model in the G and AI you you create new stuff that didn't exist before."
+        },
+        {
+          "timestamp": "07:26",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=446",
+          "speaker": "SPEAKER_01",
+          "text": "And uh so it's can you can you see this this is the architecture very similar to GPT2 and uh and this shows a little bit it's too much, the like this is the attention mechanism, you we don't need to go like really full detail, but the the interesting part is the last part here that it predicts that that it should be."
+        },
+        {
+          "timestamp": "07:59",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=479",
+          "speaker": "SPEAKER_01",
+          "text": "That it predicts uh distribution of possible tokens, and then you use a random function to big one."
+        },
+        {
+          "timestamp": "08:09",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=489",
+          "speaker": "SPEAKER_01",
+          "text": "And basically that's how that's the difference between Gen AI, you use a random function in the end, you predict the distribution and big one, and and then you go and incredibly this works somehow."
+        },
+        {
+          "timestamp": "08:25",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=505",
+          "speaker": "SPEAKER_01",
+          "text": "So going a little bit deeper into LLMs, you have something called the context window."
+        },
+        {
+          "timestamp": "08:35",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=515",
+          "speaker": "SPEAKER_01",
+          "text": "The context window is your your AI has a limited amount of input that you can put it inside."
+        },
+        {
+          "timestamp": "08:46",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=526",
+          "speaker": "SPEAKER_01",
+          "text": "And uh I put slash rot there because there is something called context rot."
+        },
+        {
+          "timestamp": "08:52",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=532",
+          "speaker": "SPEAKER_01",
+          "text": "When you don't maybe when when when when when when when when when when when you don't use well enough your context window, you can get context rot."
+        },
+        {
+          "timestamp": "09:00",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=540",
+          "speaker": "SPEAKER_01",
+          "text": "Where it uh for example adding too much noise, adding too much uh input."
+        },
+        {
+          "timestamp": "09:09",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=549",
+          "speaker": "SPEAKER_01",
+          "text": "One way you can see like if we go back to C, it's uh context windows are like array, so you're mallocating inside already, and the other thing is a sliding window."
+        },
+        {
+          "timestamp": "09:21",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=561",
+          "speaker": "SPEAKER_01",
+          "text": "I I made this small video here uh to show so if your our problem is like one to three, and uh we want the result to be like the sum of everything, so it's six, and now the sum of everything is twelve, and now the sum of everything should be24, but it gets23 because one is already outside of the context window."
+        },
+        {
+          "timestamp": "09:42",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=582",
+          "speaker": "SPEAKER_01",
+          "text": "So now we are getting context rot."
+        },
+        {
+          "timestamp": "09:45",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=585",
+          "speaker": "SPEAKER_01",
+          "text": "And uh this is uh a way to to visualize a little bit better what. going on but the actual the actual um function that it's using it's a little bit more complex it's uh there there's uh embeddings and and there's uh lots of multiplication this is the attention mechanism how how how it works it's the you multiply everything by everything and that's why it's so small and expensive and uh and um actually the token itself like when we put there lots of people don't doesn't know that we're using tokens and not specifically words or characters they like like for example how many R's times strong area the AI doesn't doesn't see there's one R here and two R what it's is it's straw it's one token it's uh an index to a vector and very it's another index to another vector so that's why there are so many mistakes in in this sometimes it's important to know these specific things because this is uh if you know that they use this kind of uh if the tokenized like this you know that this is a terrible thing that for two esque for a actual and like for example I have wrote this the car is not rot but there is a token it is a token carrot like there's a token car in carrot and uh and if you see the token space rod here is different from Roth over there are two different tokens and uh how AI tracks these kind of things is"
+        },
+        {
+          "timestamp": "11:48",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=708",
+          "speaker": "SPEAKER_01",
+          "text": "Next these kind of things is that it gets the the your sentence it tokenizes like getting all chunks and every token is an index and this index translates to a um higher uh... uh very high dimensional very high dimensional um vector, usually hundreds, sometimes even thousands of uh dimensions."
+        },
+        {
+          "timestamp": "12:18",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=738",
+          "speaker": "SPEAKER_01",
+          "text": "And uh if you understand if you have any idea of how this works, you can you can it can help you to work better with AI."
+        },
+        {
+          "timestamp": "12:33",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=753",
+          "speaker": "SPEAKER_01",
+          "text": "And now let's get to an agent."
+        },
+        {
+          "timestamp": "12:35",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=755",
+          "speaker": "SPEAKER_01",
+          "text": "What actually is an agent?"
+        },
+        {
+          "timestamp": "12:37",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=757",
+          "speaker": "SPEAKER_01",
+          "text": "Actually the an agent is just that that a lines of code is an agent or the of course when we are using an agent in uh that the there's more code to it."
+        },
+        {
+          "timestamp": "12:52",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=772",
+          "speaker": "SPEAKER_01",
+          "text": "Uh the more but this alone is an agent by itself."
+        },
+        {
+          "timestamp": "12:56",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=776",
+          "speaker": "SPEAKER_01",
+          "text": "It's just another level in a while that execute tools, just this."
+        },
+        {
+          "timestamp": "13:03",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=783",
+          "speaker": "SPEAKER_01",
+          "text": "So it's uh it's not very difficult to to write one, but it takes uh art and uh expertise and practice and actually you you have to test a lot to make the best agent possible."
+        },
+        {
+          "timestamp": "13:26",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=806",
+          "speaker": "SPEAKER_01",
+          "text": "Um another thing that I still in the in the quote unquote basic basics is the better lesson from Sutton."
+        },
+        {
+          "timestamp": "13:38",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=818",
+          "speaker": "SPEAKER_01",
+          "text": "So is uh AI messer is uh he has a book on reinforcement learning and he wrote this bitter lesson which is a very short paper but it very interesting but in in short it says that we uh we don't know how we think that's it so we don't know exactly if we try to make lots of um if we try to arrange the best way we possibly in the thing in how we think it's going to be out competed by a general method that just draws a lot of data there."
+        },
+        {
+          "timestamp": "14:31",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=871",
+          "speaker": "SPEAKER_01",
+          "text": "So one thing that should be learned from the bitter lessons the great power of general purpose methods or methods that continue to scale with increased computation basically the transformer now that we use today for LMs and agents are simpler than the ones before and they work better and usually a simpler and more general method with more data more computing works better and uh this is for building LMs but also we can apply this on the other way around if we are using LLMs if we have higher structure if you start to tell it to do this this and that and do like this and and if you try to constrain it too much it's better for a less intelligent AI but sometimes it's worse for more intelligent AI."
+        },
+        {
+          "timestamp": "15:31",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=931",
+          "speaker": "SPEAKER_01",
+          "text": "Usually you get if you're if you're uh working with a highly capable AI if you give a little bit less structure um it performs better."
+        },
+        {
+          "timestamp": "15:42",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=942",
+          "speaker": "SPEAKER_01",
+          "text": "This is called also hardness engineering"
+        },
+        {
+          "timestamp": "15:45",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=945",
+          "speaker": "SPEAKER_01",
+          "text": "When we are using a CLI, for example, cloud code is called the harness, it's an AI harness."
+        },
+        {
+          "timestamp": "15:52",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=952",
+          "speaker": "SPEAKER_01",
+          "text": "And how you structure this is called harness engineering."
+        },
+        {
+          "timestamp": "15:55",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=955",
+          "speaker": "SPEAKER_01",
+          "text": "So when we are using more capable AI, more intelligent AI, usually having a little bit less structure, could work better, so you need to understand and kind of feel how it works."
+        },
+        {
+          "timestamp": "16:14",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=974",
+          "speaker": "SPEAKER_01",
+          "text": "And uh there's for those who doesn't know, there's a slash commands is just a prompt."
+        },
+        {
+          "timestamp": "16:20",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=980",
+          "speaker": "SPEAKER_01",
+          "text": "MCP is kind of just a prompt with calling the API."
+        },
+        {
+          "timestamp": "16:24",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=984",
+          "speaker": "SPEAKER_01",
+          "text": "Skills also everything is kind of prompts, like the commands you you invoke directly from the CLI."
+        },
+        {
+          "timestamp": "16:31",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=991",
+          "speaker": "SPEAKER_01",
+          "text": "MCP you connect to an NCP server and kind of execute the APIs, and you need to be thoughtful about this as well because it could get context mark because it some KFCPs are not well designed and inject so much into your context that it becomes unusable."
+        },
+        {
+          "timestamp": "16:51",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1011",
+          "speaker": "SPEAKER_01",
+          "text": "Skills are more interesting way that there are folders with with those with instructions of for your AI to do stuff."
+        },
+        {
+          "timestamp": "17:03",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1023",
+          "speaker": "SPEAKER_01",
+          "text": "And agents in D is just a file that uh the your AI reads every time when it starts to run in your in a specific order."
+        },
+        {
+          "timestamp": "17:16",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1036",
+          "speaker": "SPEAKER_01",
+          "text": "Another thing is quantifying human AI synergy."
+        },
+        {
+          "timestamp": "17:20",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1040",
+          "speaker": "SPEAKER_01",
+          "text": "This paper is very interesting because it could measure that AI performance of games that it called synergy depends strongly on the human's ability to understand that natural AI."
+        },
+        {
+          "timestamp": "17:33",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1053",
+          "speaker": "SPEAKER_01",
+          "text": "So the what it's talking about here is that even if you're very good, a very good technical person, you uh you could be you could not be so good using AI because if you don't know how to collaborate with peers, so so kind of then you... you have to apply the the paper actually uses this word theory of mind, you have to have a theory of mind of the mind of AI to understand and kind of treat it like a co-worker."
+        },
+        {
+          "timestamp": "18:05",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1085",
+          "speaker": "SPEAKER_01",
+          "text": "So usually people that works really well, like for example uh Peter Seinberg uh that I showed before, it it had it was a CEO of a company, it there were it was a technical founder that he was needing lots of engineers, so he he is really good to understand how to to manage other people and and that's one possibility of why he's so good using it."
+        },
+        {
+          "timestamp": "18:36",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1116",
+          "speaker": "SPEAKER_01",
+          "text": "So yeah."
+        },
+        {
+          "timestamp": "18:38",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1118",
+          "speaker": "SPEAKER_01",
+          "text": "Let's go to some some some some some some some some some some some the workflows to how how how how people are actually using um this agent engineering stuff."
+        },
+        {
+          "timestamp": "18:51",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1131",
+          "speaker": "SPEAKER_01",
+          "text": "The most simple case uh uh I I use it a lot already, it's uh it's the plan feature."
+        },
+        {
+          "timestamp": "19:02",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1142",
+          "speaker": "SPEAKER_01",
+          "text": "You lots of lots of uh AI is already implementing this, if you use cursor, if you use vault code, there's a plan code that you it doesn't write any code, it just plan stuff."
+        },
+        {
+          "timestamp": "19:16",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1156",
+          "speaker": "SPEAKER_01",
+          "text": "Uh sometimes it writes a markdown file and um there there's lots of different ways to do it, but uh the thing is usually performs better, uh AI lots of time performs better if you write the plan."
+        },
+        {
+          "timestamp": "19:37",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1177",
+          "speaker": "SPEAKER_01",
+          "text": "Because if we but get back to the context window as"
+        },
+        {
+          "timestamp": "19:40",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1180",
+          "speaker": "SPEAKER_01",
+          "text": "Actually, the context window."
+        },
+        {
+          "timestamp": "19:41",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1181",
+          "speaker": "SPEAKER_01",
+          "text": "As we are building stuff, the contact window gets more and more walled."
+        },
+        {
+          "timestamp": "19:47",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1187",
+          "speaker": "SPEAKER_01",
+          "text": "And the AI might not attend to the specific parts of your cont."
+        },
+        {
+          "timestamp": "19:57",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1197",
+          "speaker": "SPEAKER_01",
+          "text": "So it might forget in the end what you ask in the beginning, and it might lose focus."
+        },
+        {
+          "timestamp": "20:04",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1204",
+          "speaker": "SPEAKER_01",
+          "text": "So when you when you have a plan, usually it can go back to the plan, you know, okay."
+        },
+        {
+          "timestamp": "20:11",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1211",
+          "speaker": "SPEAKER_01",
+          "text": "I did the first one, now let's read again."
+        },
+        {
+          "timestamp": "20:14",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1214",
+          "speaker": "SPEAKER_01",
+          "text": "Okay, now let's do the second one."
+        },
+        {
+          "timestamp": "20:17",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1217",
+          "speaker": "SPEAKER_01",
+          "text": "And it steers the model a little bit better."
+        },
+        {
+          "timestamp": "20:22",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1222",
+          "speaker": "SPEAKER_01",
+          "text": "And also if the plan is too big, sometimes we need to break into some phases."
+        },
+        {
+          "timestamp": "20:28",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1228",
+          "speaker": "SPEAKER_01",
+          "text": "A plan is also good because making this plan is also interesting because you can create a plan and read the plan."
+        },
+        {
+          "timestamp": "20:38",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1238",
+          "speaker": "SPEAKER_01",
+          "text": "So instead of like do this and wait for the model, like uh create this app, make me a thousand dollars, make me a million dollars, make no mistakes, you... you actually see what the the model is planning to do, and you can change, can open the plan, change it."
+        },
+        {
+          "timestamp": "20:57",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1257",
+          "speaker": "SPEAKER_01",
+          "text": "Uh on the execution phase I usually ask you to do GDD."
+        },
+        {
+          "timestamp": "21:00",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1260",
+          "speaker": "SPEAKER_01",
+          "text": "Works really well for me because it well, you know, the DD works."
+        },
+        {
+          "timestamp": "21:06",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1266",
+          "speaker": "SPEAKER_01",
+          "text": "And uh and in the end there's the code review part, which is really useful uh a lot for me as well."
+        },
+        {
+          "timestamp": "21:14",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1274",
+          "speaker": "SPEAKER_01",
+          "text": "Uh it compares your code with the plan and see if if if if it executed the plan and can find some bugs, some mesh cases."
+        },
+        {
+          "timestamp": "21:23",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1283",
+          "speaker": "SPEAKER_01",
+          "text": "Um human layer guys, the the guys from human layer, they they created something else."
+        },
+        {
+          "timestamp": "21:32",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1292",
+          "speaker": "SPEAKER_01",
+          "text": "It's not that different, but uh they call frequent intentional compaction, and the thing is that they see that. using your plan there, it's good, but it works better if you are using uh a new code base, but if you have a no code phase with lots of millions of lines of code, it it wouldn't work so well, so they add another part which is the research phase."
+        },
+        {
+          "timestamp": "21:59",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1319",
+          "speaker": "SPEAKER_01",
+          "text": "So the research part is like you talk to a mobile to say oh I'm playing to do this, this and this, research, and uh to try to understand how the system works, where should I uh uh what what what are the parts that I should change, what is the style, what's the format."
+        },
+        {
+          "timestamp": "22:17",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1337",
+          "speaker": "SPEAKER_01",
+          "text": "Um don't try to bug hunting and stuff like this."
+        },
+        {
+          "timestamp": "22:21",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1341",
+          "speaker": "SPEAKER_01",
+          "text": "So it it's uh it's the the idea is the same, but then the thing is it's a frequent intentional compaction."
+        },
+        {
+          "timestamp": "22:28",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1348",
+          "speaker": "SPEAKER_01",
+          "text": "You're compacting this um you're you're compacting the the your contact."
+        },
+        {
+          "timestamp": "22:37",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1357",
+          "speaker": "SPEAKER_01",
+          "text": "So instead of putting everything inside your context window, you research, make a compaction, intentional compaction like a file with the the important things and then using this file you plan what you're going to do, you write again another file, and using using those now you implement now you write the code and trying to keep context under40% usually it's also baseline."
+        },
+        {
+          "timestamp": "23:11",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1391",
+          "speaker": "SPEAKER_01",
+          "text": "Uh it seems not it seems not a lot, but uh after after going over40%, there's lots of times that they call it that the model goes into the dumb zone."
+        },
+        {
+          "timestamp": "23:26",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1406",
+          "speaker": "SPEAKER_01",
+          "text": "The context is get so big that the model starts to confuse themselves."
+        },
+        {
+          "timestamp": "23:31",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1411",
+          "speaker": "SPEAKER_01",
+          "text": "And if for example if the model says, Oh of course, you're absolutely correct."
+        },
+        {
+          "timestamp": "23:36",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1416",
+          "speaker": "SPEAKER_01",
+          "text": "You're in the dumb zone. just like erase everything starting in the section."
+        },
+        {
+          "timestamp": "23:42",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1422",
+          "speaker": "SPEAKER_01",
+          "text": "The guys from every build they did something that they call compound engineering."
+        },
+        {
+          "timestamp": "23:49",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1429",
+          "speaker": "SPEAKER_01",
+          "text": "There's these four phases."
+        },
+        {
+          "timestamp": "23:51",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1431",
+          "speaker": "SPEAKER_01",
+          "text": "Again, plan, word review, but there's the compound part the again that they kind of try to understand what follow went wrong, and kind to try to document everything."
+        },
+        {
+          "timestamp": "24:05",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1445",
+          "speaker": "SPEAKER_01",
+          "text": "So the model in the next time the model is going to work, it already knows how where it fails, usually fails, and it won't make the failures again."
+        },
+        {
+          "timestamp": "24:15",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1455",
+          "speaker": "SPEAKER_01",
+          "text": "There is of course all of this, there's a little bit more."
+        },
+        {
+          "timestamp": "24:20",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1460",
+          "speaker": "SPEAKER_01",
+          "text": "There's the links there where you can uh go and everything's marked down, it's marked down files with scales, so you can just open and read it."
+        },
+        {
+          "timestamp": "24:30",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1470",
+          "speaker": "SPEAKER_01",
+          "text": "You don't need to know a specific language for it."
+        },
+        {
+          "timestamp": "24:33",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1473",
+          "speaker": "SPEAKER_01",
+          "text": "But yeah, there's there's uh lots of uh specific markdowns for like well craped the prompts to to do it as well, but the the idea is after after you find the mistakes that it had in the review and then you use the compound uh idea to now create some documentation or to be better the next time."
+        },
+        {
+          "timestamp": "25:00",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1500",
+          "speaker": "SPEAKER_01",
+          "text": "Um there's also um something that people call spec driven development."
+        },
+        {
+          "timestamp": "25:08",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1508",
+          "speaker": "SPEAKER_01",
+          "text": "Uh and the idea is that we keep the generated code and the letter prompt."
+        },
+        {
+          "timestamp": "25:16",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1516",
+          "speaker": "SPEAKER_01",
+          "text": "It's like deleting your code and version controlling uh binaries."
+        },
+        {
+          "timestamp": "25:23",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1523",
+          "speaker": "SPEAKER_01",
+          "text": "When we're working with AI, it's interesting for us to version the plans, the prompts, your specs."
+        },
+        {
+          "timestamp": "25:36",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1536",
+          "speaker": "SPEAKER_01",
+          "text": "And there's there is as I as I said there is no one best practice yet."
+        },
+        {
+          "timestamp": "25:43",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1543",
+          "speaker": "SPEAKER_01",
+          "text": "There's people are discovering how to work well with this."
+        },
+        {
+          "timestamp": "25:48",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1548",
+          "speaker": "SPEAKER_01",
+          "text": "But um GitHub created the spec kit, which they basically use a file called the constitution, which is something that it's not intended to change, like this is the spec we want for the the we want the product to be this is the the what we want it to be, and then we... we specify some some some some some some some some some some some some some some some some some some some some some details of this spec and then we plan we create tests and then we execute the tests um there's other guy that used uh this create this VMAD methods which is also kind of uh spectrum development but they created some kind of agile role playing where you you invoke some some some some some some some some some some some some some some some some some some some some some some some some some some some some some some some agents they they have names and oh you are this you are that and but there is uh one thing that I find it interesting from BMAT is that it's uh it's a good flow because it's it you... you can ask and and they reply more naturally so you can you can literally have a conversation and in the end it writes a good spectrum and there's Rolf Rolf it's uh there was a guy that created this methods and it's basically the this while"
+        },
+        {
+          "timestamp": "27:34",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1654",
+          "speaker": "SPEAKER_01",
+          "text": "You create a prompt and you make a while and go through."
+        },
+        {
+          "timestamp": "27:41",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1661",
+          "speaker": "SPEAKER_01",
+          "text": "Why why is that?"
+        },
+        {
+          "timestamp": "27:43",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1663",
+          "speaker": "SPEAKER_01",
+          "text": "Let's go to the show a little bit better what is this if we get back here to the GitHub spec, for example."
+        },
+        {
+          "timestamp": "27:53",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1673",
+          "speaker": "SPEAKER_01",
+          "text": "You have you have the constitution, you specify your plan, and then you have a list of tests."
+        },
+        {
+          "timestamp": "28:02",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1682",
+          "speaker": "SPEAKER_01",
+          "text": "The idea here is to execute one task at a time, you give it to him and say okay."
+        },
+        {
+          "timestamp": "28:10",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1690",
+          "speaker": "SPEAKER_01",
+          "text": "Create the most important one, and that's it."
+        },
+        {
+          "timestamp": "28:14",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1694",
+          "speaker": "SPEAKER_01",
+          "text": "So basically you when you have a specification in uh a good plan in a big list of tasks, you can just put it to him, go and get you row and say, okay, choose the most important one and do it."
+        },
+        {
+          "timestamp": "28:33",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1713",
+          "speaker": "SPEAKER_01",
+          "text": "And then it goes one by one, and that's one way to do contact engineering, because if you're doing test by task, it's it's getting it's getting the plan, and it's uh getting the prompt, and creates a plan and execute in in a in a limited context window, and then when it goes again in the loop, or the next next text task, it has a new fresh session."
+        },
+        {
+          "timestamp": "29:04",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1744",
+          "speaker": "SPEAKER_01",
+          "text": "And uh yeah, there's lots of people using this, and actually Peter Cyber, it says that it sucks."
+        },
+        {
+          "timestamp": "29:15",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1755",
+          "speaker": "SPEAKER_01",
+          "text": "It's a it's very dumb."
+        },
+        {
+          "timestamp": "29:17",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1757",
+          "speaker": "SPEAKER_01",
+          "text": "Um this is using Roth, using all of those, it's it's the they are made for people using Opus, and uh when you use context."
+        },
+        {
+          "timestamp": "29:30",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1770",
+          "speaker": "SPEAKER_01",
+          "text": "And uh when you use codex, you don't need this."
+        },
+        {
+          "timestamp": "29:33",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1773",
+          "speaker": "SPEAKER_01",
+          "text": "Um I I don't use locals that much."
+        },
+        {
+          "timestamp": "29:36",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1776",
+          "speaker": "SPEAKER_01",
+          "text": "I use sometimes in cursor, but it's very different from using cloud code."
+        },
+        {
+          "timestamp": "29:41",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1781",
+          "speaker": "SPEAKER_01",
+          "text": "So it can have different different um ways, but um he says that usually using codex is much better than any of this because it's a better model."
+        },
+        {
+          "timestamp": "29:54",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1794",
+          "speaker": "SPEAKER_01",
+          "text": "So when gets back to the better lesson, yeah, he what he does is he just he doesn't even create a plan in talk to codex brainstorming features."
+        },
+        {
+          "timestamp": "30:05",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1805",
+          "speaker": "SPEAKER_01",
+          "text": "So what do you think about this?"
+        },
+        {
+          "timestamp": "30:08",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1808",
+          "speaker": "SPEAKER_01",
+          "text": "Uh is there another way that you would do talking uh with the model, and then when he thinks it's okay, okay, now execute run."
+        },
+        {
+          "timestamp": "30:21",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1821",
+          "speaker": "SPEAKER_01",
+          "text": "And uh he has he doesn't even use branches or work trees or whatever, he just uses lots of checkouts from in virtual main, but also like he's working alone most of the time, so it doesn't it's a little bit different working alone from working with with a team."
+        },
+        {
+          "timestamp": "30:42",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1842",
+          "speaker": "SPEAKER_01",
+          "text": "And uh one thing that is also important is that uh like if you to be productive, like use your mode select the nature of Z skip permissions because it doesn't need to like ask every time there's ways oh but it's it's not secure and this kind of stuff."
+        },
+        {
+          "timestamp": "31:06",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1866",
+          "speaker": "SPEAKER_01",
+          "text": "You can do it in uh SSH in a remote computer for example."
+        },
+        {
+          "timestamp": "31:12",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1872",
+          "speaker": "SPEAKER_01",
+          "text": "Uh but one thing that uh really important is the closed loops to use uh your models to for the for them to work really really really well, you shouldn't close the loops."
+        },
+        {
+          "timestamp": "31:27",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1887",
+          "speaker": "SPEAKER_01",
+          "text": "That means that uh the model generates a code and have generate the test and can test and see the output of the code or the test."
+        },
+        {
+          "timestamp": "31:39",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1899",
+          "speaker": "SPEAKER_01",
+          "text": "So if the model can see the output of what it's generating, it can self-correct and try again and try again and try again until it works."
+        },
+        {
+          "timestamp": "31:49",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1909",
+          "speaker": "SPEAKER_01",
+          "text": "And actually it works a lot."
+        },
+        {
+          "timestamp": "31:55",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1915",
+          "speaker": "SPEAKER_01",
+          "text": "Much better when you do something like this."
+        },
+        {
+          "timestamp": "31:58",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1918",
+          "speaker": "SPEAKER_01",
+          "text": "I could put it already to work like40 minutes in a row and build complete stuff in like just a single single prompt."
+        },
+        {
+          "timestamp": "32:11",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=1931",
+          "speaker": "SPEAKER_01",
+          "text": "And uh also is as I told you before, there's a he's uh he was a manager, he he is the creator of PSPDF kit, and uh so he had the company he was managing lots of people, so sometimes he he sees how models do it and he says okay I will do it a little bit different, but um he let it go and uh so the idea is a little bit to be more like an architect and less of a coder uh so has he has some control he reads the code but not like it doesn't need to read like the the boilerplate he reads the... the most important architecture part so in summary um the the the main ideas that I could be steal from from from from from from from from from from from how people are using today is like better models usually needs less structure complex windows are finite compaction is important also the times try to cut the noise with context engineering if if if you're building something then you're going to build another thing just create a new session, close the loop, try to get the model to see the output it created, and optimized for the agent."
+        },
+        {
+          "timestamp": "33:38",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2018",
+          "speaker": "SPEAKER_01",
+          "text": "Not so much for the human maybe or maybe for both."
+        },
+        {
+          "timestamp": "33:41",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2021",
+          "speaker": "SPEAKER_03",
+          "text": "But yeah, thank you."
+        },
+        {
+          "timestamp": "33:58",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2038",
+          "speaker": "SPEAKER_01",
+          "text": "Well, depends uh uh I I'm not I'm not talking too much about safety."
+        },
+        {
+          "timestamp": "34:04",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2044",
+          "speaker": "SPEAKER_01",
+          "text": "He was the guy talking about safety more I'm a little bit more about productive, being productive productive and effective."
+        },
+        {
+          "timestamp": "34:12",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2052",
+          "speaker": "SPEAKER_01",
+          "text": "Of course, safety has plays a role about it, but uh... uh for sure if you have uh good uh... uh engineering skills already, you're going to be you will be more safe and uh and probably more effective as well."
+        },
+        {
+          "timestamp": "34:31",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2071",
+          "speaker": "SPEAKER_01",
+          "text": "However, there's the synergy part that is important to understand how how your is working there, so it it uh it will help you to to write better code like this."
+        },
+        {
+          "timestamp": "34:48",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2088",
+          "speaker": "SPEAKER_03",
+          "text": "And um yeah, I have a question two questions actually one of them is like regarding the usage of different models, what changes for example from solids to open it."
+        },
+        {
+          "timestamp": "35:03",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2103",
+          "speaker": "SPEAKER_03",
+          "text": "There are two different models um I I cannot tell you exactly but like for example uh it's faster but less accurate open things also more topics nice though, but that's more useful general."
+        },
+        {
+          "timestamp": "35:24",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2124",
+          "speaker": "SPEAKER_03",
+          "text": "Um changes like the name of these models."
+        },
+        {
+          "timestamp": "35:34",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2134",
+          "speaker": "SPEAKER_01",
+          "text": "There are different several different architectures of the models, for example, there are models that are MOE MOE's mixture of experts."
+        },
+        {
+          "timestamp": "35:44",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2144",
+          "speaker": "SPEAKER_01",
+          "text": "So instead of having uh kind of one in terms of going you having your input and going through everything and getting your output, this feature of experts has a router."
+        },
+        {
+          "timestamp": "35:59",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2159",
+          "speaker": "SPEAKER_01",
+          "text": "So it's a bigger model in general, but the round to a smaller specialized model, so it's so usually need more data, more memory, but but the you can get your your your your can get faster results."
+        },
+        {
+          "timestamp": "36:17",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2177",
+          "speaker": "SPEAKER_01",
+          "text": "So this is one kind of architecture."
+        },
+        {
+          "timestamp": "36:21",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2181",
+          "speaker": "SPEAKER_01",
+          "text": "You can have like a different number of uh of parameters, you can have smaller models, bigger models, wider models."
+        },
+        {
+          "timestamp": "36:36",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2196",
+          "speaker": "SPEAKER_01",
+          "text": "And also the training is very relevant as well."
+        },
+        {
+          "timestamp": "36:39",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2199",
+          "speaker": "SPEAKER_01",
+          "text": "You can you can um um when you're training your basically optimizing model for for a sum objective so sometimes you can train one data set for one model and another data set for another model."
+        },
+        {
+          "timestamp": "36:55",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2215",
+          "speaker": "SPEAKER_01",
+          "text": "Um there is it it's um every model there is uh is a little bit different, and also there's always randomness."
+        },
+        {
+          "timestamp": "37:06",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2226",
+          "speaker": "SPEAKER_01",
+          "text": "So even if you get the same architecture twice and you train it they're going to be slightly different."
+        },
+        {
+          "timestamp": "37:16",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2236",
+          "speaker": "SPEAKER_01",
+          "text": "So it's hard for me to say exactly any other questions regarding mathematics. like I can try yet but the LMs they are not very good mathematics in general but I want to know like how can I use an LM to make uh optimization with a function that is function like uh yeah in the function like is it possible to do it or they're just gonna be bad like optimizing function yeah um so why wh... wh why LMs are usually bad in mathematics they are bad in mathematics because they don't see numbers they see tokens and uh actually compute like tuples so they don't compute no they don't compute to they they they had they kind of more or less remember the logic so if you but since they are all models are really big right now they're really good at smaller mathematics if you're if you're like computing what is I don't know three hundred times four hundred they will get it right probably because it's not that difficult but if you're going uh having very big numbers or something more about like differential equations like yeah so so the thing is that um these AI companies they are trying to do this in uh there are already some AI that did some some some some some some some some some some mathematical discoveries uh install it's uh mathematical researcher in us using LLMs in his research as well and uh so so they are they are starting to be useful but you need to understand the pitfalls to the"
+        },
+        {
+          "timestamp": "39:33",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2373",
+          "speaker": "SPEAKER_01",
+          "text": "Like why you do it."
+        },
+        {
+          "timestamp": "39:35",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2375",
+          "speaker": "SPEAKER_01",
+          "text": "Maybe maybe it could work, but maybe it would be better, for example, to use uh there are specific languages for um what's the name?"
+        },
+        {
+          "timestamp": "39:47",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2387",
+          "speaker": "SPEAKER_01",
+          "text": "It's uh um uh proofs or generating proofs, mathematical proofs."
+        },
+        {
+          "timestamp": "39:55",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2395",
+          "speaker": "SPEAKER_01",
+          "text": "So there are languages for for generating mathematical proofs."
+        },
+        {
+          "timestamp": "39:58",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2398",
+          "speaker": "SPEAKER_01",
+          "text": "So that's how the medical experts are using it uses the the language to write and then it works this is the loop while doing it."
+        },
+        {
+          "timestamp": "40:12",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2412",
+          "speaker": "SPEAKER_02",
+          "text": "Yeah, yeah, the... the loop like generate the... the idea test the idea generate the... the proof and uh test the proof see it works or not and then generate another idea and then you have this whole that it can get somewhere I think should read it first in the house feelings and uh I I have like you should uh when your color and your enjoying coach and then like these huge tools appear you have to like change your way of working to maybe you more plan more and I struggle with like enjoying these like change where you're like holding less and reviewing and planning home more and do you have like any advice to strive like how to uh struggle with that?"
+        },
+        {
+          "timestamp": "41:15",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2475",
+          "speaker": "SPEAKER_01",
+          "text": "Uh it's hard for me because"
+        },
+        {
+          "timestamp": "41:18",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2478",
+          "speaker": "SPEAKER_01",
+          "text": "Because I I enjoy more the outcome than the coding itself."
+        },
+        {
+          "timestamp": "41:24",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2484",
+          "speaker": "SPEAKER_01",
+          "text": "I I find it very amusing to get in the end and like it seeing the results and and I I don't um not that I don't find joyful to like work in the problems I I also find it but maybe if you think a little bit more on the on the architecture part I don't know if maybe you enjoy this part as well but uh the coding has not getting literally easier it's it's like the the the problem kind of shifts like writing code is faster it's easier but having the the architecture in your mind and planning how you're going to do the things it's become uh... uh more important and relevant one."
+        },
+        {
+          "timestamp": "42:15",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2535",
+          "speaker": "SPEAKER_01",
+          "text": "Uh do you know the uh Richard um I forgot his name, the guy from Cathedral in the Bazaar What's the name of the guy?"
+        },
+        {
+          "timestamp": "42:31",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2551",
+          "speaker": "SPEAKER_01",
+          "text": "It's uh it's a famous programmer uh he wrote his book Category in the Bazaar."
+        },
+        {
+          "timestamp": "42:36",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2556",
+          "speaker": "SPEAKER_01",
+          "text": "And uh I'm I'm um... um if you follow him on Twitter he's talking about this a little bit but he's kind of in the same team as me very brave um he he he he w w w w wrote recently like this this this this this this this this this this this week or the last week that uh I was even thinking about putting him here in the in the talk but I think it was a little bit out of scope but um he told that he had this same idea as you he thought that he was someone that he was a as a person his in identity was to write code like I like writing code this is what I like writing code."
+        },
+        {
+          "timestamp": "43:17",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2597",
+          "speaker": "SPEAKER_01",
+          "text": "This is what I like to do in with LLMs."
+        },
+        {
+          "timestamp": "43:19",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2599",
+          "speaker": "SPEAKER_01",
+          "text": "He's kind of having he's realizing right now that it's not actually what he likes."
+        },
+        {
+          "timestamp": "43:27",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2607",
+          "speaker": "SPEAKER_01",
+          "text": "He likes like solving problems."
+        },
+        {
+          "timestamp": "43:30",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2610",
+          "speaker": "SPEAKER_01",
+          "text": "And uh that's that's how he's he's doing how that's how he's approaching this and he says that he's having a blessed."
+        },
+        {
+          "timestamp": "43:39",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2619",
+          "speaker": "SPEAKER_01",
+          "text": "Um I I I don't have like a a better better idea than this."
+        },
+        {
+          "timestamp": "43:44",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2624",
+          "speaker": "SPEAKER_01",
+          "text": "I hope it helps a lot."
+        },
+        {
+          "timestamp": "43:45",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2625",
+          "speaker": "SPEAKER_01",
+          "text": "Maybe maybe uh looking for him on Twitter and and asking him like searching where he talked about this and asking something, but he's he talks a lot on Twitter, so I think it's kind of approachable."
+        },
+        {
+          "timestamp": "43:59",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2639",
+          "speaker": "SPEAKER_01",
+          "text": "Thank you very much."
+        },
+        {
+          "timestamp": "44:01",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2641",
+          "speaker": "SPEAKER_01",
+          "text": "Um I will build a little baby question, uh which is basically like as a developer, right?"
+        },
+        {
+          "timestamp": "44:08",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2648",
+          "speaker": "SPEAKER_01",
+          "text": "We want to be up for game, like solving problems, like we care about the outcome, and again the outcome, but we have to be good at by coding right now."
+        },
+        {
+          "timestamp": "44:18",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2658",
+          "speaker": "SPEAKER_01",
+          "text": "So the question is uh what kind of durable things should we learn uh for example, uh the specific techniques for context engineering, they change a lot."
+        },
+        {
+          "timestamp": "44:32",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2672",
+          "speaker": "SPEAKER_01",
+          "text": "You know better models come out and the techniques change."
+        },
+        {
+          "timestamp": "44:35",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2675",
+          "speaker": "SPEAKER_01",
+          "text": "You know, new techniques arrive, old techniques become irrelevant."
+        },
+        {
+          "timestamp": "44:39",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2679",
+          "speaker": "SPEAKER_01",
+          "text": "So uh what things should we focus on so that we stay on top of our game, you know what skills are durable and which skills are just you know uh more something more of a tiny, you know, it's gonna be what should we focus on?"
+        },
+        {
+          "timestamp": "44:57",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2697",
+          "speaker": "SPEAKER_01",
+          "text": "Um it's hard to say hard to say uh I I believe that no one has the answer to this question."
+        },
+        {
+          "timestamp": "45:07",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2707",
+          "speaker": "SPEAKER_01",
+          "text": "N not the precise answer, uh I believe that we should like play just like"
+        },
+        {
+          "timestamp": "45:15",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2715",
+          "speaker": "SPEAKER_01",
+          "text": "J just like uh old programmers, they they they they they they they they they they they played make games in their computers they they they were doing some side projects and trying stuff and like oh I wrote this in C I wonder how how would be writing this in Hobo or Trump or whatever they write in those days so I think the the first thing is that you should embrace this playful nature and uh try things the other the other thing is to for me what I do is that I um I follow like great people that share how they are working, how they what are they workflows, what they what is working for them, what is not working, what they're learning."
+        },
+        {
+          "timestamp": "46:08",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2768",
+          "speaker": "SPEAKER_01",
+          "text": "There are some people they are they're they are genius and uh and and not only this they they they share what they talk about about what they're doing and uh they like they have plots."
+        },
+        {
+          "timestamp": "46:23",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2783",
+          "speaker": "SPEAKER_01",
+          "text": "So I'm always like taking a look, seeing what they're doing, and sometimes I'm I ask them, I say I... I see the this guy line and there I just ask them like oh I'm trying I tried this like you said, but it didn't work."
+        },
+        {
+          "timestamp": "46:39",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2799",
+          "speaker": "SPEAKER_01",
+          "text": "What do you think could be wrong and usually answer?"
+        },
+        {
+          "timestamp": "46:44",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2804",
+          "speaker": "SPEAKER_01",
+          "text": "So it's it's uh that you have to try a lot and and practice, and there's so many new things that are going to be reinvented, we need to like re-approach how how we're going to use AI should be to be more effective and like the the fundamentals are really important, but how how we're using this and uh like we're using the there are people now like"
+        },
+        {
+          "timestamp": "47:21",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2841",
+          "speaker": "SPEAKER_01",
+          "text": "The guy from Basecamp is keeping CI doing everything locally because it's it's faster and like there're so many things are are like changing and and moving so like let's I I I just like look at them and try to see what fits with my workflow, what I I was using a lot this is the first one that I told you and then I started like trying something a little bit more close to to the intercymer what what he does and and sometimes I go there and come back."
+        },
+        {
+          "timestamp": "47:57",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2877",
+          "speaker": "SPEAKER_01",
+          "text": "It's it's complicated because it there's too many things, nobody nobody knows anything, everybody's trying new things."
+        },
+        {
+          "timestamp": "48:04",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2884",
+          "speaker": "SPEAKER_01",
+          "text": "But yeah, we need to just try there there there's a guy in uh in that company every he like works the morning and on the afternoon he just try new stuff, just plays."
+        },
+        {
+          "timestamp": "48:21",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2901",
+          "speaker": "SPEAKER_03",
+          "text": "You have to play."
+        },
+        {
+          "timestamp": "48:27",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2907",
+          "speaker": "SPEAKER_03",
+          "text": "So when when when when when when when when when when when you show the basic agent there was this uh step where uh I think the tool usage, right?"
+        },
+        {
+          "timestamp": "48:38",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2918",
+          "speaker": "SPEAKER_03",
+          "text": "Yeah, so for this to work, we need to know how to implement that response of once tool, right?"
+        },
+        {
+          "timestamp": "48:47",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2927",
+          "speaker": "SPEAKER_03",
+          "text": "So how... how does could you explain more how does that work?"
+        },
+        {
+          "timestamp": "48:50",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2930",
+          "speaker": "SPEAKER_03",
+          "text": "And how... how can we train the models because I think one thing is like okay, here's like all the text in the internet or whatever, and then another thing is like okay, at what point do you do something that makes the model they should be using a tool and how do we invoke that tool and stuff like that?"
+        },
+        {
+          "timestamp": "49:11",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2951",
+          "speaker": "SPEAKER_01",
+          "text": "Yeah, uh so there's two steps for for two steps to answer the this question."
+        },
+        {
+          "timestamp": "49:18",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2958",
+          "speaker": "SPEAKER_01",
+          "text": "First, how they train the model."
+        },
+        {
+          "timestamp": "49:21",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2961",
+          "speaker": "SPEAKER_01",
+          "text": "There are several steps in training."
+        },
+        {
+          "timestamp": "49:24",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2964",
+          "speaker": "SPEAKER_01",
+          "text": "There's uh the first step is called pre-training, where they get the all data from the internet and input to the model."
+        },
+        {
+          "timestamp": "49:33",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2973",
+          "speaker": "SPEAKER_01",
+          "text": "There's uh unsupervised training, they are trying they are training just to uh uh predict the next token."
+        },
+        {
+          "timestamp": "49:40",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2980",
+          "speaker": "SPEAKER_01",
+          "text": "The second step is called supervised fine tuning, which is they have a data set of inputs and outputs."
+        },
+        {
+          "timestamp": "49:54",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=2994",
+          "speaker": "SPEAKER_01",
+          "text": "And now when you give the input to the model, you expect an output to the model, and then you compare the the the output of the model with the output that you expect it, you get this loss difference, and then you have back propagation, and uh and there's usually a third step, which is called um reinforcement learning with human feedback, which uh lets and less humans are involved."
+        },
+        {
+          "timestamp": "50:25",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3025",
+          "speaker": "SPEAKER_01",
+          "text": "But um it's it's also uh a little bit similar, but instead of using the supervised training, it uses reinforcement learning."
+        },
+        {
+          "timestamp": "50:35",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3035",
+          "speaker": "SPEAKER_01",
+          "text": "You have uh there's lots of different ways, um but generally you in reinforcement learning you have the agent, you have the environment, and the environment provides to the agents the state and the reward and the agent know that agent here in reinforcement learning is different from agent there."
+        },
+        {
+          "timestamp": "51:01",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3061",
+          "speaker": "SPEAKER_01",
+          "text": "It it's it's true, it's the same name, but we're talking about two concepts."
+        },
+        {
+          "timestamp": "51:05",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3065",
+          "speaker": "SPEAKER_01",
+          "text": "So the the agent gets the state and the reward and uh it's an action in uh language models what we are using uh the agent is the LM itself, the state is the the prompt that it receives, and uh the action is the next token, and the reward we create another model to simulate the rewards."
+        },
+        {
+          "timestamp": "51:33",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3093",
+          "speaker": "SPEAKER_01",
+          "text": "So we train uh weaker model, we we we train weaker uh smaller, a little bit smaller models to kind of uh predict the size of the rewards that we should give to the model."
+        },
+        {
+          "timestamp": "51:51",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3111",
+          "speaker": "SPEAKER_01",
+          "text": "So we input this depending on the on the what the model puts to the reward model, and it says okay it was good, it was bad."
+        },
+        {
+          "timestamp": "52:05",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3125",
+          "speaker": "SPEAKER_01",
+          "text": "So for example, let's say that um let's say that you ask a question um what is Bitcoin, and you run this question four different times, and you get four different answers, and you give to a person, and the person looks at this question what is bitcoin and selects okay this is the best one, is the second best one, this is the third best one, this is the fourth best one, and uses this ranking to train uh reward model."
+        },
+        {
+          "timestamp": "52:40",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3160",
+          "speaker": "SPEAKER_01",
+          "text": "So it starts to rank the the answers of the other models to provide uh numerical reward."
+        },
+        {
+          "timestamp": "52:51",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3171",
+          "speaker": "SPEAKER_01",
+          "text": "So it's uh it's basically this this was the first part that we sorry uh uh regarding the tool usage."
+        },
+        {
+          "timestamp": "52:59",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3179",
+          "speaker": "SPEAKER_01",
+          "text": "Okay, the two uses."
+        },
+        {
+          "timestamp": "53:00",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3180",
+          "speaker": "SPEAKER_01",
+          "text": "So the two usage is usually on the second and third part, and uh so so you can use the"
+        },
+        {
+          "timestamp": "53:06",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3186",
+          "speaker": "SPEAKER_01",
+          "text": "So you you already have a foundational model, which is the pre-tain pre-training stage, and now you find tune in with tests."
+        },
+        {
+          "timestamp": "53:19",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3199",
+          "speaker": "SPEAKER_01",
+          "text": "We want it to do I don't know, search online for this."
+        },
+        {
+          "timestamp": "53:24",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3204",
+          "speaker": "SPEAKER_01",
+          "text": "And then there's a technique called react, which is it reasons what it should do, and then it makes an action, and then it observes the action."
+        },
+        {
+          "timestamp": "53:39",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3219",
+          "speaker": "SPEAKER_01",
+          "text": "So it reasons, okay, I'll do this, I'll do that and the other thing."
+        },
+        {
+          "timestamp": "53:43",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3223",
+          "speaker": "SPEAKER_01",
+          "text": "And then it creates the the second part with which which is the action part, and it says oh I'm going to use this tool, and the tool is defined in the system prompt."
+        },
+        {
+          "timestamp": "53:54",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3234",
+          "speaker": "SPEAKER_01",
+          "text": "And uh it chooses from the system prompt and say oh I'm going to use this tool with these arguments because of the plan that I did."
+        },
+        {
+          "timestamp": "54:02",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3242",
+          "speaker": "SPEAKER_01",
+          "text": "And then we have we when we see that it finishes this act phase, we stop the model, we get the the code that it generated, we uh uh invoke the tool, we we we get the code, we... we get the result from the pool and pull it back and says okay this is the result of the tool that you just invoke it."
+        },
+        {
+          "timestamp": "54:30",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3270",
+          "speaker": "SPEAKER_01",
+          "text": "What it's uh what do you see what do you think and uh and then he says okay um I didn't get um I'm going to play it again uh maybe looking for this other keyword and and then it goes until we it uh believes it's completed."
+        },
+        {
+          "timestamp": "54:48",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3288",
+          "speaker": "SPEAKER_03",
+          "text": "So the the model is like trained with some token that is like bash on something, and then we just like look for the specific string like when the model outputs this token it means that it wants to involve the"
+        },
+        {
+          "timestamp": "55:08",
+          "href": "https://www.youtube.com/watch?v=90yNM5Pt8Nw&t=3308",
+          "speaker": "SPEAKER_01",
+          "text": "Yeah, yes, and uh basically this we... we says okay you have these list tool for example to list the full the files in your directory uh you and uh and way and and then there is a you can do it in several different ways like react it was the first the first way to do um... um uh uh when it gets to the action phase you you you can make for example a code block and when it pauses the code block you get the code and execute the code the code could be this list uh list uh files for example and then you... you use uh you put it into bash or something do this get uh the the results back and continue to look at the so I guess the specific question is like how do you distinguish between the model outputing uh specific comment versus the model one thing to execute the one do you want to it's uh the structure it's a structure or some tags and it's like okay why you see this we try to execute yeah yeah exactly could be for example a code block with three vectic uh up and down could be um could could be like a markdown header like oh this is um plan this is action and when when when when when when when when when when when we get to to the header observe we stop and and look what's inside of action and execute what's there and uh that's basically it any more questions well I hope you like it so"
+        }
+      ]
+    }
+  ]
+}

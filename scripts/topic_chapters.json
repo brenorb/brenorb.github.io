@@ -2,318 +2,963 @@
   "palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados": {
     "url": "https://www.youtube.com/watch?v=A4f7HJ42M8I",
     "chapters": [
-      { "start": 0, "title": "Abertura do evento, recados e certificados" },
-      { "start": 491, "title": "Apresentacao do Breno e calibragem da audiencia" },
-      { "start": 826, "title": "O que e alinhamento e por que resposta certa nao basta" },
-      { "start": 904, "title": "Jailbreaks, seguranca e respostas fora do objetivo" },
-      { "start": 1500, "title": "Fine-tuning, instruction tuning e representation engineering" },
-      { "start": 2340, "title": "Guardrails, avaliacao e RLHF" },
-      { "start": 3873, "title": "Transicao para ciencia de dados e perguntas do publico" },
-      { "start": 4740, "title": "Hype cycle, mercado e o que empresas realmente contratam" },
-      { "start": 5689, "title": "Ferramentas, formacao e como fugir do coach dos dados" }
+      {
+        "start": 0,
+        "title": "Abertura do evento, recados e certificados"
+      },
+      {
+        "start": 491,
+        "title": "Apresentacao do Breno e calibragem da audiencia"
+      },
+      {
+        "start": 826,
+        "title": "O que e alinhamento e por que resposta certa nao basta"
+      },
+      {
+        "start": 904,
+        "title": "Jailbreaks, seguranca e respostas fora do objetivo"
+      },
+      {
+        "start": 1500,
+        "title": "Fine-tuning, instruction tuning e representation engineering"
+      },
+      {
+        "start": 2340,
+        "title": "Guardrails, avaliacao e RLHF"
+      },
+      {
+        "start": 3873,
+        "title": "Transicao para ciencia de dados e perguntas do publico"
+      },
+      {
+        "start": 4740,
+        "title": "Hype cycle, mercado e o que empresas realmente contratam"
+      },
+      {
+        "start": 5689,
+        "title": "Ferramentas, formacao e como fugir do coach dos dados"
+      }
     ]
   },
   "palestra-introducao-a-opcoes": {
     "url": "https://www.youtube.com/watch?v=jCL-yxlpx8Q",
     "chapters": [
-      { "start": 0, "title": "Put como seguro e a intuicao basica das opcoes" },
-      { "start": 300, "title": "Call como direito de compra e efeito multiplicativo" },
-      { "start": 600, "title": "Contrato padronizado, strike, vencimento e codigos" },
-      { "start": 1200, "title": "ITM, ATM, OTM e tipos de exercicio" },
-      { "start": 1800, "title": "Como premio, tempo e volatilidade entram no preco" },
-      { "start": 2400, "title": "Payoff de compra e venda de calls e puts" },
-      { "start": 3600, "title": "Covered call, venda coberta e travas" },
-      { "start": 4800, "title": "Borboleta, condor, calendario e combinacoes" }
+      {
+        "start": 0,
+        "title": "Put como seguro e a intuicao basica das opcoes"
+      },
+      {
+        "start": 300,
+        "title": "Call como direito de compra e efeito multiplicativo"
+      },
+      {
+        "start": 600,
+        "title": "Contrato padronizado, strike, vencimento e codigos"
+      },
+      {
+        "start": 1200,
+        "title": "ITM, ATM, OTM e tipos de exercicio"
+      },
+      {
+        "start": 1800,
+        "title": "Como premio, tempo e volatilidade entram no preco"
+      },
+      {
+        "start": 2400,
+        "title": "Payoff de compra e venda de calls e puts"
+      },
+      {
+        "start": 3600,
+        "title": "Covered call, venda coberta e travas"
+      },
+      {
+        "start": 4800,
+        "title": "Borboleta, condor, calendario e combinacoes"
+      }
     ]
   },
   "podcast-iflsp-33-minisserie-bitcoin": {
     "url": "https://chrt.fm/track/6A82E8/cdn.simplecast.com/audio/adce80b8-c0b1-41e8-9c8f-e59209241998/episodes/e0ba92d8-aa4a-4522-9744-2e1b1b418558/audio/38aa5006-ca81-4b79-8186-227c61d99b6a/default_tc.mp3?aid=rss_feed&feed=gYobk4m1",
     "timestamp_style": "fragment-t",
     "chapters": [
-      { "start": 0, "title": "Abertura e o que significa falar do presente do Bitcoin" },
-      { "start": 300, "title": "El Salvador, adocao estatal e o preparo da populacao" },
-      { "start": 600, "title": "CBDCs, privacidade e o que nao e realmente descentralizado" },
-      { "start": 900, "title": "Forks, governanca e como a rede muda sem dono" },
-      { "start": 1200, "title": "Taproot, Lightning e escalabilidade com mais discricao" },
-      { "start": 1500, "title": "ESG, narrativa ambiental e o debate sobre energia" },
-      { "start": 2100, "title": "Mercados P2P, mineracao e autocustodia na pratica" },
-      { "start": 2400, "title": "Blockchain, responsabilidade individual e encerramento" }
+      {
+        "start": 0,
+        "title": "Abertura e o que significa falar do presente do Bitcoin"
+      },
+      {
+        "start": 300,
+        "title": "El Salvador, adocao estatal e o preparo da populacao"
+      },
+      {
+        "start": 600,
+        "title": "CBDCs, privacidade e o que nao e realmente descentralizado"
+      },
+      {
+        "start": 900,
+        "title": "Forks, governanca e como a rede muda sem dono"
+      },
+      {
+        "start": 1200,
+        "title": "Taproot, Lightning e escalabilidade com mais discricao"
+      },
+      {
+        "start": 1500,
+        "title": "ESG, narrativa ambiental e o debate sobre energia"
+      },
+      {
+        "start": 2100,
+        "title": "Mercados P2P, mineracao e autocustodia na pratica"
+      },
+      {
+        "start": 2400,
+        "title": "Blockchain, responsabilidade individual e encerramento"
+      }
     ]
   },
   "palestra-plone-alinhamento-de-llms": {
     "url": "https://www.youtube.com/watch?v=-pgSr8PIf38",
     "chapters": [
-      { "start": 0, "title": "Abertura e definicao pratica de alinhamento" },
-      { "start": 300, "title": "Prompts, objetivos e onde os modelos falham" },
-      { "start": 600, "title": "Jailbreaks, seguranca e usos maliciosos" },
-      { "start": 900, "title": "Camadas de intervencao: prompt, prompt tuning e fine-tuning" },
-      { "start": 1500, "title": "Instruction tuning, reward models e RLHF" },
-      { "start": 2040, "title": "RAG, embeddings e guardrails em producao" },
-      { "start": 2340, "title": "Perguntas finais e trade-offs" }
+      {
+        "start": 0,
+        "title": "Abertura e definicao pratica de alinhamento"
+      },
+      {
+        "start": 300,
+        "title": "Prompts, objetivos e onde os modelos falham"
+      },
+      {
+        "start": 600,
+        "title": "Jailbreaks, seguranca e usos maliciosos"
+      },
+      {
+        "start": 900,
+        "title": "Camadas de intervencao: prompt, prompt tuning e fine-tuning"
+      },
+      {
+        "start": 1500,
+        "title": "Instruction tuning, reward models e RLHF"
+      },
+      {
+        "start": 2040,
+        "title": "RAG, embeddings e guardrails em producao"
+      },
+      {
+        "start": 2340,
+        "title": "Perguntas finais e trade-offs"
+      }
     ]
   },
   "palestra-pydata-future-proof-your-ai-product": {
     "url": "https://www.youtube.com/watch?v=01yeO-1RUcg",
     "chapters": [
-      { "start": 0, "title": "Por que produtos de IA quebram quando vivem de prompt" },
-      { "start": 300, "title": "DSPy, assinaturas e saidas estruturadas" },
-      { "start": 900, "title": "Programas multi-etapa, tools e composicao" },
-      { "start": 1500, "title": "Otimizacao automatica de prompts e programas" },
-      { "start": 1740, "title": "Avaliacao, versionamento e manutencao do produto" }
+      {
+        "start": 0,
+        "title": "Por que produtos de IA quebram quando vivem de prompt"
+      },
+      {
+        "start": 300,
+        "title": "DSPy, assinaturas e saidas estruturadas"
+      },
+      {
+        "start": 900,
+        "title": "Programas multi-etapa, tools e composicao"
+      },
+      {
+        "start": 1500,
+        "title": "Otimizacao automatica de prompts e programas"
+      },
+      {
+        "start": 1740,
+        "title": "Avaliacao, versionamento e manutencao do produto"
+      }
     ]
   },
   "podcast-21m-9-breno-brito": {
     "url": "https://www.youtube.com/watch?v=s2BQr1xDpc0",
     "chapters": [
-      { "start": 0, "title": "Apresentacao e primeiros contatos com Bitcoin" },
-      { "start": 900, "title": "Anos iniciais, leituras e o contexto pre-2017" },
-      { "start": 1800, "title": "Blocksize war e a virada maximalista" },
-      { "start": 2400, "title": "Empreender no Brasil, regulacao e incentivos" },
-      { "start": 3000, "title": "Dinheiro, inflacao e por que Bitcoin importa" },
-      { "start": 3600, "title": "WallStreetBets, coordenacao social e mercado" },
-      { "start": 4200, "title": "Ergodicidade, risco e economia" },
-      { "start": 5100, "title": "Ditadura, confisco e quem entende Bitcoin mais rapido" }
+      {
+        "start": 0,
+        "title": "Apresentacao e primeiros contatos com Bitcoin"
+      },
+      {
+        "start": 900,
+        "title": "Anos iniciais, leituras e o contexto pre-2017"
+      },
+      {
+        "start": 1800,
+        "title": "Blocksize war e a virada maximalista"
+      },
+      {
+        "start": 2400,
+        "title": "Empreender no Brasil, regulacao e incentivos"
+      },
+      {
+        "start": 3000,
+        "title": "Dinheiro, inflacao e por que Bitcoin importa"
+      },
+      {
+        "start": 3600,
+        "title": "WallStreetBets, coordenacao social e mercado"
+      },
+      {
+        "start": 4200,
+        "title": "Ergodicidade, risco e economia"
+      },
+      {
+        "start": 5100,
+        "title": "Ditadura, confisco e quem entende Bitcoin mais rapido"
+      }
     ]
   },
   "podcast-betterm-16-anos-estudando-ia": {
     "url": "https://www.youtube.com/watch?v=3QVFWHxvgvQ",
     "chapters": [
-      { "start": 0, "title": "Introducao, trajetoria e ponto de vista sobre IA" },
-      { "start": 600, "title": "Transformers, scaling e o salto recente de capacidade" },
-      { "start": 1200, "title": "Mercado de trabalho e o que muda para builders" },
-      { "start": 1800, "title": "Generalistas, bom gosto e alavancagem com IA" },
-      { "start": 2400, "title": "Open source, usabilidade e paralelos com Bitcoin" },
-      { "start": 3000, "title": "Criadores, automacao e pressao sobre empregos" },
-      { "start": 3600, "title": "Engenharia reversa, agentes e novas superficies de ataque" },
-      { "start": 4200, "title": "Identidade, coordenacao e como viver num mundo de agentes" }
+      {
+        "start": 0,
+        "title": "Introducao, trajetoria e ponto de vista sobre IA"
+      },
+      {
+        "start": 600,
+        "title": "Transformers, scaling e o salto recente de capacidade"
+      },
+      {
+        "start": 1200,
+        "title": "Mercado de trabalho e o que muda para builders"
+      },
+      {
+        "start": 1800,
+        "title": "Generalistas, bom gosto e alavancagem com IA"
+      },
+      {
+        "start": 2400,
+        "title": "Open source, usabilidade e paralelos com Bitcoin"
+      },
+      {
+        "start": 3000,
+        "title": "Criadores, automacao e pressao sobre empregos"
+      },
+      {
+        "start": 3600,
+        "title": "Engenharia reversa, agentes e novas superficies de ataque"
+      },
+      {
+        "start": 4200,
+        "title": "Identidade, coordenacao e como viver num mundo de agentes"
+      }
     ]
   },
   "breno-brito-full-english": {
     "url": "https://www.youtube.com/watch?v=DEjEP3U2dLM",
     "chapters": [
-      { "start": 0, "title": "Abertura, livros e contexto da conversa" },
-      { "start": 128, "title": "Por que escrever 101 Perguntas sobre Bitcoin" },
-      { "start": 549, "title": "Como surgiram as perguntas e a estrutura do livro" },
-      { "start": 734, "title": "O ponto ideal entre explicar demais e de menos" },
-      { "start": 1531, "title": "Ingles como alavanca para aprender Bitcoin" },
-      { "start": 1800, "title": "Primeiros contatos com Bitcoin e a entrada tardia" },
-      { "start": 1982, "title": "Risco, carreira e por que nao arriscar tambem custa" },
-      { "start": 2362, "title": "ADHD, foco e paralisia por excesso de interesses" },
-      { "start": 2596, "title": "Os tres pilares: financas, Bitcoin e inteligencia artificial" }
+      {
+        "start": 0,
+        "title": "Abertura, livros e contexto da conversa"
+      },
+      {
+        "start": 128,
+        "title": "Por que escrever 101 Perguntas sobre Bitcoin"
+      },
+      {
+        "start": 549,
+        "title": "Como surgiram as perguntas e a estrutura do livro"
+      },
+      {
+        "start": 734,
+        "title": "O ponto ideal entre explicar demais e de menos"
+      },
+      {
+        "start": 1531,
+        "title": "Ingles como alavanca para aprender Bitcoin"
+      },
+      {
+        "start": 1800,
+        "title": "Primeiros contatos com Bitcoin e a entrada tardia"
+      },
+      {
+        "start": 1982,
+        "title": "Risco, carreira e por que nao arriscar tambem custa"
+      },
+      {
+        "start": 2362,
+        "title": "ADHD, foco e paralisia por excesso de interesses"
+      },
+      {
+        "start": 2596,
+        "title": "Os tres pilares: financas, Bitcoin e inteligencia artificial"
+      }
     ]
   },
   "podcast-bettermoney-101-perguntas-sobre-bitcoin": {
     "url": "https://www.youtube.com/watch?v=CBq94KL66lU",
     "chapters": [
-      { "start": 0, "title": "Primeiros contatos com Bitcoin e origem liberal" },
-      { "start": 600, "title": "Mercado, tribalismo e a caminhada ate o maximalismo" },
-      { "start": 1200, "title": "Jim Song, altcoins e por que Bitcoin separa o joio do trigo" },
-      { "start": 1800, "title": "Instituicoes, incentivos e dificuldade do Bitcoin-only" },
-      { "start": 2400, "title": "Ativismo, liberdade e formacao intelectual" },
-      { "start": 3300, "title": "O livro 101 Perguntas e a pedagogia para iniciantes" },
-      { "start": 3900, "title": "Trump, estados-nacao e reserva estrategica" },
-      { "start": 4500, "title": "Estado, violencia monetaria e o conflito que vem" }
+      {
+        "start": 0,
+        "title": "Primeiros contatos com Bitcoin e origem liberal"
+      },
+      {
+        "start": 600,
+        "title": "Mercado, tribalismo e a caminhada ate o maximalismo"
+      },
+      {
+        "start": 1200,
+        "title": "Jim Song, altcoins e por que Bitcoin separa o joio do trigo"
+      },
+      {
+        "start": 1800,
+        "title": "Instituicoes, incentivos e dificuldade do Bitcoin-only"
+      },
+      {
+        "start": 2400,
+        "title": "Ativismo, liberdade e formacao intelectual"
+      },
+      {
+        "start": 3300,
+        "title": "O livro 101 Perguntas e a pedagogia para iniciantes"
+      },
+      {
+        "start": 3900,
+        "title": "Trump, estados-nacao e reserva estrategica"
+      },
+      {
+        "start": 4500,
+        "title": "Estado, violencia monetaria e o conflito que vem"
+      }
     ]
   },
   "podcast-bipa-3-halving-esta-precificado": {
     "url": "https://www.youtube.com/watch?v=ekQtXuTDOIs",
     "chapters": [
-      { "start": 0, "title": "O que a pergunta sobre o halving realmente quer dizer" },
-      { "start": 600, "title": "Mercado eficiente, rumor e noticia" },
-      { "start": 1500, "title": "Oferta nova, emissao e reflexividade" },
-      { "start": 2400, "title": "ETFs e por que este ciclo e diferente" },
-      { "start": 3300, "title": "Narrativas, timing e comportamento de mercado" },
-      { "start": 4200, "title": "Cenarios de adocao e limites de previsao" }
+      {
+        "start": 0,
+        "title": "O que a pergunta sobre o halving realmente quer dizer"
+      },
+      {
+        "start": 600,
+        "title": "Mercado eficiente, rumor e noticia"
+      },
+      {
+        "start": 1500,
+        "title": "Oferta nova, emissao e reflexividade"
+      },
+      {
+        "start": 2400,
+        "title": "ETFs e por que este ciclo e diferente"
+      },
+      {
+        "start": 3300,
+        "title": "Narrativas, timing e comportamento de mercado"
+      },
+      {
+        "start": 4200,
+        "title": "Cenarios de adocao e limites de previsao"
+      }
     ]
   },
   "podcast-bipa-cast-22-101-perguntas-sobre-bitcoin": {
     "url": "https://www.youtube.com/watch?v=J_aFuT9NrIQ",
     "chapters": [
-      { "start": 0, "title": "Por que escrever 101 Perguntas sobre Bitcoin" },
-      { "start": 600, "title": "Publicacao, editora e como o projeto ganhou forma" },
-      { "start": 1200, "title": "O que faz um bom livro tecnico de entrada" },
-      { "start": 1800, "title": "Como Breno aprendeu a escrever de verdade" },
-      { "start": 2400, "title": "O que e Bitcoin e por que ele e dinheiro" },
-      { "start": 3000, "title": "Valor subjetivo, energia e criticas classicas" },
-      { "start": 3600, "title": "Bolha, piramide e descoberta de preco" },
-      { "start": 4500, "title": "UTXOs, contratos e a mecanica da rede" },
-      { "start": 5100, "title": "BitPix, apagoes e Bitcoin como infraestrutura" },
-      { "start": 6000, "title": "Hiperbitcoinizacao, altcoins e o papel do livro" }
+      {
+        "start": 0,
+        "title": "Por que escrever 101 Perguntas sobre Bitcoin"
+      },
+      {
+        "start": 600,
+        "title": "Publicacao, editora e como o projeto ganhou forma"
+      },
+      {
+        "start": 1200,
+        "title": "O que faz um bom livro tecnico de entrada"
+      },
+      {
+        "start": 1800,
+        "title": "Como Breno aprendeu a escrever de verdade"
+      },
+      {
+        "start": 2400,
+        "title": "O que e Bitcoin e por que ele e dinheiro"
+      },
+      {
+        "start": 3000,
+        "title": "Valor subjetivo, energia e criticas classicas"
+      },
+      {
+        "start": 3600,
+        "title": "Bolha, piramide e descoberta de preco"
+      },
+      {
+        "start": 4500,
+        "title": "UTXOs, contratos e a mecanica da rede"
+      },
+      {
+        "start": 5100,
+        "title": "BitPix, apagoes e Bitcoin como infraestrutura"
+      },
+      {
+        "start": 6000,
+        "title": "Hiperbitcoinizacao, altcoins e o papel do livro"
+      }
     ]
   },
   "podcast-bipa-cast-38-satsconf": {
     "url": "https://www.youtube.com/watch?v=20sPMNVQTug",
     "chapters": [
-      { "start": 0, "title": "Abertura e clima da Satsconf" },
-      { "start": 300, "title": "Hackathon, projetos e o que foi construido" },
-      { "start": 900, "title": "Agentes, automacao e novas ferramentas em Bitcoin" },
-      { "start": 1200, "title": "Escalabilidade: Lightning, ecash e outras camadas" },
-      { "start": 1800, "title": "Valuation, premio monetario e Nakamoto Portfolio" },
-      { "start": 2400, "title": "Heranca, multisig e recuperacao sem depender da empresa" },
-      { "start": 3000, "title": "Mineracao, HPC e o futuro do design das maquinas" },
-      { "start": 3240, "title": "Agentes, micropagamentos e adocao nao humana do Bitcoin" }
+      {
+        "start": 0,
+        "title": "Abertura e clima da Satsconf"
+      },
+      {
+        "start": 300,
+        "title": "Hackathon, projetos e o que foi construido"
+      },
+      {
+        "start": 900,
+        "title": "Agentes, automacao e novas ferramentas em Bitcoin"
+      },
+      {
+        "start": 1200,
+        "title": "Escalabilidade: Lightning, ecash e outras camadas"
+      },
+      {
+        "start": 1800,
+        "title": "Valuation, premio monetario e Nakamoto Portfolio"
+      },
+      {
+        "start": 2400,
+        "title": "Heranca, multisig e recuperacao sem depender da empresa"
+      },
+      {
+        "start": 3000,
+        "title": "Mineracao, HPC e o futuro do design das maquinas"
+      },
+      {
+        "start": 3240,
+        "title": "Agentes, micropagamentos e adocao nao humana do Bitcoin"
+      }
     ]
   },
   "podcast-blocktrends-bitcoin-ia-mercados-eficientes": {
     "url": "https://www.youtube.com/watch?v=VddyevajQ68",
     "chapters": [
-      { "start": 120, "title": "Abertura e pauta: Bitcoin, IA e mercados" },
-      { "start": 300, "title": "Trajetoria do Breno e o que esta construindo hoje" },
-      { "start": 600, "title": "Spirit of Satoshi e IA especializada para Bitcoin" },
-      { "start": 900, "title": "O que aprendizado de maquina faz e onde ele falha" },
-      { "start": 1200, "title": "Trading sistematico sem fantasia de modelo magico" },
-      { "start": 1500, "title": "O que e quant trading e como ele difere da analise classica" },
-      { "start": 1800, "title": "Analise tecnica, analise fundamentalista e modelos quantitativos" },
-      { "start": 2400, "title": "Valuation do Bitcoin: ouro, power law e stock-to-flow" },
-      { "start": 3000, "title": "Hipotese de mercado eficiente como modelo mental" },
-      { "start": 3300, "title": "Capacity, fundos grandes e por que escala muda tudo" },
-      { "start": 3600, "title": "Analise on-chain e a carteira Satoshi" },
-      { "start": 3900, "title": "Livro, educacao de base e formacao de novos usuarios" }
+      {
+        "start": 120,
+        "title": "Abertura e pauta: Bitcoin, IA e mercados"
+      },
+      {
+        "start": 300,
+        "title": "Trajetoria do Breno e o que esta construindo hoje"
+      },
+      {
+        "start": 600,
+        "title": "Spirit of Satoshi e IA especializada para Bitcoin"
+      },
+      {
+        "start": 900,
+        "title": "O que aprendizado de maquina faz e onde ele falha"
+      },
+      {
+        "start": 1200,
+        "title": "Trading sistematico sem fantasia de modelo magico"
+      },
+      {
+        "start": 1500,
+        "title": "O que e quant trading e como ele difere da analise classica"
+      },
+      {
+        "start": 1800,
+        "title": "Analise tecnica, analise fundamentalista e modelos quantitativos"
+      },
+      {
+        "start": 2400,
+        "title": "Valuation do Bitcoin: ouro, power law e stock-to-flow"
+      },
+      {
+        "start": 3000,
+        "title": "Hipotese de mercado eficiente como modelo mental"
+      },
+      {
+        "start": 3300,
+        "title": "Capacity, fundos grandes e por que escala muda tudo"
+      },
+      {
+        "start": 3600,
+        "title": "Analise on-chain e a carteira Satoshi"
+      },
+      {
+        "start": 3900,
+        "title": "Livro, educacao de base e formacao de novos usuarios"
+      }
     ]
   },
   "podcast-criptoverso-54-breno-brito": {
     "url": "https://www.youtube.com/watch?v=Vxt0Egc77o8",
     "chapters": [
-      { "start": 0, "title": "Apresentacao e primeiros interesses" },
-      { "start": 1800, "title": "Formacao, escola e escolha por computacao" },
-      { "start": 3000, "title": "Descoberta do Bitcoin e a virada maximalista" },
-      { "start": 4200, "title": "Seeds, BIP39 em portugues e ergonomia da autocustodia" },
-      { "start": 5400, "title": "Spirit of Satoshi, IA especializada e trabalho infalsificavel" },
-      { "start": 6300, "title": "Companhia sintetica, web namoradas e substitutos afetivos" },
-      { "start": 6600, "title": "Por que faltava um livro introdutorio sobre Bitcoin" },
-      { "start": 7200, "title": "Barreiras tecnicas, didatica e a estrutura do livro" },
-      { "start": 7800, "title": "Por que Bitcoin importa e a metafora do tsunami" }
+      {
+        "start": 0,
+        "title": "Apresentacao e primeiros interesses"
+      },
+      {
+        "start": 1800,
+        "title": "Formacao, escola e escolha por computacao"
+      },
+      {
+        "start": 3000,
+        "title": "Descoberta do Bitcoin e a virada maximalista"
+      },
+      {
+        "start": 4200,
+        "title": "Seeds, BIP39 em portugues e ergonomia da autocustodia"
+      },
+      {
+        "start": 5400,
+        "title": "Spirit of Satoshi, IA especializada e trabalho infalsificavel"
+      },
+      {
+        "start": 6300,
+        "title": "Companhia sintetica, web namoradas e substitutos afetivos"
+      },
+      {
+        "start": 6600,
+        "title": "Por que faltava um livro introdutorio sobre Bitcoin"
+      },
+      {
+        "start": 7200,
+        "title": "Barreiras tecnicas, didatica e a estrutura do livro"
+      },
+      {
+        "start": 7800,
+        "title": "Por que Bitcoin importa e a metafora do tsunami"
+      }
     ]
   },
   "podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon": {
     "url": "https://www.youtube.com/watch?v=B_3lKKxbC40",
     "chapters": [
-      { "start": 0, "title": "Introducao ao Spirit of Satoshi" },
-      { "start": 300, "title": "Alinhamento, vies e escolha de fontes" },
-      { "start": 900, "title": "Treinamento, curadoria e avaliacao de modelos" },
-      { "start": 1500, "title": "Assistente tecnico, documentacao e RAG" },
-      { "start": 1800, "title": "Projeto de Miniscript vencedor do hackathon" },
-      { "start": 2400, "title": "Fluxogramas, contratos e aplicacoes praticas" },
-      { "start": 3300, "title": "Bitcoin assistant no dia a dia e encerramento" }
+      {
+        "start": 0,
+        "title": "Introducao ao Spirit of Satoshi"
+      },
+      {
+        "start": 300,
+        "title": "Alinhamento, vies e escolha de fontes"
+      },
+      {
+        "start": 900,
+        "title": "Treinamento, curadoria e avaliacao de modelos"
+      },
+      {
+        "start": 1500,
+        "title": "Assistente tecnico, documentacao e RAG"
+      },
+      {
+        "start": 1800,
+        "title": "Projeto de Miniscript vencedor do hackathon"
+      },
+      {
+        "start": 2400,
+        "title": "Fluxogramas, contratos e aplicacoes praticas"
+      },
+      {
+        "start": 3300,
+        "title": "Bitcoin assistant no dia a dia e encerramento"
+      }
     ]
   },
   "podcast-explica-bitcoin-futuro-da-rede": {
     "url": "https://www.youtube.com/watch?v=rSJvdmHwyHg",
     "chapters": [
-      { "start": 0, "title": "Por que a camada base do Bitcoin nao escala sozinha" },
-      { "start": 600, "title": "Lightning como rede de canais" },
-      { "start": 1200, "title": "Channel factories e a ideia de agrupar liquidacao" },
-      { "start": 1800, "title": "Fedimint, Cashu e custodias comunitarias" },
-      { "start": 2400, "title": "Sidechains, rollups e outras arquiteturas intermediarias" },
-      { "start": 3000, "title": "Nos, privacidade e servicos fora da cadeia" },
-      { "start": 3600, "title": "Bitcoin mais inteligente: RGB, ativos e contratos" },
-      { "start": 4800, "title": "BitVM, computacao e o que pode vir depois" },
-      { "start": 5700, "title": "Adocao, efeito de rede e encerramento" }
+      {
+        "start": 0,
+        "title": "Por que a camada base do Bitcoin nao escala sozinha"
+      },
+      {
+        "start": 600,
+        "title": "Lightning como rede de canais"
+      },
+      {
+        "start": 1200,
+        "title": "Channel factories e a ideia de agrupar liquidacao"
+      },
+      {
+        "start": 1800,
+        "title": "Fedimint, Cashu e custodias comunitarias"
+      },
+      {
+        "start": 2400,
+        "title": "Sidechains, rollups e outras arquiteturas intermediarias"
+      },
+      {
+        "start": 3000,
+        "title": "Nos, privacidade e servicos fora da cadeia"
+      },
+      {
+        "start": 3600,
+        "title": "Bitcoin mais inteligente: RGB, ativos e contratos"
+      },
+      {
+        "start": 4800,
+        "title": "BitVM, computacao e o que pode vir depois"
+      },
+      {
+        "start": 5700,
+        "title": "Adocao, efeito de rede e encerramento"
+      }
     ]
   },
   "podcast-explica-bitcoin-ia-fim-da-historia-humana": {
     "url": "https://www.youtube.com/watch?v=sqle4sHCdEQ",
     "chapters": [
-      { "start": 0, "title": "Introducao: o que chamamos de IA" },
-      { "start": 600, "title": "Como modelos aprendem: supervisionado, nao supervisionado e RL" },
-      { "start": 1500, "title": "Do GPT-2 aos modelos atuais" },
-      { "start": 2100, "title": "Produtividade, trabalho e adaptacao social" },
-      { "start": 2700, "title": "Tributacao, politica e velocidade da mudanca" },
-      { "start": 3300, "title": "ChatGPT, abundancia de informacao e a necessidade de escassez" },
-      { "start": 3600, "title": "Propaganda sintetica, fraude documental e humanos usando IA" },
-      { "start": 4200, "title": "True believers, ceticos e o mapa das visoes sobre IA" },
-      { "start": 4800, "title": "Ferramentas de codigo, especializacao e novas alavancas de trabalho" },
-      { "start": 5400, "title": "Trade-offs de aprendizado, dependencia e convivencia com IA" }
+      {
+        "start": 0,
+        "title": "Introducao: o que chamamos de IA"
+      },
+      {
+        "start": 600,
+        "title": "Como modelos aprendem: supervisionado, nao supervisionado e RL"
+      },
+      {
+        "start": 1500,
+        "title": "Do GPT-2 aos modelos atuais"
+      },
+      {
+        "start": 2100,
+        "title": "Produtividade, trabalho e adaptacao social"
+      },
+      {
+        "start": 2700,
+        "title": "Tributacao, politica e velocidade da mudanca"
+      },
+      {
+        "start": 3300,
+        "title": "ChatGPT, abundancia de informacao e a necessidade de escassez"
+      },
+      {
+        "start": 3600,
+        "title": "Propaganda sintetica, fraude documental e humanos usando IA"
+      },
+      {
+        "start": 4200,
+        "title": "True believers, ceticos e o mapa das visoes sobre IA"
+      },
+      {
+        "start": 4800,
+        "title": "Ferramentas de codigo, especializacao e novas alavancas de trabalho"
+      },
+      {
+        "start": 5400,
+        "title": "Trade-offs de aprendizado, dependencia e convivencia com IA"
+      }
     ]
   },
   "podcast-fernando-caixeta-101-perguntas-sobre-bitcoin": {
     "url": "https://www.youtube.com/watch?v=CD4SEIwWSpA",
     "chapters": [
-      { "start": 0, "title": "Livro, didatica e como explicar Bitcoin" },
-      { "start": 600, "title": "Matematica, carreira e gosto por estudar" },
-      { "start": 1200, "title": "Medo do novo, tecnologia e adaptacao" },
-      { "start": 1800, "title": "IA, regulacao e inovacao aberta" },
-      { "start": 2400, "title": "Satoshi, divisibilidade e a unidade do sistema" },
-      { "start": 3000, "title": "Ouro, mineracao e confianca monetaria" },
-      { "start": 3600, "title": "Bitcoin como investimento, inflacao e adocao" },
-      { "start": 4080, "title": "Pagamentos, hot wallets e cold wallets" },
-      { "start": 4200, "title": "CBDCs, bancos e camadas de controle" },
-      { "start": 4680, "title": "Energia, coordenacao temporal e liberdade" }
+      {
+        "start": 0,
+        "title": "Livro, didatica e como explicar Bitcoin"
+      },
+      {
+        "start": 600,
+        "title": "Matematica, carreira e gosto por estudar"
+      },
+      {
+        "start": 1200,
+        "title": "Medo do novo, tecnologia e adaptacao"
+      },
+      {
+        "start": 1800,
+        "title": "IA, regulacao e inovacao aberta"
+      },
+      {
+        "start": 2400,
+        "title": "Satoshi, divisibilidade e a unidade do sistema"
+      },
+      {
+        "start": 3000,
+        "title": "Ouro, mineracao e confianca monetaria"
+      },
+      {
+        "start": 3600,
+        "title": "Bitcoin como investimento, inflacao e adocao"
+      },
+      {
+        "start": 4080,
+        "title": "Pagamentos, hot wallets e cold wallets"
+      },
+      {
+        "start": 4200,
+        "title": "CBDCs, bancos e camadas de controle"
+      },
+      {
+        "start": 4680,
+        "title": "Energia, coordenacao temporal e liberdade"
+      }
     ]
   },
   "podcast-lancei-essa-014-tudo-sobre-bitcoin": {
     "url": "https://www.youtube.com/watch?v=akM5nD10uCY",
     "chapters": [
-      { "start": 0, "title": "Apresentacao e primeiros contatos com Bitcoin" },
-      { "start": 600, "title": "Estudar de verdade versus olhar so preco" },
-      { "start": 1200, "title": "Fim do padrao ouro e o experimento fiat" },
-      { "start": 1800, "title": "O que e dinheiro e por que Bitcoin entra na disputa" },
-      { "start": 2400, "title": "Mineracao, seguranca e especializacao" },
-      { "start": 3000, "title": "Cash digital, UTXOs e propriedade" },
-      { "start": 3600, "title": "Blocos, validacao e privacidade" },
-      { "start": 4200, "title": "Brasil, inflacao e a porta de entrada pelas criptos" },
-      { "start": 4800, "title": "Governanca do protocolo e a guerra do tamanho de bloco" },
-      { "start": 5400, "title": "Altcoins, Ethereum e memecoins" },
-      { "start": 6300, "title": "Regulacao, CBDCs e impacto social" },
-      { "start": 7500, "title": "Encerramento e conselhos para iniciantes" }
+      {
+        "start": 0,
+        "title": "Apresentacao e primeiros contatos com Bitcoin"
+      },
+      {
+        "start": 600,
+        "title": "Estudar de verdade versus olhar so preco"
+      },
+      {
+        "start": 1200,
+        "title": "Fim do padrao ouro e o experimento fiat"
+      },
+      {
+        "start": 1800,
+        "title": "O que e dinheiro e por que Bitcoin entra na disputa"
+      },
+      {
+        "start": 2400,
+        "title": "Mineracao, seguranca e especializacao"
+      },
+      {
+        "start": 3000,
+        "title": "Cash digital, UTXOs e propriedade"
+      },
+      {
+        "start": 3600,
+        "title": "Blocos, validacao e privacidade"
+      },
+      {
+        "start": 4200,
+        "title": "Brasil, inflacao e a porta de entrada pelas criptos"
+      },
+      {
+        "start": 4800,
+        "title": "Governanca do protocolo e a guerra do tamanho de bloco"
+      },
+      {
+        "start": 5400,
+        "title": "Altcoins, Ethereum e memecoins"
+      },
+      {
+        "start": 6300,
+        "title": "Regulacao, CBDCs e impacto social"
+      },
+      {
+        "start": 7500,
+        "title": "Encerramento e conselhos para iniciantes"
+      }
     ]
   },
   "podcast-liquid-network-code-satoshi": {
     "url": "https://www.youtube.com/watch?v=8s-GyRcZ6s0",
     "chapters": [
-      { "start": 0, "title": "Por que LLMs genericos falham para Bitcoin dev" },
-      { "start": 420, "title": "Satoshi educacional e o modelo de proof of knowledge" },
-      { "start": 900, "title": "Onboarding tecnico em Liquid e onde doi" },
-      { "start": 1440, "title": "Assistente tecnico de Liquid e consulta a documentacao" },
-      { "start": 1980, "title": "Code Satoshi e a demo de Miniscript" },
-      { "start": 2460, "title": "Treinamento, alinhamento e vies fiduciario" }
+      {
+        "start": 0,
+        "title": "Por que LLMs genericos falham para Bitcoin dev"
+      },
+      {
+        "start": 420,
+        "title": "Satoshi educacional e o modelo de proof of knowledge"
+      },
+      {
+        "start": 900,
+        "title": "Onboarding tecnico em Liquid e onde doi"
+      },
+      {
+        "start": 1440,
+        "title": "Assistente tecnico de Liquid e consulta a documentacao"
+      },
+      {
+        "start": 1980,
+        "title": "Code Satoshi e a demo de Miniscript"
+      },
+      {
+        "start": 2460,
+        "title": "Treinamento, alinhamento e vies fiduciario"
+      }
     ]
   },
   "podcast-sessao-de-hopium-ep-20": {
     "url": "https://www.youtube.com/watch?v=jiZwzsmd9Go",
     "chapters": [
-      { "start": 0, "title": "Apresentacao, blocksize war e caminho ate o Bitcoin" },
-      { "start": 600, "title": "Custodia, bancos e como explicar Bitcoin para iniciantes" },
-      { "start": 1200, "title": "Trabalho, marketing e viver do ecossistema" },
-      { "start": 1800, "title": "Carreira em Bitcoin e antecipar o mercado" },
-      { "start": 2400, "title": "Redes abertas, GitHub e geracao de valor" },
-      { "start": 3000, "title": "Fomo Podcast, altcoins e maximalismo" },
-      { "start": 3600, "title": "Familia, profissao e a mudanca de rumo" },
-      { "start": 4200, "title": "Meetups, Explica Bitcoin e construcao de comunidade" },
-      { "start": 4800, "title": "Leituras, Ayn Rand e formacao intelectual" },
-      { "start": 6000, "title": "Codigo como linguagem, lei e liberdade" },
-      { "start": 7200, "title": "CBDCs, China e vigilancia financeira" },
-      { "start": 8400, "title": "Lightning, eCash e o futuro das camadas" },
-      { "start": 9600, "title": "Estado, taxacao e antifragilidade" },
-      { "start": 10800, "title": "Taleb, ergodicidade e critica a academia" },
-      { "start": 12000, "title": "Stay humble, mercado e encerramento" }
+      {
+        "start": 0,
+        "title": "Apresentacao, blocksize war e caminho ate o Bitcoin"
+      },
+      {
+        "start": 600,
+        "title": "Custodia, bancos e como explicar Bitcoin para iniciantes"
+      },
+      {
+        "start": 1200,
+        "title": "Trabalho, marketing e viver do ecossistema"
+      },
+      {
+        "start": 1800,
+        "title": "Carreira em Bitcoin e antecipar o mercado"
+      },
+      {
+        "start": 2400,
+        "title": "Redes abertas, GitHub e geracao de valor"
+      },
+      {
+        "start": 3000,
+        "title": "Fomo Podcast, altcoins e maximalismo"
+      },
+      {
+        "start": 3600,
+        "title": "Familia, profissao e a mudanca de rumo"
+      },
+      {
+        "start": 4200,
+        "title": "Meetups, Explica Bitcoin e construcao de comunidade"
+      },
+      {
+        "start": 4800,
+        "title": "Leituras, Ayn Rand e formacao intelectual"
+      },
+      {
+        "start": 6000,
+        "title": "Codigo como linguagem, lei e liberdade"
+      },
+      {
+        "start": 7200,
+        "title": "CBDCs, China e vigilancia financeira"
+      },
+      {
+        "start": 8400,
+        "title": "Lightning, eCash e o futuro das camadas"
+      },
+      {
+        "start": 9600,
+        "title": "Estado, taxacao e antifragilidade"
+      },
+      {
+        "start": 10800,
+        "title": "Taleb, ergodicidade e critica a academia"
+      },
+      {
+        "start": 12000,
+        "title": "Stay humble, mercado e encerramento"
+      }
     ]
   },
   "podcast-stealth-fountain": {
     "url": "https://fountain.fm/episode/kUr7VFvKz6HywLRvoQ5Z",
     "timestamp_style": "query-at",
     "chapters": [
-      { "start": 0, "title": "Abertura do Freedom Tech Friday e apresentacao dos convidados" },
-      { "start": 300, "title": "Trajetoria do Breno, BitDevs e origem do Stealth" },
-      { "start": 600, "title": "Hackathon e concepcao do projeto" },
-      { "start": 900, "title": "O que chain analysis ve e por que isso importa" },
-      { "start": 1200, "title": "Wrench attacks, sequestros e o custo real de falhar em privacidade" },
-      { "start": 1500, "title": "Arquitetura atual, regtest e proximos passos" },
-      { "start": 2100, "title": "Demo: heuristicas e tipos de vazamento detectados" },
-      { "start": 2700, "title": "Paynyms, silent payments e padroes melhores para wallets" },
-      { "start": 3300, "title": "Feedback para fabricantes de wallet e futuro do projeto" }
+      {
+        "start": 0,
+        "title": "Abertura do Freedom Tech Friday e apresentacao dos convidados"
+      },
+      {
+        "start": 300,
+        "title": "Trajetoria do Breno, BitDevs e origem do Stealth"
+      },
+      {
+        "start": 600,
+        "title": "Hackathon e concepcao do projeto"
+      },
+      {
+        "start": 900,
+        "title": "O que chain analysis ve e por que isso importa"
+      },
+      {
+        "start": 1200,
+        "title": "Wrench attacks, sequestros e o custo real de falhar em privacidade"
+      },
+      {
+        "start": 1500,
+        "title": "Arquitetura atual, regtest e proximos passos"
+      },
+      {
+        "start": 2100,
+        "title": "Demo: heuristicas e tipos de vazamento detectados"
+      },
+      {
+        "start": 2700,
+        "title": "Paynyms, silent payments e padroes melhores para wallets"
+      },
+      {
+        "start": 3300,
+        "title": "Feedback para fabricantes de wallet e futuro do projeto"
+      }
     ]
   },
   "quant-finance-investimento": {
     "url": "https://www.youtube.com/watch?v=4Ap0jAPX00o",
     "chapters": [
-      { "start": 0, "title": "Abertura, trajetoria profissional e entrada em Bitcoin" },
-      { "start": 300, "title": "Wash trading e o valor de trabalhar com dados de mercado" },
-      { "start": 600, "title": "Transparencia, infraestrutura aberta e por que isso importa" },
-      { "start": 900, "title": "Qualitativo versus quantitativo sem caricatura" },
-      { "start": 1200, "title": "Analise fundamentalista e o que realmente gera valor" },
-      { "start": 1500, "title": "Correlacoes, pairs trading e quando o mercado descola" },
-      { "start": 1800, "title": "Machine learning em financas e os limites da automacao" }
+      {
+        "start": 0,
+        "title": "Abertura, trajetoria profissional e entrada em Bitcoin"
+      },
+      {
+        "start": 300,
+        "title": "Wash trading e o valor de trabalhar com dados de mercado"
+      },
+      {
+        "start": 600,
+        "title": "Transparencia, infraestrutura aberta e por que isso importa"
+      },
+      {
+        "start": 900,
+        "title": "Qualitativo versus quantitativo sem caricatura"
+      },
+      {
+        "start": 1200,
+        "title": "Analise fundamentalista e o que realmente gera valor"
+      },
+      {
+        "start": 1500,
+        "title": "Correlacoes, pairs trading e quando o mercado descola"
+      },
+      {
+        "start": 1800,
+        "title": "Machine learning em financas e os limites da automacao"
+      }
+    ]
+  },
+  "palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering": {
+    "url": "https://www.youtube.com/watch?v=90yNM5Pt8Nw",
+    "chapters": [
+      {
+        "start": 0,
+        "title": "IA ja esta em todo lugar e o custo esta despencando"
+      },
+      {
+        "start": 236,
+        "title": "Do discurso publico ao contraste entre vibe coding e agentic engineering"
+      },
+      {
+        "start": 472,
+        "title": "O que modelos generativos fazem: tokens, aleatoriedade e embeddings"
+      },
+      {
+        "start": 826,
+        "title": "Bitter Lesson, contexto e por que o gargalo mudou de lugar"
+      },
+      {
+        "start": 1180,
+        "title": "Context rot, dumb zone e quando recomecar a sessao"
+      },
+      {
+        "start": 1416,
+        "title": "Compound engineering, specs e workflows praticos"
+      },
+      {
+        "start": 1888,
+        "title": "Fechar o loop com testes, saida observavel e otimizacao para o agente"
+      },
+      {
+        "start": 2242,
+        "title": "Perguntas sobre matematica, provas e quando usar outras ferramentas"
+      },
+      {
+        "start": 2478,
+        "title": "Perguntas sobre prazer em programar, oficio e identidade do desenvolvedor"
+      },
+      {
+        "start": 2950,
+        "title": "Perguntas sobre treinamento, RL e o que realmente faz um agente"
+      }
     ]
   }
 }
