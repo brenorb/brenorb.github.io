@@ -69,5 +69,6 @@ Como isso vai afetar a regulação, as exchanges existentes hoje e todo o ecossi
 
 ---
 
-Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.com.br/economia-digital/bitcoin/revolucao-taro-transformacao-do-bitcoin-na-exchange-suprema/) em 21 de março 2023.
+**Nota editorial (3 de junho de 2026):** "Taro" foi renomeado para **Taproot Assets** após um conflito de marca. Este artigo preserva o nome original usado em março de 2023.
 
+Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.com.br/economia-digital/bitcoin/revolucao-taro-transformacao-do-bitcoin-na-exchange-suprema/) em 21 de março de 2023.
