@@ -14,7 +14,7 @@ feature: /assets/criptos.png
 Depois de algum tempo estudando sobre bitcoin e criptomoedas, fico surpreso com o tanto de “especialistas” surgindo e propagando fatos completamente errados sobre criptomoedas. Coletando alguns da rede, fiz uma lista dos mais clássicos:
 
 ## 1 – Mineradores utilizam máquinas para cálculos extremamente complexos.
-Na verdade, não existe um algoritmo eficiente para a função que os mineradores tem que resolver, o problema do logaritmo discreto. O problema então se torna o de tentar adivinhar números aleatórios, que é umas das coisas mais simples que um computador poderia tentar fazer.
+Na verdade, não existe um algoritmo eficiente para a função que os mineradores tem que resolver, o problema da resistência à pré-imagem. O problema então se torna o de tentar adivinhar números aleatórios, que é umas das coisas mais simples que um computador poderia tentar fazer.
 
 
 
