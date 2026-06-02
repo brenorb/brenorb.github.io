@@ -3,7 +3,7 @@ layout: post
 title:  "O Padrão Fiduciário"
 date:   2023-08-31
 excerpt: "Edição brasileira do livro de Saifedean Ammous sobre o sistema fiduciário, dívida e distorções monetárias."
-description: "O Padrão Fiduciário is the Brazilian Portuguese edition of The Fiat Standard, Saifedean Ammous's book on debt, fiat money, and the distortions of the modern monetary system."
+description: "Trabalhei na edição brasileira de O Padrão Fiduciário, livro de Saifedean Ammous sobre dívida, moeda fiduciária e as distorções do sistema monetário moderno."
 content_type: project
 tag:
 - book
@@ -15,9 +15,9 @@ feature: /assets/o-padrao-fiduciario.jpg
 
 ![Livro](/assets/o-padrao-fiduciario.jpg)
 
-**O Padrão Fiduciário** é a edição brasileira de *The Fiat Standard*, de **Saifedean Ammous**, sobre a história, o funcionamento e os efeitos do sistema monetário fiduciário na economia, na política e na sociedade.
+**O Padrão Fiduciário** é um projeto em que trabalhei na edição brasileira de *The Fiat Standard*, de **Saifedean Ammous**, sobre a história, o funcionamento e os efeitos do sistema monetário fiduciário na economia, na política e na sociedade.
 
-O título aparece associado ao catálogo de Breno Brito na Amazon e complementa as ideias desenvolvidas em **O Padrão Bitcoin**, olhando para o outro lado da discussão: crédito, dívida e moeda estatal.
+O resultado foi a edição brasileira publicada na Amazon, complementando as ideias desenvolvidas em **O Padrão Bitcoin** ao olhar para o outro lado da discussão: crédito, dívida e moeda estatal.
 
 ## Links
 [Ver na Amazon](https://amzn.to/4tT59ei){: .btn .btn-info}

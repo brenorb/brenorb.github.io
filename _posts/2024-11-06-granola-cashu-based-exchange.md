@@ -4,7 +4,7 @@ title:  "Granola - Cashu-based exchange"
 date:   2024-11-06
 permalink: /granola/
 excerpt: "3rd place and Best Nostr at SatsHack 2024, a Cashu + Nostr exchange concept."
-description: "Granola is a Cashu- and Nostr-based exchange concept for privacy-preserving ecash swaps, built for SatsHack 2024 and recognized at Satsconf."
+description: "I built Granola with Luis Schwab for SatsHack 2024 as a Cashu- and Nostr-based exchange concept for privacy-preserving ecash swaps."
 content_type: project
 tag:
 - academia
@@ -18,18 +18,18 @@ mermaid: true
 feature: /assets/generated/granola.png
 ---
 
-**Granola** is a **Cashu-based exchange** concept built for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
+**Granola** is a **Cashu-based exchange** concept that I built with **Luis Schwab** for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
 
-The public SatsHack submission lists **Breno Brito** and **Luis Schwab** as the team behind the project, and states that the entire project was built during the hacking period.
+We built the project during the hackathon around a specific problem: how to coordinate privacy-preserving Bitcoin on- and off-ramps without falling back to a centralized exchange.
 
 SatsHack pitch
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lq_zZx2cBXk" title="Granola SatsHack pitch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## SatsHack / Satsconf 2024
 
-Granola was part of the second **SatsHack by Vinteum**, a hackathon tied to **Satsconf 2024**. The public event timeline scheduled the final pitches for **November 8, 2024** at Satsconf, with winners announced on **November 9, 2024**.
+Granola was part of the second **SatsHack by Vinteum**, a hackathon tied to **Satsconf 2024**. The final pitches happened on **November 8, 2024** at Satsconf, with winners announced on **November 9, 2024**.
 
-Public coverage after the event recorded Granola as one of the highlighted winners:
+After the event, Granola was covered as one of the highlighted winners:
 
 - **No Bullshit Bitcoin** listed Granola as **3rd place overall** and **Best Nostr**.
 - **Livecoins** also highlighted Granola among the winning Satsconf / SatsHack projects.
@@ -39,7 +39,7 @@ Public coverage after the event recorded Granola as one of the highlighted winne
 
 Cashu contributor **calle** later gave a concise outside framing of why Granola felt interesting. In a public Nostr reply on **November 7, 2024**, he described it as **"an exchange without an order book"** where trades happen **"off-band"** and **"at light speed"** between users, assets, and even mints.
 
-That is a good summary of the project's core intuition: Granola was not just about privacy-preserving swaps, but about replacing the usual custodial exchange flow with direct, atomic coordination across Cashu mints.
+That is still the clearest short summary of the idea. Granola was not just about privacy-preserving swaps, but about replacing the usual custodial exchange flow with direct, atomic coordination across Cashu mints.
 
 The screenshot below was preserved in the original project deck, and the same text survives in calle's public Nostr reply.
 
@@ -47,13 +47,13 @@ The screenshot below was preserved in the original project deck, and the same te
 
 ## Academic reference
 
-Granola was later cited as the starting point for Hugo Szerwinski's 2025 undergraduate thesis at the University of Brasilia, *Protocolo de Swap Atômico Entre Mints de Cashu*. Breno Brito also co-advised the thesis work.
+Granola later became the starting point for Hugo Szerwinski's 2025 undergraduate thesis at the University of Brasilia, *Protocolo de Swap Atômico Entre Mints de Cashu*. I also co-advised the thesis work.
 
-In the thesis motivation section, Szerwinski states that the work was inspired by Granola as presented by **Breno Brito** and **Luis Schwab** during **SatsHack 2024**, and that the thesis began from analyzing and implementing the referenced project. This mention appears in the **"Motivação"** section on **PDF page 18** (document page 17).
+In the thesis motivation section, Szerwinski says the work began from analyzing and implementing Granola after seeing it presented during **SatsHack 2024**. This mention appears in the **"Motivação"** section on **PDF page 18** (document page 17).
 
 ## What the project proposed
 
-The original SatsHack submission framed the main problem as privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
+Our starting point was privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
 
 In practice, the idea was to treat different Cashu mints as currency-specific issuers and use the same hash/preimage across both sides of the trade. That turns the exchange into a peer-to-peer, privacy-first settlement flow rather than a custodial venue.
 
@@ -102,7 +102,7 @@ Carol->>Mint: Swaps HTLC_c token
 
 ## Status
 
-Granola is currently an early design note rather than a production system. The interesting part is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
+Granola is still an early design note rather than a production system. The part that still feels durable to me is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
 
 ## Links
 [Official SatsHack Submission](https://eventornado.com/submission/granola?s=1){: .btn .btn-info}

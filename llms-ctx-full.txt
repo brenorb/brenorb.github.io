@@ -67,15 +67,15 @@ Source: _posts/2026-05-12-freedom-skills.md
 Date: 2026-05-12
 Content type: project
 Tags: ai, bitcoin, nostr
-Summary: Freedom Skills is a repository of reusable AI agent skills for Bitcoin, Nostr, and related freedom technologies, with a focus on making those tools more legible, tested, and usable for autonomous systems.
+Summary: I started Freedom Skills as a repository of reusable AI agent skills for Bitcoin, Nostr, and related freedom technologies, with a focus on making those tools more legible, tested, and usable for autonomous systems.
 
-**Freedom Skills** is a repository of **AI agent skills for Bitcoin, Nostr, and other freedom technologies**.
+**Freedom Skills** is a repository of **AI agent skills for Bitcoin, Nostr, and other freedom technologies** that I started to make these tools more usable by autonomous systems.
 
-The goal is to help agents use tools for **uncensorable payments** and **censorship-resistant communication** more reliably, especially in contexts where depending on centralized services is a liability.
+I care about a boring but important gap here: many of the tools that matter for **uncensorable payments** and **censorship-resistant communication** are powerful, but still awkward for agents to use reliably.
 
-The project emphasizes reusable skills that can be tested, benchmarked, and shared, so freedom tech becomes more legible and more practical for autonomous systems.
+I want the skills in this repo to be reusable, testable, benchmarkable, and shareable, so freedom tech becomes more legible and more practical for autonomous systems.
 
-The longer-term direction is a trusted layer for skill discovery, validation, and reuse in adversarial environments.
+Longer term, I see Freedom Skills as a trusted layer for skill discovery, validation, and reuse in adversarial environments.
 
 ### Links
 [GitHub Repo](https://github.com/brenorb/freedom-skills)
@@ -142,11 +142,11 @@ Source: _posts/2026-04-28-os-tres-porquinhos-na-vila-do-valor.md
 Date: 2026-04-28
 Content type: project
 Tags: book, review, education
-Summary: Os Três Porquinhos na Vila do Valor is a children's book on financial education by Caroline Galgowski, with Breno Brito contributing as reviewer.
+Summary: Os Três Porquinhos na Vila do Valor é um livro infantil de educação financeira de Caroline Galgowski no qual atuei como revisor.
 
 **Os Três Porquinhos na Vila do Valor** é um livro infantil de **Caroline Galgowski** que apresenta noções de educação financeira para crianças a partir de uma história conhecida.
 
-Neste projeto, Breno Brito participou como **revisor**.
+Neste projeto, participei como **revisor**.
 
 ## Links
 [Ver na Amazon](https://amzn.to/41Y8T2H)
@@ -181,11 +181,11 @@ Source: _posts/2026-04-08-stealth.md
 Date: 2026-04-08
 Content type: project
 Tags: bitcoin, privacy, hackathon
-Summary: Stealth is a Bitcoin wallet privacy auditing tool that analyzes public descriptors and on-chain behavior to surface concrete privacy risks and mitigation ideas.
+Summary: I built Stealth as a Bitcoin wallet privacy auditing tool that analyzes public descriptors and on-chain behavior to surface concrete privacy risks and mitigation ideas.
 
 **Stealth** is a Bitcoin wallet privacy auditing tool that I built for the **BTC++ 2026 hackathon**.
 
-It analyzes wallet behavior from public descriptors and surfaces privacy risks using real-world on-chain heuristics.
+I built it to give wallet users direct visibility into the same kind of heuristics that outside analysts use to detect address reuse, change patterns, clustering, and other privacy leaks.
 
 It started as a hackathon prototype and is evolving into a local-first Rust workspace for descriptor-driven wallet analysis.
 
@@ -206,7 +206,7 @@ Current direction:
 
 Stealth currently focuses on signals like address reuse, common input ownership, dust exposure, change detection, consolidation, script-type mixing, tainted merges, and behavioral fingerprinting.
 
-The original Bitcoin++ Exploits Edition submission listed Breno Brito, Jorge Santana, Renato Britto, and Herberson Miranda as the project team.
+I built the original hackathon version with **Jorge Santana**, **Renato Britto**, and **Herberson Miranda**.
 
 Since launch, the project has also been discussed publicly by BTC QnA and inspired an Umbrel-oriented adaptation that switched the backend from Bitcoin Core to Electrs.
 
@@ -250,11 +250,11 @@ Source: _posts/2026-03-03-btc-graph.md
 Date: 2026-03-03
 Content type: project
 Tags: bitcoin, education
-Summary: btc-graph is an interactive Bitcoin learning graph with curated concepts, prerequisites, and resources, built as a static site for GitHub Pages.
+Summary: I built btc-graph as an interactive Bitcoin learning graph with curated concepts, prerequisites, and resources, published as a static site on GitHub Pages.
 
-**btc-graph** is an **interactive Bitcoin learning graph** built as a **static site for GitHub Pages**.
+**btc-graph** is an **interactive Bitcoin learning graph** that I built as a **static site for GitHub Pages**.
 
-The project organizes Bitcoin concepts as a dependency graph so readers can move from fundamentals to more advanced topics without losing context.
+I wanted a way to organize Bitcoin concepts as a dependency graph, so readers could move from fundamentals to more advanced topics without losing context.
 
 Each concept is modeled as a node with:
 
@@ -263,9 +263,9 @@ Each concept is modeled as a node with:
 - suggested prerequisites
 - 2 to 3 curated high-signal resources
 
-The app also includes a **search-friendly library view**, making it easier to browse topics outside the graph itself.
+I also added a **search-friendly library view**, which makes it easier to browse topics outside the graph itself.
 
-Under the hood, the content source of truth lives in `content/nodes/*.json`, which is validated and compiled into a static graph dataset for the frontend.
+Under the hood, I keep the source of truth in `content/nodes/*.json`, which gets validated and compiled into a static graph dataset for the frontend.
 
 ### Links
 [Live Site](https://brenorb.com/btc-graph/)
@@ -459,13 +459,13 @@ Source: _posts/2025-02-25-o-manifesto-descomunista.md
 Date: 2025-02-25
 Content type: project
 Tags: book, bitcoin, editing
-Summary: O Manifesto Descomunista is the Brazilian edition of Aleks Svetski's book on hope, individual responsibility, and freedom, with editorial work by Breno Brito.
+Summary: Fiz a editoração da edição brasileira de O Manifesto Descomunista, livro de Aleks Svetski sobre esperança, responsabilidade individual e liberdade.
 
 ![Livro](/assets/o-manifesto-descomunista.jpg)
 
-**O Manifesto Descomunista** é um projeto de **editoração da edição brasileira** do livro de **Aleks Svetski**, uma defesa de esperança, responsabilidade individual e liberdade fora das promessas políticas tradicionais.
+**O Manifesto Descomunista** é um projeto em que fiz a **editoração da edição brasileira** do livro de **Aleks Svetski**, uma defesa de esperança, responsabilidade individual e liberdade fora das promessas políticas tradicionais.
 
-O título aparece associado ao catálogo de Breno Brito na Amazon e amplia a parte mais filosófica e cultural dos projetos ligados ao universo Bitcoin.
+O resultado foi a edição brasileira publicada na Amazon, ligada ao lado mais filosófico e cultural do meu trabalho com Bitcoin.
 
 ## Links
 [Ver na Amazon](https://amzn.to/4uZL0nw)
@@ -477,21 +477,21 @@ Source: _posts/2025-02-22-fran-ai-plus-plus.md
 Date: 2025-02-22
 Content type: project
 Tags: ai, bitcoin, hackathon
-Summary: Fran / AI++ was a Bitcoin++ Floripa 2025 hackathon project exploring a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance.
+Summary: I built Fran / AI++ during Bitcoin++ Floripa 2025 as a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance.
 
-**Fran / AI++** was a **Bitcoin++ Floripa 2025** hackathon project built around a simple idea: use a **voice-first AI assistant** to make Bitcoin software easier to understand and use.
+**Fran / AI++** was a **Bitcoin++ Floripa 2025** hackathon project that I built around a simple idea: use a **voice-first AI assistant** to make Bitcoin software easier to understand and use.
 
-A public roundup of notable projects from the event lists **"Fran by Goat++"** as a tool to help onboard merchants and users to Lightning by explaining common Bitcoin apps, answering questions, and audibly describing interface elements.
+I wanted an assistant that could sit next to the user, explain what was on screen, answer questions in natural language, and reduce the intimidation factor around Bitcoin and Lightning apps.
 
 ## Bitcoin++ Floripa 2025
 
-Bitcoin++ Floripa's **hack+play edition** ran from **February 19 to 22, 2025**, with the hackathon itself starting on **February 20** and project presentations happening on **February 22**.
+I built and presented Fran during Bitcoin++ Floripa's **hack+play edition**, which ran from **February 19 to 22, 2025**, with the hackathon itself starting on **February 20** and project presentations happening on **February 22**.
 
-Fran appeared as one of the projects publicly highlighted after the event, with an external demo link and a recorded presentation in the livestream archive.
+After the event, the project also appeared in a public roundup of notable hackathon projects under the name **"Fran by Goat++"**, with emphasis on merchant and user onboarding for Lightning.
 
 ## What the project showed
 
-Public demos and presentation artifacts show Fran as a broader accessibility and onboarding layer for Bitcoin:
+The prototype pushed on accessibility and onboarding rather than wallet infrastructure itself. In the demo, Fran combined:
 
 - voice and text Q&A about Bitcoin tools
 - screen sharing so the assistant could react to what the user was seeing
@@ -502,13 +502,13 @@ One presentation slide summarizes the goal well: **Bitcoin is powerful. Fran mak
 
 ## Why it was interesting
 
-Most Bitcoin UX work improves individual apps. Fran pushed on a different layer: an assistant that could sit next to the user, explain interfaces, answer questions in natural language, and reduce the intimidation factor for first-time users and merchants.
+Most Bitcoin UX work improves individual apps. I wanted to explore a different layer: an assistant that could sit next to the user, explain interfaces, answer questions in natural language, and reduce the intimidation factor for first-time users and merchants.
 
-That makes it an interesting hackathon project not just because it combines **AI** and **Bitcoin**, but because it treats usability and onboarding as the main product surface.
+That made Fran interesting to me not just because it combined **AI** and **Bitcoin**, but because it treated usability and onboarding as the main product surface.
 
-## Public traces
+## Artifacts
 
-Two public demo videos were later published on Breno Brito's YouTube channel:
+The hackathon version still has a few public artifacts:
 
 - **Hackathon Demo - BTC++/25** on **February 22, 2025**
 - **Video - demo Fran BTC++ Hackathon** on **February 26, 2025**
@@ -517,7 +517,7 @@ There is also a public slide deck from the event and a presentation screenshot p
 
 ## Status
 
-Fran appears to have remained a hackathon project and public demo rather than turning into an ongoing product. The value is in the prototype itself: a concrete exploration of accessible, voice-first Bitcoin education and app guidance.
+Fran stayed as a hackathon prototype rather than turning into an ongoing standalone product. What still feels valuable to me is the direction itself: accessible, voice-first Bitcoin education and app guidance.
 
 ## Links
 [Bitcoin++ Floripa 2025](https://btcplusplus.dev/conf/floripa)
@@ -618,11 +618,11 @@ Source: _posts/2024-11-06-granola-cashu-based-exchange.md
 Date: 2024-11-06
 Content type: project
 Tags: academia, bitcoin, cashu, hackathon, nostr, ecash
-Summary: Granola is a Cashu- and Nostr-based exchange concept for privacy-preserving ecash swaps, built for SatsHack 2024 and recognized at Satsconf.
+Summary: I built Granola with Luis Schwab for SatsHack 2024 as a Cashu- and Nostr-based exchange concept for privacy-preserving ecash swaps.
 
-**Granola** is a **Cashu-based exchange** concept built for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
+**Granola** is a **Cashu-based exchange** concept that I built with **Luis Schwab** for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
 
-The public SatsHack submission lists **Breno Brito** and **Luis Schwab** as the team behind the project, and states that the entire project was built during the hacking period.
+We built the project during the hackathon around a specific problem: how to coordinate privacy-preserving Bitcoin on- and off-ramps without falling back to a centralized exchange.
 
 SatsHack pitch
 
@@ -630,9 +630,9 @@ Embedded media: https://www.youtube.com/embed/Lq_zZx2cBXk
 
 ## SatsHack / Satsconf 2024
 
-Granola was part of the second **SatsHack by Vinteum**, a hackathon tied to **Satsconf 2024**. The public event timeline scheduled the final pitches for **November 8, 2024** at Satsconf, with winners announced on **November 9, 2024**.
+Granola was part of the second **SatsHack by Vinteum**, a hackathon tied to **Satsconf 2024**. The final pitches happened on **November 8, 2024** at Satsconf, with winners announced on **November 9, 2024**.
 
-Public coverage after the event recorded Granola as one of the highlighted winners:
+After the event, Granola was covered as one of the highlighted winners:
 
 - **No Bullshit Bitcoin** listed Granola as **3rd place overall** and **Best Nostr**.
 - **Livecoins** also highlighted Granola among the winning Satsconf / SatsHack projects.
@@ -642,7 +642,7 @@ Public coverage after the event recorded Granola as one of the highlighted winne
 
 Cashu contributor **calle** later gave a concise outside framing of why Granola felt interesting. In a public Nostr reply on **November 7, 2024**, he described it as **"an exchange without an order book"** where trades happen **"off-band"** and **"at light speed"** between users, assets, and even mints.
 
-That is a good summary of the project's core intuition: Granola was not just about privacy-preserving swaps, but about replacing the usual custodial exchange flow with direct, atomic coordination across Cashu mints.
+That is still the clearest short summary of the idea. Granola was not just about privacy-preserving swaps, but about replacing the usual custodial exchange flow with direct, atomic coordination across Cashu mints.
 
 The screenshot below was preserved in the original project deck, and the same text survives in calle's public Nostr reply.
 
@@ -650,13 +650,13 @@ The screenshot below was preserved in the original project deck, and the same te
 
 ## Academic reference
 
-Granola was later cited as the starting point for Hugo Szerwinski's 2025 undergraduate thesis at the University of Brasilia, *Protocolo de Swap Atômico Entre Mints de Cashu*. Breno Brito also co-advised the thesis work.
+Granola later became the starting point for Hugo Szerwinski's 2025 undergraduate thesis at the University of Brasilia, *Protocolo de Swap Atômico Entre Mints de Cashu*. I also co-advised the thesis work.
 
-In the thesis motivation section, Szerwinski states that the work was inspired by Granola as presented by **Breno Brito** and **Luis Schwab** during **SatsHack 2024**, and that the thesis began from analyzing and implementing the referenced project. This mention appears in the **"Motivação"** section on **PDF page 18** (document page 17).
+In the thesis motivation section, Szerwinski says the work began from analyzing and implementing Granola after seeing it presented during **SatsHack 2024**. This mention appears in the **"Motivação"** section on **PDF page 18** (document page 17).
 
 ## What the project proposed
 
-The original SatsHack submission framed the main problem as privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
+Our starting point was privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
 
 In practice, the idea was to treat different Cashu mints as currency-specific issuers and use the same hash/preimage across both sides of the trade. That turns the exchange into a peer-to-peer, privacy-first settlement flow rather than a custodial venue.
 
@@ -705,7 +705,7 @@ Carol->>Mint: Swaps HTLC_c token
 
 ## Status
 
-Granola is currently an early design note rather than a production system. The interesting part is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
+Granola is still an early design note rather than a production system. The part that still feels durable to me is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
 
 ## Links
 [Official SatsHack Submission](https://eventornado.com/submission/granola?s=1)
@@ -1565,13 +1565,13 @@ Source: _posts/2023-08-31-o-padrao-fiduciario.md
 Date: 2023-08-31
 Content type: project
 Tags: book, bitcoin, translation
-Summary: O Padrão Fiduciário is the Brazilian Portuguese edition of The Fiat Standard, Saifedean Ammous's book on debt, fiat money, and the distortions of the modern monetary system.
+Summary: Trabalhei na edição brasileira de O Padrão Fiduciário, livro de Saifedean Ammous sobre dívida, moeda fiduciária e as distorções do sistema monetário moderno.
 
 ![Livro](/assets/o-padrao-fiduciario.jpg)
 
-**O Padrão Fiduciário** é a edição brasileira de *The Fiat Standard*, de **Saifedean Ammous**, sobre a história, o funcionamento e os efeitos do sistema monetário fiduciário na economia, na política e na sociedade.
+**O Padrão Fiduciário** é um projeto em que trabalhei na edição brasileira de *The Fiat Standard*, de **Saifedean Ammous**, sobre a história, o funcionamento e os efeitos do sistema monetário fiduciário na economia, na política e na sociedade.
 
-O título aparece associado ao catálogo de Breno Brito na Amazon e complementa as ideias desenvolvidas em **O Padrão Bitcoin**, olhando para o outro lado da discussão: crédito, dívida e moeda estatal.
+O resultado foi a edição brasileira publicada na Amazon, complementando as ideias desenvolvidas em **O Padrão Bitcoin** ao olhar para o outro lado da discussão: crédito, dívida e moeda estatal.
 
 ## Links
 [Ver na Amazon](https://amzn.to/4tT59ei)
@@ -2606,13 +2606,13 @@ Source: _posts/2020-10-16-o-padrao-bitcoin.md
 Date: 2020-10-16
 Content type: project
 Tags: book, bitcoin, translation
-Summary: O Padrão Bitcoin is the Brazilian Portuguese edition of Saifedean Ammous's book on the history of money, hard money, and Bitcoin as a decentralized alternative to central banking.
+Summary: Trabalhei como tradutor, ao lado de Guilherme Bandeira, na edição brasileira de O Padrão Bitcoin, clássico de Saifedean Ammous sobre a história do dinheiro e o papel do Bitcoin.
 
 ![Livro](/assets/o-padrao-bitcoin.jpg)
 
-**O Padrão Bitcoin** é a edição brasileira do livro de **Saifedean Ammous** sobre a história do dinheiro, moeda forte e a alternativa descentralizada ao banco central.
+**O Padrão Bitcoin** é um projeto em que trabalhei como **tradutor**, ao lado de **Guilherme Bandeira**, na edição brasileira do livro de **Saifedean Ammous** sobre a história do dinheiro, moeda forte e a alternativa descentralizada ao banco central.
 
-Na página do livro na Amazon, Breno Brito aparece creditado como **tradutor**, ao lado de **Guilherme Bandeira**. É um dos títulos centrais da literatura de Bitcoin publicados em português.
+É um dos títulos centrais da literatura de Bitcoin publicados em português e uma das traduções mais importantes em que já trabalhei nesse tema.
 
 ## Links
 [Ver na Amazon](https://amzn.to/3PgoQ1t)
@@ -2624,11 +2624,11 @@ Source: _posts/2020-09-28-bip39-portuguese-wordlist.md
 Date: 2020-09-28
 Content type: project
 Tags: bitcoin, open-source, standards
-Summary: BIP39 Portuguese Wordlist is the official Portuguese mnemonic list added to bitcoin/bips for wallet backups, with Breno Brito credited among the co-authors of the upstream contribution.
+Summary: I co-created the official Portuguese BIP39 wordlist added to bitcoin/bips for mnemonic wallet backups.
 
 **BIP39 Portuguese Wordlist** is the official list of Portuguese words added to the BIP39 repository for mnemonic wallet backups.
 
-Breno Brito is one of the credited co-authors of the upstream contribution that introduced [`bip-0039/portuguese.txt`](https://github.com/bitcoin/bips/blob/master/bip-0039/portuguese.txt) to the official [`bitcoin/bips`](https://github.com/bitcoin/bips) repository.
+I co-created the upstream contribution that introduced [`bip-0039/portuguese.txt`](https://github.com/bitcoin/bips/blob/master/bip-0039/portuguese.txt) to the official [`bitcoin/bips`](https://github.com/bitcoin/bips) repository.
 
 The contribution also documented the selection criteria for the Portuguese list in [`bip-0039-wordlists.md`](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md), including constraints such as:
 
