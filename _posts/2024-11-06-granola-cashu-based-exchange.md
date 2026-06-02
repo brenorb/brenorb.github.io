@@ -4,7 +4,7 @@ title:  "Granola - Cashu-based exchange"
 date:   2024-11-06
 permalink: /granola/
 excerpt: "3rd place and Best Nostr at SatsHack 2024, a Cashu + Nostr exchange concept."
-description: "I built Granola with Luis Schwab for SatsHack 2024 as a Cashu- and Nostr-based exchange concept for privacy-preserving ecash swaps."
+description: "Granola is a Cashu- and Nostr-based exchange concept I built with Luis Schwab for SatsHack 2024 around privacy-preserving ecash swaps."
 content_type: project
 tag:
 - academia
@@ -20,7 +20,7 @@ feature: /assets/generated/granola.png
 
 **Granola** is a **Cashu-based exchange** concept that I built with **Luis Schwab** for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
 
-We built the project during the hackathon around a specific problem: how to coordinate privacy-preserving Bitcoin on- and off-ramps without falling back to a centralized exchange.
+The project was built during the hackathon around a specific problem: how to coordinate privacy-preserving Bitcoin on- and off-ramps without falling back to a centralized exchange.
 
 SatsHack pitch
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Lq_zZx2cBXk" title="Granola SatsHack pitch" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -53,7 +53,7 @@ In the thesis motivation section, Szerwinski says the work began from analyzing 
 
 ## What the project proposed
 
-Our starting point was privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
+The starting point was privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
 
 In practice, the idea was to treat different Cashu mints as currency-specific issuers and use the same hash/preimage across both sides of the trade. That turns the exchange into a peer-to-peer, privacy-first settlement flow rather than a custodial venue.
 
@@ -102,7 +102,7 @@ Carol->>Mint: Swaps HTLC_c token
 
 ## Status
 
-Granola is still an early design note rather than a production system. The part that still feels durable to me is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
+Granola is still an early design note rather than a production system. The durable part is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
 
 ## Links
 [Official SatsHack Submission](https://eventornado.com/submission/granola?s=1){: .btn .btn-info}

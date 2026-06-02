@@ -3,7 +3,7 @@ layout: post
 title: "BIP39 Portuguese Wordlist"
 date: 2020-09-28
 excerpt: "Co-creation of the official Portuguese BIP39 wordlist for wallet mnemonic backups."
-description: "I co-created the official Portuguese BIP39 wordlist added to bitcoin/bips for mnemonic wallet backups."
+description: "BIP39 Portuguese Wordlist is the official Portuguese mnemonic list added to bitcoin/bips for wallet backups."
 content_type: project
 tag:
 - bitcoin

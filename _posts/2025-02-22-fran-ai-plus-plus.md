@@ -4,7 +4,7 @@ title:  "Fran / AI++ - Voice-first Bitcoin AI assistant"
 date:   2025-02-22
 permalink: /projects/fran/
 excerpt: "A Bitcoin++ Floripa 2025 hackathon project focused on voice-first Bitcoin onboarding and assistance."
-description: "I built Fran / AI++ during Bitcoin++ Floripa 2025 as a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance."
+description: "Fran / AI++ was a Bitcoin++ Floripa 2025 hackathon project exploring a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance."
 content_type: project
 tag:
 - ai
@@ -14,13 +14,13 @@ comments: false
 feature: /assets/generated/fran-btcplusplus-2025.jpg
 ---
 
-**Fran / AI++** was a **Bitcoin++ Floripa 2025** hackathon project that I built around a simple idea: use a **voice-first AI assistant** to make Bitcoin software easier to understand and use.
+**Fran / AI++** was a **Bitcoin++ Floripa 2025** hackathon project built around a simple idea: use a **voice-first AI assistant** to make Bitcoin software easier to understand and use.
 
-I wanted an assistant that could sit next to the user, explain what was on screen, answer questions in natural language, and reduce the intimidation factor around Bitcoin and Lightning apps.
+The goal was an assistant that could sit next to the user, explain what was on screen, answer questions in natural language, and reduce the intimidation factor around Bitcoin and Lightning apps.
 
 ## Bitcoin++ Floripa 2025
 
-I built and presented Fran during Bitcoin++ Floripa's **hack+play edition**, which ran from **February 19 to 22, 2025**, with the hackathon itself starting on **February 20** and project presentations happening on **February 22**.
+Fran was built and presented during Bitcoin++ Floripa's **hack+play edition**, which ran from **February 19 to 22, 2025**, with the hackathon itself starting on **February 20** and project presentations happening on **February 22**.
 
 After the event, the project also appeared in a public roundup of notable hackathon projects under the name **"Fran by Goat++"**, with emphasis on merchant and user onboarding for Lightning.
 
@@ -37,9 +37,9 @@ One presentation slide summarizes the goal well: **Bitcoin is powerful. Fran mak
 
 ## Why it was interesting
 
-Most Bitcoin UX work improves individual apps. I wanted to explore a different layer: an assistant that could sit next to the user, explain interfaces, answer questions in natural language, and reduce the intimidation factor for first-time users and merchants.
+Most Bitcoin UX work improves individual apps. Fran pushed on a different layer: an assistant that could sit next to the user, explain interfaces, answer questions in natural language, and reduce the intimidation factor for first-time users and merchants.
 
-That made Fran interesting to me not just because it combined **AI** and **Bitcoin**, but because it treated usability and onboarding as the main product surface.
+That is what made the project interesting, not just that it combined **AI** and **Bitcoin**, but that it treated usability and onboarding as the main product surface.
 
 ## Artifacts
 
@@ -52,7 +52,7 @@ There is also a public slide deck from the event and a presentation screenshot p
 
 ## Status
 
-Fran stayed as a hackathon prototype rather than turning into an ongoing standalone product. What still feels valuable to me is the direction itself: accessible, voice-first Bitcoin education and app guidance.
+Fran stayed as a hackathon prototype rather than turning into an ongoing standalone product. What still feels valuable is the direction itself: accessible, voice-first Bitcoin education and app guidance.
 
 ## Links
 [Bitcoin++ Floripa 2025](https://btcplusplus.dev/conf/floripa){: .btn .btn-info}

@@ -67,15 +67,15 @@ Source: _posts/2026-05-12-freedom-skills.md
 Date: 2026-05-12
 Content type: project
 Tags: ai, bitcoin, nostr
-Summary: I started Freedom Skills as a repository of reusable AI agent skills for Bitcoin, Nostr, and related freedom technologies, with a focus on making those tools more legible, tested, and usable for autonomous systems.
+Summary: Freedom Skills is a repository of reusable AI agent skills for Bitcoin, Nostr, and related freedom technologies, focused on making those tools more legible, tested, and usable for autonomous systems.
 
-**Freedom Skills** is a repository of **AI agent skills for Bitcoin, Nostr, and other freedom technologies** that I started to make these tools more usable by autonomous systems.
+**Freedom Skills** is a repository of **AI agent skills for Bitcoin, Nostr, and other freedom technologies**.
 
-I care about a boring but important gap here: many of the tools that matter for **uncensorable payments** and **censorship-resistant communication** are powerful, but still awkward for agents to use reliably.
+The project focuses on tools for **uncensorable payments** and **censorship-resistant communication**, especially in contexts where depending on centralized services is a liability.
 
-I want the skills in this repo to be reusable, testable, benchmarkable, and shareable, so freedom tech becomes more legible and more practical for autonomous systems.
+The skills are built to be reusable, testable, benchmarked, and shareable, so freedom tech becomes more legible and more practical for autonomous systems.
 
-Longer term, I see Freedom Skills as a trusted layer for skill discovery, validation, and reuse in adversarial environments.
+The longer-term direction is a trusted layer for skill discovery, validation, and reuse in adversarial environments.
 
 ### Links
 [GitHub Repo](https://github.com/brenorb/freedom-skills)
@@ -181,11 +181,11 @@ Source: _posts/2026-04-08-stealth.md
 Date: 2026-04-08
 Content type: project
 Tags: bitcoin, privacy, hackathon
-Summary: I built Stealth as a Bitcoin wallet privacy auditing tool that analyzes public descriptors and on-chain behavior to surface concrete privacy risks and mitigation ideas.
+Summary: Stealth is a Bitcoin wallet privacy auditing tool that analyzes public descriptors and on-chain behavior to surface concrete privacy risks and mitigation ideas.
 
 **Stealth** is a Bitcoin wallet privacy auditing tool that I built for the **BTC++ 2026 hackathon**.
 
-I built it to give wallet users direct visibility into the same kind of heuristics that outside analysts use to detect address reuse, change patterns, clustering, and other privacy leaks.
+The goal is to give wallet users direct visibility into the same kind of heuristics that outside analysts use to detect address reuse, change patterns, clustering, and other privacy leaks.
 
 It started as a hackathon prototype and is evolving into a local-first Rust workspace for descriptor-driven wallet analysis.
 
@@ -250,11 +250,11 @@ Source: _posts/2026-03-03-btc-graph.md
 Date: 2026-03-03
 Content type: project
 Tags: bitcoin, education
-Summary: I built btc-graph as an interactive Bitcoin learning graph with curated concepts, prerequisites, and resources, published as a static site on GitHub Pages.
+Summary: btc-graph is an interactive Bitcoin learning graph with curated concepts, prerequisites, and resources, published as a static site on GitHub Pages.
 
 **btc-graph** is an **interactive Bitcoin learning graph** that I built as a **static site for GitHub Pages**.
 
-I wanted a way to organize Bitcoin concepts as a dependency graph, so readers could move from fundamentals to more advanced topics without losing context.
+It organizes Bitcoin concepts as a dependency graph so readers can move from fundamentals to more advanced topics without losing context.
 
 Each concept is modeled as a node with:
 
@@ -263,9 +263,9 @@ Each concept is modeled as a node with:
 - suggested prerequisites
 - 2 to 3 curated high-signal resources
 
-I also added a **search-friendly library view**, which makes it easier to browse topics outside the graph itself.
+The app also includes a **search-friendly library view**, which makes it easier to browse topics outside the graph itself.
 
-Under the hood, I keep the source of truth in `content/nodes/*.json`, which gets validated and compiled into a static graph dataset for the frontend.
+Under the hood, the source of truth lives in `content/nodes/*.json`, which gets validated and compiled into a static graph dataset for the frontend.
 
 ### Links
 [Live Site](https://brenorb.com/btc-graph/)
@@ -477,15 +477,15 @@ Source: _posts/2025-02-22-fran-ai-plus-plus.md
 Date: 2025-02-22
 Content type: project
 Tags: ai, bitcoin, hackathon
-Summary: I built Fran / AI++ during Bitcoin++ Floripa 2025 as a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance.
+Summary: Fran / AI++ was a Bitcoin++ Floripa 2025 hackathon project exploring a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance.
 
-**Fran / AI++** was a **Bitcoin++ Floripa 2025** hackathon project that I built around a simple idea: use a **voice-first AI assistant** to make Bitcoin software easier to understand and use.
+**Fran / AI++** was a **Bitcoin++ Floripa 2025** hackathon project built around a simple idea: use a **voice-first AI assistant** to make Bitcoin software easier to understand and use.
 
-I wanted an assistant that could sit next to the user, explain what was on screen, answer questions in natural language, and reduce the intimidation factor around Bitcoin and Lightning apps.
+The goal was an assistant that could sit next to the user, explain what was on screen, answer questions in natural language, and reduce the intimidation factor around Bitcoin and Lightning apps.
 
 ## Bitcoin++ Floripa 2025
 
-I built and presented Fran during Bitcoin++ Floripa's **hack+play edition**, which ran from **February 19 to 22, 2025**, with the hackathon itself starting on **February 20** and project presentations happening on **February 22**.
+Fran was built and presented during Bitcoin++ Floripa's **hack+play edition**, which ran from **February 19 to 22, 2025**, with the hackathon itself starting on **February 20** and project presentations happening on **February 22**.
 
 After the event, the project also appeared in a public roundup of notable hackathon projects under the name **"Fran by Goat++"**, with emphasis on merchant and user onboarding for Lightning.
 
@@ -502,9 +502,9 @@ One presentation slide summarizes the goal well: **Bitcoin is powerful. Fran mak
 
 ## Why it was interesting
 
-Most Bitcoin UX work improves individual apps. I wanted to explore a different layer: an assistant that could sit next to the user, explain interfaces, answer questions in natural language, and reduce the intimidation factor for first-time users and merchants.
+Most Bitcoin UX work improves individual apps. Fran pushed on a different layer: an assistant that could sit next to the user, explain interfaces, answer questions in natural language, and reduce the intimidation factor for first-time users and merchants.
 
-That made Fran interesting to me not just because it combined **AI** and **Bitcoin**, but because it treated usability and onboarding as the main product surface.
+That is what made the project interesting, not just that it combined **AI** and **Bitcoin**, but that it treated usability and onboarding as the main product surface.
 
 ## Artifacts
 
@@ -517,7 +517,7 @@ There is also a public slide deck from the event and a presentation screenshot p
 
 ## Status
 
-Fran stayed as a hackathon prototype rather than turning into an ongoing standalone product. What still feels valuable to me is the direction itself: accessible, voice-first Bitcoin education and app guidance.
+Fran stayed as a hackathon prototype rather than turning into an ongoing standalone product. What still feels valuable is the direction itself: accessible, voice-first Bitcoin education and app guidance.
 
 ## Links
 [Bitcoin++ Floripa 2025](https://btcplusplus.dev/conf/floripa)
@@ -618,11 +618,11 @@ Source: _posts/2024-11-06-granola-cashu-based-exchange.md
 Date: 2024-11-06
 Content type: project
 Tags: academia, bitcoin, cashu, hackathon, nostr, ecash
-Summary: I built Granola with Luis Schwab for SatsHack 2024 as a Cashu- and Nostr-based exchange concept for privacy-preserving ecash swaps.
+Summary: Granola is a Cashu- and Nostr-based exchange concept I built with Luis Schwab for SatsHack 2024 around privacy-preserving ecash swaps.
 
 **Granola** is a **Cashu-based exchange** concept that I built with **Luis Schwab** for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
 
-We built the project during the hackathon around a specific problem: how to coordinate privacy-preserving Bitcoin on- and off-ramps without falling back to a centralized exchange.
+The project was built during the hackathon around a specific problem: how to coordinate privacy-preserving Bitcoin on- and off-ramps without falling back to a centralized exchange.
 
 SatsHack pitch
 
@@ -656,7 +656,7 @@ In the thesis motivation section, Szerwinski says the work began from analyzing 
 
 ## What the project proposed
 
-Our starting point was privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
+The starting point was privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
 
 In practice, the idea was to treat different Cashu mints as currency-specific issuers and use the same hash/preimage across both sides of the trade. That turns the exchange into a peer-to-peer, privacy-first settlement flow rather than a custodial venue.
 
@@ -705,7 +705,7 @@ Carol->>Mint: Swaps HTLC_c token
 
 ## Status
 
-Granola is still an early design note rather than a production system. The part that still feels durable to me is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
+Granola is still an early design note rather than a production system. The durable part is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
 
 ## Links
 [Official SatsHack Submission](https://eventornado.com/submission/granola?s=1)
@@ -2624,7 +2624,7 @@ Source: _posts/2020-09-28-bip39-portuguese-wordlist.md
 Date: 2020-09-28
 Content type: project
 Tags: bitcoin, open-source, standards
-Summary: I co-created the official Portuguese BIP39 wordlist added to bitcoin/bips for mnemonic wallet backups.
+Summary: BIP39 Portuguese Wordlist is the official Portuguese mnemonic list added to bitcoin/bips for wallet backups.
 
 **BIP39 Portuguese Wordlist** is the official list of Portuguese words added to the BIP39 repository for mnemonic wallet backups.
 
