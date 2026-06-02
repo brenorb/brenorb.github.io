@@ -33,7 +33,7 @@ A grande maioria das blockchains são completamente públicas para todos e para 
 
 
 ## 6 – Bitcoin foi feito para ser usado por criminosos pela sua privacidade.
-Até agora, todas as pesquisas feitas indicam que grande maioria das pessoas usando criptomoedas não estão envolvidas com crime. O moeda de troca preferida por criminosos continua sendo o dólar, por sua baixíssima rastreabilidade, diferentemente do Bitcoin, que é facilmente rastreável.
+Até agora, todas as pesquisas feitas indicam que grande maioria das pessoas usando criptomoedas não estão envolvidas com crime. A moeda de troca preferida por criminosos continua sendo o dólar, por sua baixíssima rastreabilidade, diferentemente do Bitcoin, que é facilmente rastreável.
 
 ## 7 – Bitcoin vai ficar para trás por estar ultrapassado enquanto várias altcoins desenvolveram features mais avançadas impensáveis pelos pioneiros da tecnologia.
 Bitcoin é hoje um dos maiores projetos de tecnologia do mundo e tem a tecnologia mais inovadora e avançada das criptomoedas. Grande parte das features das altcoins foram pensadas e desconsideradas pelos desenvolvedores pioneiros do Bitcoin, ou até antes do Bitcoin.
@@ -47,9 +47,8 @@ Nas palavras de Nick Szabo, smart contract nada mais é do que um conjunto de pr
 
 
 ## 10 – Bitcoin foi a primeira criptomoeda.
-Mais ou menos. Bitcoin foi a primeira critpomoeda bem sucedida, mas antes houve várias tentativas de criar dinheiro digital que remontam até a década de 80.
+Mais ou menos. Bitcoin foi a primeira criptomoeda bem sucedida, mas antes houve várias tentativas de criar dinheiro digital que remontam até a década de 80.
 
 ---
 
 Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas/) em 19 de julho 2018.
-

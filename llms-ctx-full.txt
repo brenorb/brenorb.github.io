@@ -276,6 +276,30 @@ Under the hood, the content source of truth lives in `content/nodes/*.json`, whi
 [Library](https://brenorb.com/btc-graph/library/)
 [GitHub Repo](https://github.com/brenorb/btc-graph)
 
+### Palestra - bitcoin++ Floripa 2026 - From Vibe Coding to Agentic Engineering
+
+URL: https://brenorb.com/palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering/
+Source: _posts/2026-02-26-palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering.md
+Date: 2026-02-26T11:15:00-03:00
+Content type: media
+Tags: ai, bitcoin, presentation
+Summary: Apresentacao na bitcoin++ Floripa 2026 sobre a passagem de vibe coding para agentic engineering, com foco em contexto, workflows, melhores praticas emergentes e como usar IA para escrever codigo sem abandonar criterio tecnico.
+
+Embedded media: https://www.youtube.com/embed/90yNM5Pt8Nw
+
+Esta talk foi apresentada na `bitcoin++ Floripa 2026`, edicao `exploits`, em `2026-02-26`. O ponto de partida e uma mudanca de postura: em vez de tratar IA como atalho para gerar codigo no improviso, a proposta e tratar agentes como parte de um processo de engenharia com contexto explicito, criterios de qualidade, testes, evals e workflows mais disciplinados.
+
+O arco da apresentacao liga referencias classicas de engenharia de software e open source a praticas mais recentes de programacao com LLMs. A talk passa por `vibe coding`, `agentic engineering`, contexto, harnesses, skills, comandos e a importancia de transformar conhecimento tacito em artefatos legiveis pelo humano e pelo agente.
+
+Parte do valor da palestra esta em enquadrar o uso de IA como um problema de sistema e nao so de prompt. A pergunta deixa de ser "qual prompt magico gera o codigo certo?" e passa a ser "como montar um ambiente em que o agente tenha contexto suficiente, feedback suficiente e restricoes suficientes para produzir algo que sobreviva ao uso real?".
+
+ 
+
+Links relacionados:
+
+- Pagina oficial da talk: [bitcoin++ Floripa 2026 talks](https://btcplusplus.dev/floripa26/talks)
+- Entrada de trabalho da palestra: [Palestra - BTC++ - From Vibe Coding to Agentic Engineering](https://docs.google.com/presentation/d/1iWoxDCzXew7-Ch55iqtRQ0NegESE9xvOU_bJ1yWf_14/edit?slide=id.g3c94ea5dfc2_0_141#slide=id.g3c94ea5dfc2_0_141)
+
 ### Stringer Safety - Keep journalists alive when seconds matter
 
 URL: https://brenorb.com/stringer-safety/
@@ -2706,7 +2730,7 @@ Blockchains, em geral, são mais lentas, ineficientes e caras que tecnologias ce
 A grande maioria das blockchains são completamente públicas para todos e para sempre. O que confunde é a pseudo-privacidade, que é a mera facilidade de criar novos endereços e dificuldade para se descobrir quem possui o que. Entretanto, existem algumas técnicas e algumas poucas blockchains que criam algum nível adicional de privacidade como CoinJoin, Monero e Zcash.
 
 ## 6 – Bitcoin foi feito para ser usado por criminosos pela sua privacidade.
-Até agora, todas as pesquisas feitas indicam que grande maioria das pessoas usando criptomoedas não estão envolvidas com crime. O moeda de troca preferida por criminosos continua sendo o dólar, por sua baixíssima rastreabilidade, diferentemente do Bitcoin, que é facilmente rastreável.
+Até agora, todas as pesquisas feitas indicam que grande maioria das pessoas usando criptomoedas não estão envolvidas com crime. A moeda de troca preferida por criminosos continua sendo o dólar, por sua baixíssima rastreabilidade, diferentemente do Bitcoin, que é facilmente rastreável.
 
 ## 7 – Bitcoin vai ficar para trás por estar ultrapassado enquanto várias altcoins desenvolveram features mais avançadas impensáveis pelos pioneiros da tecnologia.
 Bitcoin é hoje um dos maiores projetos de tecnologia do mundo e tem a tecnologia mais inovadora e avançada das criptomoedas. Grande parte das features das altcoins foram pensadas e desconsideradas pelos desenvolvedores pioneiros do Bitcoin, ou até antes do Bitcoin.
@@ -2718,7 +2742,7 @@ Na verdade, o cypherpunk Nick Szabo tem o termo descrito em seu glossário de 19
 Nas palavras de Nick Szabo, smart contract nada mais é do que um conjunto de promessas, incluindo protocolos através dos quais as partes cumprem as outras promessas. Ele funciona muito bem para ativos digitais, mas é limitado pelo mundo digital. Assim como um e-mail não acabou com entregas de produtos pelos correios, smart contracts não acabarão com certas disputas, especialmente as que não envolvem ativos digitais.
 
 ## 10 – Bitcoin foi a primeira criptomoeda.
-Mais ou menos. Bitcoin foi a primeira critpomoeda bem sucedida, mas antes houve várias tentativas de criar dinheiro digital que remontam até a década de 80.
+Mais ou menos. Bitcoin foi a primeira criptomoeda bem sucedida, mas antes houve várias tentativas de criar dinheiro digital que remontam até a década de 80.
 
 ---
 
