@@ -60,6 +60,71 @@ Summary: A list of projects
 
 ## Posts, projects, talks, and media
 
+### Satoshi 7B - Bitcoin-biased open source LLM
+
+URL: https://brenorb.com/projects/satoshi-7b/
+Source: _posts/2026-06-09-satoshi-7b.md
+Date: 2026-06-09
+Content type: project
+Tags: ai, bitcoin, llm, spirit of satoshi, open source
+Summary: Satoshi 7B is a Bitcoin-biased general knowledge LLM from Spirit of Satoshi, built on top of Mistral 7B Instruct and released open source on Hugging Face.
+
+**Satoshi 7B** is a **Bitcoin-biased general knowledge LLM** that I helped build at **Spirit of Satoshi** and later published open source on **Hugging Face**.
+
+The point was not to make yet another generic chatbot with a Bitcoin skin on top. The point was to train a model that actually knew Bitcoin better, answered from a clearly pro-Bitcoin frame, and stopped drifting back to the usual fiat-default internet sludge every time the conversation got technical or ideological.
+
+The model was built on top of **Mistral 7B Instruct** and released publicly as **Satoshi 7B**.
+
+## What I worked on
+
+My work on the project included:
+
+- curation and cleaning of training data
+- evaluation
+- continued pre-training
+- fine-tuning
+- data augmentation
+
+This matters because models usually fail long before the demo fails. They fail in data selection, in evals, in what incentives the training process is optimizing for, and in whether the team is willing to admit the model has a worldview instead of pretending it is neutral. `Satoshi 7B` was useful precisely because it did not play that game.
+
+## What the model was for
+
+The model was designed as a **Bitcoin education, culture, and economics assistant**.
+
+In practice, that meant trying to answer Bitcoin questions with stronger priors, better domain recall, and less of the weird frame drift that generic models had at the time. Back then this was a real problem. You could ask a model good questions about inflation, self-custody, privacy, or adjacent protocols and still get a long answer that sounded polished while quietly smuggling in bad assumptions.
+
+So the job was not just "make it talk about Bitcoin." The job was to reduce that failure mode.
+
+## Why it was interesting
+
+There are at least 3 layers here:
+
+1. `Domain knowledge`: Bitcoin is already hard enough without a model hallucinating around consensus, custody, or Lightning.
+2. `Epistemic frame`: a model trained on the whole internet tends to inherit the whole internet's confusion.
+3. `Open source availability`: publishing the model meant people could inspect it, run it themselves, and build on top of it instead of just trusting a hosted black box.
+
+That combination was the interesting part.
+
+## Relationship to the later technical assistants
+
+`Satoshi 7B` was the broader knowledge model.
+
+Later, a more technical direction inside `Spirit of Satoshi` became increasingly important: assistants for Bitcoin development, documentation, and smart contract workflows. That path connects directly to my later work on `MINIMAXIS` / `Code Satoshi`, which focused on writing, explaining, and correcting `Miniscript`.
+
+So if you want the short version, `Satoshi 7B` was the generalist layer. `Code Satoshi` was the specialized tool layer.
+
+## Status
+
+The hosted version was later sunset, which is normal in this space. The model itself is still publicly documented on Hugging Face and remains a useful artifact from an earlier phase of Bitcoin-native LLM work.
+
+It is also a good reminder of something simple: if you want a model to stop defaulting to bad assumptions, you usually do not fix that with one clever prompt. You fix it in data, training, evals, and product direction.
+
+## Links
+[Hugging Face Model](https://huggingface.co/contrapliant/Satoshi-7B)
+[Spirit of Satoshi](https://spiritofsatoshi.ai)
+[Nakamoto Repository](https://repository.spiritofsatoshi.ai/)
+[Liquid Network Talk on LLMs for Bitcoin Development](/podcast-liquid-network-code-satoshi/)
+
 ### Freedom Skills
 
 URL: https://brenorb.com/projects/freedom-skills/
