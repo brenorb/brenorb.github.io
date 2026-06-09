@@ -3,8 +3,8 @@ layout: post
 title:  "Fran / AI++ - Voice-first Bitcoin AI assistant"
 date:   2025-02-22
 permalink: /projects/fran/
-excerpt: "A Bitcoin++ Floripa 2025 hackathon project focused on voice-first Bitcoin onboarding and assistance."
-description: "Fran / AI++ was a Bitcoin++ Floripa 2025 hackathon project exploring a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance."
+excerpt: "A Bitcoin++ Floripa 2025 hackathon honorable mention focused on voice-first Bitcoin onboarding and assistance."
+description: "Fran / AI++ was a Bitcoin++ Floripa 2025 hackathon honorable mention exploring a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance."
 content_type: project
 tag:
 - ai
@@ -21,6 +21,8 @@ The goal was an assistant that could sit next to the user, explain what was on s
 ## Bitcoin++ Floripa 2025
 
 Fran was built and presented during Bitcoin++ Floripa's **hack+play edition**, which ran from **February 19 to 22, 2025**, with the hackathon itself starting on **February 20** and project presentations happening on **February 22**.
+
+The project received an **honorable mention** at the event.
 
 After the event, the project also appeared in a public roundup of notable hackathon projects under the name **"Fran by Goat++"**, with emphasis on merchant and user onboarding for Lightning.
 
