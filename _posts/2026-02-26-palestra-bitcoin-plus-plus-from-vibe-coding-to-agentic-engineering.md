@@ -5,7 +5,7 @@ date: 2026-02-26 11:15:00 -0300
 description: "Apresentacao na bitcoin++ Floripa 2026 sobre a passagem de vibe coding para agentic engineering, com foco em contexto, workflows, melhores praticas emergentes e como usar IA para escrever codigo sem abandonar criterio tecnico."
 excerpt: "Talk na bitcoin++ Floripa 2026 sobre IA para programacao, contexto, workflows e a diferenca entre improviso e agentic engineering."
 content_type: media
-tag:
+tags:
 - ai
 - bitcoin
 - presentation

@@ -5,7 +5,7 @@ date:   2020-10-16
 excerpt: "Tradução para o português da edição brasileira do clássico de Saifedean Ammous."
 description: "Trabalhei como tradutor, ao lado de Guilherme Bandeira, na edição brasileira de O Padrão Bitcoin, clássico de Saifedean Ammous sobre a história do dinheiro e o papel do Bitcoin."
 content_type: project
-tag:
+tags:
 - book
 - bitcoin
 - translation

@@ -5,7 +5,7 @@ date:   2023-11-28
 excerpt: 'Neste episódio, conversei com o Breno Brito (@brenorb) sobre a Inteligência Artificial "Spirit of Satoshi" e sobre o projeto vencedor do Hackathon da SatsConf.'
 description: "Conversa no Explica Bitcoin sobre o Spirit of Satoshi, alinhamento de modelos especializados em Bitcoin e o projeto de Miniscript que venceu o hackathon da SatsConf."
 content_type: media
-tag:
+tags:
 - bitcoin
 - ai
 - hackathon

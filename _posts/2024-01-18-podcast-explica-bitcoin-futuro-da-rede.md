@@ -5,7 +5,7 @@ date:   2024-01-18
 description: "Conversa no Explica Bitcoin sobre por que a camada base do Bitcoin não escala sozinha e quais tecnologias podem ampliar a rede, de Lightning e channel factories a Fedimint, ARC, BitVM, Nostr e Holepunch."
 excerpt: "Conversa sobre um artigo, baseado em um capítulo do seu novo livro, que explica quais são as novidades tecnológicas que vem sendo desenvolvidas para o bitcoin."
 content_type: media
-tag:
+tags:
 - bitcoin
 - ark
 - lightning network

@@ -3,7 +3,7 @@ layout: post
 title:  "Os 7 fundamentos do maximalismo do bitcoin"
 date:   2023-05-26
 excerpt: 'Entendendo o que diferencia um "maximalista" de outras pessoas no mundo cripto.'
-tag:
+tags:
 - bitcoin
 - philosophy
 - ethics

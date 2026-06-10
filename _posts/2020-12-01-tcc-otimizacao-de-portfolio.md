@@ -6,7 +6,7 @@ permalink: /projects/portfolio-optimization-thesis/
 excerpt: "Co-advised undergraduate thesis at UnB on portfolio optimization, variance adjustment, and predictive structures."
 description: "Undergraduate thesis at the University of Brasilia co-advised by Breno Brito on portfolio optimization, correcting the Markowitz model by variance, and using predictive structures."
 content_type: project
-tag:
+tags:
 - academia
 - finance
 - research

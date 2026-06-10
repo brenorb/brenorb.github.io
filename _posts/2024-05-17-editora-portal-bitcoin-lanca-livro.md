@@ -4,7 +4,7 @@ title:  "‘101 Perguntas sobre Bitcoin’: Editora Portal do Bitcoin lança liv
 date:   2024-05-17
 excerpt: "A obra discorre os princípios técnicos da moeda até suas implicações socioeconômicas no contexto atual, de modo a proporcionar um entendimento profundo ao público geral."
 content_type: media
-tag:
+tags:
 - book 
 - bitcoin
 - press

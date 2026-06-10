@@ -5,7 +5,7 @@ date:   2022-09-21
 excerpt: "Participação no Sessão de Hopium Ep. 20 com Breno Brito, Koda e Lawrence para discutir Bitcoin."
 description: "Participação de Breno Brito no Sessão de Hopium para discutir Bitcoin, transição para o ecossistema, Taproot, Lightning, vigilância financeira e a camada cypherpunk do protocolo."
 content_type: media
-tag:
+tags:
 - bitcoin
 - podcast
 comments: false

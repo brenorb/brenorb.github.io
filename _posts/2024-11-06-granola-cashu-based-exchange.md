@@ -6,7 +6,7 @@ permalink: /granola/
 excerpt: "3rd place and Best Nostr at SatsHack 2024, a Cashu + Nostr exchange concept."
 description: "Granola is a Cashu- and Nostr-based exchange concept I built with Luis Schwab for SatsHack 2024 around privacy-preserving ecash swaps."
 content_type: project
-tag:
+tags:
 - academia
 - bitcoin
 - cashu

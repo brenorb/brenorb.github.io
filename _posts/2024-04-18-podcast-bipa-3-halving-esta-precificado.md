@@ -5,7 +5,7 @@ date:   2024-04-18
 description: "Conversa no Bipa Cast sobre o que significa dizer que o halving está ou não precificado, por que isso remete à hipótese de mercado eficiente e como ETF, oferta e reflexividade bagunçam respostas fáceis."
 excerpt: "Afinal, o Halving está precificado?"
 content_type: media
-tag:
+tags:
 - bitcoin
 - layer 2
 - book

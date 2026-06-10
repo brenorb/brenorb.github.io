@@ -4,7 +4,7 @@ title:  "Evento no Discord vai debater qual é a melhor criptomoeda: Bitcoin ou 
 date:   2023-05-30
 excerpt: "Especialistas vão conversar sobre as características de cada protocolo"
 content_type: media
-tag:
+tags:
 - bitcoin 
 - ethereum
 - debate

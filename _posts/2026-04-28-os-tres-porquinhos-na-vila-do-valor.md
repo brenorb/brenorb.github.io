@@ -5,7 +5,7 @@ date:   2026-04-28
 excerpt: "Revisão do livro infantil de Caroline Galgowski sobre educação financeira para crianças."
 description: "Os Três Porquinhos na Vila do Valor é um livro infantil de educação financeira de Caroline Galgowski no qual atuei como revisor."
 content_type: project
-tag:
+tags:
 - book
 - review
 - education

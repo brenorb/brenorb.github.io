@@ -5,7 +5,7 @@ date:   2021-11-18
 excerpt: "Primeiros contatos com o Bitcoin, o caminho até o maximalismo, r/wallstreetbets, economia não ergódica."
 description: "Conversa no 21 Milhões sobre a trajetória de Breno Brito no Bitcoin, a natureza do dinheiro, os limites do fiat e por que o Bitcoin importa além da tese puramente financeira."
 content_type: media
-tag:
+tags:
 - bitcoin
 - ergodicity
 - quantitative finance

@@ -6,11 +6,11 @@ permalink: /projects/reinforcement-learning-financial-markets-thesis/
 excerpt: "Undergraduate thesis at UnB applying SARSA reinforcement learning to stock market trading."
 description: "Electrical engineering undergraduate thesis at the University of Brasilia by Breno Brito and Dyego Soares de Araujo on applying SARSA reinforcement learning to financial markets."
 content_type: project
-tag:
+tags:
 - academia
 - ai
 - finance
-- machine-learning
+- machine learning
 comments: false
 feature: /assets/generated/reinforcement-learning-financial-markets-thesis-2013.png
 ---

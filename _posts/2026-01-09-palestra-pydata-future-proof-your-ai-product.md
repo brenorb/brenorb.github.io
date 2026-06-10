@@ -5,7 +5,7 @@ date: 2026-01-09 12:00:00 -0300
 description: "Talk no canal PyData sobre como reduzir fragilidade em produtos de IA usando DSPy, com foco em assinaturas tipadas, módulos, adapters, avaliação e otimização de programas em vez de walls of prompt text."
 excerpt: "Apresentação no canal PyData sobre como construir produtos de IA mais robustos e preparados para mudanças rápidas no ecossistema."
 content_type: media
-tag:
+tags:
 - ai
 - dspy
 - presentation

@@ -4,7 +4,7 @@ title:  "Satsconf reÃºne cerca de 700 entusiastas de Bitcoin em SP e confirma 3Â
 date:   2023-11-08
 excerpt: "O maior evento 100% Bitcoin do Brasil ocorreu ao longo do feriado; mais de 1,8 mil pagamentos em BTC foram feitos no encontro"
 content_type: media
-tag:
+tags:
 - bitcoin
 - hackathon
 - satsconf

@@ -3,7 +3,7 @@ layout: post
 title:  'Por que a Visão de Warren Buffett é Incompatível com o Bitcoin'
 date:   2018-05-30
 excerpt: "Entendendo a filosofia do Warren Buffett"
-tag:
+tags:
 - bitcoin
 - warren buffett
 - investment

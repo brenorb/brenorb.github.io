@@ -3,7 +3,7 @@ layout: post
 title:  "Elon Musk está errado e eu posso provar"
 date:   2021-05-23
 excerpt: "Empresário é terrivelmente desinformado sobre questões técnicas das criptomoedas"
-tag:
+tags:
 - elon musk
 - technology
 - bitcoin

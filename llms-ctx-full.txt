@@ -2002,7 +2002,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/bitcoin-stam
 URL: https://brenorb.com/ftx-guilt-fear/
 Source: _posts/2023-03-25-o-reflexo-do-mundo-tomado-pela-dor-pelo-medo-e-pela-culpa.md
 Date: 2023-03-25T16:31:00-03:00
-Tags: philosophy, ayn-rand, atlas-shrugged, literature
+Tags: philosophy, ayn rand, literature
 Summary: Ensaio escrito para o concurso do Ayn Rand Center Latin America sobre A Revolta de Atlas.
 
 Ensaio escrito para o concurso de ensaios do `Ayn Rand Center Latin America` sobre `A Revolta de Atlas`, enviado em `25 de março de 2023`.
@@ -2653,7 +2653,7 @@ URL: https://brenorb.com/bip39-portuguese-wordlist/
 Source: _posts/2020-09-28-bip39-portuguese-wordlist.md
 Date: 2020-09-28
 Content type: project
-Tags: bitcoin, open-source, standards
+Tags: bitcoin, open source, standards
 Summary: BIP39 Portuguese Wordlist is the official Portuguese mnemonic list added to bitcoin/bips for wallet backups.
 
 **BIP39 Portuguese Wordlist** is the official list of Portuguese words added to the BIP39 repository for mnemonic wallet backups.
@@ -2735,7 +2735,7 @@ Observação: as explicações desenhadas no quadro não foram filmadas no víde
 URL: https://brenorb.com/10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas/
 Source: _posts/2018-07-19-10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas.md
 Date: 2018-07-19
-Tags: bitcoin, article, myths
+Tags: bitcoin, myths
 Summary: Corrigindo mitos
 
 Depois de algum tempo estudando sobre bitcoin e criptomoedas, fico surpreso com o tanto de “especialistas” surgindo e propagando fatos completamente errados sobre criptomoedas. Coletando alguns da rede, fiz uma lista dos mais clássicos:
@@ -3074,7 +3074,7 @@ URL: https://brenorb.com/projects/reinforcement-learning-financial-markets-thesi
 Source: _posts/2013-12-23-reinforcement-learning-financial-markets-thesis.md
 Date: 2013-12-23
 Content type: project
-Tags: academia, ai, finance, machine-learning
+Tags: academia, ai, finance, machine learning
 Summary: Electrical engineering undergraduate thesis at the University of Brasilia by Breno Brito and Dyego Soares de Araujo on applying SARSA reinforcement learning to financial markets.
 
 This project is my undergraduate thesis, written with **Dyego Soares de Araujo** at the **University of Brasilia** in electrical engineering under the original Portuguese title **"Aprendizado por Reforço Aplicado ao Mercado Financeiro"**.

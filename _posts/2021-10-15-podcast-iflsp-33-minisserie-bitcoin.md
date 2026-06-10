@@ -5,7 +5,7 @@ date:   2021-10-15
 description: "Episódio da minissérie Bitcoin do IFLSP com Solange Gueiros e Breno Brito, focado no ‘presente’ da rede e nas novidades tecnológicas que vinham sendo desenvolvidas para o Bitcoin."
 excerpt: "Conversa sobre um artigo, baseado em um capítulo do seu novo livro, que explica quais são as novidades tecnológicas que vem sendo desenvolvidas para o bitcoin."
 content_type: media
-tag:
+tags:
 - bitcoin
 - myths
 - mining

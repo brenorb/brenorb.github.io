@@ -3,7 +3,7 @@ layout: post
 title:  "A Revolução Taro"
 date:   2023-03-21
 excerpt: "A transformação do Bitcoin na exchange suprema."
-tag:
+tags:
 - taproot assets
 - lightning network
 - bifi

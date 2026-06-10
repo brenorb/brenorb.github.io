@@ -5,7 +5,7 @@ date: 2018-01-17 12:00:00 -0300
 excerpt: "Matéria do Pulso / La Tercera sobre a inflação na América Latina em 2017, com comentário de Breno Brito sobre a queda da inflação no Brasil."
 description: "Registro de participação em matéria do Pulso / La Tercera sobre a inflação na América Latina em 2017, com comentário de Breno Brito sobre a desaceleração da inflação no Brasil."
 content_type: media
-tag:
+tags:
 - macroeconomics
 - inflation
 - brazil

@@ -5,7 +5,7 @@ date:   2023-08-31
 excerpt: "Edição brasileira do livro de Saifedean Ammous sobre o sistema fiduciário, dívida e distorções monetárias."
 description: "Trabalhei na edição brasileira de O Padrão Fiduciário, livro de Saifedean Ammous sobre dívida, moeda fiduciária e as distorções do sistema monetário moderno."
 content_type: project
-tag:
+tags:
 - book
 - bitcoin
 - translation

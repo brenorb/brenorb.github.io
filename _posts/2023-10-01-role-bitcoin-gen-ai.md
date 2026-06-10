@@ -3,7 +3,7 @@ layout: post
 title:  "The Role of Bitcoin in the Era of Generative AI"
 date:   2023-10-01
 excerpt: "The history of life is a story of scarcity, but the history of humanity is a story of triumph over scarcity."
-tag:
+tags:
 - bitcoin
 - technology 
 - ai

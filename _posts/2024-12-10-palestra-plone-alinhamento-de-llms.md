@@ -5,7 +5,7 @@ date: 2024-12-10 12:00:00 -0300
 description: "Apresentação no Plone sobre o que significa alinhar LLMs, os principais riscos de segurança e viés e as técnicas mais usadas hoje, de prompt engineering e fine-tuning a RLHF, guardrails e sparse autoencoders."
 excerpt: "Apresentação no canal Plone sobre alinhamento de LLMs, técnicas principais e riscos no comportamento dos modelos."
 content_type: media
-tag:
+tags:
 - ai
 - alignment
 - presentation

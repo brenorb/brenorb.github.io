@@ -4,7 +4,7 @@ title:  "Bitcoin atinge marco de 19 milhões de BTCs minerados; restam 2 milhõe
 date:   2022-04-01
 excerpt: "Mais de 90% de todo o fornecimento do bitcoin já foi lançado ao mercado"
 content_type: media
-tag:
+tags:
 - bitcoin
 - halving
 - commentary

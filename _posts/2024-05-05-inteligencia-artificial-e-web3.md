@@ -4,7 +4,7 @@ title:  "Inteligência artificial e Web 3.0: entenda a relação"
 date:   2024-05-05
 excerpt: "A inteligência artificial está transformando a Web 3.0 com seu poder de aprendizado e decisão autônoma."
 content_type: media
-tag:
+tags:
 - technology 
 - ai
 - web3

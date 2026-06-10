@@ -3,7 +3,7 @@ layout: post
 title:  "17 fatos que todo iniciante no Bitcoin precisa aprender"
 date:   2021-05-16
 excerpt: "Jornada de aprendizado de uma criptomoeda"
-tag:
+tags:
 - bitcoin
 - lightning network
 - tokenization

@@ -3,9 +3,8 @@ layout: post
 title:  '10 Coisas que Alguns ”Especialistas” e Jornalistas Erram sobre Bitcoin e Criptomoedas'
 date:   2018-07-19
 excerpt: "Corrigindo mitos"
-tag:
+tags:
 - bitcoin
-- article
 - myths
 comments: false
 feature: /assets/criptos.png

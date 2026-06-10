@@ -5,7 +5,7 @@ date:   2025-02-25
 excerpt: "Editoração da edição brasileira do livro de Aleks Svetski sobre esperança, responsabilidade e liberdade."
 description: "Fiz a editoração da edição brasileira de O Manifesto Descomunista, livro de Aleks Svetski sobre esperança, responsabilidade individual e liberdade."
 content_type: project
-tag:
+tags:
 - book
 - bitcoin
 - editing

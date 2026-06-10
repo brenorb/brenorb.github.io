@@ -4,7 +4,7 @@ title:  "Podcast - Papo Aberto 10 - Análise de Dados pode facilitar seu investi
 date:   2024-03-28
 excerpt: "Nesse papo, Breno e Victor Cabral falaram um pouco de tudo isso e desmistificaram  (através de exemplos) a aplicabilidade da análise quantitativa nos dias atuais."
 content_type: media
-tag:
+tags:
 - bitcoin
 - machine learning
 - data science
