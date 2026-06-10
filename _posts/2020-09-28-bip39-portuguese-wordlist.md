@@ -8,7 +8,6 @@ content_type: project
 tags:
 - bitcoin
 - open source
-- standards
 comments: false
 feature: /assets/generated/bip39-portuguese-wordlist.jpg
 ---

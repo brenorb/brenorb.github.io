@@ -754,7 +754,7 @@ URL: https://brenorb.com/breno-brito-full-english/
 Source: _posts/2024-09-10-breno-brito-full-english.md
 Date: 2024-09-10T12:00:00-03:00
 Content type: media
-Tags: english, interview, youtube
+Tags: english, interview
 Summary: Conversa em inglês no canal Católico Poliglota, com foco em prática de idioma e apresentação pessoal.
 
 Embedded media: https://www.youtube.com/embed/DEjEP3U2dLM
@@ -2653,7 +2653,7 @@ URL: https://brenorb.com/bip39-portuguese-wordlist/
 Source: _posts/2020-09-28-bip39-portuguese-wordlist.md
 Date: 2020-09-28
 Content type: project
-Tags: bitcoin, open source, standards
+Tags: bitcoin, open source
 Summary: BIP39 Portuguese Wordlist is the official Portuguese mnemonic list added to bitcoin/bips for wallet backups.
 
 **BIP39 Portuguese Wordlist** is the official list of Portuguese words added to the BIP39 repository for mnemonic wallet backups.
