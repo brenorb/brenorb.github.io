@@ -1221,7 +1221,7 @@ Summary: Conversa no Bipa Cast sobre o que significa dizer que o halving está o
 
 Embedded media: https://www.youtube.com/embed/ekQtXuTDOIs
 
-Links: [YouTube](https://www.youtube.com/watch?v=ekQtXuTDOIs) | [Spotify](https://open.spotify.com/episode/1YdoJqdVhAarE8wE2cGlxM)
+Links: [YouTube](https://www.youtube.com/watch?v=ekQtXuTDOIs) | [Spotify](https://open.spotify.com/episode/1YdoJqdVhAarE8wE2cGlxM) | [Apple Podcasts](https://podcasts.apple.com/br/podcast/o-halving-est%C3%A1-precificado-breno-brito-bipa-cast-003/id1793614311?i=1000687231840)
 
 Esta conversa começa com uma pergunta de mercado, mas rapidamente vira uma aula sobre como pensar preço, oferta, assimetria de informação e reflexividade. Em vez de responder "sim" ou "não" de forma telegráfica, eu tento desmontar a própria pergunta: para discutir se o halving está precificado, primeiro é preciso definir o que é o halving, o que é uma precificação e o que as pessoas querem dizer quando falam que o mercado já "absorveu" um evento.
 
@@ -1386,6 +1386,8 @@ Tags: bitcoin, ark, lightning network, layer 2, book, podcast
 Summary: Conversa no Explica Bitcoin sobre por que a camada base do Bitcoin não escala sozinha e quais tecnologias podem ampliar a rede, de Lightning e channel factories a Fedimint, ARC, BitVM, Nostr e Holepunch.
 
 Embedded media: https://www.youtube.com/embed/rSJvdmHwyHg
+
+Links: [YouTube](https://www.youtube.com/watch?v=rSJvdmHwyHg) | [Apple Podcasts](https://podcasts.apple.com/br/podcast/o-futuro-da-rede-bitcoin-sess%C3%A3o-tem%C3%A1tica-40/id1602010418?i=1000642317751) | [Spotify](https://open.spotify.com/episode/6j7396djMoj4VnrBxvZ1fM)
 
 Esta conversa parte do texto [Quais as novas tecnologias que devem surgir nos próximos anos no Bitcoin]( ), que adaptei de um capítulo do livro que eu estava preparando na época. A ideia aqui não é vender uma tecnologia específica como "a" solução final, mas mostrar por que o Bitcoin resolve o problema do dinheiro na internet justamente ao aceitar limites na camada base e deslocar escala, programabilidade e conveniência para camadas superiores.
 
@@ -1556,6 +1558,12 @@ Summary: Minimaxis is a hackathon-winning AI assistant for Bitcoin Miniscript th
 satshack presentation
 
 Embedded media: https://www.youtube.com/embed/huvBFj1M4Fo?si=faEpxwplzKF6ymID
+
+### Links
+
+- [SatsHack winner project MINIMAXIS](https://www.youtube.com/watch?v=huvBFj1M4Fo)
+- [Meet the Makers of MINIMAXIS!](https://www.youtube.com/watch?v=DCkZKxebNTk)
+- [LegendsOfLightning Closing Ceremony](https://www.youtube.com/watch?v=NR1-HOS4xDA)
 
 Presentation of MINIMAXIS, the AI specialized in bitcoin miniscript. It can write, describe, explain and correct miniscript code.
 
@@ -2519,6 +2527,8 @@ Summary: Conversa no 21 Milhões sobre a trajetória de Breno Brito no Bitcoin, 
 
 Embedded media: https://www.youtube.com/embed/s2BQr1xDpc0
 
+Links: [YouTube](https://www.youtube.com/watch?v=s2BQr1xDpc0) | [Apple Podcasts](https://podcasts.apple.com/br/podcast/9-breno-brito/id1573254855?i=1000532374977)
+
 Neste episódio do `21 Milhões`, Breno Brito conversa sobre os primeiros contatos com o `Bitcoin`, o que o levou a levar o tema a sério e como a discussão sobre dinheiro, inflação e coordenação social moldou sua visão ao longo do tempo.
 
 Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como mera `ilusão coletiva` é pouco preciso. Breno argumenta que o dinheiro é uma construção social, mas também algo testado no `livre mercado`, com propriedades concretas e selecionadas historicamente.
@@ -2546,6 +2556,8 @@ Tags: bitcoin, myths, mining, lightning network, podcast
 Summary: Episódio da minissérie Bitcoin do IFLSP com Solange Gueiros e Breno Brito, focado no ‘presente’ da rede e nas novidades tecnológicas que vinham sendo desenvolvidas para o Bitcoin.
 
 Embedded media: https://open.spotify.com/embed/episode/4y9clyC3E2m8hrUEvu2zqx?utm_source=generator
+
+Links: [Spotify](https://open.spotify.com/episode/4y9clyC3E2m8hrUEvu2zqx) | [Apple Podcasts](https://podcasts.apple.com/br/podcast/33-miniss%C3%A9rie-bitcoin-epis%C3%B3dio-2-presente-com-solange/id1516125241?i=1000538718452)
 
 Este episódio faz parte da minissérie `Bitcoin: Passado, Presente e Futuro` do `IFLSP` e corresponde ao bloco do presente, em conversa com `Solange Gueiros`. Pelo próprio texto de divulgação do episódio, a pauta parte de um artigo baseado em um capítulo do meu então novo livro e gira em torno das novidades tecnológicas que estavam sendo construídas para o Bitcoin naquele momento.
 

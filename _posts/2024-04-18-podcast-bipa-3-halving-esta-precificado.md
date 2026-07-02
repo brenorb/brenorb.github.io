@@ -16,7 +16,7 @@ feature: /assets/generated/podcast-bipa-3-halving-esta-precificado.jpg
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/ekQtXuTDOIs" title="Podcast - Bipa Cast #003 - O Halving está precificado?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Links: [YouTube](https://www.youtube.com/watch?v=ekQtXuTDOIs) | [Spotify](https://open.spotify.com/episode/1YdoJqdVhAarE8wE2cGlxM)
+Links: [YouTube](https://www.youtube.com/watch?v=ekQtXuTDOIs) | [Spotify](https://open.spotify.com/episode/1YdoJqdVhAarE8wE2cGlxM) | [Apple Podcasts](https://podcasts.apple.com/br/podcast/o-halving-est%C3%A1-precificado-breno-brito-bipa-cast-003/id1793614311?i=1000687231840)
 
 Esta conversa começa com uma pergunta de mercado, mas rapidamente vira uma aula sobre como pensar preço, oferta, assimetria de informação e reflexividade. Em vez de responder "sim" ou "não" de forma telegráfica, eu tento desmontar a própria pergunta: para discutir se o halving está precificado, primeiro é preciso definir o que é o halving, o que é uma precificação e o que as pessoas querem dizer quando falam que o mercado já "absorveu" um evento.
 

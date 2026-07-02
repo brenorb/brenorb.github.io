@@ -17,6 +17,8 @@ feature: /assets/generated/podcast-iflsp-33-minisserie-bitcoin.jpg
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/4y9clyC3E2m8hrUEvu2zqx?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
+Links: [Spotify](https://open.spotify.com/episode/4y9clyC3E2m8hrUEvu2zqx) | [Apple Podcasts](https://podcasts.apple.com/br/podcast/33-miniss%C3%A9rie-bitcoin-epis%C3%B3dio-2-presente-com-solange/id1516125241?i=1000538718452)
+
 Este episódio faz parte da minissérie `Bitcoin: Passado, Presente e Futuro` do `IFLSP` e corresponde ao bloco do presente, em conversa com `Solange Gueiros`. Pelo próprio texto de divulgação do episódio, a pauta parte de um artigo baseado em um capítulo do meu então novo livro e gira em torno das novidades tecnológicas que estavam sendo construídas para o Bitcoin naquele momento.
 
 Mesmo sem inventar detalhes que não estão públicos nas show notes, dá para registrar bem o papel desta participação: ela funciona como uma conversa de panorama sobre o estado técnico da rede, cobrindo temas como operação da infraestrutura descentralizada, resiliência do protocolo, `Lightning Network`, mineração, contexto regulatório e a diferença entre observar o Bitcoin apenas como preço e entendê-lo como sistema monetário em evolução.

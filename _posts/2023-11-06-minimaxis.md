@@ -18,6 +18,12 @@ feature: /assets/generated/minimaxis.png
 satshack presentation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/huvBFj1M4Fo?si=faEpxwplzKF6ymID" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+### Links
+
+- [SatsHack winner project MINIMAXIS](https://www.youtube.com/watch?v=huvBFj1M4Fo)
+- [Meet the Makers of MINIMAXIS!](https://www.youtube.com/watch?v=DCkZKxebNTk)
+- [LegendsOfLightning Closing Ceremony](https://www.youtube.com/watch?v=NR1-HOS4xDA)
+
 Presentation of MINIMAXIS, the AI specialized in bitcoin miniscript. It can write, describe, explain and correct miniscript code.
 
 🏆 MINIMAXIS won the SatsHack hackathon in 2023 Satsconf.

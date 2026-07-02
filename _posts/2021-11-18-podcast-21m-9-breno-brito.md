@@ -16,6 +16,8 @@ feature: /assets/generated/podcast-21m-9-breno-brito.jpg
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/s2BQr1xDpc0" title="Podcast - 21 Milhões - #9 - Breno Brito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+Links: [YouTube](https://www.youtube.com/watch?v=s2BQr1xDpc0) | [Apple Podcasts](https://podcasts.apple.com/br/podcast/9-breno-brito/id1573254855?i=1000532374977)
+
 Neste episódio do `21 Milhões`, Breno Brito conversa sobre os primeiros contatos com o `Bitcoin`, o que o levou a levar o tema a sério e como a discussão sobre dinheiro, inflação e coordenação social moldou sua visão ao longo do tempo.
 
 Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como mera `ilusão coletiva` é pouco preciso. Breno argumenta que o dinheiro é uma construção social, mas também algo testado no `livre mercado`, com propriedades concretas e selecionadas historicamente.
@@ -34,4 +36,3 @@ Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como m
 - `Inventing Bitcoin`, de `Yan Pritzker`, como porta de entrada técnica para quem quer entender o protocolo sem se perder em matemática pesada
 
 {% include generated/podcast-21m-9-breno-brito-chapters.html %}
-
