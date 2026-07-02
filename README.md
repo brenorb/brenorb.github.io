@@ -49,6 +49,12 @@ They also verify that embedded `media` posts are covered by the transcript manif
 node scripts/check_media_sources.js
 ```
 
+Audit post metadata coverage:
+
+```bash
+ruby scripts/audit_post_metadata.rb
+```
+
 ## Media transcript workflow
 
 Generate diarized raw transcripts one item at a time:
@@ -86,6 +92,7 @@ node scripts/build_topic_chapters.js
 ## Repo notes
 
 - `_config.yml` holds site metadata, SEO fields, and Jekyll settings.
+- `scripts/audit_post_metadata.rb` reports missing post metadata such as `description`, `excerpt`, `tags`, and `feature`.
 - `scripts/build-llms-ctx-full.rb` regenerates the expanded AI context file.
 - `scripts/media_sources.json` is the media manifest for transcript generation.
 - `scripts/check_media_sources.js` verifies that embedded `media` posts are present in the manifest and include generated chapter navigation.
@@ -95,3 +102,15 @@ node scripts/build_topic_chapters.js
 - `scripts/transcribe_media_batch.js` runs the frozen `fscript` + diarization flow sequentially and writes both JSON and native `--script` outputs.
 - `scripts/build_media_appendices.js` converts raw transcript JSON into `_data/media_appendices/`.
 - `control.sh` provides a small Podman-based workflow for containerized local serving.
+
+## Metadata standard
+
+For new posts, use this minimum front matter baseline:
+
+- `title`
+- `excerpt`
+- `description`
+- `tags`
+- `feature` for shareable pages and posts
+
+Use `content_type` when the post should render outside the default writing archive, especially for `media` and `project` entries.

@@ -3,15 +3,16 @@ layout: post
 title:  "Podcast - Papo Aberto 10 - Análise de Dados pode facilitar seu investimento em Digital Assets? Quant Finance"
 date:   2024-03-28
 excerpt: "Nesse papo, Breno e Victor Cabral falaram um pouco de tudo isso e desmistificaram  (através de exemplos) a aplicabilidade da análise quantitativa nos dias atuais."
+description: "Conversa sobre finanças quantitativas, análise de dados e machine learning aplicados a Bitcoin, criptoativos e avaliação de mercado."
 content_type: media
-tag:
+tags:
 - bitcoin
 - machine learning
 - data science
 - quantitative finance
 - podcast
 comments: false
-feature: /assets/satsconf-bitcoin.jpg
+feature: /assets/generated/quant-finance-investimento-2024.jpg
 ---
 
 <iframe width="560" height="315" src="https://www.youtube.com/watch?v=4Ap0jAPX00o" frameborder="0"> </iframe>
