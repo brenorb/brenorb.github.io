@@ -71,13 +71,13 @@ Source: _posts/2026-05-12-freedom-skills.md
 Date: 2026-05-12
 Content type: project
 Tags: ai, bitcoin, nostr
-Summary: Freedom Skills is a repository of reusable AI agent skills for Bitcoin, Nostr, and related freedom technologies, with a focus on making those tools more legible, tested, and usable for autonomous systems.
+Summary: Freedom Skills is a repository of reusable AI agent skills for Bitcoin, Nostr, and related freedom technologies, focused on making those tools more legible, tested, and usable for autonomous systems.
 
 **Freedom Skills** is a repository of **AI agent skills for Bitcoin, Nostr, and other freedom technologies**.
 
-The goal is to help agents use tools for **uncensorable payments** and **censorship-resistant communication** more reliably, especially in contexts where depending on centralized services is a liability.
+The project focuses on tools for **uncensorable payments** and **censorship-resistant communication**, especially in contexts where depending on centralized services is a liability.
 
-The project emphasizes reusable skills that can be tested, benchmarked, and shared, so freedom tech becomes more legible and more practical for autonomous systems.
+The skills are built to be reusable, testable, benchmarked, and shareable, so freedom tech becomes more legible and more practical for autonomous systems.
 
 The longer-term direction is a trusted layer for skill discovery, validation, and reuse in adversarial environments.
 
@@ -146,11 +146,11 @@ Source: _posts/2026-04-28-os-tres-porquinhos-na-vila-do-valor.md
 Date: 2026-04-28
 Content type: project
 Tags: book, review, education
-Summary: Os Três Porquinhos na Vila do Valor is a children's book on financial education by Caroline Galgowski, with Breno Brito contributing as reviewer.
+Summary: Os Três Porquinhos na Vila do Valor é um livro infantil de educação financeira de Caroline Galgowski no qual atuei como revisor.
 
 **Os Três Porquinhos na Vila do Valor** é um livro infantil de **Caroline Galgowski** que apresenta noções de educação financeira para crianças a partir de uma história conhecida.
 
-Neste projeto, Breno Brito participou como **revisor**.
+Neste projeto, participei como **revisor**.
 
 ## Links
 [Ver na Amazon](https://amzn.to/41Y8T2H)
@@ -189,7 +189,7 @@ Summary: Stealth is a Bitcoin wallet privacy auditing tool that analyzes public 
 
 **Stealth** is a Bitcoin wallet privacy auditing tool that I built for the **BTC++ 2026 hackathon**.
 
-It analyzes wallet behavior from public descriptors and surfaces privacy risks using real-world on-chain heuristics.
+The goal is to give wallet users direct visibility into the same kind of heuristics that outside analysts use to detect address reuse, change patterns, clustering, and other privacy leaks.
 
 It started as a hackathon prototype and is evolving into a local-first Rust workspace for descriptor-driven wallet analysis.
 
@@ -210,7 +210,7 @@ Current direction:
 
 Stealth currently focuses on signals like address reuse, common input ownership, dust exposure, change detection, consolidation, script-type mixing, tainted merges, and behavioral fingerprinting.
 
-The original Bitcoin++ Exploits Edition submission listed Breno Brito, Jorge Santana, Renato Britto, and Herberson Miranda as the project team.
+I built the original hackathon version with **Jorge Santana**, **Renato Britto**, and **Herberson Miranda**.
 
 Since launch, the project has also been discussed publicly by BTC QnA and inspired an Umbrel-oriented adaptation that switched the backend from Bitcoin Core to Electrs.
 
@@ -254,11 +254,11 @@ Source: _posts/2026-03-03-btc-graph.md
 Date: 2026-03-03
 Content type: project
 Tags: bitcoin, education
-Summary: btc-graph is an interactive Bitcoin learning graph with curated concepts, prerequisites, and resources, built as a static site for GitHub Pages.
+Summary: btc-graph is an interactive Bitcoin learning graph with curated concepts, prerequisites, and resources, published as a static site on GitHub Pages.
 
-**btc-graph** is an **interactive Bitcoin learning graph** built as a **static site for GitHub Pages**.
+**btc-graph** is an **interactive Bitcoin learning graph** that I built as a **static site for GitHub Pages**.
 
-The project organizes Bitcoin concepts as a dependency graph so readers can move from fundamentals to more advanced topics without losing context.
+It organizes Bitcoin concepts as a dependency graph so readers can move from fundamentals to more advanced topics without losing context.
 
 Each concept is modeled as a node with:
 
@@ -267,14 +267,38 @@ Each concept is modeled as a node with:
 - suggested prerequisites
 - 2 to 3 curated high-signal resources
 
-The app also includes a **search-friendly library view**, making it easier to browse topics outside the graph itself.
+The app also includes a **search-friendly library view**, which makes it easier to browse topics outside the graph itself.
 
-Under the hood, the content source of truth lives in `content/nodes/*.json`, which is validated and compiled into a static graph dataset for the frontend.
+Under the hood, the source of truth lives in `content/nodes/*.json`, which gets validated and compiled into a static graph dataset for the frontend.
 
 ### Links
 [Live Site](https://brenorb.com/btc-graph/)
 [Library](https://brenorb.com/btc-graph/library/)
 [GitHub Repo](https://github.com/brenorb/btc-graph)
+
+### Palestra - bitcoin++ Floripa 2026 - From Vibe Coding to Agentic Engineering
+
+URL: https://brenorb.com/palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering/
+Source: _posts/2026-02-26-palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering.md
+Date: 2026-02-26T11:15:00-03:00
+Content type: media
+Tags: ai, bitcoin, presentation
+Summary: Apresentacao na bitcoin++ Floripa 2026 sobre a passagem de vibe coding para agentic engineering, com foco em contexto, workflows, melhores praticas emergentes e como usar IA para escrever codigo sem abandonar criterio tecnico.
+
+Embedded media: https://www.youtube.com/embed/90yNM5Pt8Nw
+
+Esta talk foi apresentada na `bitcoin++ Floripa 2026`, edicao `exploits`, em `2026-02-26`. O ponto de partida e uma mudanca de postura: em vez de tratar IA como atalho para gerar codigo no improviso, a proposta e tratar agentes como parte de um processo de engenharia com contexto explicito, criterios de qualidade, testes, evals e workflows mais disciplinados.
+
+O arco da apresentacao liga referencias classicas de engenharia de software e open source a praticas mais recentes de programacao com LLMs. A talk passa por `vibe coding`, `agentic engineering`, contexto, harnesses, skills, comandos e a importancia de transformar conhecimento tacito em artefatos legiveis pelo humano e pelo agente.
+
+Parte do valor da palestra esta em enquadrar o uso de IA como um problema de sistema e nao so de prompt. A pergunta deixa de ser "qual prompt magico gera o codigo certo?" e passa a ser "como montar um ambiente em que o agente tenha contexto suficiente, feedback suficiente e restricoes suficientes para produzir algo que sobreviva ao uso real?".
+
+ 
+
+Links relacionados:
+
+- Pagina oficial da talk: [bitcoin++ Floripa 2026 talks](https://btcplusplus.dev/floripa26/talks)
+- Entrada de trabalho da palestra: [Palestra - BTC++ - From Vibe Coding to Agentic Engineering](https://docs.google.com/presentation/d/1iWoxDCzXew7-Ch55iqtRQ0NegESE9xvOU_bJ1yWf_14/edit?slide=id.g3c94ea5dfc2_0_141#slide=id.g3c94ea5dfc2_0_141)
 
 ### Stringer Safety - Keep journalists alive when seconds matter
 
@@ -439,13 +463,13 @@ Source: _posts/2025-02-25-o-manifesto-descomunista.md
 Date: 2025-02-25
 Content type: project
 Tags: book, bitcoin, editing
-Summary: O Manifesto Descomunista is the Brazilian edition of Aleks Svetski's book on hope, individual responsibility, and freedom, with editorial work by Breno Brito.
+Summary: Fiz a editoração da edição brasileira de O Manifesto Descomunista, livro de Aleks Svetski sobre esperança, responsabilidade individual e liberdade.
 
 ![Livro](/assets/o-manifesto-descomunista.jpg)
 
-**O Manifesto Descomunista** é um projeto de **editoração da edição brasileira** do livro de **Aleks Svetski**, uma defesa de esperança, responsabilidade individual e liberdade fora das promessas políticas tradicionais.
+**O Manifesto Descomunista** é um projeto em que fiz a **editoração da edição brasileira** do livro de **Aleks Svetski**, uma defesa de esperança, responsabilidade individual e liberdade fora das promessas políticas tradicionais.
 
-O título aparece associado ao catálogo de Breno Brito na Amazon e amplia a parte mais filosófica e cultural dos projetos ligados ao universo Bitcoin.
+O resultado foi a edição brasileira publicada na Amazon, ligada ao lado mais filosófico e cultural do meu trabalho com Bitcoin.
 
 ## Links
 [Ver na Amazon](https://amzn.to/4uZL0nw)
@@ -457,21 +481,23 @@ Source: _posts/2025-02-22-fran-ai-plus-plus.md
 Date: 2025-02-22
 Content type: project
 Tags: ai, bitcoin, hackathon
-Summary: Fran / AI++ was a Bitcoin++ Floripa 2025 hackathon project exploring a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance.
+Summary: Fran / AI++ was a Bitcoin++ Floripa 2025 hackathon honorable mention exploring a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance.
 
 **Fran / AI++** was a **Bitcoin++ Floripa 2025** hackathon project built around a simple idea: use a **voice-first AI assistant** to make Bitcoin software easier to understand and use.
 
-A public roundup of notable projects from the event lists **"Fran by Goat++"** as a tool to help onboard merchants and users to Lightning by explaining common Bitcoin apps, answering questions, and audibly describing interface elements.
+The goal was an assistant that could sit next to the user, explain what was on screen, answer questions in natural language, and reduce the intimidation factor around Bitcoin and Lightning apps.
 
 ## Bitcoin++ Floripa 2025
 
-Bitcoin++ Floripa's **hack+play edition** ran from **February 19 to 22, 2025**, with the hackathon itself starting on **February 20** and project presentations happening on **February 22**.
+Fran was built and presented during Bitcoin++ Floripa's **hack+play edition**, which ran from **February 19 to 22, 2025**, with the hackathon itself starting on **February 20** and project presentations happening on **February 22**.
 
-Fran appeared as one of the projects publicly highlighted after the event, with an external demo link and a recorded presentation in the livestream archive.
+The project received an **honorable mention** at the event.
+
+After the event, the project also appeared in a public roundup of notable hackathon projects under the name **"Fran by Goat++"**, with emphasis on merchant and user onboarding for Lightning.
 
 ## What the project showed
 
-Public demos and presentation artifacts show Fran as a broader accessibility and onboarding layer for Bitcoin:
+The prototype pushed on accessibility and onboarding rather than wallet infrastructure itself. In the demo, Fran combined:
 
 - voice and text Q&A about Bitcoin tools
 - screen sharing so the assistant could react to what the user was seeing
@@ -484,11 +510,11 @@ One presentation slide summarizes the goal well: **Bitcoin is powerful. Fran mak
 
 Most Bitcoin UX work improves individual apps. Fran pushed on a different layer: an assistant that could sit next to the user, explain interfaces, answer questions in natural language, and reduce the intimidation factor for first-time users and merchants.
 
-That makes it an interesting hackathon project not just because it combines **AI** and **Bitcoin**, but because it treats usability and onboarding as the main product surface.
+That is what made the project interesting, not just that it combined **AI** and **Bitcoin**, but that it treated usability and onboarding as the main product surface.
 
-## Public traces
+## Artifacts
 
-Two public demo videos were later published on Breno Brito's YouTube channel:
+The hackathon version still has a few public artifacts:
 
 - **Hackathon Demo - BTC++/25** on **February 22, 2025**
 - **Video - demo Fran BTC++ Hackathon** on **February 26, 2025**
@@ -497,7 +523,7 @@ There is also a public slide deck from the event and a presentation screenshot p
 
 ## Status
 
-Fran appears to have remained a hackathon project and public demo rather than turning into an ongoing product. The value is in the prototype itself: a concrete exploration of accessible, voice-first Bitcoin education and app guidance.
+Fran stayed as a hackathon prototype rather than turning into an ongoing standalone product. What still feels valuable is the direction itself: accessible, voice-first Bitcoin education and app guidance.
 
 ## Links
 [Bitcoin++ Floripa 2025](https://btcplusplus.dev/conf/floripa)
@@ -598,11 +624,11 @@ Source: _posts/2024-11-06-granola-cashu-based-exchange.md
 Date: 2024-11-06
 Content type: project
 Tags: academia, bitcoin, cashu, hackathon, nostr, ecash
-Summary: Granola is a Cashu- and Nostr-based exchange concept for privacy-preserving ecash swaps, built for SatsHack 2024 and recognized at Satsconf.
+Summary: Granola is a Cashu- and Nostr-based exchange concept I built with Luis Schwab for SatsHack 2024 around privacy-preserving ecash swaps.
 
-**Granola** is a **Cashu-based exchange** concept built for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
+**Granola** is a **Cashu-based exchange** concept that I built with **Luis Schwab** for **SatsHack by Vinteum** in October 2024, with the final pitch presented at **Satsconf 2024**.
 
-The public SatsHack submission lists **Breno Brito** and **Luis Schwab** as the team behind the project, and states that the entire project was built during the hacking period.
+The project was built during the hackathon around a specific problem: how to coordinate privacy-preserving Bitcoin on- and off-ramps without falling back to a centralized exchange.
 
 SatsHack pitch
 
@@ -610,9 +636,9 @@ Embedded media: https://www.youtube.com/embed/Lq_zZx2cBXk
 
 ## SatsHack / Satsconf 2024
 
-Granola was part of the second **SatsHack by Vinteum**, a hackathon tied to **Satsconf 2024**. The public event timeline scheduled the final pitches for **November 8, 2024** at Satsconf, with winners announced on **November 9, 2024**.
+Granola was part of the second **SatsHack by Vinteum**, a hackathon tied to **Satsconf 2024**. The final pitches happened on **November 8, 2024** at Satsconf, with winners announced on **November 9, 2024**.
 
-Public coverage after the event recorded Granola as one of the highlighted winners:
+After the event, Granola was covered as one of the highlighted winners:
 
 - **No Bullshit Bitcoin** listed Granola as **3rd place overall** and **Best Nostr**.
 - **Livecoins** also highlighted Granola among the winning Satsconf / SatsHack projects.
@@ -622,7 +648,7 @@ Public coverage after the event recorded Granola as one of the highlighted winne
 
 Cashu contributor **calle** later gave a concise outside framing of why Granola felt interesting. In a public Nostr reply on **November 7, 2024**, he described it as **"an exchange without an order book"** where trades happen **"off-band"** and **"at light speed"** between users, assets, and even mints.
 
-That is a good summary of the project's core intuition: Granola was not just about privacy-preserving swaps, but about replacing the usual custodial exchange flow with direct, atomic coordination across Cashu mints.
+That is still the clearest short summary of the idea. Granola was not just about privacy-preserving swaps, but about replacing the usual custodial exchange flow with direct, atomic coordination across Cashu mints.
 
 The screenshot below was preserved in the original project deck, and the same text survives in calle's public Nostr reply.
 
@@ -630,13 +656,13 @@ The screenshot below was preserved in the original project deck, and the same te
 
 ## Academic reference
 
-Granola was later cited as the starting point for Hugo Szerwinski's 2025 undergraduate thesis at the University of Brasilia, *Protocolo de Swap Atômico Entre Mints de Cashu*. Breno Brito also co-advised the thesis work.
+Granola later became the starting point for Hugo Szerwinski's 2025 undergraduate thesis at the University of Brasilia, *Protocolo de Swap Atômico Entre Mints de Cashu*. I also co-advised the thesis work.
 
-In the thesis motivation section, Szerwinski states that the work was inspired by Granola as presented by **Breno Brito** and **Luis Schwab** during **SatsHack 2024**, and that the thesis began from analyzing and implementing the referenced project. This mention appears in the **"Motivação"** section on **PDF page 18** (document page 17).
+In the thesis motivation section, Szerwinski says the work began from analyzing and implementing Granola after seeing it presented during **SatsHack 2024**. This mention appears in the **"Motivação"** section on **PDF page 18** (document page 17).
 
 ## What the project proposed
 
-The original SatsHack submission framed the main problem as privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
+The starting point was privacy on Bitcoin on- and off-ramps. The proposed solution was to combine **Cashu** with **Nostr** so peers could publish and coordinate atomic, cross-mint ecash swaps without relying on a centralized exchange.
 
 In practice, the idea was to treat different Cashu mints as currency-specific issuers and use the same hash/preimage across both sides of the trade. That turns the exchange into a peer-to-peer, privacy-first settlement flow rather than a custodial venue.
 
@@ -685,7 +711,7 @@ Carol->>Mint: Swaps HTLC_c token
 
 ## Status
 
-Granola is currently an early design note rather than a production system. The interesting part is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
+Granola is still an early design note rather than a production system. The durable part is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
 
 ## Links
 [Official SatsHack Submission](https://eventornado.com/submission/granola?s=1)
@@ -704,7 +730,7 @@ URL: https://brenorb.com/breno-brito-full-english/
 Source: _posts/2024-09-10-breno-brito-full-english.md
 Date: 2024-09-10T12:00:00-03:00
 Content type: media
-Tags: english, interview, youtube
+Tags: english, interview
 Summary: Conversa em inglês no canal Católico Poliglota, com foco em prática de idioma e apresentação pessoal.
 
 Embedded media: https://www.youtube.com/embed/DEjEP3U2dLM
@@ -799,7 +825,7 @@ Source: _posts/2024-05-21-questoes-sociais-sao-desafio.md
 Date: 2024-05-21
 Content type: media
 Tags: book, bitcoin, commentary
-Summary: “Parte técnica você descreve como funciona e acabou. Nas vacas sagradas leva um bom tanto de desconstrução de conceitos”, diz Breno Brito
+Summary: Entrevista sobre por que os maiores obstáculos para entender Bitcoin são sociais e conceituais, não apenas técnicos.
 
 O mais complexo do Bitcoin não são os aspectos técnicos como a mineração de novas moedas, a validação de blocos e o funcionamento de carteiras cold wallet. O desafio maior está em conceitos bem mais tangíveis, como inflação e deflação, meio-ambiente e valor intrínseco.
 
@@ -845,7 +871,7 @@ Source: _posts/2024-05-17-editora-portal-bitcoin-lanca-livro.md
 Date: 2024-05-17
 Content type: media
 Tags: book, bitcoin, press, event
-Summary: A obra discorre os princípios técnicos da moeda até suas implicações socioeconômicas no contexto atual, de modo a proporcionar um entendimento profundo ao público geral.
+Summary: Registro do lançamento editorial de 101 Perguntas sobre Bitcoin, destacando a proposta do livro e o evento de lançamento.
 
 A Editora Portal do Bitcoin vai lançar na próxima terça-feira (21) o livro “101 Perguntas sobre Bitcoin”. A nova publicação serve como um guia para compreensão da criptomoeda mais popular do mundo, não apenas como uma tecnologia disruptiva, mas uma ferramenta de questionamento de conceitos tradicionais de dinheiro, propriedade e liberdade.
 
@@ -875,7 +901,7 @@ Source: _posts/2024-05-16-podcast-blocktrends-bitcoin-ia-mercados-eficientes.md
 Date: 2024-05-16
 Content type: media
 Tags: bitcoin, ai, quantitative finance, data science, ergodicity, podcast
-Summary: Entender o preço do Bitcoin e como o mercado funciona é uma tarefa difícil para quem observa apenas os gráficos de preço. Entretanto, ao observarmos através da ótica matemática, começamos a entender uma série de ineficiências neste mercado.
+Summary: Conversa no BlockTrends sobre Bitcoin, IA, mercado eficiente, quant trading e o que modelos realmente conseguem explicar sobre preço.
 
 Embedded media: https://www.youtube.com/embed/VddyevajQ68?si=l0o3YyOHUtrfML1E
 
@@ -958,7 +984,7 @@ Source: _posts/2024-05-05-inteligencia-artificial-e-web3.md
 Date: 2024-05-05
 Content type: media
 Tags: technology, ai, web3
-Summary: A inteligência artificial está transformando a Web 3.0 com seu poder de aprendizado e decisão autônoma.
+Summary: Introdução à relação entre inteligência artificial e Web3, com foco em autonomia, dados, descentralização e limites reais dessa combinação.
 
 A inteligência artificial (ou simplesmente IA) é um sistema computacional que busca imitar o raciocínio humano, ou seja, capaz de tomar decisões de maneira autônoma. Sua principal diferença para os códigos tradicionais é o aprendizado, o uso de dados históricos para decidir qual caminho seguir.
 
@@ -1159,7 +1185,7 @@ Source: _posts/2024-04-06-futuro-bitcoin-halving.md
 Date: 2024-04-06
 Content type: media
 Tags: bitcoin, halving
-Summary: O que vai acontecer em 2140, quando os mineradores de Bitcoin não ganharem mais recompensas por blocos minerados?
+Summary: Discussão sobre segurança do Bitcoin no longo prazo, queda do subsídio aos mineradores e o papel futuro das taxas.
 
 A iminente chegada do próximo halving do Bitcoin na segunda quinzena de abril traz à tona questões mais filosóficas do ecossistema: como a rede irá se manter segura se em meros oitos anos o subsídio dos mineradores de Bitcoin, responsáveis por manter a segurança da maior criptomoeda do mundo, será menor que 1 BTC?
 
@@ -1239,7 +1265,7 @@ Source: _posts/2024-03-28-quant-finance-investimento.md
 Date: 2024-03-28
 Content type: media
 Tags: bitcoin, machine learning, data science, quantitative finance, podcast
-Summary: Nesse papo, Breno e Victor Cabral falaram um pouco de tudo isso e desmistificaram  (através de exemplos) a aplicabilidade da análise quantitativa nos dias atuais.
+Summary: Conversa sobre finanças quantitativas, análise de dados e machine learning aplicados a Bitcoin, criptoativos e avaliação de mercado.
 
 Embedded media: https://www.youtube.com/watch?v=4Ap0jAPX00o
 
@@ -1292,7 +1318,7 @@ URL: https://brenorb.com/novas-tecnologias-bitcoin/
 Source: _posts/2023-12-26-novas-tecnologias-bitcoin.md
 Date: 2023-12-26
 Tags: bitcoin, ark, lightning network, layer 2, rollups, utreexo, drivechains, sidechains
-Summary: Mesmo com todo avanço tecnológico que tivemos no bitcoin nos últimos anos, ainda temos alguns problemas fundamentais para melhorar.
+Summary: Visão geral das principais tecnologias que podem expandir Bitcoin nos próximos anos, de Lightning e Ark a rollups e Utreexo.
 
 Mesmo com todo avanço tecnológico que tivemos no bitcoin nos últimos anos, ainda temos alguns problemas fundamentais para melhorar. 
 
@@ -1401,7 +1427,7 @@ Source: _posts/2023-11-08-satsconf-700-entusiastas.md
 Date: 2023-11-08
 Content type: media
 Tags: bitcoin, hackathon, satsconf, press, event
-Summary: O maior evento 100% Bitcoin do Brasil ocorreu ao longo do feriado; mais de 1,8 mil pagamentos em BTC foram feitos no encontro
+Summary: Cobertura da Satsconf 2023 em São Paulo, com foco no tamanho do evento, convidados técnicos e confirmação da edição seguinte.
 
 A Satsconf, primeiro evento 100% focado em Bitcoin no Brasil, ocorreu de 2 a 5 de novembro, em São Paulo, e reuniu quase 700 entusiastas de Bitcoin. Palestrantes internacionais como Tadge Dryja, (Lightning Network), Conor Okus (Spiral), Ryan Gentry (Lightning Labs) e Peter Todd elevaram ainda mais o nível do conteúdo técnico. 
 
@@ -1461,7 +1487,7 @@ URL: https://brenorb.com/role-bitcoin-gen-ai/
 Source: _posts/2023-10-01-role-bitcoin-gen-ai.md
 Date: 2023-10-01
 Tags: bitcoin, technology, ai
-Summary: The history of life is a story of scarcity, but the history of humanity is a story of triumph over scarcity.
+Summary: Essay on why Bitcoin may matter even more in a world of generative AI, synthetic abundance, and collapsing scarcity in information goods.
 
 ### The History of Scarcity
 The history of life is a story of scarcity, but the history of humanity is a story of triumph over scarcity. Millions of years ago, hominids began to differentiate themselves from other animals by mastering fire. While some other animals can rudimentarily use tools, only humans gained control over fire and more complex tools. With that we started building shelters and weapons. With the invention of agriculture and animal husbandry, we gained greater control over our own sustenance, achieving a crucial victory over our primary risks: security and food. Previously, food and security were extremely scarce, requiring hunting and foraging for sustenance and defending against threats.
@@ -1545,13 +1571,13 @@ Source: _posts/2023-08-31-o-padrao-fiduciario.md
 Date: 2023-08-31
 Content type: project
 Tags: book, bitcoin, translation
-Summary: O Padrão Fiduciário is the Brazilian Portuguese edition of The Fiat Standard, Saifedean Ammous's book on debt, fiat money, and the distortions of the modern monetary system.
+Summary: Trabalhei na edição brasileira de O Padrão Fiduciário, livro de Saifedean Ammous sobre dívida, moeda fiduciária e as distorções do sistema monetário moderno.
 
 ![Livro](/assets/o-padrao-fiduciario.jpg)
 
-**O Padrão Fiduciário** é a edição brasileira de *The Fiat Standard*, de **Saifedean Ammous**, sobre a história, o funcionamento e os efeitos do sistema monetário fiduciário na economia, na política e na sociedade.
+**O Padrão Fiduciário** é um projeto em que trabalhei na edição brasileira de *The Fiat Standard*, de **Saifedean Ammous**, sobre a história, o funcionamento e os efeitos do sistema monetário fiduciário na economia, na política e na sociedade.
 
-O título aparece associado ao catálogo de Breno Brito na Amazon e complementa as ideias desenvolvidas em **O Padrão Bitcoin**, olhando para o outro lado da discussão: crédito, dívida e moeda estatal.
+O resultado foi a edição brasileira publicada na Amazon, complementando as ideias desenvolvidas em **O Padrão Bitcoin** ao olhar para o outro lado da discussão: crédito, dívida e moeda estatal.
 
 ## Links
 [Ver na Amazon](https://amzn.to/4tT59ei)
@@ -1563,7 +1589,7 @@ Source: _posts/2023-05-30-debate-discord-bitcoin-ethereum.md
 Date: 2023-05-30
 Content type: media
 Tags: bitcoin, ethereum, debate
-Summary: Especialistas vão conversar sobre as características de cada protocolo
+Summary: Registro do debate promovido pelo Mercado Bitcoin sobre as virtudes, limites e narrativas de Bitcoin versus Ethereum.
 
 A corretora de criptomoedas MB (Mercado Bitcoin) promove nesta terça-feira (30), no canal do Discord da empresa, um debate entre as virtudes e problemas do Bitcoin vs Ethereum.
 
@@ -1602,7 +1628,7 @@ URL: https://brenorb.com/os-7-fundamentos-do-maximalismo-do-bitcoin/
 Source: _posts/2023-05-26-os-7-fundamentos-do-maximalismo-do-bitcoin.md
 Date: 2023-05-26
 Tags: bitcoin, philosophy, ethics, risk
-Summary: Entendendo o que diferencia um "maximalista" de outras pessoas no mundo cripto.
+Summary: Tentativa de organizar os princípios filosóficos, éticos e estratégicos que sustentam o maximalismo do Bitcoin.
 
 Quem está dentro do universo cripto há algum tempo já deve ter se deparado com o termo "maximalista", geralmente associado ao bitcoin. "Maximalista de bitcoin" é um termo que genericamente significa que a pessoa acredita que o bitcoin é um ativo monetário superior às outras criptomoedas (e outras moedas fiduciárias) e que será (ou deveria ser) a reserva financeira mundial do futuro, além de rejeitar a tese do futuro multimoeda. 
 
@@ -1710,7 +1736,7 @@ Source: _posts/2023-05-14-ordinals-devem-ser-banidos.md
 Date: 2023-05-14
 Content type: media
 Tags: bitcoin, ordinals, nft, spam
-Summary: O desenvolvedor do Bitcoin Core Luke Dash Jr é contrário aos Ordinals e já recusa essas transações em seu servidor
+Summary: Panorama do debate sobre Ordinals no Bitcoin, com argumentos de quem vê inovação, neutralidade ou abuso do espaço em bloco.
 
 A popularização da tecnologia Ordinals com as “inscrições” de NFTs na blockchain do Bitcoin causou um aumento de demanda de uso na rede, que viu um aumento da competição pelo escasso espaço disponível nos blocos de transações.
 
@@ -1797,7 +1823,7 @@ Source: _posts/2023-05-08-bifurcacao-dois-blocos-nao-e-comum.md
 Date: 2023-05-08
 Content type: media
 Tags: bitcoin, blockchain, fork, commentary
-Summary: Uma bifurcação de cadeia de dois blocos de profundidade não é comum e só aconteceu duas vezes.
+Summary: Resumo da breve divisão de cadeia no Bitcoin, das suspeitas de gasto duplo e do que realmente torna esse evento raro.
 
 As últimas 24 horas foram intensas para a comunidade do Bitcoin, com três eventos pouco comuns acontecendo neste breve intervalo de tempo na blockchain do ativo.
 
@@ -1876,7 +1902,7 @@ Source: _posts/2023-04-09-bitcoin-stamps-conheca-o-projeto.md
 Date: 2023-04-09
 Content type: media
 Tags: bitcoin, nft, spam
-Summary: O que são os Bitcoin Stamps e como eles podem revolucionar a indústria NFT dentro da blockchain do BTC
+Summary: Apresentação do protocolo Bitcoin Stamps, suas diferenças em relação aos Ordinals e o debate sobre permanência de dados na blockchain.
 
 A saga de novas experiências na blockchain do Bitcoin (BTC) parece não ter fim. Após as discussões envolvendo o polêmico projeto Ordinals e a criação do padrão “BRC-20”, mais uma novidade está chegando à rede da maior criptomoeda do mundo: os Bitcoin Stamps.
 
@@ -1952,8 +1978,8 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/bitcoin-stam
 URL: https://brenorb.com/ftx-guilt-fear/
 Source: _posts/2023-03-25-o-reflexo-do-mundo-tomado-pela-dor-pelo-medo-e-pela-culpa.md
 Date: 2023-03-25T16:31:00-03:00
-Tags: philosophy, ayn-rand, atlas-shrugged, literature
-Summary: Ensaio escrito para o concurso do Ayn Rand Center Latin America sobre A Revolta de Atlas.
+Tags: philosophy, ayn rand, literature
+Summary: Ensaio inspirado em A Revolta de Atlas que relaciona medo, culpa e dor a submissão moral, colapso institucional e o caso FTX.
 
 Ensaio escrito para o concurso de ensaios do `Ayn Rand Center Latin America` sobre `A Revolta de Atlas`, enviado em `25 de março de 2023`.
 
@@ -2035,7 +2061,7 @@ URL: https://brenorb.com/revolucao-taro/
 Source: _posts/2023-03-21-revolucao-taro.md
 Date: 2023-03-21
 Tags: taproot assets, lightning network, bifi, tokenization, bitcoin
-Summary: A transformação do Bitcoin na exchange suprema.
+Summary: Texto sobre Taproot Assets e como a emissão de ativos no ecossistema Bitcoin pode ampliar pagamentos, liquidez e experimentação monetária.
 
 https://twitter.com/pymoment/status/1458098341313716241
  Visualização das conexões entre os 16 mil canais de Lighting Network criada pelo @pymoment. Em breve, toda essa estrutura permitirá a qualquer pessoa comprar ou vender qualquer ativo com a mesma segurança do bitcoin e de forma não permissionada e não custodial. (https://twitter.com/pymoment/status/1458098341313716241). 
@@ -2092,7 +2118,9 @@ Como isso vai afetar a regulação, as exchanges existentes hoje e todo o ecossi
 
 ---
 
-Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.com.br/economia-digital/bitcoin/revolucao-taro-transformacao-do-bitcoin-na-exchange-suprema/) em 21 de março 2023.
+**Nota editorial (3 de junho de 2026):** "Taro" foi renomeado para **Taproot Assets** após um conflito de marca. Este artigo preserva o nome original usado em março de 2023.
+
+Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.com.br/economia-digital/bitcoin/revolucao-taro-transformacao-do-bitcoin-na-exchange-suprema/) em 21 de março de 2023.
 
 ### Os blocos de Bitcoin não param de aumentar; o que está acontecendo com a blockchain?
 
@@ -2101,7 +2129,7 @@ Source: _posts/2023-02-08-blocos-bitcoin-nao-param-aumentar.md
 Date: 2023-02-08
 Content type: media
 Tags: bitcoin, blockchain, nft, spam
-Summary: NFTs estão entupindo os blocos de Bitcoin; especialistas explicam como isso pode fazer as taxas dispararem
+Summary: Explicação sobre o aumento do tamanho dos blocos do Bitcoin, a pressão de novas inscrições e o que isso revela sobre uso e spam na rede.
 
 O tamanho médio dos blocos incluídos diariamente na blockchain do Bitcoin está atualmente por volta de 2 MB, o nível mais alto da história da criptomoeda, de acordo com dados do OKLink.
 
@@ -2211,7 +2239,7 @@ Source: _posts/2022-06-15-bitcoin-pode-cair-abaixo-de-19-mil.md
 Date: 2022-06-15
 Content type: media
 Tags: bitcoin, price, commentary
-Summary: Desde que começou a circular, o preço da principal criptomoeda nunca caiu abaixo da máxima histórica do halving anterior. No caso atual, essa barreira seria de US$ 19.783.
+Summary: Análise sobre a possibilidade de o Bitcoin cair abaixo da máxima do ciclo anterior e por que isso quebraria um padrão histórico relevante.
 
 Um dado histórico do comportamento do Bitcoin (BTC) pode ser colocado à prova nas próximas horas, caso os preços continuem a se aproximar de romper para baixo o nível de US$ 20 mil.
 
@@ -2272,7 +2300,7 @@ Source: _posts/2022-04-04-btc-em-queda-com-inflacao-e-geopolitica.md
 Date: 2022-04-04
 Content type: media
 Tags: bitcoin, price, commentary
-Summary: Especialista alerta que um novo teste para um piso mais perto dos US$ 40.000 pode estar a caminho para o Bitcoin.
+Summary: Comentário de mercado sobre a queda do Bitcoin em meio a inflação alta, tensão geopolítica e apetite de risco mais fraco.
 
 As duas maiores criptomoedas começam em queda, enquanto as altcoins mostram desempenho misto. O Bitcoin (BTC) recua 1% nas últimas 24 horas, cotado a US$ 46.968, segundo dados do CoinGecko. O Ethereum (ETH) tem queda de 0,5%, para US$ 3.479. 
 
@@ -2345,7 +2373,7 @@ Source: _posts/2022-04-01-bitcoin-19-milhoes-minerados.md
 Date: 2022-04-01
 Content type: media
 Tags: bitcoin, halving, commentary
-Summary: Mais de 90% de todo o fornecimento do bitcoin já foi lançado ao mercado
+Summary: Comentário sobre o marco de 19 milhões de bitcoins minerados e o que a escassez programada significa para a emissão futura da rede.
 
 O Bitcoin chegou a um marco histórico nesta sexta-feira (01): 19 milhões de unidades foram mineradas desde que o sistema da criptomoeda mais importante do mundo começou a rodar em janeiro de 2009. Agora, restam somente 2 milhões de bitcoins para serem emitidos.
 
@@ -2442,7 +2470,7 @@ URL: https://brenorb.com/elon-musk-errado/
 Source: _posts/2021-05-23-elon-musk-errado.md
 Date: 2021-05-23
 Tags: elon musk, technology, bitcoin
-Summary: Empresário é terrivelmente desinformado sobre questões técnicas das criptomoedas
+Summary: Resposta às críticas de Elon Musk ao Bitcoin, com foco em energia, incentivos, engenharia e comparações mal formuladas com o sistema tradicional.
 
 Falando sério, quem já não suspeitava que havia algo errado com a demora que o CEO da Tesla, Elon Musk, teve para comprar Bitcoin (BTC)? Falo isso por dois motivos: (I) seu ex-sócio, Peter Thiel, é um early adopter, e advoga a favor da criptomoeda há anos; e (II) a missão da empresa em que Thiel e Musk eram sócios era literalmente “criar a nova moeda mundial”.
 
@@ -2478,7 +2506,7 @@ URL: https://brenorb.com/17-fatos-todo-iniciante-precisa-aprender/
 Source: _posts/2021-05-16-17-fatos-todo-iniciante-precisa-aprender.md
 Date: 2021-05-16
 Tags: bitcoin, lightning network, tokenization
-Summary: Jornada de aprendizado de uma criptomoeda
+Summary: Guia de curiosidades e conceitos que ajudam iniciantes a entender Bitcoin além das analogias superficiais mais repetidas.
 
 Todos sabemos que a jornada de nocoiner para Bitcoiner não é fácil. O Bitcoin é um um projeto relativamente recente, extremamente inovador e dinâmico, com novidades aparecendo a todo momento. Acabamos aprendendo por analogias e, apesar de úteis, elas podem confundir o entendimento do real funcionamento de algumas particularidades da moeda. Trago aqui algumas curiosidades que costumam surpreender novatos e até alguns mais avançados.
 
@@ -2584,13 +2612,13 @@ Source: _posts/2020-10-16-o-padrao-bitcoin.md
 Date: 2020-10-16
 Content type: project
 Tags: book, bitcoin, translation
-Summary: O Padrão Bitcoin is the Brazilian Portuguese edition of Saifedean Ammous's book on the history of money, hard money, and Bitcoin as a decentralized alternative to central banking.
+Summary: Trabalhei como tradutor, ao lado de Guilherme Bandeira, na edição brasileira de O Padrão Bitcoin, clássico de Saifedean Ammous sobre a história do dinheiro e o papel do Bitcoin.
 
 ![Livro](/assets/o-padrao-bitcoin.jpg)
 
-**O Padrão Bitcoin** é a edição brasileira do livro de **Saifedean Ammous** sobre a história do dinheiro, moeda forte e a alternativa descentralizada ao banco central.
+**O Padrão Bitcoin** é um projeto em que trabalhei como **tradutor**, ao lado de **Guilherme Bandeira**, na edição brasileira do livro de **Saifedean Ammous** sobre a história do dinheiro, moeda forte e a alternativa descentralizada ao banco central.
 
-Na página do livro na Amazon, Breno Brito aparece creditado como **tradutor**, ao lado de **Guilherme Bandeira**. É um dos títulos centrais da literatura de Bitcoin publicados em português.
+É um dos títulos centrais da literatura de Bitcoin publicados em português e uma das traduções mais importantes em que já trabalhei nesse tema.
 
 ## Links
 [Ver na Amazon](https://amzn.to/3PgoQ1t)
@@ -2601,12 +2629,12 @@ URL: https://brenorb.com/bip39-portuguese-wordlist/
 Source: _posts/2020-09-28-bip39-portuguese-wordlist.md
 Date: 2020-09-28
 Content type: project
-Tags: bitcoin, open-source, standards
-Summary: BIP39 Portuguese Wordlist is the official Portuguese mnemonic list added to bitcoin/bips for wallet backups, with Breno Brito credited among the co-authors of the upstream contribution.
+Tags: bitcoin, open source
+Summary: BIP39 Portuguese Wordlist is the official Portuguese mnemonic list added to bitcoin/bips for wallet backups.
 
 **BIP39 Portuguese Wordlist** is the official list of Portuguese words added to the BIP39 repository for mnemonic wallet backups.
 
-Breno Brito is one of the credited co-authors of the upstream contribution that introduced [`bip-0039/portuguese.txt`](https://github.com/bitcoin/bips/blob/master/bip-0039/portuguese.txt) to the official [`bitcoin/bips`](https://github.com/bitcoin/bips) repository.
+I co-created the upstream contribution that introduced [`bip-0039/portuguese.txt`](https://github.com/bitcoin/bips/blob/master/bip-0039/portuguese.txt) to the official [`bitcoin/bips`](https://github.com/bitcoin/bips) repository.
 
 The contribution also documented the selection criteria for the Portuguese list in [`bip-0039-wordlists.md`](https://github.com/bitcoin/bips/blob/master/bip-0039/bip-0039-wordlists.md), including constraints such as:
 
@@ -2683,8 +2711,8 @@ Observação: as explicações desenhadas no quadro não foram filmadas no víde
 URL: https://brenorb.com/10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas/
 Source: _posts/2018-07-19-10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas.md
 Date: 2018-07-19
-Tags: bitcoin, article, myths
-Summary: Corrigindo mitos
+Tags: bitcoin, myths
+Summary: Lista de erros recorrentes de especialistas e jornalistas sobre Bitcoin, mineração, blockchain, altcoins e supostas limitações técnicas.
 
 Depois de algum tempo estudando sobre bitcoin e criptomoedas, fico surpreso com o tanto de “especialistas” surgindo e propagando fatos completamente errados sobre criptomoedas. Coletando alguns da rede, fiz uma lista dos mais clássicos:
 
@@ -2728,7 +2756,7 @@ URL: https://brenorb.com/warren-buffett-bitcoin/
 Source: _posts/2018-05-30-warren-buffett-bitcoin.md
 Date: 2018-05-30
 Tags: bitcoin, warren buffett, investment
-Summary: Entendendo a filosofia do Warren Buffett
+Summary: Crítica à visão de Warren Buffett sobre Bitcoin, argumentando por que o arcabouço de valuation tradicional entra em choque com um ativo monetário descentralizado.
 
 Recentemente o magnata Warren Buffett fez um ataque ainda mais agressivo às criptomoedas, causando revolta na comunidade. Segundo o CEO da Berkshire Hathaway, Bitcoin é [“provavelmente veneno de rato ao quadrado”](https://www.cnbc.com/2018/05/05/warren-buffett-says-bitcoin-is-probably-rat-poison-squared.html). Concluiu que [Bitcoin não é um investimento](https://portaldobitcoin.uol.com.br/bitcoin-nao-e-investimento-buffett/) e que criptomoedas quase certamente acabarão mal. Anos antes, já tinha falado [“é basicamente uma miragem”](https://portaldobitcoin.uol.com.br/bitcoin-subiu-sete-vezes-desde-que-warren-buffett-disse-ser-apenas-uma-miragem/). Como o [terceiro homem mais rico do mundo](https://en.wikipedia.org/wiki/The_World%27s_Billionaires), um dos maiores especialistas em investimentos do mundo pode falar algo assim?
 
@@ -2776,7 +2804,7 @@ URL: https://brenorb.com/as-corretoras-brasileiras-de-criptomoedas-falsificam-vo
 Source: _posts/2018-04-19-as-corretoras-brasileiras-de-criptomoedas-falsificam-volume-de-bitcoin.md
 Date: 2018-04-19
 Tags: bitcoin, data science, exchange
-Summary: Uma análise quantitativa de métricas de liquidez das exchanges
+Summary: Análise de dados sobre possível falsificação de volume em exchanges brasileiras de Bitcoin, com foco em liquidez, market share e sinais de wash trading.
 
 Atualização: A "Rei dos Bitcoins", dono da Negocie Coins, [foi preso](https://x.com/brenorb/status/1412151389434830848) em julho de 2021 e fui contratado pela exchange Mercado Bitcoin em Agosto de 2021.
 
@@ -2890,7 +2918,7 @@ URL: https://brenorb.com/nao-existem-atalhos-para-uma-criptomoeda-de-preco-estav
 Source: _posts/2018-02-27-nao-existem-atalhos-para-uma-criptomoeda-de-preco-estavel.md
 Date: 2018-02-27
 Tags: bitcoin, stablecoin, brazil, gold
-Summary: Como o bitcoin pode acabar virando de fato moeda
+Summary: Artigo sobre a busca por stablecoins e por que atalhos de centralização, colateral frágil ou desenho monetário mal alinhado tendem a criar novos riscos.
 
 Filho do grande teórico anarcocapitalista David Friedman e neto do lendário nobel em economia Milton Friedman, Patri Friedman escreveu uma [thread de tweets](https://twitter.com/patrissimo/status/944384410853318656) citando Vitalik Buterin, criador do Ethereum, sobre a necessidade de se criar uma criptomoeda estável, que ele chama de StableCoin (literalmente Moeda-Estável).
 
@@ -3022,7 +3050,7 @@ URL: https://brenorb.com/projects/reinforcement-learning-financial-markets-thesi
 Source: _posts/2013-12-23-reinforcement-learning-financial-markets-thesis.md
 Date: 2013-12-23
 Content type: project
-Tags: academia, ai, finance, machine-learning
+Tags: academia, ai, finance, machine learning
 Summary: Electrical engineering undergraduate thesis at the University of Brasilia by Breno Brito and Dyego Soares de Araujo on applying SARSA reinforcement learning to financial markets.
 
 This project is my undergraduate thesis, written with **Dyego Soares de Araujo** at the **University of Brasilia** in electrical engineering under the original Portuguese title **"Aprendizado por Reforço Aplicado ao Mercado Financeiro"**.
