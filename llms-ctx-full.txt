@@ -1405,6 +1405,27 @@ Ao longo do episódio eu passo por alguns grupos de ideia:
 
 Também tem uma tese mais ampla que continua sendo central para mim: se o Bitcoin ficar restrito a uma bolha ideológica ou a um caso de uso estreito, ele falhou. Escalabilidade, ferramentas de segunda camada e interfaces melhores importam justamente porque o objetivo é tornar o sistema usável em escala humana, sem depender de bancos para cada interação.
 
+### Bitdevs Brasília
+
+URL: https://brenorb.com/projects/bitdevs-brasilia/
+Source: _posts/2024-01-02-bitdevs-brasilia.md
+Date: 2024-01-02
+Content type: project
+Tags: bitcoin, community, events
+Summary: Bitdevs Brasília is the local BitDevs chapter Breno hosts in Brasília, with a public website for meetup announcements, archives, and reading-driven socratic seminar material.
+
+**Bitdevs Brasília** is the **local BitDevs chapter I host in Brasília**.
+
+The public site at **`bitdevs.bsb.br`** works as the main coordination surface for the group: it publishes meetup pages, keeps an archive of past and future sessions, and gives each seminar a simple permanent home on the web.
+
+What makes the project worth listing here is that it is not just an event landing page. It is part of the ongoing work of building a **technical Bitcoin community in Brasília**, with recurring socratic seminars, reading material, and a public record that lowers the cost of showing up and staying involved.
+
+This project entry uses **2024-01-02**, the public creation date of the `ClubeBitcoinUnB/bitdevs.bsb.br` repository.
+
+### Links
+[Website](https://bitdevs.bsb.br)
+[GitHub Repo](https://github.com/ClubeBitcoinUnB/bitdevs.bsb.br)
+
 ### Quais novas tecnologias devem surgir nos próximos anos no Bitcoin?
 
 URL: https://brenorb.com/novas-tecnologias-bitcoin/
