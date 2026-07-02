@@ -10,6 +10,7 @@ tags:
 - bitcoin
 - presentation
 comments: false
+feature: https://img.youtube.com/vi/90yNM5Pt8Nw/hqdefault.jpg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/90yNM5Pt8Nw" title="Palestra - bitcoin++ Floripa 2026 - From Vibe Coding to Agentic Engineering" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

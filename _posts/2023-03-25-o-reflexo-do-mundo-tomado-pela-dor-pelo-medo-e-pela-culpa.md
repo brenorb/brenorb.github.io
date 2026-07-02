@@ -4,6 +4,8 @@ title: "O Reflexo do Mundo Tomado pela Dor, pelo Medo e pela Culpa"
 date: 2023-03-25 16:31:00 -0300
 permalink: /ftx-guilt-fear/
 excerpt: "Ensaio escrito para o concurso do Ayn Rand Center Latin America sobre A Revolta de Atlas."
+description: "Ensaio inspirado em A Revolta de Atlas que relaciona medo, culpa e dor a submissão moral, colapso institucional e o caso FTX."
+feature: /assets/generated/ftx-guilt-fear-essay.jpg
 tags:
 - philosophy
 - ayn rand
