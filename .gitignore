@@ -6,3 +6,5 @@ _site_localtest/
 .playwright-mcp/
 .DS_Store
 transcripts/source_cache/
+__pycache__/
+*.py[cod]
