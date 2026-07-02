@@ -60,33 +60,72 @@ Summary: A list of projects
 
 ## Posts, projects, talks, and media
 
-### Satoshi 7B - fine-tuned Bitcoin LLM
+### nowhere-cli
 
-URL: https://brenorb.com/projects/satoshi-7b/
-Source: _posts/2026-06-09-satoshi-7b.md
-Date: 2026-06-09
+URL: https://brenorb.com/projects/nowhere-cli/
+Source: _posts/2026-06-30-nowhere-cli.md
+Date: 2026-06-30
 Content type: project
-Tags: ai, bitcoin, spirit of satoshi, open source
-Summary: Satoshi 7B is a Bitcoin-biased general knowledge LLM from Spirit of Satoshi, built on top of Mistral 7B Instruct and released open source on Hugging Face.
+Tags: nostr, cli, agents
+Summary: nowhere-cli is a CLI counterpart to Nowhere that covers fragment inspection, signing, encryption, site creation and updates, persisted signer sessions, and relay-backed store, petition, fundraiser, message, and forum flows.
 
-**Satoshi 7B** is a Bitcoin-focused LLM I worked on when I was at **Spirit of Satoshi**.
+**nowhere-cli** is a **CLI counterpart to Nowhere**.
 
-It was based on **Mistral 7B Instruct**, fine-tuned with **LoRA** and later aligned with **DPO**, then released on **Hugging Face**.
+It covers the full fragment lifecycle from the terminal: generate Nostr keys, inspect links, sign fragments, encrypt and decrypt them, create all eight Nowhere site types from structured JSON, and import, patch, or republish existing sites.
 
-My work on it included:
+The more interesting part is that it goes beyond static authoring. The CLI also includes **relay-backed runtime flows** for store orders and checkout, petition signatures, fundraiser donations, message tips, forum activity, torrent publishing, moderation checks, and persisted **NIP-46 signer** sessions.
 
-- curation and cleaning of training data
-- evals
-- continued pre-training
-- LoRA fine-tuning
-- DPO alignment
-- data augmentation
+Commands meant for automation expose **`--json`** output, which makes the project especially useful for agentic and scripting workflows instead of only human-driven terminal use.
 
-The goal was simple: a model that answered Bitcoin questions from a Bitcoin-native frame instead of falling back to generic internet priors.
+This project entry uses **2026-06-30**, the date of the first public commit in the repository.
 
-## Links
-[Hugging Face Model](https://huggingface.co/contrapliant/Satoshi-7B)
-[Spirit of Satoshi](https://spiritofsatoshi.ai)
+### Links
+[GitHub Repo](https://github.com/brenorb/nowhere-cli)
+
+### lkdn
+
+URL: https://brenorb.com/projects/lkdn/
+Source: _posts/2026-06-30-lkdn.md
+Date: 2026-06-30
+Content type: project
+Tags: python, cli, linkedin
+Summary: lkdn is a minimal CLI for LinkedIn publishing workflows through the official API, covering posts, media assets, comments, reactions, social metadata, and organization preflight helpers.
+
+**lkdn** is a **minimal CLI for supported LinkedIn API workflows**.
+
+The scope is deliberately narrow: publish and manage **text, article, image, multi-image, poll, video, and document posts** through LinkedIn's official APIs, inspect or reuse uploaded media assets, and handle adjacent workflows such as **comments**, **reactions**, **social metadata**, and organization access preflight.
+
+The project is opinionated about its boundaries. It does not try to automate OAuth in a fragile way, and it does not scrape LinkedIn pages or rely on undocumented web endpoints.
+
+The result is a small tool that stays readable and practical while still covering the workflows that matter when you want to post, inspect, or edit LinkedIn content from the terminal.
+
+The first published tag was **`v0.1.0` on 2026-06-30**, which is the date used for this project entry.
+
+### Links
+[GitHub Repo](https://github.com/brenorb/linkedin-cli)
+[PyPI Package](https://pypi.org/project/lkdn/)
+
+### bitchat-cli
+
+URL: https://brenorb.com/projects/bitchat-cli/
+Source: _posts/2026-06-29-bitchat-cli.md
+Date: 2026-06-29
+Content type: project
+Tags: python, bluetooth, nostr
+Summary: bitchat-cli is a clean-room Python CLI for BitChat over Bluetooth LE, focused on public mesh chat, direct messaging, geohash-scoped Nostr channels, file transfer, and a background daemon.
+
+**bitchat-cli** is a **clean-room Python CLI for BitChat over Bluetooth LE**.
+
+The project is intentionally focused on **interoperable peer-to-peer communication**: public mesh chat, direct messages over **Noise XX**, local file transfer, and **geohash-scoped Nostr channels** for location-aware communication.
+
+It also includes a background daemon so nearby traffic can keep being received and persisted even when no interactive chat session is open.
+
+What makes the project interesting is that it stays grounded in **physical proximity**. The core surface is not a cloud chat app disguised as local-first software, but a real Bluetooth mesh workflow with offline-friendly behavior and explicit fallback paths where they make sense.
+
+The first published tag in the repository is **`v0.1.0` on 2026-06-29**, which is the date used for this project entry.
+
+### Links
+[PyPI Package](https://pypi.org/project/bitchat4agents/)
 
 ### Freedom Skills
 
@@ -1254,6 +1293,34 @@ Já Flávio Hernandez também reconhece ser provável que isso aconteça, mas qu
 ---
 
 Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/como-sera-o-futuro-do-bitcoin-a-medida-que-recompensas-aos-mineradores-ficam-cada-vez-menores/) em 06 abril de 2024.
+
+### Satoshi 7B - fine-tuned Bitcoin LLM
+
+URL: https://brenorb.com/projects/satoshi-7b/
+Source: _posts/2026-06-09-satoshi-7b.md
+Date: 2024-04-02
+Content type: project
+Tags: ai, bitcoin, spirit of satoshi, open source
+Summary: Satoshi 7B is a Bitcoin-biased general knowledge LLM from Spirit of Satoshi, built on top of Mistral 7B Instruct and released open source on Hugging Face.
+
+**Satoshi 7B** is a Bitcoin-focused LLM I worked on when I was at **Spirit of Satoshi**.
+
+It was based on **Mistral 7B Instruct**, fine-tuned with **LoRA** and later aligned with **DPO**, then released on **Hugging Face**.
+
+My work on it included:
+
+- curation and cleaning of training data
+- evals
+- continued pre-training
+- LoRA fine-tuning
+- DPO alignment
+- data augmentation
+
+The goal was simple: a model that answered Bitcoin questions from a Bitcoin-native frame instead of falling back to generic internet priors.
+
+## Links
+[Hugging Face Model](https://huggingface.co/contrapliant/Satoshi-7B)
+[Spirit of Satoshi](https://spiritofsatoshi.ai)
 
 ### Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of Satoshi
 
@@ -2741,7 +2808,7 @@ Summary: Lista de erros recorrentes de especialistas e jornalistas sobre Bitcoin
 Depois de algum tempo estudando sobre bitcoin e criptomoedas, fico surpreso com o tanto de “especialistas” surgindo e propagando fatos completamente errados sobre criptomoedas. Coletando alguns da rede, fiz uma lista dos mais clássicos:
 
 ## 1 – Mineradores utilizam máquinas para cálculos extremamente complexos.
-Na verdade, não existe um algoritmo eficiente para a função que os mineradores tem que resolver, o problema da resistência à pré-imagem. O problema então se torna o de tentar adivinhar números aleatórios, que é umas das coisas mais simples que um computador poderia tentar fazer.
+Na verdade, não existe um algoritmo eficiente para a função que os mineradores tem que resolver, o problema do logaritmo discreto. O problema então se torna o de tentar adivinhar números aleatórios, que é umas das coisas mais simples que um computador poderia tentar fazer.
 
 ## 2 – Mineradores validam as transações de bitcoin.
 Quem valida as transações são os full-nodes. Os mineradores recebem as transações já validadas e validam o bloco através da prova de trabalho.
@@ -2756,7 +2823,7 @@ Blockchains, em geral, são mais lentas, ineficientes e caras que tecnologias ce
 A grande maioria das blockchains são completamente públicas para todos e para sempre. O que confunde é a pseudo-privacidade, que é a mera facilidade de criar novos endereços e dificuldade para se descobrir quem possui o que. Entretanto, existem algumas técnicas e algumas poucas blockchains que criam algum nível adicional de privacidade como CoinJoin, Monero e Zcash.
 
 ## 6 – Bitcoin foi feito para ser usado por criminosos pela sua privacidade.
-Até agora, todas as pesquisas feitas indicam que grande maioria das pessoas usando criptomoedas não estão envolvidas com crime. A moeda de troca preferida por criminosos continua sendo o dólar, por sua baixíssima rastreabilidade, diferentemente do Bitcoin, que é facilmente rastreável.
+Até agora, todas as pesquisas feitas indicam que grande maioria das pessoas usando criptomoedas não estão envolvidas com crime. O moeda de troca preferida por criminosos continua sendo o dólar, por sua baixíssima rastreabilidade, diferentemente do Bitcoin, que é facilmente rastreável.
 
 ## 7 – Bitcoin vai ficar para trás por estar ultrapassado enquanto várias altcoins desenvolveram features mais avançadas impensáveis pelos pioneiros da tecnologia.
 Bitcoin é hoje um dos maiores projetos de tecnologia do mundo e tem a tecnologia mais inovadora e avançada das criptomoedas. Grande parte das features das altcoins foram pensadas e desconsideradas pelos desenvolvedores pioneiros do Bitcoin, ou até antes do Bitcoin.
@@ -2768,7 +2835,7 @@ Na verdade, o cypherpunk Nick Szabo tem o termo descrito em seu glossário de 19
 Nas palavras de Nick Szabo, smart contract nada mais é do que um conjunto de promessas, incluindo protocolos através dos quais as partes cumprem as outras promessas. Ele funciona muito bem para ativos digitais, mas é limitado pelo mundo digital. Assim como um e-mail não acabou com entregas de produtos pelos correios, smart contracts não acabarão com certas disputas, especialmente as que não envolvem ativos digitais.
 
 ## 10 – Bitcoin foi a primeira criptomoeda.
-Mais ou menos. Bitcoin foi a primeira criptomoeda bem sucedida, mas antes houve várias tentativas de criar dinheiro digital que remontam até a década de 80.
+Mais ou menos. Bitcoin foi a primeira critpomoeda bem sucedida, mas antes houve várias tentativas de criar dinheiro digital que remontam até a década de 80.
 
 ---
 
