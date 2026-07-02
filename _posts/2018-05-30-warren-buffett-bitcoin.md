@@ -3,6 +3,7 @@ layout: post
 title:  'Por que a Visão de Warren Buffett é Incompatível com o Bitcoin'
 date:   2018-05-30
 excerpt: "Entendendo a filosofia do Warren Buffett"
+description: "Crítica à visão de Warren Buffett sobre Bitcoin, argumentando por que o arcabouço de valuation tradicional entra em choque com um ativo monetário descentralizado."
 tags:
 - bitcoin
 - warren buffett
@@ -56,4 +57,3 @@ OBS: todos as citações são do Buffett.
 ---
 
 Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/warren-buffett-bitcoin/) em 30 de maio 2018.
-

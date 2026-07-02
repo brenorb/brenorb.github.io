@@ -3,6 +3,7 @@ layout: post
 title:  "Os 7 fundamentos do maximalismo do bitcoin"
 date:   2023-05-26
 excerpt: 'Entendendo o que diferencia um "maximalista" de outras pessoas no mundo cripto.'
+description: "Tentativa de organizar os princípios filosóficos, éticos e estratégicos que sustentam o maximalismo do Bitcoin."
 tags:
 - bitcoin
 - philosophy
@@ -110,4 +111,3 @@ Em resumo, o maximalista acredita que o bitcoin é a única criptomoeda que traz
 ---
 
 Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.com.br/economia-digital/bitcoin/os-7-fundamentos-do-maximalismo-do-bitcoin/) em 26 de maio 2023.
-

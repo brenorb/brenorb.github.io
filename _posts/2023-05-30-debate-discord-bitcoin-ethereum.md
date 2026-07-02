@@ -3,6 +3,7 @@ layout: post
 title:  "Evento no Discord vai debater qual é a melhor criptomoeda: Bitcoin ou Ethereum"
 date:   2023-05-30
 excerpt: "Especialistas vão conversar sobre as características de cada protocolo"
+description: "Registro do debate promovido pelo Mercado Bitcoin sobre as virtudes, limites e narrativas de Bitcoin versus Ethereum."
 content_type: media
 tags:
 - bitcoin 

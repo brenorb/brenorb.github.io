@@ -3,6 +3,7 @@ layout: post
 title:  "Como será o futuro do Bitcoin à medida que recompensas aos mineradores ficam cada vez menores?"
 date:   2024-04-06
 excerpt: "O que vai acontecer em 2140, quando os mineradores de Bitcoin não ganharem mais recompensas por blocos minerados?"
+description: "Discussão sobre segurança do Bitcoin no longo prazo, queda do subsídio aos mineradores e o papel futuro das taxas."
 content_type: media
 tags:
 - bitcoin

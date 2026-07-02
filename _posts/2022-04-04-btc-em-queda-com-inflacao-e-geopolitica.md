@@ -3,6 +3,7 @@ layout: post
 title: "Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica"
 date: 2022-04-04
 excerpt: "Especialista alerta que um novo teste para um piso mais perto dos US$ 40.000 pode estar a caminho para o Bitcoin."
+description: "Comentário de mercado sobre a queda do Bitcoin em meio a inflação alta, tensão geopolítica e apetite de risco mais fraco."
 content_type: media
 tags:
 - bitcoin

@@ -3,6 +3,7 @@ layout: post
 title:  "17 fatos que todo iniciante no Bitcoin precisa aprender"
 date:   2021-05-16
 excerpt: "Jornada de aprendizado de uma criptomoeda"
+description: "Guia de curiosidades e conceitos que ajudam iniciantes a entender Bitcoin além das analogias superficiais mais repetidas."
 tags:
 - bitcoin
 - lightning network
@@ -89,4 +90,3 @@ Não há dúvidas que Satoshi Nakamoto era um gênio, grande criptógrafo, inven
 ---
 
 Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/17-fatos-que-todo-iniciante-no-bitcoin-precisa-aprender/) em 16 de maio 2021.
-

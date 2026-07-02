@@ -3,6 +3,7 @@ layout: post
 title:  'As Corretoras Brasileiras de Criptomoedas Falsificam Volume de Bitcoin?'
 date:   2018-04-19
 excerpt: "Uma análise quantitativa de métricas de liquidez das exchanges"
+description: "Análise de dados sobre possível falsificação de volume em exchanges brasileiras de Bitcoin, com foco em liquidez, market share e sinais de wash trading."
 tags:
 - bitcoin
 - data science

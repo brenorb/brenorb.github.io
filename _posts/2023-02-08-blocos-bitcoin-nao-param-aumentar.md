@@ -3,6 +3,7 @@ layout: post
 title:  "Os blocos de Bitcoin não param de aumentar; o que está acontecendo com a blockchain?"
 date:   2023-02-08
 excerpt: "NFTs estão entupindo os blocos de Bitcoin; especialistas explicam como isso pode fazer as taxas dispararem"
+description: "Explicação sobre o aumento do tamanho dos blocos do Bitcoin, a pressão de novas inscrições e o que isso revela sobre uso e spam na rede."
 content_type: media
 tags:
 - bitcoin 

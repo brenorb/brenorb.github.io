@@ -3,6 +3,7 @@ layout: post
 title:  "‘101 Perguntas sobre Bitcoin’: Editora Portal do Bitcoin lança livro sobre a criptomoeda mais famosa do mundo"
 date:   2024-05-17
 excerpt: "A obra discorre os princípios técnicos da moeda até suas implicações socioeconômicas no contexto atual, de modo a proporcionar um entendimento profundo ao público geral."
+description: "Registro do lançamento editorial de 101 Perguntas sobre Bitcoin, destacando a proposta do livro e o evento de lançamento."
 content_type: media
 tags:
 - book 

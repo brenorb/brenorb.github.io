@@ -3,6 +3,7 @@ layout: post
 title:  "Questões sociais são desafio para debate do Bitcoin, diz autor de livro da Editora Portal do Bitcoin"
 date:   2024-05-21
 excerpt: "“Parte técnica você descreve como funciona e acabou. Nas vacas sagradas leva um bom tanto de desconstrução de conceitos”, diz Breno Brito"
+description: "Entrevista sobre por que os maiores obstáculos para entender Bitcoin são sociais e conceituais, não apenas técnicos."
 content_type: media
 tags:
 - book 

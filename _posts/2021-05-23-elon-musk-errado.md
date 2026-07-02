@@ -3,6 +3,7 @@ layout: post
 title:  "Elon Musk está errado e eu posso provar"
 date:   2021-05-23
 excerpt: "Empresário é terrivelmente desinformado sobre questões técnicas das criptomoedas"
+description: "Resposta às críticas de Elon Musk ao Bitcoin, com foco em energia, incentivos, engenharia e comparações mal formuladas com o sistema tradicional."
 tags:
 - elon musk
 - technology
@@ -45,4 +46,3 @@ Por fim resta uma pergunta: quem são os desenvolvedores do Dogecoin com quem el
 ---
 
 Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/elon-musk-esta-errado-e-eu-posso-provar/) em 23 de maio 2021.
-

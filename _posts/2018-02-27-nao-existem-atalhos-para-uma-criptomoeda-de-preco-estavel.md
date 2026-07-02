@@ -3,6 +3,7 @@ layout: post
 title:  'Não Existem Atalhos para uma Criptomoeda de Preço Estável'
 date:   2018-02-27
 excerpt: "Como o bitcoin pode acabar virando de fato moeda"
+description: "Artigo sobre a busca por stablecoins e por que atalhos de centralização, colateral frágil ou desenho monetário mal alinhado tendem a criar novos riscos."
 tags:
 - bitcoin
 - stablecoin

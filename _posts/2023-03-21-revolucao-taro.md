@@ -3,6 +3,7 @@ layout: post
 title:  "A Revolução Taro"
 date:   2023-03-21
 excerpt: "A transformação do Bitcoin na exchange suprema."
+description: "Texto sobre Taproot Assets e como a emissão de ativos no ecossistema Bitcoin pode ampliar pagamentos, liquidez e experimentação monetária."
 tags:
 - taproot assets
 - lightning network
