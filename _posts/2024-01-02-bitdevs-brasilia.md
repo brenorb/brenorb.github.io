@@ -11,7 +11,7 @@ tags:
 - community
 - events
 comments: false
-feature: /assets/generated/bitdevs-brasilia.png
+feature: /assets/generated/bitdevs-brasilia.jpg
 ---
 
 **Bitdevs Brasília** is the **local BitDevs chapter I host in Brasília**.
