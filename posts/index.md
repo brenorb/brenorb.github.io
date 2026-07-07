@@ -1,8 +1,13 @@
 ---
-layout: post-list
+layout: page
 title: Writing
-excerpt: "A list of writing"
-content_type: article
+description: "Legacy alias for the writing archive."
+permalink: /posts/
+canonical_url: https://brenorb.com/articles/
+redirect_to: /articles/
+robots: noindex,follow
 comments: false
 sitemap: false
 ---
+
+The writing archive now lives at [brenorb.com/articles/](/articles/).

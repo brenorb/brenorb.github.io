@@ -50,4 +50,3 @@ The project is now being developed in partnership with **The Stringer Foundation
 [Website](https://stringersafety.com/){: .btn .btn-info}
 [HRF Winners Announcement](https://hrf.org/latest/announcing-the-ai-hack-for-freedom-hackathon-winners/){: .btn .btn-info}
 [Alex Lewin Thread](https://x.com/ALewin/status/2013474336208835045){: .btn .btn-info}
-[My Note on Winning the Hackathon](https://brenorb.com/ai-hack-for-freedom-primeiro-lugar/){: .btn .btn-info}

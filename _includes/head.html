@@ -26,12 +26,14 @@
     <meta name="twitter:description" content="{{ page_description | markdownify | strip_html | strip_newlines | escape_once }}">
     {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:creator" content="@{{ site.twitter }}">{% endif %}
+    {% capture default_canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+    {% assign canonical_url = page.canonical_url | default: default_canonical %}
     <!-- Open Graph -->
     <meta property="og:locale" content="{{ site.locale }}">
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{{ seo_title }}">
     <meta property="og:description" content="{{ page_description | markdownify | strip_html | strip_newlines | escape_once }}">
-    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.url }}">
+    <meta property="og:url" content="{{ canonical_url }}">
     <meta property="og:site_name" content="{{ site.title }}">
     <meta property="og:image" content="{% if feature %}{{ feature }}{% else %}{{ site.url }}/{{ site.logo }}{% endif %}">
     {% if page.layout == "post" %}
@@ -41,8 +43,9 @@
     <!-- Webmaster Tools verfication -->
     <meta name="google-site-verification" content="{{ site.google.verify }}">{% endif %}
     {% if site.bing-verify %}    <meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
-    {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
-    <link rel="canonical" href="{{ canonical }}">
+    <link rel="canonical" href="{{ canonical_url }}">
+    {% if page.robots %}<meta name="robots" content="{{ page.robots }}">{% endif %}
+    {% if page.redirect_to %}<meta http-equiv="refresh" content="0; url={{ page.redirect_to }}">{% endif %}
     <link href="{{ '/feed.xml' | relative_url }}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
     <!-- Handheld -->
     <meta name="HandheldFriendly" content="True">

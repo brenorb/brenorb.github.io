@@ -409,7 +409,6 @@ The project is now being developed in partnership with **The Stringer Foundation
 [Website](https://stringersafety.com/)
 [HRF Winners Announcement](https://hrf.org/latest/announcing-the-ai-hack-for-freedom-hackathon-winners/)
 [Alex Lewin Thread](https://x.com/ALewin/status/2013474336208835045)
-[My Note on Winning the Hackathon](https://brenorb.com/ai-hack-for-freedom-primeiro-lugar/)
 
 ### Palestra - PyData - Future proof your AI product
 
