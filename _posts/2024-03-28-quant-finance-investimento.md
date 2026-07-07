@@ -15,7 +15,7 @@ comments: false
 feature: /assets/generated/quant-finance-investimento-2024.jpg
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=4Ap0jAPX00o" frameborder="0"> </iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4Ap0jAPX00o" title="Podcast - Papo Aberto 10 - Quant Finance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 [₿]  O universo profissional do mercado de digital assets e blockchain é permeado por muitos “herois de bastidores”. São pessoas que não estão no highspot light, mas que produzem contribuições muito sólidas e consistentes nos bastidores. 
 
