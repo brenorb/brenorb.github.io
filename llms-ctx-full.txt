@@ -1357,7 +1357,7 @@ Content type: media
 Tags: bitcoin, machine learning, data science, quantitative finance, podcast
 Summary: Conversa sobre finanças quantitativas, análise de dados e machine learning aplicados a Bitcoin, criptoativos e avaliação de mercado.
 
-Embedded media: https://www.youtube.com/watch?v=4Ap0jAPX00o
+Embedded media: https://www.youtube.com/embed/4Ap0jAPX00o
 
 [₿] O universo profissional do mercado de digital assets e blockchain é permeado por muitos “herois de bastidores”. São pessoas que não estão no highspot light, mas que produzem contribuições muito sólidas e consistentes nos bastidores. 
 
