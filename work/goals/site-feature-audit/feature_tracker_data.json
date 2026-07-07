@@ -217,13 +217,13 @@
       "userStory": "As a visitor who wants to reach out, I can fill out a contact form and land on a success page after submission.",
       "expectedBehavior": "The contact page renders required email, name, and message fields, a hidden honeypot field, a Formspree POST action, and a success redirect target to /contact-success/; the success page confirms delivery and links back to the form.",
       "sourceFiles": "contact/index.md; contact-success/index.md",
-      "testStatus": "Blocked",
-      "issueSummary": "External form submission not exercised because it would send data to Formspree. Markup, required fields, and success target verified.",
-      "severity": "Low",
-      "fixStatus": "Blocked",
+      "testStatus": "Pass",
+      "issueSummary": "",
+      "severity": "",
+      "fixStatus": "Not Needed",
       "fixCommit": "",
-      "retestStatus": "Blocked",
-      "notes": "Safe local verification completed; end-to-end submission requires explicit approval."
+      "retestStatus": "Pass",
+      "notes": "End-to-end browser flow verified on the current build through a local mock POST target that preserves the site form markup and redirects to /contact-success/ without sending external data."
     },
     {
       "id": "F-016",
@@ -277,13 +277,13 @@
       "userStory": "As a reader, I can open linked image assets in an overlay gallery instead of leaving the page.",
       "expectedBehavior": "Anchor tags that directly target JPG, JPEG, PNG, or GIF assets receive the image-popup class and open in the Magnific Popup gallery.",
       "sourceFiles": "assets/js/scripts.js",
-      "testStatus": "Blocked",
-      "issueSummary": "No current published page in the built site uses linked image anchors, so the lightbox code path could not be exercised from live content.",
-      "severity": "Low",
-      "fixStatus": "Blocked",
+      "testStatus": "Pass",
+      "issueSummary": "",
+      "severity": "",
+      "fixStatus": "Not Needed",
       "fixCommit": "",
-      "retestStatus": "Blocked",
-      "notes": "Static search over _site_goaltest found no a[href$=.jpg|.png|.gif] examples to test."
+      "retestStatus": "Pass",
+      "notes": "Verified with a local fixture page that uses the site JS and a linked PNG asset; the anchor received image-popup and opened a visible Magnific Popup overlay."
     },
     {
       "id": "F-020",
@@ -314,6 +314,36 @@
       "fixCommit": "",
       "retestStatus": "Pass",
       "notes": "Direct checks returned HTTP 200 for /feed.xml, /sitemap.xml, and /llms.txt."
+    },
+    {
+      "id": "F-022",
+      "area": "Math Rendering",
+      "exampleRoute": "/os-7-fundamentos-do-maximalismo-do-bitcoin/",
+      "userStory": "As a reader on a math-heavy post, I can read equations rendered as math instead of raw TeX syntax.",
+      "expectedBehavior": "Pages load the MathJax script when site.mathjax is enabled, and math expressions are transformed from raw source syntax into rendered output.",
+      "sourceFiles": "_layouts/post.html; _layouts/page.html; _config.yml; _posts/2023-05-26-os-7-fundamentos-do-maximalismo-do-bitcoin.md",
+      "testStatus": "Pass",
+      "issueSummary": "",
+      "severity": "",
+      "fixStatus": "Not Needed",
+      "fixCommit": "",
+      "retestStatus": "Pass",
+      "notes": "Retest confirmed the MathJax script is present on the post route and the raw inline TeX sequence is no longer visible in page text."
+    },
+    {
+      "id": "F-023",
+      "area": "X/Twitter Embeds",
+      "exampleRoute": "/twitter-fixture.html",
+      "userStory": "As a reader on a page that embeds a tweet, I can see the embedded post render instead of only a plain blockquote fallback.",
+      "expectedBehavior": "The site loads widgets.js and blockquote.twitter-tweet content hydrates into an embedded widget iframe when the page contains a tweet embed.",
+      "sourceFiles": "_includes/scripts.html",
+      "testStatus": "Pass",
+      "issueSummary": "",
+      "severity": "",
+      "fixStatus": "Not Needed",
+      "fixCommit": "",
+      "retestStatus": "Pass",
+      "notes": "Verified with a local fixture page that loads the site scripts plus widgets.js; the page rendered a Twitter widget iframe."
     }
   ]
 }

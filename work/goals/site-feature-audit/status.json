@@ -3,20 +3,20 @@
   "title": "Inventory Every Site Feature Track User Stories In A Canonical Spreadsheet Test Behaviors Fix Logistical Ux Issues And Retest",
   "goal": "Inventory every site feature, track user stories in a canonical spreadsheet, test behaviors, fix logistical/UX issues, and retest.",
   "state": "active",
-  "summary": "Completed the first full site-feature pass, fixed the confirmed 404 and media-embed regressions, and regenerated the canonical tracker with retest results.",
+  "summary": "Expanded the audit to cover MathJax and X/Twitter embed support, replaced the remaining blocked statuses with local fixture or mock-based evidence, and completed a full post-fix regression sweep on the current build.",
   "created_at": "2026-07-07T20:02:06+00:00",
-  "updated_at": "2026-07-07T20:17:09+00:00",
+  "updated_at": "2026-07-07T20:23:15+00:00",
   "done": [
-    "Generated the canonical spreadsheet-backed feature tracker",
-    "Tested the main routes, media behaviors, metadata, comments, and machine-readable endpoints",
-    "Fixed the broken 404 recovery path",
-    "Fixed the Quant Finance YouTube embed so chapter seeking works"
+    "Converted the contact flow from blocked to tested using a local mock POST handler",
+    "Converted the lightbox path from blocked to tested using a local fixture page",
+    "Added MathJax rendering and X/Twitter embed support to the feature inventory",
+    "Ran a full post-fix regression sweep across the tracked routes and media behaviors"
   ],
   "in_progress": [
-    "Finalizing the audit artifact and commit history"
+    "Refreshing the canonical workbook and finalizing the audit state"
   ],
   "next": [
-    "Continue with any remaining blocked behaviors that require external submission approval"
+    "Package the refreshed tracker and close the goal if no new defects appear"
   ],
   "blocked": [],
   "activity": [
@@ -27,6 +27,10 @@
     {
       "timestamp": "2026-07-07T20:17:09+00:00",
       "note": "Created commits 105d3f4 and 61b638c for the two confirmed UX/logistical fixes."
+    },
+    {
+      "timestamp": "2026-07-07T20:23:15+00:00",
+      "note": "Created reusable local audit harness scripts for fixture preparation and a mock POST server under work/goals/site-feature-audit/."
     }
   ]
 }
