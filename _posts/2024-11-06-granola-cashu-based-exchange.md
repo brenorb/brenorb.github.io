@@ -104,6 +104,10 @@ Carol->>Mint: Swaps HTLC_c token
 
 Granola is still an early design note rather than a production system. The durable part is the mechanism: combining Nostr coordination with hash-locked exchange flows for Cashu-style e-cash.
 
+## Implementation
+
+The current implementation is available at [brenorb.com/granola](https://brenorb.com/granola/). It turns the protocol idea into a practical surface for exploring the proposed exchange flow between Cashu mints.
+
 ## Links
 [Official SatsHack Submission](https://eventornado.com/submission/granola?s=1){: .btn .btn-info}
 [GitHub Repo](https://github.com/GranolaCash/granola){: .btn .btn-info}
