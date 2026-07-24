@@ -2,7 +2,7 @@
 layout: post
 title: "nowhere-cli"
 date: 2026-06-30
-permalink: /projects/nowhere-cli/
+permalink: /project/nowhere-cli/
 excerpt: "CLI counterpart to Nowhere for creating, signing, and automating relay-backed sites."
 description: "nowhere-cli is a CLI counterpart to Nowhere that covers fragment inspection, signing, encryption, site creation and updates, persisted signer sessions, and relay-backed store, petition, fundraiser, message, and forum flows."
 content_type: project

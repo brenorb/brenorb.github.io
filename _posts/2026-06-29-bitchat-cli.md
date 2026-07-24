@@ -2,7 +2,7 @@
 layout: post
 title: "bitchat-cli"
 date: 2026-06-29
-permalink: /projects/bitchat-cli/
+permalink: /project/bitchat-cli/
 excerpt: "Clean-room Python CLI for BitChat over Bluetooth LE."
 description: "bitchat-cli is a clean-room Python CLI for BitChat over Bluetooth LE, focused on public mesh chat, direct messaging, geohash-scoped Nostr channels, file transfer, and a background daemon."
 content_type: project

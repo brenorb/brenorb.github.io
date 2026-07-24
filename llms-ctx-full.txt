@@ -60,9 +60,32 @@ Summary: A list of projects
 
 ## Posts, projects, talks, and media
 
+### filepizza-cli
+
+URL: https://brenorb.com/project/filepizza-cli/
+Source: _posts/2026-07-03-filepizza-cli.md
+Date: 2026-07-03
+Content type: project
+Tags: typescript, cli, p2p
+Summary: filepizza-cli is a small TypeScript CLI for creating and seeding FilePizza uploads programmatically, with short and long share URLs, background seeding, JSON output, and local upload state.
+
+**filepizza-cli** is a **small TypeScript CLI for creating and seeding FilePizza uploads without driving a browser**.
+
+The project is built around a simple goal: make **`file.pizza`** usable from automation and agent workflows instead of only through the website UI.
+
+Right now the scope is intentionally narrow and practical: **single-file uploads**, **short and long share URLs**, **background seeding**, `share` / `status` / `stop` commands, **JSON output for agent consumption**, and local manifest state under **`~/.cache/filepizza-cli/uploads/`**.
+
+What makes it interesting is that it stays close to the public FilePizza protocol surface rather than wrapping a browser session. That keeps the tool small, scriptable, and easier to compose with other terminal or autonomous workflows.
+
+The first public commit in the repository is on **2026-07-03**, which is the date used for this project entry.
+
+### Links
+[npm Package](https://www.npmjs.com/package/filepizza-cli)
+[GitHub Repo](https://github.com/brenorb/filepizza-cli)
+
 ### nowhere-cli
 
-URL: https://brenorb.com/projects/nowhere-cli/
+URL: https://brenorb.com/project/nowhere-cli/
 Source: _posts/2026-06-30-nowhere-cli.md
 Date: 2026-06-30
 Content type: project
@@ -84,7 +107,7 @@ This project entry uses **2026-06-30**, the date of the first public commit in t
 
 ### lkdn
 
-URL: https://brenorb.com/projects/lkdn/
+URL: https://brenorb.com/project/lkdn/
 Source: _posts/2026-06-30-lkdn.md
 Date: 2026-06-30
 Content type: project
@@ -107,7 +130,7 @@ The first published tag was **`v0.1.0` on 2026-06-30**, which is the date used f
 
 ### bitchat-cli
 
-URL: https://brenorb.com/projects/bitchat-cli/
+URL: https://brenorb.com/project/bitchat-cli/
 Source: _posts/2026-06-29-bitchat-cli.md
 Date: 2026-06-29
 Content type: project
@@ -129,7 +152,7 @@ The first published tag in the repository is **`v0.1.0` on 2026-06-29**, which i
 
 ### Freedom Skills
 
-URL: https://brenorb.com/projects/freedom-skills/
+URL: https://brenorb.com/project/freedom-skills/
 Source: _posts/2026-05-12-freedom-skills.md
 Date: 2026-05-12
 Content type: project
@@ -149,7 +172,7 @@ The longer-term direction is a trusted layer for skill discovery, validation, an
 
 ### fast-transcript
 
-URL: https://brenorb.com/projects/fast-transcript/
+URL: https://brenorb.com/project/fast-transcript/
 Source: _posts/2026-05-03-fast-transcript.md
 Date: 2026-05-03
 Content type: project
@@ -204,7 +227,7 @@ The core direction came from the ONNX Parakeet path used in Handy and the packag
 
 ### Os Três Porquinhos na Vila do Valor
 
-URL: https://brenorb.com/os-tres-porquinhos-na-vila-do-valor/
+URL: https://brenorb.com/project/os-tres-porquinhos-na-vila-do-valor/
 Source: _posts/2026-04-28-os-tres-porquinhos-na-vila-do-valor.md
 Date: 2026-04-28
 Content type: project
@@ -243,7 +266,7 @@ Projeto: [Stealth no GitHub](https://github.com/stealth-bitcoin/stealth).
 
 ### Stealth - Bitcoin wallet privacy auditing tool
 
-URL: https://brenorb.com/stealth/
+URL: https://brenorb.com/project/stealth/
 Source: _posts/2026-04-08-stealth.md
 Date: 2026-04-08
 Content type: project
@@ -312,7 +335,7 @@ Também gostei da parte sobre especialização, porque ela evita o erro comum de
 
 ### btc-graph - Interactive Bitcoin learning graph
 
-URL: https://brenorb.com/projects/btc-graph/
+URL: https://brenorb.com/project/btc-graph/
 Source: _posts/2026-03-03-btc-graph.md
 Date: 2026-03-03
 Content type: project
@@ -335,8 +358,8 @@ The app also includes a **search-friendly library view**, which makes it easier 
 Under the hood, the source of truth lives in `content/nodes/*.json`, which gets validated and compiled into a static graph dataset for the frontend.
 
 ### Links
-[Live Site](https://brenorb.com/btc-graph/)
-[Library](https://brenorb.com/btc-graph/library/)
+[Live Site](https://btc-graph.brenorb.com/)
+[Library](https://btc-graph.brenorb.com/library/)
 [GitHub Repo](https://github.com/brenorb/btc-graph)
 
 ### Palestra - bitcoin++ Floripa 2026 - From Vibe Coding to Agentic Engineering
@@ -365,7 +388,7 @@ Links relacionados:
 
 ### Stringer Safety - Keep journalists alive when seconds matter
 
-URL: https://brenorb.com/stringer-safety/
+URL: https://brenorb.com/project/stringer-safety/
 Source: _posts/2026-01-20-stringer-safety.md
 Date: 2026-01-20
 Content type: project
@@ -452,7 +475,7 @@ Também disponível no Spotify: https://open.spotify.com/episode/13HhyIFSPZzNXB1
 
 ### docs2epub
 
-URL: https://brenorb.com/projects/docs2epub/
+URL: https://brenorb.com/project/docs2epub/
 Source: _posts/2026-01-06-docs2epub.md
 Date: 2026-01-06
 Content type: project
@@ -520,7 +543,7 @@ Tem ainda um tema recorrente aqui que vale registrar: o problema do hype. O epis
 
 ### O Manifesto Descomunista
 
-URL: https://brenorb.com/o-manifesto-descomunista/
+URL: https://brenorb.com/project/o-manifesto-descomunista/
 Source: _posts/2025-02-25-o-manifesto-descomunista.md
 Date: 2025-02-25
 Content type: project
@@ -538,7 +561,7 @@ O resultado foi a edição brasileira publicada na Amazon, ligada ao lado mais f
 
 ### Fran / AI++ - Voice-first Bitcoin AI assistant
 
-URL: https://brenorb.com/projects/fran/
+URL: https://brenorb.com/project/fran/
 Source: _posts/2025-02-22-fran-ai-plus-plus.md
 Date: 2025-02-22
 Content type: project
@@ -681,7 +704,7 @@ Tem ainda uma discussão boa sobre análise on-chain, com a ressalva correta: da
 
 ### Granola - Cashu-based exchange
 
-URL: https://brenorb.com/granola/
+URL: https://brenorb.com/project/granola/
 Source: _posts/2024-11-06-granola-cashu-based-exchange.md
 Date: 2024-11-06
 Content type: project
@@ -848,7 +871,7 @@ A segunda fala deixa essa página melhor do que um simples embed porque traz um 
 
 ### 101 Perguntas sobre Bitcoin
 
-URL: https://brenorb.com/101-perguntas-bitcoin/
+URL: https://brenorb.com/project/101-perguntas-bitcoin/
 Source: _posts/2024-06-01-101-perguntas-bitcoin.md
 Date: 2024-06-01
 Content type: project
@@ -1295,7 +1318,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/como-sera-o-
 
 ### Satoshi 7B - fine-tuned Bitcoin LLM
 
-URL: https://brenorb.com/projects/satoshi-7b/
+URL: https://brenorb.com/project/satoshi-7b/
 Source: _posts/2026-06-09-satoshi-7b.md
 Date: 2024-04-02
 Content type: project
@@ -1406,7 +1429,7 @@ Também tem uma tese mais ampla que continua sendo central para mim: se o Bitcoi
 
 ### Bitdevs Brasília
 
-URL: https://brenorb.com/projects/bitdevs-brasilia/
+URL: https://brenorb.com/project/bitdevs-brasilia/
 Source: _posts/2024-01-02-bitdevs-brasilia.md
 Date: 2024-01-02
 Content type: project
@@ -1568,7 +1591,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/satsconf-reu
 
 ### Minimaxis - Miniscript AI code assistant for Bitcoin smart contracts
 
-URL: https://brenorb.com/minimaxis/
+URL: https://brenorb.com/project/minimaxis/
 Source: _posts/2023-11-06-minimaxis.md
 Date: 2023-11-06
 Content type: project
@@ -1685,7 +1708,7 @@ Publicado em [Coinmonks](https://medium.com/p/a8d6c0b63a81#1222-5eeba7cbb6a5) em
 
 ### O Padrão Fiduciário
 
-URL: https://brenorb.com/o-padrao-fiduciario/
+URL: https://brenorb.com/project/o-padrao-fiduciario/
 Source: _posts/2023-08-31-o-padrao-fiduciario.md
 Date: 2023-08-31
 Content type: project
@@ -2710,7 +2733,7 @@ Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.b
 
 ### Portfolio optimization using variance-adjusted mean and predictive structures
 
-URL: https://brenorb.com/projects/portfolio-optimization-thesis/
+URL: https://brenorb.com/project/portfolio-optimization-thesis/
 Source: _posts/2020-12-01-tcc-otimizacao-de-portfolio.md
 Date: 2020-12-01
 Content type: project
@@ -2730,7 +2753,7 @@ In the PDF acknowledgements, Lucas Ataide explicitly thanks his **co-advisor Bre
 
 ### O Padrão Bitcoin
 
-URL: https://brenorb.com/o-padrao-bitcoin/
+URL: https://brenorb.com/project/o-padrao-bitcoin/
 Source: _posts/2020-10-16-o-padrao-bitcoin.md
 Date: 2020-10-16
 Content type: project
@@ -2748,7 +2771,7 @@ Summary: Trabalhei como tradutor, ao lado de Guilherme Bandeira, na edição bra
 
 ### BIP39 Portuguese Wordlist
 
-URL: https://brenorb.com/bip39-portuguese-wordlist/
+URL: https://brenorb.com/project/bip39-portuguese-wordlist/
 Source: _posts/2020-09-28-bip39-portuguese-wordlist.md
 Date: 2020-09-28
 Content type: project
@@ -2775,7 +2798,7 @@ The commit that introduced the Portuguese wordlist to the repository is [`d353c5
 
 ### O Pequeno Livro do Bitcoin
 
-URL: https://brenorb.com/o-pequeno-livro-do-bitcoin/
+URL: https://brenorb.com/project/o-pequeno-livro-do-bitcoin/
 Source: _posts/2019-12-17-o-pequeno-livro-do-bitcoin.md
 Date: 2019-12-17
 Content type: project
@@ -3169,7 +3192,7 @@ No contexto da reportagem, Breno Brito comentou a desaceleração da inflação 
 
 ### Reinforcement learning applied to financial markets
 
-URL: https://brenorb.com/projects/reinforcement-learning-financial-markets-thesis/
+URL: https://brenorb.com/project/reinforcement-learning-financial-markets-thesis/
 Source: _posts/2013-12-23-reinforcement-learning-financial-markets-thesis.md
 Date: 2013-12-23
 Content type: project

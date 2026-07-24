@@ -2,7 +2,7 @@
 layout: post
 title: "Freedom Skills"
 date: 2026-05-12
-permalink: /projects/freedom-skills/
+permalink: /project/freedom-skills/
 excerpt: "AI agent skills for Bitcoin, Nostr, and other freedom technologies."
 description: "Freedom Skills is a repository of reusable AI agent skills for Bitcoin, Nostr, and related freedom technologies, focused on making those tools more legible, tested, and usable for autonomous systems."
 content_type: project
