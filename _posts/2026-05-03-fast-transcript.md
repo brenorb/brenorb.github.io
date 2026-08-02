@@ -3,6 +3,7 @@ layout: post
 title: "fast-transcript"
 date: 2026-05-03
 permalink: /project/fast-transcript/
+redirect_from: /projects/fast-transcript/
 excerpt: "Fast local transcription for large lectures."
 description: "fast-transcript is a local CLI for transcribing large lecture audio quickly with NVIDIA Parakeet ONNX, automatic audio normalization, and default chunking tuned for long runs."
 content_type: project

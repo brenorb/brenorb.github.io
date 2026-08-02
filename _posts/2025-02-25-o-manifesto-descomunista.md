@@ -3,6 +3,7 @@ layout: post
 title:  "O Manifesto Descomunista"
 date:   2025-02-25
 permalink: /project/o-manifesto-descomunista/
+redirect_from: /o-manifesto-descomunista/
 excerpt: "Editoração da edição brasileira do livro de Aleks Svetski sobre esperança, responsabilidade e liberdade."
 description: "Fiz a editoração da edição brasileira de O Manifesto Descomunista, livro de Aleks Svetski sobre esperança, responsabilidade individual e liberdade."
 content_type: project

@@ -3,6 +3,7 @@ layout: post
 title: "BIP39 Portuguese Wordlist"
 date: 2020-09-28
 permalink: /project/bip39-portuguese-wordlist/
+redirect_from: /bip39-portuguese-wordlist/
 excerpt: "Co-creation of the official Portuguese BIP39 wordlist for wallet mnemonic backups."
 description: "BIP39 Portuguese Wordlist is the official Portuguese mnemonic list added to bitcoin/bips for wallet backups."
 content_type: project

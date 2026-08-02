@@ -31,6 +31,12 @@ Build the site:
 bundle exec jekyll build
 ```
 
+Verify that the Search Console regression routes exist and point to their canonical pages:
+
+```bash
+ruby scripts/check_indexing_routes.rb
+```
+
 Install the repo hooks:
 
 ```bash

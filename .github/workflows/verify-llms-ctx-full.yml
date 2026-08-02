@@ -45,3 +45,9 @@ jobs:
 
       - name: Verify generated file is up to date
         run: git diff --exit-code -- llms-ctx-full.txt
+
+      - name: Build site
+        run: bundle exec jekyll build
+
+      - name: Verify Google indexing routes
+        run: ruby scripts/check_indexing_routes.rb

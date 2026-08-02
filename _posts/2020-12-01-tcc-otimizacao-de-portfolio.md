@@ -3,6 +3,7 @@ layout: post
 title: "Portfolio optimization using variance-adjusted mean and predictive structures"
 date: 2020-12-01
 permalink: /project/portfolio-optimization-thesis/
+redirect_from: /projects/portfolio-optimization-thesis/
 excerpt: "Co-advised undergraduate thesis at UnB on portfolio optimization, variance adjustment, and predictive structures."
 description: "Undergraduate thesis at the University of Brasilia co-advised by Breno Brito on portfolio optimization, correcting the Markowitz model by variance, and using predictive structures."
 content_type: project

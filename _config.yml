@@ -99,7 +99,11 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-mentions
+  - jekyll-redirect-from
   - jekyll-sitemap
+
+redirect_from:
+  json: false
 
 jekyll-mentions:
     base_url: https://github.com

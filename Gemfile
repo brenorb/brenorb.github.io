@@ -9,3 +9,4 @@ gem 'jekyll-feed'
 gem "rexml"
 gem 'faraday-retry'
 gem 'jekyll', '~> 4.0'
+gem "jekyll-redirect-from", "~> 0.16"

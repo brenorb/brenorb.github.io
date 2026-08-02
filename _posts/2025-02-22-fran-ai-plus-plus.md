@@ -3,6 +3,7 @@ layout: post
 title:  "Fran / AI++ - Voice-first Bitcoin AI assistant"
 date:   2025-02-22
 permalink: /project/fran/
+redirect_from: /projects/fran/
 excerpt: "A Bitcoin++ Floripa 2025 hackathon honorable mention focused on voice-first Bitcoin onboarding and assistance."
 description: "Fran / AI++ was a Bitcoin++ Floripa 2025 hackathon honorable mention exploring a voice-first AI assistant for Bitcoin education, onboarding, and interface guidance."
 content_type: project

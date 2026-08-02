@@ -3,6 +3,7 @@ layout: post
 title:  "O Padrão Bitcoin"
 date:   2020-10-16
 permalink: /project/o-padrao-bitcoin/
+redirect_from: /o-padrao-bitcoin/
 excerpt: "Tradução para o português da edição brasileira do clássico de Saifedean Ammous."
 description: "Trabalhei como tradutor, ao lado de Guilherme Bandeira, na edição brasileira de O Padrão Bitcoin, clássico de Saifedean Ammous sobre a história do dinheiro e o papel do Bitcoin."
 content_type: project
