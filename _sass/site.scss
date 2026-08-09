@@ -199,6 +199,15 @@ header .entry-meta {
     float: left;
     text-align: left;
 }
+
+.media-source,
+.related-posts {
+	margin-top: 1.5rem;
+}
+
+.related-posts ul {
+	margin-bottom: 0;
+}
 .social-share {
 	display: block;
     margin-top: 1rem;

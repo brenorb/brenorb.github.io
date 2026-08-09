@@ -2,6 +2,7 @@
 layout: post
 title:  "Podcast - Sessão de Hopium Ep. 20"
 date:   2022-09-21
+last_modified_at: 2026-08-09
 excerpt: "Participação no Sessão de Hopium Ep. 20 com Breno Brito, Koda e Lawrence para discutir Bitcoin."
 description: "Participação de Breno Brito no Sessão de Hopium para discutir Bitcoin, transição para o ecossistema, Taproot, Lightning, vigilância financeira e a camada cypherpunk do protocolo."
 content_type: media
@@ -10,6 +11,7 @@ tags:
 - podcast
 comments: false
 feature: /assets/generated/podcast-sessao-de-hopium-ep-20.jpg
+youtube_id: jiZwzsmd9Go
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/jiZwzsmd9Go?si=GVZSa7F_EASMuRFZ" title="Podcast - Sessão de Hopium Ep. 20" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -33,4 +35,3 @@ Ao longo da conversa, o debate mistura temas técnicos e políticos: `Taproot`, 
 - [Refúgio Bitcoin](https://www.refugiobitcoin.com.br/)
 - [Artigos de Breno Brito no Portal do Bitcoin](https://portaldobitcoin.uol.com.br/author/breno/)
 - [Breaking Bitcoin no Twitter](https://twitter.com/breakingbitcoin)
-

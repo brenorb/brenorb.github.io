@@ -2,6 +2,7 @@
 layout: post
 title: "Palestra - Introdução a opções"
 date: 2019-08-26 12:00:00 -0300
+last_modified_at: 2026-08-09
 excerpt: "Palestra introdutória sobre opções e derivativos, realizada na UnB e publicada no canal de Breno Brito."
 description: "Palestra introdutória sobre opções que explica puts, calls, precificação, transferência de risco e estratégias como covered call, travas, borboleta, condor e calendário."
 content_type: media
@@ -12,6 +13,7 @@ tags:
 - presentation
 comments: false
 feature: /assets/generated/palestra-introducao-a-opcoes-v2.jpg
+youtube_id: jCL-yxlpx8Q
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/jCL-yxlpx8Q" title="Palestra - Introdução a opções" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -42,4 +44,3 @@ Ao longo da fala, a ênfase está menos em formalismo matemático e mais em intu
 {% include generated/palestra-introducao-a-opcoes-chapters.html %}
 
 Observação: as explicações desenhadas no quadro não foram filmadas no vídeo original.
-

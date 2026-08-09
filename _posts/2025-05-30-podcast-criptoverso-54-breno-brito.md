@@ -2,6 +2,7 @@
 layout: post
 title:  "Podcast - Criptoverso #054 - Breno Brito"
 date:   2025-05-30 12:00:00 -0300
+last_modified_at: 2026-08-09
 description: "Conversa no Criptoverso sobre a trajetória de Breno Brito, a ponte entre Bitcoin e inteligência artificial, a origem do livro 101 Perguntas sobre Bitcoin e por que o tema exige mais estudo do que hype."
 category: podcast
 tags: [bitcoin, podcast]
@@ -10,6 +11,7 @@ share: true
 content_type: media
 excerpt: "Participação no Criptoverso #054 para conversar sobre Bitcoin e temas relacionados ao ecossistema."
 feature: /assets/generated/podcast-criptoverso-54-breno-brito.jpg
+youtube_id: Vxt0Egc77o8
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/Vxt0Egc77o8" title="Podcast - Criptoverso #054 - Breno Brito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

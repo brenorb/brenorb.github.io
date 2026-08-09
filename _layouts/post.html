@@ -73,6 +73,14 @@ layout: compress
                     {% endfor %}
                 </section>
                 {% endif %}
+                {% if page.youtube_id %}
+                <p class="media-source">Original recording: <a href="https://www.youtube.com/watch?v={{ page.youtube_id }}">watch on YouTube</a>.</p>
+                {% elsif page.media_url %}
+                <p class="media-source">Original recording: <a href="{{ page.media_url }}">open the source</a>.</p>
+                {% endif %}
+                {% if page.content_type == "media" or page.content_type == "article" %}
+                {% include related-posts.html %}
+                {% endif %}
                 <div class="entry-meta">
                 {% include meta.html %}
                 </div>

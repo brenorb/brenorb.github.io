@@ -17,6 +17,19 @@ checks = {
   }
 }
 
+content_routes = %w[
+  /palestra-introducao-a-opcoes/
+  /podcast-stealth-fountain/
+  /podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/
+  /podcast-fernando-caixeta-101-perguntas-sobre-bitcoin/
+  /podcast-bipa-cast-38-satsconf/
+  /podcast-sessao-de-hopium-ep-20/
+  /ordinals-devem-ser-banidos/
+  /podcast-explica-bitcoin-ia-fim-da-historia-humana/
+  /podcast-criptoverso-54-breno-brito/
+  /os-7-fundamentos-do-maximalismo-do-bitcoin/
+]
+
 errors = checks.filter_map do |route, expectation|
   output_path = File.join(site_dir, route.delete_prefix("/"), "index.html")
   next "#{route} was not generated at #{output_path}" unless File.file?(output_path)
@@ -24,6 +37,7 @@ errors = checks.filter_map do |route, expectation|
   html = File.read(output_path)
   canonical = %(<link rel="canonical" href="#{expectation[:canonical]}">)
   next "#{route} does not canonicalize to #{expectation[:canonical]}" unless html.include?(canonical)
+  next "#{route} contains a malformed double-slash feature URL" if html.include?("https://brenorb.com//assets/")
 
   if expectation[:redirect]
     refresh = %(http-equiv="refresh" content="0; url=#{expectation[:canonical]}")
@@ -34,9 +48,23 @@ errors = checks.filter_map do |route, expectation|
   nil
 end
 
+content_routes.each do |route|
+  output_path = File.join(site_dir, route.delete_prefix("/"), "index.html")
+  unless File.file?(output_path)
+    errors << "#{route} was not generated at #{output_path}"
+    next
+  end
+
+  html = File.read(output_path)
+  errors << "#{route} is missing article:modified_time" unless html.include?("property=\"article:modified_time\"")
+  errors << "#{route} is missing Article dateModified schema" unless html.include?("\"dateModified\"")
+  errors << "#{route} is missing a related-pages section" unless html.include?("class=\"related-posts\"")
+  errors << "#{route} contains a malformed double-slash feature URL" if html.include?("https://brenorb.com//assets/")
+end
+
 if errors.any?
   warn errors.join("\n")
   exit 1
 end
 
-puts "Verified #{checks.length} Google indexing routes."
+puts "Verified #{checks.length + content_routes.length} Google indexing routes."
