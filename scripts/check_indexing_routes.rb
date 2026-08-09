@@ -30,6 +30,24 @@ content_routes = %w[
   /os-7-fundamentos-do-maximalismo-do-bitcoin/
 ]
 
+intentional_noindex_routes = {
+  "/interviews/" => {
+    output_path: "interviews/index.html",
+    canonical: "https://brenorb.com/media/",
+    redirect: true
+  },
+  "/posts/" => {
+    output_path: "posts/index.html",
+    canonical: "https://brenorb.com/articles/",
+    redirect: true
+  },
+  "/404" => {
+    output_path: "404.html",
+    canonical: "https://brenorb.com/404",
+    redirect: false
+  }
+}
+
 errors = checks.filter_map do |route, expectation|
   output_path = File.join(site_dir, route.delete_prefix("/"), "index.html")
   next "#{route} was not generated at #{output_path}" unless File.file?(output_path)
@@ -62,9 +80,27 @@ content_routes.each do |route|
   errors << "#{route} contains a malformed double-slash feature URL" if html.include?("https://brenorb.com//assets/")
 end
 
+intentional_noindex_routes.each do |route, expectation|
+  output_path = File.join(site_dir, expectation[:output_path])
+  unless File.file?(output_path)
+    errors << "#{route} was not generated at #{output_path}"
+    next
+  end
+
+  html = File.read(output_path)
+  canonical = %(<link rel="canonical" href="#{expectation[:canonical]}">)
+  errors << "#{route} does not canonicalize to #{expectation[:canonical]}" unless html.include?(canonical)
+  errors << "#{route} is missing its intentional noindex directive" unless html.match?(%r{<meta name="robots" content="noindex(?:,follow)?">})
+
+  if expectation[:redirect]
+    refresh = %(http-equiv="refresh" content="0; url=#{expectation[:canonical]}")
+    errors << "#{route} is missing its redirect to #{expectation[:canonical]}" unless html.include?(refresh)
+  end
+end
+
 if errors.any?
   warn errors.join("\n")
   exit 1
 end
 
-puts "Verified #{checks.length + content_routes.length} Google indexing routes."
+puts "Verified #{checks.length + content_routes.length + intentional_noindex_routes.length} Google indexing routes."
