@@ -31,6 +31,21 @@ content_routes = %w[
 ]
 
 intentional_noindex_routes = {
+  "/projects/fast-transcript/" => {
+    output_path: "projects/fast-transcript/index.html",
+    canonical: "https://brenorb.com/project/fast-transcript/",
+    redirect: true
+  },
+  "/projects/docs2epub/" => {
+    output_path: "projects/docs2epub/index.html",
+    canonical: "https://brenorb.com/project/docs2epub/",
+    redirect: true
+  },
+  "/projects/lkdn/" => {
+    output_path: "projects/lkdn/index.html",
+    canonical: "https://brenorb.com/project/lkdn/",
+    redirect: true
+  },
   "/interviews/" => {
     output_path: "interviews/index.html",
     canonical: "https://brenorb.com/media/",
@@ -47,6 +62,12 @@ intentional_noindex_routes = {
     redirect: false
   }
 }
+
+canonical_project_routes = %w[
+  /project/fast-transcript/
+  /project/docs2epub/
+  /project/lkdn/
+]
 
 errors = checks.filter_map do |route, expectation|
   output_path = File.join(site_dir, route.delete_prefix("/"), "index.html")
@@ -98,9 +119,23 @@ intentional_noindex_routes.each do |route, expectation|
   end
 end
 
+canonical_project_routes.each do |route|
+  output_path = File.join(site_dir, route.delete_prefix("/"), "index.html")
+  unless File.file?(output_path)
+    errors << "#{route} was not generated at #{output_path}"
+    next
+  end
+
+  html = File.read(output_path)
+  errors << "#{route} is missing its self-canonical URL" unless html.include?(%(<link rel="canonical" href="https://brenorb.com#{route}">))
+  errors << "#{route} must not be noindex" if html.match?(%r{<meta name="robots" content="noindex})
+  errors << "#{route} is missing from the projects archive" unless File.read(File.join(site_dir, "projects/index.html")).include?("https://brenorb.com#{route}")
+  errors << "#{route} is missing from the sitemap" unless File.read(File.join(site_dir, "sitemap.xml")).include?("<loc>https://brenorb.com#{route}</loc>")
+end
+
 if errors.any?
   warn errors.join("\n")
   exit 1
 end
 
-puts "Verified #{checks.length + content_routes.length + intentional_noindex_routes.length} Google indexing routes."
+puts "Verified #{checks.length + content_routes.length + intentional_noindex_routes.length + canonical_project_routes.length} Google indexing routes."
