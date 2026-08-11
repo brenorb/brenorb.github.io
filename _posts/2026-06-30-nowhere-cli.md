@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "nowhere-cli"
 date: 2026-06-30
 permalink: /project/nowhere-cli/

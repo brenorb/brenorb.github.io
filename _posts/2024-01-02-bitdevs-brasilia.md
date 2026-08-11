@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Bitdevs Brasília"
 date: 2024-01-02
 permalink: /project/bitdevs-brasilia/

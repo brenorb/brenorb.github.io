@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Portfolio optimization using variance-adjusted mean and predictive structures"
 date: 2020-12-01
 permalink: /project/portfolio-optimization-thesis/

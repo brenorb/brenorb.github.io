@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title:  "Fran / AI++ - Voice-first Bitcoin AI assistant"
 date:   2025-02-22
 permalink: /project/fran/

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "bitchat-cli"
 date: 2026-06-29
 permalink: /project/bitchat-cli/

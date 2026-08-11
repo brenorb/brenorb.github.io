@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Reinforcement learning applied to financial markets"
 date: 2013-12-23
 permalink: /project/reinforcement-learning-financial-markets-thesis/

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "fast-transcript"
 date: 2026-05-03
 permalink: /project/fast-transcript/

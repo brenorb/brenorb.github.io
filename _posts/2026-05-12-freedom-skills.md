@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "Freedom Skills"
 date: 2026-05-12
 permalink: /project/freedom-skills/

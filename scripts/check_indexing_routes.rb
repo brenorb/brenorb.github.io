@@ -69,6 +69,29 @@ canonical_project_routes = %w[
   /project/lkdn/
 ]
 
+english_routes = %w[
+  /about/
+  /role-bitcoin-gen-ai/
+  /project/bip39-portuguese-wordlist/
+  /project/bitchat-cli/
+  /project/bitdevs-brasilia/
+  /project/btc-graph/
+  /project/docs2epub/
+  /project/fast-transcript/
+  /project/filepizza-cli/
+  /project/fran/
+  /project/freedom-skills/
+  /project/granola/
+  /project/lkdn/
+  /project/minimaxis/
+  /project/nowhere-cli/
+  /project/portfolio-optimization-thesis/
+  /project/reinforcement-learning-financial-markets-thesis/
+  /project/satoshi-7b/
+  /project/stealth/
+  /project/stringer-safety/
+]
+
 errors = checks.filter_map do |route, expectation|
   output_path = File.join(site_dir, route.delete_prefix("/"), "index.html")
   next "#{route} was not generated at #{output_path}" unless File.file?(output_path)
@@ -131,6 +154,17 @@ canonical_project_routes.each do |route|
   errors << "#{route} must not be noindex" if html.match?(%r{<meta name="robots" content="noindex})
   errors << "#{route} is missing from the projects archive" unless File.read(File.join(site_dir, "projects/index.html")).include?("https://brenorb.com#{route}")
   errors << "#{route} is missing from the sitemap" unless File.read(File.join(site_dir, "sitemap.xml")).include?("<loc>https://brenorb.com#{route}</loc>")
+end
+
+english_routes.each do |route|
+  output_path = File.join(site_dir, route.delete_prefix("/"), "index.html")
+  unless File.file?(output_path)
+    errors << "#{route} was not generated at #{output_path}"
+    next
+  end
+
+  html = File.read(output_path)
+  errors << "#{route} must declare lang=\"en\"" unless html.match?(%r{<html[^>]+lang="en"})
 end
 
 html_files = Dir[File.join(site_dir, "**", "*.html")]

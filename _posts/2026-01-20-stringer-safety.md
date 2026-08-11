@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title:  "Stringer Safety - Keep journalists alive when seconds matter"
 date:   2026-01-20
 permalink: /project/stringer-safety/

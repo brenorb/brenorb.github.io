@@ -1,5 +1,6 @@
 ---
 layout: page
+lang: en
 title: About me
 tags: [about]
 date: 2024-01-25

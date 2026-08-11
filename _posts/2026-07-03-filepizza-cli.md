@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "filepizza-cli"
 date: 2026-07-03
 permalink: /project/filepizza-cli/

@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title: "BIP39 Portuguese Wordlist"
 date: 2020-09-28
 permalink: /project/bip39-portuguese-wordlist/

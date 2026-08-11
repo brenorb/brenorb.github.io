@@ -1,5 +1,6 @@
 ---
 layout: post
+lang: en
 title:  "Granola - Cashu-based exchange"
 date:   2024-11-06
 permalink: /project/granola/
