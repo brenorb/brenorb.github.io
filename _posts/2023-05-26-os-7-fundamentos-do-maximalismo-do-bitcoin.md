@@ -101,7 +101,7 @@ O whitepaper foi publicado em 31/10/2008, dando 2 meses de antecedência antes d
 > "Bitcoin se beneficiou de um conjunto muito raro de circunstâncias. Por ter sido lançado em um mundo onde o dinheiro digital não tinha valor estabelecido, eles circulavam livremente. Isso não pode ser recapturado hoje, pois todos esperam que as moedas tenham valor. A concepção imaculada"
 > -- Nic Carter
 
-![](https://pbs.twimg.com/media/DorUYPsUwAA_13_?format=jpg&name=large)
+![Citação visual sobre a concepção imaculada do Bitcoin](https://pbs.twimg.com/media/DorUYPsUwAA_13_?format=jpg&name=large)
 
 Ou seja, além do bitcoin cumprir as 6 propriedades acima, ainda teve uma concepção imaculada, impossível de ser replicada por outras criptomoedas.
 

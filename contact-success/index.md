@@ -4,6 +4,7 @@ title: Message sent
 permalink: /contact-success/
 comments: false
 sitemap: false
+robots: noindex,follow
 ---
 
 <div class="contact-shell contact-shell--success">

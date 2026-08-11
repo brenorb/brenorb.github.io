@@ -2,10 +2,10 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<!--[if lt IE 7]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js"><!--<![endif]-->
 <head>
     {% include head.html %}
 </head>
@@ -18,11 +18,11 @@ layout: compress
                     <a href="{{ '/' | relative_url }}">
                         <img src="{{ '/' | append: site.logo | relative_url }}" alt="{{ site.title }}" class="img-circle zoombtn animated rotateIn">
                     </a>
-                    <h3 class="title">
+                    <h1 class="title">
                         <a class="zoombtn" href="{{ '/' | relative_url }}">
                             <p class="home-title">{{ site.title }}</p>
 			            </a>
-                    </h3>
+                    </h1>
                     <hr class="hr-line">
                     <h3 class="title">
                         <!-- <a href="{{ site.url }}"> -->

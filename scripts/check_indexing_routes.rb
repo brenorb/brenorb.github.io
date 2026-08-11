@@ -133,6 +133,24 @@ canonical_project_routes.each do |route|
   errors << "#{route} is missing from the sitemap" unless File.read(File.join(site_dir, "sitemap.xml")).include?("<loc>https://brenorb.com#{route}</loc>")
 end
 
+html_files = Dir[File.join(site_dir, "**", "*.html")]
+html_files.each do |output_path|
+  html = File.read(output_path)
+  errors << "#{output_path} is missing an html lang attribute" unless html.match?(%r{<html[^>]+lang="[^"]+"})
+
+  robots = html[/<meta name="robots" content="([^"]+)"/, 1]
+  next if robots&.include?("noindex")
+
+  errors << "#{output_path} has an image without alt text" if html.scan(/<img\b[^>]*>/).any? { |tag| tag !~ /\balt="[^"]*\S[^"]*"/ }
+end
+
+home = File.join(site_dir, "index.html")
+errors << "homepage must contain exactly one h1" unless File.read(home).scan(/<h1\b/).length == 1
+
+contact_success = File.join(site_dir, "contact-success/index.html")
+contact_success_html = File.read(contact_success)
+errors << "contact-success must be noindex" unless contact_success_html.include?(%(<meta name="robots" content="noindex,follow">))
+
 if errors.any?
   warn errors.join("\n")
   exit 1

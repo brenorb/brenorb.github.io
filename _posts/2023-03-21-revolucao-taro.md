@@ -15,7 +15,7 @@ feature: /assets/LN.png
 ---
 
 <figure>
-	<a href="https://twitter.com/pymoment/status/1458098341313716241"><img src="https://pbs.twimg.com/media/FDw0sELWEAkST26?format=png&name=900x900"></a>
+	<a href="https://twitter.com/pymoment/status/1458098341313716241"><img src="https://pbs.twimg.com/media/FDw0sELWEAkST26?format=png&name=900x900" alt="Visualização dos canais da Lightning Network"></a>
 	<figcaption><a href="https://twitter.com/pymoment/status/1458098341313716241" title="Visualização das conexões entre os 16 mil canais de Lighting Network criada pelo @pymoment. Em breve, toda essa estrutura permitirá a qualquer pessoa comprar ou vender qualquer ativo com a mesma segurança do bitcoin e de forma não permissionada e não custodial.">Visualização das conexões entre os 16 mil canais de Lighting Network criada pelo @pymoment. Em breve, toda essa estrutura permitirá a qualquer pessoa comprar ou vender qualquer ativo com a mesma segurança do bitcoin e de forma não permissionada e não custodial.</a>.</figcaption>
 </figure>
 
@@ -56,7 +56,7 @@ A mentalidade intencionalmente lenta existe para garantir uma discussão aprofun
 Somente a partir dessa base perene é possível construir valor escalável, pois a base não precisará ser reconstruída a cada nova quebra de consenso. A partir da base de reserva de valor – a blockchain –, foi construída a base de meio de pagamentos – a LN – e, acima dela, em breve, veremos a base sólida da infraestrutura financeira – o Taro.
 
 <figure>
-	<a href="https://river.com/learn/what-is-taro-in-bitcoin/"><img src="https://river.com/learn/images/articles/taro-bitcoin-lightning.png"></a>
+	<a href="https://river.com/learn/what-is-taro-in-bitcoin/"><img src="https://river.com/learn/images/articles/taro-bitcoin-lightning.png" alt="Representação do envio de ativos por Taro na Lightning Network"></a>
 	<figcaption><a href="https://river.com/learn/what-is-taro-in-bitcoin/" title="Representação do funcionamento do envio de ativos por meio da Lightning Network com Taro. Veja que o ativo L-USD é imediatamente vendido por bitcoins, que são de fato enviados e, no final, são usados para comprar o L-USD novamente. Infográfico por River Financial, o quarto maior nó de LN do mundo.">Representação do funcionamento do envio de ativos por meio da Lightning Network com Taro. Veja que o ativo L-USD é imediatamente vendido por bitcoins, que são de fato enviados e, no final, são usados para comprar o L-USD novamente. Infográfico por River Financial, o quarto maior nó de LN do mundo.</a>.</figcaption>
 </figure>
 
