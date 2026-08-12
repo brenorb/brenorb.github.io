@@ -3,6 +3,7 @@ layout: post
 permalink: /media/bifurcacao-dois-blocos-nao-e-comum/
 redirect_from:
   - /bifurcacao-dois-blocos-nao-e-comum/
+  - /bifurcação-dois-blocos-nao-e-comum/
 title: "Blockchain do Bitcoin sofre breve divisão e suspeita de gasto duplo; entenda"
 date: 2023-05-08
 excerpt: "Uma bifurcação de cadeia de dois blocos de profundidade não é comum e só aconteceu duas vezes."
