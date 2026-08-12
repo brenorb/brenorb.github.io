@@ -1,10 +1,12 @@
 ---
 layout: post
+permalink: /projects/minimaxis/
+redirect_from:
+  - /minimaxis/
+  - /project/minimaxis/
 lang: en
 title:  "Minimaxis - Miniscript AI code assistant for Bitcoin smart contracts"
 date:   2023-11-06
-permalink: /project/minimaxis/
-redirect_from: /minimaxis/
 excerpt: "Hackathon winner, a LLM code assistant for Bitcoin smart contracts."
 description: "Minimaxis is a hackathon-winning AI assistant for Bitcoin Miniscript that can write, explain, and correct smart contract code."
 content_type: project

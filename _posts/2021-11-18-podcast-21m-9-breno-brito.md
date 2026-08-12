@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-21m-9-breno-brito/
+redirect_from:
+  - /podcast-21m-9-breno-brito/
 title:  "Podcast - 21 Milhões - #9 - Breno Brito"
 date:   2021-11-18
 excerpt: "Primeiros contatos com o Bitcoin, o caminho até o maximalismo, r/wallstreetbets, economia não ergódica."

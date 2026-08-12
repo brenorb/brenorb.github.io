@@ -1,10 +1,13 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
+require "date"
+require "yaml"
+
 site_dir = ARGV.fetch(0, "_site")
 checks = {
   "/ai-hack-for-freedom-primeiro-lugar/" => {
-    canonical: "https://brenorb.com/project/stringer-safety/",
+    canonical: "https://brenorb.com/projects/stringer-safety/",
     redirect: true
   },
   "/{{ site.url }}/tags/" => {
@@ -18,32 +21,32 @@ checks = {
 }
 
 content_routes = %w[
-  /palestra-introducao-a-opcoes/
-  /podcast-stealth-fountain/
-  /podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/
-  /podcast-fernando-caixeta-101-perguntas-sobre-bitcoin/
-  /podcast-bipa-cast-38-satsconf/
-  /podcast-sessao-de-hopium-ep-20/
-  /ordinals-devem-ser-banidos/
-  /podcast-explica-bitcoin-ia-fim-da-historia-humana/
-  /podcast-criptoverso-54-breno-brito/
-  /os-7-fundamentos-do-maximalismo-do-bitcoin/
+  /media/palestra-introducao-a-opcoes/
+  /media/podcast-stealth-fountain/
+  /media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/
+  /media/podcast-fernando-caixeta-101-perguntas-sobre-bitcoin/
+  /media/podcast-bipa-cast-38-satsconf/
+  /media/podcast-sessao-de-hopium-ep-20/
+  /media/ordinals-devem-ser-banidos/
+  /media/podcast-explica-bitcoin-ia-fim-da-historia-humana/
+  /media/podcast-criptoverso-54-breno-brito/
+  /articles/os-7-fundamentos-do-maximalismo-do-bitcoin/
 ]
 
 intentional_noindex_routes = {
-  "/projects/fast-transcript/" => {
-    output_path: "projects/fast-transcript/index.html",
-    canonical: "https://brenorb.com/project/fast-transcript/",
+  "/project/fast-transcript/" => {
+    output_path: "project/fast-transcript/index.html",
+    canonical: "https://brenorb.com/projects/fast-transcript/",
     redirect: true
   },
-  "/projects/docs2epub/" => {
-    output_path: "projects/docs2epub/index.html",
-    canonical: "https://brenorb.com/project/docs2epub/",
+  "/project/docs2epub/" => {
+    output_path: "project/docs2epub/index.html",
+    canonical: "https://brenorb.com/projects/docs2epub/",
     redirect: true
   },
-  "/projects/lkdn/" => {
-    output_path: "projects/lkdn/index.html",
-    canonical: "https://brenorb.com/project/lkdn/",
+  "/project/lkdn/" => {
+    output_path: "project/lkdn/index.html",
+    canonical: "https://brenorb.com/projects/lkdn/",
     redirect: true
   },
   "/interviews/" => {
@@ -64,33 +67,104 @@ intentional_noindex_routes = {
 }
 
 canonical_project_routes = %w[
-  /project/fast-transcript/
-  /project/docs2epub/
-  /project/lkdn/
+  /projects/fast-transcript/
+  /projects/docs2epub/
+  /projects/lkdn/
 ]
 
 english_routes = %w[
   /about/
-  /role-bitcoin-gen-ai/
-  /project/bip39-portuguese-wordlist/
-  /project/bitchat-cli/
-  /project/bitdevs-brasilia/
-  /project/btc-graph/
-  /project/docs2epub/
-  /project/fast-transcript/
-  /project/filepizza-cli/
-  /project/fran/
-  /project/freedom-skills/
-  /project/granola/
-  /project/lkdn/
-  /project/minimaxis/
-  /project/nowhere-cli/
-  /project/portfolio-optimization-thesis/
-  /project/reinforcement-learning-financial-markets-thesis/
-  /project/satoshi-7b/
-  /project/stealth/
-  /project/stringer-safety/
+  /articles/role-bitcoin-gen-ai/
+  /projects/bip39-portuguese-wordlist/
+  /projects/bitchat-cli/
+  /projects/bitdevs-brasilia/
+  /projects/btc-graph/
+  /projects/docs2epub/
+  /projects/fast-transcript/
+  /projects/filepizza-cli/
+  /projects/fran/
+  /projects/freedom-skills/
+  /projects/granola/
+  /projects/lkdn/
+  /projects/minimaxis/
+  /projects/nowhere-cli/
+  /projects/portfolio-optimization-thesis/
+  /projects/reinforcement-learning-financial-markets-thesis/
+  /projects/satoshi-7b/
+  /projects/stealth/
+  /projects/stringer-safety/
 ]
+
+source_root = File.expand_path("..", File.expand_path(site_dir))
+
+def route_output_path(site_dir, route)
+  relative = route.delete_prefix("/")
+  relative = "index.html" if relative.empty?
+  relative = "#{relative}index.html" if relative.end_with?("/")
+  File.join(site_dir, relative)
+end
+
+def source_metadata(path)
+  source = File.read(path)
+  return {} unless source.start_with?("---")
+
+  yaml = source.split(/^---\s*$/, 3)[1]
+  YAML.safe_load(yaml, permitted_classes: [Date, Time]) || {}
+end
+
+def metadata_paths(value)
+  case value
+  when Array then value
+  when nil then []
+  else [value]
+  end
+end
+
+post_route_errors = []
+Dir[File.join(source_root, "_posts", "*.md")].sort.each do |source_path|
+  data = source_metadata(source_path)
+  route = data["permalink"].to_s
+  next if route.empty?
+
+  output_path = route_output_path(site_dir, route)
+  unless File.file?(output_path)
+    post_route_errors << "#{route} was not generated at #{output_path}"
+    next
+  end
+
+  html = File.read(output_path)
+  canonical_url = "https://brenorb.com#{route}"
+  post_route_errors << "#{route} is missing its self-canonical URL" unless html.include?(%(<link rel="canonical" href="#{canonical_url}">))
+  post_route_errors << "#{route} must not be noindex" if html.match?(%r{<meta name="robots" content="noindex})
+
+  archive = case data["content_type"].to_s
+            when "media" then "/media/"
+            when "project" then "/projects/"
+            else "/articles/"
+            end
+  archive_html = File.read(route_output_path(site_dir, archive))
+  post_route_errors << "#{route} is missing from #{archive}" unless archive_html.include?(canonical_url)
+  post_route_errors << "#{route} is missing from the sitemap" unless File.read(File.join(site_dir, "sitemap.xml")).include?("<loc>#{canonical_url}</loc>")
+
+  expected_lang = data["lang"].to_s.empty? ? "pt-BR" : data["lang"].to_s
+  post_route_errors << "#{route} must declare lang=\"#{expected_lang}\"" unless html.match?(%r{<html[^>]+lang="#{Regexp.escape(expected_lang)}"})
+
+  metadata_paths(data["redirect_from"]).each do |redirect|
+    redirect_route = redirect.to_s
+    next if redirect_route.empty?
+
+    redirect_path = route_output_path(site_dir, redirect_route)
+    unless File.file?(redirect_path)
+      post_route_errors << "#{route} is missing its redirect output for #{redirect_route}"
+      next
+    end
+
+    redirect_html = File.read(redirect_path)
+    post_route_errors << "#{redirect_route} must canonicalize to #{canonical_url}" unless redirect_html.include?(%(<link rel="canonical" href="#{canonical_url}">))
+    post_route_errors << "#{redirect_route} must be noindex" unless redirect_html.match?(%r{<meta name="robots" content="noindex})
+    post_route_errors << "#{redirect_route} is missing its redirect to #{canonical_url}" unless redirect_html.include?(%(http-equiv="refresh" content="0; url=#{canonical_url}"))
+  end
+end
 
 errors = checks.filter_map do |route, expectation|
   output_path = File.join(site_dir, route.delete_prefix("/"), "index.html")
@@ -156,6 +230,8 @@ canonical_project_routes.each do |route|
   errors << "#{route} is missing from the sitemap" unless File.read(File.join(site_dir, "sitemap.xml")).include?("<loc>https://brenorb.com#{route}</loc>")
 end
 
+errors.concat(post_route_errors)
+
 english_routes.each do |route|
   output_path = File.join(site_dir, route.delete_prefix("/"), "index.html")
   unless File.file?(output_path)
@@ -170,10 +246,16 @@ end
 html_files = Dir[File.join(site_dir, "**", "*.html")]
 html_files.each do |output_path|
   html = File.read(output_path)
-  errors << "#{output_path} is missing an html lang attribute" unless html.match?(%r{<html[^>]+lang="[^"]+"})
+  html_lang = html[/<html[^>]+lang="([^"]+)"/, 1]
+  errors << "#{output_path} is missing an html lang attribute" unless html_lang
 
   robots = html[/<meta name="robots" content="([^"]+)"/, 1]
   next if robots&.include?("noindex")
+
+  if html_lang
+    expected_locale = html_lang.start_with?("en") ? "en_US" : html_lang.tr("-", "_")
+    errors << "#{output_path} has the wrong Open Graph locale" unless html.include?(%(<meta property="og:locale" content="#{expected_locale}">))
+  end
 
   errors << "#{output_path} has an image without alt text" if html.scan(/<img\b[^>]*>/).any? { |tag| tag !~ /\balt="[^"]*\S[^"]*"/ }
 end

@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados/
+redirect_from:
+  - /palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados/
 title: "Palestra - CEUB/GDG Brasília - Apresentações sobre Inteligência Artificial e Ciência de Dados"
 date: 2024-06-14 12:00:00 -0300
 description: "Registro do meetup GDG Brasília + CEUB com duas falas complementares: uma introdução prática a alinhamento de LLMs com Breno Brito e uma discussão sobre mitos, mercado e carreira em ciência de dados com Gabriel Lima Gomes."

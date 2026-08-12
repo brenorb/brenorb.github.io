@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-bettermoney-101-perguntas-sobre-bitcoin/
+redirect_from:
+  - /podcast-bettermoney-101-perguntas-sobre-bitcoin/
 title:  "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin"
 date:   2025-01-06 12:00:00 -0300
 description: "Conversa no BetterMoney sobre a trajetória de Breno Brito no Bitcoin, os erros do primeiro ciclo, o caminho até o maximalismo e as ideias por trás de 101 Perguntas sobre Bitcoin."

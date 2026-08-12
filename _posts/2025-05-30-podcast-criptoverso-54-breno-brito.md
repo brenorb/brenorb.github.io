@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-criptoverso-54-breno-brito/
+redirect_from:
+  - /podcast-criptoverso-54-breno-brito/
 title:  "Podcast - Criptoverso #054 - Breno Brito"
 date:   2025-05-30 12:00:00 -0300
 last_modified_at: 2026-08-09

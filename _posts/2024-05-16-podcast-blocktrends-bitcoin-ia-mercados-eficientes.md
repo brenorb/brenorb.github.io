@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-blocktrends-bitcoin-ia-mercados-eficientes/
+redirect_from:
+  - /podcast-blocktrends-bitcoin-ia-mercados-eficientes/
 title:  "Podcast - BlockTrends - Bitcoin, Inteligência Artificial e Mercados Eficientes - com Breno Brito"
 date:   2024-05-16
 excerpt: "Entender o preço do Bitcoin e como o mercado funciona é uma tarefa difícil para quem observa apenas os gráficos de preço. Entretanto, ao observarmos através da ótica matemática, começamos a entender uma série de ineficiências neste mercado."

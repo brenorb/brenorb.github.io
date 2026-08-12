@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /articles/17-fatos-todo-iniciante-precisa-aprender/
+redirect_from:
+  - /17-fatos-todo-iniciante-precisa-aprender/
 title:  "17 fatos que todo iniciante no Bitcoin precisa aprender"
 date:   2021-05-16
 excerpt: "Jornada de aprendizado de uma criptomoeda"

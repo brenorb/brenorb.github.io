@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/ordinals-devem-ser-banidos/
+redirect_from:
+  - /ordinals-devem-ser-banidos/
 title:  "Os ordinals devem ser banidos da blockchain do Bitcoin? O que dizem os especialistas"
 date:   2023-05-14
 last_modified_at: 2026-08-09

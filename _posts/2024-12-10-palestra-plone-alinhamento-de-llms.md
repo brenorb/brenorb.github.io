@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/palestra-plone-alinhamento-de-llms/
+redirect_from:
+  - /palestra-plone-alinhamento-de-llms/
 title: "Palestra - Plone - Alinhamento de LLMs: O Que É e Principais Técnicas"
 date: 2024-12-10 12:00:00 -0300
 description: "Apresentação no Plone sobre o que significa alinhar LLMs, os principais riscos de segurança e viés e as técnicas mais usadas hoje, de prompt engineering e fine-tuning a RLHF, guardrails e sparse autoencoders."

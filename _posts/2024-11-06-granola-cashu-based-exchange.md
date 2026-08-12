@@ -1,10 +1,12 @@
 ---
 layout: post
+permalink: /projects/granola/
+redirect_from:
+  - /granola/
+  - /project/granola/
 lang: en
 title:  "Granola - Cashu-based exchange"
 date:   2024-11-06
-permalink: /project/granola/
-redirect_from: /granola/
 excerpt: "3rd place and Best Nostr at SatsHack 2024, a Cashu + Nostr exchange concept."
 description: "Granola is a Cashu- and Nostr-based exchange concept I built with Luis Schwab for SatsHack 2024 around privacy-preserving ecash swaps."
 content_type: project

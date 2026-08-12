@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /articles/10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas/
+redirect_from:
+  - /10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas/
 title:  '10 Coisas que Alguns ”Especialistas” e Jornalistas Erram sobre Bitcoin e Criptomoedas'
 date:   2018-07-19
 excerpt: "Corrigindo mitos"

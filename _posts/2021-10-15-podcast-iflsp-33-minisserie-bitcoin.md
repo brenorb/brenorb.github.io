@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-iflsp-33-minisserie-bitcoin/
+redirect_from:
+  - /podcast-iflsp-33-minisserie-bitcoin/
 title:  "Podcast - #33 Minissérie Bitcoin - Episódio 2: Presente com Solange Gueiros e Breno Brito - Acendendo as Luzes (IFLCast) - Instituto de Formação de Líderes de São Paulo (IFLSP)"
 date:   2021-10-15
 description: "Episódio da minissérie Bitcoin do IFLSP com Solange Gueiros e Breno Brito, focado no ‘presente’ da rede e nas novidades tecnológicas que vinham sendo desenvolvidas para o Bitcoin."

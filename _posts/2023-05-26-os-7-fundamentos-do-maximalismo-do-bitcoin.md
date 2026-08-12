@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /articles/os-7-fundamentos-do-maximalismo-do-bitcoin/
+redirect_from:
+  - /os-7-fundamentos-do-maximalismo-do-bitcoin/
 title:  "Os 7 fundamentos do maximalismo do bitcoin"
 date:   2023-05-26
 last_modified_at: 2026-08-09

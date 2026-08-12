@@ -62,7 +62,7 @@ Summary: A list of projects
 
 ### filepizza-cli
 
-URL: https://brenorb.com/project/filepizza-cli/
+URL: https://brenorb.com/projects/filepizza-cli/
 Source: _posts/2026-07-03-filepizza-cli.md
 Date: 2026-07-03
 Content type: project
@@ -85,7 +85,7 @@ The first public commit in the repository is on **2026-07-03**, which is the dat
 
 ### nowhere-cli
 
-URL: https://brenorb.com/project/nowhere-cli/
+URL: https://brenorb.com/projects/nowhere-cli/
 Source: _posts/2026-06-30-nowhere-cli.md
 Date: 2026-06-30
 Content type: project
@@ -107,7 +107,7 @@ This project entry uses **2026-06-30**, the date of the first public commit in t
 
 ### lkdn
 
-URL: https://brenorb.com/project/lkdn/
+URL: https://brenorb.com/projects/lkdn/
 Source: _posts/2026-06-30-lkdn.md
 Date: 2026-06-30
 Content type: project
@@ -130,7 +130,7 @@ The first published tag was **`v0.1.0` on 2026-06-30**, which is the date used f
 
 ### bitchat-cli
 
-URL: https://brenorb.com/project/bitchat-cli/
+URL: https://brenorb.com/projects/bitchat-cli/
 Source: _posts/2026-06-29-bitchat-cli.md
 Date: 2026-06-29
 Content type: project
@@ -152,7 +152,7 @@ The first published tag in the repository is **`v0.1.0` on 2026-06-29**, which i
 
 ### Freedom Skills
 
-URL: https://brenorb.com/project/freedom-skills/
+URL: https://brenorb.com/projects/freedom-skills/
 Source: _posts/2026-05-12-freedom-skills.md
 Date: 2026-05-12
 Content type: project
@@ -172,7 +172,7 @@ The longer-term direction is a trusted layer for skill discovery, validation, an
 
 ### fast-transcript
 
-URL: https://brenorb.com/project/fast-transcript/
+URL: https://brenorb.com/projects/fast-transcript/
 Source: _posts/2026-05-03-fast-transcript.md
 Date: 2026-05-03
 Content type: project
@@ -227,7 +227,7 @@ The core direction came from the ONNX Parakeet path used in Handy and the packag
 
 ### Os Três Porquinhos na Vila do Valor
 
-URL: https://brenorb.com/project/os-tres-porquinhos-na-vila-do-valor/
+URL: https://brenorb.com/projects/os-tres-porquinhos-na-vila-do-valor/
 Source: _posts/2026-04-28-os-tres-porquinhos-na-vila-do-valor.md
 Date: 2026-04-28
 Content type: project
@@ -243,7 +243,7 @@ Neste projeto, participei como **revisor**.
 
 ### Podcast - Fountain - Stealth
 
-URL: https://brenorb.com/podcast-stealth-fountain/
+URL: https://brenorb.com/media/podcast-stealth-fountain/
 Source: _posts/2026-04-08-podcast-stealth-fountain.md
 Date: 2026-04-08T12:00:00-03:00
 Content type: media
@@ -266,7 +266,7 @@ Projeto: [Stealth no GitHub](https://github.com/stealth-bitcoin/stealth).
 
 ### Stealth - Bitcoin wallet privacy auditing tool
 
-URL: https://brenorb.com/project/stealth/
+URL: https://brenorb.com/projects/stealth/
 Source: _posts/2026-04-08-stealth.md
 Date: 2026-04-08
 Content type: project
@@ -314,7 +314,7 @@ More context:
 
 ### Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando
 
-URL: https://brenorb.com/podcast-betterm-16-anos-estudando-ia/
+URL: https://brenorb.com/media/podcast-betterm-16-anos-estudando-ia/
 Source: _posts/2026-04-04-podcast-betterm-16-anos-estudando-ia.md
 Date: 2026-04-04T16:05:00-03:00
 Content type: media
@@ -335,7 +335,7 @@ Também gostei da parte sobre especialização, porque ela evita o erro comum de
 
 ### btc-graph - Interactive Bitcoin learning graph
 
-URL: https://brenorb.com/project/btc-graph/
+URL: https://brenorb.com/projects/btc-graph/
 Source: _posts/2026-03-03-btc-graph.md
 Date: 2026-03-03
 Content type: project
@@ -364,7 +364,7 @@ Under the hood, the source of truth lives in `content/nodes/*.json`, which gets 
 
 ### Palestra - bitcoin++ Floripa 2026 - From Vibe Coding to Agentic Engineering
 
-URL: https://brenorb.com/palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering/
+URL: https://brenorb.com/media/palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering/
 Source: _posts/2026-02-26-palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering.md
 Date: 2026-02-26T11:15:00-03:00
 Content type: media
@@ -388,7 +388,7 @@ Links relacionados:
 
 ### Stringer Safety - Keep journalists alive when seconds matter
 
-URL: https://brenorb.com/project/stringer-safety/
+URL: https://brenorb.com/projects/stringer-safety/
 Source: _posts/2026-01-20-stringer-safety.md
 Date: 2026-01-20
 Content type: project
@@ -435,7 +435,7 @@ The project is now being developed in partnership with **The Stringer Foundation
 
 ### Palestra - PyData - Future proof your AI product
 
-URL: https://brenorb.com/palestra-pydata-future-proof-your-ai-product/
+URL: https://brenorb.com/media/palestra-pydata-future-proof-your-ai-product/
 Source: _posts/2026-01-09-palestra-pydata-future-proof-your-ai-product.md
 Date: 2026-01-09T12:00:00-03:00
 Content type: media
@@ -454,7 +454,7 @@ O fechamento também é bom porque vai além de “prompt engineering com nome n
 
 ### Podcast - Explica Bitcoin - IA: O Fim da História Humana ou um Novo Começo?
 
-URL: https://brenorb.com/podcast-explica-bitcoin-ia-fim-da-historia-humana/
+URL: https://brenorb.com/media/podcast-explica-bitcoin-ia-fim-da-historia-humana/
 Source: _posts/2026-01-06-podcast-explica-bitcoin-ia-fim-da-historia-humana.md
 Date: 2026-01-06T12:00:00-03:00
 Content type: media
@@ -475,7 +475,7 @@ Também disponível no Spotify: https://open.spotify.com/episode/13HhyIFSPZzNXB1
 
 ### docs2epub
 
-URL: https://brenorb.com/project/docs2epub/
+URL: https://brenorb.com/projects/docs2epub/
 Source: _posts/2026-01-06-docs2epub.md
 Date: 2026-01-06
 Content type: project
@@ -505,7 +505,7 @@ The first published tag was **`v0.1.0` on 2026-01-06**, which is the date used f
 
 ### Podcast - Fernando Caixeta - 101 Perguntas Sobre BITCOIN (com Breno Brito)
 
-URL: https://brenorb.com/podcast-fernando-caixeta-101-perguntas-sobre-bitcoin/
+URL: https://brenorb.com/media/podcast-fernando-caixeta-101-perguntas-sobre-bitcoin/
 Source: _posts/2025-12-18-podcast-fernando-caixeta-101-perguntas-sobre-bitcoin.md
 Date: 2025-12-18T12:00:00-03:00
 Content type: media
@@ -524,7 +524,7 @@ Outro ponto bom é que a entrevista volta a perguntas que parecem óbvias, mas q
 
 ### Podcast - Criptoverso #054 - Breno Brito
 
-URL: https://brenorb.com/podcast-criptoverso-54-breno-brito/
+URL: https://brenorb.com/media/podcast-criptoverso-54-breno-brito/
 Source: _posts/2025-05-30-podcast-criptoverso-54-breno-brito.md
 Date: 2025-05-30T12:00:00-03:00
 Content type: media
@@ -543,7 +543,7 @@ Tem ainda um tema recorrente aqui que vale registrar: o problema do hype. O epis
 
 ### O Manifesto Descomunista
 
-URL: https://brenorb.com/project/o-manifesto-descomunista/
+URL: https://brenorb.com/projects/o-manifesto-descomunista/
 Source: _posts/2025-02-25-o-manifesto-descomunista.md
 Date: 2025-02-25
 Content type: project
@@ -561,7 +561,7 @@ O resultado foi a edição brasileira publicada na Amazon, ligada ao lado mais f
 
 ### Fran / AI++ - Voice-first Bitcoin AI assistant
 
-URL: https://brenorb.com/project/fran/
+URL: https://brenorb.com/projects/fran/
 Source: _posts/2025-02-22-fran-ai-plus-plus.md
 Date: 2025-02-22
 Content type: project
@@ -622,7 +622,7 @@ Fran stayed as a hackathon prototype rather than turning into an ongoing standal
 
 ### Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin
 
-URL: https://brenorb.com/podcast-lancei-essa-014-tudo-sobre-bitcoin/
+URL: https://brenorb.com/media/podcast-lancei-essa-014-tudo-sobre-bitcoin/
 Source: _posts/2025-02-04-podcast-lancei-essa-014-tudo-sobre-bitcoin.md
 Date: 2025-02-04T12:00:00-03:00
 Content type: media
@@ -641,7 +641,7 @@ Tem também uma parte especialmente útil sobre o ambiente ao redor do protocolo
 
 ### Podcast - BetterMoney - 101 Perguntas sobre Bitcoin
 
-URL: https://brenorb.com/podcast-bettermoney-101-perguntas-sobre-bitcoin/
+URL: https://brenorb.com/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/
 Source: _posts/2025-01-06-podcast-bettermoney-101-perguntas-sobre-bitcoin.md
 Date: 2025-01-06T12:00:00-03:00
 Content type: media
@@ -662,7 +662,7 @@ Também gosto deste episódio porque ele captura a fronteira moral do debate. A 
 
 ### Palestra - Plone - Alinhamento de LLMs: O Que É e Principais Técnicas
 
-URL: https://brenorb.com/palestra-plone-alinhamento-de-llms/
+URL: https://brenorb.com/media/palestra-plone-alinhamento-de-llms/
 Source: _posts/2024-12-10-palestra-plone-alinhamento-de-llms.md
 Date: 2024-12-10T12:00:00-03:00
 Content type: media
@@ -683,7 +683,7 @@ Também tem uma parte boa de exemplos concretos de falha, incluindo respostas pe
 
 ### Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf
 
-URL: https://brenorb.com/podcast-bipa-cast-38-satsconf/
+URL: https://brenorb.com/media/podcast-bipa-cast-38-satsconf/
 Source: _posts/2024-11-22-podcast-bipa-cast-38-satsconf.md
 Date: 2024-11-22T12:00:00-03:00
 Content type: media
@@ -704,7 +704,7 @@ Tem ainda uma discussão boa sobre análise on-chain, com a ressalva correta: da
 
 ### Granola - Cashu-based exchange
 
-URL: https://brenorb.com/project/granola/
+URL: https://brenorb.com/projects/granola/
 Source: _posts/2024-11-06-granola-cashu-based-exchange.md
 Date: 2024-11-06
 Content type: project
@@ -815,7 +815,7 @@ The current implementation is available at [brenorb.com/granola](https://brenorb
 
 ### Interview - Breno Brito — Full English
 
-URL: https://brenorb.com/breno-brito-full-english/
+URL: https://brenorb.com/media/breno-brito-full-english/
 Source: _posts/2024-09-10-breno-brito-full-english.md
 Date: 2024-09-10T12:00:00-03:00
 Content type: media
@@ -832,7 +832,7 @@ Estou registrando a participação aqui para manter o arquivo do site alinhado c
 
 ### Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin
 
-URL: https://brenorb.com/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/
+URL: https://brenorb.com/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/
 Source: _posts/2024-08-08-podcast-bipa-cast-22-101-perguntas-sobre-bitcoin.md
 Date: 2024-08-08T12:00:00-03:00
 Content type: media
@@ -851,7 +851,7 @@ O papo também passa por exemplos concretos de pergunta difícil para iniciante 
 
 ### Palestra - CEUB/GDG Brasília - Apresentações sobre Inteligência Artificial e Ciência de Dados
 
-URL: https://brenorb.com/palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados/
+URL: https://brenorb.com/media/palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados/
 Source: _posts/2024-06-14-palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados.md
 Date: 2024-06-14T12:00:00-03:00
 Content type: media
@@ -875,7 +875,7 @@ A segunda fala deixa essa página melhor do que um simples embed porque traz um 
 
 ### 101 Perguntas sobre Bitcoin
 
-URL: https://brenorb.com/project/101-perguntas-bitcoin/
+URL: https://brenorb.com/projects/101-perguntas-bitcoin/
 Source: _posts/2024-06-01-101-perguntas-bitcoin.md
 Date: 2024-06-01
 Content type: project
@@ -909,7 +909,7 @@ O mundo precisa desse livro! Cada uma das 101 Perguntas sobre Bitcoin deixa as p
 
 ### Questões sociais são desafio para debate do Bitcoin, diz autor de livro da Editora Portal do Bitcoin
 
-URL: https://brenorb.com/questoes-sociais-sao-desafio/
+URL: https://brenorb.com/media/questoes-sociais-sao-desafio/
 Source: _posts/2024-05-21-questoes-sociais-sao-desafio.md
 Date: 2024-05-21
 Content type: media
@@ -955,7 +955,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/101-pergunta
 
 ### ‘101 Perguntas sobre Bitcoin’: Editora Portal do Bitcoin lança livro sobre a criptomoeda mais famosa do mundo
 
-URL: https://brenorb.com/editora-portal-bitcoin-lanca-livro/
+URL: https://brenorb.com/media/editora-portal-bitcoin-lanca-livro/
 Source: _posts/2024-05-17-editora-portal-bitcoin-lanca-livro.md
 Date: 2024-05-17
 Content type: media
@@ -985,7 +985,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/101-pergunta
 
 ### Podcast - BlockTrends - Bitcoin, Inteligência Artificial e Mercados Eficientes - com Breno Brito
 
-URL: https://brenorb.com/podcast-blocktrends-bitcoin-ia-mercados-eficientes/
+URL: https://brenorb.com/media/podcast-blocktrends-bitcoin-ia-mercados-eficientes/
 Source: _posts/2024-05-16-podcast-blocktrends-bitcoin-ia-mercados-eficientes.md
 Date: 2024-05-16
 Content type: media
@@ -1068,7 +1068,7 @@ O BlockTrends é uma EdTech brasileira focada em Web3 e na indústria da blockch
 
 ### Inteligência artificial e Web 3.0: entenda a relação
 
-URL: https://brenorb.com/inteligencia-artificial-e-web3/
+URL: https://brenorb.com/media/inteligencia-artificial-e-web3/
 Source: _posts/2024-05-05-inteligencia-artificial-e-web3.md
 Date: 2024-05-05
 Content type: media
@@ -1238,7 +1238,7 @@ Publicado no [Mercado Bitcoin](https://www.mercadobitcoin.com.br/economia-digita
 
 ### Podcast - Bipa Cast #003 - O Halving está precificado?
 
-URL: https://brenorb.com/podcast-bipa-3-halving-esta-precificado/
+URL: https://brenorb.com/media/podcast-bipa-3-halving-esta-precificado/
 Source: _posts/2024-04-18-podcast-bipa-3-halving-esta-precificado.md
 Date: 2024-04-18
 Content type: media
@@ -1269,7 +1269,7 @@ Também gosto desse episódio porque ele registra uma mudança de contexto: alé
 
 ### Como será o futuro do Bitcoin à medida que recompensas aos mineradores ficam cada vez menores?
 
-URL: https://brenorb.com/futuro-bitcoin-halving/
+URL: https://brenorb.com/media/futuro-bitcoin-halving/
 Source: _posts/2024-04-06-futuro-bitcoin-halving.md
 Date: 2024-04-06
 Content type: media
@@ -1322,7 +1322,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/como-sera-o-
 
 ### Satoshi 7B - fine-tuned Bitcoin LLM
 
-URL: https://brenorb.com/project/satoshi-7b/
+URL: https://brenorb.com/projects/satoshi-7b/
 Source: _posts/2026-06-09-satoshi-7b.md
 Date: 2024-04-02
 Content type: project
@@ -1350,7 +1350,7 @@ The goal was simple: a model that answered Bitcoin questions from a Bitcoin-nati
 
 ### Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of Satoshi
 
-URL: https://brenorb.com/podcast-liquid-network-code-satoshi/
+URL: https://brenorb.com/media/podcast-liquid-network-code-satoshi/
 Source: _posts/2024-04-01-podcast-liquid-network-code-satoshi.md
 Date: 2024-04-01T12:00:00-03:00
 Content type: media
@@ -1377,7 +1377,7 @@ No final eu entro num ponto que continua atual: modelos não "esquecem" de forma
 
 ### Podcast - Papo Aberto 10 - Análise de Dados pode facilitar seu investimento em Digital Assets? Quant Finance
 
-URL: https://brenorb.com/quant-finance-investimento/
+URL: https://brenorb.com/media/quant-finance-investimento/
 Source: _posts/2024-03-28-quant-finance-investimento.md
 Date: 2024-03-28
 Content type: media
@@ -1404,7 +1404,7 @@ Embedded media: https://www.youtube.com/embed/4Ap0jAPX00o
 
 ### Podcast - O Futuro da Rede Bitcoin - Sessão Temática 40 - Explica Bitcoin
 
-URL: https://brenorb.com/podcast-explica-bitcoin-futuro-da-rede/
+URL: https://brenorb.com/media/podcast-explica-bitcoin-futuro-da-rede/
 Source: _posts/2024-01-18-podcast-explica-bitcoin-futuro-da-rede.md
 Date: 2024-01-18
 Content type: media
@@ -1433,7 +1433,7 @@ Também tem uma tese mais ampla que continua sendo central para mim: se o Bitcoi
 
 ### Bitdevs Brasília
 
-URL: https://brenorb.com/project/bitdevs-brasilia/
+URL: https://brenorb.com/projects/bitdevs-brasilia/
 Source: _posts/2024-01-02-bitdevs-brasilia.md
 Date: 2024-01-02
 Content type: project
@@ -1454,7 +1454,7 @@ This project entry uses **2024-01-02**, the public creation date of the `ClubeBi
 
 ### Quais novas tecnologias devem surgir nos próximos anos no Bitcoin?
 
-URL: https://brenorb.com/novas-tecnologias-bitcoin/
+URL: https://brenorb.com/articles/novas-tecnologias-bitcoin/
 Source: _posts/2023-12-26-novas-tecnologias-bitcoin.md
 Date: 2023-12-26
 Tags: bitcoin, ark, lightning network, layer 2, rollups, utreexo, drivechains, sidechains
@@ -1533,7 +1533,7 @@ Leia mais sobre o livro [📖 AQUI](https://bitcoin101.site)
 
 ### Podcast - O Espírito de Satoshi e Miniscripts no Hackathon da SatsConf c/ Breno Brito - Sessão Temática 38 - Explica Bitcoin | Podcast on Spotify
 
-URL: https://brenorb.com/podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon/
+URL: https://brenorb.com/media/podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon/
 Source: _posts/2023-11-28-podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon.md
 Date: 2023-11-28
 Content type: media
@@ -1562,7 +1562,7 @@ Um dos eixos da conversa é o problema de `alinhamento`: em vez de depender de m
 
 ### Satsconf reúne cerca de 700 entusiastas de Bitcoin em SP e confirma 3ª edição em 2024
 
-URL: https://brenorb.com/satsconf-700-entusiastas/
+URL: https://brenorb.com/media/satsconf-700-entusiastas/
 Source: _posts/2023-11-08-satsconf-700-entusiastas.md
 Date: 2023-11-08
 Content type: media
@@ -1595,7 +1595,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/satsconf-reu
 
 ### Minimaxis - Miniscript AI code assistant for Bitcoin smart contracts
 
-URL: https://brenorb.com/project/minimaxis/
+URL: https://brenorb.com/projects/minimaxis/
 Source: _posts/2023-11-06-minimaxis.md
 Date: 2023-11-06
 Content type: project
@@ -1629,7 +1629,7 @@ Embedded media: https://www.youtube.com/embed/NR1-HOS4xDA?si=PYM3snT3s9BkTPFy
 
 ### The Role of Bitcoin in the Era of Generative AI
 
-URL: https://brenorb.com/role-bitcoin-gen-ai/
+URL: https://brenorb.com/articles/role-bitcoin-gen-ai/
 Source: _posts/2023-10-01-role-bitcoin-gen-ai.md
 Date: 2023-10-01
 Tags: bitcoin, technology, ai
@@ -1712,7 +1712,7 @@ Publicado em [Coinmonks](https://medium.com/p/a8d6c0b63a81#1222-5eeba7cbb6a5) em
 
 ### O Padrão Fiduciário
 
-URL: https://brenorb.com/project/o-padrao-fiduciario/
+URL: https://brenorb.com/projects/o-padrao-fiduciario/
 Source: _posts/2023-08-31-o-padrao-fiduciario.md
 Date: 2023-08-31
 Content type: project
@@ -1730,7 +1730,7 @@ O resultado foi a edição brasileira publicada na Amazon, complementando as ide
 
 ### Evento no Discord vai debater qual é a melhor criptomoeda: Bitcoin ou Ethereum
 
-URL: https://brenorb.com/debate-discord-bitcoin-ethereum/
+URL: https://brenorb.com/media/debate-discord-bitcoin-ethereum/
 Source: _posts/2023-05-30-debate-discord-bitcoin-ethereum.md
 Date: 2023-05-30
 Content type: media
@@ -1770,7 +1770,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/evento-no-di
 
 ### Os 7 fundamentos do maximalismo do bitcoin
 
-URL: https://brenorb.com/os-7-fundamentos-do-maximalismo-do-bitcoin/
+URL: https://brenorb.com/articles/os-7-fundamentos-do-maximalismo-do-bitcoin/
 Source: _posts/2023-05-26-os-7-fundamentos-do-maximalismo-do-bitcoin.md
 Date: 2023-05-26
 Tags: bitcoin, philosophy, ethics, risk
@@ -1877,7 +1877,7 @@ Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.
 
 ### Os ordinals devem ser banidos da blockchain do Bitcoin? O que dizem os especialistas
 
-URL: https://brenorb.com/ordinals-devem-ser-banidos/
+URL: https://brenorb.com/media/ordinals-devem-ser-banidos/
 Source: _posts/2023-05-14-ordinals-devem-ser-banidos.md
 Date: 2023-05-14
 Content type: media
@@ -1964,7 +1964,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/os-ordinals-
 
 ### Blockchain do Bitcoin sofre breve divisão e suspeita de gasto duplo; entenda
 
-URL: https://brenorb.com/bifurcacao-dois-blocos-nao-e-comum/
+URL: https://brenorb.com/media/bifurcacao-dois-blocos-nao-e-comum/
 Source: _posts/2023-05-08-bifurcacao-dois-blocos-nao-e-comum.md
 Date: 2023-05-08
 Content type: media
@@ -2043,7 +2043,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/blockchain-d
 
 ### Bitcoin Stamps: Conheça o projeto que está invadindo a rede da maior criptomoeda do mundo
 
-URL: https://brenorb.com/bitcoin-stamps-conheca-o-projeto/
+URL: https://brenorb.com/media/bitcoin-stamps-conheca-o-projeto/
 Source: _posts/2023-04-09-bitcoin-stamps-conheca-o-projeto.md
 Date: 2023-04-09
 Content type: media
@@ -2121,7 +2121,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/bitcoin-stam
 
 ### O Reflexo do Mundo Tomado pela Dor, pelo Medo e pela Culpa
 
-URL: https://brenorb.com/ftx-guilt-fear/
+URL: https://brenorb.com/articles/ftx-guilt-fear/
 Source: _posts/2023-03-25-o-reflexo-do-mundo-tomado-pela-dor-pelo-medo-e-pela-culpa.md
 Date: 2023-03-25T16:31:00-03:00
 Tags: philosophy, ayn rand, literature
@@ -2203,7 +2203,7 @@ Isso mostra, para quem estava prestando atenção, o nível de desalinhamento de
 
 ### A Revolução Taro
 
-URL: https://brenorb.com/revolucao-taro/
+URL: https://brenorb.com/articles/revolucao-taro/
 Source: _posts/2023-03-21-revolucao-taro.md
 Date: 2023-03-21
 Tags: taproot assets, lightning network, bifi, tokenization, bitcoin
@@ -2270,7 +2270,7 @@ Originalmente publicado no [blog do Mercado Bitcoin](https://www.mercadobitcoin.
 
 ### Os blocos de Bitcoin não param de aumentar; o que está acontecendo com a blockchain?
 
-URL: https://brenorb.com/blocos-bitcoin-nao-param-aumentar/
+URL: https://brenorb.com/media/blocos-bitcoin-nao-param-aumentar/
 Source: _posts/2023-02-08-blocos-bitcoin-nao-param-aumentar.md
 Date: 2023-02-08
 Content type: media
@@ -2349,7 +2349,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/os-blocos-de
 
 ### Podcast - Sessão de Hopium Ep. 20
 
-URL: https://brenorb.com/podcast-sessao-de-hopium-ep-20/
+URL: https://brenorb.com/media/podcast-sessao-de-hopium-ep-20/
 Source: _posts/2022-09-21-podcast-sessao-de-hopium-ep-20.md
 Date: 2022-09-21
 Content type: media
@@ -2380,7 +2380,7 @@ Ao longo da conversa, o debate mistura temas técnicos e políticos: `Taproot`, 
 
 ### Bitcoin abaixo de US$ 19 mil? Por que seria um padrão de preço que nunca aconteceu antes
 
-URL: https://brenorb.com/bitcoin-pode-cair-abaixo-de-19-mil/
+URL: https://brenorb.com/media/bitcoin-pode-cair-abaixo-de-19-mil/
 Source: _posts/2022-06-15-bitcoin-pode-cair-abaixo-de-19-mil.md
 Date: 2022-06-15
 Content type: media
@@ -2441,7 +2441,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/o-bitcoin-po
 
 ### Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica
 
-URL: https://brenorb.com/btc-em-queda-com-inflacao-e-geopolitica/
+URL: https://brenorb.com/media/btc-em-queda-com-inflacao-e-geopolitica/
 Source: _posts/2022-04-04-btc-em-queda-com-inflacao-e-geopolitica.md
 Date: 2022-04-04
 Content type: media
@@ -2514,7 +2514,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/manha-cripto
 
 ### Bitcoin atinge marco de 19 milhões de BTCs minerados; restam 2 milhões
 
-URL: https://brenorb.com/bitcoin-19-milhoes-minerados/
+URL: https://brenorb.com/media/bitcoin-19-milhoes-minerados/
 Source: _posts/2022-04-01-bitcoin-19-milhoes-minerados.md
 Date: 2022-04-01
 Content type: media
@@ -2565,7 +2565,7 @@ Publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.br/bitcoin-atin
 
 ### Podcast - 21 Milhões - #9 - Breno Brito
 
-URL: https://brenorb.com/podcast-21m-9-breno-brito/
+URL: https://brenorb.com/media/podcast-21m-9-breno-brito/
 Source: _posts/2021-11-18-podcast-21m-9-breno-brito.md
 Date: 2021-11-18
 Content type: media
@@ -2595,7 +2595,7 @@ Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como m
 
 ### Podcast - #33 Minissérie Bitcoin - Episódio 2: Presente com Solange Gueiros e Breno Brito - Acendendo as Luzes (IFLCast) - Instituto de Formação de Líderes de São Paulo (IFLSP)
 
-URL: https://brenorb.com/podcast-iflsp-33-minisserie-bitcoin/
+URL: https://brenorb.com/media/podcast-iflsp-33-minisserie-bitcoin/
 Source: _posts/2021-10-15-podcast-iflsp-33-minisserie-bitcoin.md
 Date: 2021-10-15
 Content type: media
@@ -2616,7 +2616,7 @@ Mesmo sem inventar detalhes que não estão públicos nas show notes, dá para r
 
 ### Elon Musk está errado e eu posso provar
 
-URL: https://brenorb.com/elon-musk-errado/
+URL: https://brenorb.com/articles/elon-musk-errado/
 Source: _posts/2021-05-23-elon-musk-errado.md
 Date: 2021-05-23
 Tags: elon musk, technology, bitcoin
@@ -2652,7 +2652,7 @@ Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.b
 
 ### 17 fatos que todo iniciante no Bitcoin precisa aprender
 
-URL: https://brenorb.com/17-fatos-todo-iniciante-precisa-aprender/
+URL: https://brenorb.com/articles/17-fatos-todo-iniciante-precisa-aprender/
 Source: _posts/2021-05-16-17-fatos-todo-iniciante-precisa-aprender.md
 Date: 2021-05-16
 Tags: bitcoin, lightning network, tokenization
@@ -2737,7 +2737,7 @@ Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.b
 
 ### Portfolio optimization using variance-adjusted mean and predictive structures
 
-URL: https://brenorb.com/project/portfolio-optimization-thesis/
+URL: https://brenorb.com/projects/portfolio-optimization-thesis/
 Source: _posts/2020-12-01-tcc-otimizacao-de-portfolio.md
 Date: 2020-12-01
 Content type: project
@@ -2757,7 +2757,7 @@ In the PDF acknowledgements, Lucas Ataide explicitly thanks his **co-advisor Bre
 
 ### O Padrão Bitcoin
 
-URL: https://brenorb.com/project/o-padrao-bitcoin/
+URL: https://brenorb.com/projects/o-padrao-bitcoin/
 Source: _posts/2020-10-16-o-padrao-bitcoin.md
 Date: 2020-10-16
 Content type: project
@@ -2775,7 +2775,7 @@ Summary: Trabalhei como tradutor, ao lado de Guilherme Bandeira, na edição bra
 
 ### BIP39 Portuguese Wordlist
 
-URL: https://brenorb.com/project/bip39-portuguese-wordlist/
+URL: https://brenorb.com/projects/bip39-portuguese-wordlist/
 Source: _posts/2020-09-28-bip39-portuguese-wordlist.md
 Date: 2020-09-28
 Content type: project
@@ -2802,7 +2802,7 @@ The commit that introduced the Portuguese wordlist to the repository is [`d353c5
 
 ### O Pequeno Livro do Bitcoin
 
-URL: https://brenorb.com/project/o-pequeno-livro-do-bitcoin/
+URL: https://brenorb.com/projects/o-pequeno-livro-do-bitcoin/
 Source: _posts/2019-12-17-o-pequeno-livro-do-bitcoin.md
 Date: 2019-12-17
 Content type: project
@@ -2820,7 +2820,7 @@ Na edição brasileira, Breno Brito aparece creditado como **tradutor**. O livro
 
 ### Palestra - Introdução a opções
 
-URL: https://brenorb.com/palestra-introducao-a-opcoes/
+URL: https://brenorb.com/media/palestra-introducao-a-opcoes/
 Source: _posts/2019-08-26-palestra-introducao-a-opcoes.md
 Date: 2019-08-26T12:00:00-03:00
 Content type: media
@@ -2858,7 +2858,7 @@ Observação: as explicações desenhadas no quadro não foram filmadas no víde
 
 ### 10 Coisas que Alguns ”Especialistas” e Jornalistas Erram sobre Bitcoin e Criptomoedas
 
-URL: https://brenorb.com/10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas/
+URL: https://brenorb.com/articles/10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas/
 Source: _posts/2018-07-19-10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas.md
 Date: 2018-07-19
 Tags: bitcoin, myths
@@ -2902,7 +2902,7 @@ Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.b
 
 ### Por que a Visão de Warren Buffett é Incompatível com o Bitcoin
 
-URL: https://brenorb.com/warren-buffett-bitcoin/
+URL: https://brenorb.com/articles/warren-buffett-bitcoin/
 Source: _posts/2018-05-30-warren-buffett-bitcoin.md
 Date: 2018-05-30
 Tags: bitcoin, warren buffett, investment
@@ -2950,7 +2950,7 @@ Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.b
 
 ### As Corretoras Brasileiras de Criptomoedas Falsificam Volume de Bitcoin?
 
-URL: https://brenorb.com/as-corretoras-brasileiras-de-criptomoedas-falsificam-volume-de-bitcoin/
+URL: https://brenorb.com/articles/as-corretoras-brasileiras-de-criptomoedas-falsificam-volume-de-bitcoin/
 Source: _posts/2018-04-19-as-corretoras-brasileiras-de-criptomoedas-falsificam-volume-de-bitcoin.md
 Date: 2018-04-19
 Tags: bitcoin, data science, exchange
@@ -3064,7 +3064,7 @@ Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.b
 
 ### Não Existem Atalhos para uma Criptomoeda de Preço Estável
 
-URL: https://brenorb.com/nao-existem-atalhos-para-uma-criptomoeda-de-preco-estavel/
+URL: https://brenorb.com/articles/nao-existem-atalhos-para-uma-criptomoeda-de-preco-estavel/
 Source: _posts/2018-02-27-nao-existem-atalhos-para-uma-criptomoeda-de-preco-estavel.md
 Date: 2018-02-27
 Tags: bitcoin, stablecoin, brazil, gold
@@ -3160,7 +3160,7 @@ Originalmente publicado no [Portal do Bitcoin](https://portaldobitcoin.uol.com.b
 
 ### Central de Brasil recorta tasa Selic a 6,75% alcanzando mínimo histórico desde 1999
 
-URL: https://brenorb.com/selic-minimo-historico-la-tercera/
+URL: https://brenorb.com/media/selic-minimo-historico-la-tercera/
 Source: _posts/2018-02-08-selic-minimo-historico-la-tercera.md
 Date: 2018-02-08T12:00:00-03:00
 Content type: media
@@ -3177,7 +3177,7 @@ Na reportagem, Breno Brito comentou que a sustentação de juros mais baixos no 
 
 ### Chile cierra 2017 como el segundo país de la región con la menor inflación
 
-URL: https://brenorb.com/chile-menor-inflacao-la-tercera/
+URL: https://brenorb.com/media/chile-menor-inflacao-la-tercera/
 Source: _posts/2018-01-17-chile-menor-inflacao-la-tercera.md
 Date: 2018-01-17T12:00:00-03:00
 Content type: media
@@ -3196,7 +3196,7 @@ No contexto da reportagem, Breno Brito comentou a desaceleração da inflação 
 
 ### Reinforcement learning applied to financial markets
 
-URL: https://brenorb.com/project/reinforcement-learning-financial-markets-thesis/
+URL: https://brenorb.com/projects/reinforcement-learning-financial-markets-thesis/
 Source: _posts/2013-12-23-reinforcement-learning-financial-markets-thesis.md
 Date: 2013-12-23
 Content type: project

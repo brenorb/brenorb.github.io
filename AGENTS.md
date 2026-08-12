@@ -7,7 +7,7 @@ This repo is Breno's personal website.
 - The site has 3 main sections: `writing`, `media`, and `projects`.
 - `writing` is represented by posts that belong in the writing archive.
 - `media` is represented by posts with `content_type: media`.
-- `projects` is represented by posts with `content_type: project`, with detail permalinks under `/project/.../` and the archive at `/projects/`.
+- `projects` is represented by posts with `content_type: project`, with detail permalinks under `/projects/.../` and the archive at `/projects/`.
 
 ## Related Sources
 

@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-explica-bitcoin-ia-fim-da-historia-humana/
+redirect_from:
+  - /podcast-explica-bitcoin-ia-fim-da-historia-humana/
 title:  "Podcast - Explica Bitcoin - IA: O Fim da História Humana ou um Novo Começo?"
 date:   2026-01-06 12:00:00 -0300
 last_modified_at: 2026-08-09

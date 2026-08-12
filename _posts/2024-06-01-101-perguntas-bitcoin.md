@@ -1,9 +1,11 @@
 ---
 layout: post
+permalink: /projects/101-perguntas-bitcoin/
+redirect_from:
+  - /101-perguntas-bitcoin/
+  - /project/101-perguntas-bitcoin/
 title:  "101 Perguntas sobre Bitcoin"
 date:   2024-06-01
-permalink: /project/101-perguntas-bitcoin/
-redirect_from: /101-perguntas-bitcoin/
 excerpt: "Um livro para aprender bitcoin de maneira eficiente."
 description: "101 Perguntas sobre Bitcoin is a question-and-answer introduction to Bitcoin, designed to take readers from basic doubts to a solid working understanding of the protocol and its implications."
 content_type: project

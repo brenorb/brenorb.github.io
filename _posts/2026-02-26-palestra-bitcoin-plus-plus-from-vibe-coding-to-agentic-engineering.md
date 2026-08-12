@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering/
+redirect_from:
+  - /palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering/
 title: "Palestra - bitcoin++ Floripa 2026 - From Vibe Coding to Agentic Engineering"
 date: 2026-02-26 11:15:00 -0300
 description: "Apresentacao na bitcoin++ Floripa 2026 sobre a passagem de vibe coding para agentic engineering, com foco em contexto, workflows, melhores praticas emergentes e como usar IA para escrever codigo sem abandonar criterio tecnico."

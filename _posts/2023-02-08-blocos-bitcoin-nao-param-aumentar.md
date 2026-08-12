@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/blocos-bitcoin-nao-param-aumentar/
+redirect_from:
+  - /blocos-bitcoin-nao-param-aumentar/
 title:  "Os blocos de Bitcoin não param de aumentar; o que está acontecendo com a blockchain?"
 date:   2023-02-08
 excerpt: "NFTs estão entupindo os blocos de Bitcoin; especialistas explicam como isso pode fazer as taxas dispararem"

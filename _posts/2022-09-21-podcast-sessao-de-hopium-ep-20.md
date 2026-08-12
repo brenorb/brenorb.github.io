@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-sessao-de-hopium-ep-20/
+redirect_from:
+  - /podcast-sessao-de-hopium-ep-20/
 title:  "Podcast - Sessão de Hopium Ep. 20"
 date:   2022-09-21
 last_modified_at: 2026-08-09

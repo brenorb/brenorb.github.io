@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/inteligencia-artificial-e-web3/
+redirect_from:
+  - /inteligencia-artificial-e-web3/
 title:  "Inteligência artificial e Web 3.0: entenda a relação"
 date:   2024-05-05
 excerpt: "A inteligência artificial está transformando a Web 3.0 com seu poder de aprendizado e decisão autônoma."

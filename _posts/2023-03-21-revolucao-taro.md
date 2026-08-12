@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /articles/revolucao-taro/
+redirect_from:
+  - /revolucao-taro/
 title:  "A Revolução Taro"
 date:   2023-03-21
 excerpt: "A transformação do Bitcoin na exchange suprema."

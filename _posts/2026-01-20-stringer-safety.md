@@ -1,12 +1,13 @@
 ---
 layout: post
-lang: en
-title:  "Stringer Safety - Keep journalists alive when seconds matter"
-date:   2026-01-20
-permalink: /project/stringer-safety/
+permalink: /projects/stringer-safety/
 redirect_from:
   - /stringer-safety/
   - /ai-hack-for-freedom-primeiro-lugar/
+  - /project/stringer-safety/
+lang: en
+title:  "Stringer Safety - Keep journalists alive when seconds matter"
+date:   2026-01-20
 excerpt: "1st-place HRF AI Hack for Freedom project for trusted contacts, field updates, and one-touch SOS alerts for journalists in high-risk environments."
 description: "Stringer Safety is a journalist safety companion built for high-risk environments, combining trusted networks, field context, and one-touch SOS alerts."
 content_type: project

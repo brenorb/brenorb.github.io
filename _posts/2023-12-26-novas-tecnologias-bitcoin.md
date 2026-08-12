@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /articles/novas-tecnologias-bitcoin/
+redirect_from:
+  - /novas-tecnologias-bitcoin/
 title: Quais novas tecnologias devem surgir nos próximos anos no Bitcoin?
 date: 2023-12-26
 excerpt: "Mesmo com todo avanço tecnológico que tivemos no bitcoin nos últimos anos, ainda temos alguns problemas fundamentais para melhorar."

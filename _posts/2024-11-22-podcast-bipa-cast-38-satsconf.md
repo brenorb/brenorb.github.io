@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-bipa-cast-38-satsconf/
+redirect_from:
+  - /podcast-bipa-cast-38-satsconf/
 title:  "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf"
 date:   2024-11-22 12:00:00 -0300
 last_modified_at: 2026-08-09

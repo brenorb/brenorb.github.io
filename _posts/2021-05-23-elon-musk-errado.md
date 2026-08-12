@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /articles/elon-musk-errado/
+redirect_from:
+  - /elon-musk-errado/
 title:  "Elon Musk está errado e eu posso provar"
 date:   2021-05-23
 excerpt: "Empresário é terrivelmente desinformado sobre questões técnicas das criptomoedas"

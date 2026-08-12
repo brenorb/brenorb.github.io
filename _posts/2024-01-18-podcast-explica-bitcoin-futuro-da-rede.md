@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-explica-bitcoin-futuro-da-rede/
+redirect_from:
+  - /podcast-explica-bitcoin-futuro-da-rede/
 title:  "Podcast - O Futuro da Rede Bitcoin - Sessão Temática 40 - Explica Bitcoin"
 date:   2024-01-18
 description: "Conversa no Explica Bitcoin sobre por que a camada base do Bitcoin não escala sozinha e quais tecnologias podem ampliar a rede, de Lightning e channel factories a Fedimint, ARC, BitVM, Nostr e Holepunch."

@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-stealth-fountain/
+redirect_from:
+  - /podcast-stealth-fountain/
 title:  "Podcast - Fountain - Stealth"
 date:   2026-04-08 12:00:00 -0300
 last_modified_at: 2026-08-09

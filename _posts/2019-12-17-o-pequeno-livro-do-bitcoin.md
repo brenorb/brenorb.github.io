@@ -1,9 +1,11 @@
 ---
 layout: post
+permalink: /projects/o-pequeno-livro-do-bitcoin/
+redirect_from:
+  - /o-pequeno-livro-do-bitcoin/
+  - /project/o-pequeno-livro-do-bitcoin/
 title:  "O Pequeno Livro do Bitcoin"
 date:   2019-12-17
-permalink: /project/o-pequeno-livro-do-bitcoin/
-redirect_from: /o-pequeno-livro-do-bitcoin/
 excerpt: "Tradução para o português de um guia introdutório sobre por que Bitcoin importa para liberdade, finanças e futuro."
 description: "O Pequeno Livro do Bitcoin is the Portuguese edition of The Little Bitcoin Book, a concise introduction to why Bitcoin matters for freedom, money, and the future."
 content_type: project

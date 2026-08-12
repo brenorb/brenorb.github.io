@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/palestra-introducao-a-opcoes/
+redirect_from:
+  - /palestra-introducao-a-opcoes/
 title: "Palestra - Introdução a opções"
 date: 2019-08-26 12:00:00 -0300
 last_modified_at: 2026-08-09

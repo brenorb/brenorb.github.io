@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-fernando-caixeta-101-perguntas-sobre-bitcoin/
+redirect_from:
+  - /podcast-fernando-caixeta-101-perguntas-sobre-bitcoin/
 title:  "Podcast - Fernando Caixeta - 101 Perguntas Sobre BITCOIN (com Breno Brito)"
 date:   2025-12-18 12:00:00 -0300
 last_modified_at: 2026-08-09

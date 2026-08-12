@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /articles/as-corretoras-brasileiras-de-criptomoedas-falsificam-volume-de-bitcoin/
+redirect_from:
+  - /as-corretoras-brasileiras-de-criptomoedas-falsificam-volume-de-bitcoin/
 title:  'As Corretoras Brasileiras de Criptomoedas Falsificam Volume de Bitcoin?'
 date:   2018-04-19
 excerpt: "Uma análise quantitativa de métricas de liquidez das exchanges"

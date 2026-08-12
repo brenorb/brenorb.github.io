@@ -8,6 +8,9 @@
     {% assign page_description = page.description | default: page.excerpt | default: site.description %}
     {% assign page_keywords = page.tags | default: page.tag | default: site.keywords %}
     {% assign page_last_modified = page.last_modified_at | default: page.date %}
+    {% assign page_lang = page.lang | default: site.lang | default: 'pt-BR' %}
+    {% assign page_locale = page_lang | replace: '-', '_' %}
+    {% if page_locale == 'en' %}{% assign page_locale = 'en_US' %}{% endif %}
     <meta name="description" content="{{ page_description | markdownify | strip_html | strip_newlines | escape_once }}">
     {% if page_keywords %}<meta name="keywords" content="{% if page_keywords.first %}{{ page_keywords | join: ', ' }}{% else %}{{ page_keywords }}{% endif %}">{% endif %}
     <meta name="author" content="{{ site.author | default: site.title }}">
@@ -32,7 +35,7 @@
     {% capture default_canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
     {% assign canonical_url = page.canonical_url | default: default_canonical %}
     <!-- Open Graph -->
-    <meta property="og:locale" content="{{ site.locale }}">
+    <meta property="og:locale" content="{{ page_locale }}">
     <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
     <meta property="og:title" content="{{ seo_title }}">
     <meta property="og:description" content="{{ page_description | markdownify | strip_html | strip_newlines | escape_once }}">
@@ -98,7 +101,7 @@
       "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
       "dateModified": {{ page_last_modified | date_to_xmlschema | jsonify }},
       "articleSection": {{ page.content_type | default: "article" | jsonify }},
-      "inLanguage": {{ site.locale | default: "en_US" | jsonify }},
+      "inLanguage": {{ page_lang | jsonify }},
       "isAccessibleForFree": true,
       "author": {
         "@id": {{ site.url | append: "/#person" | jsonify }}

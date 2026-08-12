@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-bipa-3-halving-esta-precificado/
+redirect_from:
+  - /podcast-bipa-3-halving-esta-precificado/
 title:  "Podcast - Bipa Cast #003 - O Halving está precificado?"
 date:   2024-04-18
 description: "Conversa no Bipa Cast sobre o que significa dizer que o halving está ou não precificado, por que isso remete à hipótese de mercado eficiente e como ETF, oferta e reflexividade bagunçam respostas fáceis."

@@ -1,9 +1,11 @@
 ---
 layout: post
+permalink: /projects/filepizza-cli/
+redirect_from:
+  - /project/filepizza-cli/
 lang: en
 title: "filepizza-cli"
 date: 2026-07-03
-permalink: /project/filepizza-cli/
 excerpt: "Programmatic CLI for creating and seeding FilePizza uploads without driving a browser."
 description: "filepizza-cli is a small TypeScript CLI for creating and seeding FilePizza uploads programmatically, with short and long share URLs, background seeding, JSON output, and local upload state."
 content_type: project

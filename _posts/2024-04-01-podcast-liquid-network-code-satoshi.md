@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-liquid-network-code-satoshi/
+redirect_from:
+  - /podcast-liquid-network-code-satoshi/
 title:  "Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of Satoshi"
 date:   2024-04-01 12:00:00 -0300
 description: "Conversa no canal Liquid Network sobre as ferramentas da Spirit of Satoshi para desenvolvimento em Bitcoin: um assistente técnico para Liquid e o Code Satoshi, focado em Miniscript."

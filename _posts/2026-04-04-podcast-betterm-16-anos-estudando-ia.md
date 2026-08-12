@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-betterm-16-anos-estudando-ia/
+redirect_from:
+  - /podcast-betterm-16-anos-estudando-ia/
 title:  "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando"
 date:   2026-04-04 16:05:00 -0300
 description: "Conversa no BetterM sobre 16 anos estudando IA, do primeiro modelo em 2010 ao impacto atual sobre trabalho, segurança, concentração de renda, especialização e adaptação humana."

@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /articles/warren-buffett-bitcoin/
+redirect_from:
+  - /warren-buffett-bitcoin/
 title:  'Por que a Visão de Warren Buffett é Incompatível com o Bitcoin'
 date:   2018-05-30
 excerpt: "Entendendo a filosofia do Warren Buffett"

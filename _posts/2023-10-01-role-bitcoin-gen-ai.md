@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /articles/role-bitcoin-gen-ai/
+redirect_from:
+  - /role-bitcoin-gen-ai/
 lang: en
 title:  "The Role of Bitcoin in the Era of Generative AI"
 date:   2023-10-01

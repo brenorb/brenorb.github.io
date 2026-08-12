@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/
+redirect_from:
+  - /podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/
 title:  "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin"
 date:   2024-08-08 12:00:00 -0300
 last_modified_at: 2026-08-09

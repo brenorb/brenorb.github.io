@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /articles/nao-existem-atalhos-para-uma-criptomoeda-de-preco-estavel/
+redirect_from:
+  - /nao-existem-atalhos-para-uma-criptomoeda-de-preco-estavel/
 title:  'Não Existem Atalhos para uma Criptomoeda de Preço Estável'
 date:   2018-02-27
 excerpt: "Como o bitcoin pode acabar virando de fato moeda"

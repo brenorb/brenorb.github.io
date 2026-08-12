@@ -1,10 +1,11 @@
 ---
 layout: post
+permalink: /projects/bitdevs-brasilia/
+redirect_from:
+  - /project/bitdevs-brasilia/
 lang: en
 title: "Bitdevs Brasília"
 date: 2024-01-02
-permalink: /project/bitdevs-brasilia/
-redirect_from: /projects/bitdevs-brasilia/
 excerpt: "Local BitDevs community and public website for Brasília meetups."
 description: "Bitdevs Brasília is the local BitDevs chapter Breno hosts in Brasília, with a public website for meetup announcements, archives, and reading-driven socratic seminar material."
 content_type: project

@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/breno-brito-full-english/
+redirect_from:
+  - /breno-brito-full-english/
 title:  "Interview - Breno Brito — Full English"
 date:   2024-09-10 12:00:00 -0300
 description: "Conversa em inglês no canal Católico Poliglota, com foco em prática de idioma e apresentação pessoal."

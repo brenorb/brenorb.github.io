@@ -1,5 +1,8 @@
 ---
 layout: post
+permalink: /media/palestra-pydata-future-proof-your-ai-product/
+redirect_from:
+  - /palestra-pydata-future-proof-your-ai-product/
 title: "Palestra - PyData - Future proof your AI product"
 date: 2026-01-09 12:00:00 -0300
 description: "Talk no canal PyData sobre como reduzir fragilidade em produtos de IA usando DSPy, com foco em assinaturas tipadas, módulos, adapters, avaliação e otimização de programas em vez de walls of prompt text."

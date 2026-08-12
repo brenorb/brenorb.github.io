@@ -1,9 +1,11 @@
 ---
 layout: post
+permalink: /projects/os-tres-porquinhos-na-vila-do-valor/
+redirect_from:
+  - /os-tres-porquinhos-na-vila-do-valor/
+  - /project/os-tres-porquinhos-na-vila-do-valor/
 title:  "Os Três Porquinhos na Vila do Valor"
 date:   2026-04-28
-permalink: /project/os-tres-porquinhos-na-vila-do-valor/
-redirect_from: /os-tres-porquinhos-na-vila-do-valor/
 excerpt: "Revisão do livro infantil de Caroline Galgowski sobre educação financeira para crianças."
 description: "Os Três Porquinhos na Vila do Valor é um livro infantil de educação financeira de Caroline Galgowski no qual atuei como revisor."
 content_type: project
