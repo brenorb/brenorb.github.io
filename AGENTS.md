@@ -9,6 +9,18 @@ This repo is Breno's personal website.
 - `media` is represented by posts with `content_type: media`.
 - `projects` is represented by posts with `content_type: project`, with detail permalinks under `/projects/.../` and the archive at `/projects/`.
 
+## URL and Language Conventions
+
+- Use these canonical detail URL patterns for every new post:
+  - writing/articles: `/articles/<slug>/`
+  - media: `/media/<slug>/`
+  - projects: `/projects/<slug>/`
+- Keep the archives at `/articles/`, `/media/`, and `/projects/`.
+- Do not use `/project/<slug>/` as a new canonical URL. It is a legacy alias only.
+- When changing an existing canonical URL, add the old URL to `redirect_from` so backlinks and search results continue to resolve. Legacy redirect pages should remain `noindex` and point to the new canonical URL.
+- Set `lang: en` when the page's primary written content is English. Otherwise use the site default `pt-BR`. Do not classify a page as English solely because an embedded video or external source is in English.
+- Open Graph `og:locale` and Schema.org `inLanguage` are derived from the page language; do not hard-code a global page locale in content front matter.
+
 ## Related Sources
 
 - This site is closely related to Breno's Obsidian note `Breno Rodrigues Brito.md`.
