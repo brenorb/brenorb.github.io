@@ -3,6 +3,7 @@ layout: post
 permalink: /projects/portfolio-optimization-thesis/
 redirect_from:
   - /project/portfolio-optimization-thesis/
+  - /tcc-otimizacao-de-portfolio/
 lang: en
 title: "Portfolio optimization using variance-adjusted mean and predictive structures"
 date: 2020-12-01

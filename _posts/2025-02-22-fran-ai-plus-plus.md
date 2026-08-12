@@ -3,6 +3,7 @@ layout: post
 permalink: /projects/fran/
 redirect_from:
   - /project/fran/
+  - /fran-ai-plus-plus/
 lang: en
 title:  "Fran / AI++ - Voice-first Bitcoin AI assistant"
 date:   2025-02-22

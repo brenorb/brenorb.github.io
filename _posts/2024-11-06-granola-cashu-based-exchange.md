@@ -4,6 +4,7 @@ permalink: /projects/granola/
 redirect_from:
   - /granola/
   - /project/granola/
+  - /granola-cashu-based-exchange/
 lang: en
 title:  "Granola - Cashu-based exchange"
 date:   2024-11-06

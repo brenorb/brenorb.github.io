@@ -3,6 +3,7 @@ layout: post
 permalink: /projects/reinforcement-learning-financial-markets-thesis/
 redirect_from:
   - /project/reinforcement-learning-financial-markets-thesis/
+  - /reinforcement-learning-financial-markets-thesis/
 lang: en
 title: "Reinforcement learning applied to financial markets"
 date: 2013-12-23

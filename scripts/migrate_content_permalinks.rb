@@ -62,13 +62,16 @@ Dir[File.join(ROOT, "_posts", "*.md")].sort.each do |path|
 
   data = metadata(source)
   content_type = data.fetch("content_type", "article").to_s
-  old_permalink = normalize_path(data["permalink"] || "/#{File.basename(path, ".md").sub(/^\d{4}-\d{2}-\d{2}-/, "")}/")
+  filename_slug = File.basename(path, ".md").sub(/^\d{4}-\d{2}-\d{2}-/, "")
+  filename_permalink = normalize_path("/#{filename_slug}/")
+  old_permalink = normalize_path(data["permalink"] || filename_permalink)
   slug = old_permalink.split("/").reject(&:empty?).last
   prefix = { "article" => "articles", "media" => "media", "project" => "projects" }.fetch(content_type, "articles")
   new_permalink = "/#{prefix}/#{slug}/"
 
   redirects = paths_from(data["redirect_from"])
   redirects << old_permalink unless old_permalink == new_permalink
+  redirects << filename_permalink unless filename_permalink == new_permalink
   redirects = redirects.uniq.reject { |redirect| redirect == new_permalink }
 
   lines = yaml.lines

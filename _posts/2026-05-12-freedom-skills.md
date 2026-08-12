@@ -3,6 +3,7 @@ layout: post
 permalink: /projects/freedom-skills/
 redirect_from:
   - /project/freedom-skills/
+  - /freedom-skills/
 lang: en
 title: "Freedom Skills"
 date: 2026-05-12

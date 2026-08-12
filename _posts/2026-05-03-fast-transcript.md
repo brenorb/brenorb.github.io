@@ -3,6 +3,7 @@ layout: post
 permalink: /projects/fast-transcript/
 redirect_from:
   - /project/fast-transcript/
+  - /fast-transcript/
 lang: en
 title: "fast-transcript"
 date: 2026-05-03

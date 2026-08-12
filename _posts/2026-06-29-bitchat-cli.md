@@ -3,6 +3,7 @@ layout: post
 permalink: /projects/bitchat-cli/
 redirect_from:
   - /project/bitchat-cli/
+  - /bitchat-cli/
 lang: en
 title: "bitchat-cli"
 date: 2026-06-29

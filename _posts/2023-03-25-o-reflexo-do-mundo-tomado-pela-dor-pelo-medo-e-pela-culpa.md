@@ -3,6 +3,7 @@ layout: post
 permalink: /articles/ftx-guilt-fear/
 redirect_from:
   - /ftx-guilt-fear/
+  - /o-reflexo-do-mundo-tomado-pela-dor-pelo-medo-e-pela-culpa/
 title: "O Reflexo do Mundo Tomado pela Dor, pelo Medo e pela Culpa"
 date: 2023-03-25 16:31:00 -0300
 excerpt: "Ensaio escrito para o concurso do Ayn Rand Center Latin America sobre A Revolta de Atlas."

@@ -3,6 +3,7 @@ layout: post
 permalink: /projects/filepizza-cli/
 redirect_from:
   - /project/filepizza-cli/
+  - /filepizza-cli/
 lang: en
 title: "filepizza-cli"
 date: 2026-07-03

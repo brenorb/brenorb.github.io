@@ -3,6 +3,7 @@ layout: post
 permalink: /projects/nowhere-cli/
 redirect_from:
   - /project/nowhere-cli/
+  - /nowhere-cli/
 lang: en
 title: "nowhere-cli"
 date: 2026-06-30

@@ -3,6 +3,7 @@ layout: post
 permalink: /projects/bitdevs-brasilia/
 redirect_from:
   - /project/bitdevs-brasilia/
+  - /bitdevs-brasilia/
 lang: en
 title: "Bitdevs Brasília"
 date: 2024-01-02
