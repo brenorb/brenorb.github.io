@@ -15,6 +15,7 @@ tags:
 - cli
 - p2p
 comments: false
+feature: /assets/generated/filepizza-cli.jpg
 ---
 
 **filepizza-cli** is a **small TypeScript CLI for creating and seeding FilePizza uploads without driving a browser**.
