@@ -16,19 +16,16 @@ layout: compress
         <div class="container animated fadeIn">
             <div class="row">
                     <a href="{{ '/' | relative_url }}">
-                        <img src="{{ '/' | append: site.logo | relative_url }}" alt="{{ site.title }}" class="img-circle zoombtn animated rotateIn">
+                        <picture>
+                            <source srcset="{{ '/assets/img/logo.webp' | relative_url }}" type="image/webp">
+                            <img src="{{ '/' | append: site.logo | relative_url }}" alt="{{ site.title }}" class="img-circle zoombtn animated rotateIn">
+                        </picture>
                     </a>
                     <h1 class="title">
-                        <a class="zoombtn" href="{{ '/' | relative_url }}">
-                            <p class="home-title">{{ site.title }}</p>
-			            </a>
+                        <a class="zoombtn" href="{{ '/' | relative_url }}">{{ site.title }}</a>
                     </h1>
                     <hr class="hr-line">
-                    <h3 class="title">
-                        <!-- <a href="{{ site.url }}"> -->
-                            <p class="home-bio">{{ site.bio }}</p>
-			            <!-- </a> -->
-                    </h3>
+                    <p class="title home-bio">{{ site.bio }}</p>
                     {% include social-links.html %}
                   <hr class="hr-line">
                   <h3 class="title">
@@ -54,6 +51,13 @@ layout: compress
             </div> -->
         </div>
     </header>
+    <main id="main-content" class="home-summary wrapper">
+        <div class="content">
+            <h2>AI, Bitcoin e finanças</h2>
+            <p>Breno Brito é engenheiro, cientista de dados e autor que trabalha na interseção entre Inteligência Artificial, Bitcoin e finanças. Este site reúne seus projetos, textos, entrevistas e palestras para quem quer entender tecnologia aberta, modelos de linguagem, economia e segurança digital com mais profundidade.</p>
+            <p>Explore os <a href="{{ '/projects/' | relative_url }}">projetos</a> de software e pesquisa, leia os <a href="{{ '/articles/' | relative_url }}">textos</a> sobre IA, Bitcoin e finanças, ou consulte as <a href="{{ '/media/' | relative_url }}">palestras e entrevistas</a>. Para convites, colaborações e trabalho profissional, use a <a href="{{ '/contact/' | relative_url }}">página de contato</a>.</p>
+        </div>
+    </main>
     {% include scripts.html %}
 </body>
 </html>

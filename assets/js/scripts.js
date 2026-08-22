@@ -191,16 +191,6 @@ $(document).ready(function() {
         $(".container").removeClass("fadeIn").addClass("fadeOut");
         $(".wrapper").removeClass("fadeIn").addClass("fadeOut");
     });
-    // go up button
-    $.goup({
-        trigger: 500,
-        bottomOffset: 10,
-        locationOffset: 20,
-        containerRadius: 0,
-        containerColor: '#fff',
-        arrowColor: '#000',
-        goupSpeed: 'normal'
-    });
 	$('.image-popup').magnificPopup({
     type: 'image',
     tLoading: 'Loading image #%curr%...',

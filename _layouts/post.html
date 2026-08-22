@@ -36,7 +36,7 @@ layout: compress
                 </div>
                 {{ content }}
                 {% assign media_appendix = site.data.media_appendices[page.slug] %}
-                {% if media_appendix and media_appendix.items and media_appendix.items.size > 0 %}
+                {% if page.show_transcript != false and media_appendix and media_appendix.items and media_appendix.items.size > 0 %}
                 <section id="transcricao" class="media-transcripts" data-transcript-anchor>
                     {% for item in media_appendix.items %}
                     <details class="media-transcript">
