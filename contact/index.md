@@ -7,6 +7,7 @@ comments: false
 
 <div class="contact-shell">
   <p class="contact-lede">If you want to get in touch, send a message here or reach out where the conversation already lives.</p>
+  <p class="contact-lede">I am especially open to conversations about AI engineering, Bitcoin, data science, language models, open-source software, writing, talks, and collaborations that make difficult technical ideas easier to use.</p>
 
   <div class="contact-grid">
     <section class="contact-card contact-card--info">
