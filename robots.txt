@@ -3,18 +3,22 @@ User-agent: *
 Disallow:
 
 User-agent: GPTBot
+Allow: /
 Disallow:
 
 User-agent: ChatGPT-User
+Allow: /
 Disallow:
 
 User-agent: OAI-SearchBot
+Allow: /
 Disallow:
 
 User-agent: OAI-ImageBot
 Disallow:
 
 User-agent: ClaudeBot
+Allow: /
 Disallow:
 
 User-agent: Claude-Web
@@ -24,12 +28,14 @@ User-agent: anthropic-ai
 Disallow:
 
 User-agent: PerplexityBot
+Allow: /
 Disallow:
 
 User-agent: Perplexity-User
 Disallow:
 
 User-agent: Google-Extended
+Allow: /
 Disallow:
 
 User-agent: Applebot-Extended
