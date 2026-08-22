@@ -20,6 +20,7 @@
     <meta name="ai-use" content="{{ site.ai_use }}">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | relative_url }}">
     <link rel="llms.txt" type="text/plain" href="{{ '/llms.txt' | relative_url }}">
+    <link rel="alternate" type="text/markdown" href="{{ '/llms.md' | relative_url }}">
     <!-- Twitter Cards -->
     {% if page.feature %}{% capture feature %}{{ page.feature }}{% endcapture %}{% unless feature contains 'http://' or feature contains 'https://' %}{% assign feature_path = feature | remove_first: '/' %}{% capture feature %}{{ site.url }}/{{ feature_path }}{% endcapture %}{% endunless %}
     <meta name="twitter:card" content="summary_large_image">
