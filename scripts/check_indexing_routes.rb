@@ -10,10 +10,6 @@ checks = {
     canonical: "https://brenorb.com/projects/stringer-safety/",
     redirect: true
   },
-  "/{{ site.url }}/tags/" => {
-    canonical: "https://brenorb.com/tags/",
-    redirect: true
-  },
   "/contact/" => {
     canonical: "https://brenorb.com/contact/",
     redirect: false
