@@ -1,0 +1,411 @@
+[
+  {
+    "id": "buildings-ground",
+    "label": "Buildings · Ground floor",
+    "text": "Open the ground floor.",
+    "nappletId": "buildings",
+    "state": {
+      "floor": "ground"
+    },
+    "targetPointer": "naddr1qvzqqqyf8ypzqza0kr9j7cpvs4uun08wfpmsxl8aqdjx9p8fg8253cjnahndlkzjqqykyatfd3jxjmn8wvuyrtyz",
+    "intent": {
+      "archetype": "building-explorer",
+      "action": "open",
+      "convention": "napplet:building-explorer/open"
+    },
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXZ6cXFxeWY4eXB6cXphMGtyOWo3Y3B2czR1dW4wOHdmcG1zeGw4YXFkang5cDhmZzgyNTNjam5haG5kbGt6anFxeWt5YXRmZDNqeGptbjh3dnV5cnR5eiIsInN0YXRlIjp7ImZsb29yIjoiZ3JvdW5kIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJidWlsZGluZy1leHBsb3JlciIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmJ1aWxkaW5nLWV4cGxvcmVyL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXZ6cXFxeWY4eXB6cXphMGtyOWo3Y3B2czR1dW4wOHdmcG1zeGw4YXFkang5cDhmZzgyNTNjam5haG5kbGt6anFxeWt5YXRmZDNqeGptbjh3dnV5cnR5eiIsInN0YXRlIjp7ImZsb29yIjoiZ3JvdW5kIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJidWlsZGluZy1leHBsb3JlciIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmJ1aWxkaW5nLWV4cGxvcmVyL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19"
+  },
+  {
+    "id": "buildings-both",
+    "label": "Buildings · Both floors",
+    "text": "Show both floors.",
+    "nappletId": "buildings",
+    "state": {
+      "floor": "both"
+    },
+    "targetPointer": "naddr1qvzqqqyf8ypzqza0kr9j7cpvs4uun08wfpmsxl8aqdjx9p8fg8253cjnahndlkzjqqykyatfd3jxjmn8wvuyrtyz",
+    "intent": {
+      "archetype": "building-explorer",
+      "action": "open",
+      "convention": "napplet:building-explorer/open"
+    },
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXZ6cXFxeWY4eXB6cXphMGtyOWo3Y3B2czR1dW4wOHdmcG1zeGw4YXFkang5cDhmZzgyNTNjam5haG5kbGt6anFxeWt5YXRmZDNqeGptbjh3dnV5cnR5eiIsInN0YXRlIjp7ImZsb29yIjoiYm90aCJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiYnVpbGRpbmctZXhwbG9yZXIiLCJjb252ZW50aW9uIjoibmFwcGxldDpidWlsZGluZy1leHBsb3Jlci9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXZ6cXFxeWY4eXB6cXphMGtyOWo3Y3B2czR1dW4wOHdmcG1zeGw4YXFkang5cDhmZzgyNTNjam5haG5kbGt6anFxeWt5YXRmZDNqeGptbjh3dnV5cnR5eiIsInN0YXRlIjp7ImZsb29yIjoiYm90aCJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiYnVpbGRpbmctZXhwbG9yZXIiLCJjb252ZW50aW9uIjoibmFwcGxldDpidWlsZGluZy1leHBsb3Jlci9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ"
+  },
+  {
+    "id": "message-welcome",
+    "label": "Envelope message · Welcome",
+    "text": "Welcome to Envelope.",
+    "nappletId": "envelope-example",
+    "pointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "intent": {
+      "archetype": "envelope",
+      "action": "open",
+      "convention": "napplet:envelope/open"
+    },
+    "state": {
+      "message": "Welcome to Envelope.",
+      "tone": "welcome"
+    },
+    "targetPointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IldlbGNvbWUgdG8gRW52ZWxvcGUuIiwidG9uZSI6IndlbGNvbWUifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IldlbGNvbWUgdG8gRW52ZWxvcGUuIiwidG9uZSI6IndlbGNvbWUifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0"
+  },
+  {
+    "id": "message-madeira",
+    "label": "Envelope message · Madeira",
+    "text": "Greetings from Madeira.",
+    "nappletId": "envelope-example",
+    "pointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "intent": {
+      "archetype": "envelope",
+      "action": "open",
+      "convention": "napplet:envelope/open"
+    },
+    "state": {
+      "message": "Greetings from Madeira.",
+      "tone": "postcard"
+    },
+    "targetPointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IkdyZWV0aW5ncyBmcm9tIE1hZGVpcmEuIiwidG9uZSI6InBvc3RjYXJkIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJlbnZlbG9wZSIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmVudmVsb3BlL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IkdyZWV0aW5ncyBmcm9tIE1hZGVpcmEuIiwidG9uZSI6InBvc3RjYXJkIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJlbnZlbG9wZSIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmVudmVsb3BlL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19"
+  },
+  {
+    "id": "message-protocol",
+    "label": "Envelope message · Protocol",
+    "text": "State travels in the URL.",
+    "nappletId": "envelope-example",
+    "pointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "intent": {
+      "archetype": "envelope",
+      "action": "open",
+      "convention": "napplet:envelope/open"
+    },
+    "state": {
+      "message": "State travels in the URL.",
+      "tone": "protocol"
+    },
+    "targetPointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlN0YXRlIHRyYXZlbHMgaW4gdGhlIFVSTC4iLCJ0b25lIjoicHJvdG9jb2wifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlN0YXRlIHRyYXZlbHMgaW4gdGhlIFVSTC4iLCJ0b25lIjoicHJvdG9jb2wifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0"
+  },
+  {
+    "id": "message-offline",
+    "label": "Envelope message · Offline",
+    "text": "This message needs no hosted database.",
+    "nappletId": "envelope-example",
+    "pointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "intent": {
+      "archetype": "envelope",
+      "action": "open",
+      "convention": "napplet:envelope/open"
+    },
+    "state": {
+      "message": "This message needs no hosted database.",
+      "tone": "offline"
+    },
+    "targetPointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlRoaXMgbWVzc2FnZSBuZWVkcyBubyBob3N0ZWQgZGF0YWJhc2UuIiwidG9uZSI6Im9mZmxpbmUifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlRoaXMgbWVzc2FnZSBuZWVkcyBubyBob3N0ZWQgZGF0YWJhc2UuIiwidG9uZSI6Im9mZmxpbmUifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0"
+  },
+  {
+    "id": "message-scan",
+    "label": "Envelope message · Scan",
+    "text": "Scan → resolve → open.",
+    "nappletId": "envelope-example",
+    "pointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "intent": {
+      "archetype": "envelope",
+      "action": "open",
+      "convention": "napplet:envelope/open"
+    },
+    "state": {
+      "message": "Scan → resolve → open.",
+      "tone": "demo"
+    },
+    "targetPointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlNjYW4g4oaSIHJlc29sdmUg4oaSIG9wZW4uIiwidG9uZSI6ImRlbW8ifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlNjYW4g4oaSIHJlc29sdmUg4oaSIG9wZW4uIiwidG9uZSI6ImRlbW8ifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0"
+  },
+  {
+    "id": "message-showcase",
+    "label": "Envelope message · Showcase",
+    "text": "Twenty links, one runtime.",
+    "nappletId": "envelope-example",
+    "pointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "intent": {
+      "archetype": "envelope",
+      "action": "open",
+      "convention": "napplet:envelope/open"
+    },
+    "state": {
+      "message": "Twenty links, one runtime.",
+      "tone": "showcase"
+    },
+    "targetPointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlR3ZW50eSBsaW5rcywgb25lIHJ1bnRpbWUuIiwidG9uZSI6InNob3djYXNlIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJlbnZlbG9wZSIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmVudmVsb3BlL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlR3ZW50eSBsaW5rcywgb25lIHJ1bnRpbWUuIiwidG9uZSI6InNob3djYXNlIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJlbnZlbG9wZSIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmVudmVsb3BlL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19"
+  },
+  {
+    "id": "message-nostr",
+    "label": "Envelope message · Nostr",
+    "text": "The app came from Nostr.",
+    "nappletId": "envelope-example",
+    "pointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "intent": {
+      "archetype": "envelope",
+      "action": "open",
+      "convention": "napplet:envelope/open"
+    },
+    "state": {
+      "message": "The app came from Nostr.",
+      "tone": "nostr"
+    },
+    "targetPointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlRoZSBhcHAgY2FtZSBmcm9tIE5vc3RyLiIsInRvbmUiOiJub3N0ciJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiZW52ZWxvcGUiLCJjb252ZW50aW9uIjoibmFwcGxldDplbnZlbG9wZS9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlRoZSBhcHAgY2FtZSBmcm9tIE5vc3RyLiIsInRvbmUiOiJub3N0ciJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiZW52ZWxvcGUiLCJjb252ZW50aW9uIjoibmFwcGxldDplbnZlbG9wZS9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ"
+  },
+  {
+    "id": "message-napplet",
+    "label": "Envelope message · Napplet",
+    "text": "A napplet is a notebook with a starting state.",
+    "nappletId": "envelope-example",
+    "pointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "intent": {
+      "archetype": "envelope",
+      "action": "open",
+      "convention": "napplet:envelope/open"
+    },
+    "state": {
+      "message": "A napplet is a notebook with a starting state.",
+      "tone": "napplet"
+    },
+    "targetPointer": "naddr1qqgx2mnkv4kx7ur994jhsctdwpkx2q3qgttp04qscpuau2220hpave59dxtjj4put900gxw3y5jje7ugkzcqxpqqqzynj2j0sar",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IkEgbmFwcGxldCBpcyBhIG5vdGVib29rIHdpdGggYSBzdGFydGluZyBzdGF0ZS4iLCJ0b25lIjoibmFwcGxldCJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiZW52ZWxvcGUiLCJjb252ZW50aW9uIjoibmFwcGxldDplbnZlbG9wZS9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IkEgbmFwcGxldCBpcyBhIG5vdGVib29rIHdpdGggYSBzdGFydGluZyBzdGF0ZS4iLCJ0b25lIjoibmFwcGxldCJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiZW52ZWxvcGUiLCJjb252ZW50aW9uIjoibmFwcGxldDplbnZlbG9wZS9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ"
+  },
+  {
+    "id": "nip29-chat-overview",
+    "label": "NIP-29 Chat · Overview",
+    "text": "Open The Chatter in overview mode.",
+    "nappletId": "nip29-chat",
+    "pointer": "naddr1qq9xu6tsxguj6cmgv96qygpldr0daq25nnqggna0u550z46t28sfte6frarghktgn7rh0xacr5psgqqq3yuslkenv3",
+    "intent": {
+      "archetype": "nip29-group",
+      "action": "open",
+      "convention": "napplet:nip29-group/open"
+    },
+    "state": {
+      "relay": "wss://relay.damus.io",
+      "group": "9089b19eb0ded8dc",
+      "name": "The Chatter",
+      "picture": "",
+      "mode": "overview"
+    },
+    "targetPointer": "naddr1qq9xu6tsxguj6cmgv96qygpldr0daq25nnqggna0u550z46t28sfte6frarghktgn7rh0xacr5psgqqq3yuslkenv3",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoib3ZlcnZpZXcifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bmlwMjktZ3JvdXAvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoib3ZlcnZpZXcifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bmlwMjktZ3JvdXAvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0"
+  },
+  {
+    "id": "nip29-chat-conversation",
+    "label": "NIP-29 Chat · Conversation",
+    "text": "Open The Chatter in conversation mode.",
+    "nappletId": "nip29-chat",
+    "pointer": "naddr1qq9xu6tsxguj6cmgv96qygpldr0daq25nnqggna0u550z46t28sfte6frarghktgn7rh0xacr5psgqqq3yuslkenv3",
+    "intent": {
+      "archetype": "nip29-group",
+      "action": "open",
+      "convention": "napplet:nip29-group/open"
+    },
+    "state": {
+      "relay": "wss://relay.damus.io",
+      "group": "9089b19eb0ded8dc",
+      "name": "The Chatter",
+      "picture": "",
+      "mode": "conversation"
+    },
+    "targetPointer": "naddr1qq9xu6tsxguj6cmgv96qygpldr0daq25nnqggna0u550z46t28sfte6frarghktgn7rh0xacr5psgqqq3yuslkenv3",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoiY29udmVyc2F0aW9uIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJuaXAyOS1ncm91cCIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om5pcDI5LWdyb3VwL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoiY29udmVyc2F0aW9uIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJuaXAyOS1ncm91cCIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om5pcDI5LWdyb3VwL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19"
+  },
+  {
+    "id": "nip29-chat-mentions",
+    "label": "NIP-29 Chat · Mentions",
+    "text": "Open The Chatter in mentions mode.",
+    "nappletId": "nip29-chat",
+    "pointer": "naddr1qq9xu6tsxguj6cmgv96qygpldr0daq25nnqggna0u550z46t28sfte6frarghktgn7rh0xacr5psgqqq3yuslkenv3",
+    "intent": {
+      "archetype": "nip29-group",
+      "action": "open",
+      "convention": "napplet:nip29-group/open"
+    },
+    "state": {
+      "relay": "wss://relay.damus.io",
+      "group": "9089b19eb0ded8dc",
+      "name": "The Chatter",
+      "picture": "",
+      "mode": "mentions"
+    },
+    "targetPointer": "naddr1qq9xu6tsxguj6cmgv96qygpldr0daq25nnqggna0u550z46t28sfte6frarghktgn7rh0xacr5psgqqq3yuslkenv3",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoibWVudGlvbnMifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bmlwMjktZ3JvdXAvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoibWVudGlvbnMifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bmlwMjktZ3JvdXAvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0"
+  },
+  {
+    "id": "nip29-chat-madeira",
+    "label": "NIP-29 Chat · Madeira",
+    "text": "Open The Chatter in madeira mode.",
+    "nappletId": "nip29-chat",
+    "pointer": "naddr1qq9xu6tsxguj6cmgv96qygpldr0daq25nnqggna0u550z46t28sfte6frarghktgn7rh0xacr5psgqqq3yuslkenv3",
+    "intent": {
+      "archetype": "nip29-group",
+      "action": "open",
+      "convention": "napplet:nip29-group/open"
+    },
+    "state": {
+      "relay": "wss://relay.damus.io",
+      "group": "9089b19eb0ded8dc",
+      "name": "The Chatter",
+      "picture": "",
+      "mode": "madeira"
+    },
+    "targetPointer": "naddr1qq9xu6tsxguj6cmgv96qygpldr0daq25nnqggna0u550z46t28sfte6frarghktgn7rh0xacr5psgqqq3yuslkenv3",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoibWFkZWlyYSJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibmlwMjktZ3JvdXAiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoibWFkZWlyYSJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibmlwMjktZ3JvdXAiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ"
+  },
+  {
+    "id": "nip29-members-roster",
+    "label": "NIP-29 Members · Roster",
+    "text": "Open The Chatter member view focused on roster.",
+    "nappletId": "nip29-members",
+    "pointer": "naddr1qqxku6tsxguj6mt9d43x2unnqgsr76x7m6q4f8xqs386lefg79t5k50qjhn5j86x30vk38u8w7dms8grqsqqpzfe976lr4",
+    "intent": {
+      "archetype": "nip29-group-members",
+      "action": "open",
+      "convention": "napplet:nip29-group-members/open"
+    },
+    "state": {
+      "relay": "wss://relay.damus.io",
+      "group": "9089b19eb0ded8dc",
+      "name": "The Chatter",
+      "picture": "",
+      "focus": "roster"
+    },
+    "targetPointer": "naddr1qqxku6tsxguj6mt9d43x2unnqgsr76x7m6q4f8xqs386lefg79t5k50qjhn5j86x30vk38u8w7dms8grqsqqpzfe976lr4",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJyb3N0ZXIifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJyb3N0ZXIifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19"
+  },
+  {
+    "id": "nip29-members-admins",
+    "label": "NIP-29 Members · Admins",
+    "text": "Open The Chatter member view focused on admins.",
+    "nappletId": "nip29-members",
+    "pointer": "naddr1qqxku6tsxguj6mt9d43x2unnqgsr76x7m6q4f8xqs386lefg79t5k50qjhn5j86x30vk38u8w7dms8grqsqqpzfe976lr4",
+    "intent": {
+      "archetype": "nip29-group-members",
+      "action": "open",
+      "convention": "napplet:nip29-group-members/open"
+    },
+    "state": {
+      "relay": "wss://relay.damus.io",
+      "group": "9089b19eb0ded8dc",
+      "name": "The Chatter",
+      "picture": "",
+      "focus": "admins"
+    },
+    "targetPointer": "naddr1qqxku6tsxguj6mt9d43x2unnqgsr76x7m6q4f8xqs386lefg79t5k50qjhn5j86x30vk38u8w7dms8grqsqqpzfe976lr4",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJhZG1pbnMifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJhZG1pbnMifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19"
+  },
+  {
+    "id": "nip29-members-search",
+    "label": "NIP-29 Members · Search",
+    "text": "Open The Chatter member view focused on search.",
+    "nappletId": "nip29-members",
+    "pointer": "naddr1qqxku6tsxguj6mt9d43x2unnqgsr76x7m6q4f8xqs386lefg79t5k50qjhn5j86x30vk38u8w7dms8grqsqqpzfe976lr4",
+    "intent": {
+      "archetype": "nip29-group-members",
+      "action": "open",
+      "convention": "napplet:nip29-group-members/open"
+    },
+    "state": {
+      "relay": "wss://relay.damus.io",
+      "group": "9089b19eb0ded8dc",
+      "name": "The Chatter",
+      "picture": "",
+      "focus": "search"
+    },
+    "targetPointer": "naddr1qqxku6tsxguj6mt9d43x2unnqgsr76x7m6q4f8xqs386lefg79t5k50qjhn5j86x30vk38u8w7dms8grqsqqpzfe976lr4",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJzZWFyY2gifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJzZWFyY2gifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19"
+  },
+  {
+    "id": "nip29-members-mentions",
+    "label": "NIP-29 Members · Mentions",
+    "text": "Open The Chatter member view focused on mentions.",
+    "nappletId": "nip29-members",
+    "pointer": "naddr1qqxku6tsxguj6mt9d43x2unnqgsr76x7m6q4f8xqs386lefg79t5k50qjhn5j86x30vk38u8w7dms8grqsqqpzfe976lr4",
+    "intent": {
+      "archetype": "nip29-group-members",
+      "action": "open",
+      "convention": "napplet:nip29-group-members/open"
+    },
+    "state": {
+      "relay": "wss://relay.damus.io",
+      "group": "9089b19eb0ded8dc",
+      "name": "The Chatter",
+      "picture": "",
+      "focus": "mentions"
+    },
+    "targetPointer": "naddr1qqxku6tsxguj6mt9d43x2unnqgsr76x7m6q4f8xqs386lefg79t5k50qjhn5j86x30vk38u8w7dms8grqsqqpzfe976lr4",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJtZW50aW9ucyJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibmlwMjktZ3JvdXAtbWVtYmVycyIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om5pcDI5LWdyb3VwLW1lbWJlcnMvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJtZW50aW9ucyJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibmlwMjktZ3JvdXAtbWVtYmVycyIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om5pcDI5LWdyb3VwLW1lbWJlcnMvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0"
+  },
+  {
+    "id": "mapplets-funchal-journey",
+    "label": "Mapplets · Funchal journey",
+    "text": "Open a published Funchal journey in Mapplets.",
+    "nappletId": "mapplets",
+    "pointer": "naddr1qqyx6ctswpkx2arnqgsqhtasevhkqty908ymemjgwuphelgrv33gf62p64ywy5ldum0as5srqsqqpzfe5a247a",
+    "intent": {
+      "archetype": "map-viewer",
+      "action": "open",
+      "convention": "napplet:map-viewer/open"
+    },
+    "state": {
+      "eventId": "8ee5692579f2294be3c5671e6f20219829e5d65ed93d687530db5b4c95583c1b"
+    },
+    "targetPointer": "naddr1qqyx6ctswpkx2arnqgsqhtasevhkqty908ymemjgwuphelgrv33gf62p64ywy5ldum0as5srqsqqpzfe5a247a",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF5eDZjdHN3cGt4MmFybnFnc3FodGFzZXZoa3F0eTkwOHltZW1qZ3d1cGhlbGdydjMzZ2Y2MnA2NHl3eTVsZHVtMGFzNXNycXNxcXB6ZmU1YTI0N2EiLCJzdGF0ZSI6eyJldmVudElkIjoiOGVlNTY5MjU3OWYyMjk0YmUzYzU2NzFlNmYyMDIxOTgyOWU1ZDY1ZWQ5M2Q2ODc1MzBkYjViNGM5NTU4M2MxYiJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibWFwLXZpZXdlciIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om1hcC12aWV3ZXIvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF5eDZjdHN3cGt4MmFybnFnc3FodGFzZXZoa3F0eTkwOHltZW1qZ3d1cGhlbGdydjMzZ2Y2MnA2NHl3eTVsZHVtMGFzNXNycXNxcXB6ZmU1YTI0N2EiLCJzdGF0ZSI6eyJldmVudElkIjoiOGVlNTY5MjU3OWYyMjk0YmUzYzU2NzFlNmYyMDIxOTgyOWU1ZDY1ZWQ5M2Q2ODc1MzBkYjViNGM5NTU4M2MxYiJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibWFwLXZpZXdlciIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om1hcC12aWV3ZXIvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0"
+  },
+  {
+    "id": "mappy-funchal-point",
+    "label": "Mappy · Funchal point",
+    "text": "Open a tight map window around a point in central Funchal.",
+    "nappletId": "mappy-editor",
+    "pointer": "naddr1qqxx6ctswpuj6etyd96x7uszyq96lvxt9aszepteex7wujrhqd706qmyv2zwjsw4fr398m0xmlv9yqcyqqqgjwguflyw2",
+    "intent": {
+      "archetype": "map-building-editor",
+      "action": "open",
+      "convention": "napplet:map-building-editor/open"
+    },
+    "state": {
+      "sourceAuthor": "bbc0ae0fee0bb73165e21d71c061cb33d18a8fa37c40d8b1ccd1ed598aed114c",
+      "releaseDTag": "mappy-map-madeira-poc",
+      "manifestHash": "c2a28439b44343996b8a44f7ae97f78d2b81647e9f5f58d44601c8efc894a924",
+      "releaseKind": 30078,
+      "west": -16.9097,
+      "south": 32.6486,
+      "east": -16.9077,
+      "north": 32.6506,
+      "point": {
+        "latitude": 32.6496,
+        "longitude": -16.9087
+      }
+    },
+    "targetPointer": "naddr1qqxx6ctswpuj6etyd96x7uszyq96lvxt9aszepteex7wujrhqd706qmyv2zwjsw4fr398m0xmlv9yqcyqqqgjwguflyw2",
+    "fragment": "#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4eDZjdHN3cHVqNmV0eWQ5Nng3dXN6eXE5Nmx2eHQ5YXN6ZXB0ZWV4N3d1anJocWQ3MDZxbXl2Mnp3anN3NGZyMzk4bTB4bWx2OXlxY3lxcXFnandndWZseXcyIiwic3RhdGUiOnsic291cmNlQXV0aG9yIjoiYmJjMGFlMGZlZTBiYjczMTY1ZTIxZDcxYzA2MWNiMzNkMThhOGZhMzdjNDBkOGIxY2NkMWVkNTk4YWVkMTE0YyIsInJlbGVhc2VEVGFnIjoibWFwcHktbWFwLW1hZGVpcmEtcG9jIiwibWFuaWZlc3RIYXNoIjoiYzJhMjg0MzliNDQzNDM5OTZiOGE0NGY3YWU5N2Y3OGQyYjgxNjQ3ZTlmNWY1OGQ0NDYwMWM4ZWZjODk0YTkyNCIsInJlbGVhc2VLaW5kIjozMDA3OCwid2VzdCI6LTE2LjkwOTcsInNvdXRoIjozMi42NDg2LCJlYXN0IjotMTYuOTA3Nywibm9ydGgiOjMyLjY1MDYsInBvaW50Ijp7ImxhdGl0dWRlIjozMi42NDk2LCJsb25naXR1ZGUiOi0xNi45MDg3fX0sImludGVudCI6eyJhcmNoZXR5cGUiOiJtYXAtYnVpbGRpbmctZWRpdG9yIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bWFwLWJ1aWxkaW5nLWVkaXRvci9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ",
+    "url": "https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4eDZjdHN3cHVqNmV0eWQ5Nng3dXN6eXE5Nmx2eHQ5YXN6ZXB0ZWV4N3d1anJocWQ3MDZxbXl2Mnp3anN3NGZyMzk4bTB4bWx2OXlxY3lxcXFnandndWZseXcyIiwic3RhdGUiOnsic291cmNlQXV0aG9yIjoiYmJjMGFlMGZlZTBiYjczMTY1ZTIxZDcxYzA2MWNiMzNkMThhOGZhMzdjNDBkOGIxY2NkMWVkNTk4YWVkMTE0YyIsInJlbGVhc2VEVGFnIjoibWFwcHktbWFwLW1hZGVpcmEtcG9jIiwibWFuaWZlc3RIYXNoIjoiYzJhMjg0MzliNDQzNDM5OTZiOGE0NGY3YWU5N2Y3OGQyYjgxNjQ3ZTlmNWY1OGQ0NDYwMWM4ZWZjODk0YTkyNCIsInJlbGVhc2VLaW5kIjozMDA3OCwid2VzdCI6LTE2LjkwOTcsInNvdXRoIjozMi42NDg2LCJlYXN0IjotMTYuOTA3Nywibm9ydGgiOjMyLjY1MDYsInBvaW50Ijp7ImxhdGl0dWRlIjozMi42NDk2LCJsb25naXR1ZGUiOi0xNi45MDg3fX0sImludGVudCI6eyJhcmNoZXR5cGUiOiJtYXAtYnVpbGRpbmctZWRpdG9yIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bWFwLWJ1aWxkaW5nLWVkaXRvci9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ"
+  }
+]

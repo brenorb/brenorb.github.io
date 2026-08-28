@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Envelope QR demo</title>
+    <style>
+      :root { color-scheme: dark; font: 16px/1.5 system-ui, sans-serif; background: #101211; color: #f4f0df; }
+      * { box-sizing: border-box; }
+      body { max-width: 72rem; margin: 0 auto; padding: 2rem 1rem 4rem; }
+      header { margin-bottom: 2rem; }
+      h1, h2, p { margin: 0; }
+      h1 { font-size: clamp(1.8rem, 4vw, 3rem); }
+      header p { margin-top: .5rem; color: #a9ad9f; }
+      .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: 1rem; }
+      .card { display: grid; gap: 1rem; padding: 1rem; border: 1px solid #30352f; border-radius: .75rem; background: #181b19; }
+      img { width: 100%; max-width: 18rem; aspect-ratio: 1; justify-self: center; padding: .75rem; border-radius: .5rem; background: white; }
+      h2 { font-size: 1.1rem; }
+      .note { margin-top: .35rem; color: #d8c36a; }
+      a { display: inline-block; margin-top: 1rem; color: #9cebb8; }
+      code { display: block; margin-top: .75rem; color: #a9ad9f; font-size: .7rem; overflow-wrap: anywhere; }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Envelope</h1>
+      <p>Scan a code to open a live Nostr napplet in the custom Paja runtime with state in the URL.</p>
+    </header>
+    <main class="grid" aria-label="Envelope demo launch links">
+      <article class="card" data-demo-id="buildings-ground">
+        <img src="./qr/buildings-ground.svg" alt="QR code for Buildings · Ground floor">
+        <div>
+          <h2>Buildings · Ground floor</h2>
+          <p class="note">Open the ground floor.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXZ6cXFxeWY4eXB6cXphMGtyOWo3Y3B2czR1dW4wOHdmcG1zeGw4YXFkang5cDhmZzgyNTNjam5haG5kbGt6anFxeWt5YXRmZDNqeGptbjh3dnV5cnR5eiIsInN0YXRlIjp7ImZsb29yIjoiZ3JvdW5kIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJidWlsZGluZy1leHBsb3JlciIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmJ1aWxkaW5nLWV4cGxvcmVyL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXZ6cXFxeWY4eXB6cXphMGtyOWo3Y3B2czR1dW4wOHdmcG1zeGw4YXFkang5cDhmZzgyNTNjam5haG5kbGt6anFxeWt5YXRmZDNqeGptbjh3dnV5cnR5eiIsInN0YXRlIjp7ImZsb29yIjoiZ3JvdW5kIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJidWlsZGluZy1leHBsb3JlciIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmJ1aWxkaW5nLWV4cGxvcmVyL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="buildings-both">
+        <img src="./qr/buildings-both.svg" alt="QR code for Buildings · Both floors">
+        <div>
+          <h2>Buildings · Both floors</h2>
+          <p class="note">Show both floors.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXZ6cXFxeWY4eXB6cXphMGtyOWo3Y3B2czR1dW4wOHdmcG1zeGw4YXFkang5cDhmZzgyNTNjam5haG5kbGt6anFxeWt5YXRmZDNqeGptbjh3dnV5cnR5eiIsInN0YXRlIjp7ImZsb29yIjoiYm90aCJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiYnVpbGRpbmctZXhwbG9yZXIiLCJjb252ZW50aW9uIjoibmFwcGxldDpidWlsZGluZy1leHBsb3Jlci9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXZ6cXFxeWY4eXB6cXphMGtyOWo3Y3B2czR1dW4wOHdmcG1zeGw4YXFkang5cDhmZzgyNTNjam5haG5kbGt6anFxeWt5YXRmZDNqeGptbjh3dnV5cnR5eiIsInN0YXRlIjp7ImZsb29yIjoiYm90aCJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiYnVpbGRpbmctZXhwbG9yZXIiLCJjb252ZW50aW9uIjoibmFwcGxldDpidWlsZGluZy1leHBsb3Jlci9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="message-welcome">
+        <img src="./qr/message-welcome.svg" alt="QR code for Envelope message · Welcome">
+        <div>
+          <h2>Envelope message · Welcome</h2>
+          <p class="note">Welcome to Envelope.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IldlbGNvbWUgdG8gRW52ZWxvcGUuIiwidG9uZSI6IndlbGNvbWUifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IldlbGNvbWUgdG8gRW52ZWxvcGUuIiwidG9uZSI6IndlbGNvbWUifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="message-madeira">
+        <img src="./qr/message-madeira.svg" alt="QR code for Envelope message · Madeira">
+        <div>
+          <h2>Envelope message · Madeira</h2>
+          <p class="note">Greetings from Madeira.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IkdyZWV0aW5ncyBmcm9tIE1hZGVpcmEuIiwidG9uZSI6InBvc3RjYXJkIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJlbnZlbG9wZSIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmVudmVsb3BlL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IkdyZWV0aW5ncyBmcm9tIE1hZGVpcmEuIiwidG9uZSI6InBvc3RjYXJkIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJlbnZlbG9wZSIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmVudmVsb3BlL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="message-protocol">
+        <img src="./qr/message-protocol.svg" alt="QR code for Envelope message · Protocol">
+        <div>
+          <h2>Envelope message · Protocol</h2>
+          <p class="note">State travels in the URL.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlN0YXRlIHRyYXZlbHMgaW4gdGhlIFVSTC4iLCJ0b25lIjoicHJvdG9jb2wifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlN0YXRlIHRyYXZlbHMgaW4gdGhlIFVSTC4iLCJ0b25lIjoicHJvdG9jb2wifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="message-offline">
+        <img src="./qr/message-offline.svg" alt="QR code for Envelope message · Offline">
+        <div>
+          <h2>Envelope message · Offline</h2>
+          <p class="note">This message needs no hosted database.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlRoaXMgbWVzc2FnZSBuZWVkcyBubyBob3N0ZWQgZGF0YWJhc2UuIiwidG9uZSI6Im9mZmxpbmUifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlRoaXMgbWVzc2FnZSBuZWVkcyBubyBob3N0ZWQgZGF0YWJhc2UuIiwidG9uZSI6Im9mZmxpbmUifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="message-scan">
+        <img src="./qr/message-scan.svg" alt="QR code for Envelope message · Scan">
+        <div>
+          <h2>Envelope message · Scan</h2>
+          <p class="note">Scan → resolve → open.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlNjYW4g4oaSIHJlc29sdmUg4oaSIG9wZW4uIiwidG9uZSI6ImRlbW8ifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlNjYW4g4oaSIHJlc29sdmUg4oaSIG9wZW4uIiwidG9uZSI6ImRlbW8ifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6ImVudmVsb3BlIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6ZW52ZWxvcGUvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="message-showcase">
+        <img src="./qr/message-showcase.svg" alt="QR code for Envelope message · Showcase">
+        <div>
+          <h2>Envelope message · Showcase</h2>
+          <p class="note">Twenty links, one runtime.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlR3ZW50eSBsaW5rcywgb25lIHJ1bnRpbWUuIiwidG9uZSI6InNob3djYXNlIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJlbnZlbG9wZSIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmVudmVsb3BlL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlR3ZW50eSBsaW5rcywgb25lIHJ1bnRpbWUuIiwidG9uZSI6InNob3djYXNlIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJlbnZlbG9wZSIsImNvbnZlbnRpb24iOiJuYXBwbGV0OmVudmVsb3BlL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="message-nostr">
+        <img src="./qr/message-nostr.svg" alt="QR code for Envelope message · Nostr">
+        <div>
+          <h2>Envelope message · Nostr</h2>
+          <p class="note">The app came from Nostr.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlRoZSBhcHAgY2FtZSBmcm9tIE5vc3RyLiIsInRvbmUiOiJub3N0ciJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiZW52ZWxvcGUiLCJjb252ZW50aW9uIjoibmFwcGxldDplbnZlbG9wZS9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IlRoZSBhcHAgY2FtZSBmcm9tIE5vc3RyLiIsInRvbmUiOiJub3N0ciJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiZW52ZWxvcGUiLCJjb252ZW50aW9uIjoibmFwcGxldDplbnZlbG9wZS9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="message-napplet">
+        <img src="./qr/message-napplet.svg" alt="QR code for Envelope message · Napplet">
+        <div>
+          <h2>Envelope message · Napplet</h2>
+          <p class="note">A napplet is a notebook with a starting state.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IkEgbmFwcGxldCBpcyBhIG5vdGVib29rIHdpdGggYSBzdGFydGluZyBzdGF0ZS4iLCJ0b25lIjoibmFwcGxldCJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiZW52ZWxvcGUiLCJjb252ZW50aW9uIjoibmFwcGxldDplbnZlbG9wZS9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXFneDJtbmt2NGt4N3VyOTk0amhzY3Rkd3BreDJxM3FndHRwMDRxc2NwdWF1MjIyMGhwYXZlNTlkeHRqajRwdXQ5MDBneHczeTVqamU3dWdremNxeHBxcXF6eW5qMmowc2FyIiwic3RhdGUiOnsibWVzc2FnZSI6IkEgbmFwcGxldCBpcyBhIG5vdGVib29rIHdpdGggYSBzdGFydGluZyBzdGF0ZS4iLCJ0b25lIjoibmFwcGxldCJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoiZW52ZWxvcGUiLCJjb252ZW50aW9uIjoibmFwcGxldDplbnZlbG9wZS9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="nip29-chat-overview">
+        <img src="./qr/nip29-chat-overview.svg" alt="QR code for NIP-29 Chat · Overview">
+        <div>
+          <h2>NIP-29 Chat · Overview</h2>
+          <p class="note">Open The Chatter in overview mode.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoib3ZlcnZpZXcifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bmlwMjktZ3JvdXAvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoib3ZlcnZpZXcifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bmlwMjktZ3JvdXAvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="nip29-chat-conversation">
+        <img src="./qr/nip29-chat-conversation.svg" alt="QR code for NIP-29 Chat · Conversation">
+        <div>
+          <h2>NIP-29 Chat · Conversation</h2>
+          <p class="note">Open The Chatter in conversation mode.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoiY29udmVyc2F0aW9uIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJuaXAyOS1ncm91cCIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om5pcDI5LWdyb3VwL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoiY29udmVyc2F0aW9uIn0sImludGVudCI6eyJhcmNoZXR5cGUiOiJuaXAyOS1ncm91cCIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om5pcDI5LWdyb3VwL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="nip29-chat-mentions">
+        <img src="./qr/nip29-chat-mentions.svg" alt="QR code for NIP-29 Chat · Mentions">
+        <div>
+          <h2>NIP-29 Chat · Mentions</h2>
+          <p class="note">Open The Chatter in mentions mode.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoibWVudGlvbnMifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bmlwMjktZ3JvdXAvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoibWVudGlvbnMifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bmlwMjktZ3JvdXAvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="nip29-chat-madeira">
+        <img src="./qr/nip29-chat-madeira.svg" alt="QR code for NIP-29 Chat · Madeira">
+        <div>
+          <h2>NIP-29 Chat · Madeira</h2>
+          <p class="note">Open The Chatter in madeira mode.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoibWFkZWlyYSJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibmlwMjktZ3JvdXAiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXE5eHU2dHN4Z3VqNmNtZ3Y5NnF5Z3BsZHIwZGFxMjVubnFnZ25hMHU1NTB6NDZ0MjhzZnRlNmZyYXJnaGt0Z243cmgweGFjcjVwc2dxcXEzeXVzbGtlbnYzIiwic3RhdGUiOnsicmVsYXkiOiJ3c3M6Ly9yZWxheS5kYW11cy5pbyIsImdyb3VwIjoiOTA4OWIxOWViMGRlZDhkYyIsIm5hbWUiOiJUaGUgQ2hhdHRlciIsInBpY3R1cmUiOiIiLCJtb2RlIjoibWFkZWlyYSJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibmlwMjktZ3JvdXAiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="nip29-members-roster">
+        <img src="./qr/nip29-members-roster.svg" alt="QR code for NIP-29 Members · Roster">
+        <div>
+          <h2>NIP-29 Members · Roster</h2>
+          <p class="note">Open The Chatter member view focused on roster.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJyb3N0ZXIifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJyb3N0ZXIifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="nip29-members-admins">
+        <img src="./qr/nip29-members-admins.svg" alt="QR code for NIP-29 Members · Admins">
+        <div>
+          <h2>NIP-29 Members · Admins</h2>
+          <p class="note">Open The Chatter member view focused on admins.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJhZG1pbnMifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJhZG1pbnMifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="nip29-members-search">
+        <img src="./qr/nip29-members-search.svg" alt="QR code for NIP-29 Members · Search">
+        <div>
+          <h2>NIP-29 Members · Search</h2>
+          <p class="note">Open The Chatter member view focused on search.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJzZWFyY2gifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJzZWFyY2gifSwiaW50ZW50Ijp7ImFyY2hldHlwZSI6Im5pcDI5LWdyb3VwLW1lbWJlcnMiLCJjb252ZW50aW9uIjoibmFwcGxldDpuaXAyOS1ncm91cC1tZW1iZXJzL29wZW4iLCJhY3Rpb24iOiJvcGVuIn19</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="nip29-members-mentions">
+        <img src="./qr/nip29-members-mentions.svg" alt="QR code for NIP-29 Members · Mentions">
+        <div>
+          <h2>NIP-29 Members · Mentions</h2>
+          <p class="note">Open The Chatter member view focused on mentions.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJtZW50aW9ucyJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibmlwMjktZ3JvdXAtbWVtYmVycyIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om5pcDI5LWdyb3VwLW1lbWJlcnMvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4a3U2dHN4Z3VqNm10OWQ0M3gydW5ucWdzcjc2eDdtNnE0Zjh4cXMzODZsZWZnNzl0NWs1MHFqaG41ajg2eDMwdmszOHU4dzdkbXM4Z3Jxc3FxcHpmZTk3NmxyNCIsInN0YXRlIjp7InJlbGF5Ijoid3NzOi8vcmVsYXkuZGFtdXMuaW8iLCJncm91cCI6IjkwODliMTllYjBkZWQ4ZGMiLCJuYW1lIjoiVGhlIENoYXR0ZXIiLCJwaWN0dXJlIjoiIiwiZm9jdXMiOiJtZW50aW9ucyJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibmlwMjktZ3JvdXAtbWVtYmVycyIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om5pcDI5LWdyb3VwLW1lbWJlcnMvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="mapplets-funchal-journey">
+        <img src="./qr/mapplets-funchal-journey.svg" alt="QR code for Mapplets · Funchal journey">
+        <div>
+          <h2>Mapplets · Funchal journey</h2>
+          <p class="note">Open a published Funchal journey in Mapplets.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF5eDZjdHN3cGt4MmFybnFnc3FodGFzZXZoa3F0eTkwOHltZW1qZ3d1cGhlbGdydjMzZ2Y2MnA2NHl3eTVsZHVtMGFzNXNycXNxcXB6ZmU1YTI0N2EiLCJzdGF0ZSI6eyJldmVudElkIjoiOGVlNTY5MjU3OWYyMjk0YmUzYzU2NzFlNmYyMDIxOTgyOWU1ZDY1ZWQ5M2Q2ODc1MzBkYjViNGM5NTU4M2MxYiJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibWFwLXZpZXdlciIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om1hcC12aWV3ZXIvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF5eDZjdHN3cGt4MmFybnFnc3FodGFzZXZoa3F0eTkwOHltZW1qZ3d1cGhlbGdydjMzZ2Y2MnA2NHl3eTVsZHVtMGFzNXNycXNxcXB6ZmU1YTI0N2EiLCJzdGF0ZSI6eyJldmVudElkIjoiOGVlNTY5MjU3OWYyMjk0YmUzYzU2NzFlNmYyMDIxOTgyOWU1ZDY1ZWQ5M2Q2ODc1MzBkYjViNGM5NTU4M2MxYiJ9LCJpbnRlbnQiOnsiYXJjaGV0eXBlIjoibWFwLXZpZXdlciIsImNvbnZlbnRpb24iOiJuYXBwbGV0Om1hcC12aWV3ZXIvb3BlbiIsImFjdGlvbiI6Im9wZW4ifX0</code>
+        </div>
+      </article>
+      <article class="card" data-demo-id="mappy-funchal-point">
+        <img src="./qr/mappy-funchal-point.svg" alt="QR code for Mappy · Funchal point">
+        <div>
+          <h2>Mappy · Funchal point</h2>
+          <p class="note">Open a tight map window around a point in central Funchal.</p>
+          <a href="https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4eDZjdHN3cHVqNmV0eWQ5Nng3dXN6eXE5Nmx2eHQ5YXN6ZXB0ZWV4N3d1anJocWQ3MDZxbXl2Mnp3anN3NGZyMzk4bTB4bWx2OXlxY3lxcXFnandndWZseXcyIiwic3RhdGUiOnsic291cmNlQXV0aG9yIjoiYmJjMGFlMGZlZTBiYjczMTY1ZTIxZDcxYzA2MWNiMzNkMThhOGZhMzdjNDBkOGIxY2NkMWVkNTk4YWVkMTE0YyIsInJlbGVhc2VEVGFnIjoibWFwcHktbWFwLW1hZGVpcmEtcG9jIiwibWFuaWZlc3RIYXNoIjoiYzJhMjg0MzliNDQzNDM5OTZiOGE0NGY3YWU5N2Y3OGQyYjgxNjQ3ZTlmNWY1OGQ0NDYwMWM4ZWZjODk0YTkyNCIsInJlbGVhc2VLaW5kIjozMDA3OCwid2VzdCI6LTE2LjkwOTcsInNvdXRoIjozMi42NDg2LCJlYXN0IjotMTYuOTA3Nywibm9ydGgiOjMyLjY1MDYsInBvaW50Ijp7ImxhdGl0dWRlIjozMi42NDk2LCJsb25naXR1ZGUiOi0xNi45MDg3fX0sImludGVudCI6eyJhcmNoZXR5cGUiOiJtYXAtYnVpbGRpbmctZWRpdG9yIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bWFwLWJ1aWxkaW5nLWVkaXRvci9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ">Open this napplet</a>
+          <code>https://1nywmkqmtwmbl188q8gggxw8vjp62phce9ujzga9cdgtikqd2oenvelope.nsite.lol/#nw1.eyJ2IjoxLCJwb2ludGVyIjoibmFkZHIxcXF4eDZjdHN3cHVqNmV0eWQ5Nng3dXN6eXE5Nmx2eHQ5YXN6ZXB0ZWV4N3d1anJocWQ3MDZxbXl2Mnp3anN3NGZyMzk4bTB4bWx2OXlxY3lxcXFnandndWZseXcyIiwic3RhdGUiOnsic291cmNlQXV0aG9yIjoiYmJjMGFlMGZlZTBiYjczMTY1ZTIxZDcxYzA2MWNiMzNkMThhOGZhMzdjNDBkOGIxY2NkMWVkNTk4YWVkMTE0YyIsInJlbGVhc2VEVGFnIjoibWFwcHktbWFwLW1hZGVpcmEtcG9jIiwibWFuaWZlc3RIYXNoIjoiYzJhMjg0MzliNDQzNDM5OTZiOGE0NGY3YWU5N2Y3OGQyYjgxNjQ3ZTlmNWY1OGQ0NDYwMWM4ZWZjODk0YTkyNCIsInJlbGVhc2VLaW5kIjozMDA3OCwid2VzdCI6LTE2LjkwOTcsInNvdXRoIjozMi42NDg2LCJlYXN0IjotMTYuOTA3Nywibm9ydGgiOjMyLjY1MDYsInBvaW50Ijp7ImxhdGl0dWRlIjozMi42NDk2LCJsb25naXR1ZGUiOi0xNi45MDg3fX0sImludGVudCI6eyJhcmNoZXR5cGUiOiJtYXAtYnVpbGRpbmctZWRpdG9yIiwiY29udmVudGlvbiI6Im5hcHBsZXQ6bWFwLWJ1aWxkaW5nLWVkaXRvci9vcGVuIiwiYWN0aW9uIjoib3BlbiJ9fQ</code>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
