@@ -60,6 +60,27 @@ Summary: A list of projects
 
 ## Posts, projects, talks, and media
 
+### btc-implicit-distribution - Bitcoin implied price distribution explorer
+
+URL: https://brenorb.com/projects/btc-implicit-distribution/
+Source: _posts/2026-07-09-btc-implicit-distribution.md
+Date: 2026-07-09
+Content type: project
+Tags: bitcoin, options, python, finance
+Summary: btc-implicit-distribution is a static browser-based explorer that derives a risk-neutral BTC price distribution from live Deribit option quotes using Python and Pyodide.
+
+**btc-implicit-distribution** is a **static browser-based explorer for the market-implied future price distribution of Bitcoin**.
+
+It fetches live BTC option quotes from **Deribit** and uses finite-difference butterflies to estimate a risk-neutral distribution for a selected expiry. The interface exposes the main assumptions so it is possible to inspect how smoothing, strike range, bid/ask envelopes, and the choice of puts or calls affect the result.
+
+The project runs entirely in the browser: the pricing engine is written in **Python** and executed with **Pyodide**, while the chart is rendered with Plotly. There is no backend, and a short-lived local cache prevents repeated refreshes from hammering the public API.
+
+This is a market-implied distribution, not a price oracle or a forecast. The first public commit was published on **2026-07-09**, which is the date used for this project entry.
+
+### Links
+[Live Site](https://btc-implicit-distribution.brenorb.com/)
+[GitHub Repo](https://github.com/brenorb/btc-implicit-distribution)
+
 ### filepizza-cli
 
 URL: https://brenorb.com/projects/filepizza-cli/
