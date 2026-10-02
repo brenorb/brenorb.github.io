@@ -60,6 +60,82 @@ Summary: A list of projects
 
 ## Posts, projects, talks, and media
 
+### Nut Fungible Tokens (NutFT)
+
+URL: https://brenorb.com/projects/nut-fungible-tokens/
+Source: _posts/2026-08-09-nut-fungible-tokens.md
+Date: 2026-08-09
+Content type: project
+Tags: bitcoin, cashu, ecash, collectibles
+Summary: Nut Fungible Tokens is a draft application-level extension for Cashu proofs that preserves asset identity across transfers, with a trading-card application profile.
+
+**Nut Fungible Tokens (NutFT)** is a proposal I developed for representing **individually identifiable bearer assets with Cashu proofs**.
+
+Cashu already provides the primitives for issuing and transferring ecash. NutFT explores how those same primitives can represent a collectible card, an entitlement, or a credential whose identity must survive a change of owner.
+
+## Preserving the asset
+
+An ordinary Cashu swap can replace a proof without preserving application-specific information. For an identifiable asset, that would mean losing what the token represents.
+
+NutFT binds each proof to a **collection identifier**, an **asset identifier**, and a **catalog location**. A NutFT-aware mint validates this binding and preserves it when issuing a replacement proof. Ownership keys and proof-specific data can change while the represented asset stays the same.
+
+Each asset proof has an amount of **one**. Artwork, attributes, and descriptions live in the application's catalog, keeping the token's asset reference small.
+
+## Trading cards as an application
+
+The repository includes a **trading-card demo specification** built on the general proposal. It describes cards represented by separate proofs, a signed catalog, and wallet verification of catalog signatures and artwork hashes.
+
+The broader idea is to reuse Cashu's mint and wallet model for application assets, with explicit rules for issuance, transfers, and catalog migrations.
+
+## Status and privacy
+
+The specification is an **exploratory draft**. Its working designation, **NUT-31**, is not an official Cashu NUT assignment, and ordinary Cashu wallets and mints cannot be assumed to preserve NutFT assets during swaps.
+
+The mint can see asset identity and metadata. Optional blinded recipient keys can reduce key-based linkability, but they do not hide which asset is being transferred from the mint.
+
+### Links
+[GitHub Repo](https://github.com/brenorb/NutFT)
+[Draft Specification](https://github.com/brenorb/NutFT/blob/main/31.md)
+[Trading-card Demo Specification](https://github.com/brenorb/NutFT/blob/main/docs/demo-spec.md)
+
+### Envelope - Launch Nostr apps with state in a link
+
+URL: https://brenorb.com/projects/envelope/
+Source: _posts/2026-08-05-envelope.md
+Date: 2026-08-05
+Content type: project
+Tags: nostr, napplets, web, privacy
+Summary: Envelope combines an nsite-hosted Paja runtime with a signed opener napplet to launch verified Nostr apps and deliver the state carried in a URL fragment.
+
+**Envelope** is a tool I built for **opening a Nostr app in a particular state from a link or QR code**.
+
+A link can select the app and carry the context it should receive: a message to display, for example, or a particular floor in a building explorer. Sharing that link shares the starting point for the experience.
+
+## How it works
+
+Envelope runs as an **nsite**, a static site published through Nostr, using a customized [Paja runtime](https://github.com/kehto/web/tree/main/packages/paja). It launches signed **napplets**, small apps described by NIP-5D manifests.
+
+The URL fragment carries the app pointer and launch state. A separately published, signed opener decodes that fragment, asks the runtime to load the target, and delivers the state after the target signals that it is ready. The runtime verifies the signed pointer and app content before use.
+
+Because URL fragments are not sent in HTTP requests, the launch payload stays out of the gateway's request URL. Envelope also supports encrypted fragments. The target app receives the state through an explicit intent contract, so it needs to support that incoming context.
+
+## Try the QR demo
+
+The [QR demo](/envelope_demo/) includes building-explorer links and message examples. Each link carries its complete launch payload and opens the corresponding published napplet.
+
+Envelope also resolves content-addressed Blossom resources used by apps such as Mapplets and Mappy.
+
+## Returning offline
+
+The first successful open needs access to the network to fetch the site, signed events, and app content. Envelope caches those resources so later reloads can reopen the verified app and restore the same launch state offline.
+
+An app's own network-dependent features still need connectivity. The offline behavior applies to reopening cached content and delivering its launch state.
+
+### Links
+[QR Demo](/envelope_demo/)
+[GitHub Repo](https://github.com/brenorb/envelope)
+[Architecture](https://github.com/brenorb/envelope/blob/main/research/architecture.md)
+
 ### btc-implicit-distribution - Bitcoin implied price distribution explorer
 
 URL: https://brenorb.com/projects/btc-implicit-distribution/
