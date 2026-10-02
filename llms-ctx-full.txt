@@ -125,11 +125,11 @@ The [QR demo](/envelope_demo/) includes building-explorer links and message exam
 
 Envelope also resolves content-addressed Blossom resources used by apps such as Mapplets and Mappy.
 
-## Returning offline
+## Self-contained launch state
 
-The first successful open needs access to the network to fetch the site, signed events, and app content. Envelope caches those resources so later reloads can reopen the verified app and restore the same launch state offline.
+The **complete launch state is contained in the URL fragment**. Envelope decodes it directly from the link; it does not fetch that state from a server. Decoding the launch state needs no internet connection and does not depend on having opened the link before.
 
-An app's own network-dependent features still need connectivity. The offline behavior applies to reopening cached content and delivering its launch state.
+Loading the runtime and app code is a separate concern. Envelope can cache those resources for offline use, while an app's own network-dependent features may still need connectivity. The launch state itself always travels with the link.
 
 ### Links
 [QR Demo](/envelope_demo/)
