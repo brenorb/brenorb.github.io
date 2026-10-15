@@ -1,10 +1,11 @@
 ---
 layout: post
+lang: en
 permalink: /projects/building-llm-applications-with-dspy/
-title: "Building LLM Applications with DSPy"
+title: "Reviewer — Building LLM Applications with DSPy"
 date: 2026-10-15
-excerpt: "Participação como revisor do livro de Serj Smorodinsky e Brett Kennedy, da Manning."
-description: "Participei como revisor de Building LLM Applications with DSPy, de Serj Smorodinsky e Brett Kennedy, da Manning, e meu nome aparece nos agradecimentos aos revisores."
+excerpt: "Reviewer for Building LLM Applications with DSPy by Serj Smorodinsky and Brett Kennedy, from Manning."
+description: "I contributed as a reviewer to Building LLM Applications with DSPy by Serj Smorodinsky and Brett Kennedy, from Manning, and am named in the acknowledgments to reviewers."
 content_type: project
 tags:
 - book
@@ -15,11 +16,11 @@ comments: false
 feature: /assets/building-llm-applications-with-dspy.png
 ---
 
-![Capa de Building LLM Applications with DSPy, de Serj Smorodinsky e Brett Kennedy](/assets/building-llm-applications-with-dspy.png)
+![Cover of Building LLM Applications with DSPy by Serj Smorodinsky and Brett Kennedy](/assets/building-llm-applications-with-dspy.png)
 
-Participei como **revisor** de **Building LLM Applications with DSPy**, de **Serj Smorodinsky** e **Brett Kennedy**, da **Manning**. Meu nome, **Breno Brito**, aparece nos agradecimentos aos revisores do livro.
+I contributed as a **reviewer** to **Building LLM Applications with DSPy**, by **Serj Smorodinsky** and **Brett Kennedy**, from **Manning**. My name, **Breno Brito**, appears in the book’s acknowledgments to reviewers.
 
-O livro aborda a construção de aplicações com modelos de linguagem usando **DSPy**, com foco em programação declarativa, avaliação e otimização de prompts.
+The book covers building language model applications with **DSPy**, focusing on declarative programming, evaluation, and prompt optimization.
 
 ## Links
-[Ver na Manning](https://www.manning.com/books/building-llm-applications-with-dspy){: .btn .btn-info}
+[View on Manning](https://www.manning.com/books/building-llm-applications-with-dspy){: .btn .btn-info}

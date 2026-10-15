@@ -62,23 +62,23 @@ Summary: A list of projects
 
 ## Posts, projects, talks, and media
 
-### Building LLM Applications with DSPy
+### Reviewer — Building LLM Applications with DSPy
 
 URL: https://brenorb.com/projects/building-llm-applications-with-dspy/
 Source: _posts/2026-10-15-building-llm-applications-with-dspy.md
 Date: 2026-10-15
 Content type: project
 Tags: book, ai, llm, review
-Summary: Participei como revisor de Building LLM Applications with DSPy, de Serj Smorodinsky e Brett Kennedy, da Manning, e meu nome aparece nos agradecimentos aos revisores.
+Summary: I contributed as a reviewer to Building LLM Applications with DSPy by Serj Smorodinsky and Brett Kennedy, from Manning, and am named in the acknowledgments to reviewers.
 
-![Capa de Building LLM Applications with DSPy, de Serj Smorodinsky e Brett Kennedy](/assets/building-llm-applications-with-dspy.png)
+![Cover of Building LLM Applications with DSPy by Serj Smorodinsky and Brett Kennedy](/assets/building-llm-applications-with-dspy.png)
 
-Participei como **revisor** de **Building LLM Applications with DSPy**, de **Serj Smorodinsky** e **Brett Kennedy**, da **Manning**. Meu nome, **Breno Brito**, aparece nos agradecimentos aos revisores do livro.
+I contributed as a **reviewer** to **Building LLM Applications with DSPy**, by **Serj Smorodinsky** and **Brett Kennedy**, from **Manning**. My name, **Breno Brito**, appears in the book’s acknowledgments to reviewers.
 
-O livro aborda a construção de aplicações com modelos de linguagem usando **DSPy**, com foco em programação declarativa, avaliação e otimização de prompts.
+The book covers building language model applications with **DSPy**, focusing on declarative programming, evaluation, and prompt optimization.
 
 ## Links
-[Ver na Manning](https://www.manning.com/books/building-llm-applications-with-dspy)
+[View on Manning](https://www.manning.com/books/building-llm-applications-with-dspy)
 
 ### Nut Fungible Tokens (NutFT)
 
