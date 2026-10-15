@@ -24,6 +24,8 @@ Tags: about
 
 Breno Brito is an engineer who is passionate about Artificial Intelligence, Bitcoin and Finance. Today he works with a focus on the fusion between Bitcoin and Artificial Intelligence, with language models of general, technical and code knowledge. He previously worked as a data scientist at the largest crypto exchange in Latin America, on translating the main Bitcoin books into Portuguese, co-created the BIP39 list of words in Portuguese, and participated in dozens of articles, lectures, interviews and podcasts about macroeconomics and Bitcoin, and more recently wrote his own book: [101 Perguntas sobre Bitcoin](https://bitcoin101.site).
 
+He also contributed as a **reviewer** to [Building LLM Applications with DSPy](/projects/building-llm-applications-with-dspy/), by **Serj Smorodinsky** and **Brett Kennedy**, for **Manning**.
+
 ## Learn more
 
 Access more information about Breno:
@@ -59,6 +61,24 @@ Summary: A list of projects
 
 
 ## Posts, projects, talks, and media
+
+### Building LLM Applications with DSPy
+
+URL: https://brenorb.com/projects/building-llm-applications-with-dspy/
+Source: _posts/2026-10-15-building-llm-applications-with-dspy.md
+Date: 2026-10-15
+Content type: project
+Tags: book, ai, llm, review
+Summary: Participei como revisor de Building LLM Applications with DSPy, de Serj Smorodinsky e Brett Kennedy, da Manning, e meu nome aparece nos agradecimentos aos revisores.
+
+![Capa de Building LLM Applications with DSPy, de Serj Smorodinsky e Brett Kennedy](/assets/building-llm-applications-with-dspy.png)
+
+Participei como **revisor** de **Building LLM Applications with DSPy**, de **Serj Smorodinsky** e **Brett Kennedy**, da **Manning**. Meu nome, **Breno Brito**, aparece nos agradecimentos aos revisores do livro.
+
+O livro aborda a construção de aplicações com modelos de linguagem usando **DSPy**, com foco em programação declarativa, avaliação e otimização de prompts.
+
+## Links
+[Ver na Manning](https://www.manning.com/books/building-llm-applications-with-dspy)
 
 ### Nut Fungible Tokens (NutFT)
 
