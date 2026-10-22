@@ -42,6 +42,9 @@ jobs:
       - name: Verify Google indexing routes
         run: ruby scripts/check_indexing_routes.rb
 
+      - name: Verify related page relevance
+        run: ruby scripts/check_related_posts.rb
+
       - name: Preserve custom domain
         run: cp CNAME _site/CNAME
 

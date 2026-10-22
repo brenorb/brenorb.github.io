@@ -2,6 +2,7 @@
 layout: page
 lang: en
 title: About me
+description: "Breno Brito is an AI engineer, data scientist, Bitcoin author, and contributor to open-source projects and the Portuguese BIP39 wordlist."
 tags: [about]
 date: 2024-01-25
 comments: false

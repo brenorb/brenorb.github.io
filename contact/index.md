@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Contact
+lang: en
+description: "Contact Breno Brito for speaking invitations, AI engineering and Bitcoin collaborations, consulting, writing, and open-source projects."
 permalink: /contact/
 comments: false
 ---
