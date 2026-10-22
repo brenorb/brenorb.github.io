@@ -2,18 +2,25 @@
 {% unless related_tags.first %}{% assign related_tags = related_tags | split: ',' %}{% endunless %}
 {% assign related_count = 0 %}
 {% if related_tags and related_tags.size > 0 %}
-<section class="related-posts" aria-labelledby="related-posts-title">
-    <h2 id="related-posts-title">Related pages</h2>
-    <ul>
+{% capture related_items %}
     {% for candidate in site.posts %}
         {% if candidate.url != page.url and candidate.tags %}
-            {% assign shared_tags = candidate.tags | intersect: related_tags %}
-            {% if shared_tags.size > 0 and related_count < 3 %}
+            {% assign shares_tag = false %}
+            {% for candidate_tag in candidate.tags %}
+                {% if related_tags contains candidate_tag %}{% assign shares_tag = true %}{% break %}{% endif %}
+            {% endfor %}
+            {% if shares_tag and related_count < 3 %}
             <li><a href="{{ candidate.url | relative_url }}">{{ candidate.title }}</a></li>
                 {% assign related_count = related_count | plus: 1 %}
             {% endif %}
         {% endif %}
     {% endfor %}
+{% endcapture %}
+{% if related_count > 0 %}
+<section class="related-posts" aria-labelledby="related-posts-title">
+    <h2 id="related-posts-title">Related pages</h2>
+    <ul>{{ related_items }}
     </ul>
 </section>
+{% endif %}
 {% endif %}

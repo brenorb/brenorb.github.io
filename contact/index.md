@@ -1,11 +1,14 @@
 ---
 layout: page
-title: Contact
+title: Contact Breno Brito
+lang: en
+description: "Contact Breno Brito for speaking invitations, AI engineering and Bitcoin collaborations, consulting, writing, and open-source projects."
 permalink: /contact/
 comments: false
 ---
 
 <div class="contact-shell">
+  <p class="contact-lede" lang="pt-BR">Para convidar <strong>Breno Brito</strong> para uma palestra sobre inteligência artificial, Bitcoin ou finanças, ou propor uma colaboração, use o formulário desta página. Informe o tema, a data, o público e o formato do evento. Veja as <a href="/media/">palestras e entrevistas</a> para conhecer os assuntos abordados.</p>
   <p class="contact-lede">If you want to get in touch, send a message here or reach out where the conversation already lives.</p>
   <p class="contact-lede">I am especially open to conversations about AI engineering, Bitcoin, data science, language models, open-source software, writing, talks, and collaborations that make difficult technical ideas easier to use.</p>
 

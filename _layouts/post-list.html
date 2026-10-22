@@ -21,6 +21,7 @@ layout: compress
                         <i class="fa fa-home"></i>
                     </a>
                 </div>
+                {{ content }}
                 <div class="post-list">
                     {% assign archive_posts = site.posts | where: "content_type", page.content_type %}
                     {% for post in archive_posts %}
