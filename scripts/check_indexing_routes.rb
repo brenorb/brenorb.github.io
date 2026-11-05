@@ -90,7 +90,9 @@ english_routes = %w[
   /projects/stringer-safety/
 ]
 
-def route_output_path(site_dir, route) = SiteSource.output_path(site_dir, route)
+def route_output_path(site_dir, route)
+  SiteSource.output_path(site_dir, route)
+end
 
 # Built files are read many times (sitemap, archives); read each once.
 built_files = Hash.new { |cache, file| cache[file] = SiteSource.read(file) }

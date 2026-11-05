@@ -15,7 +15,9 @@ PAGE_SOURCES = [
   "projects/index.md"
 ].freeze
 
-def read_source(relative_path) = SiteSource.parse(SiteSource.read(SiteSource.path(relative_path)))
+def read_source(relative_path)
+  SiteSource.parse(SiteSource.read(SiteSource.path(relative_path)))
+end
 
 def public_source?(front_matter)
   front_matter["published"] != false && front_matter["sitemap"] != false
@@ -36,7 +38,9 @@ def page_url(relative_path)
   absolute_url("/#{relative_path.sub(%r{/index\.md$}, "/")}")
 end
 
-def absolute_url(path) = SiteSource.absolute_url(path)
+def absolute_url(path)
+  SiteSource.absolute_url(path)
+end
 
 def normalize_scalar(value)
   case value

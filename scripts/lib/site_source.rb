@@ -15,24 +15,43 @@ module SiteSource
   POST_GLOB = "_posts/*.{md,markdown}"
 
   Post = Struct.new(:path, :data, :body, keyword_init: true) do
-    def permalink = data["permalink"].to_s
-    def content_type = data["content_type"].to_s
-    def tags = Array(data["tags"] || data["tag"])
+    def permalink
+      data["permalink"].to_s
+    end
+
+    def content_type
+      data["content_type"].to_s
+    end
+
+    def tags
+      Array(data["tags"] || data["tag"])
+    end
+
     # Section settings from _data/sections.yml (archive, related).
-    def section = SiteSource.sections.fetch(content_type) { SiteSource.sections.fetch("article") }
+    def section
+      SiteSource.sections.fetch(content_type) { SiteSource.sections.fetch("article") }
+    end
   end
 
   module_function
 
-  def path(relative) = File.join(ROOT, relative)
+  def path(relative)
+    File.join(ROOT, relative)
+  end
 
-  def read(file) = File.read(file, encoding: "UTF-8")
+  def read(file)
+    File.read(file, encoding: "UTF-8")
+  end
 
   # Repo-relative path for messages.
-  def relative(file) = file.delete_prefix("#{ROOT}/")
+  def relative(file)
+    file.delete_prefix("#{ROOT}/")
+  end
 
   # Safe YAML loading with the types Jekyll front matter and config use.
-  def load_yaml(text) = YAML.safe_load(text.to_s, permitted_classes: [Date, Time], aliases: true) || {}
+  def load_yaml(text)
+    YAML.safe_load(text.to_s, permitted_classes: [Date, Time], aliases: true) || {}
+  end
 
   # Returns [front_matter_hash, body]. Files without front matter return [{}, text].
   def parse(text)
@@ -42,7 +61,9 @@ module SiteSource
     [load_yaml(yaml), body.to_s]
   end
 
-  def front_matter(file) = parse(read(file)).first
+  def front_matter(file)
+    parse(read(file)).first
+  end
 
   def sections
     @sections ||= load_yaml(read(path("_data/sections.yml")))
@@ -71,7 +92,9 @@ module SiteSource
     File.join(site_dir, relative)
   end
 
-  def absolute_url(route) = "#{SITE_URL}#{route.start_with?('/') ? route : "/#{route}"}"
+  def absolute_url(route)
+    "#{SITE_URL}#{route.start_with?('/') ? route : "/#{route}"}"
+  end
 
   # Local asset path for a front-matter image reference, or nil when it is remote.
   def local_asset(reference)
