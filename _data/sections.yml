@@ -1,0 +1,14 @@
+# Site sections, keyed by a post's `content_type` (default: article).
+# archive: listing page the post links back to and must appear on.
+# related: whether post pages show the "Related pages" block.
+# Read by _layouts/post.html and scripts/lib/site_source.rb.
+
+article:
+  archive: /articles/
+  related: true
+media:
+  archive: /media/
+  related: true
+project:
+  archive: /projects/
+  related: false

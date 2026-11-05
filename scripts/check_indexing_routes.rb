@@ -121,13 +121,12 @@ SiteSource.posts.each do |post|
   post_route_errors << "#{route} is missing its self-canonical URL" unless html.include?(%(<link rel="canonical" href="#{canonical_url}">))
   post_route_errors << "#{route} must not be noindex" if html.match?(%r{<meta name="robots" content="noindex})
 
-  archive = case data["content_type"].to_s
-            when "media" then "/media/"
-            when "project" then "/projects/"
-            else "/articles/"
-            end
+  unless post.content_type.empty? || SiteSource.sections.key?(post.content_type)
+    post_route_errors << "#{route} has unknown content_type #{post.content_type.inspect} (see _data/sections.yml)"
+  end
+  archive = post.section.fetch("archive")
   archive_html = built_files[route_output_path(site_dir, archive)]
-  post_route_errors << "#{route} is missing from #{archive}" unless archive_html.include?(canonical_url)
+  post_route_errors << "#{route} is missing from #{archive}" unless SiteSource.listed_in_archive?(archive_html, route)
   post_route_errors << "#{route} is missing from the sitemap" unless sitemap.include?("<loc>#{canonical_url}</loc>")
 
   expected_lang = data["lang"].to_s.empty? ? "pt-BR" : data["lang"].to_s
@@ -210,7 +209,7 @@ canonical_project_routes.each do |route|
   html = SiteSource.read(output_path)
   errors << "#{route} is missing its self-canonical URL" unless html.include?(%(<link rel="canonical" href="https://brenorb.com#{route}">))
   errors << "#{route} must not be noindex" if html.match?(%r{<meta name="robots" content="noindex})
-  errors << "#{route} is missing from the projects archive" unless built_files[File.join(site_dir, "projects/index.html")].include?("https://brenorb.com#{route}")
+  errors << "#{route} is missing from the projects archive" unless SiteSource.listed_in_archive?(built_files[File.join(site_dir, "projects/index.html")], route)
   errors << "#{route} is missing from the sitemap" unless sitemap.include?("<loc>https://brenorb.com#{route}</loc>")
 end
 

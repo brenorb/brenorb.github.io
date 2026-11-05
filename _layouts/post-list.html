@@ -14,15 +14,15 @@ layout: default
                 {{ content }}
                 <div class="post-list">
                     {% assign archive_posts = site.posts | where: "content_type", page.content_type %}
-                    {% for post in archive_posts %}
                     <ul>
+                        {% for post in archive_posts %}
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                            <a class="zoombtn" href="{{ post.url | relative_url }}">{{ post.title }}</a>
                             <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
+                            <a href="{{ post.url | relative_url }}" class="btn zoombtn">Read More</a>
                         </li>
+                        {% endfor %}
                     </ul>
-                    {% endfor %}
                 </div>
             </div>
         </div>

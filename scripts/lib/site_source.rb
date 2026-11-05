@@ -18,6 +18,8 @@ module SiteSource
     def permalink = data["permalink"].to_s
     def content_type = data["content_type"].to_s
     def tags = Array(data["tags"] || data["tag"])
+    # Section settings from _data/sections.yml (archive, related).
+    def section = SiteSource.sections.fetch(content_type) { SiteSource.sections.fetch("article") }
   end
 
   module_function
@@ -41,6 +43,17 @@ module SiteSource
   end
 
   def front_matter(file) = parse(read(file)).first
+
+  def sections
+    @sections ||= load_yaml(read(path("_data/sections.yml")))
+  end
+
+  # True when an archive page's generated post list (not its intro text)
+  # links to `route`, as a relative or absolute URL.
+  def listed_in_archive?(archive_html, route)
+    list = archive_html[%r{<div class="post-list">.*?</ul>}m].to_s
+    list.include?(%(href="#{route}")) || list.include?(%(href="#{absolute_url(route)}"))
+  end
 
   # All posts in filename order (oldest first).
   def posts

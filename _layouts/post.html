@@ -2,6 +2,7 @@
 layout: default
 mathjax: true
 ---
+{% assign section = site.data.sections[page.content_type] | default: site.data.sections.article %}
     <!-- Header -->
     <header class="header" role="banner">
         <div class="wrapper animated fadeIn">
@@ -15,13 +16,7 @@ mathjax: true
                       {% include read-time.html %}
                     </p><!-- /.entry-reading-time -->
                     {% endif %}
-                    {% assign archive_path = "/articles/" %}
-                    {% if page.content_type == "media" %}
-                        {% assign archive_path = "/media/" %}
-                    {% elsif page.content_type == "project" %}
-                        {% assign archive_path = "/projects/" %}
-                    {% endif %}
-                    <a class="btn zoombtn" href="{{site.url}}{{ archive_path }}">
+                    <a class="btn zoombtn" href="{{ section.archive | relative_url }}">
                         <i class="fa fa-chevron-left"></i>
                     </a>
                 </div>
@@ -69,7 +64,7 @@ mathjax: true
                 {% elsif page.media_url %}
                 <p class="media-source">Original recording: <a href="{{ page.media_url }}">open the source</a>.</p>
                 {% endif %}
-                {% if page.content_type == "media" or page.content_type == "article" %}
+                {% if section.related %}
                 {% include related-posts.html %}
                 {% endif %}
                 <div class="entry-meta">

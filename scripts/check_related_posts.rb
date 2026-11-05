@@ -12,7 +12,7 @@ errors = []
 checked = 0
 
 posts.each do |route, post|
-  next if post.content_type == "project"
+  next unless post.section["related"]
 
   html = SiteSource.read(SiteSource.output_path(site_dir, route))
   section = html[/<section class="related-posts".*?<\/section>/m]
