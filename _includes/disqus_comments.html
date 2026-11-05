@@ -4,6 +4,12 @@
         (function() {
             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
             dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            dsq.onerror = function() {
+                var thread = document.getElementById('disqus_thread');
+                if (thread) {
+                    thread.innerHTML = '<p class="comments-unavailable">Comments couldn\'t load. A content blocker may be stopping them, or you may be offline. You can also reach Breno through the <a href="{{ '/contact/' | relative_url }}">contact page</a>.</p>';
+                }
+            };
             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
         })();
         (function () {
@@ -13,5 +19,5 @@
             (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
         }());
     </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <noscript>Comments need JavaScript. Turn it on to read and join the discussion, or reach Breno through the <a href="{{ '/contact/' | relative_url }}">contact page</a>.</noscript>
 {% endif %}
