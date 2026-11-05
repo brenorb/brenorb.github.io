@@ -622,6 +622,10 @@ header .entry-meta {
 	visibility: hidden;
 }
 
+math {
+	font-family: math, "STIX Two Math", "Cambria Math", serif;
+}
+
 math[display="block"] {
 	margin: 1rem 0;
 	font-size: 1.2em;

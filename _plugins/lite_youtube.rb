@@ -55,10 +55,12 @@ module LiteYouTube
     watch = "https://www.youtube.com/watch?v=#{id}"
 
     # Only phrasing elements: kramdown often places embeds inside a <p>.
+    # The poster is eager: embeds sit near the top of media pages, and a lazy
+    # image in the viewport only starts loading after the first layout.
     <<~HTML.gsub(/\n\s*/, '')
       <span class="video-embed video-embed--youtube" data-lite-youtube data-embed-src="#{CGI.escapeHTML(src)}" data-title="#{CGI.escapeHTML(title)}">
         <a class="video-embed__link" href="#{watch}" aria-label="#{CGI.escapeHTML("Play video: #{title}")}">
-          <img class="video-embed__poster" #{poster_attr} alt="" width="1280" height="720" loading="lazy" decoding="async">
+          <img class="video-embed__poster" #{poster_attr} alt="" width="1280" height="720" loading="eager" decoding="async">
           <span class="video-embed__play" aria-hidden="true"></span>
         </a>
       </span>
