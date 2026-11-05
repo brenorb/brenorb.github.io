@@ -61,12 +61,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Runs before the stylesheet so it never waits for CSS to download. -->
     <script>(function(d){d.className=d.className.replace(/\bno-js\b/,'js')+(('ontouchstart' in window)?' touchevents':' no-touchevents');})(document.documentElement);</script>
-    <!-- CSS and the assets it needs on almost every page, fetched in parallel -->
-    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+    <!-- Fonts and images needed on almost every page, fetched in parallel -->
     <link rel="preload" href="{{ '/assets/fonts/FiraSans/woff2-latin/FiraSans-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{ '/assets/fonts/FiraSans/woff2-latin/FiraSans-Bold.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{ '/assets/fonts/FiraSans/woff2-latin/FiraSans-Light.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="{{ '/assets/img/placeholder-big.webp' | relative_url }}" as="image" type="image/webp" media="(min-width: 30.01em)">
+    {% comment %}_plugins/inline_assets.rb inlines this stylesheet and scripts.js into the page.{% endcomment %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <!-- JS -->
     <script src="{{ '/assets/js/scripts.js' | relative_url }}" defer></script>
     <!-- Favicons -->

@@ -21,7 +21,7 @@
 //
 // Usage:
 //   node scripts/measure_page_load.js [--site _site] [--runs 5]
-//        [--budget 50] [--json out.json] [--only substring] [--detail]
+//        [--budget 50] [--json out.json] [--only substr[,substr...]] [--detail]
 //
 // --detail prints the resource timeline of the last run of each page.
 
@@ -281,7 +281,10 @@ async function measure(browser, base, pagePath) {
   });
 
   let pages = listPages();
-  if (ONLY) pages = pages.filter((p) => p.includes(ONLY));
+  if (ONLY) {
+    const wanted = ONLY.split(',');
+    pages = pages.filter((p) => wanted.some((w) => p.includes(w)));
+  }
 
   let browser = await launch();
   // Warm up the browser and the server cache once, then discard.

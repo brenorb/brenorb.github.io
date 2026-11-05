@@ -1,4 +1,5 @@
-// Site behaviour without jQuery. Loaded with `defer` from _includes/head.html.
+// Site behaviour without jQuery. _plugins/inline_assets.rb inlines this file at
+// the end of <body> on every page.
 (function() {
   "use strict";
 

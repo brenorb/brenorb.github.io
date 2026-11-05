@@ -5,7 +5,8 @@
 # - Fira Sans: per face, a Latin subset used on every page, a small Latin
 #   Extended-A subset, and an "other" subset (Greek, Cyrillic, symbols). Browsers
 #   only download the last two when a page uses one of those characters (see
-#   unicode-range in _sass/vendor/fonts.scss). Emoji are left to system fonts.
+#   unicode-range in _sass/vendor/fonts.scss). Emoji and math operators are
+#   left to system fonts.
 # - Inconsolata: self-hosted Latin subset (400, 700) instead of Google Fonts.
 # - Font Awesome 4.7: only the icons referenced by the templates.
 set -euo pipefail
@@ -15,7 +16,7 @@ LATIN="U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+
 
 # Keep these in sync with the unicode-range of the faces in fonts.scss.
 LATIN_EXT="U+0100-0130,U+0132-0151,U+0154-017F"
-OTHER="U+0180-02BA,U+02BD-02C5,U+02C7-02D9,U+02DB,U+02DD-0303,U+0305-0307,U+0309-0328,U+032A-052F,U+1D00-1FFF,U+2070-2073,U+2075-209F,U+20A0-20AB,U+20AD-20CF,U+2100-2121,U+2123-218F,U+21AB-21FF,U+2200-2211,U+2213-2214,U+2216-23FF,U+25A0-25FF,U+27A0-27BF,U+2B00-2BFF,U+2C60-2C7F,U+A720-A7FF,U+AB30-AB6F,U+FB00-FB4F"
+OTHER="U+0180-02BA,U+02BD-02C5,U+02C7-02D9,U+02DB,U+02DD-0303,U+0305-0307,U+0309-0328,U+032A-052F,U+1D00-1FFF,U+2070-2073,U+2075-209F,U+20A0-20AB,U+20AD-20CF,U+2100-2121,U+2123-218F,U+21AB-21FF,U+2300-23FF,U+25A0-25FF,U+27A0-27BF,U+2B00-2BFF,U+2C60-2C7F,U+A720-A7FF,U+AB30-AB6F,U+FB00-FB4F"
 
 FEATURES='kern,liga,clig,calt,ccmp,locl,mark,mkmk'
 for subset in latin latin-ext other; do
