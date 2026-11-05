@@ -349,6 +349,89 @@
   }
 
   // ---------------------------------------------------------------------------
+  // Media transcripts are plain-text files (see _plugins/media_transcripts.rb),
+  // fetched and rendered the first time the reader opens them.
+  // Line format: [mm:ss](https://source?t=123) **Speaker:** text
+  // ---------------------------------------------------------------------------
+  var TRANSCRIPT_LINE = /^\[([^\]]+)\](?:\(([^)\s]*)\))?(?: \*\*(.+?):\*\*)?\s?(.*)$/;
+
+  function renderTranscript(list, text) {
+    var fragment = document.createDocumentFragment();
+    text.split("\n").forEach(function(raw) {
+      var match = TRANSCRIPT_LINE.exec(raw);
+      if (!match) {
+        return;
+      }
+      var li = document.createElement("li");
+      var stamp = document.createElement(match[2] ? "a" : "span");
+      stamp.className = "media-transcript__stamp";
+      stamp.textContent = match[1];
+      if (match[2]) {
+        stamp.href = match[2];
+      }
+      li.appendChild(stamp);
+      if (match[3]) {
+        var speaker = document.createElement("strong");
+        speaker.className = "media-transcript__speaker";
+        speaker.textContent = match[3];
+        li.appendChild(speaker);
+        li.appendChild(document.createTextNode(" "));
+      }
+      var body = document.createElement("span");
+      body.className = "media-transcript__text";
+      body.textContent = match[4];
+      li.appendChild(body);
+      fragment.appendChild(li);
+    });
+    list.appendChild(fragment);
+  }
+
+  function loadTranscript(details) {
+    if (details.getAttribute("data-transcript-state")) {
+      return;
+    }
+    var list = details.querySelector(".media-transcript__lines");
+    var status = details.querySelector(".media-transcript__status");
+    var src = details.getAttribute("data-transcript-src");
+    if (!list || !src || !window.fetch) {
+      return;
+    }
+    details.setAttribute("data-transcript-state", "loading");
+    fetch(src).then(function(response) {
+      if (!response.ok) {
+        throw new Error("HTTP " + response.status);
+      }
+      return response.text();
+    }).then(function(text) {
+      renderTranscript(list, text);
+      details.setAttribute("data-transcript-state", "loaded");
+      if (status) {
+        status.hidden = true;
+      }
+    }).catch(function() {
+      // Keep the link to the text file as the fallback.
+      details.setAttribute("data-transcript-state", "error");
+    });
+  }
+
+  function initTranscripts() {
+    var all = document.querySelectorAll("details[data-transcript-src]");
+    Array.prototype.forEach.call(all, function(details) {
+      details.addEventListener("toggle", function() {
+        if (details.open) {
+          loadTranscript(details);
+        }
+      });
+      if (details.open) {
+        loadTranscript(details);
+      }
+    });
+    if (all.length && window.location.hash === "#transcricao") {
+      all[0].open = true;
+    }
+  }
+
+  // ---------------------------------------------------------------------------
   // Archive lists: reveal items as they scroll into view (replaces WOW.js).
   // ---------------------------------------------------------------------------
   function initReveal() {
@@ -439,8 +522,10 @@
     initMenu(nav);
   }
   wireYouTubeFacades();
+  wireIframeFacades();
   wireMediaChapterSeeking();
   ensureMediaPlayerAnchor();
+  initTranscripts();
   initReveal();
   initDisqus();
   initZoomButtons();
@@ -454,6 +539,30 @@
     Array.prototype.forEach.call(document.querySelectorAll("img[data-deferred-src]"), function(img) {
       img.src = img.getAttribute("data-deferred-src");
       img.removeAttribute("data-deferred-src");
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("video[data-deferred-poster]"), function(video) {
+      video.poster = video.getAttribute("data-deferred-poster");
+      video.removeAttribute("data-deferred-poster");
+    });
+  }
+
+  // Other third-party iframes (e.g. Spotify) load on click; see
+  // _plugins/third_party_media.rb.
+  function wireIframeFacades() {
+    document.addEventListener("click", function(event) {
+      var link = event.target.closest("[data-lite-iframe] a");
+      if (!link || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) {
+        return;
+      }
+      var facade = link.closest("[data-lite-iframe]");
+      var holder = document.createElement("span");
+      holder.innerHTML = "<iframe " + facade.getAttribute("data-iframe-attrs") + "></iframe>";
+      var iframe = holder.firstChild;
+      if (!iframe || iframe.tagName !== "IFRAME") {
+        return;
+      }
+      event.preventDefault();
+      facade.replaceWith(iframe);
     });
   }
 

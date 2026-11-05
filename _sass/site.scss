@@ -18,6 +18,7 @@ body {
 	color: $color_tuatara;
 	background-color: $bodycolor;
 	background-image: url('/assets/img/placeholder-big.jpg');
+	background-image: image-set(url('/assets/img/placeholder-big.webp') type('image/webp'), url('/assets/img/placeholder-big.jpg') type('image/jpeg'));
 	background-position: center center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -632,5 +633,35 @@ math[display="block"] {
 	img {
 		width: 100%;
 		height: auto;
+	}
+}
+
+// Click-to-load third-party iframe (see _plugins/third_party_media.rb).
+.embed-facade {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 1rem 0;
+	padding: 1rem;
+	border-radius: 12px;
+	background: $color_shark;
+
+	a {
+		color: $white;
+		font-weight: 600;
+		text-decoration: none;
+
+		&::before {
+			content: '\25B6\00A0\00A0';
+		}
+	}
+}
+
+.media-transcript__status {
+	margin: 0 0 0.8rem;
+	@include font-rem(13);
+
+	details[data-transcript-state="loading"] & {
+		opacity: 0.6;
 	}
 }

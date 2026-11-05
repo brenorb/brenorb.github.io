@@ -39,7 +39,8 @@ layout: compress
                 {% if page.show_transcript != false and media_appendix and media_appendix.items and media_appendix.items.size > 0 %}
                 <section id="transcricao" class="media-transcripts" data-transcript-anchor>
                     {% for item in media_appendix.items %}
-                    <details class="media-transcript">
+                    {% capture transcript_url %}{{ page.url | append: 'transcript/' | append: item.id | append: '.txt' | relative_url }}{% endcapture %}
+                    <details class="media-transcript" data-transcript-src="{{ transcript_url }}">
                         <summary>
                             {{ item.label }}
                             <span class="media-transcript__summary-meta">
@@ -53,21 +54,8 @@ layout: compress
                                 <a href="{{ item.source_url }}">{{ item.source_label }}</a>
                             </p>
                             {% endif %}
-                            <ol class="media-transcript__lines">
-                                {% for line in item.lines %}
-                                <li>
-                                    {% if line.href %}
-                                    <a class="media-transcript__stamp" href="{{ line.href }}">{{ line.timestamp }}</a>
-                                    {% else %}
-                                    <span class="media-transcript__stamp">{{ line.timestamp }}</span>
-                                    {% endif %}
-                                    {% if line.speaker %}
-                                    <strong class="media-transcript__speaker">{{ line.speaker }}</strong>
-                                    {% endif %}
-                                    <span class="media-transcript__text">{{ line.text }}</span>
-                                </li>
-                                {% endfor %}
-                            </ol>
+                            <p class="media-transcript__status"><a href="{{ transcript_url }}">Transcrição completa em texto</a></p>
+                            <ol class="media-transcript__lines"></ol>
                         </div>
                     </details>
                     {% endfor %}

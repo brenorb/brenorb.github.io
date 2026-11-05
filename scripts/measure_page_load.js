@@ -20,7 +20,9 @@
 //
 // Usage:
 //   node scripts/measure_page_load.js [--site _site] [--runs 5]
-//        [--budget 50] [--json out.json] [--only substring]
+//        [--budget 50] [--json out.json] [--only substring] [--detail]
+//
+// --detail prints the resource timeline of the last run of each page.
 
 const fs = require('fs');
 const http = require('http');
@@ -39,6 +41,7 @@ const RUNS = Number(arg('runs', 5));
 const BUDGET = Number(arg('budget', 50));
 const JSON_OUT = arg('json', null);
 const ONLY = arg('only', null);
+const DETAIL = args.includes('--detail');
 const THIRD_PARTY_DELAY_MS = Number(process.env.THIRD_PARTY_DELAY_MS || 100);
 const PROD_ORIGIN = 'https://brenorb.com';
 
@@ -186,6 +189,16 @@ async function measure(browser, base, pagePath) {
       dcl: nav ? nav.domContentLoadedEventEnd : NaN,
       fcp: fcp ? fcp.startTime : NaN,
       transfer: nav ? nav.transferSize : NaN,
+      nav: nav ? {
+        responseStart: nav.responseStart,
+        responseEnd: nav.responseEnd,
+        domInteractive: nav.domInteractive,
+        dcl: nav.domContentLoadedEventEnd,
+        domComplete: nav.domComplete,
+      } : null,
+      resources: performance.getEntriesByType('resource').map((e) => ({
+        name: e.name, type: e.initiatorType, start: e.startTime, end: e.responseEnd, size: e.encodedBodySize,
+      })),
     };
   }).catch(() => ({ load: NaN, dcl: NaN, fcp: NaN }));
   await context.close();
@@ -211,6 +224,15 @@ async function measure(browser, base, pagePath) {
     const runs = [];
     for (let i = 0; i < RUNS; i += 1) runs.push(await measure(browser, base, p));
     const loads = runs.map((r) => r.load);
+    if (DETAIL) {
+      const last = runs[runs.length - 1];
+      const n = last.nav || {};
+      const f = (x) => (Number.isFinite(x) ? x.toFixed(1) : '-');
+      console.error(`\n${p}  load ${f(last.load)}  response ${f(n.responseStart)}-${f(n.responseEnd)}  interactive ${f(n.domInteractive)}  dcl ${f(n.dcl)}  complete ${f(n.domComplete)}`);
+      for (const r of last.resources || []) {
+        console.error(`  ${f(r.start).padStart(6)} -> ${f(r.end).padStart(6)}  ${String(r.size).padStart(7)}  ${r.type.padEnd(8)} ${r.name.replace(base, '')}`);
+      }
+    }
     results.push({
       page: p,
       load: median(loads),

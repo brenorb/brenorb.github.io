@@ -37,7 +37,7 @@ module LiteYouTube
     return [local, false] if File.exist?(File.join(doc.site.source, local))
 
     feature = local_feature(doc)
-    return [feature, false] if feature
+    return [WebpVariant.lookup(doc.site, feature), false] if feature
 
     ["https://i.ytimg.com/vi/#{id}/hqdefault.jpg", true]
   end

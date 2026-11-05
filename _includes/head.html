@@ -60,6 +60,9 @@
     <meta name="MobileOptimized" content="320">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- CSS -->
+    <link rel="preload" href="{{ '/assets/fonts/FiraSans/woff2-latin/FiraSans-Regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/FiraSans/woff2-latin/FiraSans-Bold.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ '/assets/fonts/FontAwesome/fontawesome-subset.woff2?v=4.7.0' | relative_url }}" as="font" type="font/woff2" crossorigin>
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <!-- JS -->
     <script>(function(d){d.className=d.className.replace(/\bno-js\b/,'js')+(('ontouchstart' in window)?' touchevents':' no-touchevents');})(document.documentElement);</script>
@@ -73,12 +76,12 @@
     <link rel="shortcut icon" href="{{ '/favicon.ico?v=20260418' | relative_url }}" />
     <!-- Post Feature Image -->
     {% if page.feature %}
-    {% assign feature_bg = page.feature | remove_first: site.url %}
+    {% assign feature_bg = page.feature | remove_first: site.url | local_copy %}
     {% if feature_bg contains 'http://' or feature_bg contains 'https://' %}
     {% comment %}Remote images are decorative: scripts.js adds .feature-loaded after the page has loaded.{% endcomment %}
     <style>.feature.feature-loaded {background-image:url({{ feature_bg }});}</style>
     {% else %}
-    {% assign feature_bg = feature_bg | remove_first: '/' | prepend: '/' | relative_url %}
+    {% assign feature_bg = feature_bg | remove_first: '/' | prepend: '/' | webp_variant | relative_url %}
     <link rel="preload" as="image" href="{{ feature_bg }}" media="(min-width: 30.01em)">
     <style>.feature {background-image:url({{ feature_bg }});}</style>
     {% endif %}
