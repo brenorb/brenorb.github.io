@@ -1,16 +1,6 @@
 ---
-layout: compress
+layout: default
 ---
-<!DOCTYPE html>
-<!--[if lt IE 7]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js"><!--<![endif]-->
-<head>
-    {% include head.html %}
-</head>
-<body>
-    {% include nav.html %}
     <!-- Header -->
     <header class="header flex" role="banner">
         <div class="container animated fadeIn">
@@ -59,6 +49,3 @@ layout: compress
             <p>Explore os <a href="{{ '/projects/' | relative_url }}">projetos</a> de software e pesquisa, leia os <a href="{{ '/articles/' | relative_url }}">textos</a> sobre IA, Bitcoin e finanças, ou consulte as <a href="{{ '/media/' | relative_url }}">palestras e entrevistas</a>. Para convites, colaborações e trabalho profissional, use a <a href="{{ '/contact/' | relative_url }}">página de contato</a>.</p>
         </div>
     </main>
-    {% include scripts.html %}
-</body>
-</html>

@@ -1,0 +1,22 @@
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js">
+<head>
+    {% include head.html %}
+</head>
+<body>
+    {% include nav.html %}
+    {{ content }}
+    {% include scripts.html %}
+    {% comment %}Load MathJax only where it is needed: forced by `mathjax: true` on the page, or detected from TeX delimiters in layouts that allow it.{% endcomment %}
+    {% assign load_mathjax = page.mathjax %}
+    {% if layout.mathjax and content contains '\(' %}{% assign load_mathjax = true %}{% endif %}
+    {% if layout.mathjax and content contains '\[' %}{% assign load_mathjax = true %}{% endif %}
+    {% if site.mathjax == true and load_mathjax == true %}
+    <!-- MathJax -->
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    {% endif %}
+</body>
+</html>
