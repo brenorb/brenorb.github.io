@@ -36,10 +36,10 @@ Run the same checks as CI and the pre-commit hook:
 ```bash
 scripts/check_sources.sh   # source checks; regenerates _includes/generated and llms-ctx-full.txt
 JEKYLL_ENV=production bundle exec jekyll build
-scripts/check_build.sh     # indexing routes, related pages, head metadata on _site
+scripts/check_build.sh     # indexing routes, related pages, head metadata, internal links on _site
 ```
 
-`check_sources.sh` covers feature image sizes, media transcript coverage and generated chapter includes. `check_build.sh` verifies Search Console regression routes, canonical/redirect pages, related-page links, and `<head>` metadata (canonical, Open Graph images, JSON-LD).
+`check_sources.sh` covers feature image sizes, media transcript coverage and generated chapter includes. `check_build.sh` verifies Search Console regression routes, canonical/redirect pages, related-page links, `<head>` metadata (canonical, Open Graph images, JSON-LD), and broken internal links.
 
 Install the repo hooks (the pre-commit hook runs `check_sources.sh` and stages regenerated files):
 

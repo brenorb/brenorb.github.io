@@ -14,3 +14,6 @@ ruby scripts/check_related_posts.rb "$site_dir"
 
 echo "Verifying head metadata"
 ruby scripts/check_head_meta.rb "$site_dir"
+
+echo "Verifying internal links"
+ruby scripts/check_internal_links.rb "$site_dir"

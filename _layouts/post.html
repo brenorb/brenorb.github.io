@@ -21,49 +21,7 @@ mathjax: true
                     </a>
                 </div>
                 {{ content }}
-                {% assign media_appendix = site.data.media_appendices[page.slug] %}
-                {% if page.show_transcript != false and media_appendix and media_appendix.items and media_appendix.items.size > 0 %}
-                <section id="transcricao" class="media-transcripts" data-transcript-anchor>
-                    {% for item in media_appendix.items %}
-                    <details class="media-transcript">
-                        <summary>
-                            {{ item.label }}
-                            <span class="media-transcript__summary-meta">
-                                {{ item.stats.line_count }} {% if item.stats.line_count == 1 %}trecho{% else %}trechos{% endif %}{% if item.stats.speaker_count > 0 %} · {{ item.stats.speaker_count }} {% if item.stats.speaker_count == 1 %}voz{% else %}vozes{% endif %}{% endif %}
-                            </span>
-                        </summary>
-                        <div class="media-transcript__body">
-                            {% if item.source_url %}
-                            <p class="media-transcript__source">
-                                Fonte:
-                                <a href="{{ item.source_url }}">{{ item.source_label }}</a>
-                            </p>
-                            {% endif %}
-                            <ol class="media-transcript__lines">
-                                {% for line in item.lines %}
-                                <li>
-                                    {% if line.href %}
-                                    <a class="media-transcript__stamp" href="{{ line.href }}">{{ line.timestamp }}</a>
-                                    {% else %}
-                                    <span class="media-transcript__stamp">{{ line.timestamp }}</span>
-                                    {% endif %}
-                                    {% if line.speaker %}
-                                    <strong class="media-transcript__speaker">{{ line.speaker }}</strong>
-                                    {% endif %}
-                                    <span class="media-transcript__text">{{ line.text }}</span>
-                                </li>
-                                {% endfor %}
-                            </ol>
-                        </div>
-                    </details>
-                    {% endfor %}
-                </section>
-                {% endif %}
-                {% if page.youtube_id %}
-                <p class="media-source">Original recording: <a href="https://www.youtube.com/watch?v={{ page.youtube_id }}">watch on YouTube</a>.</p>
-                {% elsif page.media_url %}
-                <p class="media-source">Original recording: <a href="{{ page.media_url }}">open the source</a>.</p>
-                {% endif %}
+                {% include media-appendix.html %}
                 {% if section.related %}
                 {% include related-posts.html %}
                 {% endif %}
@@ -72,5 +30,5 @@ mathjax: true
                 </div>
             </div>
         </div>
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
+        {% include comments.html %}
     </header>
