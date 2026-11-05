@@ -1,0 +1,28 @@
+# Social profiles shown in the menu's author card and on the home page.
+# A service appears only when its `key` is set in _config.yml (e.g. `twitter: brenorb`).
+# `url` is a template; `%s` is replaced by the configured handle.
+
+- { key: email,           name: Email,          icon: fa-envelope-square,  url: "mailto:%s" }
+- { key: twitter,         name: Twitter,        icon: fa-twitter-square,   url: "https://twitter.com/%s" }
+- { key: facebook,        name: Facebook,       icon: fa-facebook-square,  url: "https://facebook.com/%s" }
+- { key: linkedin,        name: LinkedIn,       icon: fa-linkedin-square,  url: "https://linkedin.com/in/%s" }
+- { key: xing,            name: Xing,           icon: fa-xing-square,      url: "https://www.xing.com/profile/%s" }
+- { key: instagram,       name: Instagram,      icon: fa-instagram,        url: "https://instagram.com/%s" }
+- { key: tumblr,          name: Tumblr,         icon: fa-tumblr-square,    url: "https://%s.tumblr.com" }
+- { key: medium,          name: Medium,         icon: fa-medium,           url: "https://medium.com/%s" }
+- { key: github-url,      name: GitHub,         icon: fa-github,           url: "https://github.com/%s" }
+- { key: stackoverflow,   name: Stack Overflow, icon: fa-stack-overflow,   url: "https://stackoverflow.com/users/%s" }
+- { key: lastfm,          name: Last.fm,        icon: fa-music,            url: "https://lastfm.com/user/%s" }
+- { key: dribbble,        name: Dribbble,       icon: fa-dribbble,         url: "https://dribbble.com/%s" }
+- { key: pinterest,       name: Pinterest,      icon: fa-pinterest,        url: "https://www.pinterest.com/%s" }
+- { key: foursquare,      name: Foursquare,     icon: fa-foursquare,       url: "https://foursquare.com/%s" }
+- { key: steam,           name: Steam,          icon: fa-steam-square,     url: "https://steamcommunity.com/id/%s" }
+- { key: youtube,         name: YouTube,        icon: fa-youtube-square,   url: "https://youtube.com/user/%s" }
+- { key: youtube-channel, name: YouTube,        icon: fa-youtube,          url: "https://youtube.com/channel/%s" }
+- { key: soundcloud,      name: SoundCloud,     icon: fa-soundcloud,       url: "https://soundcloud.com/%s" }
+- { key: weibo,           name: Weibo,          icon: fa-weibo,            url: "https://www.weibo.com/%s" }
+- { key: flickr,          name: Flickr,         icon: fa-flickr,           url: "https://www.flickr.com/%s" }
+- { key: codepen,         name: CodePen,        icon: fa-codepen,          url: "https://codepen.io/%s" }
+- { key: keybase,         name: Keybase,        icon: fa-key,              url: "https://keybase.io/%s" }
+- { key: xmpp,            name: XMPP,           icon: fa-lightbulb-o,      url: "xmpp:%s" }
+- { key: hackernews,      name: Hacker News,    icon: fa-hacker-news,      url: "https://news.ycombinator.com/user?id=%s" }

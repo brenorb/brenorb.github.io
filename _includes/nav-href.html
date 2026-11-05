@@ -1,0 +1,1 @@
+{% comment %}Outputs the href for a navigation URL: external URLs as-is, site paths through relative_url.{% endcomment %}{% if include.url contains '://' %}{{ include.url }}{% else %}{{ include.url | relative_url }}{% endif %}

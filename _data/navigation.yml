@@ -1,6 +1,25 @@
-# Site navigation links
+# Primary navigation, rendered by the slide-out menu (_includes/nav.html)
+# and, for entries with `home: true`, as buttons on the home page.
+# `profile: true` makes the menu show the author card as a submenu.
+# External URLs (containing "://") open in a new tab.
 
-- title: Projects
-  url: /projects/
+- title: About
+  url: /about/
+  home: true
+  profile: true
+- title: Writing
+  url: /articles/
+  home: true
 - title: Talks & Media
   url: /media/
+  home: true
+- title: Projects
+  url: /projects/
+  home: true
+- title: Contact
+  url: /contact/
+  home: true
+- title: Tags
+  url: /tags/
+- title: Privacy
+  url: /privacy/

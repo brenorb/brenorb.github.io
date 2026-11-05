@@ -19,26 +19,11 @@ layout: default
                     {% include social-links.html %}
                   <hr class="hr-line">
                   <h3 class="title">
-                         <a class="btn zoombtn" href="{{ '/about/' | relative_url }}">
-                         About
-                         </a>
-                         <a class="btn zoombtn" href="{{ '/articles/' | relative_url }}">
-                         Writing
-                         </a>
-                         <a class="btn zoombtn" href="{{ '/media/' | relative_url }}">
-                         Talks &amp; Media
-                         </a>
-                         <a class="btn zoombtn" href="{{ '/projects/' | relative_url }}">
-                         Projects
-                         </a>
-                         <a class="btn zoombtn" href="{{ '/contact/' | relative_url }}">
-                         Contact
-                         </a>
+                      {% for link in site.data.navigation %}{% if link.home %}
+                         <a class="btn zoombtn" href="{% include nav-href.html url=link.url %}">{{ link.title | escape }}</a>
+                      {% endif %}{% endfor %}
                  </h3>
-            </div> <!-- testando -->
-            <!-- <div class="row">
-                <iframe src="https://brenorb.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-            </div> -->
+            </div>
         </div>
     </header>
     <main id="main-content" class="home-summary wrapper">

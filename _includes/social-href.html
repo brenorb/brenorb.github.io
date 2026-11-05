@@ -1,0 +1,1 @@
+{% comment %}Outputs the profile URL for a _data/social.yml entry, or nothing when its handle is not set in _config.yml.{% endcomment %}{% assign social_handle = site[include.service.key] %}{% if social_handle %}{{ include.service.url | replace: '%s', social_handle }}{% endif %}

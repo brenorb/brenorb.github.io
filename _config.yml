@@ -54,40 +54,18 @@ defaults:
 # Comments
 disqus_shortname:   brenorb
 
-# Social
-# if you don't have any of social below, comment the line.
+# Webmaster tools and analytics (optional)
 #google:
-  #plus:            #username
   #analytics:
   #verify:
-  #ad-client:
-  #ad-slot:
 #bing-verify:
-# email:
+
+# Social profiles: set a handle to show it in the menu and on the home page.
+# Supported keys (email, facebook, instagram, medium, youtube, ...) and their
+# URL formats are listed in _data/social.yml; add new services there.
 twitter:            brenorb
-# facebook:           username
 github-url:         brenorb
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
 linkedin:           brenorb
-#xing:              username
-# instagram:          username
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-# steam:              username
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-#weibo:             username
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
-# nostr:              npub
 
 # Gems
 gems:
