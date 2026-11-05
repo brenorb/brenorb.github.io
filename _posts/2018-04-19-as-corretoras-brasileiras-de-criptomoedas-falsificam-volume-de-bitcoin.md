@@ -53,11 +53,11 @@ A tese de Ribes é que quanto maior o volume diário, maior a liquidez; logo, me
 
 E aí começa alguns dos nossos problemas. Já que a maioria das exchanges brasileiras trabalham praticamente só com o par BTCBRL, eu peguei várias amostras de _slippage_ e volume para o mesmo par em momentos diferentes para tentar enxergar o mesmo tipo de correlação que Ribes obteve em pares diferentes. Talvez devido aos poucos dias de dados, ou ao ambiente brasileiro, eu tive de ajustar a fórmula proposta de: 
 
-\\[ volume = \frac{4,4}{Slippage} \\]
+<math display="block"><mi>volume</mi><mo>=</mo><mfrac><mn>4,4</mn><mi>Slippage</mi></mfrac></math>
 
 <center>para </center>
 
-\\[ volume = \frac{44}{\sqrt{Slippage}} \\]
+<math display="block"><mi>volume</mi><mo>=</mo><mfrac><mn>44</mn><msqrt><mi>Slippage</mi></msqrt></mfrac></math>
 
 
 

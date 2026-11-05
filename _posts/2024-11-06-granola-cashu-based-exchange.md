@@ -19,7 +19,6 @@ tags:
 - nostr
 - ecash
 comments: false
-mermaid: true
 feature: /assets/generated/granola.png
 ---
 
@@ -64,7 +63,13 @@ In practice, the idea was to treat different Cashu mints as currency-specific is
 
 ## Protocol diagram
 
-<pre class="mermaid">
+<figure class="diagram">
+  <img src="/assets/generated/granola-protocol-diagram.svg" alt="Sequence diagram of the Granola protocol between Alice, Nostr, Carol, and the Cashu mint, following the steps listed below." width="897" height="835" loading="lazy" decoding="async">
+</figure>
+
+<details class="diagram-source">
+<summary>Diagram source (Mermaid)</summary>
+<pre>
 sequenceDiagram
 
 actor Alice
@@ -72,21 +77,22 @@ participant Nostr
 actor Carol
 participant Mint
 
-Alice-->>Nostr: Generate new \n ephemeral PubKey
-Alice->>Nostr: Publish Order
+Alice--&gt;&gt;Nostr: Generate new&lt;br/&gt;ephemeral PubKey
+Alice-&gt;&gt;Nostr: Publish Order
 
-Nostr->>Carol: Fetches 8338 events \n Sees order
-Carol-->>Nostr: Generate new \n ephemeral PubKey
-Carol->>Alice: Sends DM \n with pay request \n via Nostr
+Nostr-&gt;&gt;Carol: Fetches 8338 events&lt;br/&gt;Sees order
+Carol--&gt;&gt;Nostr: Generate new&lt;br/&gt;ephemeral PubKey
+Carol-&gt;&gt;Alice: Sends DM&lt;br/&gt;with pay request&lt;br/&gt;via Nostr
 
-Alice->>Carol: Generates H\n sends HTLC_c to PubKey
-Carol-->>Mint: Verify HTLC_c
-Carol->>Alice: Sends HTLC_a with the same H
-Carol-->>Mint: Subscribe \n to HTLC_a
-Alice->>Mint: Swaps HTLC_a token revealing preimage
-Mint-->>Carol: State change with preimage
-Carol->>Mint: Swaps HTLC_c token
+Alice-&gt;&gt;Carol: Generates H&lt;br/&gt;sends HTLC_c to PubKey
+Carol--&gt;&gt;Mint: Verify HTLC_c
+Carol-&gt;&gt;Alice: Sends HTLC_a with the same H
+Carol--&gt;&gt;Mint: Subscribe&lt;br/&gt;to HTLC_a
+Alice-&gt;&gt;Mint: Swaps HTLC_a token revealing preimage
+Mint--&gt;&gt;Carol: State change with preimage
+Carol-&gt;&gt;Mint: Swaps HTLC_c token
 </pre>
+</details>
 
 ## Proposed flow
 

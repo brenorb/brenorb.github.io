@@ -1,0 +1,21 @@
+sequenceDiagram
+
+actor Alice
+participant Nostr
+actor Carol
+participant Mint
+
+Alice-->>Nostr: Generate new<br/>ephemeral PubKey
+Alice->>Nostr: Publish Order
+
+Nostr->>Carol: Fetches 8338 events<br/>Sees order
+Carol-->>Nostr: Generate new<br/>ephemeral PubKey
+Carol->>Alice: Sends DM<br/>with pay request<br/>via Nostr
+
+Alice->>Carol: Generates H<br/>sends HTLC_c to PubKey
+Carol-->>Mint: Verify HTLC_c
+Carol->>Alice: Sends HTLC_a with the same H
+Carol-->>Mint: Subscribe<br/>to HTLC_a
+Alice->>Mint: Swaps HTLC_a token revealing preimage
+Mint-->>Carol: State change with preimage
+Carol->>Mint: Swaps HTLC_c token

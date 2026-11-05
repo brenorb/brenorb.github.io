@@ -62,7 +62,8 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
     <!-- JS -->
-    <script src="{{ '/assets/js/modernizr-3.3.1.custom.min.js' | relative_url }}"></script>
+    <script>(function(d){d.className=d.className.replace(/\bno-js\b/,'js')+(('ontouchstart' in window)?' touchevents':' no-touchevents');})(document.documentElement);</script>
+    <script src="{{ '/assets/js/scripts.js' | relative_url }}" defer></script>
     <!-- Favicons -->
     <link rel="apple-touch-icon" href="{{ '/assets/img/favicons/apple-icon-precomposed.png?v=20260418' | relative_url }}">
     <link rel="apple-touch-icon" sizes="72x72" href="{{ '/assets/img/favicons/apple-icon-72x72.png?v=20260418' | relative_url }}">
@@ -72,9 +73,15 @@
     <link rel="shortcut icon" href="{{ '/favicon.ico?v=20260418' | relative_url }}" />
     <!-- Post Feature Image -->
     {% if page.feature %}
-    {% capture feature %}{{ page.feature }}{% endcapture %}
-    {% unless feature contains 'http://' or feature contains 'https://' %}{% assign feature_path = feature | remove_first: '/' %}{% capture feature %}{{ site.url }}/{{ feature_path }}{% endcapture %}{% endunless %}
-    <style type="text/css">.feature {background-image:url({{ feature }});}</style>
+    {% assign feature_bg = page.feature | remove_first: site.url %}
+    {% if feature_bg contains 'http://' or feature_bg contains 'https://' %}
+    {% comment %}Remote images are decorative: scripts.js adds .feature-loaded after the page has loaded.{% endcomment %}
+    <style>.feature.feature-loaded {background-image:url({{ feature_bg }});}</style>
+    {% else %}
+    {% assign feature_bg = feature_bg | remove_first: '/' | prepend: '/' | relative_url %}
+    <link rel="preload" as="image" href="{{ feature_bg }}" media="(min-width: 30.01em)">
+    <style>.feature {background-image:url({{ feature_bg }});}</style>
+    {% endif %}
     {% endif %}
     <script type="application/ld+json">
     {

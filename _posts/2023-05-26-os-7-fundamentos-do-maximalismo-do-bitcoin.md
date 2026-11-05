@@ -81,7 +81,7 @@ Pense bem: você acharia justo que o governo do seu país pré-minerasse a moeda
 [^S2F]: S2F - Stock to flow.
 [^pun]: Pun intended.
 
-Pode ter sido coincidência? A teoria, a lógica e a experiência indicam que não, já que todas as sociedades desenvolvem uma forma de dinheiro a partir de certa escala ao invés de usar o escambo, justamente por ser extremamente mais eficiente e simples. A matemática também indica que tendemos a sempre ter uma única rede: sabemos pela lei de Metcalfe que o valor de uma rede é o quadrado dos seus nós e junto com a inequalidade de Jensen temos \\((a+b)^2 \geq a^2 + b^2\\), ou seja, em geral os benefícios de uma única rede superam os de várias redes somadas; este o motivo do facebook engolir o orkut e se manter basicamente invicto[^redes].
+Pode ter sido coincidência? A teoria, a lógica e a experiência indicam que não, já que todas as sociedades desenvolvem uma forma de dinheiro a partir de certa escala ao invés de usar o escambo, justamente por ser extremamente mais eficiente e simples. A matemática também indica que tendemos a sempre ter uma única rede: sabemos pela lei de Metcalfe que o valor de uma rede é o quadrado dos seus nós e junto com a inequalidade de Jensen temos <math><msup><mrow><mo>(</mo><mi>a</mi><mo>+</mo><mi>b</mi><mo>)</mo></mrow><mn>2</mn></msup><mo>≥</mo><msup><mi>a</mi><mn>2</mn></msup><mo>+</mo><msup><mi>b</mi><mn>2</mn></msup></math>, ou seja, em geral os benefícios de uma única rede superam os de várias redes somadas; este o motivo do facebook engolir o orkut e se manter basicamente invicto[^redes].
 
 [^redes]: Existem redes sociais que competem com o facebook como o twitter, mas elas são distintas o suficiente para coexistirem
 

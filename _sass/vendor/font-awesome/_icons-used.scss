@@ -1,0 +1,32 @@
+// Only the icons used by _includes/ and _layouts/. Keep in sync with
+// FA_ICONS in scripts/build_font_subsets.sh.
+
+.#{$fa-css-prefix}-chevron-left:before { content: $fa-var-chevron-left; }
+.#{$fa-css-prefix}-clock-o:before { content: $fa-var-clock-o; }
+.#{$fa-css-prefix}-codepen:before { content: $fa-var-codepen; }
+.#{$fa-css-prefix}-dribbble:before { content: $fa-var-dribbble; }
+.#{$fa-css-prefix}-envelope-square:before { content: $fa-var-envelope-square; }
+.#{$fa-css-prefix}-facebook-square:before { content: $fa-var-facebook-square; }
+.#{$fa-css-prefix}-flickr:before { content: $fa-var-flickr; }
+.#{$fa-css-prefix}-foursquare:before { content: $fa-var-foursquare; }
+.#{$fa-css-prefix}-github:before { content: $fa-var-github; }
+.#{$fa-css-prefix}-google-plus-square:before { content: $fa-var-google-plus-square; }
+.#{$fa-css-prefix}-hacker-news:before { content: $fa-var-hacker-news; }
+.#{$fa-css-prefix}-home:before { content: $fa-var-home; }
+.#{$fa-css-prefix}-instagram:before { content: $fa-var-instagram; }
+.#{$fa-css-prefix}-key:before { content: $fa-var-key; }
+.#{$fa-css-prefix}-lightbulb-o:before { content: $fa-var-lightbulb-o; }
+.#{$fa-css-prefix}-linkedin-square:before { content: $fa-var-linkedin-square; }
+.#{$fa-css-prefix}-medium:before { content: $fa-var-medium; }
+.#{$fa-css-prefix}-music:before { content: $fa-var-music; }
+.#{$fa-css-prefix}-pinterest:before { content: $fa-var-pinterest; }
+.#{$fa-css-prefix}-soundcloud:before { content: $fa-var-soundcloud; }
+.#{$fa-css-prefix}-stack-overflow:before { content: $fa-var-stack-overflow; }
+.#{$fa-css-prefix}-steam-square:before { content: $fa-var-steam-square; }
+.#{$fa-css-prefix}-tumblr-square:before { content: $fa-var-tumblr-square; }
+.#{$fa-css-prefix}-twitter-square:before { content: $fa-var-twitter-square; }
+.#{$fa-css-prefix}-weibo:before { content: $fa-var-weibo; }
+.#{$fa-css-prefix}-xing-square:before { content: $fa-var-xing-square; }
+.#{$fa-css-prefix}-youtube:before { content: $fa-var-youtube; }
+.#{$fa-css-prefix}-youtube-square:before { content: $fa-var-youtube-square; }
+.#{$fa-css-prefix}-angle-right:before { content: $fa-var-angle-right; }

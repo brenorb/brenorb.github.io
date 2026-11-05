@@ -880,6 +880,12 @@ In practice, the idea was to treat different Cashu mints as currency-specific is
 ## Protocol diagram
 
  
+ 
+ 
+
+ 
+ Diagram source (Mermaid) 
+ 
 sequenceDiagram
 
 actor Alice
@@ -887,20 +893,21 @@ participant Nostr
 actor Carol
 participant Mint
 
-Alice-->>Nostr: Generate new \n ephemeral PubKey
+Alice-->>Nostr: Generate new<br/>ephemeral PubKey
 Alice->>Nostr: Publish Order
 
-Nostr->>Carol: Fetches 8338 events \n Sees order
-Carol-->>Nostr: Generate new \n ephemeral PubKey
-Carol->>Alice: Sends DM \n with pay request \n via Nostr
+Nostr->>Carol: Fetches 8338 events<br/>Sees order
+Carol-->>Nostr: Generate new<br/>ephemeral PubKey
+Carol->>Alice: Sends DM<br/>with pay request<br/>via Nostr
 
-Alice->>Carol: Generates H\n sends HTLC_c to PubKey
+Alice->>Carol: Generates H<br/>sends HTLC_c to PubKey
 Carol-->>Mint: Verify HTLC_c
 Carol->>Alice: Sends HTLC_a with the same H
-Carol-->>Mint: Subscribe \n to HTLC_a
+Carol-->>Mint: Subscribe<br/>to HTLC_a
 Alice->>Mint: Swaps HTLC_a token revealing preimage
 Mint-->>Carol: State change with preimage
 Carol->>Mint: Swaps HTLC_c token
+ 
  
 
 ## Proposed flow
@@ -1966,7 +1973,7 @@ Pense bem: você acharia justo que o governo do seu país pré-minerasse a moeda
 [^S2F]: S2F - Stock to flow.
 [^pun]: Pun intended.
 
-Pode ter sido coincidência? A teoria, a lógica e a experiência indicam que não, já que todas as sociedades desenvolvem uma forma de dinheiro a partir de certa escala ao invés de usar o escambo, justamente por ser extremamente mais eficiente e simples. A matemática também indica que tendemos a sempre ter uma única rede: sabemos pela lei de Metcalfe que o valor de uma rede é o quadrado dos seus nós e junto com a inequalidade de Jensen temos \\((a+b)^2 \geq a^2 + b^2\\), ou seja, em geral os benefícios de uma única rede superam os de várias redes somadas; este o motivo do facebook engolir o orkut e se manter basicamente invicto[^redes].
+Pode ter sido coincidência? A teoria, a lógica e a experiência indicam que não, já que todas as sociedades desenvolvem uma forma de dinheiro a partir de certa escala ao invés de usar o escambo, justamente por ser extremamente mais eficiente e simples. A matemática também indica que tendemos a sempre ter uma única rede: sabemos pela lei de Metcalfe que o valor de uma rede é o quadrado dos seus nós e junto com a inequalidade de Jensen temos ( a + b ) 2 ≥ a 2 + b 2 , ou seja, em geral os benefícios de uma única rede superam os de várias redes somadas; este o motivo do facebook engolir o orkut e se manter basicamente invicto[^redes].
 
 [^redes]: Existem redes sociais que competem com o facebook como o twitter, mas elas são distintas o suficiente para coexistirem
 
@@ -3117,11 +3124,11 @@ A tese de Ribes é que quanto maior o volume diário, maior a liquidez; logo, me
 
 E aí começa alguns dos nossos problemas. Já que a maioria das exchanges brasileiras trabalham praticamente só com o par BTCBRL, eu peguei várias amostras de _slippage_ e volume para o mesmo par em momentos diferentes para tentar enxergar o mesmo tipo de correlação que Ribes obteve em pares diferentes. Talvez devido aos poucos dias de dados, ou ao ambiente brasileiro, eu tive de ajustar a fórmula proposta de: 
 
-\\[ volume = \frac{4,4}{Slippage} \\]
+ volume = 4,4 Slippage 
 
  para 
 
-\\[ volume = \frac{44}{\sqrt{Slippage}} \\]
+ volume = 44 Slippage 
 
 ![Ordens de compra](/assets/fig2-ex.png)
 
