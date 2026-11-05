@@ -1,8 +1,7 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require "date"
-require "yaml"
+require_relative "lib/site_source"
 
 site_dir = ARGV.fetch(0, "_site")
 checks = {
@@ -91,22 +90,11 @@ english_routes = %w[
   /projects/stringer-safety/
 ]
 
-source_root = File.expand_path("..", File.expand_path(site_dir))
+def route_output_path(site_dir, route) = SiteSource.output_path(site_dir, route)
 
-def route_output_path(site_dir, route)
-  relative = route.delete_prefix("/")
-  relative = "index.html" if relative.empty?
-  relative = "#{relative}index.html" if relative.end_with?("/")
-  File.join(site_dir, relative)
-end
-
-def source_metadata(path)
-  source = File.read(path)
-  return {} unless source.start_with?("---")
-
-  yaml = source.split(/^---\s*$/, 3)[1]
-  YAML.safe_load(yaml, permitted_classes: [Date, Time]) || {}
-end
+# Built files are read many times (sitemap, archives); read each once.
+built_files = Hash.new { |cache, file| cache[file] = SiteSource.read(file) }
+sitemap = built_files[File.join(site_dir, "sitemap.xml")]
 
 def metadata_paths(value)
   case value
@@ -117,8 +105,8 @@ def metadata_paths(value)
 end
 
 post_route_errors = []
-Dir[File.join(source_root, "_posts", "*.md")].sort.each do |source_path|
-  data = source_metadata(source_path)
+SiteSource.posts.each do |post|
+  data = post.data
   route = data["permalink"].to_s
   next if route.empty?
 
@@ -128,7 +116,7 @@ Dir[File.join(source_root, "_posts", "*.md")].sort.each do |source_path|
     next
   end
 
-  html = File.read(output_path)
+  html = SiteSource.read(output_path)
   canonical_url = "https://brenorb.com#{route}"
   post_route_errors << "#{route} is missing its self-canonical URL" unless html.include?(%(<link rel="canonical" href="#{canonical_url}">))
   post_route_errors << "#{route} must not be noindex" if html.match?(%r{<meta name="robots" content="noindex})
@@ -138,9 +126,9 @@ Dir[File.join(source_root, "_posts", "*.md")].sort.each do |source_path|
             when "project" then "/projects/"
             else "/articles/"
             end
-  archive_html = File.read(route_output_path(site_dir, archive))
+  archive_html = built_files[route_output_path(site_dir, archive)]
   post_route_errors << "#{route} is missing from #{archive}" unless archive_html.include?(canonical_url)
-  post_route_errors << "#{route} is missing from the sitemap" unless File.read(File.join(site_dir, "sitemap.xml")).include?("<loc>#{canonical_url}</loc>")
+  post_route_errors << "#{route} is missing from the sitemap" unless sitemap.include?("<loc>#{canonical_url}</loc>")
 
   expected_lang = data["lang"].to_s.empty? ? "pt-BR" : data["lang"].to_s
   post_route_errors << "#{route} must declare lang=\"#{expected_lang}\"" unless html.match?(%r{<html[^>]+lang="#{Regexp.escape(expected_lang)}"})
@@ -155,7 +143,7 @@ Dir[File.join(source_root, "_posts", "*.md")].sort.each do |source_path|
       next
     end
 
-    redirect_html = File.read(redirect_path)
+    redirect_html = SiteSource.read(redirect_path)
     post_route_errors << "#{redirect_route} must canonicalize to #{canonical_url}" unless redirect_html.include?(%(<link rel="canonical" href="#{canonical_url}">))
     post_route_errors << "#{redirect_route} must be noindex" unless redirect_html.match?(%r{<meta name="robots" content="noindex})
     post_route_errors << "#{redirect_route} is missing its redirect to #{canonical_url}" unless redirect_html.include?(%(http-equiv="refresh" content="0; url=#{canonical_url}"))
@@ -166,7 +154,7 @@ errors = checks.filter_map do |route, expectation|
   output_path = File.join(site_dir, route.delete_prefix("/"), "index.html")
   next "#{route} was not generated at #{output_path}" unless File.file?(output_path)
 
-  html = File.read(output_path)
+  html = SiteSource.read(output_path)
   canonical = %(<link rel="canonical" href="#{expectation[:canonical]}">)
   next "#{route} does not canonicalize to #{expectation[:canonical]}" unless html.include?(canonical)
   next "#{route} contains a malformed double-slash feature URL" if html.include?("https://brenorb.com//assets/")
@@ -187,7 +175,7 @@ content_routes.each do |route|
     next
   end
 
-  html = File.read(output_path)
+  html = SiteSource.read(output_path)
   errors << "#{route} is missing article:modified_time" unless html.include?("property=\"article:modified_time\"")
   errors << "#{route} is missing Article dateModified schema" unless html.include?("\"dateModified\"")
   errors << "#{route} is missing a related-pages section" unless html.include?("class=\"related-posts\"")
@@ -201,7 +189,7 @@ intentional_noindex_routes.each do |route, expectation|
     next
   end
 
-  html = File.read(output_path)
+  html = SiteSource.read(output_path)
   canonical = %(<link rel="canonical" href="#{expectation[:canonical]}">)
   errors << "#{route} does not canonicalize to #{expectation[:canonical]}" unless html.include?(canonical)
   errors << "#{route} is missing its intentional noindex directive" unless html.match?(%r{<meta name="robots" content="noindex(?:,follow)?">})
@@ -219,11 +207,11 @@ canonical_project_routes.each do |route|
     next
   end
 
-  html = File.read(output_path)
+  html = SiteSource.read(output_path)
   errors << "#{route} is missing its self-canonical URL" unless html.include?(%(<link rel="canonical" href="https://brenorb.com#{route}">))
   errors << "#{route} must not be noindex" if html.match?(%r{<meta name="robots" content="noindex})
-  errors << "#{route} is missing from the projects archive" unless File.read(File.join(site_dir, "projects/index.html")).include?("https://brenorb.com#{route}")
-  errors << "#{route} is missing from the sitemap" unless File.read(File.join(site_dir, "sitemap.xml")).include?("<loc>https://brenorb.com#{route}</loc>")
+  errors << "#{route} is missing from the projects archive" unless built_files[File.join(site_dir, "projects/index.html")].include?("https://brenorb.com#{route}")
+  errors << "#{route} is missing from the sitemap" unless sitemap.include?("<loc>https://brenorb.com#{route}</loc>")
 end
 
 errors.concat(post_route_errors)
@@ -235,13 +223,13 @@ english_routes.each do |route|
     next
   end
 
-  html = File.read(output_path)
+  html = SiteSource.read(output_path)
   errors << "#{route} must declare lang=\"en\"" unless html.match?(%r{<html[^>]+lang="en"})
 end
 
 html_files = Dir[File.join(site_dir, "**", "*.html")]
 html_files.each do |output_path|
-  html = File.read(output_path)
+  html = SiteSource.read(output_path)
   html_lang = html[/<html[^>]+lang="([^"]+)"/, 1]
   errors << "#{output_path} is missing an html lang attribute" unless html_lang
 
@@ -257,10 +245,10 @@ html_files.each do |output_path|
 end
 
 home = File.join(site_dir, "index.html")
-errors << "homepage must contain exactly one h1" unless File.read(home).scan(/<h1\b/).length == 1
+errors << "homepage must contain exactly one h1" unless SiteSource.read(home).scan(/<h1\b/).length == 1
 
 contact_success = File.join(site_dir, "contact-success/index.html")
-contact_success_html = File.read(contact_success)
+contact_success_html = SiteSource.read(contact_success)
 errors << "contact-success must be noindex" unless contact_success_html.include?(%(<meta name="robots" content="noindex,follow">))
 
 if errors.any?

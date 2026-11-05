@@ -1,67 +1,43 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require "date"
-require "yaml"
+# Reports posts missing the metadata used by search and social previews.
 
-POST_GLOB = "_posts/*.{md,markdown}"
-REQUIRED_FIELDS = %w[description excerpt feature].freeze
+require_relative "lib/site_source"
 
-def load_front_matter(path)
-  content = File.read(path)
-  match = content.match(/\A---\n(.*?)\n---\n/m)
-  return {} unless match
-
-  YAML.safe_load(match[1], permitted_classes: [Date, Time], aliases: true) || {}
-end
+REQUIRED_FIELDS = %w[description excerpt].freeze
 
 def blank?(value)
   value.nil? || (value.respond_to?(:empty?) && value.empty?) || value.to_s.strip.empty?
 end
 
-def tags_missing?(front_matter)
-  tags = front_matter["tags"] || front_matter["tag"]
-  blank?(tags)
-end
-
-def feature_missing?(front_matter)
-  feature = front_matter["feature"]
+def feature_missing?(feature)
   return true if blank?(feature)
-  return false if feature.start_with?("http://", "https://")
 
-  asset_path = feature.start_with?("/") ? feature[1..] : feature
-  !File.exist?(asset_path)
+  asset = SiteSource.local_asset(feature)
+  asset && !File.exist?(asset)
 end
 
+posts = SiteSource.posts
 problems = Hash.new { |hash, key| hash[key] = [] }
 
-Dir[POST_GLOB].sort.each do |post_path|
-  front_matter = load_front_matter(post_path)
-
-  REQUIRED_FIELDS.each do |field|
-    if field == "feature"
-      problems["feature"] << post_path if feature_missing?(front_matter)
-      next
-    end
-
-    problems[field] << post_path if blank?(front_matter[field])
-  end
-
-  problems["tags"] << post_path if tags_missing?(front_matter)
+posts.each do |post|
+  name = SiteSource.relative(post.path)
+  REQUIRED_FIELDS.each { |field| problems[field] << name if blank?(post.data[field]) }
+  problems["feature"] << name if feature_missing?(post.data["feature"])
+  problems["tags"] << name if post.tags.empty?
 end
 
-problem_count = problems.values.sum(&:size)
-
-if problem_count.positive?
+if problems.values.any?(&:any?)
   warn "Post metadata audit failed."
-  problems.each do |field, paths|
-    next if paths.empty?
+  problems.each do |field, names|
+    next if names.empty?
 
     warn
-    warn "#{field}: #{paths.size}"
-    paths.each { |path| warn "- #{path}" }
+    warn "#{field}: #{names.size}"
+    names.each { |name| warn "- #{name}" }
   end
   exit 1
 end
 
-puts "Post metadata audit passed for #{Dir[POST_GLOB].size} posts."
+puts "Post metadata audit passed for #{posts.size} posts."

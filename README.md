@@ -31,28 +31,20 @@ Build the site:
 bundle exec jekyll build
 ```
 
-Verify that the Search Console regression routes exist and point to their canonical pages:
+Run the same checks as CI and the pre-commit hook:
 
 ```bash
-ruby scripts/check_indexing_routes.rb
+scripts/check_sources.sh   # source checks; regenerates _includes/generated and llms-ctx-full.txt
+JEKYLL_ENV=production bundle exec jekyll build
+scripts/check_build.sh     # indexing routes, related pages, head metadata on _site
 ```
 
-Install the repo hooks:
+`check_sources.sh` covers feature image sizes, media transcript coverage and generated chapter includes. `check_build.sh` verifies Search Console regression routes, canonical/redirect pages, related-page links, and `<head>` metadata (canonical, Open Graph images, JSON-LD).
+
+Install the repo hooks (the pre-commit hook runs `check_sources.sh` and stages regenerated files):
 
 ```bash
 ./scripts/install-git-hooks.sh
-```
-
-The pre-commit hook and CI both enforce a size limit for local `feature:` images in posts:
-
-```bash
-ruby scripts/check_feature_images.rb
-```
-
-They also verify that embedded `media` posts are covered by the transcript manifest and wired to generated chapter includes:
-
-```bash
-node scripts/check_media_sources.js
 ```
 
 Audit post metadata coverage:
@@ -97,7 +89,10 @@ node scripts/build_topic_chapters.js
 
 ## Repo notes
 
-- `_config.yml` holds site metadata, SEO fields, and Jekyll settings.
+- `_config.yml` holds site metadata, SEO fields, social handles, and Jekyll settings.
+- `_data/navigation.yml` is the primary navigation (menu and home buttons); `_data/social.yml` lists supported social services.
+- `_layouts/default.html` is the HTML shell shared by every layout; `_includes/head.html` computes page metadata once and renders `head/social-meta.html` and `head/structured-data.html`.
+- `scripts/lib/site_source.rb` is the shared Ruby helper for reading posts and front matter (always UTF-8) and locating built pages.
 - `scripts/audit_post_metadata.rb` reports missing post metadata such as `description`, `excerpt`, `tags`, and `feature`.
 - `scripts/build-llms-ctx-full.rb` regenerates the expanded AI context file.
 - `scripts/media_sources.json` is the media manifest for transcript generation.

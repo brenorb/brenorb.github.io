@@ -4,27 +4,10 @@ set -euo pipefail
 repo_root="$(git rev-parse --show-toplevel)"
 cd "$repo_root"
 
-echo "Checking feature image sizes"
-ruby scripts/check_feature_images.rb
+scripts/check_sources.sh
 
-echo "Verifying embedded media post coverage"
-node scripts/check_media_sources.js
-
-echo "Verifying transcript coverage"
-node scripts/verify_media_transcripts.js
-
-echo "Regenerating topic chapter includes"
-node scripts/build_topic_chapters.js
-
-if ! git diff --quiet -- _includes/generated; then
-  git add _includes/generated
-  echo "Updated and staged generated chapter includes"
-fi
-
-echo "Regenerating llms-ctx-full.txt"
-ruby scripts/build-llms-ctx-full.rb
-
-if ! git diff --quiet -- llms-ctx-full.txt; then
-  git add llms-ctx-full.txt
-  echo "Updated and staged llms-ctx-full.txt"
+generated=(_includes/generated llms-ctx-full.txt)
+if ! git diff --quiet -- "${generated[@]}"; then
+  git add -- "${generated[@]}"
+  echo "Updated and staged generated files"
 fi

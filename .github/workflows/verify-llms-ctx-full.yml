@@ -25,29 +25,16 @@ jobs:
         with:
           node-version: 20
 
-      - name: Verify feature image sizes
-        run: ruby scripts/check_feature_images.rb
+      - name: Check sources and regenerate generated files
+        run: scripts/check_sources.sh
 
-      - name: Verify embedded media post coverage
-        run: node scripts/check_media_sources.js
-
-      - name: Verify transcript coverage
-        run: node scripts/verify_media_transcripts.js
-
-      - name: Regenerate topic chapter includes
-        run: node scripts/build_topic_chapters.js
-
-      - name: Verify generated chapter includes are up to date
-        run: git diff --exit-code -- _includes/generated
-
-      - name: Regenerate llms-ctx-full.txt
-        run: ruby scripts/build-llms-ctx-full.rb
-
-      - name: Verify generated file is up to date
-        run: git diff --exit-code -- llms-ctx-full.txt
+      - name: Verify generated files are up to date
+        run: git diff --exit-code -- _includes/generated llms-ctx-full.txt
 
       - name: Build site
+        env:
+          JEKYLL_ENV: production
         run: bundle exec jekyll build
 
-      - name: Verify Google indexing routes
-        run: ruby scripts/check_indexing_routes.rb
+      - name: Check built site
+        run: scripts/check_build.sh

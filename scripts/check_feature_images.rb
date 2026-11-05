@@ -1,12 +1,11 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-require "date"
-require "pathname"
-require "yaml"
+# Fails when a post's local `feature:` image is missing or larger than the limit.
+
+require_relative "lib/site_source"
 
 MAX_FEATURE_BYTES = Integer(ENV.fetch("MAX_FEATURE_BYTES", "800000"))
-POST_GLOB = "_posts/*.{md,markdown}"
 
 def human_size(bytes)
   units = %w[B KB MB GB]
@@ -19,46 +18,30 @@ def human_size(bytes)
   format(size >= 10 || unit == "B" ? "%.0f %s" : "%.1f %s", size, unit)
 end
 
-def load_front_matter(path)
-  content = File.read(path)
-  match = content.match(/\A---\n(.*?)\n---\n/m)
-  return {} unless match
-
-  YAML.safe_load(match[1], permitted_classes: [Date, Time], aliases: true) || {}
-end
-
 violations = []
 missing = []
 
-Dir[POST_GLOB].sort.each do |post_path|
-  front_matter = load_front_matter(post_path)
-  feature = front_matter["feature"]
+SiteSource.posts.each do |post|
+  feature = post.data["feature"]
   next unless feature.is_a?(String)
-  next if feature.start_with?("http://", "https://")
 
-  asset_path = feature.start_with?("/") ? feature[1..] : feature
-  unless File.exist?(asset_path)
-    missing << [post_path, asset_path]
-    next
+  asset = SiteSource.local_asset(feature)
+  next unless asset
+
+  name = SiteSource.relative(post.path)
+  if !File.exist?(asset)
+    missing << [name, SiteSource.relative(asset)]
+  elsif File.size(asset) > MAX_FEATURE_BYTES
+    violations << [name, SiteSource.relative(asset), File.size(asset)]
   end
-
-  size = File.size(asset_path)
-  next if size <= MAX_FEATURE_BYTES
-
-  violations << [post_path, asset_path, size]
 end
 
 if missing.any? || violations.any?
   warn "Feature image check failed."
-
-  missing.each do |post_path, asset_path|
-    warn "- Missing feature asset for #{post_path}: #{asset_path}"
+  missing.each { |name, asset| warn "- Missing feature asset for #{name}: #{asset}" }
+  violations.each do |name, asset, size|
+    warn "- #{name}: #{asset} is #{human_size(size)} (limit #{human_size(MAX_FEATURE_BYTES)})"
   end
-
-  violations.each do |post_path, asset_path, size|
-    warn "- #{post_path}: #{asset_path} is #{human_size(size)} (limit #{human_size(MAX_FEATURE_BYTES)})"
-  end
-
   warn "Suggested fix: resize to about 1200px wide and export as a lighter JPG or PNG."
   exit 1
 end
