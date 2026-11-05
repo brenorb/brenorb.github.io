@@ -1,18 +1,35 @@
     <meta charset="UTF-8">
-    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
-    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    {% comment %}
+      Values shared by this file and the head/ sub-includes, computed once per page:
+      seo_title, home_page, is_article, page_description (plain text), page_keywords (string),
+      page_last_modified, page_lang, page_locale, feature_image (absolute URL or nil),
+      site_logo_url, page_image (feature or logo), canonical_url.
+    {% endcomment %}
     {% assign seo_title = page.title | default: site.title %}
     {% assign home_page = false %}
     {% if page.layout == "home" or seo_title == "Home" or page.url == "/" %}{% assign seo_title = site.seo_title | default: site.title %}{% assign home_page = true %}{% endif %}
-    <title>{% if home_page %}{{ seo_title }}{% elsif seo_title != site.title %}{{ seo_title }} &#8211; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-    {% assign page_description = page.description | default: page.excerpt | default: site.description %}
+    {% assign is_article = false %}{% if page.layout == "post" %}{% assign is_article = true %}{% endif %}
+    {% assign page_description = page.description | default: page.excerpt | default: site.description | markdownify | strip_html | strip_newlines %}
     {% assign page_keywords = page.tags | default: page.tag | default: site.keywords %}
+    {% if page_keywords.first %}{% assign page_keywords = page_keywords | join: ', ' %}{% endif %}
     {% assign page_last_modified = page.last_modified_at | default: page.date %}
     {% assign page_lang = page.lang | default: site.lang | default: 'pt-BR' %}
     {% assign page_locale = page_lang | replace: '-', '_' %}
     {% if page_locale == 'en' %}{% assign page_locale = 'en_US' %}{% endif %}
-    <meta name="description" content="{{ page_description | markdownify | strip_html | strip_newlines | escape_once }}">
-    {% if page_keywords %}<meta name="keywords" content="{% if page_keywords.first %}{{ page_keywords | join: ', ' }}{% else %}{{ page_keywords }}{% endif %}">{% endif %}
+    {% assign feature_image = nil %}
+    {% if page.feature %}
+      {% assign feature_prefix = page.feature | slice: 0, 2 %}
+      {% if page.feature contains '://' %}{% assign feature_image = page.feature %}
+      {% elsif feature_prefix == '//' %}{% assign feature_image = page.feature | prepend: 'https:' %}
+      {% else %}{% assign feature_image = page.feature | remove_first: '/' | prepend: '/' | prepend: site.url %}{% endif %}
+    {% endif %}
+    {% assign site_logo_url = site.logo | prepend: '/' | prepend: site.url %}
+    {% if feature_image %}{% assign page_image = feature_image %}{% else %}{% assign page_image = site_logo_url %}{% endif %}
+    {% capture default_canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
+    {% assign canonical_url = page.canonical_url | default: default_canonical %}
+    <title>{% if home_page %}{{ seo_title }}{% elsif seo_title != site.title %}{{ seo_title }} &#8211; {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page_description | escape_once }}">
+    {% if page_keywords %}<meta name="keywords" content="{{ page_keywords }}">{% endif %}
     <meta name="author" content="{{ site.author | default: site.title }}">
     <meta name="ai-content" content="{{ site.ai_content }}">
     <meta name="ai-topic" content="{{ site.ai_topic }}">
@@ -21,34 +38,9 @@
     <link rel="sitemap" type="application/xml" title="Sitemap" href="{{ '/sitemap.xml' | relative_url }}">
     <link rel="llms.txt" type="text/plain" href="{{ '/llms.txt' | relative_url }}">
     <link rel="alternate" type="text/markdown" href="{{ '/llms.md' | relative_url }}">
-    <!-- Twitter Cards -->
-    {% if page.feature %}{% capture feature %}{{ page.feature }}{% endcapture %}{% unless feature contains 'http://' or feature contains 'https://' %}{% assign feature_path = feature | remove_first: '/' %}{% capture feature %}{{ site.url }}/{{ feature_path }}{% endcapture %}{% endunless %}
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content="{{ feature }}">
-    {% else %}<meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="{{ site.url }}/{{ site.logo }}">{% endif %}
-    {% assign schema_image = feature %}
-    {% unless schema_image %}{% capture schema_image %}{{ site.url }}/{{ site.logo }}{% endcapture %}{% endunless %}
-    <meta name="twitter:title" content="{{ seo_title }}">
-    <meta name="twitter:description" content="{{ page_description | markdownify | strip_html | strip_newlines | escape_once }}">
-    {% if site.twitter %}<meta name="twitter:site" content="@{{ site.twitter }}">
-    <meta name="twitter:creator" content="@{{ site.twitter }}">{% endif %}
-    {% capture default_canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{{ page.url | remove:'index.html' | strip_slash }}{% endif %}{% endcapture %}
-    {% assign canonical_url = page.canonical_url | default: default_canonical %}
-    <!-- Open Graph -->
-    <meta property="og:locale" content="{{ page_locale }}">
-    <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
-    <meta property="og:title" content="{{ seo_title }}">
-    <meta property="og:description" content="{{ page_description | markdownify | strip_html | strip_newlines | escape_once }}">
-    <meta property="og:url" content="{{ canonical_url }}">
-    <meta property="og:site_name" content="{{ site.title }}">
-    <meta property="og:image" content="{% if feature %}{{ feature }}{% else %}{{ site.url }}/{{ site.logo }}{% endif %}">
-    {% if page.layout == "post" %}
-    <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
-    <meta property="article:modified_time" content="{{ page_last_modified | date_to_xmlschema }}">
-    {% endif %}
+    {% include head/social-meta.html %}
     {% if site.google.verify %}
-    <!-- Webmaster Tools verfication -->
+    <!-- Webmaster Tools verification -->
     <meta name="google-site-verification" content="{{ site.google.verify }}">{% endif %}
     {% if site.bing-verify %}    <meta name="msvalidate.01" content="{{ site.bing-verify }}">{% endif %}
     <link rel="canonical" href="{{ canonical_url }}">
@@ -70,62 +62,8 @@
     <link rel="apple-touch-icon" sizes="144x144" href="{{ '/assets/img/favicons/apple-icon-144x144.png?v=20260418' | relative_url }}">
     <link rel="shortcut icon" type="image/png" href="{{ '/favicon.png?v=20260418' | relative_url }}" />
     <link rel="shortcut icon" href="{{ '/favicon.ico?v=20260418' | relative_url }}" />
+    {% if feature_image %}
     <!-- Post Feature Image -->
-    {% if page.feature %}
-    {% capture feature %}{{ page.feature }}{% endcapture %}
-    {% unless feature contains 'http://' or feature contains 'https://' %}{% assign feature_path = feature | remove_first: '/' %}{% capture feature %}{{ site.url }}/{{ feature_path }}{% endcapture %}{% endunless %}
-    <style type="text/css">.feature {background-image:url({{ feature }});}</style>
+    <style type="text/css">.feature {background-image:url({{ feature_image }});}</style>
     {% endif %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "@id": {{ site.url | append: "/#person" | jsonify }},
-      "name": {{ site.author | default: site.title | jsonify }},
-      "url": {{ site.url | jsonify }},
-      "description": {{ site.description | jsonify }},
-      "image": {{ site.url | append: "/" | append: site.logo | jsonify }},
-      "sameAs": {{ site.same_as | jsonify }},
-      "knowsAbout": {{ site.knows_about | jsonify }},
-      "jobTitle": "AI Engineer"
-    }
-    </script>
-    {% if page.layout == "post" %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "headline": {{ page.title | jsonify }},
-      "description": {{ page_description | markdownify | strip_html | strip_newlines | jsonify }},
-      "image": {{ schema_image | jsonify }},
-      "url": {{ page.url | replace:'index.html','' | prepend: site.url | jsonify }},
-      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
-      "dateModified": {{ page_last_modified | date_to_xmlschema | jsonify }},
-      "articleSection": {{ page.content_type | default: "article" | jsonify }},
-      "inLanguage": {{ page_lang | jsonify }},
-      "isAccessibleForFree": true,
-      "author": {
-        "@id": {{ site.url | append: "/#person" | jsonify }}
-      },
-      "publisher": {
-        "@id": {{ site.url | append: "/#person" | jsonify }}
-      },
-      "mainEntityOfPage": {{ page.url | replace:'index.html','' | prepend: site.url | jsonify }},
-      "keywords": {% if page_keywords.first %}{{ page_keywords | join: ', ' | jsonify }}{% else %}{{ page_keywords | jsonify }}{% endif %}
-    }
-    </script>
-    {% if page.youtube_id or page.media_url %}
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "VideoObject",
-      "name": {{ page.title | jsonify }},
-      "description": {{ page_description | markdownify | strip_html | strip_newlines | jsonify }},
-      "thumbnailUrl": [{{ schema_image | jsonify }}],
-      "uploadDate": {{ page.date | date_to_xmlschema | jsonify }}{% if page.media_content_url %},
-      "contentUrl": {{ page.media_content_url | jsonify }}{% endif %}{% if page.youtube_id %},
-      "embedUrl": {{ "https://www.youtube.com/embed/" | append: page.youtube_id | jsonify }}{% endif %}
-    }
-    </script>
-    {% endif %}
-    {% endif %}
+    {% include head/structured-data.html %}

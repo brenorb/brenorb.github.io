@@ -1,0 +1,54 @@
+{% comment %}JSON-LD for the site owner and, on posts, the article/video. Uses variables computed in head.html.{% endcomment %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "@id": {{ site.url | append: "/#person" | jsonify }},
+      "name": {{ site.author | default: site.title | jsonify }},
+      "url": {{ site.url | jsonify }},
+      "description": {{ site.description | jsonify }},
+      "image": {{ site_logo_url | jsonify }},
+      "sameAs": {{ site.same_as | jsonify }},
+      "knowsAbout": {{ site.knows_about | jsonify }},
+      "jobTitle": "AI Engineer"
+    }
+    </script>
+    {% if is_article %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": {{ page.title | jsonify }},
+      "description": {{ page_description | jsonify }},
+      "image": {{ page_image | jsonify }},
+      "url": {{ page.url | replace:'index.html','' | prepend: site.url | jsonify }},
+      "datePublished": {{ page.date | date_to_xmlschema | jsonify }},
+      "dateModified": {{ page_last_modified | date_to_xmlschema | jsonify }},
+      "articleSection": {{ page.content_type | default: "article" | jsonify }},
+      "inLanguage": {{ page_lang | jsonify }},
+      "isAccessibleForFree": true,
+      "author": {
+        "@id": {{ site.url | append: "/#person" | jsonify }}
+      },
+      "publisher": {
+        "@id": {{ site.url | append: "/#person" | jsonify }}
+      },
+      "mainEntityOfPage": {{ page.url | replace:'index.html','' | prepend: site.url | jsonify }},
+      "keywords": {{ page_keywords | jsonify }}
+    }
+    </script>
+    {% if page.youtube_id or page.media_url %}
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": {{ page.title | jsonify }},
+      "description": {{ page_description | jsonify }},
+      "thumbnailUrl": [{{ page_image | jsonify }}],
+      "uploadDate": {{ page.date | date_to_xmlschema | jsonify }}{% if page.media_content_url %},
+      "contentUrl": {{ page.media_content_url | jsonify }}{% endif %}{% if page.youtube_id %},
+      "embedUrl": {{ "https://www.youtube.com/embed/" | append: page.youtube_id | jsonify }}{% endif %}
+    }
+    </script>
+    {% endif %}
+    {% endif %}
