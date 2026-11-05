@@ -61,6 +61,42 @@ Audit post metadata coverage:
 ruby scripts/audit_post_metadata.rb
 ```
 
+## Page speed
+
+Every page should finish loading in under 50 ms under the repeatable test in
+`scripts/measure_page_load.js` (cold cache, local HTTPS/HTTP/2 server, every
+third-party host answered after a fixed 100 ms delay; see the header of the
+script for the exact conditions). Build the site, then measure every page:
+
+```bash
+node scripts/measure_page_load.js
+```
+
+It prints the median load time per page (5 runs each) and exits non-zero if
+any page is at or over the budget. `--only /media/,/about/` limits the run to
+matching pages and `--detail` prints each page's resource timeline. It needs
+Node.js and Playwright's Chromium.
+
+What keeps pages fast, and what to run when adding content:
+
+- `_plugins/inline_assets.rb` inlines the stylesheet and `assets/js/scripts.js`
+  (vanilla JS, no jQuery) into every page.
+- `_plugins/preload_fonts.rb` preloads the monospace and italic fonts on pages
+  that use them. `scripts/build_font_subsets.sh` builds the font subsets.
+- `_plugins/lite_youtube.rb` turns YouTube iframes into click-to-play
+  placeholders. After adding a YouTube embed, run
+  `ruby scripts/fetch_youtube_thumbnails.rb` to save a local poster (otherwise
+  the post's local `feature` image is used).
+- `_plugins/webp_variant.rb` serves WebP copies of local images. After adding
+  images, run `ruby scripts/build_webp_images.rb`.
+- `_plugins/third_party_media.rb` serves self-hosted copies of remote images
+  from `assets/remote/` when present (`ruby scripts/self_host_remote_media.rb`
+  downloads them) and makes other third-party iframes load on click.
+- `_plugins/media_transcripts.rb` publishes transcripts as
+  `/<post>/transcript/<id>.txt`; the page loads them when opened.
+- Pre-render diagrams instead of loading Mermaid:
+  `node scripts/render_mermaid.js <in.mmd> <out.svg>` (needs `npm install --no-save mermaid@11`).
+
 ## Media transcript workflow
 
 Generate diarized raw transcripts one item at a time:

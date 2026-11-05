@@ -37,3 +37,4 @@ This repo is Breno's personal website.
 - If adding a new project to the site, create a project post in `_posts/` so it appears on `/projects/`.
 - Use the project's meaningful public start date when the request asks for a date; if release history matters, prefer the first published tag.
 - Keep CI runtime versions explicit in GitHub Actions. If a workflow uses `ruby/setup-ruby`, set `ruby-version` in the workflow instead of relying on repository defaults being present.
+- Keep every page under 50 ms in `node scripts/measure_page_load.js` (run it after `bundle exec jekyll build`). Don't add render-blocking or third-party scripts, fonts, or iframes to page loads; see "Page speed" in `README.md` for the scripts to run when adding images, YouTube embeds, or diagrams.
