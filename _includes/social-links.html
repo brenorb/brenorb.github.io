@@ -1,4 +1,6 @@
                     <hr class="hr-line">
                     <h3 class="title home-social-links">
-                        {% for service in site.data.social %}{% capture service_href %}{% include social-href.html service=service %}{% endcapture %}{% if service_href != "" %}<a class="social-btn" href="{{ service_href }}" target="_blank" rel="noopener noreferrer" aria-label="{{ service.name }}"><i class="fa fa-fw {{ service.icon }}" aria-hidden="true"></i></a>{% endif %}{% endfor %}
+                        {% for service in site.data.social %}{% capture service_href %}{% include social-href.html service=service %}{% endcapture %}{% if service_href != "" %}
+                        <a class="social-btn" href="{{ service_href }}" target="_blank" rel="noopener noreferrer" aria-label="{{ service.name }}"><i class="fa fa-fw {{ service.icon }}" aria-hidden="true"></i></a>
+                        {% endif %}{% endfor %}
                   </h3>
