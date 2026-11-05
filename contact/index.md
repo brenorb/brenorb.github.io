@@ -38,7 +38,7 @@ comments: false
       <p class="contact-card-label">Direct message</p>
       <h2>Send a message</h2>
       <p class="contact-note">Use this for collaborations, speaking invitations, consulting, or anything that needs a private reply.</p>
-      <form class="contact-form" method="post" action="https://formspree.io/f/mzbnldqd">
+      <form class="contact-form" method="post" action="https://formspree.io/f/mzbnldqd" data-contact-form>
         <label for="email_address">Email</label>
         <input id="email_address" type="email" name="email" autocomplete="email" required>
 
@@ -52,8 +52,11 @@ comments: false
         <input type="hidden" name="_next" value="{{ '/contact-success/' | relative_url }}">
         <input type="text" name="_gotcha" class="contact-honeypot" tabindex="-1" autocomplete="off">
 
+        <p class="contact-status" role="alert" tabindex="-1" data-contact-status hidden data-fallback="What you wrote is still in the form. If it keeps failing, reach Breno on &lt;a href=&quot;https://x.com/{{ site.twitter }}&quot;&gt;X&lt;/a&gt; or &lt;a href=&quot;https://linkedin.com/in/{{ site.linkedin }}&quot;&gt;LinkedIn&lt;/a&gt;."></p>
+
         <button type="submit" class="btn btn-info contact-submit">Send Message</button>
       </form>
+      <script src="{{ '/assets/js/contact-form.js' | relative_url }}" defer></script>
     </section>
   </div>
 </div>

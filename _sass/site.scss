@@ -426,6 +426,33 @@ header .entry-meta {
 	}
 }
 
+.contact-status {
+	margin: 0 0 18px;
+	padding: 14px 16px;
+	border: 1px solid rgba(#b3261e, 0.35);
+	border-radius: 12px;
+	background: rgba(#b3261e, 0.06);
+	color: #8c1d18;
+	line-height: 1.5;
+
+	&:focus {
+		outline: 2px solid rgba(#b3261e, 0.45);
+		outline-offset: 2px;
+	}
+
+	a {
+		color: inherit;
+		font-weight: 700;
+		text-decoration: underline;
+	}
+}
+
+.contact-submit[disabled] {
+	opacity: 0.7;
+	cursor: progress;
+	transform: none;
+}
+
 .contact-honeypot {
 	display: none;
 }
