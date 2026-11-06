@@ -1,0 +1,53 @@
+/* Contact */
+.contact-shell { display: grid; gap: 1.25rem; }
+.prose .contact-lede { margin: 0; color: var(--muted); }
+.contact-grid { display: grid; grid-template-columns: 1fr 1.3fr; gap: 1.25rem; margin-top: 1.5rem; @media (max-width: 760px) { grid-template-columns: 1fr; } }
+.contact-card {
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  h2 { margin: 0 0 .5rem !important; font-size: 1.5rem !important; }
+}
+.prose .contact-card-label { margin: 0 0 .5rem; font: 500 .72rem/1.4 var(--font-mono); letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.prose .contact-note { font-size: .925rem; color: var(--muted); }
+.prose .contact-info { display: flex; flex-direction: column; margin: 0 0 .9rem; font-size: .95rem; strong { font: 500 .75rem/1.6 var(--font-mono); color: var(--muted); } }
+.contact-form {
+  display: grid;
+  gap: .4rem;
+  label { margin-top: .5rem; font: 500 .75rem/1.4 var(--font-mono); letter-spacing: .05em; text-transform: uppercase; color: var(--muted); }
+  input, textarea {
+    width: 100%;
+    padding: .75rem .9rem;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    background: var(--bg);
+    color: var(--ink);
+    font: inherit;
+    font-size: 1rem;
+    &:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px var(--mark); }
+  }
+  textarea { min-height: 9rem; resize: vertical; }
+}
+.contact-honeypot { display: none !important; }
+.contact-submit {
+  margin-top: 1rem;
+  padding: .85rem 1.3rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--accent);
+  color: var(--accent-ink);
+  font: 600 .95rem/1 var(--font-sans);
+  cursor: pointer;
+  justify-self: start;
+  &:hover { filter: brightness(1.06); }
+}
+.contact-success-title { margin-top: 0 !important; }
+
+/* Tags */
+.inline-list { display: flex; flex-wrap: wrap; gap: .4rem; padding: 0 !important; list-style: none; li { margin: 0; } }
+.tag .count { margin-left: .35rem; color: var(--muted); }
+.tag:hover .count { color: inherit; }
+.prose .tag-heading { padding-top: 1rem; border-top: 1px solid var(--line); font-size: 1.4rem; }
+.prose .entry-title { margin: .2em 0; }
+.prose a.tag { text-decoration: none; color: var(--ink); &:hover { color: var(--accent-ink); } }

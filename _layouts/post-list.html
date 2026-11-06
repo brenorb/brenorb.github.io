@@ -1,44 +1,31 @@
 ---
-layout: compress
+layout: default
 ---
-<!DOCTYPE html>
-<!--[if lt IE 7]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js"><!--<![endif]-->
-<head>
-    {% include head.html %}
-</head>
-<body>
-    {% include nav.html %}
-    <!-- Header -->
-    <header class="header" role="banner">
-        <div class="wrapper animated fadeIn">
-            <div class="content">
-                <div class="post-title">
-                    <h1>{{ page.title }}</h1>
-                    <a class="btn zoombtn" href="{{site.url}}">
-                        <i class="fa fa-home"></i>
-                    </a>
-                </div>
-                {{ content }}
-                <div class="post-list">
-                    {% assign archive_posts = site.posts | where: "content_type", page.content_type %}
-                    {% for post in archive_posts %}
-                    <ul>
-                        <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
-                            <p>{{ post.excerpt }}</p>
-                            <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
-                        </li>
-                    </ul>
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </header>
-    {% include scripts.html %}
-    <script src="{{ site.url }}/assets/js/wow.min.js"></script>
-    <script type="text/javascript">(new WOW).init();</script>
-</body>
-</html>
+{% assign archive_posts = site.posts | where: "content_type", page.content_type %}
+<header class="page-head">
+  <div class="container">
+    <p class="eyebrow">{{ archive_posts.size }} entries</p>
+    <h1 class="page-head__title">{{ page.title }}</h1>
+    {% if content != "" %}<div class="page-head__intro prose">{{ content }}</div>{% endif %}
+  </div>
+</header>
+
+<section class="section section--tight">
+  <div class="container">
+  {% if page.content_type == "project" %}
+    <ul class="cards">
+      {% for post in archive_posts %}{% include post-card.html post=post %}{% endfor %}
+    </ul>
+  {% else %}
+    {% assign by_year = archive_posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+    {% for year in by_year %}
+    <div class="year">
+      <h2 class="year__label">{{ year.name }}</h2>
+      <ul class="rows">
+        {% for post in year.items %}{% include post-row.html post=post %}{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  {% endif %}
+  </div>
+</section>

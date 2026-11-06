@@ -1,27 +1,14 @@
 ---
 sitemap: false
 ---
-
-/*
- *
- *  Moon
- *
- *  Designer: Taylan Tatlı
- *  WEB: http://taylantatli.me
- *
-*/
-
-// Partials
-@import "variables";
-@import "mixins";
-@import "normalize";
-@import "site";
-@import "typography";
-@import "elements";
+// Draft redesign — "Paper & Signal"
+@import "fonts";
+@import "tokens";
+@import "base";
+@import "layout";
+@import "home";
+@import "lists";
+@import "prose";
+@import "media";
+@import "pages";
 @import "syntax";
-@import "nav";
-@import "vendor/fonts";
-@import "vendor/font-awesome";
-@import "vendor/animate";
-@import "vendor/magnific-popup/magnific-popup";
-@import "print"

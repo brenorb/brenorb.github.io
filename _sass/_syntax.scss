@@ -1,0 +1,10 @@
+/* Rouge, using theme tokens so it works in light and dark */
+.highlight {
+  .c, .c1, .cm, .cs, .cp { color: var(--muted); font-style: italic; }
+  .k, .kd, .kn, .kp, .kr, .kt, .kc, .ow { color: var(--accent); }
+  .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss { color: #3f8f5b; }
+  .m, .mi, .mf, .mh, .mo, .il { color: #b5651d; }
+  .nf, .fm, .nc, .nn { font-weight: 600; }
+  .nb, .bp { color: #6f5bd1; }
+  .err { color: inherit; background: none; }
+}

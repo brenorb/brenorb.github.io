@@ -1,64 +1,83 @@
 ---
-layout: compress
+layout: default
 ---
-<!DOCTYPE html>
-<!--[if lt IE 7]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js"><!--<![endif]-->
-<head>
-    {% include head.html %}
-</head>
-<body>
-    {% include nav.html %}
-    <!-- Header -->
-    <header class="header flex" role="banner">
-        <div class="container animated fadeIn">
-            <div class="row">
-                    <a href="{{ '/' | relative_url }}">
-                        <picture>
-                            <source srcset="{{ '/assets/img/logo.webp' | relative_url }}" type="image/webp">
-                            <img src="{{ '/' | append: site.logo | relative_url }}" alt="{{ site.title }}" class="img-circle zoombtn animated rotateIn">
-                        </picture>
-                    </a>
-                    <div class="title">
-                        <a class="zoombtn" href="{{ '/' | relative_url }}">{{ site.title }}</a>
-                    </div>
-                    <hr class="hr-line">
-                    <p class="title home-bio">{{ site.bio }}</p>
-                    {% include social-links.html %}
-                  <hr class="hr-line">
-                  <h3 class="title">
-                         <a class="btn zoombtn" href="{{ '/about/' | relative_url }}">
-                         About
-                         </a>
-                         <a class="btn zoombtn" href="{{ '/articles/' | relative_url }}">
-                         Writing
-                         </a>
-                         <a class="btn zoombtn" href="{{ '/media/' | relative_url }}">
-                         Talks &amp; Media
-                         </a>
-                         <a class="btn zoombtn" href="{{ '/projects/' | relative_url }}">
-                         Projects
-                         </a>
-                         <a class="btn zoombtn" href="{{ '/contact/' | relative_url }}">
-                         Contact
-                         </a>
-                 </h3>
-            </div> <!-- testando -->
-            <!-- <div class="row">
-                <iframe src="https://brenorb.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
-            </div> -->
-        </div>
+{% assign projects = site.posts | where: "content_type", "project" %}
+{% assign articles = site.posts | where: "content_type", "article" %}
+{% assign media = site.posts | where: "content_type", "media" %}
+
+<section class="hero">
+  <div class="container hero__grid">
+    <div class="hero__text">
+      <p class="eyebrow"><span class="pulse" aria-hidden="true"></span> AI Engineer · Bitcoin · Finance</p>
+      <h1 class="hero__title">Breno<br><em>Brito</em></h1>
+      <p class="hero__lede">Engenheiro, cientista de dados e autor de <a href="{{ '/projects/101-perguntas-bitcoin/' | relative_url }}">101&nbsp;Perguntas sobre Bitcoin</a>. Trabalho na interseção entre <mark>inteligência artificial</mark>, <mark>Bitcoin</mark> e <mark>finanças</mark>.</p>
+      <div class="hero__actions">
+        <a class="button button--primary" href="{{ '/projects/' | relative_url }}">See projects</a>
+        <a class="button" href="{{ '/contact/' | relative_url }}">Get in touch</a>
+      </div>
+    </div>
+    <div class="hero__badge" aria-hidden="true">
+      <svg class="hero__ring" viewBox="0 0 200 200">
+        <defs><path id="ring" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs>
+        <text><textPath href="#ring" textLength="486" lengthAdjust="spacing">AI ENGINEERING · BITCOIN · FINANCE · OPEN SOURCE · </textPath></text>
+      </svg>
+      <span class="hero__glyph">₿</span>
+    </div>
+  </div>
+  <div class="container">
+    <dl class="stats">
+      <div><dt>Projects</dt><dd>{{ projects.size }}</dd></div>
+      <div><dt>Talks &amp; media</dt><dd>{{ media.size }}</dd></div>
+      <div><dt>Essays</dt><dd>{{ articles.size }}</dd></div>
+      <div><dt>Since</dt><dd>{{ site.posts.last.date | date: "%Y" }}</dd></div>
+    </dl>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <header class="section__head">
+      <p class="section__index">01</p>
+      <h2>Recent projects</h2>
+      <a class="section__more" href="{{ '/projects/' | relative_url }}">All {{ projects.size }} projects →</a>
     </header>
-    <main id="main-content" class="home-summary wrapper">
-        <div class="content">
-            <h1>AI Engineer, Bitcoin, Finance</h1>
-            <h2>AI, Bitcoin e finanças</h2>
-            <p>Breno Brito é engenheiro, cientista de dados e autor que trabalha na interseção entre Inteligência Artificial, Bitcoin e finanças. Este site reúne seus projetos, textos, entrevistas e palestras para quem quer entender tecnologia aberta, modelos de linguagem, economia e segurança digital com mais profundidade.</p>
-            <p>Explore os <a href="{{ '/projects/' | relative_url }}">projetos</a> de software e pesquisa, leia os <a href="{{ '/articles/' | relative_url }}">textos</a> sobre IA, Bitcoin e finanças, ou consulte as <a href="{{ '/media/' | relative_url }}">palestras e entrevistas</a>. Para convites, colaborações e trabalho profissional, use a <a href="{{ '/contact/' | relative_url }}">página de contato</a>.</p>
-        </div>
-    </main>
-    {% include scripts.html %}
-</body>
-</html>
+    <ul class="cards">
+      {% for post in projects limit: 6 %}{% include post-card.html post=post %}{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="section section--split">
+  <div class="container split">
+    <div>
+      <header class="section__head">
+        <p class="section__index">02</p>
+        <h2>Writing</h2>
+        <a class="section__more" href="{{ '/articles/' | relative_url }}">Archive →</a>
+      </header>
+      <ul class="rows">
+        {% for post in articles limit: 5 %}{% include post-row.html post=post date_format="%Y" %}{% endfor %}
+      </ul>
+    </div>
+    <div>
+      <header class="section__head">
+        <p class="section__index">03</p>
+        <h2>Talks &amp; media</h2>
+        <a class="section__more" href="{{ '/media/' | relative_url }}">Archive →</a>
+      </header>
+      <ul class="rows">
+        {% for post in media limit: 5 %}{% include post-row.html post=post date_format="%Y" %}{% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="cta">
+      <p class="eyebrow">Convites, palestras, colaborações</p>
+      <h2 class="cta__title">Have an idea worth building?</h2>
+      <a class="button button--primary" href="{{ '/contact/' | relative_url }}">Send a message</a>
+    </div>
+  </div>
+</section>

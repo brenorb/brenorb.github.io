@@ -1,97 +1,65 @@
 ---
-layout: compress
+layout: default
 ---
-<!DOCTYPE html>
-<!--[if lt IE 7]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if (IE 7)&!(IEMobile)]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9 lt-ie8"><![endif]-->
-<!--[if (IE 8)&!(IEMobile)]><html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js lt-ie9"><![endif]-->
-<!--[if gt IE 8]><!--> <html lang="{{ page.lang | default: site.lang | default: 'pt-BR' }}" class="no-js"><!--<![endif]-->
-<head>
-    {% include head.html %}
-</head>
-<body>
-    {% include nav.html %}
-    <!-- Header -->
-    <header class="header" role="banner">
-        <div class="wrapper animated fadeIn">
-            <div class="content">
-                <div class="post-title {% if page.feature %} feature {% endif %}">
-                    <h1>{{ page.title }}</h1>
-                    <h4>{{ page.date | date_to_string }}</h4>
-                    {% if site.reading_time %}
-                    <p class="reading-time">
-                      <i class="fa fa-clock-o"></i>
-                      {% include read-time.html %}
-                    </p><!-- /.entry-reading-time -->
-                    {% endif %}
-                    {% assign archive_path = "/articles/" %}
-                    {% if page.content_type == "media" %}
-                        {% assign archive_path = "/media/" %}
-                    {% elsif page.content_type == "project" %}
-                        {% assign archive_path = "/projects/" %}
-                    {% endif %}
-                    <a class="btn zoombtn" href="{{site.url}}{{ archive_path }}">
-                        <i class="fa fa-chevron-left"></i>
-                    </a>
-                </div>
-                {{ content }}
-                {% assign media_appendix = site.data.media_appendices[page.slug] %}
-                {% if page.show_transcript != false and media_appendix and media_appendix.items and media_appendix.items.size > 0 %}
-                <section id="transcricao" class="media-transcripts" data-transcript-anchor>
-                    {% for item in media_appendix.items %}
-                    <details class="media-transcript">
-                        <summary>
-                            {{ item.label }}
-                            <span class="media-transcript__summary-meta">
-                                {{ item.stats.line_count }} {% if item.stats.line_count == 1 %}trecho{% else %}trechos{% endif %}{% if item.stats.speaker_count > 0 %} · {{ item.stats.speaker_count }} {% if item.stats.speaker_count == 1 %}voz{% else %}vozes{% endif %}{% endif %}
-                            </span>
-                        </summary>
-                        <div class="media-transcript__body">
-                            {% if item.source_url %}
-                            <p class="media-transcript__source">
-                                Fonte:
-                                <a href="{{ item.source_url }}">{{ item.source_label }}</a>
-                            </p>
-                            {% endif %}
-                            <ol class="media-transcript__lines">
-                                {% for line in item.lines %}
-                                <li>
-                                    {% if line.href %}
-                                    <a class="media-transcript__stamp" href="{{ line.href }}">{{ line.timestamp }}</a>
-                                    {% else %}
-                                    <span class="media-transcript__stamp">{{ line.timestamp }}</span>
-                                    {% endif %}
-                                    {% if line.speaker %}
-                                    <strong class="media-transcript__speaker">{{ line.speaker }}</strong>
-                                    {% endif %}
-                                    <span class="media-transcript__text">{{ line.text }}</span>
-                                </li>
-                                {% endfor %}
-                            </ol>
-                        </div>
-                    </details>
-                    {% endfor %}
-                </section>
-                {% endif %}
-                {% if page.youtube_id %}
-                <p class="media-source">Original recording: <a href="https://www.youtube.com/watch?v={{ page.youtube_id }}">watch on YouTube</a>.</p>
-                {% elsif page.media_url %}
-                <p class="media-source">Original recording: <a href="{{ page.media_url }}">open the source</a>.</p>
-                {% endif %}
-                {% if page.content_type == "media" or page.content_type == "article" %}
-                {% include related-posts.html %}
-                {% endif %}
-                <div class="entry-meta">
-                {% include meta.html %}
-                </div>
-            </div>
+{% assign archive_path = "/articles/" %}{% assign archive_label = "Writing" %}
+{% if page.content_type == "media" %}{% assign archive_path = "/media/" %}{% assign archive_label = "Talks & Media" %}
+{% elsif page.content_type == "project" %}{% assign archive_path = "/projects/" %}{% assign archive_label = "Projects" %}{% endif %}
+<div class="progress" aria-hidden="true"></div>
+<article class="post">
+  <header class="post-head">
+    <div class="container container--narrow">
+      <a class="back" href="{{ archive_path | relative_url }}">← {{ archive_label }}</a>
+      <h1 class="post-head__title">{{ page.title }}</h1>
+      {% if page.excerpt %}<p class="post-head__lede">{{ page.excerpt | strip_html }}</p>{% endif %}
+      <p class="post-head__meta">
+        <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+        {% if site.reading_time %}<span>{% include read-time.html %}</span>{% endif %}
+      </p>
+    </div>
+  </header>
+
+  <div class="container container--narrow">
+    <div class="prose content">
+      {{ content }}
+    </div>
+
+    {% assign media_appendix = site.data.media_appendices[page.slug] %}
+    {% if page.show_transcript != false and media_appendix and media_appendix.items and media_appendix.items.size > 0 %}
+    <section id="transcricao" class="transcripts" data-transcript-anchor>
+      <h2 class="label">Transcript (experimental)</h2>
+      {% for item in media_appendix.items %}
+      <details class="media-transcript">
+        <summary>
+          {{ item.label }}
+          <span class="media-transcript__summary-meta">{{ item.stats.line_count }} {% if item.stats.line_count == 1 %}trecho{% else %}trechos{% endif %}{% if item.stats.speaker_count > 0 %} · {{ item.stats.speaker_count }} {% if item.stats.speaker_count == 1 %}voz{% else %}vozes{% endif %}{% endif %}</span>
+        </summary>
+        <div class="media-transcript__body">
+          {% if item.source_url %}<p class="media-transcript__source">Fonte: <a href="{{ item.source_url }}">{{ item.source_label }}</a></p>{% endif %}
+          <ol class="media-transcript__lines">
+            {% for line in item.lines %}
+            <li>
+              {% if line.href %}<a class="media-transcript__stamp" href="{{ line.href }}">{{ line.timestamp }}</a>{% else %}<span class="media-transcript__stamp">{{ line.timestamp }}</span>{% endif %}
+              {% if line.speaker %}<strong class="media-transcript__speaker">{{ line.speaker }}</strong>{% endif %}
+              <span class="media-transcript__text">{{ line.text }}</span>
+            </li>
+            {% endfor %}
+          </ol>
         </div>
-        {% if page.comments and site.disqus_shortname %}<section id="disqus_thread" class="animated fadeInUp"></section><!-- /#disqus_thread -->{% endif %}
-    </header>
-    {% include scripts.html %}
-    {% if site.mathjax == true %}
-    <!-- MathJax -->
-    <script async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+      </details>
+      {% endfor %}
+    </section>
     {% endif %}
-</body>
-</html>
+
+    {% if page.youtube_id %}
+    <p class="media-source">Original recording: <a href="https://www.youtube.com/watch?v={{ page.youtube_id }}">watch on YouTube</a>.</p>
+    {% elsif page.media_url %}
+    <p class="media-source">Original recording: <a href="{{ page.media_url }}">open the source</a>.</p>
+    {% endif %}
+
+    <footer class="post-foot">
+      {% include meta.html %}
+      {% if page.content_type == "media" or page.content_type == "article" %}{% include related-posts.html %}{% endif %}
+    </footer>
+    {% if page.comments and site.disqus_shortname %}<section id="disqus_thread"></section>{% endif %}
+  </div>
+</article>

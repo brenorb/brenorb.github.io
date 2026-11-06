@@ -1,6 +1,12 @@
-# Site navigation links
+# Primary navigation (header and footer)
 
-- title: Projects
-  url: /projects/
+- title: Writing
+  url: /articles/
 - title: Talks & Media
   url: /media/
+- title: Projects
+  url: /projects/
+- title: About
+  url: /about/
+- title: Contact
+  url: /contact/

@@ -1,0 +1,47 @@
+@mixin dark-theme {
+  --bg: #0f0e0c;
+  --surface: #181713;
+  --surface-2: #211f1a;
+  --ink: #efeadf;
+  --muted: #9c968a;
+  --line: #2e2b25;
+  --accent: #ff7a3d;
+  --accent-ink: #160a03;
+  --mark: rgba(255, 122, 61, 0.22);
+  --dot: rgba(239, 234, 223, 0.09);
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.03), 0 20px 40px -24px rgba(0, 0, 0, 0.8);
+  --show-sun: inline;
+  --show-moon: none;
+  color-scheme: dark;
+}
+
+:root {
+  --bg: #f4f1ea;
+  --surface: #fbf9f4;
+  --surface-2: #ebe6db;
+  --ink: #17150f;
+  --muted: #6b665b;
+  --line: #ddd6c8;
+  --accent: #f0531c;
+  --accent-ink: #fff8f2;
+  --mark: rgba(240, 83, 28, 0.16);
+  --dot: rgba(23, 21, 15, 0.09);
+  --shadow: 0 1px 0 rgba(255, 255, 255, 0.6), 0 20px 40px -28px rgba(60, 40, 10, 0.45);
+  --show-sun: none;
+  --show-moon: inline;
+
+  --font-display: "Fraunces", "Iowan Old Style", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  --radius: 14px;
+  --container: 72rem;
+  --narrow: 44rem;
+  --gutter: clamp(1.25rem, 4vw, 2.5rem);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include dark-theme; }
+}
+:root[data-theme="dark"] { @include dark-theme; }

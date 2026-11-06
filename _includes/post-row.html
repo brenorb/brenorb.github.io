@@ -1,0 +1,9 @@
+{% assign fmt = include.date_format | default: "%b %d" %}
+<li class="row">
+  <time class="row__date" datetime="{{ include.post.date | date_to_xmlschema }}">{{ include.post.date | date: fmt }}</time>
+  <div class="row__body">
+    <a class="row__title" href="{{ site.url }}{{ include.post.url }}">{{ include.post.title }}</a>
+    {% if include.post.excerpt %}<p class="row__excerpt">{{ include.post.excerpt | strip_html | truncatewords: 28 }}</p>{% endif %}
+  </div>
+  <span class="row__arrow" aria-hidden="true">→</span>
+</li>

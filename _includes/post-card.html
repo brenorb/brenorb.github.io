@@ -1,0 +1,14 @@
+{% assign card_image = include.post.feature %}
+{% if card_image %}{% unless card_image contains '://' %}{% assign card_image = card_image | relative_url %}{% endunless %}{% endif %}
+<li class="card">
+  <a class="card__link" href="{{ site.url }}{{ include.post.url }}">
+    <div class="card__media">
+      {% if card_image %}<img src="{{ card_image }}" alt="{{ include.post.title | escape }}" loading="lazy" decoding="async">{% endif %}
+    </div>
+    <div class="card__body">
+      <p class="card__meta">{{ include.post.date | date: "%Y" }}{% assign t = include.post.tags | default: include.post.tag %}{% if t.first %} · {{ t | slice: 0, 2 | join: " · " }}{% endif %}</p>
+      <h3 class="card__title">{{ include.post.title }}</h3>
+      {% if include.post.excerpt %}<p class="card__excerpt">{{ include.post.excerpt | strip_html | truncatewords: 22 }}</p>{% endif %}
+    </div>
+  </a>
+</li>

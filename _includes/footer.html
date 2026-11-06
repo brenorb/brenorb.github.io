@@ -1,0 +1,23 @@
+<footer class="site-footer">
+  <div class="container site-footer__inner">
+    <div class="site-footer__about">
+      <p class="site-footer__name">{{ site.title }}</p>
+      <p>AI engineer, data scientist and author working where artificial intelligence, Bitcoin and finance meet.</p>
+      {% include social-links.html %}
+    </div>
+    <nav class="site-footer__nav" aria-label="Footer">
+      <p class="label">Explore</p>
+      {% for link in site.data.navigation %}<a href="{{ link.url | relative_url }}">{{ link.title }}</a>{% endfor %}
+    </nav>
+    <nav class="site-footer__nav" aria-label="More">
+      <p class="label">More</p>
+      <a href="{{ '/tags/' | relative_url }}">Tags</a>
+      <a href="{{ '/privacy/' | relative_url }}">Privacy</a>
+      <a href="{{ '/llms.txt' | relative_url }}">llms.txt</a>
+    </nav>
+  </div>
+  <div class="container site-footer__base">
+    <span>© {{ site.time | date: '%Y' }} {{ site.author }}</span>
+    <span>Built with Jekyll · Set in Fraunces, Inter &amp; JetBrains Mono</span>
+  </div>
+</footer>
