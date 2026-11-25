@@ -7,7 +7,10 @@ cd "$repo_root"
 echo "Checking feature image sizes"
 ruby scripts/check_feature_images.rb
 
-echo "Verifying embedded media post coverage"
+echo "Testing media validation regressions"
+node --test scripts/check_media_sources.test.js
+
+echo "Verifying podcast format and media coverage"
 node scripts/check_media_sources.js
 
 echo "Verifying transcript coverage"

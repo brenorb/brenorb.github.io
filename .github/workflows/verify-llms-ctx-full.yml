@@ -28,7 +28,10 @@ jobs:
       - name: Verify feature image sizes
         run: ruby scripts/check_feature_images.rb
 
-      - name: Verify embedded media post coverage
+      - name: Test media validation regressions
+        run: node --test scripts/check_media_sources.test.js
+
+      - name: Verify podcast format and media coverage
         run: node scripts/check_media_sources.js
 
       - name: Verify transcript coverage

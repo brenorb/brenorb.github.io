@@ -34,6 +34,17 @@ jobs:
           ruby-version: 3.1.3
           bundler-cache: true
 
+      - name: Set up Node.js
+        uses: actions/setup-node@v6
+        with:
+          node-version: 20
+
+      - name: Require complete podcast and transcript coverage before deployment
+        run: |
+          node --test scripts/check_media_sources.test.js
+          node scripts/check_media_sources.js
+          node scripts/verify_media_transcripts.js
+
       - name: Build site
         env:
           JEKYLL_ENV: production

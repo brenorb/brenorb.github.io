@@ -46,6 +46,7 @@ function main() {
     .sort();
 
   const sourcePosts = [];
+  const missingPodcastPlayer = [];
   const missing = [];
   const missingChapterInclude = [];
   const missingChapterSpec = [];
@@ -58,13 +59,19 @@ function main() {
     const frontMatter = extractFrontMatter(contents);
     const body = bodyForPost(contents);
 
-    const hasDeclaredMedia = postIsMedia(frontMatter) && /^(youtube_id|media_url):\s*\S+/m.test(frontMatter);
-    if (!postHasEmbeddedMedia(body) && !hasDeclaredMedia) {
+    const isPodcast = postIsMedia(frontMatter) && /^category:[ \t]*podcast[ \t]*$/m.test(frontMatter);
+    const hasPlayer = postHasEmbeddedMedia(body);
+    const hasDeclaredMedia = postIsMedia(frontMatter) && /^(youtube_id|media_url):[ \t]*\S+/m.test(frontMatter);
+    if (!hasPlayer && !hasDeclaredMedia && !isPodcast) {
       continue;
     }
 
     const slug = slugForPost(file, frontMatter);
     sourcePosts.push(slug);
+
+    if (isPodcast && !hasPlayer) {
+      missingPodcastPlayer.push(slug);
+    }
 
     if (!manifestSlugs.has(slug)) {
       missing.push(slug);
@@ -97,6 +104,9 @@ function main() {
 
   const problems = [];
 
+  if (missingPodcastPlayer.length > 0) {
+    problems.push(`Missing embedded player in podcast posts: ${missingPodcastPlayer.join(", ")}`);
+  }
   if (missing.length > 0) {
     problems.push(`Missing media slugs in manifest: ${missing.join(", ")}`);
   }
