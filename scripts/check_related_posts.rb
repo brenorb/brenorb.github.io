@@ -14,8 +14,6 @@ errors = []
 checked = 0
 
 posts.each do |post|
-  next if post.fetch("content_type") == "project"
-
   route = post.fetch("url")
   html = File.read(File.join(site_dir, route.delete_prefix("/"), "index.html"))
   section = html[/<section class="related-posts".*?<\/section>/m]
@@ -29,4 +27,4 @@ posts.each do |post|
 end
 
 abort(errors.join("\n")) unless errors.empty?
-puts "Verified semantic related links on #{checked} article and media pages."
+puts "Verified semantic related links on #{checked} article, media and project pages."

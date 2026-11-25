@@ -78,7 +78,7 @@ layout: compress
                 {% elsif page.media_url %}
                 <p class="media-source">Original recording: <a href="{{ page.media_url }}">open the source</a>.</p>
                 {% endif %}
-                {% if page.content_type == "media" or page.content_type == "article" %}
+                {% if page.content_type == "media" or page.content_type == "article" or page.content_type == "project" %}
                 {% include related-posts.html %}
                 {% endif %}
                 <div class="entry-meta">
