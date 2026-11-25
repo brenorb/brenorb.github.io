@@ -42,10 +42,10 @@ User-agent: Applebot-Extended
 Disallow:
 
 User-agent: Bytespider
-Disallow: /
+Disallow:
 
 User-agent: CCBot
-Disallow: /
+Disallow:
 
 User-agent: Amazonbot
 Disallow:
