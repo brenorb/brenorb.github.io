@@ -29,7 +29,17 @@ function bodyForPost(text) {
 }
 
 function postIsMedia(frontMatter) {
-  return /^content_type:\s*media\s*$/m.test(frontMatter);
+  return /^content_type:[ \t]*["']?media["']?[ \t]*$/m.test(frontMatter);
+}
+
+function postHasPodcastCategory(frontMatter) {
+  return /^category:[ \t]*["']?podcast["']?[ \t]*$/m.test(frontMatter);
+}
+
+function postIsPodcast(filename, frontMatter) {
+  const tags = frontMatter.match(/^tags:[^\n]*(?:\n[ \t]*-[^\n]*)*/m)?.[0] || "";
+  return postHasPodcastCategory(frontMatter) || /\bpodcast\b/i.test(tags) ||
+    /^\d{4}-\d{2}-\d{2}-podcast-/.test(filename) || /^title:[ \t]*["']?Podcast\b/im.test(frontMatter);
 }
 
 function postHasEmbeddedMedia(body) {
@@ -47,6 +57,8 @@ function main() {
 
   const sourcePosts = [];
   const missingPodcastPlayer = [];
+  const missingPodcastMetadata = [];
+  const missingPodcastSource = [];
   const missing = [];
   const missingChapterInclude = [];
   const missingChapterSpec = [];
@@ -59,7 +71,7 @@ function main() {
     const frontMatter = extractFrontMatter(contents);
     const body = bodyForPost(contents);
 
-    const isPodcast = postIsMedia(frontMatter) && /^category:[ \t]*podcast[ \t]*$/m.test(frontMatter);
+    const isPodcast = postIsPodcast(file, frontMatter);
     const hasPlayer = postHasEmbeddedMedia(body);
     const hasDeclaredMedia = postIsMedia(frontMatter) && /^(youtube_id|media_url):[ \t]*\S+/m.test(frontMatter);
     if (!hasPlayer && !hasDeclaredMedia && !isPodcast) {
@@ -71,6 +83,12 @@ function main() {
 
     if (isPodcast && !hasPlayer) {
       missingPodcastPlayer.push(slug);
+    }
+    if (isPodcast && (!postIsMedia(frontMatter) || !postHasPodcastCategory(frontMatter))) {
+      missingPodcastMetadata.push(slug);
+    }
+    if (isPodcast && !hasDeclaredMedia) {
+      missingPodcastSource.push(slug);
     }
 
     if (!manifestSlugs.has(slug)) {
@@ -106,6 +124,12 @@ function main() {
 
   if (missingPodcastPlayer.length > 0) {
     problems.push(`Missing embedded player in podcast posts: ${missingPodcastPlayer.join(", ")}`);
+  }
+  if (missingPodcastMetadata.length > 0) {
+    problems.push(`Podcast posts require content_type: media and category: podcast: ${missingPodcastMetadata.join(", ")}`);
+  }
+  if (missingPodcastSource.length > 0) {
+    problems.push(`Missing youtube_id or media_url in podcast posts: ${missingPodcastSource.join(", ")}`);
   }
   if (missing.length > 0) {
     problems.push(`Missing media slugs in manifest: ${missing.join(", ")}`);

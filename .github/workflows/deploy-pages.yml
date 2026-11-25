@@ -41,7 +41,7 @@ jobs:
 
       - name: Require complete podcast and transcript coverage before deployment
         run: |
-          node --test scripts/check_media_sources.test.js
+          node --test scripts/check_media_sources.test.js scripts/media_chapters.test.js
           node scripts/check_media_sources.js
           node scripts/verify_media_transcripts.js
 

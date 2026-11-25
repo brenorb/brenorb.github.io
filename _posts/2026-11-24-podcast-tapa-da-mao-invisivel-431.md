@@ -3,7 +3,7 @@ layout: post
 permalink: /media/podcast-tapa-da-mao-invisivel-431/
 title: "Podcast - Tapa da Mão Invisível #431 - IA, Bitcoin e o futuro do capitalismo"
 date: 2026-11-24 19:00:00 -0300
-description: "Conversa de Breno Brito no Tapa da Mão Invisível sobre IA, trabalho e escassez, Bitcoin e o futuro do capitalismo."
+description: "Conversa no Tapa da Mão Invisível sobre IA, trabalho e escassez, Bitcoin e o futuro do capitalismo."
 category: podcast
 tags: [ai, bitcoin, podcast]
 comments: false

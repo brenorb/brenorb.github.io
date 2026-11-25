@@ -49,12 +49,12 @@ The pre-commit hook and CI both enforce a size limit for local `feature:` images
 ruby scripts/check_feature_images.rb
 ```
 
-Podcast posts (`content_type: media`, `category: podcast`) must include an embedded player, a transcript manifest entry, and generated chapter navigation. The same coverage checks also apply to other posts with embedded players or declared media sources. These checks run in pre-commit, CI, and the deployment workflow; a failure blocks publication:
+Podcast posts (`content_type: media`, `category: podcast`) must include an embedded player, source metadata (`youtube_id` or `media_url`), a transcript manifest entry, and generated chapter navigation. Podcasts are detected by category, tags, filename or title so omitting the category cannot bypass validation. The same coverage checks also apply to other posts with embedded players or declared media sources. These checks run in pre-commit, CI, and the deployment workflow; a failure blocks publication:
 
 ```bash
 node scripts/check_media_sources.js
 node scripts/verify_media_transcripts.js
-node --test scripts/check_media_sources.test.js
+node --test scripts/check_media_sources.test.js scripts/media_chapters.test.js
 ```
 
 Audit post metadata coverage:

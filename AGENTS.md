@@ -33,6 +33,7 @@ This repo is Breno's personal website.
 
 ## Working Rules
 
+- Use first person for Breno's own podcast summaries and project descriptions (for example, "converso", "argumento", "desenvolvo", "I", and "we"). Home and About may remain in third person. Preserve third-party wording in clearly attributed quotes; identify copied YouTube descriptions as such.
 - Prefer editing the website content in this repo before touching external context files.
 - If adding a new project to the site, create a project post in `_posts/` so it appears on `/projects/`.
 - Use the project's meaningful public start date when the request asks for a date; if release history matters, prefer the first published tag.

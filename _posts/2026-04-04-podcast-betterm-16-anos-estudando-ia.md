@@ -13,6 +13,7 @@ share: true
 content_type: media
 excerpt: "Conversa no canal BetterM sobre trajetória, inteligência artificial e o que costuma ficar de fora depois de 16 anos estudando IA."
 feature: /assets/generated/podcast-betterm-16-anos-estudando-ia.jpg
+youtube_id: 3QVFWHxvgvQ
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/3QVFWHxvgvQ" title="Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -26,4 +27,3 @@ O núcleo do episódio é a discussão sobre mercado de trabalho. Em vez de vend
 Outro bloco importante é o de risco e segurança. A conversa sai do clichê “a IA vai nos dominar” e foca mais no que me preocupa de verdade: humanos mal-intencionados usando IA para escalar fraude, ataque e engenharia social. O caso citado do ecossistema open source ajuda bastante a mostrar por que o problema não é só automação produtiva, mas também amplificação de dano.
 
 Também gostei da parte sobre especialização, porque ela evita o erro comum de tratar toda produção como commodity. A tese que aparece ali é que muita execução mediana vai baratear brutalmente, mas ainda sobra espaço para gente com repertório, critério e bom gosto conseguir dirigir melhor essas ferramentas. Isso não elimina o choque no meio do caminho, mas muda a pergunta: menos “a IA substitui todo mundo?” e mais “que tipo de julgamento humano continua raro quando a execução fica barata?”.
-

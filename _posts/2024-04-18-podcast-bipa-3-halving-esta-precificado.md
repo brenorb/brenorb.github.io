@@ -7,6 +7,7 @@ title:  "Podcast - Bipa Cast #003 - O Halving está precificado?"
 date:   2024-04-18
 description: "Conversa no Bipa Cast sobre o que significa dizer que o halving está ou não precificado, por que isso remete à hipótese de mercado eficiente e como ETF, oferta e reflexividade bagunçam respostas fáceis."
 excerpt: "Afinal, o Halving está precificado?"
+category: podcast
 content_type: media
 tags:
 - bitcoin
@@ -15,6 +16,7 @@ tags:
 - podcast
 comments: false
 feature: /assets/generated/podcast-bipa-3-halving-esta-precificado.jpg
+youtube_id: ekQtXuTDOIs
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/ekQtXuTDOIs" title="Podcast - Bipa Cast #003 - O Halving está precificado?" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -23,9 +25,9 @@ Links: [YouTube](https://www.youtube.com/watch?v=ekQtXuTDOIs) | [Spotify](https:
 
 Esta conversa começa com uma pergunta de mercado, mas rapidamente vira uma aula sobre como pensar preço, oferta, assimetria de informação e reflexividade. Em vez de responder "sim" ou "não" de forma telegráfica, eu tento desmontar a própria pergunta: para discutir se o halving está precificado, primeiro é preciso definir o que é o halving, o que é uma precificação e o que as pessoas querem dizer quando falam que o mercado já "absorveu" um evento.
 
-O trecho central do episódio é a ponte entre Bitcoin e finanças tradicionais. A explicação passa por valuation, pelo ditado "compra o rumor e vende a notícia" e pela hipótese de mercado eficiente de Eugene Fama. Isso ajuda a separar duas coisas que costumam ser misturadas: o efeito estrutural de uma queda na emissão e o comportamento de curto prazo de traders correndo atrás de narrativa.
-
 {% include generated/podcast-bipa-3-halving-esta-precificado-chapters.html %}
+
+O trecho central do episódio é a ponte entre Bitcoin e finanças tradicionais. A explicação passa por valuation, pelo ditado "compra o rumor e vende a notícia" e pela hipótese de mercado eficiente de Eugene Fama. Isso ajuda a separar duas coisas que costumam ser misturadas: o efeito estrutural de uma queda na emissão e o comportamento de curto prazo de traders correndo atrás de narrativa.
 
 Alguns pontos que sustentam a conversa:
 

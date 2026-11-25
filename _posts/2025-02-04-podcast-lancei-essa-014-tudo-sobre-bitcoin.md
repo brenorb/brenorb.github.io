@@ -11,8 +11,9 @@ tags: [bitcoin, podcast]
 comments: false
 share: true
 content_type: media
-excerpt: "Reedição em podcast do bate-papo com Breno Brito sobre Bitcoin, técnica, filosofia e implicações socioeconômicas."
+excerpt: "Reedição em podcast do meu bate-papo sobre Bitcoin, técnica, filosofia e implicações socioeconômicas."
 feature: /assets/generated/podcast-lancei-essa-014-tudo-sobre-bitcoin.jpg
+youtube_id: akM5nD10uCY
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/akM5nD10uCY" title="Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>

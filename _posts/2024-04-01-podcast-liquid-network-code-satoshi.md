@@ -13,6 +13,7 @@ share: true
 content_type: media
 excerpt: "Conversa no canal Liquid Network sobre LLMs para desenvolvimento em Bitcoin e uma demonstração do Code Satoshi."
 feature: /assets/generated/podcast-liquid-network-code-satoshi.jpg
+youtube_id: 8s-GyRcZ6s0
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/8s-GyRcZ6s0" title="Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of Satoshi" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -32,4 +33,3 @@ Na parte que eu apresento, o ponto mais importante não é "olha que demo legal"
 Outra parte boa da conversa é a discussão sobre alinhamento e treinamento. O Jeff descreve o uso do `proof of knowledge`, um fluxo em que bitcoiners ajudam a curar e anotar dados recebendo micropagamentos em Lightning. Depois a conversa entra em `fine-tuning`, `continued pre-training`, repositórios próprios como a `Nakamoto Repository` e o problema nada trivial de tentar reduzir o viés fiduciário de modelos de base treinados na internet inteira.
 
 No final eu entro num ponto que continua atual: modelos não "esquecem" de forma limpa só porque você quer, e mexer neles quase sempre é mais experimental do que o marketing de IA faz parecer. Essa parte deixa a página mais útil do que um simples embed porque documenta não só o produto mostrado, mas o tipo de raciocínio técnico e epistemológico por trás dele.
-

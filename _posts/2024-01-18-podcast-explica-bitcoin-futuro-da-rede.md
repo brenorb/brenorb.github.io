@@ -6,7 +6,8 @@ redirect_from:
 title:  "Podcast - O Futuro da Rede Bitcoin - Sessão Temática 40 - Explica Bitcoin"
 date:   2024-01-18
 description: "Conversa no Explica Bitcoin sobre por que a camada base do Bitcoin não escala sozinha e quais tecnologias podem ampliar a rede, de Lightning e channel factories a Fedimint, ARC, BitVM, Nostr e Holepunch."
-excerpt: "Conversa sobre um artigo, baseado em um capítulo do seu novo livro, que explica quais são as novidades tecnológicas que vem sendo desenvolvidas para o bitcoin."
+excerpt: "Conversa sobre um artigo, baseado em um capítulo do meu livro, que explica quais são as novidades tecnológicas que vem sendo desenvolvidas para o bitcoin."
+category: podcast
 content_type: media
 tags:
 - bitcoin
@@ -17,6 +18,7 @@ tags:
 - podcast
 comments: false
 feature: /assets/generated/podcast-explica-bitcoin-futuro-da-rede.jpg
+youtube_id: rSJvdmHwyHg
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/rSJvdmHwyHg" title="Podcast - O Futuro da Rede Bitcoin - Sessão Temática 40 - Explica Bitcoin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -25,9 +27,9 @@ Links: [YouTube](https://www.youtube.com/watch?v=rSJvdmHwyHg) | [Apple Podcasts]
 
 Esta conversa parte do texto [Quais as novas tecnologias que devem surgir nos próximos anos no Bitcoin]({% post_url 2023-12-26-novas-tecnologias-bitcoin %}), que adaptei de um capítulo do livro que eu estava preparando na época. A ideia aqui não é vender uma tecnologia específica como "a" solução final, mas mostrar por que o Bitcoin resolve o problema do dinheiro na internet justamente ao aceitar limites na camada base e deslocar escala, programabilidade e conveniência para camadas superiores.
 
-O trecho mais útil do episódio é a moldura geral: a primeira camada do Bitcoin é lenta e cara de propósito, porque descentralização forte exige consenso global e blocos limitados. A partir daí, a conversa percorre as famílias de solução que tentam aliviar esse custo sem abrir mão do ativo de base. A explicação da Lightning como uma "comanda de bar" funciona bem como porta de entrada, e depois o episódio amplia o zoom para ferramentas menos conhecidas.
-
 {% include generated/podcast-explica-bitcoin-futuro-da-rede-chapters.html %}
+
+O trecho mais útil do episódio é a moldura geral: a primeira camada do Bitcoin é lenta e cara de propósito, porque descentralização forte exige consenso global e blocos limitados. A partir daí, a conversa percorre as famílias de solução que tentam aliviar esse custo sem abrir mão do ativo de base. A explicação da Lightning como uma "comanda de bar" funciona bem como porta de entrada, e depois o episódio amplia o zoom para ferramentas menos conhecidas.
 
 Ao longo do episódio eu passo por alguns grupos de ideia:
 

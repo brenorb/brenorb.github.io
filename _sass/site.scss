@@ -468,6 +468,12 @@ header .entry-meta {
 	background: rgba($white, 0.88);
 }
 
+.spotify-player iframe {
+	width: 100%;
+	max-width: 100%;
+	border: 0;
+}
+
 .media-chapters__title {
 	margin: 0 0 0.8rem;
 	@include font-rem(16);

@@ -6,7 +6,7 @@ redirect_from:
 title:  "Podcast - Explica Bitcoin - IA: O Fim da História Humana ou um Novo Começo?"
 date:   2026-01-06 12:00:00 -0300
 last_modified_at: 2026-08-09
-description: "Conversa no Explica Bitcoin sobre a trajetória de Breno Brito em IA desde 2010, o choque do ChatGPT, impactos no trabalho, reward hacking, educação assistida por IA e por que Bitcoin continua relevante numa economia mais automatizada."
+description: "Conversa no Explica Bitcoin sobre minha trajetória em IA desde 2010, o choque do ChatGPT, impactos no trabalho, reward hacking, educação assistida por IA e por que Bitcoin continua relevante numa economia mais automatizada."
 category: podcast
 tags: [ai, bitcoin, podcast]
 comments: false

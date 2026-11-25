@@ -8,7 +8,7 @@ echo "Checking feature image sizes"
 ruby scripts/check_feature_images.rb
 
 echo "Testing media validation regressions"
-node --test scripts/check_media_sources.test.js
+node --test scripts/check_media_sources.test.js scripts/media_chapters.test.js
 
 echo "Verifying podcast format and media coverage"
 node scripts/check_media_sources.js

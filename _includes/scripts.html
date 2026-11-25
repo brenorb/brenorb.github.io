@@ -4,6 +4,9 @@
     <script src="{{ '/assets/js/jquery.magnific-popup.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/jquery.fitvid.min.js' | relative_url }}"></script>
     <script src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
+    {% if page.spotify_id %}
+    <script src="https://open.spotify.com/embed/iframe-api/v1" async></script>
+    {% endif %}
 
     {% if page.mermaid %}
     <script type="module">

@@ -6,7 +6,8 @@ redirect_from:
 title:  "Podcast - 21 Milhões - #9 - Breno Brito"
 date:   2021-11-18
 excerpt: "Primeiros contatos com o Bitcoin, o caminho até o maximalismo, r/wallstreetbets, economia não ergódica."
-description: "Conversa no 21 Milhões sobre a trajetória de Breno Brito no Bitcoin, a natureza do dinheiro, os limites do fiat e por que o Bitcoin importa além da tese puramente financeira."
+description: "Conversa no 21 Milhões sobre minha trajetória no Bitcoin, a natureza do dinheiro, os limites do fiat e por que o Bitcoin importa além da tese puramente financeira."
+category: podcast
 content_type: media
 tags:
 - bitcoin
@@ -15,15 +16,18 @@ tags:
 - podcast
 comments: false
 feature: /assets/generated/podcast-21m-9-breno-brito.jpg
+youtube_id: s2BQr1xDpc0
 ---
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/s2BQr1xDpc0" title="Podcast - 21 Milhões - #9 - Breno Brito" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 Links: [YouTube](https://www.youtube.com/watch?v=s2BQr1xDpc0) | [Apple Podcasts](https://podcasts.apple.com/br/podcast/9-breno-brito/id1573254855?i=1000532374977)
 
-Neste episódio do `21 Milhões`, Breno Brito conversa sobre os primeiros contatos com o `Bitcoin`, o que o levou a levar o tema a sério e como a discussão sobre dinheiro, inflação e coordenação social moldou sua visão ao longo do tempo.
+Neste episódio do `21 Milhões`, converso sobre meus primeiros contatos com o `Bitcoin`, o que me levou a levar o tema a sério e como a discussão sobre dinheiro, inflação e coordenação social moldou minha visão ao longo do tempo.
 
-Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como mera `ilusão coletiva` é pouco preciso. Breno argumenta que o dinheiro é uma construção social, mas também algo testado no `livre mercado`, com propriedades concretas e selecionadas historicamente.
+{% include generated/podcast-21m-9-breno-brito-chapters.html %}
+
+Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como mera `ilusão coletiva` é pouco preciso. Argumento que o dinheiro é uma construção social, mas também algo testado no `livre mercado`, com propriedades concretas e selecionadas historicamente.
 
 ### Pontos centrais
 
@@ -37,5 +41,3 @@ Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como m
 
 - `O Pequeno Livro do Bitcoin`, especialmente pela forma como conecta Bitcoin a direitos humanos, propriedade e contextos de inflação alta
 - `Inventing Bitcoin`, de `Yan Pritzker`, como porta de entrada técnica para quem quer entender o protocolo sem se perder em matemática pesada
-
-{% include generated/podcast-21m-9-breno-brito-chapters.html %}

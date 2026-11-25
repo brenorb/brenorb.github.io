@@ -21,7 +21,7 @@ feature: /assets/o-pequeno-livro-bitcoin.jpg
 
 **O Pequeno Livro do Bitcoin** é a edição em português de *The Little Bitcoin Book*, uma introdução curta e acessível ao motivo pelo qual Bitcoin importa para liberdade, finanças e futuro.
 
-Na edição brasileira, Breno Brito aparece creditado como **tradutor**. O livro reúne textos de **Timi Ajiboye**, **Lily Liu** e **Luis Buenaventura**, com foco em explicar Bitcoin de forma direta para novos leitores.
+Traduzi a edição brasileira. O livro reúne textos de **Timi Ajiboye**, **Lily Liu** e **Luis Buenaventura**, com foco em explicar Bitcoin de forma direta para novos leitores.
 
 ## Links
 [Ver na Amazon](https://amzn.to/3NMybNF){: .btn .btn-info}

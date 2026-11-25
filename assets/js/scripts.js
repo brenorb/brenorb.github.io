@@ -35,7 +35,7 @@ function isYouTubeEmbed(src) {
 
 function findMediaForChapterSection(section) {
   var mediaNodes = Array.prototype.slice.call(
-    document.querySelectorAll(".content iframe, .content video")
+    document.querySelectorAll(".content iframe, .content video, .content audio")
   );
   var matchingMedia = null;
 
@@ -74,7 +74,47 @@ function seekEmbeddedYouTube(iframe, seconds) {
   return true;
 }
 
-function seekEmbeddedVideo(video, seconds) {
+function seekEmbeddedSpotify(iframe, seconds) {
+  var container = iframe.closest("[data-spotify-episode]");
+  if (!container) {
+    return false;
+  }
+  if (!container.spotifyReady) {
+    container.spotifyPendingSeek = seconds;
+    return true;
+  }
+  container.spotifyController.seek(seconds);
+  container.spotifyController.play();
+  return true;
+}
+
+function wireSpotifyPlayers() {
+  var players = document.querySelectorAll(".content [data-spotify-episode]");
+  if (!players.length) {
+    return;
+  }
+  window.onSpotifyIframeApiReady = function(IFrameAPI) {
+    Array.prototype.forEach.call(players, function(container) {
+      IFrameAPI.createController(container.querySelector("[data-spotify-embed]"), {
+        uri: "spotify:episode:" + container.getAttribute("data-spotify-episode"),
+        width: container.clientWidth || 560,
+        height: 152
+      }, function(controller) {
+        container.spotifyController = controller;
+        controller.addListener("ready", function() {
+          container.spotifyReady = true;
+          if (Number.isFinite(container.spotifyPendingSeek)) {
+            controller.seek(container.spotifyPendingSeek);
+            controller.play();
+            delete container.spotifyPendingSeek;
+          }
+        });
+      });
+    });
+  };
+}
+
+function seekEmbeddedMedia(video, seconds) {
   if (!video) {
     return false;
   }
@@ -106,12 +146,12 @@ function seekEmbeddedVideo(video, seconds) {
 }
 
 function ensureMediaPlayerAnchor() {
-  var firstMedia = document.querySelector(".content iframe, .content video");
+  var firstMedia = document.querySelector(".content iframe, .content video, .content audio");
   if (!firstMedia) {
     return;
   }
 
-  var mediaAnchor = firstMedia.closest(".fluid-width-video-wrapper") || firstMedia;
+  var mediaAnchor = firstMedia.closest("[data-spotify-episode]") || firstMedia.closest(".fluid-width-video-wrapper") || firstMedia;
   if (!mediaAnchor.id) {
     mediaAnchor.id = "media-player";
   }
@@ -150,10 +190,12 @@ function wireMediaChapterSeeking() {
     }
 
     var handled = false;
-    if (media.tagName === "VIDEO") {
-      handled = seekEmbeddedVideo(media, seconds);
+    if (media.tagName === "VIDEO" || media.tagName === "AUDIO") {
+      handled = seekEmbeddedMedia(media, seconds);
     } else if (media.tagName === "IFRAME" && isYouTubeEmbed(media.getAttribute("src") || "")) {
       handled = seekEmbeddedYouTube(media, seconds);
+    } else if (media.tagName === "IFRAME" && /open\.spotify\.com\/embed\/episode\//i.test(media.getAttribute("src") || "")) {
+      handled = seekEmbeddedSpotify(media, seconds);
     }
 
     if (!handled) {
@@ -177,6 +219,7 @@ $(function() {
 
 ensureMediaPlayerAnchor();
 wireMediaChapterSeeking();
+wireSpotifyPlayers();
 
 // All others
 $(document).ready(function() {
@@ -213,7 +256,7 @@ window.addEventListener("load", function() {
   ensureMediaPlayerAnchor();
 
   var transcriptAnchor = document.querySelector("[data-transcript-anchor]");
-  var firstMedia = document.querySelector(".content iframe, .content video");
+  var firstMedia = document.querySelector(".content iframe, .content video, .content audio");
   if (!transcriptAnchor || !firstMedia || document.querySelector(".transcript-jump")) {
     return;
   }
@@ -223,7 +266,7 @@ window.addEventListener("load", function() {
     return;
   }
 
-  var mediaAnchor = firstMedia.closest(".fluid-width-video-wrapper") || firstMedia;
+  var mediaAnchor = firstMedia.closest("[data-spotify-episode]") || firstMedia.closest(".fluid-width-video-wrapper") || firstMedia;
   var note = document.createElement("p");
   note.className = "transcript-jump";
   note.innerHTML = '<a href="#transcricao">Transcription (experimental) below.</a>';

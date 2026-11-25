@@ -118,13 +118,14 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "VideoObject",
+      "@type": {% if page.media_type == "audio" %}"AudioObject"{% else %}"VideoObject"{% endif %},
       "name": {{ page.title | jsonify }},
       "description": {{ page_description | markdownify | strip_html | strip_newlines | jsonify }},
       "thumbnailUrl": [{{ schema_image | jsonify }}],
       "uploadDate": {{ page.date | date_to_xmlschema | jsonify }}{% if page.media_content_url %},
       "contentUrl": {{ page.media_content_url | jsonify }}{% endif %}{% if page.youtube_id %},
-      "embedUrl": {{ "https://www.youtube.com/embed/" | append: page.youtube_id | jsonify }}{% endif %}
+      "embedUrl": {{ "https://www.youtube.com/embed/" | append: page.youtube_id | jsonify }}{% elsif page.media_embed_url %},
+      "embedUrl": {{ page.media_embed_url | jsonify }}{% endif %}
     }
     </script>
     {% endif %}

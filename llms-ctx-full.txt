@@ -63,9 +63,9 @@ Sobre IA, comece por [Alinhamento de LLMs: o que é e principais técnicas](/med
 URL: https://brenorb.com/projects/
 Source: projects/index.md
 Content type: project
-Summary: Projetos de Breno Brito em inteligência artificial, Bitcoin e software aberto: modelos de linguagem, ferramentas para agentes, privacidade e pesquisa.
+Summary: Meus projetos em inteligência artificial, Bitcoin e software aberto: modelos de linguagem, ferramentas para agentes, privacidade e pesquisa.
 
-Breno Brito desenvolve projetos de **inteligência artificial, Bitcoin e software aberto**. Esta página reúne ferramentas, pesquisa e contribuições editoriais, com uma página própria para explicar cada projeto e apontar suas fontes.
+Desenvolvo projetos de **inteligência artificial, Bitcoin e software aberto**. Esta página reúne ferramentas, pesquisa e contribuições editoriais, com uma página própria para explicar cada projeto e apontar suas fontes.
 
 Para conhecer a interseção entre IA e Bitcoin, comece pelo [Satoshi 7B](/projects/satoshi-7b/), pelo assistente de Miniscript [Minimaxis](/projects/minimaxis/) e pelas [Freedom Skills](/projects/freedom-skills/). A [lista portuguesa do BIP39](/projects/bip39-portuguese-wordlist/) documenta a contribuição para palavras de recuperação de carteiras.
 
@@ -78,7 +78,7 @@ Source: _posts/2026-11-24-podcast-tapa-da-mao-invisivel-431.md
 Date: 2026-11-24T19:00:00-03:00
 Content type: media
 Tags: ai, bitcoin, podcast
-Summary: Conversa de Breno Brito no Tapa da Mão Invisível sobre IA, trabalho e escassez, Bitcoin e o futuro do capitalismo.
+Summary: Conversa no Tapa da Mão Invisível sobre IA, trabalho e escassez, Bitcoin e o futuro do capitalismo.
 
 Embedded media: https://www.youtube.com/embed/leLfT93RSSA
 
@@ -658,7 +658,7 @@ Source: _posts/2026-01-06-podcast-explica-bitcoin-ia-fim-da-historia-humana.md
 Date: 2026-01-06T12:00:00-03:00
 Content type: media
 Tags: ai, bitcoin, podcast
-Summary: Conversa no Explica Bitcoin sobre a trajetória de Breno Brito em IA desde 2010, o choque do ChatGPT, impactos no trabalho, reward hacking, educação assistida por IA e por que Bitcoin continua relevante numa economia mais automatizada.
+Summary: Conversa no Explica Bitcoin sobre minha trajetória em IA desde 2010, o choque do ChatGPT, impactos no trabalho, reward hacking, educação assistida por IA e por que Bitcoin continua relevante numa economia mais automatizada.
 
 Embedded media: https://www.youtube.com/embed/sqle4sHCdEQ
 
@@ -728,7 +728,7 @@ Source: _posts/2025-05-30-podcast-criptoverso-54-breno-brito.md
 Date: 2025-05-30T12:00:00-03:00
 Content type: media
 Tags: bitcoin, podcast
-Summary: Conversa no Criptoverso sobre a trajetória de Breno Brito, a ponte entre Bitcoin e inteligência artificial, a origem do livro 101 Perguntas sobre Bitcoin e por que o tema exige mais estudo do que hype.
+Summary: Conversa no Criptoverso sobre minha trajetória, a ponte entre Bitcoin e inteligência artificial, a origem do livro 101 Perguntas sobre Bitcoin e por que o tema exige mais estudo do que hype.
 
 Embedded media: https://www.youtube.com/embed/Vxt0Egc77o8
 
@@ -738,7 +738,7 @@ Este episódio do `Criptoverso` é menos uma entrevista temática fechada e mais
 
 O episódio também é interessante porque não tenta separar artificialmente os assuntos. Em vez de tratar `IA`, `Bitcoin`, tradução, livro e carreira como gavetas isoladas, ele mostra como essas trilhas se cruzaram ao longo do tempo. A conversa passa pela descoberta de Bitcoin, pelo contato com escola austríaca, pela passagem do mercado financeiro para problemas computacionais, e pela ideia de que um bom material introdutório sobre Bitcoin precisava resolver uma lacuna que eu mesmo senti quando comecei a estudar.
 
-Tem ainda um tema recorrente aqui que vale registrar: o problema do hype. O episódio toca em promessas exageradas, medo de novidade e gente que reage a Bitcoin mais pela frustração de ter ignorado o ativo cedo do que por uma crítica sólida. Isso faz a página ser mais útil do que um simples “entrevista com Breno Brito”, porque ela documenta a formação intelectual e as perguntas que levaram aos projetos mais recentes.
+Tem ainda um tema recorrente aqui que vale registrar: o problema do hype. O episódio toca em promessas exageradas, medo de novidade e gente que reage a Bitcoin mais pela frustração de ter ignorado o ativo cedo do que por uma crítica sólida. Isso faz a página ser mais útil do que um simples registro de entrevista, porque ela documenta a formação intelectual e as perguntas que levaram aos projetos mais recentes.
 
 ### O Manifesto Descomunista
 
@@ -845,7 +845,7 @@ Source: _posts/2025-01-06-podcast-bettermoney-101-perguntas-sobre-bitcoin.md
 Date: 2025-01-06T12:00:00-03:00
 Content type: media
 Tags: bitcoin, book, podcast
-Summary: Conversa no BetterMoney sobre a trajetória de Breno Brito no Bitcoin, os erros do primeiro ciclo, o caminho até o maximalismo e as ideias por trás de 101 Perguntas sobre Bitcoin.
+Summary: Conversa no BetterMoney sobre minha trajetória no Bitcoin, os erros do primeiro ciclo, o caminho até o maximalismo e as ideias por trás de 101 Perguntas sobre Bitcoin.
 
 Embedded media: https://www.youtube.com/embed/CBq94KL66lU
 
@@ -887,7 +887,7 @@ Source: _posts/2024-11-22-podcast-bipa-cast-38-satsconf.md
 Date: 2024-11-22T12:00:00-03:00
 Content type: media
 Tags: bitcoin, satsconf, podcast
-Summary: Conversa com Diego Kolling, Caio Leta e Breno Brito sobre a participação da Bipa na SatsConf, o hackathon, projetos como Floresta, Script Lab e Granola, e o que a conferência revelou sobre adoção, mineração e produto.
+Summary: Conversa com Diego Kolling e Caio Leta sobre a participação da Bipa na SatsConf, o hackathon, projetos como Floresta, Script Lab e Granola, e o que a conferência revelou sobre adoção, mineração e produto.
 
 Embedded media: https://www.youtube.com/embed/20sPMNVQTug
 
@@ -1036,7 +1036,7 @@ Source: _posts/2024-08-08-podcast-bipa-cast-22-101-perguntas-sobre-bitcoin.md
 Date: 2024-08-08T12:00:00-03:00
 Content type: media
 Tags: bitcoin, book, podcast
-Summary: Conversa na Bipa sobre o livro 101 Perguntas sobre Bitcoin, por que ele foi estruturado em perguntas curtas e quais ideias Breno Brito queria tornar mais acessíveis sem cair no 'mais do mesmo'.
+Summary: Conversa na Bipa sobre o livro 101 Perguntas sobre Bitcoin, por que ele foi estruturado em perguntas curtas e quais ideias eu queria tornar mais acessíveis sem cair no 'mais do mesmo'.
 
 Embedded media: https://www.youtube.com/embed/J_aFuT9NrIQ
 
@@ -1191,79 +1191,92 @@ Content type: media
 Tags: bitcoin, ai, quantitative finance, data science, ergodicity, podcast
 Summary: Conversa no BlockTrends sobre Bitcoin, IA, mercado eficiente, quant trading e o que modelos realmente conseguem explicar sobre preço.
 
-Embedded media: https://www.youtube.com/embed/VddyevajQ68?si=l0o3YyOHUtrfML1E
+Embedded media: https://www.youtube.com/embed/VddyevajQ68
 
-🌐Conheça a plataforma do BlockTrends! Saiba tudo o que você precisa para começar a investir e aprender sobre criptomoedas em um único lugar. Seja PRO com 15% OFF: 
-https://checkout.blocktrends.com.br/c...
-
-🔎 BlockTrends Research:
-https://www.blocktrends.app/collectio...
-
-💭Entre em nosso grupo de discussões Cripto e Bitcoin no WhatsApp:
-https://chat.whatsapp.com/EgCopXYPTjM...
-
-Cursos:
-🪙 Bitcoin para Iniciantes - https://www.blocktrends.app/courses/b...
-🔐 Guia de Auto-custódia para Bitcoin - https://www.blocktrends.app/courses/g...
-📃 Ethereum para Iniciantes - https://www.blocktrends.app/courses/e...
-💻 Trilha Programador Blockchain - https://www.blocktrends.app/bundles/p...
-
-📸Instagram: 
-
- / blocktrendsbr 
-🐦Twitter: 
-
- / blocktrendsbr 
-
-Convidado:
-🐦Twitter: 
-
- / brenorb 
-
-💸Ganhe US$100 de Bônus em Cripto na ByBit: https://partner.bybit.com/b/btcta3
-
-Entender o preço do Bitcoin e como o mercado funciona é uma tarefa difícil para quem observa apenas os gráficos de preço. Entretanto, ao observarmos através da ótica matemática, começamos a entender uma série de ineficiências neste mercado. Hoje conversaremos com o Breno Brito para entender como utilizar inteligência artificial para compreender o Bitcoin.
+Neste episódio do BlockTrends, conversamos sobre Bitcoin, inteligência artificial e mercados eficientes. Apresento meu trabalho no Spirit of Satoshi e discutimos como modelos especializados e ferramentas de análise quantitativa podem ajudar a estudar o ecossistema Bitcoin.
 
  
 
-Recomendações:
-🏦 Como abrir uma conta e NEGOCIAR CRIPTOMOEDAS (ByBit): 
+A conversa passa pelo que aprendizado de máquina consegue fazer, onde os modelos falham e como quant trading se diferencia de outras formas de análise. Discutimos análise técnica, análise fundamentalista, hipóteses de valuation do Bitcoin e os limites de modelos como stock-to-flow e power law.
 
- • Como abrir uma conta e NEGOCIAR CRIPT... 
-💰 Aprenda a se APOSENTAR MAIS CEDO! (utilizando Bitcoin) - 
+Também falamos sobre a hipótese de mercado eficiente, as diferenças de escala entre investidores e fundos, análise on-chain e educação sobre Bitcoin. Retomo a proposta do meu livro 101 Perguntas sobre Bitcoin: oferecer uma base para quem quer compreender o protocolo e suas implicações antes de tomar decisões.
 
- • Aprenda a se APOSENTAR MAIS CEDO! (ut... 
-💸 Como funciona a ECONOMIA no BITCOIN? E por que ela é única. - 
+ 
+ Descrição do vídeo no YouTube 
 
- • Como funciona a ECONOMIA no BITCOIN? ... 
-📖 A História do Bitcoin - Block Insider Podcast #01 - 
+Texto original publicado pelo canal na [descrição do vídeo](https://www.youtube.com/watch?v=VddyevajQ68):
 
- • A História do Bitcoin - Block Insider... 
-
-Altcoins:
-🤑 Lucrando em CRIPTO com ALTCOINS - Block Insider #23 - 
-
- • Como lucrar com CRIPTO investindo em ... 
-👀 Teses em Cripto para 2024 - https://youtube.com/live/r3SiWG_ClR4
-💡 Entenda as RUNES no Bitcoin - https://youtube.com/live/Ai3olypyHn0
-
-Utilidade:
-📊 Como fazer ANÁLISE On-Chain GRATUITAMENTE - 
-
- • 5 Plataformas GRATUITAS de ANÁLISE ON... 
-🕜 Quando TRANSACIONAR Bitcoin - 
-
- • Como saber a MELHOR HORA de transacio... 
-⛏️ Guia de MINERAÇÃO de Bitcoin - 
-
- • MINERAÇÃO DE BITCOIN: O Guia Definiti... 
-💵 Como ter RENDA PASSIVA em Cripto - 
-
- • Tutorial de RENDA PASSIVA com CRIPTOM... 
-
-O BlockTrends é uma EdTech brasileira focada em Web3 e na indústria da blockchain que tem como missão educar, informar e instruir investidores de ativos digitais sobre as oportunidades, riscos e inovações no setor. Nosso objetivo é reduzir o gap educacional entre entusiastas de criptomoedas e ampliar o entendimento básico sobre essa classe de ativos.
-
-#Bitcoin #IA #Preço #InteligenciaArtificial #SpiritOfSatoshi #ETFs #Ciclo #Criptomoedas #Bitcoin #Crypto #Blockchain #Cripto #2024 #BullMarket #BearMarket #ETF #Criptoativos #hashrate #mining # BTC #Mineração #Bloco
+> 🌐Conheça a plataforma do BlockTrends! Saiba tudo o que você precisa para começar a investir e aprender sobre criptomoedas em um único lugar. Seja PRO com 15% OFF:
+> https://checkout.blocktrends.com.br/c...
+>
+> 🔎 BlockTrends Research:
+> https://www.blocktrends.app/collectio...
+>
+> 💭Entre em nosso grupo de discussões Cripto e Bitcoin no WhatsApp:
+> https://chat.whatsapp.com/EgCopXYPTjM...
+>
+> Cursos:
+> 🪙 Bitcoin para Iniciantes - https://www.blocktrends.app/courses/b...
+> 🔐 Guia de Auto-custódia para Bitcoin - https://www.blocktrends.app/courses/g...
+> 📃 Ethereum para Iniciantes - https://www.blocktrends.app/courses/e...
+> 💻 Trilha Programador Blockchain - https://www.blocktrends.app/bundles/p...
+>
+> 📸Instagram:
+>
+> / blocktrendsbr
+> 🐦Twitter:
+>
+> / blocktrendsbr
+>
+> Convidado:
+> 🐦Twitter:
+>
+> / brenorb
+>
+> 💸Ganhe US$100 de Bônus em Cripto na ByBit: https://partner.bybit.com/b/btcta3
+>
+> Entender o preço do Bitcoin e como o mercado funciona é uma tarefa difícil para quem observa apenas os gráficos de preço. Entretanto, ao observarmos através da ótica matemática, começamos a entender uma série de ineficiências neste mercado. Hoje conversaremos com o Breno Brito para entender como utilizar inteligência artificial para compreender o Bitcoin.
+>
+>
+>
+> Recomendações:
+> 🏦 Como abrir uma conta e NEGOCIAR CRIPTOMOEDAS (ByBit):
+>
+> • Como abrir uma conta e NEGOCIAR CRIPT...
+> 💰 Aprenda a se APOSENTAR MAIS CEDO! (utilizando Bitcoin) -
+>
+> • Aprenda a se APOSENTAR MAIS CEDO! (ut...
+> 💸 Como funciona a ECONOMIA no BITCOIN? E por que ela é única. -
+>
+> • Como funciona a ECONOMIA no BITCOIN? ...
+> 📖 A História do Bitcoin - Block Insider Podcast #01 -
+>
+> • A História do Bitcoin - Block Insider...
+>
+> Altcoins:
+> 🤑 Lucrando em CRIPTO com ALTCOINS - Block Insider #23 -
+>
+> • Como lucrar com CRIPTO investindo em ...
+> 👀 Teses em Cripto para 2024 - https://youtube.com/live/r3SiWG_ClR4
+> 💡 Entenda as RUNES no Bitcoin - https://youtube.com/live/Ai3olypyHn0
+>
+> Utilidade:
+> 📊 Como fazer ANÁLISE On-Chain GRATUITAMENTE -
+>
+> • 5 Plataformas GRATUITAS de ANÁLISE ON...
+> 🕜 Quando TRANSACIONAR Bitcoin -
+>
+> • Como saber a MELHOR HORA de transacio...
+> ⛏️ Guia de MINERAÇÃO de Bitcoin -
+>
+> • MINERAÇÃO DE BITCOIN: O Guia Definiti...
+> 💵 Como ter RENDA PASSIVA em Cripto -
+>
+> • Tutorial de RENDA PASSIVA com CRIPTOM...
+>
+> O BlockTrends é uma EdTech brasileira focada em Web3 e na indústria da blockchain que tem como missão educar, informar e instruir investidores de ativos digitais sobre as oportunidades, riscos e inovações no setor. Nosso objetivo é reduzir o gap educacional entre entusiastas de criptomoedas e ampliar o entendimento básico sobre essa classe de ativos.
+>
+> #Bitcoin #IA #Preço #InteligenciaArtificial #SpiritOfSatoshi #ETFs #Ciclo #Criptomoedas #Bitcoin #Crypto #Blockchain #Cripto #2024 #BullMarket #BearMarket #ETF #Criptoativos #hashrate #mining # BTC #Mineração #Bloco
 
 ### Inteligência artificial e Web 3.0: entenda a relação
 
@@ -1450,9 +1463,9 @@ Links: [YouTube](https://www.youtube.com/watch?v=ekQtXuTDOIs) | [Spotify](https:
 
 Esta conversa começa com uma pergunta de mercado, mas rapidamente vira uma aula sobre como pensar preço, oferta, assimetria de informação e reflexividade. Em vez de responder "sim" ou "não" de forma telegráfica, eu tento desmontar a própria pergunta: para discutir se o halving está precificado, primeiro é preciso definir o que é o halving, o que é uma precificação e o que as pessoas querem dizer quando falam que o mercado já "absorveu" um evento.
 
-O trecho central do episódio é a ponte entre Bitcoin e finanças tradicionais. A explicação passa por valuation, pelo ditado "compra o rumor e vende a notícia" e pela hipótese de mercado eficiente de Eugene Fama. Isso ajuda a separar duas coisas que costumam ser misturadas: o efeito estrutural de uma queda na emissão e o comportamento de curto prazo de traders correndo atrás de narrativa.
-
  
+
+O trecho central do episódio é a ponte entre Bitcoin e finanças tradicionais. A explicação passa por valuation, pelo ditado "compra o rumor e vende a notícia" e pela hipótese de mercado eficiente de Eugene Fama. Isso ajuda a separar duas coisas que costumam ser misturadas: o efeito estrutural de uma queda na emissão e o comportamento de curto prazo de traders correndo atrás de narrativa.
 
 Alguns pontos que sustentam a conversa:
 
@@ -1585,21 +1598,34 @@ Summary: Conversa sobre finanças quantitativas, análise de dados e machine lea
 
 Embedded media: https://www.youtube.com/embed/4Ap0jAPX00o
 
-[₿] O universo profissional do mercado de digital assets e blockchain é permeado por muitos “herois de bastidores”. São pessoas que não estão no highspot light, mas que produzem contribuições muito sólidas e consistentes nos bastidores. 
+Neste episódio do Papo Aberto, converso com Victor Cabral sobre finanças quantitativas, análise de dados e machine learning aplicados a Bitcoin e ao mercado de criptoativos. Partimos da minha trajetória no mercado financeiro e no Mercado Bitcoin para discutir como investigar o comportamento do mercado a partir de dados.
 
-🦸 Um destes importantes atores é o Breno Brito. Engenheiro de Formação e com bastante experiência no Mercado Financeiro, ele se envolveu com criptoativos (essencialmente #Bitcoin, mas também um olhar para blockchain como um todo) bastante cedo e teve oportunidade de ver e fazer muito coisa ao longo dos últimos 8 anos. 
+ 
 
-📈 Depois de construir uma startup numa época em que #criptoativos era um tema absolutamente desconhecido, ele nunca mais parou de “mexer com isso”. Escreveu e traduziu artigos, participou de eventos, ajudou fazer diligências e investigações on-chain, atuou em caso de “wash trading”, e até usou análises quantitativas para prever movimentos importantes do mercado. 
+Discutimos wash trading, transparência das informações e a diferença entre análises qualitativas e quantitativas. A conversa também passa por análise fundamentalista, correlações entre ativos, pairs trading e os cuidados necessários para interpretar sinais de mercado.
 
-💹 Sua passagem pelo Mercado Bitcoin (maior exchange de criptoativos do Brasil) também lhe rendeu reconhecimentos profissionais relevantes, sendo um dos “influencers” internos que ajudou a difundir conhecimento qualificado para toda organização. 
+Explico como uso aprendizado de máquina para procurar padrões e anomalias, além dos limites de automatizar decisões financeiras. O fio condutor é transformar dados em perguntas e hipóteses verificáveis, levando em conta as particularidades de cada mercado.
 
-📊 Hoje ele usa análises quantitativas e inteligência artificial para analisar e inferir:
-- Correlações entre ativos e relações engatilhadas;
-- Predição de eventos e movimentos de mercado;
-- Análise de sentimentos e de temperatura de ativos, empresas e temas;
-- Machine Learning aplicado a mercado financeiro;
+ 
+ Descrição do vídeo no YouTube 
 
-🎙️ Nesse papo, Breno e Victor Cabral falaram um pouco de tudo isso e desmistificaram (através de exemplos) a aplicabilidade da análise quantitativa nos dias atuais. Baita papo!
+Texto original publicado pelo canal na [descrição do vídeo](https://www.youtube.com/watch?v=4Ap0jAPX00o):
+
+> [₿] O universo profissional do mercado de digital assets e blockchain é permeado por muitos “herois de bastidores”. São pessoas que não estão no highspot light, mas que produzem contribuições muito sólidas e consistentes nos bastidores.
+>
+> 🦸 Um destes importantes atores é o Breno Brito. Engenheiro de Formação e com bastante experiência no Mercado Financeiro, ele se envolveu com criptoativos (essencialmente #Bitcoin, mas também um olhar para blockchain como um todo) bastante cedo e teve oportunidade de ver e fazer muito coisa ao longo dos últimos 8 anos.
+>
+> 📈 Depois de construir uma startup numa época em que #criptoativos era um tema absolutamente desconhecido, ele nunca mais parou de “mexer com isso”. Escreveu e traduziu artigos, participou de eventos, ajudou fazer diligências e investigações on-chain, atuou em caso de “wash trading”, e até usou análises quantitativas para prever movimentos importantes do mercado.
+>
+> 💹 Sua passagem pelo Mercado Bitcoin (maior exchange de criptoativos do Brasil) também lhe rendeu reconhecimentos profissionais relevantes, sendo um dos “influencers” internos que ajudou a difundir conhecimento qualificado para toda organização.
+>
+> 📊 Hoje ele usa análises quantitativas e inteligência artificial para analisar e inferir:
+> - Correlações entre ativos e relações engatilhadas;
+> - Predição de eventos e movimentos de mercado;
+> - Análise de sentimentos e de temperatura de ativos, empresas e temas;
+> - Machine Learning aplicado a mercado financeiro;
+>
+> 🎙️ Nesse papo, Breno e Victor Cabral falaram um pouco de tudo isso e desmistificaram (através de exemplos) a aplicabilidade da análise quantitativa nos dias atuais. Baita papo!
 
 ### Podcast - O Futuro da Rede Bitcoin - Sessão Temática 40 - Explica Bitcoin
 
@@ -1616,9 +1642,9 @@ Links: [YouTube](https://www.youtube.com/watch?v=rSJvdmHwyHg) | [Apple Podcasts]
 
 Esta conversa parte do texto [Quais as novas tecnologias que devem surgir nos próximos anos no Bitcoin]( ), que adaptei de um capítulo do livro que eu estava preparando na época. A ideia aqui não é vender uma tecnologia específica como "a" solução final, mas mostrar por que o Bitcoin resolve o problema do dinheiro na internet justamente ao aceitar limites na camada base e deslocar escala, programabilidade e conveniência para camadas superiores.
 
-O trecho mais útil do episódio é a moldura geral: a primeira camada do Bitcoin é lenta e cara de propósito, porque descentralização forte exige consenso global e blocos limitados. A partir daí, a conversa percorre as famílias de solução que tentam aliviar esse custo sem abrir mão do ativo de base. A explicação da Lightning como uma "comanda de bar" funciona bem como porta de entrada, e depois o episódio amplia o zoom para ferramentas menos conhecidas.
-
  
+
+O trecho mais útil do episódio é a moldura geral: a primeira camada do Bitcoin é lenta e cara de propósito, porque descentralização forte exige consenso global e blocos limitados. A partir daí, a conversa percorre as famílias de solução que tentam aliviar esse custo sem abrir mão do ativo de base. A explicação da Lightning como uma "comanda de bar" funciona bem como porta de entrada, e depois o episódio amplia o zoom para ferramentas menos conhecidas.
 
 Ao longo do episódio eu passo por alguns grupos de ideia:
 
@@ -1765,18 +1791,18 @@ Summary: Conversa no Explica Bitcoin sobre o Spirit of Satoshi, alinhamento de m
 
 Embedded media: https://www.youtube.com/embed/B_3lKKxbC40
 
-Neste episódio do `Explica Bitcoin`, Breno Brito fala sobre o `Spirit of Satoshi`, a tentativa de construir um modelo de IA realmente especializado em Bitcoin, e também sobre o projeto com `Miniscript` que venceu o hackathon da `SatsConf`.
+Neste episódio do `Explica Bitcoin`, falo sobre o `Spirit of Satoshi`, a tentativa de construir um modelo de IA realmente especializado em Bitcoin, e também sobre o projeto com `Miniscript` que venceu o hackathon da `SatsConf`.
+
+ 
 
 Um dos eixos da conversa é o problema de `alinhamento`: em vez de depender de modelos genéricos, a proposta do Spirit of Satoshi é trabalhar com uma base de referências escolhida com mais cuidado, tanto do ponto de vista técnico quanto ideológico, para reduzir respostas desalinhadas ou simplesmente erradas no contexto de Bitcoin.
 
 ### Pontos centrais
 
 - o episódio discute por que um modelo de IA sobre Bitcoin precisa de curadoria de fontes e de um viés assumido, em vez de fingir neutralidade total
-- Breno descreve o `Spirit of Satoshi` como um modelo especializado, pensado para responder melhor a dúvidas técnicas e conceituais do ecossistema
+- descrevo o `Spirit of Satoshi` como um modelo especializado, pensado para responder melhor a dúvidas técnicas e conceituais do ecossistema
 - a conversa também cobre o projeto vencedor do hackathon: uma interface em linguagem natural para gerar e inspecionar contratos em `Miniscript`
 - a ideia de transformar contratos em `fluxogramas` aparece como forma de tornar verificações de gasto, herança e segurança mais auditáveis para humanos
-
- 
 
 ### Links
 
@@ -2577,11 +2603,13 @@ Source: _posts/2022-09-21-podcast-sessao-de-hopium-ep-20.md
 Date: 2022-09-21
 Content type: media
 Tags: bitcoin, podcast
-Summary: Participação de Breno Brito no Sessão de Hopium para discutir Bitcoin, transição para o ecossistema, Taproot, Lightning, vigilância financeira e a camada cypherpunk do protocolo.
+Summary: Minha participação no Sessão de Hopium para discutir Bitcoin, transição para o ecossistema, Taproot, Lightning, vigilância financeira e a camada cypherpunk do protocolo.
 
 Embedded media: https://www.youtube.com/embed/jiZwzsmd9Go?si=GVZSa7F_EASMuRFZ
 
-Episódio longo do `Sessão de Hopium` com `Breno Brito`, `Koda` e `Lawrence` para discutir a passagem de profissionais de outras áreas para o ecossistema Bitcoin, a fragilidade do sistema financeiro legado e o que há de mais interessante na camada técnica e filosófica do protocolo.
+Neste episódio do `Sessão de Hopium`, converso com `Koda` e `Lawrence` sobre a passagem de profissionais de outras áreas para o ecossistema Bitcoin, a fragilidade do sistema financeiro legado e o que há de mais interessante na camada técnica e filosófica do protocolo.
+
+ 
 
 Ao longo da conversa, o debate mistura temas técnicos e políticos: `Taproot`, `Lightning`, custódia própria, vigilância financeira, `CBDCs`, cypherpunks e o papel do Bitcoin para quem vive em contextos de maior vulnerabilidade institucional.
 
@@ -2593,12 +2621,10 @@ Ao longo da conversa, o debate mistura temas técnicos e políticos: `Taproot`, 
 - a discussão também encosta na ética cypherpunk e na ideia de autonomia trazida pela custódia própria
 - um dos fios condutores do episódio é que Bitcoin resolve problemas mais urgentes para quem está mais exposto a inflação, arbitrariedade estatal e exclusão financeira
 
- 
-
 ### Links citados
 
 - [Refúgio Bitcoin](https://www.refugiobitcoin.com.br/)
-- [Artigos de Breno Brito no Portal do Bitcoin](https://portaldobitcoin.uol.com.br/author/breno/)
+- [Meus artigos no Portal do Bitcoin](https://portaldobitcoin.uol.com.br/author/breno/)
 - [Breaking Bitcoin no Twitter](https://twitter.com/breakingbitcoin)
 
 ### Bitcoin abaixo de US$ 19 mil? Por que seria um padrão de preço que nunca aconteceu antes
@@ -2793,15 +2819,17 @@ Source: _posts/2021-11-18-podcast-21m-9-breno-brito.md
 Date: 2021-11-18
 Content type: media
 Tags: bitcoin, ergodicity, quantitative finance, podcast
-Summary: Conversa no 21 Milhões sobre a trajetória de Breno Brito no Bitcoin, a natureza do dinheiro, os limites do fiat e por que o Bitcoin importa além da tese puramente financeira.
+Summary: Conversa no 21 Milhões sobre minha trajetória no Bitcoin, a natureza do dinheiro, os limites do fiat e por que o Bitcoin importa além da tese puramente financeira.
 
 Embedded media: https://www.youtube.com/embed/s2BQr1xDpc0
 
 Links: [YouTube](https://www.youtube.com/watch?v=s2BQr1xDpc0) | [Apple Podcasts](https://podcasts.apple.com/br/podcast/9-breno-brito/id1573254855?i=1000532374977)
 
-Neste episódio do `21 Milhões`, Breno Brito conversa sobre os primeiros contatos com o `Bitcoin`, o que o levou a levar o tema a sério e como a discussão sobre dinheiro, inflação e coordenação social moldou sua visão ao longo do tempo.
+Neste episódio do `21 Milhões`, converso sobre meus primeiros contatos com o `Bitcoin`, o que me levou a levar o tema a sério e como a discussão sobre dinheiro, inflação e coordenação social moldou minha visão ao longo do tempo.
 
-Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como mera `ilusão coletiva` é pouco preciso. Breno argumenta que o dinheiro é uma construção social, mas também algo testado no `livre mercado`, com propriedades concretas e selecionadas historicamente.
+ 
+
+Uma parte forte da conversa gira em torno da ideia de que tratar dinheiro como mera `ilusão coletiva` é pouco preciso. Argumento que o dinheiro é uma construção social, mas também algo testado no `livre mercado`, com propriedades concretas e selecionadas historicamente.
 
 ### Pontos centrais
 
@@ -2823,17 +2851,20 @@ Source: _posts/2021-10-15-podcast-iflsp-33-minisserie-bitcoin.md
 Date: 2021-10-15
 Content type: media
 Tags: bitcoin, myths, mining, lightning network, podcast
-Summary: Episódio da minissérie Bitcoin do IFLSP com Solange Gueiros e Breno Brito, focado no ‘presente’ da rede e nas novidades tecnológicas que vinham sendo desenvolvidas para o Bitcoin.
+Summary: Episódio da minissérie Bitcoin do IFLSP em que converso com Solange Gueiros, focado no ‘presente’ da rede e nas novidades tecnológicas que vinham sendo desenvolvidas para o Bitcoin.
 
-Embedded media: https://open.spotify.com/embed/episode/4y9clyC3E2m8hrUEvu2zqx?utm_source=generator
+Embedded media: https://open.spotify.com/embed/episode/4y9clyC3E2m8hrUEvu2zqx
+
+ 
+ 
 
 Links: [Spotify](https://open.spotify.com/episode/4y9clyC3E2m8hrUEvu2zqx) | [Apple Podcasts](https://podcasts.apple.com/br/podcast/33-miniss%C3%A9rie-bitcoin-epis%C3%B3dio-2-presente-com-solange/id1516125241?i=1000538718452)
 
-Este episódio faz parte da minissérie `Bitcoin: Passado, Presente e Futuro` do `IFLSP` e corresponde ao bloco do presente, em conversa com `Solange Gueiros`. Pelo próprio texto de divulgação do episódio, a pauta parte de um artigo baseado em um capítulo do meu então novo livro e gira em torno das novidades tecnológicas que estavam sendo construídas para o Bitcoin naquele momento.
-
-Mesmo sem inventar detalhes que não estão públicos nas show notes, dá para registrar bem o papel desta participação: ela funciona como uma conversa de panorama sobre o estado técnico da rede, cobrindo temas como operação da infraestrutura descentralizada, resiliência do protocolo, `Lightning Network`, mineração, contexto regulatório e a diferença entre observar o Bitcoin apenas como preço e entendê-lo como sistema monetário em evolução.
+Neste episódio da minissérie `Bitcoin: Passado, Presente e Futuro` do `IFLSP`, converso com `Solange Gueiros` sobre o estado da rede em 2021. Discutimos adoção, privacidade, mudanças no protocolo e as tecnologias que estavam sendo desenvolvidas para o Bitcoin naquele momento.
 
  
+
+Na conversa, faço um panorama do estado técnico da rede e discuto temas como operação da infraestrutura descentralizada, resiliência do protocolo, `Lightning Network`, mineração, contexto regulatório e a diferença entre observar o Bitcoin apenas como preço e entendê-lo como sistema monetário em evolução.
 
 É um episódio útil especialmente como peça de contexto histórico. Ele captura um momento em que a discussão pública sobre Bitcoin estava tentando sair da caricatura do “ativo especulativo” para falar mais seriamente de arquitetura, uptime da rede, camadas de escalabilidade e implicações geopolíticas.
 
@@ -3036,7 +3067,7 @@ Summary: O Pequeno Livro do Bitcoin is the Portuguese edition of The Little Bitc
 
 **O Pequeno Livro do Bitcoin** é a edição em português de *The Little Bitcoin Book*, uma introdução curta e acessível ao motivo pelo qual Bitcoin importa para liberdade, finanças e futuro.
 
-Na edição brasileira, Breno Brito aparece creditado como **tradutor**. O livro reúne textos de **Timi Ajiboye**, **Lily Liu** e **Luis Buenaventura**, com foco em explicar Bitcoin de forma direta para novos leitores.
+Traduzi a edição brasileira. O livro reúne textos de **Timi Ajiboye**, **Lily Liu** e **Luis Buenaventura**, com foco em explicar Bitcoin de forma direta para novos leitores.
 
 ## Links
 [Ver na Amazon](https://amzn.to/3NMybNF)

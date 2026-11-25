@@ -6,8 +6,9 @@ redirect_from:
 title:  "Podcast - Sessão de Hopium Ep. 20"
 date:   2022-09-21
 last_modified_at: 2026-08-09
-excerpt: "Participação no Sessão de Hopium Ep. 20 com Breno Brito, Koda e Lawrence para discutir Bitcoin."
-description: "Participação de Breno Brito no Sessão de Hopium para discutir Bitcoin, transição para o ecossistema, Taproot, Lightning, vigilância financeira e a camada cypherpunk do protocolo."
+excerpt: "Conversa no Sessão de Hopium Ep. 20 com Koda e Lawrence para discutir Bitcoin."
+description: "Minha participação no Sessão de Hopium para discutir Bitcoin, transição para o ecossistema, Taproot, Lightning, vigilância financeira e a camada cypherpunk do protocolo."
+category: podcast
 content_type: media
 show_transcript: false
 tags:
@@ -20,7 +21,9 @@ youtube_id: jiZwzsmd9Go
 
 <iframe width="100%" height="500" src="https://www.youtube.com/embed/jiZwzsmd9Go?si=GVZSa7F_EASMuRFZ" title="Podcast - Sessão de Hopium Ep. 20" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-Episódio longo do `Sessão de Hopium` com `Breno Brito`, `Koda` e `Lawrence` para discutir a passagem de profissionais de outras áreas para o ecossistema Bitcoin, a fragilidade do sistema financeiro legado e o que há de mais interessante na camada técnica e filosófica do protocolo.
+Neste episódio do `Sessão de Hopium`, converso com `Koda` e `Lawrence` sobre a passagem de profissionais de outras áreas para o ecossistema Bitcoin, a fragilidade do sistema financeiro legado e o que há de mais interessante na camada técnica e filosófica do protocolo.
+
+{% include generated/podcast-sessao-de-hopium-ep-20-chapters.html %}
 
 Ao longo da conversa, o debate mistura temas técnicos e políticos: `Taproot`, `Lightning`, custódia própria, vigilância financeira, `CBDCs`, cypherpunks e o papel do Bitcoin para quem vive em contextos de maior vulnerabilidade institucional.
 
@@ -32,10 +35,8 @@ Ao longo da conversa, o debate mistura temas técnicos e políticos: `Taproot`, 
 - a discussão também encosta na ética cypherpunk e na ideia de autonomia trazida pela custódia própria
 - um dos fios condutores do episódio é que Bitcoin resolve problemas mais urgentes para quem está mais exposto a inflação, arbitrariedade estatal e exclusão financeira
 
-{% include generated/podcast-sessao-de-hopium-ep-20-chapters.html %}
-
 ### Links citados
 
 - [Refúgio Bitcoin](https://www.refugiobitcoin.com.br/)
-- [Artigos de Breno Brito no Portal do Bitcoin](https://portaldobitcoin.uol.com.br/author/breno/)
+- [Meus artigos no Portal do Bitcoin](https://portaldobitcoin.uol.com.br/author/breno/)
 - [Breaking Bitcoin no Twitter](https://twitter.com/breakingbitcoin)
