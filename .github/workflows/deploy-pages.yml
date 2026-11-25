@@ -45,6 +45,11 @@ jobs:
           node scripts/check_media_sources.js
           node scripts/verify_media_transcripts.js
 
+      - name: Verify semantic related pages
+        run: |
+          node --test scripts/build_related_posts.test.mjs
+          node scripts/build_related_posts.mjs --check
+
       - name: Build site
         env:
           JEKYLL_ENV: production

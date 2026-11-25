@@ -63,6 +63,29 @@ Audit post metadata coverage:
 ruby scripts/audit_post_metadata.rb
 ```
 
+## Semantic related pages
+
+Related pages use [Multilingual E5 Small](https://huggingface.co/intfloat/multilingual-e5-small), with [quantized ONNX weights](https://huggingface.co/Xenova/multilingual-e5-small) and Transformers.js. The model revision and runtime version are pinned in `scripts/build_related_posts.mjs` and `package-lock.json`.
+
+The generator indexes public posts across articles, media and projects. It embeds the title and summary separately from the body and curated chapter titles, giving the summary and body equal weight. Long text is covered by overlapping windows of 384 tokens with 48 tokens of overlap. E5's `query: ` prefix is used for this symmetric similarity task. Each page gets the three other pages with the smallest cosine distance, `1 - cosine_similarity`; dates and tag overlap do not affect the ranking. Equal distances are ordered by canonical URL.
+
+Install the generation dependency and rebuild recommendations:
+
+```bash
+npm ci
+npm run build:related
+```
+
+The first regeneration downloads the quantized model into the ignored `.cache/related-posts/` directory. Later runs reuse the committed vectors in `scripts/data/related_embeddings.json` and only embed pages whose title, summary, body or chapter text changed. Recommendations and distances are stored in `_data/related_posts.json`. Visitors receive ordinary static links; the model runs locally during generation.
+
+Pre-commit regenerates the index and runs its regression tests. CI and deployment validate the source hashes, vectors and nearest-neighbor ranking without downloading or running the model. They reject stale recommendations before publication, and check the rendered links after Jekyll builds the site:
+
+```bash
+npm run check:related
+npm run test:related
+ruby scripts/check_related_posts.rb
+```
+
 ## Media transcript workflow
 
 Generate diarized raw transcripts one item at a time:

@@ -49,8 +49,16 @@ jobs:
       - name: Verify generated file is up to date
         run: git diff --exit-code -- llms-ctx-full.txt
 
+      - name: Verify semantic related pages
+        run: |
+          node --test scripts/build_related_posts.test.mjs
+          node scripts/build_related_posts.mjs --check
+
       - name: Build site
         run: bundle exec jekyll build
 
       - name: Verify Google indexing routes
         run: ruby scripts/check_indexing_routes.rb
+
+      - name: Verify rendered semantic links
+        run: ruby scripts/check_related_posts.rb

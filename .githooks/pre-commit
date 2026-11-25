@@ -24,6 +24,11 @@ if ! git diff --quiet -- _includes/generated; then
   echo "Updated and staged generated chapter includes"
 fi
 
+echo "Regenerating semantic related pages"
+node scripts/build_related_posts.mjs
+node --test scripts/build_related_posts.test.mjs
+git add _data/related_posts.json scripts/data/related_embeddings.json
+
 echo "Regenerating llms-ctx-full.txt"
 ruby scripts/build-llms-ctx-full.rb
 

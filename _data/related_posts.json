@@ -1,0 +1,1414 @@
+{
+  "metadata": {
+    "schema": 1,
+    "model": "Xenova/multilingual-e5-small",
+    "revision": "761b726dd34fb83930e26aab4e9ac3899aa1fa78",
+    "runtime": "@huggingface/transformers@3.8.1",
+    "dtype": "q8",
+    "dimensions": 384,
+    "prefix": "query: ",
+    "chunk_tokens": 384,
+    "overlap_tokens": 48,
+    "pooling": "mean",
+    "document_pooling": "equal-weight-summary-and-content",
+    "metric": "cosine-distance",
+    "limit": 3,
+    "corpus_hash": "2e2bb76c3874ee4642871b107db1646ef6cde383119f18f9581ebda1006005aa"
+  },
+  "pages": {
+    "/articles/10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas/": [
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.024205
+      },
+      {
+        "url": "/articles/elon-musk-errado/",
+        "title": "Elon Musk está errado e eu posso provar",
+        "distance": 0.041134
+      },
+      {
+        "url": "/articles/novas-tecnologias-bitcoin/",
+        "title": "Quais novas tecnologias devem surgir nos próximos anos no Bitcoin?",
+        "distance": 0.042322
+      }
+    ],
+    "/articles/17-fatos-todo-iniciante-precisa-aprender/": [
+      {
+        "url": "/articles/10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas/",
+        "title": "10 Coisas que Alguns ”Especialistas” e Jornalistas Erram sobre Bitcoin e Criptomoedas",
+        "distance": 0.024205
+      },
+      {
+        "url": "/articles/os-7-fundamentos-do-maximalismo-do-bitcoin/",
+        "title": "Os 7 fundamentos do maximalismo do bitcoin",
+        "distance": 0.03129
+      },
+      {
+        "url": "/articles/revolucao-taro/",
+        "title": "A Revolução Taro",
+        "distance": 0.036702
+      }
+    ],
+    "/articles/as-corretoras-brasileiras-de-criptomoedas-falsificam-volume-de-bitcoin/": [
+      {
+        "url": "/media/btc-em-queda-com-inflacao-e-geopolitica/",
+        "title": "Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica",
+        "distance": 0.046762
+      },
+      {
+        "url": "/articles/nao-existem-atalhos-para-uma-criptomoeda-de-preco-estavel/",
+        "title": "Não Existem Atalhos para uma Criptomoeda de Preço Estável",
+        "distance": 0.048886
+      },
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.049592
+      }
+    ],
+    "/articles/bolt-fun-story/": [
+      {
+        "url": "/projects/minimaxis/",
+        "title": "Minimaxis - Miniscript AI code assistant for Bitcoin smart contracts",
+        "distance": 0.054792
+      },
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.079643
+      },
+      {
+        "url": "/media/podcast-liquid-network-code-satoshi/",
+        "title": "Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of Satoshi",
+        "distance": 0.080341
+      }
+    ],
+    "/articles/elon-musk-errado/": [
+      {
+        "url": "/media/questoes-sociais-sao-desafio/",
+        "title": "Questões sociais são desafio para debate do Bitcoin, diz autor de livro da Editora Portal do Bitcoin",
+        "distance": 0.039215
+      },
+      {
+        "url": "/articles/10-coisas-que-alguns-especialistas-e-jornalistas-erram-sobre-bitcoin-e-criptomoedas/",
+        "title": "10 Coisas que Alguns ”Especialistas” e Jornalistas Erram sobre Bitcoin e Criptomoedas",
+        "distance": 0.041134
+      },
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.041315
+      }
+    ],
+    "/articles/ftx-guilt-fear/": [
+      {
+        "url": "/articles/os-7-fundamentos-do-maximalismo-do-bitcoin/",
+        "title": "Os 7 fundamentos do maximalismo do bitcoin",
+        "distance": 0.055369
+      },
+      {
+        "url": "/articles/revolucao-taro/",
+        "title": "A Revolução Taro",
+        "distance": 0.059581
+      },
+      {
+        "url": "/media/podcast-betterm-16-anos-estudando-ia/",
+        "title": "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando",
+        "distance": 0.062213
+      }
+    ],
+    "/articles/nao-existem-atalhos-para-uma-criptomoeda-de-preco-estavel/": [
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.042771
+      },
+      {
+        "url": "/media/btc-em-queda-com-inflacao-e-geopolitica/",
+        "title": "Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica",
+        "distance": 0.043149
+      },
+      {
+        "url": "/media/bitcoin-pode-cair-abaixo-de-19-mil/",
+        "title": "Bitcoin abaixo de US$ 19 mil? Por que seria um padrão de preço que nunca aconteceu antes",
+        "distance": 0.043502
+      }
+    ],
+    "/articles/novas-tecnologias-bitcoin/": [
+      {
+        "url": "/media/podcast-explica-bitcoin-futuro-da-rede/",
+        "title": "Podcast - O Futuro da Rede Bitcoin - Sessão Temática 40 - Explica Bitcoin",
+        "distance": 0.030864
+      },
+      {
+        "url": "/articles/revolucao-taro/",
+        "title": "A Revolução Taro",
+        "distance": 0.03403
+      },
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.038945
+      }
+    ],
+    "/articles/os-7-fundamentos-do-maximalismo-do-bitcoin/": [
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.03129
+      },
+      {
+        "url": "/articles/revolucao-taro/",
+        "title": "A Revolução Taro",
+        "distance": 0.035627
+      },
+      {
+        "url": "/articles/novas-tecnologias-bitcoin/",
+        "title": "Quais novas tecnologias devem surgir nos próximos anos no Bitcoin?",
+        "distance": 0.040751
+      }
+    ],
+    "/articles/revolucao-taro/": [
+      {
+        "url": "/articles/novas-tecnologias-bitcoin/",
+        "title": "Quais novas tecnologias devem surgir nos próximos anos no Bitcoin?",
+        "distance": 0.03403
+      },
+      {
+        "url": "/articles/os-7-fundamentos-do-maximalismo-do-bitcoin/",
+        "title": "Os 7 fundamentos do maximalismo do bitcoin",
+        "distance": 0.035627
+      },
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.036702
+      }
+    ],
+    "/articles/role-bitcoin-gen-ai/": [
+      {
+        "url": "/articles/bolt-fun-story/",
+        "title": "Bolt Fun Story: training an AI on Miniscript in a week",
+        "distance": 0.079643
+      },
+      {
+        "url": "/projects/fran/",
+        "title": "Fran / AI++ - Voice-first Bitcoin AI assistant",
+        "distance": 0.080693
+      },
+      {
+        "url": "/media/podcast-tapa-da-mao-invisivel-431/",
+        "title": "Podcast - Tapa da Mão Invisível #431 - IA, Bitcoin e o futuro do capitalismo",
+        "distance": 0.081996
+      }
+    ],
+    "/articles/warren-buffett-bitcoin/": [
+      {
+        "url": "/articles/elon-musk-errado/",
+        "title": "Elon Musk está errado e eu posso provar",
+        "distance": 0.042692
+      },
+      {
+        "url": "/media/questoes-sociais-sao-desafio/",
+        "title": "Questões sociais são desafio para debate do Bitcoin, diz autor de livro da Editora Portal do Bitcoin",
+        "distance": 0.043459
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.045266
+      }
+    ],
+    "/media/bifurcacao-dois-blocos-nao-e-comum/": [
+      {
+        "url": "/media/blocos-bitcoin-nao-param-aumentar/",
+        "title": "Os blocos de Bitcoin não param de aumentar; o que está acontecendo com a blockchain?",
+        "distance": 0.038915
+      },
+      {
+        "url": "/media/bitcoin-19-milhoes-minerados/",
+        "title": "Bitcoin atinge marco de 19 milhões de BTCs minerados; restam 2 milhões",
+        "distance": 0.042452
+      },
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.044466
+      }
+    ],
+    "/media/bitcoin-19-milhoes-minerados/": [
+      {
+        "url": "/media/futuro-bitcoin-halving/",
+        "title": "Como será o futuro do Bitcoin à medida que recompensas aos mineradores ficam cada vez menores?",
+        "distance": 0.040425
+      },
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.040654
+      },
+      {
+        "url": "/media/btc-em-queda-com-inflacao-e-geopolitica/",
+        "title": "Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica",
+        "distance": 0.040664
+      }
+    ],
+    "/media/bitcoin-pode-cair-abaixo-de-19-mil/": [
+      {
+        "url": "/media/btc-em-queda-com-inflacao-e-geopolitica/",
+        "title": "Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica",
+        "distance": 0.039041
+      },
+      {
+        "url": "/media/bitcoin-19-milhoes-minerados/",
+        "title": "Bitcoin atinge marco de 19 milhões de BTCs minerados; restam 2 milhões",
+        "distance": 0.041293
+      },
+      {
+        "url": "/articles/nao-existem-atalhos-para-uma-criptomoeda-de-preco-estavel/",
+        "title": "Não Existem Atalhos para uma Criptomoeda de Preço Estável",
+        "distance": 0.043502
+      }
+    ],
+    "/media/bitcoin-stamps-conheca-o-projeto/": [
+      {
+        "url": "/media/blocos-bitcoin-nao-param-aumentar/",
+        "title": "Os blocos de Bitcoin não param de aumentar; o que está acontecendo com a blockchain?",
+        "distance": 0.040215
+      },
+      {
+        "url": "/media/ordinals-devem-ser-banidos/",
+        "title": "Os ordinals devem ser banidos da blockchain do Bitcoin? O que dizem os especialistas",
+        "distance": 0.044047
+      },
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.045237
+      }
+    ],
+    "/media/blocos-bitcoin-nao-param-aumentar/": [
+      {
+        "url": "/media/bifurcacao-dois-blocos-nao-e-comum/",
+        "title": "Blockchain do Bitcoin sofre breve divisão e suspeita de gasto duplo; entenda",
+        "distance": 0.038915
+      },
+      {
+        "url": "/media/bitcoin-stamps-conheca-o-projeto/",
+        "title": "Bitcoin Stamps: Conheça o projeto que está invadindo a rede da maior criptomoeda do mundo",
+        "distance": 0.040215
+      },
+      {
+        "url": "/media/ordinals-devem-ser-banidos/",
+        "title": "Os ordinals devem ser banidos da blockchain do Bitcoin? O que dizem os especialistas",
+        "distance": 0.043808
+      }
+    ],
+    "/media/breno-brito-full-english/": [
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.050645
+      },
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.052294
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.054199
+      }
+    ],
+    "/media/btc-em-queda-com-inflacao-e-geopolitica/": [
+      {
+        "url": "/media/bitcoin-pode-cair-abaixo-de-19-mil/",
+        "title": "Bitcoin abaixo de US$ 19 mil? Por que seria um padrão de preço que nunca aconteceu antes",
+        "distance": 0.039041
+      },
+      {
+        "url": "/media/bitcoin-19-milhoes-minerados/",
+        "title": "Bitcoin atinge marco de 19 milhões de BTCs minerados; restam 2 milhões",
+        "distance": 0.040664
+      },
+      {
+        "url": "/articles/revolucao-taro/",
+        "title": "A Revolução Taro",
+        "distance": 0.042147
+      }
+    ],
+    "/media/chile-menor-inflacao-la-tercera/": [
+      {
+        "url": "/media/selic-minimo-historico-la-tercera/",
+        "title": "Central de Brasil recorta tasa Selic a 6,75% alcanzando mínimo histórico desde 1999",
+        "distance": 0.048214
+      },
+      {
+        "url": "/media/btc-em-queda-com-inflacao-e-geopolitica/",
+        "title": "Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica",
+        "distance": 0.076194
+      },
+      {
+        "url": "/media/podcast-21m-9-breno-brito/",
+        "title": "Podcast - 21 Milhões - #9 - Breno Brito",
+        "distance": 0.078948
+      }
+    ],
+    "/media/debate-discord-bitcoin-ethereum/": [
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.050057
+      },
+      {
+        "url": "/media/podcast-blocktrends-bitcoin-ia-mercados-eficientes/",
+        "title": "Podcast - BlockTrends - Bitcoin, Inteligência Artificial e Mercados Eficientes - com Breno Brito",
+        "distance": 0.051475
+      },
+      {
+        "url": "/media/podcast-lancei-essa-014-tudo-sobre-bitcoin/",
+        "title": "Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin",
+        "distance": 0.051606
+      }
+    ],
+    "/media/editora-portal-bitcoin-lanca-livro/": [
+      {
+        "url": "/projects/101-perguntas-bitcoin/",
+        "title": "101 Perguntas sobre Bitcoin",
+        "distance": 0.036841
+      },
+      {
+        "url": "/media/questoes-sociais-sao-desafio/",
+        "title": "Questões sociais são desafio para debate do Bitcoin, diz autor de livro da Editora Portal do Bitcoin",
+        "distance": 0.039692
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.044707
+      }
+    ],
+    "/media/futuro-bitcoin-halving/": [
+      {
+        "url": "/media/bitcoin-19-milhoes-minerados/",
+        "title": "Bitcoin atinge marco de 19 milhões de BTCs minerados; restam 2 milhões",
+        "distance": 0.040425
+      },
+      {
+        "url": "/media/blocos-bitcoin-nao-param-aumentar/",
+        "title": "Os blocos de Bitcoin não param de aumentar; o que está acontecendo com a blockchain?",
+        "distance": 0.045046
+      },
+      {
+        "url": "/media/btc-em-queda-com-inflacao-e-geopolitica/",
+        "title": "Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica",
+        "distance": 0.046902
+      }
+    ],
+    "/media/inteligencia-artificial-e-web3/": [
+      {
+        "url": "/media/podcast-explica-bitcoin-ia-fim-da-historia-humana/",
+        "title": "Podcast - Explica Bitcoin - IA: O Fim da História Humana ou um Novo Começo?",
+        "distance": 0.045178
+      },
+      {
+        "url": "/media/podcast-betterm-16-anos-estudando-ia/",
+        "title": "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando",
+        "distance": 0.046109
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.051686
+      }
+    ],
+    "/media/ordinals-devem-ser-banidos/": [
+      {
+        "url": "/media/blocos-bitcoin-nao-param-aumentar/",
+        "title": "Os blocos de Bitcoin não param de aumentar; o que está acontecendo com a blockchain?",
+        "distance": 0.043808
+      },
+      {
+        "url": "/media/bitcoin-stamps-conheca-o-projeto/",
+        "title": "Bitcoin Stamps: Conheça o projeto que está invadindo a rede da maior criptomoeda do mundo",
+        "distance": 0.044047
+      },
+      {
+        "url": "/articles/elon-musk-errado/",
+        "title": "Elon Musk está errado e eu posso provar",
+        "distance": 0.046798
+      }
+    ],
+    "/media/palestra-bitcoin-plus-plus-from-vibe-coding-to-agentic-engineering/": [
+      {
+        "url": "/media/podcast-betterm-16-anos-estudando-ia/",
+        "title": "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando",
+        "distance": 0.052875
+      },
+      {
+        "url": "/media/podcast-bipa-cast-38-satsconf/",
+        "title": "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf",
+        "distance": 0.056012
+      },
+      {
+        "url": "/media/podcast-explica-bitcoin-ia-fim-da-historia-humana/",
+        "title": "Podcast - Explica Bitcoin - IA: O Fim da História Humana ou um Novo Começo?",
+        "distance": 0.056125
+      }
+    ],
+    "/media/palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados/": [
+      {
+        "url": "/media/podcast-bipa-cast-38-satsconf/",
+        "title": "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf",
+        "distance": 0.045037
+      },
+      {
+        "url": "/media/palestra-plone-alinhamento-de-llms/",
+        "title": "Palestra - Plone - Alinhamento de LLMs: O Que É e Principais Técnicas",
+        "distance": 0.048338
+      },
+      {
+        "url": "/media/podcast-betterm-16-anos-estudando-ia/",
+        "title": "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando",
+        "distance": 0.052811
+      }
+    ],
+    "/media/palestra-introducao-a-opcoes/": [
+      {
+        "url": "/media/podcast-blocktrends-bitcoin-ia-mercados-eficientes/",
+        "title": "Podcast - BlockTrends - Bitcoin, Inteligência Artificial e Mercados Eficientes - com Breno Brito",
+        "distance": 0.069303
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.073866
+      },
+      {
+        "url": "/media/podcast-betterm-16-anos-estudando-ia/",
+        "title": "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando",
+        "distance": 0.074286
+      }
+    ],
+    "/media/palestra-plone-alinhamento-de-llms/": [
+      {
+        "url": "/media/palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados/",
+        "title": "Palestra - CEUB/GDG Brasília - Apresentações sobre Inteligência Artificial e Ciência de Dados",
+        "distance": 0.048338
+      },
+      {
+        "url": "/media/podcast-betterm-16-anos-estudando-ia/",
+        "title": "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando",
+        "distance": 0.06051
+      },
+      {
+        "url": "/media/palestra-pydata-future-proof-your-ai-product/",
+        "title": "Palestra - PyData - Future proof your AI product",
+        "distance": 0.062854
+      }
+    ],
+    "/media/palestra-pydata-future-proof-your-ai-product/": [
+      {
+        "url": "/media/podcast-betterm-16-anos-estudando-ia/",
+        "title": "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando",
+        "distance": 0.060083
+      },
+      {
+        "url": "/media/podcast-bipa-cast-38-satsconf/",
+        "title": "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf",
+        "distance": 0.061371
+      },
+      {
+        "url": "/media/palestra-plone-alinhamento-de-llms/",
+        "title": "Palestra - Plone - Alinhamento de LLMs: O Que É e Principais Técnicas",
+        "distance": 0.062854
+      }
+    ],
+    "/media/podcast-21m-9-breno-brito/": [
+      {
+        "url": "/media/podcast-lancei-essa-014-tudo-sobre-bitcoin/",
+        "title": "Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin",
+        "distance": 0.03345
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.033677
+      },
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.036851
+      }
+    ],
+    "/media/podcast-betterm-16-anos-estudando-ia/": [
+      {
+        "url": "/media/podcast-explica-bitcoin-ia-fim-da-historia-humana/",
+        "title": "Podcast - Explica Bitcoin - IA: O Fim da História Humana ou um Novo Começo?",
+        "distance": 0.025138
+      },
+      {
+        "url": "/media/podcast-tapa-da-mao-invisivel-431/",
+        "title": "Podcast - Tapa da Mão Invisível #431 - IA, Bitcoin e o futuro do capitalismo",
+        "distance": 0.04019
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.042376
+      }
+    ],
+    "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/": [
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.022904
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.027511
+      },
+      {
+        "url": "/media/podcast-21m-9-breno-brito/",
+        "title": "Podcast - 21 Milhões - #9 - Breno Brito",
+        "distance": 0.033677
+      }
+    ],
+    "/media/podcast-bipa-3-halving-esta-precificado/": [
+      {
+        "url": "/media/bitcoin-pode-cair-abaixo-de-19-mil/",
+        "title": "Bitcoin abaixo de US$ 19 mil? Por que seria um padrão de preço que nunca aconteceu antes",
+        "distance": 0.056261
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.057596
+      },
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.060401
+      }
+    ],
+    "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/": [
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.022904
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.02577
+      },
+      {
+        "url": "/media/podcast-lancei-essa-014-tudo-sobre-bitcoin/",
+        "title": "Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin",
+        "distance": 0.032713
+      }
+    ],
+    "/media/podcast-bipa-cast-38-satsconf/": [
+      {
+        "url": "/media/podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon/",
+        "title": "Podcast - O Espírito de Satoshi e Miniscripts no Hackathon da SatsConf c/ Breno Brito - Sessão Temática 38 - Explica Bitcoin | Podcast on Spotify",
+        "distance": 0.0399
+      },
+      {
+        "url": "/media/palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados/",
+        "title": "Palestra - CEUB/GDG Brasília - Apresentações sobre Inteligência Artificial e Ciência de Dados",
+        "distance": 0.045037
+      },
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.045218
+      }
+    ],
+    "/media/podcast-blocktrends-bitcoin-ia-mercados-eficientes/": [
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.038494
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.038709
+      },
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.040205
+      }
+    ],
+    "/media/podcast-criptoverso-54-breno-brito/": [
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.02577
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.027511
+      },
+      {
+        "url": "/media/podcast-lancei-essa-014-tudo-sobre-bitcoin/",
+        "title": "Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin",
+        "distance": 0.032555
+      }
+    ],
+    "/media/podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon/": [
+      {
+        "url": "/media/podcast-liquid-network-code-satoshi/",
+        "title": "Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of Satoshi",
+        "distance": 0.039355
+      },
+      {
+        "url": "/media/podcast-bipa-cast-38-satsconf/",
+        "title": "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf",
+        "distance": 0.0399
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.0424
+      }
+    ],
+    "/media/podcast-explica-bitcoin-futuro-da-rede/": [
+      {
+        "url": "/articles/novas-tecnologias-bitcoin/",
+        "title": "Quais novas tecnologias devem surgir nos próximos anos no Bitcoin?",
+        "distance": 0.030864
+      },
+      {
+        "url": "/media/podcast-lancei-essa-014-tudo-sobre-bitcoin/",
+        "title": "Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin",
+        "distance": 0.043128
+      },
+      {
+        "url": "/media/podcast-iflsp-33-minisserie-bitcoin/",
+        "title": "Podcast - #33 Minissérie Bitcoin - Episódio 2: Presente com Solange Gueiros e Breno Brito - Acendendo as Luzes (IFLCast) - Instituto de Formação de Líderes de São Paulo (IFLSP)",
+        "distance": 0.044459
+      }
+    ],
+    "/media/podcast-explica-bitcoin-ia-fim-da-historia-humana/": [
+      {
+        "url": "/media/podcast-betterm-16-anos-estudando-ia/",
+        "title": "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando",
+        "distance": 0.025138
+      },
+      {
+        "url": "/media/podcast-tapa-da-mao-invisivel-431/",
+        "title": "Podcast - Tapa da Mão Invisível #431 - IA, Bitcoin e o futuro do capitalismo",
+        "distance": 0.031826
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.03459
+      }
+    ],
+    "/media/podcast-fernando-caixeta-101-perguntas-sobre-bitcoin/": [
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.034919
+      },
+      {
+        "url": "/media/podcast-lancei-essa-014-tudo-sobre-bitcoin/",
+        "title": "Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin",
+        "distance": 0.037224
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.037953
+      }
+    ],
+    "/media/podcast-iflsp-33-minisserie-bitcoin/": [
+      {
+        "url": "/media/podcast-explica-bitcoin-futuro-da-rede/",
+        "title": "Podcast - O Futuro da Rede Bitcoin - Sessão Temática 40 - Explica Bitcoin",
+        "distance": 0.044459
+      },
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.046481
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.046951
+      }
+    ],
+    "/media/podcast-lancei-essa-014-tudo-sobre-bitcoin/": [
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.032555
+      },
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.032713
+      },
+      {
+        "url": "/media/podcast-21m-9-breno-brito/",
+        "title": "Podcast - 21 Milhões - #9 - Breno Brito",
+        "distance": 0.03345
+      }
+    ],
+    "/media/podcast-liquid-network-code-satoshi/": [
+      {
+        "url": "/media/podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon/",
+        "title": "Podcast - O Espírito de Satoshi e Miniscripts no Hackathon da SatsConf c/ Breno Brito - Sessão Temática 38 - Explica Bitcoin | Podcast on Spotify",
+        "distance": 0.039355
+      },
+      {
+        "url": "/media/podcast-bipa-cast-38-satsconf/",
+        "title": "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf",
+        "distance": 0.047733
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.048926
+      }
+    ],
+    "/media/podcast-sessao-de-hopium-ep-20/": [
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.036922
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.038726
+      },
+      {
+        "url": "/media/podcast-21m-9-breno-brito/",
+        "title": "Podcast - 21 Milhões - #9 - Breno Brito",
+        "distance": 0.041633
+      }
+    ],
+    "/media/podcast-stealth-fountain/": [
+      {
+        "url": "/media/podcast-explica-bitcoin-futuro-da-rede/",
+        "title": "Podcast - O Futuro da Rede Bitcoin - Sessão Temática 40 - Explica Bitcoin",
+        "distance": 0.056185
+      },
+      {
+        "url": "/media/podcast-bipa-cast-38-satsconf/",
+        "title": "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf",
+        "distance": 0.057099
+      },
+      {
+        "url": "/media/podcast-lancei-essa-014-tudo-sobre-bitcoin/",
+        "title": "Podcast - Lancei Essa ep. 014 - Tudo Sobre Bitcoin",
+        "distance": 0.060709
+      }
+    ],
+    "/media/podcast-tapa-da-mao-invisivel-431/": [
+      {
+        "url": "/media/podcast-explica-bitcoin-ia-fim-da-historia-humana/",
+        "title": "Podcast - Explica Bitcoin - IA: O Fim da História Humana ou um Novo Começo?",
+        "distance": 0.031826
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.03836
+      },
+      {
+        "url": "/media/podcast-betterm-16-anos-estudando-ia/",
+        "title": "Podcast - BetterM - 16 anos estudando IA: o que ninguém está te contando",
+        "distance": 0.04019
+      }
+    ],
+    "/media/quant-finance-investimento/": [
+      {
+        "url": "/media/podcast-blocktrends-bitcoin-ia-mercados-eficientes/",
+        "title": "Podcast - BlockTrends - Bitcoin, Inteligência Artificial e Mercados Eficientes - com Breno Brito",
+        "distance": 0.044803
+      },
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.051008
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.052034
+      }
+    ],
+    "/media/questoes-sociais-sao-desafio/": [
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.034117
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.03777
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.038658
+      }
+    ],
+    "/media/satsconf-700-entusiastas/": [
+      {
+        "url": "/media/podcast-bipa-cast-38-satsconf/",
+        "title": "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf",
+        "distance": 0.053024
+      },
+      {
+        "url": "/media/btc-em-queda-com-inflacao-e-geopolitica/",
+        "title": "Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica",
+        "distance": 0.059474
+      },
+      {
+        "url": "/media/debate-discord-bitcoin-ethereum/",
+        "title": "Evento no Discord vai debater qual é a melhor criptomoeda: Bitcoin ou Ethereum",
+        "distance": 0.05966
+      }
+    ],
+    "/media/selic-minimo-historico-la-tercera/": [
+      {
+        "url": "/media/chile-menor-inflacao-la-tercera/",
+        "title": "Chile cierra 2017 como el segundo país de la región con la menor inflación",
+        "distance": 0.048214
+      },
+      {
+        "url": "/media/podcast-21m-9-breno-brito/",
+        "title": "Podcast - 21 Milhões - #9 - Breno Brito",
+        "distance": 0.078764
+      },
+      {
+        "url": "/media/btc-em-queda-com-inflacao-e-geopolitica/",
+        "title": "Manhã cripto: Bitcoin (BTC) em queda com inflação acelerada e contínua tensão geopolítica",
+        "distance": 0.081179
+      }
+    ],
+    "/projects/101-perguntas-bitcoin/": [
+      {
+        "url": "/media/editora-portal-bitcoin-lanca-livro/",
+        "title": "‘101 Perguntas sobre Bitcoin’: Editora Portal do Bitcoin lança livro sobre a criptomoeda mais famosa do mundo",
+        "distance": 0.036841
+      },
+      {
+        "url": "/media/podcast-bipa-cast-22-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - Bipa Cast 22 - 101 Perguntas sobre o Bitcoin",
+        "distance": 0.03734
+      },
+      {
+        "url": "/media/podcast-bettermoney-101-perguntas-sobre-bitcoin/",
+        "title": "Podcast - BetterMoney - 101 Perguntas sobre Bitcoin",
+        "distance": 0.040729
+      }
+    ],
+    "/projects/austrian-mistranslations-br/": [
+      {
+        "url": "/projects/o-padrao-bitcoin/",
+        "title": "O Padrão Bitcoin",
+        "distance": 0.073113
+      },
+      {
+        "url": "/articles/ftx-guilt-fear/",
+        "title": "O Reflexo do Mundo Tomado pela Dor, pelo Medo e pela Culpa",
+        "distance": 0.076119
+      },
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.076171
+      }
+    ],
+    "/projects/bip39-portuguese-wordlist/": [
+      {
+        "url": "/projects/o-pequeno-livro-do-bitcoin/",
+        "title": "O Pequeno Livro do Bitcoin",
+        "distance": 0.097471
+      },
+      {
+        "url": "/articles/17-fatos-todo-iniciante-precisa-aprender/",
+        "title": "17 fatos que todo iniciante no Bitcoin precisa aprender",
+        "distance": 0.098061
+      },
+      {
+        "url": "/projects/granola/",
+        "title": "Granola - Cashu-based exchange",
+        "distance": 0.102549
+      }
+    ],
+    "/projects/bitchat-cli/": [
+      {
+        "url": "/projects/granola/",
+        "title": "Granola - Cashu-based exchange",
+        "distance": 0.097551
+      },
+      {
+        "url": "/projects/fran/",
+        "title": "Fran / AI++ - Voice-first Bitcoin AI assistant",
+        "distance": 0.098712
+      },
+      {
+        "url": "/projects/nowhere-cli/",
+        "title": "nowhere-cli",
+        "distance": 0.101284
+      }
+    ],
+    "/projects/bitdevs-brasilia/": [
+      {
+        "url": "/projects/bitchat-cli/",
+        "title": "bitchat-cli",
+        "distance": 0.10264
+      },
+      {
+        "url": "/projects/btc-graph/",
+        "title": "btc-graph - Interactive Bitcoin learning graph",
+        "distance": 0.102805
+      },
+      {
+        "url": "/projects/granola/",
+        "title": "Granola - Cashu-based exchange",
+        "distance": 0.103052
+      }
+    ],
+    "/projects/btc-graph/": [
+      {
+        "url": "/projects/btc-implicit-distribution/",
+        "title": "btc-implicit-distribution - Bitcoin implied price distribution explorer",
+        "distance": 0.08499
+      },
+      {
+        "url": "/projects/stealth/",
+        "title": "Stealth - Bitcoin wallet privacy auditing tool",
+        "distance": 0.093121
+      },
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.093253
+      }
+    ],
+    "/projects/btc-implicit-distribution/": [
+      {
+        "url": "/projects/btc-graph/",
+        "title": "btc-graph - Interactive Bitcoin learning graph",
+        "distance": 0.08499
+      },
+      {
+        "url": "/projects/stealth/",
+        "title": "Stealth - Bitcoin wallet privacy auditing tool",
+        "distance": 0.101854
+      },
+      {
+        "url": "/projects/fran/",
+        "title": "Fran / AI++ - Voice-first Bitcoin AI assistant",
+        "distance": 0.105014
+      }
+    ],
+    "/projects/building-llm-applications-with-dspy/": [
+      {
+        "url": "/articles/bolt-fun-story/",
+        "title": "Bolt Fun Story: training an AI on Miniscript in a week",
+        "distance": 0.107172
+      },
+      {
+        "url": "/projects/portfolio-optimization-thesis/",
+        "title": "Portfolio optimization using variance-adjusted mean and predictive structures",
+        "distance": 0.110589
+      },
+      {
+        "url": "/projects/reinforcement-learning-financial-markets-thesis/",
+        "title": "Reinforcement learning applied to financial markets",
+        "distance": 0.115048
+      }
+    ],
+    "/projects/docs2epub/": [
+      {
+        "url": "/projects/nowhere-cli/",
+        "title": "nowhere-cli",
+        "distance": 0.104773
+      },
+      {
+        "url": "/projects/lkdn/",
+        "title": "lkdn",
+        "distance": 0.106177
+      },
+      {
+        "url": "/projects/filepizza-cli/",
+        "title": "filepizza-cli",
+        "distance": 0.108684
+      }
+    ],
+    "/projects/envelope/": [
+      {
+        "url": "/projects/nowhere-cli/",
+        "title": "nowhere-cli",
+        "distance": 0.107691
+      },
+      {
+        "url": "/projects/docs2epub/",
+        "title": "docs2epub",
+        "distance": 0.111035
+      },
+      {
+        "url": "/projects/lkdn/",
+        "title": "lkdn",
+        "distance": 0.113403
+      }
+    ],
+    "/projects/fast-transcript/": [
+      {
+        "url": "/articles/bolt-fun-story/",
+        "title": "Bolt Fun Story: training an AI on Miniscript in a week",
+        "distance": 0.096091
+      },
+      {
+        "url": "/projects/filepizza-cli/",
+        "title": "filepizza-cli",
+        "distance": 0.102431
+      },
+      {
+        "url": "/projects/bitchat-cli/",
+        "title": "bitchat-cli",
+        "distance": 0.103533
+      }
+    ],
+    "/projects/filepizza-cli/": [
+      {
+        "url": "/projects/nowhere-cli/",
+        "title": "nowhere-cli",
+        "distance": 0.089844
+      },
+      {
+        "url": "/projects/lkdn/",
+        "title": "lkdn",
+        "distance": 0.091386
+      },
+      {
+        "url": "/projects/bitchat-cli/",
+        "title": "bitchat-cli",
+        "distance": 0.102098
+      }
+    ],
+    "/projects/fran/": [
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.080693
+      },
+      {
+        "url": "/projects/stealth/",
+        "title": "Stealth - Bitcoin wallet privacy auditing tool",
+        "distance": 0.086232
+      },
+      {
+        "url": "/projects/granola/",
+        "title": "Granola - Cashu-based exchange",
+        "distance": 0.088194
+      }
+    ],
+    "/projects/freedom-skills/": [
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.090611
+      },
+      {
+        "url": "/projects/fran/",
+        "title": "Fran / AI++ - Voice-first Bitcoin AI assistant",
+        "distance": 0.098946
+      },
+      {
+        "url": "/projects/stealth/",
+        "title": "Stealth - Bitcoin wallet privacy auditing tool",
+        "distance": 0.103163
+      }
+    ],
+    "/projects/granola/": [
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.085465
+      },
+      {
+        "url": "/projects/fran/",
+        "title": "Fran / AI++ - Voice-first Bitcoin AI assistant",
+        "distance": 0.088194
+      },
+      {
+        "url": "/projects/nut-fungible-tokens/",
+        "title": "Nut Fungible Tokens (NutFT)",
+        "distance": 0.091949
+      }
+    ],
+    "/projects/lkdn/": [
+      {
+        "url": "/projects/nowhere-cli/",
+        "title": "nowhere-cli",
+        "distance": 0.090748
+      },
+      {
+        "url": "/projects/filepizza-cli/",
+        "title": "filepizza-cli",
+        "distance": 0.091386
+      },
+      {
+        "url": "/articles/bolt-fun-story/",
+        "title": "Bolt Fun Story: training an AI on Miniscript in a week",
+        "distance": 0.095921
+      }
+    ],
+    "/projects/minimaxis/": [
+      {
+        "url": "/articles/bolt-fun-story/",
+        "title": "Bolt Fun Story: training an AI on Miniscript in a week",
+        "distance": 0.054792
+      },
+      {
+        "url": "/media/podcast-explica-bitcoin-espirito-satoshi-miniscript-hackathon/",
+        "title": "Podcast - O Espírito de Satoshi e Miniscripts no Hackathon da SatsConf c/ Breno Brito - Sessão Temática 38 - Explica Bitcoin | Podcast on Spotify",
+        "distance": 0.071206
+      },
+      {
+        "url": "/media/podcast-liquid-network-code-satoshi/",
+        "title": "Podcast - Liquid Network - LLMs for Bitcoin Development with Spirit of Satoshi",
+        "distance": 0.077373
+      }
+    ],
+    "/projects/nowhere-cli/": [
+      {
+        "url": "/projects/filepizza-cli/",
+        "title": "filepizza-cli",
+        "distance": 0.089844
+      },
+      {
+        "url": "/projects/lkdn/",
+        "title": "lkdn",
+        "distance": 0.090748
+      },
+      {
+        "url": "/projects/bitchat-cli/",
+        "title": "bitchat-cli",
+        "distance": 0.101284
+      }
+    ],
+    "/projects/nut-fungible-tokens/": [
+      {
+        "url": "/projects/granola/",
+        "title": "Granola - Cashu-based exchange",
+        "distance": 0.091949
+      },
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.110632
+      },
+      {
+        "url": "/articles/revolucao-taro/",
+        "title": "A Revolução Taro",
+        "distance": 0.113407
+      }
+    ],
+    "/projects/o-manifesto-descomunista/": [
+      {
+        "url": "/projects/o-padrao-fiduciario/",
+        "title": "O Padrão Fiduciário",
+        "distance": 0.066526
+      },
+      {
+        "url": "/projects/o-padrao-bitcoin/",
+        "title": "O Padrão Bitcoin",
+        "distance": 0.070114
+      },
+      {
+        "url": "/articles/ftx-guilt-fear/",
+        "title": "O Reflexo do Mundo Tomado pela Dor, pelo Medo e pela Culpa",
+        "distance": 0.071383
+      }
+    ],
+    "/projects/o-padrao-bitcoin/": [
+      {
+        "url": "/projects/o-padrao-fiduciario/",
+        "title": "O Padrão Fiduciário",
+        "distance": 0.031624
+      },
+      {
+        "url": "/articles/os-7-fundamentos-do-maximalismo-do-bitcoin/",
+        "title": "Os 7 fundamentos do maximalismo do bitcoin",
+        "distance": 0.055779
+      },
+      {
+        "url": "/articles/revolucao-taro/",
+        "title": "A Revolução Taro",
+        "distance": 0.056826
+      }
+    ],
+    "/projects/o-padrao-fiduciario/": [
+      {
+        "url": "/projects/o-padrao-bitcoin/",
+        "title": "O Padrão Bitcoin",
+        "distance": 0.031624
+      },
+      {
+        "url": "/articles/os-7-fundamentos-do-maximalismo-do-bitcoin/",
+        "title": "Os 7 fundamentos do maximalismo do bitcoin",
+        "distance": 0.066376
+      },
+      {
+        "url": "/projects/o-manifesto-descomunista/",
+        "title": "O Manifesto Descomunista",
+        "distance": 0.066526
+      }
+    ],
+    "/projects/o-pequeno-livro-do-bitcoin/": [
+      {
+        "url": "/media/podcast-criptoverso-54-breno-brito/",
+        "title": "Podcast - Criptoverso #054 - Breno Brito",
+        "distance": 0.058315
+      },
+      {
+        "url": "/projects/o-padrao-bitcoin/",
+        "title": "O Padrão Bitcoin",
+        "distance": 0.058687
+      },
+      {
+        "url": "/media/podcast-21m-9-breno-brito/",
+        "title": "Podcast - 21 Milhões - #9 - Breno Brito",
+        "distance": 0.060702
+      }
+    ],
+    "/projects/os-tres-porquinhos-na-vila-do-valor/": [
+      {
+        "url": "/articles/ftx-guilt-fear/",
+        "title": "O Reflexo do Mundo Tomado pela Dor, pelo Medo e pela Culpa",
+        "distance": 0.094481
+      },
+      {
+        "url": "/articles/os-7-fundamentos-do-maximalismo-do-bitcoin/",
+        "title": "Os 7 fundamentos do maximalismo do bitcoin",
+        "distance": 0.094659
+      },
+      {
+        "url": "/projects/o-padrao-fiduciario/",
+        "title": "O Padrão Fiduciário",
+        "distance": 0.098636
+      }
+    ],
+    "/projects/portfolio-optimization-thesis/": [
+      {
+        "url": "/projects/reinforcement-learning-financial-markets-thesis/",
+        "title": "Reinforcement learning applied to financial markets",
+        "distance": 0.062497
+      },
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.097778
+      },
+      {
+        "url": "/media/quant-finance-investimento/",
+        "title": "Podcast - Papo Aberto 10 - Análise de Dados pode facilitar seu investimento em Digital Assets? Quant Finance",
+        "distance": 0.106402
+      }
+    ],
+    "/projects/reinforcement-learning-financial-markets-thesis/": [
+      {
+        "url": "/projects/portfolio-optimization-thesis/",
+        "title": "Portfolio optimization using variance-adjusted mean and predictive structures",
+        "distance": 0.062497
+      },
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.100725
+      },
+      {
+        "url": "/articles/bolt-fun-story/",
+        "title": "Bolt Fun Story: training an AI on Miniscript in a week",
+        "distance": 0.108291
+      }
+    ],
+    "/projects/satoshi-7b/": [
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.092057
+      },
+      {
+        "url": "/articles/bolt-fun-story/",
+        "title": "Bolt Fun Story: training an AI on Miniscript in a week",
+        "distance": 0.094102
+      },
+      {
+        "url": "/projects/btc-graph/",
+        "title": "btc-graph - Interactive Bitcoin learning graph",
+        "distance": 0.094294
+      }
+    ],
+    "/projects/stealth/": [
+      {
+        "url": "/media/podcast-stealth-fountain/",
+        "title": "Podcast - Fountain - Stealth",
+        "distance": 0.077296
+      },
+      {
+        "url": "/projects/fran/",
+        "title": "Fran / AI++ - Voice-first Bitcoin AI assistant",
+        "distance": 0.086232
+      },
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.08897
+      }
+    ],
+    "/projects/stringer-safety/": [
+      {
+        "url": "/projects/fran/",
+        "title": "Fran / AI++ - Voice-first Bitcoin AI assistant",
+        "distance": 0.09461
+      },
+      {
+        "url": "/projects/stealth/",
+        "title": "Stealth - Bitcoin wallet privacy auditing tool",
+        "distance": 0.102172
+      },
+      {
+        "url": "/articles/role-bitcoin-gen-ai/",
+        "title": "The Role of Bitcoin in the Era of Generative AI",
+        "distance": 0.104891
+      }
+    ],
+    "/projects/tiny-broca/": [
+      {
+        "url": "/media/palestra-ceub-gdg-inteligencia-artificial-e-ciencia-de-dados/",
+        "title": "Palestra - CEUB/GDG Brasília - Apresentações sobre Inteligência Artificial e Ciência de Dados",
+        "distance": 0.070356
+      },
+      {
+        "url": "/media/podcast-bipa-cast-38-satsconf/",
+        "title": "Podcast - Bipa Cast 38 - A presença da Bipa na SatsConf",
+        "distance": 0.076989
+      },
+      {
+        "url": "/projects/austrian-mistranslations-br/",
+        "title": "Austrian Mistranslations BR",
+        "distance": 0.07766
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "brenorb-site-tools",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:related": "node scripts/build_related_posts.mjs",
+    "check:related": "node scripts/build_related_posts.mjs --check",
+    "test:related": "node --test scripts/build_related_posts.test.mjs"
+  },
+  "devDependencies": {
+    "@huggingface/transformers": "3.8.1"
+  }
+}

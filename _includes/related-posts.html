@@ -1,26 +1,11 @@
-{% assign related_tags = page.tags | default: page.tag %}
-{% unless related_tags.first %}{% assign related_tags = related_tags | split: ',' %}{% endunless %}
-{% assign related_count = 0 %}
-{% if related_tags and related_tags.size > 0 %}
-{% capture related_items %}
-    {% for candidate in site.posts %}
-        {% if candidate.url != page.url and candidate.tags %}
-            {% assign shares_tag = false %}
-            {% for candidate_tag in candidate.tags %}
-                {% if related_tags contains candidate_tag %}{% assign shares_tag = true %}{% break %}{% endif %}
-            {% endfor %}
-            {% if shares_tag and related_count < 3 %}
-            <li><a href="{{ candidate.url | relative_url }}">{{ candidate.title }}</a></li>
-                {% assign related_count = related_count | plus: 1 %}
-            {% endif %}
-        {% endif %}
-    {% endfor %}
-{% endcapture %}
-{% if related_count > 0 %}
+{% assign related_pages = site.data.related_posts.pages[page.url] %}
+{% if related_pages and related_pages.size > 0 %}
 <section class="related-posts" aria-labelledby="related-posts-title">
     <h2 id="related-posts-title">Related pages</h2>
-    <ul>{{ related_items }}
+    <ul>
+        {% for related in related_pages %}
+        <li><a href="{{ related.url | relative_url }}">{{ related.title | escape }}</a></li>
+        {% endfor %}
     </ul>
 </section>
-{% endif %}
 {% endif %}
