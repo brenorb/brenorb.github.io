@@ -45,7 +45,7 @@ function main() {
     .filter((file) => file.endsWith(".md"))
     .sort();
 
-  const embeddedPosts = [];
+  const sourcePosts = [];
   const missing = [];
   const missingChapterInclude = [];
   const missingChapterSpec = [];
@@ -58,12 +58,13 @@ function main() {
     const frontMatter = extractFrontMatter(contents);
     const body = bodyForPost(contents);
 
-    if (!postHasEmbeddedMedia(body)) {
+    const hasDeclaredMedia = postIsMedia(frontMatter) && /^(youtube_id|media_url):\s*\S+/m.test(frontMatter);
+    if (!postHasEmbeddedMedia(body) && !hasDeclaredMedia) {
       continue;
     }
 
     const slug = slugForPost(file, frontMatter);
-    embeddedPosts.push(slug);
+    sourcePosts.push(slug);
 
     if (!manifestSlugs.has(slug)) {
       missing.push(slug);
@@ -97,7 +98,7 @@ function main() {
   const problems = [];
 
   if (missing.length > 0) {
-    problems.push(`Missing embedded-media slugs in manifest: ${missing.join(", ")}`);
+    problems.push(`Missing media slugs in manifest: ${missing.join(", ")}`);
   }
   if (missingChapterInclude.length > 0) {
     problems.push(`Missing chapter include tag in media posts: ${missingChapterInclude.join(", ")}`);
@@ -119,8 +120,8 @@ function main() {
     process.exit(1);
   }
 
-  console.log(`Embedded post slugs covered: ${embeddedPosts.length}`);
-  for (const slug of embeddedPosts) {
+  console.log(`Post slugs covered by media manifest: ${sourcePosts.length}`);
+  for (const slug of sourcePosts) {
     console.log(slug);
   }
 }

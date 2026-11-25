@@ -49,7 +49,7 @@ The pre-commit hook and CI both enforce a size limit for local `feature:` images
 ruby scripts/check_feature_images.rb
 ```
 
-They also verify that embedded `media` posts are covered by the transcript manifest and wired to generated chapter includes:
+They also verify that `media` posts with embedded players or declared `youtube_id`/`media_url` sources are covered by the transcript manifest and wired to generated chapter includes:
 
 ```bash
 node scripts/check_media_sources.js
@@ -77,7 +77,7 @@ node scripts/build_media_appendices.js
 
 That appendix build keeps the raw transcript JSON untouched and only cleans obviously pathological repeated-word runs in the display layer, so lines like `we we we we` render as `we... we`.
 
-Verify that every post with an embedded player is covered by the transcript manifest:
+Verify that every post with an embedded player, and every `media` post with a declared source, is covered by the transcript manifest:
 
 ```bash
 node scripts/check_media_sources.js
@@ -101,7 +101,7 @@ node scripts/build_topic_chapters.js
 - `scripts/audit_post_metadata.rb` reports missing post metadata such as `description`, `excerpt`, `tags`, and `feature`.
 - `scripts/build-llms-ctx-full.rb` regenerates the expanded AI context file.
 - `scripts/media_sources.json` is the media manifest for transcript generation.
-- `scripts/check_media_sources.js` verifies that embedded `media` posts are present in the manifest and include generated chapter navigation.
+- `scripts/check_media_sources.js` verifies that `media` posts with embedded players or declared sources are present in the manifest and include generated chapter navigation.
 - `scripts/topic_chapters.json` is the curated chapter source of truth for `media` posts.
 - `scripts/build_topic_chapters.js` renders those curated chapters into `_includes/generated/`.
 - `scripts/verify_media_transcripts.js` verifies that each manifest item has raw transcripts, native script output, generated appendix data, and published diarization metadata.
