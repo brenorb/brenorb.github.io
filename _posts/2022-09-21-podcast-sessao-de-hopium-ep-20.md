@@ -10,7 +10,6 @@ excerpt: "Conversa no Sessão de Hopium Ep. 20 com Koda e Lawrence para discutir
 description: "Minha participação no Sessão de Hopium para discutir Bitcoin, transição para o ecossistema, Taproot, Lightning, vigilância financeira e a camada cypherpunk do protocolo."
 category: podcast
 content_type: media
-show_transcript: false
 tags:
 - bitcoin
 - podcast
